@@ -524,11 +524,55 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-04T22:37:15.991Z",
+      "change_number": 39483310,
+      "changes": [
+        {
+          "after": "25716724",
+          "before": "25710802",
+          "op": "replace",
+          "path": "/depots/branches/steam-ci/buildid"
+        },
+        {
+          "after": 1791153392,
+          "before": 1791124897,
+          "op": "replace",
+          "path": "/depots/branches/steam-ci/timebuildupdated"
+        },
+        {
+          "after": 1791153392,
+          "before": 1791124897,
+          "op": "replace",
+          "path": "/depots/branches/steam-ci/timeupdated"
+        },
+        {
+          "after": "8695672666936275568",
+          "before": "1774900329373987063",
+          "op": "replace",
+          "path": "/depots/depots/5233681/manifests/steam-ci"
+        },
+        {
+          "after": "7742385440936069265",
+          "before": "5593989044484151911",
+          "op": "replace",
+          "path": "/depots/depots/5233682/manifests/steam-ci"
+        },
+        {
+          "after": "1080123022021753992",
+          "before": "8268202105703129162",
+          "op": "replace",
+          "path": "/depots/depots/5233683/manifests/steam-ci"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39474554,
+      "change_number": 39483310,
       "data": {
         "appinfo": {
           "common": {
@@ -705,10 +749,10 @@
               "timeupdated": 1790951359
             },
             "steam-ci": {
-              "buildid": "25710802",
+              "buildid": "25716724",
               "description": "steam-ci",
-              "timebuildupdated": 1791124897,
-              "timeupdated": 1791124897
+              "timebuildupdated": 1791153392,
+              "timeupdated": 1791153392
             }
           },
           "depots": {
@@ -719,7 +763,7 @@
               },
               "manifests": {
                 "public": "8429856544049394056",
-                "steam-ci": "1774900329373987063"
+                "steam-ci": "8695672666936275568"
               }
             },
             "5233682": {
@@ -729,7 +773,7 @@
               },
               "manifests": {
                 "public": "8225254022038427154",
-                "steam-ci": "5593989044484151911"
+                "steam-ci": "7742385440936069265"
               }
             },
             "5233683": {
@@ -739,13 +783,13 @@
               },
               "manifests": {
                 "public": "535205867688082323",
-                "steam-ci": "8268202105703129162"
+                "steam-ci": "1080123022021753992"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-04T16:45:18.612Z",
+      "observed_at": "2026-10-04T22:37:15.991Z",
       "tracked": true
     },
     "steam_store": {
@@ -912,5 +956,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-04T17:22:14.768Z"
+  "updated_at": "2026-10-04T22:37:15.991Z"
 }
