@@ -1,4 +1,4 @@
-# SteamDB
+# Open-SteamDB
 
 **This is not the official SteamDB repository.**
 
