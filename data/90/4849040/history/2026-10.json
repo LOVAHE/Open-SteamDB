@@ -409,11 +409,62 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-05T15:52:17.966Z",
+      "change_number": 39505338,
+      "changes": [
+        {
+          "after": "25731113",
+          "before": "25730782",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791215380,
+          "before": 1791214417,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791215380,
+          "before": 1791214417,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/depots/depots/4849041/config/oslist"
+        },
+        {
+          "after": "8548088831792121231",
+          "before": "3299045841892068273",
+          "op": "replace",
+          "path": "/depots/depots/4849041/manifests/public"
+        },
+        {
+          "before": {
+            "config": {
+              "language": "english",
+              "oslist": "linux"
+            },
+            "manifests": {
+              "public": "7933744807799663587"
+            }
+          },
+          "op": "remove",
+          "path": "/depots/depots/4849042"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39504767,
+      "change_number": 39505338,
       "data": {
         "appinfo": {
           "common": {
@@ -535,33 +586,24 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25730782",
-              "timebuildupdated": 1791214417,
-              "timeupdated": 1791214417
+              "buildid": "25731113",
+              "timebuildupdated": 1791215380,
+              "timeupdated": 1791215380
             }
           },
           "depots": {
             "4849041": {
               "config": {
-                "oslist": "windows"
+                "oslist": "windows,linux"
               },
               "manifests": {
-                "public": "3299045841892068273"
-              }
-            },
-            "4849042": {
-              "config": {
-                "language": "english",
-                "oslist": "linux"
-              },
-              "manifests": {
-                "public": "7933744807799663587"
+                "public": "8548088831792121231"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-05T15:37:16.059Z",
+      "observed_at": "2026-10-05T15:52:17.966Z",
       "tracked": true
     },
     "steam_store": {
@@ -706,5 +748,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-05T15:37:16.059Z"
+  "updated_at": "2026-10-05T15:52:17.966Z"
 }
