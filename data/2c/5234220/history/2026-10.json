@@ -351,11 +351,43 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-05T20:44:39.996Z",
+      "change_number": 39512987,
+      "changes": [
+        {
+          "after": "25735996",
+          "before": "25716334",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791230712,
+          "before": 1791151443,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791230781,
+          "before": 1791151958,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4674455330302609419",
+          "before": "4885683187906044007",
+          "op": "replace",
+          "path": "/depots/depots/5234222/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39484883,
+      "change_number": 39512987,
       "data": {
         "appinfo": {
           "common": {
@@ -485,21 +517,21 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25716334",
-              "timebuildupdated": 1791151443,
-              "timeupdated": 1791151958
+              "buildid": "25735996",
+              "timebuildupdated": 1791230712,
+              "timeupdated": 1791230781
             }
           },
           "depots": {
             "5234222": {
               "manifests": {
-                "public": "4885683187906044007"
+                "public": "4674455330302609419"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-05T05:38:32.434Z",
+      "observed_at": "2026-10-05T20:44:39.996Z",
       "tracked": true
     },
     "steam_store": {
@@ -691,5 +723,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-05T07:37:17.326Z"
+  "updated_at": "2026-10-05T20:44:39.996Z"
 }
