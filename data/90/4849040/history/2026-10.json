@@ -534,11 +534,48 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-05T17:37:19.255Z",
+      "change_number": 39508401,
+      "changes": [
+        {
+          "after": "1790971528",
+          "before": "1793430000",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "25731844",
+          "before": "25710367",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791217680,
+          "before": 1791122292,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791221431,
+          "before": 1791216166,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5059695430386332960",
+          "op": "add",
+          "path": "/depots/depots/4849042/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39506402,
+      "change_number": 39508401,
       "data": {
         "appinfo": {
           "common": {
@@ -639,7 +676,7 @@
             "small_capsule": {
               "english": "6b2f79fadad77730673b55705097e5095300c97b/capsule_231x87.jpg"
             },
-            "steam_release_date": "1793430000",
+            "steam_release_date": "1790971528",
             "store_asset_mtime": "1790708635",
             "supported_languages": {
               "english": {
@@ -660,9 +697,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25710367",
-              "timebuildupdated": 1791122292,
-              "timeupdated": 1791216166
+              "buildid": "25731844",
+              "timebuildupdated": 1791217680,
+              "timeupdated": 1791221431
             }
           },
           "depots": {
@@ -675,7 +712,9 @@
               "config": {
                 "oslist": "linux"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "5059695430386332960"
+              }
             },
             "4849043": {
               "config": {
@@ -686,7 +725,7 @@
           }
         }
       },
-      "observed_at": "2026-10-05T16:37:18.722Z",
+      "observed_at": "2026-10-05T17:37:19.255Z",
       "tracked": true
     },
     "steam_store": {
@@ -831,5 +870,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-05T16:37:18.722Z"
+  "updated_at": "2026-10-05T17:37:19.255Z"
 }
