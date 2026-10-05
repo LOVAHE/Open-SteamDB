@@ -177,11 +177,50 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-05T22:22:21.618Z",
+      "change_number": 39516571,
+      "changes": [
+        {
+          "after": "23",
+          "before": "3",
+          "op": "replace",
+          "path": "/appinfo/common/genres/1"
+        },
+        {
+          "after": "3",
+          "before": "28",
+          "op": "replace",
+          "path": "/appinfo/common/genres/2"
+        },
+        {
+          "after": "28",
+          "op": "add",
+          "path": "/appinfo/common/genres/3"
+        },
+        {
+          "after": "3",
+          "before": "28",
+          "op": "replace",
+          "path": "/appinfo/common/primary_genre"
+        },
+        {
+          "before": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/tchinese"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39513875,
+      "change_number": 39516571,
       "data": {
         "appinfo": {
           "common": {
@@ -205,8 +244,9 @@
             "clienticon": "093a668f71c1255ef06a0cce4c157621079e52fb",
             "genres": {
               "0": "25",
-              "1": "3",
-              "2": "28"
+              "1": "23",
+              "2": "3",
+              "3": "28"
             },
             "header_image": {
               "english": "a3332872b6dc21be9bdd7d6d8d270503e0e30dbf/header.jpg"
@@ -273,7 +313,7 @@
             "osextended": "",
             "oslist": "windows",
             "parent": "4434480",
-            "primary_genre": "28",
+            "primary_genre": "3",
             "small_capsule": {
               "english": "d65164e8bfd913fe541d535ec8f64c56e713157e/capsule_231x87.jpg"
             },
@@ -311,10 +351,6 @@
               "spanish": {
                 "subtitles": "true",
                 "supported": "true"
-              },
-              "tchinese": {
-                "subtitles": "true",
-                "supported": "true"
               }
             },
             "type": "Demo"
@@ -345,11 +381,11 @@
           }
         }
       },
-      "observed_at": "2026-10-05T20:44:39.996Z",
+      "observed_at": "2026-10-05T22:22:21.618Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-05T20:44:39.996Z"
+  "updated_at": "2026-10-05T22:22:21.618Z"
 }
