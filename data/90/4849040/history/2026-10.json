@@ -168,11 +168,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-05T15:07:18.401Z",
+      "change_number": 39503748,
+      "changes": [
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "25729966",
+          "before": "25710367",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791212267,
+          "before": 1791122292,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791212267,
+          "before": 1791122329,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5079781877122573603",
+          "op": "add",
+          "path": "/depots/depots/4849042/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39503204,
+      "change_number": 39503748,
       "data": {
         "appinfo": {
           "common": {
@@ -267,7 +304,7 @@
             "name": "MNOZ - My Nuclear Octopus 2 DEMO",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,linux",
             "parent": "4712420",
             "primary_genre": "1",
             "small_capsule": {
@@ -294,9 +331,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25710367",
-              "timebuildupdated": 1791122292,
-              "timeupdated": 1791122329
+              "buildid": "25729966",
+              "timebuildupdated": 1791212267,
+              "timeupdated": 1791212267
             }
           },
           "depots": {
@@ -310,16 +347,18 @@
                 "language": "english",
                 "oslist": "linux"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "5079781877122573603"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-05T14:52:17.747Z",
+      "observed_at": "2026-10-05T15:07:18.401Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-05T14:52:17.747Z"
+  "updated_at": "2026-10-05T15:07:18.401Z"
 }
