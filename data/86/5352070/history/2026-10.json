@@ -160,11 +160,32 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-05T14:52:17.747Z",
+      "change_number": 39503308,
+      "changes": [
+        {
+          "after": "BOP&POP Demo",
+          "before": "BOP&amp;amp;POP Demo",
+          "op": "replace",
+          "path": "/appinfo/common/name"
+        },
+        {
+          "after": {
+            "schinese": "碰碰碰 试玩版"
+          },
+          "op": "add",
+          "path": "/appinfo/common/name_localized"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39476805,
+      "change_number": 39503308,
       "data": {
         "appinfo": {
           "common": {
@@ -260,7 +281,10 @@
                 }
               }
             },
-            "name": "BOP&amp;amp;POP Demo",
+            "name": "BOP&POP Demo",
+            "name_localized": {
+              "schinese": "碰碰碰 试玩版"
+            },
             "osarch": "",
             "osextended": "",
             "oslist": "windows",
@@ -311,11 +335,11 @@
           }
         }
       },
-      "observed_at": "2026-10-05T06:07:13.936Z",
+      "observed_at": "2026-10-05T14:52:17.747Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-05T06:07:13.936Z"
+  "updated_at": "2026-10-05T14:52:17.747Z"
 }
