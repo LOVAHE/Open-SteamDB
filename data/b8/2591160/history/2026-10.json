@@ -189,11 +189,80 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-06T16:22:23.059Z",
+      "change_number": 39543434,
+      "changes": [
+        {
+          "after": "25756608",
+          "before": "25740435",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791303132,
+          "before": 1791246495,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791303220,
+          "before": 1791246516,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "buildid": "25756608",
+            "description": "merge",
+            "timebuildupdated": 1791303132,
+            "timeupdated": 1791303132
+          },
+          "op": "add",
+          "path": "/depots/branches/v2.0.10"
+        },
+        {
+          "after": "7187947907060445544",
+          "before": "111980293022728221",
+          "op": "replace",
+          "path": "/depots/depots/2591161/manifests/public"
+        },
+        {
+          "after": "7187947907060445544",
+          "op": "add",
+          "path": "/depots/depots/2591161/manifests/v2.0.10"
+        },
+        {
+          "after": "4602028669731212130",
+          "before": "7452201093001905711",
+          "op": "replace",
+          "path": "/depots/depots/2591162/manifests/public"
+        },
+        {
+          "after": "4602028669731212130",
+          "op": "add",
+          "path": "/depots/depots/2591162/manifests/v2.0.10"
+        },
+        {
+          "after": "4703203035300442568",
+          "before": "2548836692116707745",
+          "op": "replace",
+          "path": "/depots/depots/2591163/manifests/public"
+        },
+        {
+          "after": "4703203035300442568",
+          "op": "add",
+          "path": "/depots/depots/2591163/manifests/v2.0.10"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39519389,
+      "change_number": 39543434,
       "data": {
         "appinfo": {
           "common": {
@@ -333,9 +402,15 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25740435",
-              "timebuildupdated": 1791246495,
-              "timeupdated": 1791246516
+              "buildid": "25756608",
+              "timebuildupdated": 1791303132,
+              "timeupdated": 1791303220
+            },
+            "v2.0.10": {
+              "buildid": "25756608",
+              "description": "merge",
+              "timebuildupdated": 1791303132,
+              "timeupdated": 1791303132
             }
           },
           "depots": {
@@ -345,7 +420,8 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "111980293022728221"
+                "public": "7187947907060445544",
+                "v2.0.10": "7187947907060445544"
               }
             },
             "2591162": {
@@ -354,7 +430,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "7452201093001905711"
+                "public": "4602028669731212130",
+                "v2.0.10": "4602028669731212130"
               }
             },
             "2591163": {
@@ -363,17 +440,18 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "2548836692116707745"
+                "public": "4703203035300442568",
+                "v2.0.10": "4703203035300442568"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-06T00:37:19.284Z",
+      "observed_at": "2026-10-06T16:22:23.059Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-06T00:37:19.284Z"
+  "updated_at": "2026-10-06T16:22:23.059Z"
 }
