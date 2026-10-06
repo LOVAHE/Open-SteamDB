@@ -214,11 +214,41 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-06T04:52:15.251Z",
+      "change_number": 39524044,
+      "changes": [
+        {
+          "after": "1791259671",
+          "before": "1798704000",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/tchinese"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39523435,
+      "change_number": 39524044,
       "data": {
         "appinfo": {
           "common": {
@@ -328,7 +358,7 @@
               "english": "4f4900a8f9db5d6fdc330c86a46b1a331c4074e5/capsule_231x87.jpg",
               "japanese": "bf45d1bdc9901355b423f42859a5cc04469551d4/capsule_231x87_japanese.jpg"
             },
-            "steam_release_date": "1798704000",
+            "steam_release_date": "1791259671",
             "store_asset_mtime": "1791246833",
             "supported_languages": {
               "english": {
@@ -336,6 +366,14 @@
                 "supported": "true"
               },
               "japanese": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "schinese": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "tchinese": {
                 "subtitles": "true",
                 "supported": "true"
               }
@@ -419,11 +457,11 @@
           }
         }
       },
-      "observed_at": "2026-10-06T04:37:15.212Z",
+      "observed_at": "2026-10-06T04:52:15.251Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-06T04:37:15.212Z"
+  "updated_at": "2026-10-06T04:52:15.251Z"
 }
