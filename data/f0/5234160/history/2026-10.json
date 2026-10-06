@@ -405,11 +405,61 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-06T20:07:22.534Z",
+      "change_number": 39550651,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "25755205",
+          "before": "25746803",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791299262,
+          "before": 1791274294,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791316770,
+          "before": 1791276691,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5376208186361885127",
+          "before": "3655098812499096870",
+          "op": "replace",
+          "path": "/depots/depots/5234161/manifests/public"
+        },
+        {
+          "after": "8752633582730185101",
+          "before": "6983543291505866490",
+          "op": "replace",
+          "path": "/depots/depots/5234162/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39541188,
+      "change_number": 39550651,
       "data": {
         "appinfo": {
           "common": {
@@ -503,8 +553,8 @@
             },
             "name": "SPLEEN",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "primary_genre": "1",
             "small_capsule": {
               "english": "4442830ba9a3cb64e383db3e8380146518904a50/capsule_231x87.jpg"
@@ -571,9 +621,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25746803",
-              "timebuildupdated": 1791274294,
-              "timeupdated": 1791276691
+              "buildid": "25755205",
+              "timebuildupdated": 1791299262,
+              "timeupdated": 1791316770
             }
           },
           "depots": {
@@ -582,7 +632,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "3655098812499096870"
+                "public": "5376208186361885127"
               }
             },
             "5234162": {
@@ -590,13 +640,13 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "6983543291505866490"
+                "public": "8752633582730185101"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-06T15:07:19.501Z",
+      "observed_at": "2026-10-06T20:07:22.534Z",
       "tracked": true
     },
     "steam_store": {
@@ -734,5 +784,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-06T15:07:19.501Z"
+  "updated_at": "2026-10-06T20:07:22.534Z"
 }
