@@ -273,11 +273,37 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-06T14:22:19.018Z",
+      "change_number": 39539271,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_64"
+        },
+        {
+          "after": "25",
+          "before": "4",
+          "op": "replace",
+          "path": "/appinfo/common/primary_genre"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/japanese"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39530264,
+      "change_number": 39539271,
       "data": {
         "appinfo": {
           "common": {
@@ -305,6 +331,7 @@
               "category_47": "1",
               "category_48": "1",
               "category_49": "1",
+              "category_64": "1",
               "category_68": "1",
               "category_69": "1",
               "category_70": "1",
@@ -389,7 +416,7 @@
             "osextended": "",
             "oslist": "windows,macos,linux",
             "parent": "4981810",
-            "primary_genre": "4",
+            "primary_genre": "25",
             "small_capsule": {
               "english": "038af52d5da5ef0bc871ad84f78b07c0358faebb/capsule_231x87.jpg",
               "japanese": "eb1532831719a0e8154d51dbf3c41f5c056d8978/capsule_231x87_japanese.jpg",
@@ -404,6 +431,9 @@
                 "supported": "true"
               },
               "german": {
+                "supported": "true"
+              },
+              "japanese": {
                 "supported": "true"
               },
               "koreana": {
@@ -465,11 +495,11 @@
           }
         }
       },
-      "observed_at": "2026-10-06T09:37:18.274Z",
+      "observed_at": "2026-10-06T14:22:19.018Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-06T09:37:18.274Z"
+  "updated_at": "2026-10-06T14:22:19.018Z"
 }
