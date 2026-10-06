@@ -483,11 +483,33 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-06T11:37:22.934Z",
+      "change_number": 39533968,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "path": "ForkBomb",
+              "pattern": "colony.json",
+              "platforms": {
+                "1": "Windows"
+              },
+              "root": "WinAppDataRoaming"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39506333,
+      "change_number": 39533968,
       "data": {
         "appinfo": {
           "common": {
@@ -629,7 +651,17 @@
           },
           "ufs": {
             "maxnumfiles": "100",
-            "quota": "10000000"
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "ForkBomb",
+                "pattern": "colony.json",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -652,7 +684,7 @@
           }
         }
       },
-      "observed_at": "2026-10-05T16:37:18.722Z",
+      "observed_at": "2026-10-06T11:37:22.934Z",
       "tracked": true
     },
     "steam_store": {
@@ -798,5 +830,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-05T16:37:18.722Z"
+  "updated_at": "2026-10-06T11:37:22.934Z"
 }
