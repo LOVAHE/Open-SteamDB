@@ -2,6 +2,8 @@
 
 **This is not the official SteamDB repository.**
 
+A public archive of Steam price history, player counts, review totals, and game updates.
+
 After SteamDB was [acquired by Nexus Mods’ parent company](https://steamdb.info/blog/steamdb-nexus-mods/), I started this project to recreate its tracking system.
 
 I want to keep these records public, so anyone can look them up for personal projects, research, or other non-commercial purposes.
@@ -14,7 +16,7 @@ This archive keeps records of:
 - **Player counts** — how many people are playing, along with recorded averages and peaks.
 - **Reviews** — positive and negative review totals and how they change over time.
 - **Prices** — regional prices, discounts, availability, and price history.
-- **Game updates** — changes to Steam’s game information, builds, and download packages.
+- **Game updates and Depots** — changes to Steam’s game information, builds, and download packages.
 
 The tracker follows Demo releases, Early Access launches, and full releases. Each Steam AppID keeps its own history, including changes in release status.
 
