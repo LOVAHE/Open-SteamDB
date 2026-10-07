@@ -174,11 +174,44 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-07T05:22:17.819Z",
+      "change_number": 39562780,
+      "changes": [
+        {
+          "after": {
+            "buildid": "25769700",
+            "description": "Validation of the demo update and platform-specific downloads",
+            "timebuildupdated": 1791349829,
+            "timeupdated": 1791349963
+          },
+          "op": "add",
+          "path": "/depots/branches/demo-update-qa"
+        },
+        {
+          "after": "8578192318451188291",
+          "op": "add",
+          "path": "/depots/depots/5348311/manifests/demo-update-qa"
+        },
+        {
+          "after": "8458693254475528986",
+          "op": "add",
+          "path": "/depots/depots/5348312/manifests/demo-update-qa"
+        },
+        {
+          "after": "424439765173574578",
+          "op": "add",
+          "path": "/depots/depots/5348313/manifests/demo-update-qa"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39562576,
+      "change_number": 39562780,
       "data": {
         "appinfo": {
           "common": {
@@ -296,6 +329,12 @@
         },
         "depots": {
           "branches": {
+            "demo-update-qa": {
+              "buildid": "25769700",
+              "description": "Validation of the demo update and platform-specific downloads",
+              "timebuildupdated": 1791349829,
+              "timeupdated": 1791349963
+            },
             "public": {
               "buildid": "25583903",
               "timebuildupdated": 1790616055,
@@ -305,6 +344,7 @@
           "depots": {
             "5348311": {
               "manifests": {
+                "demo-update-qa": "8578192318451188291",
                 "public": "3955277905144202933"
               }
             },
@@ -312,22 +352,26 @@
               "config": {
                 "oslist": "windows"
               },
-              "manifests": {}
+              "manifests": {
+                "demo-update-qa": "8458693254475528986"
+              }
             },
             "5348313": {
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "demo-update-qa": "424439765173574578"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-07T05:07:19.305Z",
+      "observed_at": "2026-10-07T05:22:17.819Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-07T05:07:19.305Z"
+  "updated_at": "2026-10-07T05:22:17.819Z"
 }
