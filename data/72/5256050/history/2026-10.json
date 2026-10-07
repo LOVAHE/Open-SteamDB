@@ -154,11 +154,55 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-07T18:22:19.579Z",
+      "change_number": 39586700,
+      "changes": [
+        {
+          "after": "25784843",
+          "before": "25696675",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791396798,
+          "before": 1791033972,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791396902,
+          "before": 1791034023,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "windows"
+            },
+            "depotfromapp": 228980,
+            "manifests": {},
+            "sharedinstall": true
+          },
+          "op": "add",
+          "path": "/depots/depots/228989"
+        },
+        {
+          "after": "3602880195171259957",
+          "before": "1148043074113948252",
+          "op": "replace",
+          "path": "/depots/depots/5256051/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39567852,
+      "change_number": 39586700,
       "data": {
         "appinfo": {
           "common": {
@@ -285,25 +329,33 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25696675",
-              "timebuildupdated": 1791033972,
-              "timeupdated": 1791034023
+              "buildid": "25784843",
+              "timebuildupdated": 1791396798,
+              "timeupdated": 1791396902
             }
           },
           "depots": {
+            "228989": {
+              "config": {
+                "oslist": "windows"
+              },
+              "depotfromapp": 228980,
+              "manifests": {},
+              "sharedinstall": true
+            },
             "5256051": {
               "manifests": {
-                "public": "1148043074113948252"
+                "public": "3602880195171259957"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-07T08:52:18.817Z",
+      "observed_at": "2026-10-07T18:22:19.579Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-07T08:52:18.817Z"
+  "updated_at": "2026-10-07T18:22:19.579Z"
 }
