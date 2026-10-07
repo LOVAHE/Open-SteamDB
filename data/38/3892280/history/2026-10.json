@@ -219,11 +219,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-07T22:52:22.553Z",
+      "change_number": 39594859,
+      "changes": [
+        {
+          "after": "windows,macos,linux",
+          "before": "windows,linux",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "25790211",
+          "before": "25743945",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791413254,
+          "before": 1791261867,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791413274,
+          "before": 1791262220,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1609710846601731412",
+          "before": "6482349909058693798",
+          "op": "replace",
+          "path": "/depots/depots/3892281/manifests/public"
+        },
+        {
+          "after": "5529535224860833858",
+          "before": "1153244364721253981",
+          "op": "replace",
+          "path": "/depots/depots/3892282/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39524124,
+      "change_number": 39594859,
       "data": {
         "appinfo": {
           "common": {
@@ -321,7 +365,7 @@
             "name": "Bloody Bunny 3D",
             "osarch": "",
             "osextended": "",
-            "oslist": "windows,linux",
+            "oslist": "windows,macos,linux",
             "primary_genre": "1",
             "small_capsule": {
               "english": "7c831a00593b7e46d4530d021c9c9d01a6a70dbd/capsule_231x87.jpg"
@@ -369,15 +413,15 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25743945",
-              "timebuildupdated": 1791261867,
-              "timeupdated": 1791262220
+              "buildid": "25790211",
+              "timebuildupdated": 1791413254,
+              "timeupdated": 1791413274
             }
           },
           "depots": {
             "3892281": {
               "manifests": {
-                "public": "6482349909058693798"
+                "public": "1609710846601731412"
               }
             },
             "3892282": {
@@ -385,17 +429,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "1153244364721253981"
+                "public": "5529535224860833858"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-06T04:52:15.251Z",
+      "observed_at": "2026-10-07T22:52:22.553Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-06T04:52:15.251Z"
+  "updated_at": "2026-10-07T22:52:22.553Z"
 }
