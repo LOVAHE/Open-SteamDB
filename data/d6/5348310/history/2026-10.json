@@ -325,11 +325,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-07T22:22:18.426Z",
+      "change_number": 39593941,
+      "changes": [
+        {
+          "after": "25789610",
+          "before": "25781770",
+          "op": "replace",
+          "path": "/depots/branches/demo-update-qa/buildid"
+        },
+        {
+          "after": 1791411186,
+          "before": 1791387798,
+          "op": "replace",
+          "path": "/depots/branches/demo-update-qa/timebuildupdated"
+        },
+        {
+          "after": 1791411186,
+          "before": 1791387798,
+          "op": "replace",
+          "path": "/depots/branches/demo-update-qa/timeupdated"
+        },
+        {
+          "after": "3451733752703750087",
+          "before": "7664259751243315257",
+          "op": "replace",
+          "path": "/depots/depots/5348312/manifests/demo-update-qa"
+        },
+        {
+          "after": "3933928268219242092",
+          "before": "6047194860649464384",
+          "op": "replace",
+          "path": "/depots/depots/5348313/manifests/demo-update-qa"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39591189,
+      "change_number": 39593941,
       "data": {
         "appinfo": {
           "common": {
@@ -448,10 +486,10 @@
         "depots": {
           "branches": {
             "demo-update-qa": {
-              "buildid": "25781770",
+              "buildid": "25789610",
               "description": "Validation of the demo update and platform-specific downloads",
-              "timebuildupdated": 1791387798,
-              "timeupdated": 1791387798
+              "timebuildupdated": 1791411186,
+              "timeupdated": 1791411186
             },
             "public": {
               "buildid": "25781770",
@@ -471,7 +509,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "demo-update-qa": "7664259751243315257",
+                "demo-update-qa": "3451733752703750087",
                 "public": "7664259751243315257"
               }
             },
@@ -480,18 +518,18 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "demo-update-qa": "6047194860649464384",
+                "demo-update-qa": "3933928268219242092",
                 "public": "6047194860649464384"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-07T20:37:19.682Z",
+      "observed_at": "2026-10-07T22:22:18.426Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-07T20:37:19.682Z"
+  "updated_at": "2026-10-07T22:22:18.426Z"
 }
