@@ -424,11 +424,51 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-07T10:18:33.688Z",
+      "change_number": 39570674,
+      "changes": [
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        },
+        {
+          "after": "25774229",
+          "before": "25675572",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791366534,
+          "before": 1790939866,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791367708,
+          "before": 1790943862,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3190615276281094465",
+          "before": "7102688171154998864",
+          "op": "replace",
+          "path": "/depots/depots/5268551/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39559794,
+      "change_number": 39570674,
       "data": {
         "appinfo": {
           "common": {
@@ -543,6 +583,10 @@
               "english": {
                 "subtitles": "true",
                 "supported": "true"
+              },
+              "schinese": {
+                "subtitles": "true",
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -558,21 +602,21 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25675572",
-              "timebuildupdated": 1790939866,
-              "timeupdated": 1790943862
+              "buildid": "25774229",
+              "timebuildupdated": 1791366534,
+              "timeupdated": 1791367708
             }
           },
           "depots": {
             "5268551": {
               "manifests": {
-                "public": "7102688171154998864"
+                "public": "3190615276281094465"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-07T02:37:18.823Z",
+      "observed_at": "2026-10-07T10:18:33.688Z",
       "tracked": true
     },
     "steam_store": {
@@ -700,5 +744,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-07T02:37:18.823Z"
+  "updated_at": "2026-10-07T10:18:33.688Z"
 }

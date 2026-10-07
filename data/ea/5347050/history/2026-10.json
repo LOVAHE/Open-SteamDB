@@ -239,11 +239,43 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-07T10:18:33.688Z",
+      "change_number": 39570556,
+      "changes": [
+        {
+          "after": "25774536",
+          "before": "25578529",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791367370,
+          "before": 1790600478,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791368012,
+          "before": 1790600684,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4513187326937320196",
+          "before": "243046370770772558",
+          "op": "replace",
+          "path": "/depots/depots/5347051/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39438800,
+      "change_number": 39570556,
       "data": {
         "appinfo": {
           "common": {
@@ -357,21 +389,21 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25578529",
-              "timebuildupdated": 1790600478,
-              "timeupdated": 1790600684
+              "buildid": "25774536",
+              "timebuildupdated": 1791367370,
+              "timeupdated": 1791368012
             }
           },
           "depots": {
             "5347051": {
               "manifests": {
-                "public": "243046370770772558"
+                "public": "4513187326937320196"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-05T06:37:14.435Z",
+      "observed_at": "2026-10-07T10:18:33.688Z",
       "tracked": true
     },
     "steam_store": {
@@ -467,5 +499,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-06T06:22:16.693Z"
+  "updated_at": "2026-10-07T10:18:33.688Z"
 }
