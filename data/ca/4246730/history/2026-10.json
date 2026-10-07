@@ -333,11 +333,43 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-07T02:52:17.971Z",
+      "change_number": 39559984,
+      "changes": [
+        {
+          "after": "25767662",
+          "before": "25719168",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791340482,
+          "before": 1791167463,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791341018,
+          "before": 1791167667,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8213871032705874153",
+          "before": "5052476911410344853",
+          "op": "replace",
+          "path": "/depots/depots/4246731/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39493553,
+      "change_number": 39559984,
       "data": {
         "appinfo": {
           "common": {
@@ -505,9 +537,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25719168",
-              "timebuildupdated": 1791167463,
-              "timeupdated": 1791167667
+              "buildid": "25767662",
+              "timebuildupdated": 1791340482,
+              "timeupdated": 1791341018
             },
             "steamdeck-review": {
               "buildid": "25636024",
@@ -519,14 +551,14 @@
           "depots": {
             "4246731": {
               "manifests": {
-                "public": "5052476911410344853",
+                "public": "8213871032705874153",
                 "steamdeck-review": "680814260642159145"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-05T09:22:16.923Z",
+      "observed_at": "2026-10-07T02:52:17.971Z",
       "tracked": true
     },
     "steam_store": {
@@ -655,5 +687,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-06T08:07:16.222Z"
+  "updated_at": "2026-10-07T02:52:17.971Z"
 }
