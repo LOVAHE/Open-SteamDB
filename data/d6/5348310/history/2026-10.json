@@ -207,11 +207,53 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-07T05:52:21.460Z",
+      "change_number": 39563316,
+      "changes": [
+        {
+          "after": "25769700",
+          "before": "25583903",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791349829,
+          "before": 1790616055,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791351735,
+          "before": 1790616057,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8578192318451188291",
+          "before": "3955277905144202933",
+          "op": "replace",
+          "path": "/depots/depots/5348311/manifests/public"
+        },
+        {
+          "after": "8458693254475528986",
+          "op": "add",
+          "path": "/depots/depots/5348312/manifests/public"
+        },
+        {
+          "after": "424439765173574578",
+          "op": "add",
+          "path": "/depots/depots/5348313/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39562780,
+      "change_number": 39563316,
       "data": {
         "appinfo": {
           "common": {
@@ -336,16 +378,16 @@
               "timeupdated": 1791349963
             },
             "public": {
-              "buildid": "25583903",
-              "timebuildupdated": 1790616055,
-              "timeupdated": 1790616057
+              "buildid": "25769700",
+              "timebuildupdated": 1791349829,
+              "timeupdated": 1791351735
             }
           },
           "depots": {
             "5348311": {
               "manifests": {
                 "demo-update-qa": "8578192318451188291",
-                "public": "3955277905144202933"
+                "public": "8578192318451188291"
               }
             },
             "5348312": {
@@ -353,7 +395,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "demo-update-qa": "8458693254475528986"
+                "demo-update-qa": "8458693254475528986",
+                "public": "8458693254475528986"
               }
             },
             "5348313": {
@@ -361,17 +404,18 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "demo-update-qa": "424439765173574578"
+                "demo-update-qa": "424439765173574578",
+                "public": "424439765173574578"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-07T05:22:17.819Z",
+      "observed_at": "2026-10-07T05:52:21.460Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-07T05:22:17.819Z"
+  "updated_at": "2026-10-07T05:52:21.460Z"
 }
