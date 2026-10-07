@@ -1482,11 +1482,49 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-07T22:07:26.353Z",
+      "change_number": 39593731,
+      "changes": [
+        {
+          "before": {
+            "buildid": "25661859",
+            "description": "Unstable build",
+            "timebuildupdated": 1790885617,
+            "timeupdated": 1790898279
+          },
+          "op": "remove",
+          "path": "/depots/branches/latest_experimental"
+        },
+        {
+          "before": "8628486239191323866",
+          "op": "remove",
+          "path": "/depots/depots/251571/manifests/latest_experimental"
+        },
+        {
+          "before": "1372257690212457713",
+          "op": "remove",
+          "path": "/depots/depots/251576/manifests/latest_experimental"
+        },
+        {
+          "before": "2166030706595536461",
+          "op": "remove",
+          "path": "/depots/depots/251577/manifests/latest_experimental"
+        },
+        {
+          "before": "8824853073799289907",
+          "op": "remove",
+          "path": "/depots/depots/251578/manifests/latest_experimental"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39592617,
+      "change_number": 39593731,
       "data": {
         "appinfo": {
           "common": {
@@ -1854,12 +1892,6 @@
               "description": "Alpha 9.3 Stable",
               "timebuildupdated": 1411107719
             },
-            "latest_experimental": {
-              "buildid": "25661859",
-              "description": "Unstable build",
-              "timebuildupdated": 1790885617,
-              "timeupdated": 1790898279
-            },
             "public": {
               "buildid": "25661859",
               "timebuildupdated": 1790885617,
@@ -1940,7 +1972,6 @@
                 "alpha20.7": "8628486239191323866",
                 "alpha21.2": "8628486239191323866",
                 "alpha8.8": "5316387393437744190",
-                "latest_experimental": "8628486239191323866",
                 "public": "8628486239191323866",
                 "v1.4": "8628486239191323866",
                 "v2.6": "8628486239191323866",
@@ -1969,7 +2000,6 @@
                 "alpha21.2": "2807835339043437499",
                 "alpha8.8": "2055364469586533071",
                 "alpha9.3": "2164521405273223044",
-                "latest_experimental": "1372257690212457713",
                 "public": "1372257690212457713",
                 "v1.4": "6659681639584219039",
                 "v2.6": "7009946112288959550",
@@ -1997,7 +2027,6 @@
                 "alpha21.2": "460608022932267178",
                 "alpha8.8": "9037689028862576995",
                 "alpha9.3": "2868930281091204310",
-                "latest_experimental": "2166030706595536461",
                 "public": "2166030706595536461",
                 "v1.4": "7902718015786407009",
                 "v2.6": "7217360109744845662",
@@ -2025,7 +2054,6 @@
                 "alpha21.2": "6750169086033110441",
                 "alpha8.8": "2791697350388990478",
                 "alpha9.3": "2581709566082809736",
-                "latest_experimental": "8824853073799289907",
                 "public": "8824853073799289907",
                 "v1.4": "226298050398258359",
                 "v2.6": "1566825260470914898",
@@ -2041,7 +2069,7 @@
           }
         }
       },
-      "observed_at": "2026-10-07T21:37:22.128Z",
+      "observed_at": "2026-10-07T22:07:26.353Z",
       "tracked": true
     },
     "steam_store": {
@@ -2272,5 +2300,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-07T21:37:22.128Z"
+  "updated_at": "2026-10-07T22:07:26.353Z"
 }

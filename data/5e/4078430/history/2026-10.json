@@ -821,11 +821,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-07T22:07:26.353Z",
+      "change_number": 39593530,
+      "changes": [
+        {
+          "after": "proton-hotfix",
+          "before": "proton-stable",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/configuration/recommended_runtime"
+        },
+        {
+          "after": "1791410234",
+          "before": "1791318011",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/test_timestamp"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39588766,
+      "change_number": 39593530,
       "data": {
         "appinfo": {
           "common": {
@@ -1011,7 +1031,7 @@
                 "hdr_support": "0",
                 "non_deck_display_glyphs": "0",
                 "primary_player_is_controller_slot_0": "1",
-                "recommended_runtime": "proton-stable",
+                "recommended_runtime": "proton-hotfix",
                 "requires_h264": "0",
                 "requires_internet_for_setup": "1",
                 "requires_internet_for_singleplayer": "0",
@@ -1056,7 +1076,7 @@
                   "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
                 }
               },
-              "test_timestamp": "1791318011",
+              "test_timestamp": "1791410234",
               "tested_build_id": "25723189",
               "tests": {
                 "0": {
@@ -1231,11 +1251,11 @@
           }
         }
       },
-      "observed_at": "2026-10-07T19:22:18.060Z",
+      "observed_at": "2026-10-07T22:07:26.353Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-07T19:22:18.060Z"
+  "updated_at": "2026-10-07T22:07:26.353Z"
 }
