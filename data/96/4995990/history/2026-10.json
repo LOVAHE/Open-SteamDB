@@ -344,21 +344,88 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-08T05:07:19.239Z",
+      "change_number": 39603182,
+      "changes": [
+        {
+          "after": "Sam Coughlin",
+          "before": "The Occult Arcade",
+          "op": "replace",
+          "path": "/appinfo/common/associations/0/name"
+        },
+        {
+          "after": "Self-Published",
+          "before": "The Occult Arcade",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/name"
+        },
+        {
+          "after": "b82b60e0ab6c62468b6454a2aad8871823770253/header.jpg",
+          "before": "be4c09c5be683199e26ffcd285da73a646c05b85/header.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/header_image/english"
+        },
+        {
+          "after": "1165a1a3d88c3c5b41777cb5bfc9159122a049a9/library_header.jpg",
+          "before": "be4c09c5be683199e26ffcd285da73a646c05b85/library_header.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets_full/library_header/image/english"
+        },
+        {
+          "after": "1165a1a3d88c3c5b41777cb5bfc9159122a049a9/library_header_2x.jpg",
+          "before": "be4c09c5be683199e26ffcd285da73a646c05b85/library_header_2x.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets_full/library_header/image2x/english"
+        },
+        {
+          "after": "03aeaf316a546d08b5bbc407fa8bb93ead788b82/capsule_231x87.jpg",
+          "before": "a0b41269026bcce9c9cbe75601e9e15273174786/capsule_231x87.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/small_capsule/english"
+        },
+        {
+          "after": "1790926213",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "1791435393",
+          "before": "1790711855",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "Sam Coughlin",
+          "before": "The Occult Arcade",
+          "op": "replace",
+          "path": "/appinfo/extended/developer"
+        },
+        {
+          "after": "Self-Published",
+          "before": "The Occult Arcade",
+          "op": "replace",
+          "path": "/appinfo/extended/publisher"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39519405,
+      "change_number": 39603182,
       "data": {
         "appinfo": {
           "common": {
             "associations": {
               "0": {
-                "name": "The Occult Arcade",
+                "name": "Sam Coughlin",
                 "type": "developer"
               },
               "1": {
-                "name": "The Occult Arcade",
+                "name": "Self-Published",
                 "type": "publisher"
               }
             },
@@ -373,7 +440,7 @@
               "1": "28"
             },
             "header_image": {
-              "english": "be4c09c5be683199e26ffcd285da73a646c05b85/header.jpg"
+              "english": "b82b60e0ab6c62468b6454a2aad8871823770253/header.jpg"
             },
             "icon": "71151aaa92e0d72476102edd9fb81d98342aa7f5",
             "library_assets": {
@@ -399,10 +466,10 @@
               },
               "library_header": {
                 "image": {
-                  "english": "be4c09c5be683199e26ffcd285da73a646c05b85/library_header.jpg"
+                  "english": "1165a1a3d88c3c5b41777cb5bfc9159122a049a9/library_header.jpg"
                 },
                 "image2x": {
-                  "english": "be4c09c5be683199e26ffcd285da73a646c05b85/library_header_2x.jpg"
+                  "english": "1165a1a3d88c3c5b41777cb5bfc9159122a049a9/library_header_2x.jpg"
                 }
               },
               "library_hero": {
@@ -439,9 +506,10 @@
             "parent": "4889800",
             "primary_genre": "23",
             "small_capsule": {
-              "english": "a0b41269026bcce9c9cbe75601e9e15273174786/capsule_231x87.jpg"
+              "english": "03aeaf316a546d08b5bbc407fa8bb93ead788b82/capsule_231x87.jpg"
             },
-            "store_asset_mtime": "1790711855",
+            "steam_release_date": "1790926213",
+            "store_asset_mtime": "1791435393",
             "supported_languages": {
               "english": {
                 "subtitles": "true",
@@ -470,9 +538,9 @@
             "installdir": "Void Inc Demo"
           },
           "extended": {
-            "developer": "The Occult Arcade",
+            "developer": "Sam Coughlin",
             "homepage": "https://voidinc.theoccultarcade.com/",
-            "publisher": "The Occult Arcade"
+            "publisher": "Self-Published"
           },
           "ufs": {
             "maxnumfiles": "50",
@@ -507,7 +575,7 @@
           }
         }
       },
-      "observed_at": "2026-10-06T00:37:19.284Z",
+      "observed_at": "2026-10-08T05:07:19.239Z",
       "tracked": true
     },
     "steam_store": {
@@ -639,5 +707,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-06T03:07:22.424Z"
+  "updated_at": "2026-10-08T05:07:19.239Z"
 }
