@@ -198,11 +198,55 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-08T11:22:19.954Z",
+      "change_number": 39613969,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "macos64,macosnotarized",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "25802047",
+          "before": "25777807",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791458037,
+          "before": 1791377191,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791458249,
+          "before": 1791377241,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3089380843774656053",
+          "before": "5234158643738862488",
+          "op": "replace",
+          "path": "/depots/depots/5348711/manifests/public"
+        },
+        {
+          "after": "6885409623766273242",
+          "before": "2112166194796853756",
+          "op": "replace",
+          "path": "/depots/depots/5348713/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39575343,
+      "change_number": 39613969,
       "data": {
         "appinfo": {
           "common": {
@@ -290,7 +334,7 @@
             },
             "name": "AscendiA Demo",
             "osarch": "64",
-            "osextended": "macos64,macosnotarized",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
             "oslist": "windows,macos",
             "parent": "5035410",
             "primary_genre": "1",
@@ -360,9 +404,9 @@
               "timeupdated": 1791374025
             },
             "public": {
-              "buildid": "25777807",
-              "timebuildupdated": 1791377191,
-              "timeupdated": 1791377241
+              "buildid": "25802047",
+              "timebuildupdated": 1791458037,
+              "timeupdated": 1791458249
             }
           },
           "depots": {
@@ -372,7 +416,7 @@
               },
               "manifests": {
                 "macbranch": "3018753490182386755",
-                "public": "5234158643738862488"
+                "public": "3089380843774656053"
               }
             },
             "5348713": {
@@ -381,17 +425,17 @@
               },
               "manifests": {
                 "macbranch": "5486274785328493184",
-                "public": "2112166194796853756"
+                "public": "6885409623766273242"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-07T13:07:23.008Z",
+      "observed_at": "2026-10-08T11:22:19.954Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-07T13:07:23.008Z"
+  "updated_at": "2026-10-08T11:22:19.954Z"
 }
