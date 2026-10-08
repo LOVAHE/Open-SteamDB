@@ -428,11 +428,34 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-08T02:07:20.530Z",
+      "change_number": 39599521,
+      "changes": [
+        {
+          "after": {
+            "buildid": "25793348",
+            "description": "drm 테스트 입니다",
+            "timebuildupdated": 1791425170,
+            "timeupdated": 1791425170
+          },
+          "op": "add",
+          "path": "/depots/branches/drm_test"
+        },
+        {
+          "after": "8008968903687602039",
+          "op": "add",
+          "path": "/depots/depots/5116741/manifests/drm_test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39466777,
+      "change_number": 39599521,
       "data": {
         "appinfo": {
           "common": {
@@ -579,6 +602,12 @@
         },
         "depots": {
           "branches": {
+            "drm_test": {
+              "buildid": "25793348",
+              "description": "drm 테스트 입니다",
+              "timebuildupdated": 1791425170,
+              "timeupdated": 1791425170
+            },
             "public": {
               "buildid": "25700668",
               "timebuildupdated": 1791056214,
@@ -588,13 +617,14 @@
           "depots": {
             "5116741": {
               "manifests": {
+                "drm_test": "8008968903687602039",
                 "public": "5251446468149152699"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-04T16:45:18.612Z",
+      "observed_at": "2026-10-08T02:07:20.530Z",
       "tracked": true
     },
     "steam_store": {
@@ -720,5 +750,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-04T21:38:14.057Z"
+  "updated_at": "2026-10-08T02:07:20.530Z"
 }
