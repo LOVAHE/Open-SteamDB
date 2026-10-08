@@ -239,11 +239,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-08T22:37:22.378Z",
+      "change_number": 39636217,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39635096,
+      "change_number": 39636217,
       "data": {
         "appinfo": {
           "common": {
@@ -342,8 +362,8 @@
             },
             "name": "Project: C.E.L.L. Demo",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos",
             "parent": "4662960",
             "primary_genre": "1",
             "small_capsule": {
@@ -434,11 +454,11 @@
           }
         }
       },
-      "observed_at": "2026-10-08T21:52:35.432Z",
+      "observed_at": "2026-10-08T22:37:22.378Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-08T21:52:35.432Z"
+  "updated_at": "2026-10-08T22:37:22.378Z"
 }
