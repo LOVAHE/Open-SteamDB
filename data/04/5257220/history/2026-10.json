@@ -163,11 +163,34 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-08T09:52:20.627Z",
+      "change_number": 39611115,
+      "changes": [
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/english/full_audio"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/schinese/full_audio"
+        },
+        {
+          "after": "true",
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/tchinese/subtitles"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39607815,
+      "change_number": 39611115,
       "data": {
         "appinfo": {
           "common": {
@@ -276,16 +299,15 @@
             "store_asset_mtime": "1791445980",
             "supported_languages": {
               "english": {
-                "full_audio": "true",
                 "subtitles": "true",
                 "supported": "true"
               },
               "schinese": {
-                "full_audio": "true",
                 "subtitles": "true",
                 "supported": "true"
               },
               "tchinese": {
+                "subtitles": "true",
                 "supported": "true"
               }
             },
@@ -317,11 +339,11 @@
           }
         }
       },
-      "observed_at": "2026-10-08T08:22:20.270Z",
+      "observed_at": "2026-10-08T09:52:20.627Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-08T08:22:20.270Z"
+  "updated_at": "2026-10-08T09:52:20.627Z"
 }
