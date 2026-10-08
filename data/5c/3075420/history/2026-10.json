@@ -281,11 +281,38 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-08T19:52:22.124Z",
+      "change_number": 39631609,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": {
+            "0": {
+              "path": "CursorGames/OrbitFix",
+              "pattern": "save_slot_*.json",
+              "platforms": {
+                "1": "Windows"
+              },
+              "root": "WinAppDataLocalLow"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39570976,
+      "change_number": 39631609,
       "data": {
         "appinfo": {
           "common": {
@@ -306,6 +333,7 @@
             "category": {
               "category_2": "1",
               "category_22": "1",
+              "category_23": "1",
               "category_62": "1",
               "category_68": "1",
               "category_69": "1",
@@ -529,7 +557,17 @@
           },
           "ufs": {
             "maxnumfiles": "3",
-            "quota": "5242880"
+            "quota": "5242880",
+            "savefiles": {
+              "0": {
+                "path": "CursorGames/OrbitFix",
+                "pattern": "save_slot_*.json",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -553,11 +591,11 @@
           }
         }
       },
-      "observed_at": "2026-10-07T10:37:17.354Z",
+      "observed_at": "2026-10-08T19:52:22.124Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-07T10:37:17.354Z"
+  "updated_at": "2026-10-08T19:52:22.124Z"
 }
