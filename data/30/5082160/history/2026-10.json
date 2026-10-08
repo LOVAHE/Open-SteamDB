@@ -149,11 +149,55 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-08T15:52:34.850Z",
+      "change_number": 39623311,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "path": "LTQG/Sisyphus Inc",
+              "pattern": "*",
+              "recursive": "1",
+              "root": "WinAppDataLocalLow"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles"
+        },
+        {
+          "after": "25808090",
+          "before": "25791447",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791474331,
+          "before": 1791418024,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791474406,
+          "before": 1791418099,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6783881301718652666",
+          "before": "6866026470505574833",
+          "op": "replace",
+          "path": "/depots/depots/5082161/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39608636,
+      "change_number": 39623311,
       "data": {
         "appinfo": {
           "common": {
@@ -269,31 +313,39 @@
           },
           "ufs": {
             "maxnumfiles": "50",
-            "quota": "5000000"
+            "quota": "5000000",
+            "savefiles": {
+              "0": {
+                "path": "LTQG/Sisyphus Inc",
+                "pattern": "*",
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25791447",
-              "timebuildupdated": 1791418024,
-              "timeupdated": 1791418099
+              "buildid": "25808090",
+              "timebuildupdated": 1791474331,
+              "timeupdated": 1791474406
             }
           },
           "depots": {
             "5082161": {
               "manifests": {
-                "public": "6866026470505574833"
+                "public": "6783881301718652666"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-08T08:52:21.607Z",
+      "observed_at": "2026-10-08T15:52:34.850Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-08T08:52:21.607Z"
+  "updated_at": "2026-10-08T15:52:34.850Z"
 }
