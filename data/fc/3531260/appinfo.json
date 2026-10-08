@@ -1,8 +1,8 @@
 {
   "appid": 3531260,
   "source": "steam_pics",
-  "updated_at": "2026-10-08T15:22:20.067Z",
-  "change_number": 39622271,
+  "updated_at": "2026-10-08T17:22:23.091Z",
+  "change_number": 39626894,
   "data": {
     "common": {
       "associations": {
@@ -129,10 +129,23 @@
           "requires_proton_soundfonts": "0",
           "requires_voice_files": "0",
           "small_text": "1",
-          "supported_input": "gamepad"
+          "supported_input": "other"
         },
-        "steam_machine_compatibility": "0",
-        "steam_machine_tests": {},
+        "steam_machine_compatibility": "3",
+        "steam_machine_tests": {
+          "0": {
+            "display": "4",
+            "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+          },
+          "1": {
+            "display": "4",
+            "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+          },
+          "2": {
+            "display": "4",
+            "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+          }
+        },
         "steamos_compatibility": "2",
         "steamos_tests": {
           "0": {
@@ -140,8 +153,8 @@
             "token": "#SteamOS_TestResult_GameStartupFunctional"
           }
         },
-        "test_timestamp": "1771372800",
-        "tested_build_id": "21965048",
+        "test_timestamp": "1790874085",
+        "tested_build_id": "22529721",
         "tests": {
           "0": {
             "display": "2",
