@@ -251,11 +251,61 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-08T16:22:22.208Z",
+      "change_number": 39624636,
+      "changes": [
+        {
+          "after": "windows,macos,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "25808867",
+          "before": "25807209",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791476441,
+          "before": 1791472110,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791476441,
+          "before": 1791472142,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1429481658323316879",
+          "before": "350994783655298010",
+          "op": "replace",
+          "path": "/depots/depots/5059761/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "4507131392868953701"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5059762"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39622044,
+      "change_number": 39624636,
       "data": {
         "appinfo": {
           "common": {
@@ -362,7 +412,7 @@
             "name": "Die Meeple Demo",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,macos,linux",
             "parent": "3530740",
             "primary_genre": "25",
             "small_capsule": {
@@ -401,25 +451,33 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25807209",
-              "timebuildupdated": 1791472110,
-              "timeupdated": 1791472142
+              "buildid": "25808867",
+              "timebuildupdated": 1791476441,
+              "timeupdated": 1791476441
             }
           },
           "depots": {
             "5059761": {
               "manifests": {
-                "public": "350994783655298010"
+                "public": "1429481658323316879"
+              }
+            },
+            "5059762": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "4507131392868953701"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-08T15:22:20.067Z",
+      "observed_at": "2026-10-08T16:22:22.208Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-08T15:22:20.067Z"
+  "updated_at": "2026-10-08T16:22:22.208Z"
 }
