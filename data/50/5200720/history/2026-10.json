@@ -169,11 +169,93 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-08T02:22:18.222Z",
+      "change_number": 39599849,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "100",
+            "quota": "104857600",
+            "savefiles": {
+              "0": {
+                "path": "Weira Games/Overwrite Conflict Demo/Saves",
+                "pattern": "chapter_progress.json*",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "Weira Games/Overwrite Conflict Demo/Saves",
+                "pattern": "player_progress.json*",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              },
+              "2": {
+                "path": "Weira Games/Overwrite Conflict Demo/Saves",
+                "pattern": "run_data.json*",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              },
+              "3": {
+                "path": "Weira Games/Overwrite Conflict Demo/Saves",
+                "pattern": "map.json*",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              },
+              "4": {
+                "path": "Weira Games/Overwrite Conflict Demo/Saves",
+                "pattern": "pending_battle_backdrop.png*",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "25793499",
+          "before": "25753131",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791425779,
+          "before": 1791293975,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791425991,
+          "before": 1791294259,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8651552855432719456",
+          "before": "6339162102162454809",
+          "op": "replace",
+          "path": "/depots/depots/5200721/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39584606,
+      "change_number": 39599849,
       "data": {
         "appinfo": {
           "common": {
@@ -310,30 +392,76 @@
           "extended": {
             "developer": "Weira Games",
             "publisher": "Kunpan Games"
+          },
+          "ufs": {
+            "maxnumfiles": "100",
+            "quota": "104857600",
+            "savefiles": {
+              "0": {
+                "path": "Weira Games/Overwrite Conflict Demo/Saves",
+                "pattern": "chapter_progress.json*",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "Weira Games/Overwrite Conflict Demo/Saves",
+                "pattern": "player_progress.json*",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              },
+              "2": {
+                "path": "Weira Games/Overwrite Conflict Demo/Saves",
+                "pattern": "run_data.json*",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              },
+              "3": {
+                "path": "Weira Games/Overwrite Conflict Demo/Saves",
+                "pattern": "map.json*",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              },
+              "4": {
+                "path": "Weira Games/Overwrite Conflict Demo/Saves",
+                "pattern": "pending_battle_backdrop.png*",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25753131",
-              "timebuildupdated": 1791293975,
-              "timeupdated": 1791294259
+              "buildid": "25793499",
+              "timebuildupdated": 1791425779,
+              "timeupdated": 1791425991
             }
           },
           "depots": {
             "5200721": {
               "manifests": {
-                "public": "6339162102162454809"
+                "public": "8651552855432719456"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-07T17:37:23.167Z",
+      "observed_at": "2026-10-08T02:22:18.222Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-07T17:37:23.167Z"
+  "updated_at": "2026-10-08T02:22:18.222Z"
 }
