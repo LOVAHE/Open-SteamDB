@@ -733,11 +733,46 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-09T12:07:24.369Z",
+      "change_number": 39656260,
+      "changes": [
+        {
+          "after": "2",
+          "before": "1",
+          "op": "replace",
+          "path": "/appinfo/common/genres/0"
+        },
+        {
+          "before": "25",
+          "op": "remove",
+          "path": "/appinfo/common/genres/1"
+        },
+        {
+          "before": "4",
+          "op": "remove",
+          "path": "/appinfo/common/genres/2"
+        },
+        {
+          "before": "2",
+          "op": "remove",
+          "path": "/appinfo/common/genres/3"
+        },
+        {
+          "after": "2",
+          "before": "1",
+          "op": "replace",
+          "path": "/appinfo/common/primary_genre"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39652016,
+      "change_number": 39656260,
       "data": {
         "appinfo": {
           "common": {
@@ -785,10 +820,7 @@
             "community_hub_visible": "1",
             "community_visible_stats": "1",
             "genres": {
-              "0": "1",
-              "1": "25",
-              "2": "4",
-              "3": "2"
+              "0": "2"
             },
             "header_image": {
               "english": "ab1f3ed3b1eb4fa0f4ea9d62958f197457984f09/header.jpg"
@@ -854,7 +886,7 @@
             "osarch": "64",
             "osextended": "",
             "oslist": "windows",
-            "primary_genre": "1",
+            "primary_genre": "2",
             "small_capsule": {
               "english": "db56ffa5c2e5edf123f7026ef0d9940e9ee9d64c/capsule_231x87.jpg"
             },
@@ -1004,7 +1036,7 @@
           }
         }
       },
-      "observed_at": "2026-10-09T09:52:23.806Z",
+      "observed_at": "2026-10-09T12:07:24.369Z",
       "tracked": true
     },
     "steam_store": {
@@ -1290,5 +1322,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-09T09:52:23.806Z"
+  "updated_at": "2026-10-09T12:07:24.369Z"
 }
