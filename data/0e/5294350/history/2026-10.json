@@ -152,11 +152,48 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-09T12:37:20.765Z",
+      "change_number": 39658214,
+      "changes": [
+        {
+          "after": "macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/5294351/config"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5294352"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39657049,
+      "change_number": 39658214,
       "data": {
         "appinfo": {
           "common": {
@@ -245,8 +282,8 @@
               "english": "Blackbox Creations Demo"
             },
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "parent": "4437020",
             "primary_genre": "1",
             "small_capsule": {
@@ -288,18 +325,27 @@
           },
           "depots": {
             "5294351": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
                 "public": "3179228280537981392"
               }
+            },
+            "5294352": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-10-09T12:22:20.806Z",
+      "observed_at": "2026-10-09T12:37:20.765Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-09T12:22:20.806Z"
+  "updated_at": "2026-10-09T12:37:20.765Z"
 }
