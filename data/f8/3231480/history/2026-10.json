@@ -708,11 +708,24 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-09T19:37:20.166Z",
+      "change_number": 39673070,
+      "changes": [
+        {
+          "after": "64",
+          "op": "add",
+          "path": "/depots/depots/3231482/config/osarch"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39644379,
+      "change_number": 39673070,
       "data": {
         "appinfo": {
           "common": {
@@ -924,6 +937,7 @@
             },
             "3231482": {
               "config": {
+                "osarch": "64",
                 "oslist": "linux"
               },
               "manifests": {
@@ -933,7 +947,7 @@
           }
         }
       },
-      "observed_at": "2026-10-09T05:07:22.065Z",
+      "observed_at": "2026-10-09T19:37:20.166Z",
       "tracked": true
     },
     "steam_store": {
@@ -1082,5 +1096,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-09T05:07:22.065Z"
+  "updated_at": "2026-10-09T19:37:20.166Z"
 }

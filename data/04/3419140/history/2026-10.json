@@ -616,11 +616,82 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-09T19:37:20.166Z",
+      "change_number": 39672962,
+      "changes": [
+        {
+          "after": {
+            "buildid": "25822506",
+            "description": "A version of the game before the default, in case something may break",
+            "timebuildupdated": 1791528320,
+            "timeupdated": 1791528396
+          },
+          "op": "add",
+          "path": "/depots/branches/backup"
+        },
+        {
+          "after": "25837603",
+          "before": "25835263",
+          "op": "replace",
+          "path": "/depots/branches/beta-testing/buildid"
+        },
+        {
+          "after": 1791574223,
+          "before": 1791566675,
+          "op": "replace",
+          "path": "/depots/branches/beta-testing/timebuildupdated"
+        },
+        {
+          "after": 1791574296,
+          "before": 1791566767,
+          "op": "replace",
+          "path": "/depots/branches/beta-testing/timeupdated"
+        },
+        {
+          "after": "25837603",
+          "before": "25822506",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791574223,
+          "before": 1791528320,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791574296,
+          "before": 1791528396,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2903108103823515771",
+          "op": "add",
+          "path": "/depots/depots/3419141/manifests/backup"
+        },
+        {
+          "after": "8059022307462898087",
+          "before": "2929351772401201778",
+          "op": "replace",
+          "path": "/depots/depots/3419141/manifests/beta-testing"
+        },
+        {
+          "after": "8059022307462898087",
+          "before": "2903108103823515771",
+          "op": "replace",
+          "path": "/depots/depots/3419141/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39670615,
+      "change_number": 39672962,
       "data": {
         "appinfo": {
           "common": {
@@ -810,33 +881,40 @@
         },
         "depots": {
           "branches": {
-            "beta-testing": {
-              "buildid": "25835263",
-              "description": "Unstable (might contain save-breaking issues) version of the game",
-              "timebuildupdated": 1791566675,
-              "timeupdated": 1791566767
-            },
-            "public": {
+            "backup": {
               "buildid": "25822506",
+              "description": "A version of the game before the default, in case something may break",
               "timebuildupdated": 1791528320,
               "timeupdated": 1791528396
+            },
+            "beta-testing": {
+              "buildid": "25837603",
+              "description": "Unstable (might contain save-breaking issues) version of the game",
+              "timebuildupdated": 1791574223,
+              "timeupdated": 1791574296
+            },
+            "public": {
+              "buildid": "25837603",
+              "timebuildupdated": 1791574223,
+              "timeupdated": 1791574296
             }
           },
           "depots": {
             "3419141": {
               "manifests": {
-                "beta-testing": "2929351772401201778",
-                "public": "2903108103823515771"
+                "backup": "2903108103823515771",
+                "beta-testing": "8059022307462898087",
+                "public": "8059022307462898087"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-09T18:22:22.448Z",
+      "observed_at": "2026-10-09T19:37:20.166Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-09T18:22:22.448Z"
+  "updated_at": "2026-10-09T19:37:20.166Z"
 }
