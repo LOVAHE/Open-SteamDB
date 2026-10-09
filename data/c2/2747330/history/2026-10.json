@@ -739,11 +739,82 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-09T12:52:26.702Z",
+      "change_number": null,
+      "changes": [
+        {
+          "after": [
+            3851240
+          ],
+          "op": "add",
+          "path": "/demo_appids"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_store"
+    },
+    {
+      "at": "2026-10-09T12:52:26.702Z",
+      "change_number": 39658581,
+      "changes": [
+        {
+          "after": "25365262",
+          "before": "25123997",
+          "op": "replace",
+          "path": "/depots/branches/previous-version/buildid"
+        },
+        {
+          "after": 1789637338,
+          "before": 1788525453,
+          "op": "replace",
+          "path": "/depots/branches/previous-version/timebuildupdated"
+        },
+        {
+          "after": 1789655028,
+          "before": 1788528315,
+          "op": "replace",
+          "path": "/depots/branches/previous-version/timeupdated"
+        },
+        {
+          "after": "25827374",
+          "before": "25365262",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791544742,
+          "before": 1789637338,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791549816,
+          "before": 1789655028,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2200019218177479806",
+          "before": "6145232986859361926",
+          "op": "replace",
+          "path": "/depots/depots/2747331/manifests/previous-version"
+        },
+        {
+          "after": "1667136542347291170",
+          "before": "2200019218177479806",
+          "op": "replace",
+          "path": "/depots/depots/2747331/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39657226,
+      "change_number": 39658581,
       "data": {
         "appinfo": {
           "common": {
@@ -969,15 +1040,15 @@
         "depots": {
           "branches": {
             "previous-version": {
-              "buildid": "25123997",
-              "description": "This branch points to the previously shipped version",
-              "timebuildupdated": 1788525453,
-              "timeupdated": 1788528315
-            },
-            "public": {
               "buildid": "25365262",
+              "description": "This branch points to the previously shipped version",
               "timebuildupdated": 1789637338,
               "timeupdated": 1789655028
+            },
+            "public": {
+              "buildid": "25827374",
+              "timebuildupdated": 1791544742,
+              "timeupdated": 1791549816
             }
           },
           "depots": {
@@ -999,8 +1070,8 @@
             },
             "2747331": {
               "manifests": {
-                "previous-version": "6145232986859361926",
-                "public": "2200019218177479806"
+                "previous-version": "2200019218177479806",
+                "public": "1667136542347291170"
               }
             },
             "4030871": {
@@ -1013,7 +1084,7 @@
           }
         }
       },
-      "observed_at": "2026-10-09T12:22:20.806Z",
+      "observed_at": "2026-10-09T12:52:26.702Z",
       "tracked": true
     },
     "steam_store": {
@@ -1161,6 +1232,9 @@
             "name_zh": "家庭共享"
           }
         ],
+        "demo_appids": [
+          3851240
+        ],
         "genres": [
           {
             "id": "1",
@@ -1212,11 +1286,11 @@
         "steam_stage": "ea",
         "steam_url": "https://store.steampowered.com/app/2747330/"
       },
-      "observed_at": "2026-10-04T19:22:15.322Z",
+      "observed_at": "2026-10-09T12:52:26.702Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-09T12:22:20.806Z"
+  "updated_at": "2026-10-09T12:52:26.702Z"
 }
