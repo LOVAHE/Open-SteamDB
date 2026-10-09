@@ -444,11 +444,43 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-09T11:52:23.668Z",
+      "change_number": 39655838,
+      "changes": [
+        {
+          "after": "25827831",
+          "before": "24438722",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791546049,
+          "before": 1785267641,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791546049,
+          "before": 1785267784,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1888615236124807735",
+          "before": "8154883240534288280",
+          "op": "replace",
+          "path": "/depots/depots/5003761/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39435370,
+      "change_number": 39655838,
       "data": {
         "appinfo": {
           "common": {
@@ -591,9 +623,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "24438722",
-              "timebuildupdated": 1785267641,
-              "timeupdated": 1785267784
+              "buildid": "25827831",
+              "timebuildupdated": 1791546049,
+              "timeupdated": 1791546049
             }
           },
           "depots": {
@@ -602,7 +634,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "8154883240534288280"
+                "public": "1888615236124807735"
               }
             },
             "5003762": {
@@ -617,7 +649,7 @@
           }
         }
       },
-      "observed_at": "2026-10-04T16:45:18.612Z",
+      "observed_at": "2026-10-09T11:52:23.668Z",
       "tracked": true
     },
     "steam_store": {
@@ -752,5 +784,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-04T20:22:15.095Z"
+  "updated_at": "2026-10-09T11:52:23.668Z"
 }
