@@ -317,11 +317,41 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-09T18:07:23.722Z",
+      "change_number": 39670173,
+      "changes": [
+        {
+          "after": "4",
+          "before": "23",
+          "op": "replace",
+          "path": "/appinfo/common/genres/0"
+        },
+        {
+          "after": "23",
+          "op": "add",
+          "path": "/appinfo/common/genres/1"
+        },
+        {
+          "after": "28",
+          "op": "add",
+          "path": "/appinfo/common/genres/2"
+        },
+        {
+          "after": "1791396746",
+          "before": "1793430000",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39586607,
+      "change_number": 39670173,
       "data": {
         "appinfo": {
           "common": {
@@ -366,7 +396,9 @@
             "community_visible_stats": "1",
             "controller_support": "full",
             "genres": {
-              "0": "23"
+              "0": "4",
+              "1": "23",
+              "2": "28"
             },
             "header_image": {
               "english": "420c81198cf0c344179e6239efc3ad356c9785c2/header.jpg"
@@ -464,7 +496,7 @@
             "small_capsule": {
               "english": "3cdbdb93864819c6ca71a8be2616ec4368ccc312/capsule_231x87.jpg"
             },
-            "steam_release_date": "1793430000",
+            "steam_release_date": "1791396746",
             "store_asset_mtime": "1790270941",
             "supported_languages": {
               "brazilian": {
@@ -625,11 +657,11 @@
           }
         }
       },
-      "observed_at": "2026-10-07T18:22:19.579Z",
+      "observed_at": "2026-10-09T18:07:23.722Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-07T18:22:19.579Z"
+  "updated_at": "2026-10-09T18:07:23.722Z"
 }
