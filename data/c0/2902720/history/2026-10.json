@@ -600,11 +600,47 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-10T16:37:26.330Z",
+      "change_number": 39696095,
+      "changes": [
+        {
+          "before": "1",
+          "op": "remove",
+          "path": "/appinfo/common/category/category_1"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_2"
+        },
+        {
+          "before": "1",
+          "op": "remove",
+          "path": "/appinfo/common/category/category_36"
+        },
+        {
+          "before": "1",
+          "op": "remove",
+          "path": "/appinfo/common/category/category_49"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/italian"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39690028,
+      "change_number": 39696095,
       "data": {
         "appinfo": {
           "common": {
@@ -619,11 +655,9 @@
               }
             },
             "category": {
-              "category_1": "1",
               "category_18": "1",
+              "category_2": "1",
               "category_35": "1",
-              "category_36": "1",
-              "category_49": "1",
               "category_62": "1"
             },
             "clienticon": "8a6c0d70c83f9e86d5f4d0cf198163caa245c7a1",
@@ -746,6 +780,10 @@
                 "subtitles": "true",
                 "supported": "true"
               },
+              "italian": {
+                "subtitles": "true",
+                "supported": "true"
+              },
               "latam": {
                 "subtitles": "true",
                 "supported": "true"
@@ -797,11 +835,11 @@
           }
         }
       },
-      "observed_at": "2026-10-10T11:22:22.601Z",
+      "observed_at": "2026-10-10T16:37:26.330Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-10T11:22:22.601Z"
+  "updated_at": "2026-10-10T16:37:26.330Z"
 }

@@ -206,11 +206,31 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-10T16:37:26.330Z",
+      "change_number": 39696181,
+      "changes": [
+        {
+          "after": "64",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osarch"
+        },
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "macos64,macosapplesilicon,macosnotarized",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39691268,
+      "change_number": 39696181,
       "data": {
         "appinfo": {
           "common": {
@@ -303,8 +323,8 @@
               }
             },
             "name": "Mar Demo",
-            "osarch": "",
-            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "osarch": "64",
+            "osextended": "macos64,macosapplesilicon",
             "oslist": "windows,macos,linux",
             "parent": "5167550",
             "primary_genre": "1",
@@ -403,11 +423,11 @@
           }
         }
       },
-      "observed_at": "2026-10-10T12:37:25.826Z",
+      "observed_at": "2026-10-10T16:37:26.330Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-10T12:37:25.826Z"
+  "updated_at": "2026-10-10T16:37:26.330Z"
 }
