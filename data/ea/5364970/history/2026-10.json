@@ -154,11 +154,51 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-10T20:22:22.096Z",
+      "change_number": 39700245,
+      "changes": [
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/czech"
+        },
+        {
+          "after": "25855052",
+          "before": "25782737",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791663102,
+          "before": 1791390556,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791663128,
+          "before": 1791390558,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2120347028298978895",
+          "before": "7306489409889467904",
+          "op": "replace",
+          "path": "/depots/depots/5364971/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39640813,
+      "change_number": 39700245,
       "data": {
         "appinfo": {
           "common": {
@@ -253,6 +293,10 @@
             "steam_release_date": "1791418579",
             "store_asset_mtime": "1790811222",
             "supported_languages": {
+              "czech": {
+                "subtitles": "true",
+                "supported": "true"
+              },
               "english": {
                 "subtitles": "true",
                 "supported": "true"
@@ -271,25 +315,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25782737",
-              "timebuildupdated": 1791390556,
-              "timeupdated": 1791390558
+              "buildid": "25855052",
+              "timebuildupdated": 1791663102,
+              "timeupdated": 1791663128
             }
           },
           "depots": {
             "5364971": {
               "manifests": {
-                "public": "7306489409889467904"
+                "public": "2120347028298978895"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-09T02:07:20.569Z",
+      "observed_at": "2026-10-10T20:22:22.096Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-09T02:07:20.569Z"
+  "updated_at": "2026-10-10T20:22:22.096Z"
 }
