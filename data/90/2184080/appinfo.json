@@ -1,8 +1,8 @@
 {
   "appid": 2184080,
   "source": "steam_pics",
-  "updated_at": "2026-10-10T18:07:22.589Z",
-  "change_number": 39698003,
+  "updated_at": "2026-10-10T18:22:25.472Z",
+  "change_number": 39698222,
   "data": {
     "common": {
       "associations": {
@@ -266,17 +266,15 @@
       "quota": "16777216",
       "rootoverrides": {
         "0": {
-          "addpath": "",
-          "os": "Windows",
-          "oscompare": "=",
-          "root": "WinAppDataLocalLow",
-          "useinstead": "WinAppDataLocalLow"
-        },
-        "1": {
-          "addpath": "",
           "os": "MacOS",
           "oscompare": "=",
-          "root": "MacAppSupport",
+          "pathtransforms": {
+            "0": {
+              "find": "Moonlight Kids/Echo Weaver",
+              "replace": "Moonlight Kids/Echo Weaver"
+            }
+          },
+          "root": "WinAppDataLocalLow",
           "useinstead": "MacAppSupport"
         }
       },
@@ -317,11 +315,6 @@
           "path": "Moonlight Kids/Echo Weaver",
           "pattern": "*.ankit",
           "root": "WinAppDataLocalLow"
-        },
-        "6": {
-          "path": "Moonlight Kids/Echo Weaver",
-          "pattern": "*.ankit",
-          "root": "MacAppSupport"
         }
       }
     }
