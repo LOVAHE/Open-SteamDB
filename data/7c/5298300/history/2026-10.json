@@ -227,11 +227,32 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-10T05:22:23.199Z",
+      "change_number": 39684391,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": {
+            "maxnumfiles": "1000",
+            "quota": "1000000000"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39684287,
+      "change_number": 39684391,
       "data": {
         "appinfo": {
           "common": {
@@ -364,7 +385,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "Football Ambition"
@@ -373,6 +395,10 @@
             "developer": "Mega Games",
             "homepage": "https://megaventuresgames.com",
             "publisher": "Mega Games"
+          },
+          "ufs": {
+            "maxnumfiles": "1000",
+            "quota": "1000000000"
           }
         },
         "depots": {
@@ -392,11 +418,11 @@
           }
         }
       },
-      "observed_at": "2026-10-10T05:07:20.457Z",
+      "observed_at": "2026-10-10T05:22:23.199Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-10T05:07:20.457Z"
+  "updated_at": "2026-10-10T05:22:23.199Z"
 }
