@@ -397,11 +397,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-10T01:07:24.321Z",
+      "change_number": 39680425,
+      "changes": [
+        {
+          "after": "25842478",
+          "before": "25808645",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791593123,
+          "before": 1791475896,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791594273,
+          "before": 1791476135,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": {
+            "buildid": "25636024",
+            "description": "Steam Deck compatibility review",
+            "timebuildupdated": 1790796061,
+            "timeupdated": 1790796202
+          },
+          "op": "remove",
+          "path": "/depots/branches/steamdeck-review"
+        },
+        {
+          "after": "1723522807402611983",
+          "before": "5211798393741014571",
+          "op": "replace",
+          "path": "/depots/depots/4246731/manifests/public"
+        },
+        {
+          "before": "680814260642159145",
+          "op": "remove",
+          "path": "/depots/depots/4246731/manifests/steamdeck-review"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39624437,
+      "change_number": 39680425,
       "data": {
         "appinfo": {
           "common": {
@@ -569,28 +616,21 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25808645",
-              "timebuildupdated": 1791475896,
-              "timeupdated": 1791476135
-            },
-            "steamdeck-review": {
-              "buildid": "25636024",
-              "description": "Steam Deck compatibility review",
-              "timebuildupdated": 1790796061,
-              "timeupdated": 1790796202
+              "buildid": "25842478",
+              "timebuildupdated": 1791593123,
+              "timeupdated": 1791594273
             }
           },
           "depots": {
             "4246731": {
               "manifests": {
-                "public": "5211798393741014571",
-                "steamdeck-review": "680814260642159145"
+                "public": "1723522807402611983"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-08T16:22:22.208Z",
+      "observed_at": "2026-10-10T01:07:24.321Z",
       "tracked": true
     },
     "steam_store": {
@@ -719,5 +759,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-08T16:22:22.208Z"
+  "updated_at": "2026-10-10T01:07:24.321Z"
 }
