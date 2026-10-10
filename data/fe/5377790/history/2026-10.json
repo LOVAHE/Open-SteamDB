@@ -244,21 +244,64 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-10T16:22:21.251Z",
+      "change_number": 39695775,
+      "changes": [
+        {
+          "after": "AA Games the dev",
+          "before": "AA Games",
+          "op": "replace",
+          "path": "/appinfo/common/associations/0/name"
+        },
+        {
+          "after": "AA Games the dev",
+          "before": "AA Games",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/name"
+        },
+        {
+          "after": "1791439565",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "1791648593",
+          "before": "1790992031",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "AA Games the dev",
+          "before": "AA Games",
+          "op": "replace",
+          "path": "/appinfo/extended/developer"
+        },
+        {
+          "after": "AA Games the dev",
+          "before": "AA Games",
+          "op": "replace",
+          "path": "/appinfo/extended/publisher"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39604447,
+      "change_number": 39695775,
       "data": {
         "appinfo": {
           "common": {
             "associations": {
               "0": {
-                "name": "AA Games",
+                "name": "AA Games the dev",
                 "type": "developer"
               },
               "1": {
-                "name": "AA Games",
+                "name": "AA Games the dev",
                 "type": "publisher"
               }
             },
@@ -369,7 +412,8 @@
             "small_capsule": {
               "english": "c711a646a1e3ba74954f567682f5ca0665be580c/capsule_231x87.jpg"
             },
-            "store_asset_mtime": "1790992031",
+            "steam_release_date": "1791439565",
+            "store_asset_mtime": "1791648593",
             "supported_languages": {
               "brazilian": {
                 "subtitles": "true",
@@ -458,8 +502,8 @@
             "installdir": "It’s Just 45 Seconds Demo"
           },
           "extended": {
-            "developer": "AA Games",
-            "publisher": "AA Games"
+            "developer": "AA Games the dev",
+            "publisher": "AA Games the dev"
           }
         },
         "depots": {
@@ -479,11 +523,11 @@
           }
         }
       },
-      "observed_at": "2026-10-08T06:07:25.456Z",
+      "observed_at": "2026-10-10T16:22:21.251Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-08T06:07:25.456Z"
+  "updated_at": "2026-10-10T16:22:21.251Z"
 }

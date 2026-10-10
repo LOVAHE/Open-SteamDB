@@ -454,11 +454,53 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-10T16:22:21.251Z",
+      "change_number": 39695785,
+      "changes": [
+        {
+          "after": "25852348",
+          "before": "25851398",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791648861,
+          "before": 1791644505,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791648903,
+          "before": 1791644542,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3542050461384979104",
+          "before": "3022053969021468900",
+          "op": "replace",
+          "path": "/depots/depots/5102981/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "linux"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5102982"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39694185,
+      "change_number": 39695785,
       "data": {
         "appinfo": {
           "common": {
@@ -739,25 +781,31 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25851398",
-              "timebuildupdated": 1791644505,
-              "timeupdated": 1791644542
+              "buildid": "25852348",
+              "timebuildupdated": 1791648861,
+              "timeupdated": 1791648903
             }
           },
           "depots": {
             "5102981": {
               "manifests": {
-                "public": "3022053969021468900"
+                "public": "3542050461384979104"
               }
+            },
+            "5102982": {
+              "config": {
+                "oslist": "linux"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-10-10T15:07:22.836Z",
+      "observed_at": "2026-10-10T16:22:21.251Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-10T15:07:22.836Z"
+  "updated_at": "2026-10-10T16:22:21.251Z"
 }
