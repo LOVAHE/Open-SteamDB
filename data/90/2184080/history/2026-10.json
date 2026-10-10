@@ -583,11 +583,53 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-10T18:07:22.589Z",
+      "change_number": 39698003,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "addpath": "",
+              "os": "Windows",
+              "oscompare": "=",
+              "root": "WinAppDataLocalLow",
+              "useinstead": "WinAppDataLocalLow"
+            },
+            "1": {
+              "addpath": "",
+              "os": "MacOS",
+              "oscompare": "=",
+              "root": "MacAppSupport",
+              "useinstead": "MacAppSupport"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "before": {
+            "1": "Windows"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/5/platforms"
+        },
+        {
+          "before": {
+            "1": "MacOS"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/6/platforms"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39697455,
+      "change_number": 39698003,
       "data": {
         "appinfo": {
           "common": {
@@ -850,6 +892,22 @@
           "ufs": {
             "maxnumfiles": "50",
             "quota": "16777216",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "Windows",
+                "oscompare": "=",
+                "root": "WinAppDataLocalLow",
+                "useinstead": "WinAppDataLocalLow"
+              },
+              "1": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "MacAppSupport",
+                "useinstead": "MacAppSupport"
+              }
+            },
             "savefiles": {
               "0": {
                 "path": "Moonlight Kids/Echo Weaver",
@@ -886,17 +944,11 @@
               "5": {
                 "path": "Moonlight Kids/Echo Weaver",
                 "pattern": "*.ankit",
-                "platforms": {
-                  "1": "Windows"
-                },
                 "root": "WinAppDataLocalLow"
               },
               "6": {
                 "path": "Moonlight Kids/Echo Weaver",
                 "pattern": "*.ankit",
-                "platforms": {
-                  "1": "MacOS"
-                },
                 "root": "MacAppSupport"
               }
             }
@@ -930,11 +982,11 @@
           }
         }
       },
-      "observed_at": "2026-10-10T17:52:24.479Z",
+      "observed_at": "2026-10-10T18:07:22.589Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-10T17:52:24.479Z"
+  "updated_at": "2026-10-10T18:07:22.589Z"
 }
