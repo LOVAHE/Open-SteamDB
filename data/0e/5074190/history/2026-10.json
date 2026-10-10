@@ -544,11 +544,30 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-10T10:22:24.173Z",
+      "change_number": 39688910,
+      "changes": [
+        {
+          "after": "28",
+          "op": "add",
+          "path": "/appinfo/common/genres/2"
+        },
+        {
+          "after": "25",
+          "before": "23",
+          "op": "replace",
+          "path": "/appinfo/common/primary_genre"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39655441,
+      "change_number": 39688910,
       "data": {
         "appinfo": {
           "common": {
@@ -568,7 +587,8 @@
             "clienticon": "35b7bbf03e9a2c2f107f3f44919087574661cc6c",
             "genres": {
               "0": "25",
-              "1": "23"
+              "1": "23",
+              "2": "28"
             },
             "header_image": {
               "english": "747af19ce65abf5eab6f18ece1e87fa62874ab0b/header.jpg",
@@ -645,7 +665,7 @@
             "osextended": "",
             "oslist": "windows",
             "parent": "4924120",
-            "primary_genre": "23",
+            "primary_genre": "25",
             "small_capsule": {
               "english": "ec1f3309f6854b437c75ed46ef2762558bf00568/capsule_231x87.jpg",
               "schinese": "290cbca4beffbbb352de60f3e3ec59abc1602555/capsule_231x87_schinese.jpg"
@@ -710,7 +730,7 @@
           }
         }
       },
-      "observed_at": "2026-10-09T11:37:20.652Z",
+      "observed_at": "2026-10-10T10:22:24.173Z",
       "tracked": true
     },
     "steam_store": {
@@ -827,5 +847,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-09T11:37:20.652Z"
+  "updated_at": "2026-10-10T10:22:24.173Z"
 }
