@@ -655,11 +655,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-11T02:37:20.357Z",
+      "change_number": 39705707,
+      "changes": [
+        {
+          "after": "25858636",
+          "before": "25857638",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791684745,
+          "before": 1791678064,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791685530,
+          "before": 1791678688,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "buildid": "25857027",
+            "description": "If you would like to avoid any hot fixes being pushed",
+            "timebuildupdated": 1791673998,
+            "timeupdated": 1791685493
+          },
+          "op": "add",
+          "path": "/depots/branches/stable-slowerupdates"
+        },
+        {
+          "after": "7721550590502006146",
+          "before": "8182217172297045433",
+          "op": "replace",
+          "path": "/depots/depots/5169441/manifests/public"
+        },
+        {
+          "after": "5410250549321481649",
+          "op": "add",
+          "path": "/depots/depots/5169441/manifests/stable-slowerupdates"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39705562,
+      "change_number": 39705707,
       "data": {
         "appinfo": {
           "common": {
@@ -893,9 +940,15 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25857638",
-              "timebuildupdated": 1791678064,
-              "timeupdated": 1791678688
+              "buildid": "25858636",
+              "timebuildupdated": 1791684745,
+              "timeupdated": 1791685530
+            },
+            "stable-slowerupdates": {
+              "buildid": "25857027",
+              "description": "If you would like to avoid any hot fixes being pushed",
+              "timebuildupdated": 1791673998,
+              "timeupdated": 1791685493
             }
           },
           "depots": {
@@ -904,17 +957,18 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "8182217172297045433"
+                "public": "7721550590502006146",
+                "stable-slowerupdates": "5410250549321481649"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-11T02:22:21.895Z",
+      "observed_at": "2026-10-11T02:37:20.357Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-11T02:22:21.895Z"
+  "updated_at": "2026-10-11T02:37:20.357Z"
 }
