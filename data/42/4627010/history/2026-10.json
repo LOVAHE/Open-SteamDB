@@ -541,11 +541,79 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-11T08:22:27.501Z",
+      "change_number": 39709799,
+      "changes": [
+        {
+          "after": "73.02431736053573",
+          "before": "27.583587665797282",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets/logo_position/height_pct"
+        },
+        {
+          "after": "63.50114416475971",
+          "before": "48.62700228832952",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets/logo_position/width_pct"
+        },
+        {
+          "after": "ad6c4d6a62ab2522aaf8d55d17489db295b33217/logo.png",
+          "before": "74b0dd6347aef1aa997f879e92e6ac35b7b65bfa/logo.png",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets_full/library_logo/image/english"
+        },
+        {
+          "after": "ad6c4d6a62ab2522aaf8d55d17489db295b33217/logo_2x.png",
+          "before": "74b0dd6347aef1aa997f879e92e6ac35b7b65bfa/logo_2x.png",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets_full/library_logo/image2x/english"
+        },
+        {
+          "after": "73.02431736053573",
+          "before": "27.583587665797282",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets_full/library_logo/logo_position/height_pct"
+        },
+        {
+          "after": "63.50114416475971",
+          "before": "48.62700228832952",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets_full/library_logo/logo_position/width_pct"
+        },
+        {
+          "after": "1791477243",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "1791479042",
+          "before": "1791469866",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/koreana"
+        },
+        {
+          "after": "https://www.tallboysgames.com/",
+          "op": "add",
+          "path": "/appinfo/extended/homepage"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39700201,
+      "change_number": 39709799,
       "data": {
         "appinfo": {
           "common": {
@@ -599,9 +667,9 @@
               "library_hero_blur": "en",
               "library_logo": "en",
               "logo_position": {
-                "height_pct": "27.583587665797282",
+                "height_pct": "73.02431736053573",
                 "pinned_position": "BottomLeft",
-                "width_pct": "48.62700228832952"
+                "width_pct": "63.50114416475971"
               }
             },
             "library_assets_full": {
@@ -636,15 +704,15 @@
               },
               "library_logo": {
                 "image": {
-                  "english": "74b0dd6347aef1aa997f879e92e6ac35b7b65bfa/logo.png"
+                  "english": "ad6c4d6a62ab2522aaf8d55d17489db295b33217/logo.png"
                 },
                 "image2x": {
-                  "english": "74b0dd6347aef1aa997f879e92e6ac35b7b65bfa/logo_2x.png"
+                  "english": "ad6c4d6a62ab2522aaf8d55d17489db295b33217/logo_2x.png"
                 },
                 "logo_position": {
-                  "height_pct": "27.583587665797282",
+                  "height_pct": "73.02431736053573",
                   "pinned_position": "BottomLeft",
-                  "width_pct": "48.62700228832952"
+                  "width_pct": "63.50114416475971"
                 }
               }
             },
@@ -659,7 +727,8 @@
             "small_capsule": {
               "english": "170773c4cb1ef1c7b9afc74009be0b51ec822a13/capsule_231x87.jpg"
             },
-            "store_asset_mtime": "1791469866",
+            "steam_release_date": "1791477243",
+            "store_asset_mtime": "1791479042",
             "supported_languages": {
               "brazilian": {
                 "subtitles": "true",
@@ -682,6 +751,10 @@
                 "supported": "true"
               },
               "japanese": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "koreana": {
                 "subtitles": "true",
                 "supported": "true"
               },
@@ -729,6 +802,7 @@
           },
           "extended": {
             "developer": "tallboys",
+            "homepage": "https://www.tallboysgames.com/",
             "publisher": "CRITICAL REFLEX"
           },
           "ufs": {
@@ -786,11 +860,11 @@
           }
         }
       },
-      "observed_at": "2026-10-10T20:22:22.096Z",
+      "observed_at": "2026-10-11T08:22:27.501Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-10T20:22:22.096Z"
+  "updated_at": "2026-10-11T08:22:27.501Z"
 }
