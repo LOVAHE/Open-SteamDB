@@ -856,11 +856,49 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-11T22:22:25.694Z",
+      "change_number": 39724414,
+      "changes": [
+        {
+          "after": "25870817",
+          "before": "25867752",
+          "op": "replace",
+          "path": "/depots/branches/mac-test/buildid"
+        },
+        {
+          "after": 1791757023,
+          "before": 1791742936,
+          "op": "replace",
+          "path": "/depots/branches/mac-test/timebuildupdated"
+        },
+        {
+          "after": 1791757023,
+          "before": 1791742948,
+          "op": "replace",
+          "path": "/depots/branches/mac-test/timeupdated"
+        },
+        {
+          "after": "7653029845003049863",
+          "before": "7083350229819746822",
+          "op": "replace",
+          "path": "/depots/depots/4354121/manifests/mac-test"
+        },
+        {
+          "after": "2314975697480954396",
+          "before": "5053101212374193108",
+          "op": "replace",
+          "path": "/depots/depots/4354122/manifests/mac-test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39724168,
+      "change_number": 39724414,
       "data": {
         "appinfo": {
           "common": {
@@ -997,10 +1035,10 @@
         "depots": {
           "branches": {
             "mac-test": {
-              "buildid": "25867752",
+              "buildid": "25870817",
               "description": "Notarized macOS release candidate - Intel and Apple Silicon",
-              "timebuildupdated": 1791742936,
-              "timeupdated": 1791742948
+              "timebuildupdated": 1791757023,
+              "timeupdated": 1791757023
             },
             "public": {
               "buildid": "25867752",
@@ -1020,7 +1058,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "mac-test": "7083350229819746822",
+                "mac-test": "7653029845003049863",
                 "public": "7083350229819746822",
                 "release-test": "436560992630628965"
               }
@@ -1030,7 +1068,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "mac-test": "5053101212374193108",
+                "mac-test": "2314975697480954396",
                 "public": "5053101212374193108",
                 "release-test": "2495035855359891011"
               }
@@ -1046,11 +1084,11 @@
           }
         }
       },
-      "observed_at": "2026-10-11T22:07:27.159Z",
+      "observed_at": "2026-10-11T22:22:25.694Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-11T22:07:27.159Z"
+  "updated_at": "2026-10-11T22:22:25.694Z"
 }
