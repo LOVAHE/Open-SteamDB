@@ -552,11 +552,25 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-11T15:07:30.248Z",
+      "change_number": 39716028,
+      "changes": [
+        {
+          "after": "profile.json",
+          "before": "progress.json",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/pattern"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39682000,
+      "change_number": 39716028,
       "data": {
         "appinfo": {
           "common": {
@@ -698,7 +712,7 @@
             "savefiles": {
               "0": {
                 "path": "CatsAndHats/profiles/{64BitSteamID}",
-                "pattern": "progress.json",
+                "pattern": "profile.json",
                 "root": "WinAppDataRoaming"
               },
               "1": {
@@ -745,7 +759,7 @@
           }
         }
       },
-      "observed_at": "2026-10-10T02:37:25.005Z",
+      "observed_at": "2026-10-11T15:07:30.248Z",
       "tracked": true
     },
     "steam_store": {
@@ -886,5 +900,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-10T02:37:25.005Z"
+  "updated_at": "2026-10-11T15:07:30.248Z"
 }
