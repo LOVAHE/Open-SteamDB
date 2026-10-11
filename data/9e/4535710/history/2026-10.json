@@ -483,11 +483,54 @@
       ],
       "kind": "change",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-11T18:37:24.123Z",
+      "change_number": 39720238,
+      "changes": [
+        {
+          "after": "25867890",
+          "before": "25790350",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791743526,
+          "before": 1791413780,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791743620,
+          "before": 1791413987,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2398481691607707777",
+          "before": "2157568687767224019",
+          "op": "replace",
+          "path": "/depots/depots/4535711/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "language": "english",
+              "oslist": "macos"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/4535712"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39595129,
+      "change_number": 39720238,
       "data": {
         "appinfo": {
           "common": {
@@ -617,21 +660,28 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25790350",
-              "timebuildupdated": 1791413780,
-              "timeupdated": 1791413987
+              "buildid": "25867890",
+              "timebuildupdated": 1791743526,
+              "timeupdated": 1791743620
             }
           },
           "depots": {
             "4535711": {
               "manifests": {
-                "public": "2157568687767224019"
+                "public": "2398481691607707777"
               }
+            },
+            "4535712": {
+              "config": {
+                "language": "english",
+                "oslist": "macos"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-10-07T23:07:18.100Z",
+      "observed_at": "2026-10-11T18:37:24.123Z",
       "tracked": true
     },
     "steam_store": {
@@ -754,5 +804,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-11T11:07:24.154Z"
+  "updated_at": "2026-10-11T18:37:24.123Z"
 }
