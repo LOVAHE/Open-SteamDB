@@ -595,11 +595,58 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-11T06:52:21.718Z",
+      "change_number": 39708740,
+      "changes": [
+        {
+          "after": "25860800",
+          "before": "25751559",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791701089,
+          "before": 1791289120,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791701233,
+          "before": 1791289158,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "buildid": "25860800",
+            "description": "修成就",
+            "timebuildupdated": 1791701089,
+            "timeupdated": 1791701187
+          },
+          "op": "add",
+          "path": "/depots/branches/v2.5"
+        },
+        {
+          "after": "4893841210400913379",
+          "before": "8748290740243414115",
+          "op": "replace",
+          "path": "/depots/depots/5116961/manifests/public"
+        },
+        {
+          "after": "4893841210400913379",
+          "op": "add",
+          "path": "/depots/depots/5116961/manifests/v2.5"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39571833,
+      "change_number": 39708740,
       "data": {
         "appinfo": {
           "common": {
@@ -746,28 +793,35 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25751559",
-              "timebuildupdated": 1791289120,
-              "timeupdated": 1791289158
+              "buildid": "25860800",
+              "timebuildupdated": 1791701089,
+              "timeupdated": 1791701233
             },
             "v2.4": {
               "buildid": "25731023",
               "description": "加剧情",
               "timebuildupdated": 1791215110,
               "timeupdated": 1791215185
+            },
+            "v2.5": {
+              "buildid": "25860800",
+              "description": "修成就",
+              "timebuildupdated": 1791701089,
+              "timeupdated": 1791701187
             }
           },
           "depots": {
             "5116961": {
               "manifests": {
-                "public": "8748290740243414115",
-                "v2.4": "2028942726686783866"
+                "public": "4893841210400913379",
+                "v2.4": "2028942726686783866",
+                "v2.5": "4893841210400913379"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-07T11:07:21.539Z",
+      "observed_at": "2026-10-11T06:52:21.718Z",
       "tracked": true
     },
     "steam_store": {
@@ -922,5 +976,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-07T11:07:21.539Z"
+  "updated_at": "2026-10-11T06:52:21.718Z"
 }

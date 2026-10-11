@@ -258,11 +258,80 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-11T06:52:21.718Z",
+      "change_number": 39708787,
+      "changes": [
+        {
+          "after": "25860853",
+          "before": "25756608",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791701535,
+          "before": 1791303132,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791701535,
+          "before": 1791303220,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": {
+            "buildid": "25756608",
+            "description": "merge",
+            "timebuildupdated": 1791303132,
+            "timeupdated": 1791303132
+          },
+          "op": "remove",
+          "path": "/depots/branches/v2.0.10"
+        },
+        {
+          "after": "3175263737089311670",
+          "before": "7187947907060445544",
+          "op": "replace",
+          "path": "/depots/depots/2591161/manifests/public"
+        },
+        {
+          "before": "7187947907060445544",
+          "op": "remove",
+          "path": "/depots/depots/2591161/manifests/v2.0.10"
+        },
+        {
+          "after": "2456836023520573242",
+          "before": "4602028669731212130",
+          "op": "replace",
+          "path": "/depots/depots/2591162/manifests/public"
+        },
+        {
+          "before": "4602028669731212130",
+          "op": "remove",
+          "path": "/depots/depots/2591162/manifests/v2.0.10"
+        },
+        {
+          "after": "2613373498472758400",
+          "before": "4703203035300442568",
+          "op": "replace",
+          "path": "/depots/depots/2591163/manifests/public"
+        },
+        {
+          "before": "4703203035300442568",
+          "op": "remove",
+          "path": "/depots/depots/2591163/manifests/v2.0.10"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39543434,
+      "change_number": 39708787,
       "data": {
         "appinfo": {
           "common": {
@@ -402,15 +471,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25756608",
-              "timebuildupdated": 1791303132,
-              "timeupdated": 1791303220
-            },
-            "v2.0.10": {
-              "buildid": "25756608",
-              "description": "merge",
-              "timebuildupdated": 1791303132,
-              "timeupdated": 1791303132
+              "buildid": "25860853",
+              "timebuildupdated": 1791701535,
+              "timeupdated": 1791701535
             }
           },
           "depots": {
@@ -420,8 +483,7 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "7187947907060445544",
-                "v2.0.10": "7187947907060445544"
+                "public": "3175263737089311670"
               }
             },
             "2591162": {
@@ -430,8 +492,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "4602028669731212130",
-                "v2.0.10": "4602028669731212130"
+                "public": "2456836023520573242"
               }
             },
             "2591163": {
@@ -440,18 +501,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "4703203035300442568",
-                "v2.0.10": "4703203035300442568"
+                "public": "2613373498472758400"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-06T16:22:23.059Z",
+      "observed_at": "2026-10-11T06:52:21.718Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-06T16:22:23.059Z"
+  "updated_at": "2026-10-11T06:52:21.718Z"
 }
