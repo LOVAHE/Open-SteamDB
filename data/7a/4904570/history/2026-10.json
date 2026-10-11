@@ -300,11 +300,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-11T18:22:25.220Z",
+      "change_number": 39719762,
+      "changes": [
+        {
+          "after": {
+            "buildid": "25867612",
+            "description": "The new game client. Very early in development. Please report any bugs.",
+            "timebuildupdated": 1791742233,
+            "timeupdated": 1791742362
+          },
+          "op": "add",
+          "path": "/depots/branches/game-client-v2-alpha"
+        },
+        {
+          "after": "25867596",
+          "before": "25856170",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791742166,
+          "before": 1791668967,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791742446,
+          "before": 1791669093,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "628911531141671304",
+          "op": "add",
+          "path": "/depots/depots/4904571/manifests/game-client-v2-alpha"
+        },
+        {
+          "after": "6472934898314814608",
+          "before": "7307535258005592741",
+          "op": "replace",
+          "path": "/depots/depots/4904571/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39716258,
+      "change_number": 39719762,
       "data": {
         "appinfo": {
           "common": {
@@ -450,26 +497,33 @@
         },
         "depots": {
           "branches": {
+            "game-client-v2-alpha": {
+              "buildid": "25867612",
+              "description": "The new game client. Very early in development. Please report any bugs.",
+              "timebuildupdated": 1791742233,
+              "timeupdated": 1791742362
+            },
             "public": {
-              "buildid": "25856170",
-              "timebuildupdated": 1791668967,
-              "timeupdated": 1791669093
+              "buildid": "25867596",
+              "timebuildupdated": 1791742166,
+              "timeupdated": 1791742446
             }
           },
           "depots": {
             "4904571": {
               "manifests": {
-                "public": "7307535258005592741"
+                "game-client-v2-alpha": "628911531141671304",
+                "public": "6472934898314814608"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-11T15:22:27.469Z",
+      "observed_at": "2026-10-11T18:22:25.220Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-11T15:22:27.469Z"
+  "updated_at": "2026-10-11T18:22:25.220Z"
 }
