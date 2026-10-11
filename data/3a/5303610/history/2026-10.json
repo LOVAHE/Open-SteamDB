@@ -183,11 +183,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-11T17:37:22.911Z",
+      "change_number": 39718980,
+      "changes": [
+        {
+          "before": {
+            "buildid": "25557929",
+            "description": "Branch for Steam Support Team to review all art in the game - press the 🖼️ button at the top-right corner of the screen.",
+            "timebuildupdated": 1790498385,
+            "timeupdated": 1790498542
+          },
+          "op": "remove",
+          "path": "/depots/branches/adult-art-review"
+        },
+        {
+          "after": "25867128",
+          "before": "25847079",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791739942,
+          "before": 1791620858,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791740266,
+          "before": 1791620955,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": "1362319180424667339",
+          "op": "remove",
+          "path": "/depots/depots/5303611/manifests/adult-art-review"
+        },
+        {
+          "after": "271417216959800812",
+          "before": "8671709529942166009",
+          "op": "replace",
+          "path": "/depots/depots/5303611/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39687130,
+      "change_number": 39718980,
       "data": {
         "appinfo": {
           "common": {
@@ -303,33 +350,26 @@
         },
         "depots": {
           "branches": {
-            "adult-art-review": {
-              "buildid": "25557929",
-              "description": "Branch for Steam Support Team to review all art in the game - press the 🖼️ button at the top-right corner of the screen.",
-              "timebuildupdated": 1790498385,
-              "timeupdated": 1790498542
-            },
             "public": {
-              "buildid": "25847079",
-              "timebuildupdated": 1791620858,
-              "timeupdated": 1791620955
+              "buildid": "25867128",
+              "timebuildupdated": 1791739942,
+              "timeupdated": 1791740266
             }
           },
           "depots": {
             "5303611": {
               "manifests": {
-                "adult-art-review": "1362319180424667339",
-                "public": "8671709529942166009"
+                "public": "271417216959800812"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-10T08:37:22.047Z",
+      "observed_at": "2026-10-11T17:37:22.911Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-10T08:37:22.047Z"
+  "updated_at": "2026-10-11T17:37:22.911Z"
 }
