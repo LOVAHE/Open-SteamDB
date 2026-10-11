@@ -331,11 +331,66 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-11T12:22:26.118Z",
+      "change_number": 39713067,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "1791554300",
+          "before": "1798704000",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "25862583",
+          "before": "25853823",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791714571,
+          "before": 1791656533,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791720607,
+          "before": 1791657955,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4486565145109960024",
+          "before": "4041917619846944001",
+          "op": "replace",
+          "path": "/depots/depots/4971931/manifests/public"
+        },
+        {
+          "after": "2737741295818405515",
+          "op": "add",
+          "path": "/depots/depots/4971932/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39712488,
+      "change_number": 39713067,
       "data": {
         "appinfo": {
           "common": {
@@ -427,15 +482,15 @@
             },
             "name": "Polda 5.5",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "primary_genre": "25",
             "review_percentage": "92",
             "review_score": "7",
             "small_capsule": {
               "english": "f6f634adf7914e09ae7475ea7942aa6a68052fde/capsule_231x87.jpg"
             },
-            "steam_release_date": "1798704000",
+            "steam_release_date": "1791554300",
             "store_asset_mtime": "1788856015",
             "store_tags": {
               "0": "21",
@@ -505,9 +560,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25853823",
-              "timebuildupdated": 1791656533,
-              "timeupdated": 1791657955
+              "buildid": "25862583",
+              "timebuildupdated": 1791714571,
+              "timeupdated": 1791720607
             }
           },
           "depots": {
@@ -516,23 +571,25 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "4041917619846944001"
+                "public": "4486565145109960024"
               }
             },
             "4971932": {
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "2737741295818405515"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-11T11:37:26.657Z",
+      "observed_at": "2026-10-11T12:22:26.118Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-11T11:37:26.657Z"
+  "updated_at": "2026-10-11T12:22:26.118Z"
 }
