@@ -699,11 +699,50 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-11T13:52:25.144Z",
+      "change_number": 39714813,
+      "changes": [
+        {
+          "before": {
+            "supported": "true"
+          },
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/arabic"
+        },
+        {
+          "after": "25864540",
+          "before": "25864036",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791726678,
+          "before": 1791723954,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791726746,
+          "before": 1791724487,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8486154932627189854",
+          "before": "269773666341226175",
+          "op": "replace",
+          "path": "/depots/depots/5133951/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39714337,
+      "change_number": 39714813,
       "data": {
         "appinfo": {
           "common": {
@@ -811,9 +850,6 @@
               "8": "4182"
             },
             "supported_languages": {
-              "arabic": {
-                "supported": "true"
-              },
               "brazilian": {
                 "supported": "true"
               },
@@ -915,9 +951,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25864036",
-              "timebuildupdated": 1791723954,
-              "timeupdated": 1791724487
+              "buildid": "25864540",
+              "timebuildupdated": 1791726678,
+              "timeupdated": 1791726746
             }
           },
           "depots": {
@@ -939,17 +975,17 @@
             },
             "5133951": {
               "manifests": {
-                "public": "269773666341226175"
+                "public": "8486154932627189854"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-11T13:37:26.619Z",
+      "observed_at": "2026-10-11T13:52:25.144Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-11T13:37:26.619Z"
+  "updated_at": "2026-10-11T13:52:25.144Z"
 }
