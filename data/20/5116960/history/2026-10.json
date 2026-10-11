@@ -642,11 +642,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-11T07:37:23.401Z",
+      "change_number": 39709201,
+      "changes": [
+        {
+          "after": {
+            "buildid": "25861084",
+            "description": "测试",
+            "timebuildupdated": 1791703553,
+            "timeupdated": 1791703646
+          },
+          "op": "add",
+          "path": "/depots/branches/v2.6"
+        },
+        {
+          "after": "8974486357774237715",
+          "op": "add",
+          "path": "/depots/depots/5116961/manifests/v2.6"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39708740,
+      "change_number": 39709201,
       "data": {
         "appinfo": {
           "common": {
@@ -808,6 +831,12 @@
               "description": "修成就",
               "timebuildupdated": 1791701089,
               "timeupdated": 1791701187
+            },
+            "v2.6": {
+              "buildid": "25861084",
+              "description": "测试",
+              "timebuildupdated": 1791703553,
+              "timeupdated": 1791703646
             }
           },
           "depots": {
@@ -815,13 +844,14 @@
               "manifests": {
                 "public": "4893841210400913379",
                 "v2.4": "2028942726686783866",
-                "v2.5": "4893841210400913379"
+                "v2.5": "4893841210400913379",
+                "v2.6": "8974486357774237715"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-11T06:52:21.718Z",
+      "observed_at": "2026-10-11T07:37:23.401Z",
       "tracked": true
     },
     "steam_store": {
@@ -976,5 +1006,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-11T06:52:21.718Z"
+  "updated_at": "2026-10-11T07:37:23.401Z"
 }
