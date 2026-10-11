@@ -431,11 +431,49 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-11T13:22:26.563Z",
+      "change_number": 39714309,
+      "changes": [
+        {
+          "after": "25864114",
+          "before": "25689273",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791724437,
+          "before": 1790987465,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791724983,
+          "before": 1790987958,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3417185078213316471",
+          "before": "3682622500000144418",
+          "op": "replace",
+          "path": "/depots/depots/4401481/manifests/public"
+        },
+        {
+          "after": "6212034485123258370",
+          "before": "1898840933627986101",
+          "op": "replace",
+          "path": "/depots/depots/4401482/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39440535,
+      "change_number": 39714309,
       "data": {
         "appinfo": {
           "common": {
@@ -571,9 +609,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25689273",
-              "timebuildupdated": 1790987465,
-              "timeupdated": 1790987958
+              "buildid": "25864114",
+              "timebuildupdated": 1791724437,
+              "timeupdated": 1791724983
             }
           },
           "depots": {
@@ -583,7 +621,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "3682622500000144418"
+                "public": "3417185078213316471"
               }
             },
             "4401482": {
@@ -593,13 +631,13 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "1898840933627986101"
+                "public": "6212034485123258370"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-04T16:32:21.706Z",
+      "observed_at": "2026-10-11T13:22:26.563Z",
       "tracked": true
     },
     "steam_store": {
@@ -726,5 +764,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-04T19:42:12.354Z"
+  "updated_at": "2026-10-11T13:22:26.563Z"
 }
