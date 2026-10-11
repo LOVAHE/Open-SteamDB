@@ -754,11 +754,94 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-11T09:37:23.308Z",
+      "change_number": 39710873,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_22"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": "472a11a96db66fb2ff9ea3066cd1ffcacef47b27",
+          "before": "5c75da31e82ae0ae69f02a3a6a2fe6d6f6303da1",
+          "op": "replace",
+          "path": "/appinfo/common/clienticon"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/community_visible_stats"
+        },
+        {
+          "after": "53d908da9450b31530e02ac3d9fa3f08f86f15a1",
+          "before": "5c75da31e82ae0ae69f02a3a6a2fe6d6f6303da1",
+          "op": "replace",
+          "path": "/appinfo/common/icon"
+        },
+        {
+          "after": {
+            "english": "1",
+            "french": "1",
+            "german": "1",
+            "schinese": "1",
+            "spanish": "1"
+          },
+          "op": "add",
+          "path": "/appinfo/common/languages"
+        },
+        {
+          "after": "16",
+          "before": "5",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "67108864",
+          "before": "10000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        },
+        {
+          "after": "DefaultCompany/the-cards-youre-dealt-unity/steam/1869060/{64BitSteamID}",
+          "before": "SavesDir",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/path"
+        },
+        {
+          "after": "cards_dealt_js_storage.json",
+          "before": "*.sav",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/pattern"
+        },
+        {
+          "after": {
+            "1": "Windows"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/0/platforms"
+        },
+        {
+          "after": "WinAppDataLocalLow",
+          "before": "gameinstall",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/root"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39710373,
+      "change_number": 39710873,
       "data": {
         "appinfo": {
           "common": {
@@ -774,10 +857,13 @@
             },
             "category": {
               "category_2": "1",
+              "category_22": "1",
+              "category_23": "1",
               "category_62": "1"
             },
-            "clienticon": "5c75da31e82ae0ae69f02a3a6a2fe6d6f6303da1",
+            "clienticon": "472a11a96db66fb2ff9ea3066cd1ffcacef47b27",
             "community_hub_visible": "1",
+            "community_visible_stats": "1",
             "genres": {
               "0": "25",
               "1": "23",
@@ -788,7 +874,14 @@
               "english": "277b2d6dd33b22f1af808d9e3f31f96596aaf787/header.jpg",
               "schinese": "95c7ed32bb490e33316b15b366ff3852454602d4/header_schinese.jpg"
             },
-            "icon": "5c75da31e82ae0ae69f02a3a6a2fe6d6f6303da1",
+            "icon": "53d908da9450b31530e02ac3d9fa3f08f86f15a1",
+            "languages": {
+              "english": "1",
+              "french": "1",
+              "german": "1",
+              "schinese": "1",
+              "spanish": "1"
+            },
             "library_assets": {
               "library_capsule": "en,zh-cn",
               "library_header": "en,zh-cn",
@@ -927,8 +1020,8 @@
             "publisher": "Mr_Tan91"
           },
           "ufs": {
-            "maxnumfiles": "5",
-            "quota": "10000000",
+            "maxnumfiles": "16",
+            "quota": "67108864",
             "rootoverrides": {
               "0": {
                 "addpath": "",
@@ -940,9 +1033,12 @@
             },
             "savefiles": {
               "0": {
-                "path": "SavesDir",
-                "pattern": "*.sav",
-                "root": "gameinstall"
+                "path": "DefaultCompany/the-cards-youre-dealt-unity/steam/1869060/{64BitSteamID}",
+                "pattern": "cards_dealt_js_storage.json",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
               }
             }
           }
@@ -964,7 +1060,7 @@
           }
         }
       },
-      "observed_at": "2026-10-11T09:07:26.770Z",
+      "observed_at": "2026-10-11T09:37:23.308Z",
       "tracked": true
     },
     "steam_store": {
@@ -1114,5 +1210,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-11T09:07:26.770Z"
+  "updated_at": "2026-10-11T09:37:23.308Z"
 }
