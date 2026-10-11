@@ -453,11 +453,75 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-11T22:07:27.159Z",
+      "change_number": 39724227,
+      "changes": [
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/brazilian"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/english/full_audio"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/italian/full_audio"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/koreana"
+        },
+        {
+          "before": {
+            "full_audio": "true",
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/portuguese"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/spanish/full_audio"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39676842,
+      "change_number": 39724227,
       "data": {
         "appinfo": {
           "common": {
@@ -552,8 +616,11 @@
             "steam_release_date": "1791222446",
             "store_asset_mtime": "1791315672",
             "supported_languages": {
+              "brazilian": {
+                "subtitles": "true",
+                "supported": "true"
+              },
               "english": {
-                "full_audio": "true",
                 "subtitles": "true",
                 "supported": "true"
               },
@@ -566,17 +633,22 @@
                 "supported": "true"
               },
               "italian": {
-                "full_audio": "true",
                 "subtitles": "true",
                 "supported": "true"
               },
-              "portuguese": {
-                "full_audio": "true",
+              "koreana": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "russian": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "schinese": {
                 "subtitles": "true",
                 "supported": "true"
               },
               "spanish": {
-                "full_audio": "true",
                 "subtitles": "true",
                 "supported": "true"
               }
@@ -631,11 +703,11 @@
           }
         }
       },
-      "observed_at": "2026-10-09T22:07:23.538Z",
+      "observed_at": "2026-10-11T22:07:27.159Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-09T22:07:23.538Z"
+  "updated_at": "2026-10-11T22:07:27.159Z"
 }
