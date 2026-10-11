@@ -1,8 +1,8 @@
 {
   "appid": 4451790,
   "source": "steam_pics",
-  "updated_at": "2026-10-11T05:22:20.407Z",
-  "change_number": 39707721,
+  "updated_at": "2026-10-11T08:07:21.187Z",
+  "change_number": 39709705,
   "data": {
     "common": {
       "associations": {
@@ -17,10 +17,15 @@
       },
       "category": {
         "category_2": "1",
+        "category_22": "1",
+        "category_23": "1",
+        "category_30": "1",
+        "category_51": "1",
         "category_62": "1"
       },
       "clienticon": "ad6d19300e26144908840e5c404e5fbb456e4ccf",
       "community_hub_visible": "1",
+      "community_visible_stats": "1",
       "genres": {
         "0": "4",
         "1": "23",
@@ -106,7 +111,7 @@
       "osextended": "",
       "oslist": "windows",
       "primary_genre": "2",
-      "review_percentage": "70",
+      "review_percentage": "71",
       "review_score": "6",
       "small_capsule": {
         "english": "b1277325795bb8526ed4f3a9d4b7ef550b1798d8/capsule_231x87.jpg",
@@ -156,7 +161,23 @@
     },
     "ufs": {
       "maxnumfiles": "10000",
-      "quota": "100000000"
+      "quota": "100000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "Windows",
+          "oscompare": "=",
+          "root": "gameinstall",
+          "useinstead": "gameinstall"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "SavesDir",
+          "pattern": "*.sav",
+          "root": "gameinstall"
+        }
+      }
     }
   }
 }
