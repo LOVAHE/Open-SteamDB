@@ -1,8 +1,8 @@
 {
   "appid": 5229310,
   "source": "steam_pics",
-  "updated_at": "2026-10-11T17:52:24.380Z",
-  "change_number": 39719055,
+  "updated_at": "2026-10-12T18:07:24.340Z",
+  "change_number": 39752010,
   "data": {
     "common": {
       "associations": {
@@ -121,6 +121,29 @@
     },
     "config": {
       "installdir": "Beyond the 10th Demo"
+    },
+    "ufs": {
+      "maxnumfiles": "10",
+      "quota": "10485760",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "Windows",
+          "oscompare": "=",
+          "root": "gameinstall",
+          "useinstead": "gameinstall"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Beyond_Tenth_Demo/Saved/SaveGames",
+          "pattern": "*.sav",
+          "platforms": {
+            "1": "Windows"
+          },
+          "root": "WinAppDataLocal"
+        }
+      }
     }
   }
 }
