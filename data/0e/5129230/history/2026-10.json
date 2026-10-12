@@ -148,11 +148,27 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-12T04:07:26.597Z",
+      "change_number": 39729596,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "30",
+            "quota": "10000"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39608627,
+      "change_number": 39729596,
       "data": {
         "appinfo": {
           "common": {
@@ -268,6 +284,10 @@
           "extended": {
             "developer": "Bigpicture",
             "publisher": "Bigpicture"
+          },
+          "ufs": {
+            "maxnumfiles": "30",
+            "quota": "10000"
           }
         },
         "depots": {
@@ -287,11 +307,11 @@
           }
         }
       },
-      "observed_at": "2026-10-08T08:37:26.757Z",
+      "observed_at": "2026-10-12T04:07:26.597Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-08T08:37:26.757Z"
+  "updated_at": "2026-10-12T04:07:26.597Z"
 }
