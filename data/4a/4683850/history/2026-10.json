@@ -261,11 +261,42 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-12T12:37:24.936Z",
+      "change_number": 39741201,
+      "changes": [
+        {
+          "after": "25882020",
+          "before": "25831352",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791808141,
+          "before": 1791555485,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791808141,
+          "before": 1791555667,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "477758950122653433",
+          "op": "add",
+          "path": "/depots/depots/4683852/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39741008,
+      "change_number": 39741201,
       "data": {
         "appinfo": {
           "common": {
@@ -421,9 +452,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25831352",
-              "timebuildupdated": 1791555485,
-              "timeupdated": 1791555667
+              "buildid": "25882020",
+              "timebuildupdated": 1791808141,
+              "timeupdated": 1791808141
             }
           },
           "depots": {
@@ -439,16 +470,18 @@
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "477758950122653433"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-12T12:22:24.550Z",
+      "observed_at": "2026-10-12T12:37:24.936Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-12T12:22:24.550Z"
+  "updated_at": "2026-10-12T12:37:24.936Z"
 }
