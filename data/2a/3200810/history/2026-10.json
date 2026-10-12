@@ -857,11 +857,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-12T11:37:25.167Z",
+      "change_number": 39739614,
+      "changes": [
+        {
+          "after": "100",
+          "before": "20",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "100000000",
+          "before": "10000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39707716,
+      "change_number": 39739614,
       "data": {
         "appinfo": {
           "common": {
@@ -1004,8 +1024,8 @@
             "publisher": "Istikan Studio"
           },
           "ufs": {
-            "maxnumfiles": "20",
-            "quota": "10000000",
+            "maxnumfiles": "100",
+            "quota": "100000000",
             "rootoverrides": {
               "0": {
                 "addpath": "",
@@ -1067,7 +1087,7 @@
           }
         }
       },
-      "observed_at": "2026-10-11T05:22:20.407Z",
+      "observed_at": "2026-10-12T11:37:25.167Z",
       "tracked": true
     },
     "steam_store": {
@@ -1204,5 +1224,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-11T05:22:20.407Z"
+  "updated_at": "2026-10-12T11:37:25.167Z"
 }
