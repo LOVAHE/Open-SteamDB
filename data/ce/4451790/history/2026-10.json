@@ -1247,11 +1247,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-12T07:52:25.252Z",
+      "change_number": 39733738,
+      "changes": [
+        {
+          "before": {
+            "0": {
+              "addpath": "",
+              "os": "Windows",
+              "oscompare": "=",
+              "root": "gameinstall",
+              "useinstead": "gameinstall"
+            }
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "before": {
+            "0": {
+              "path": "SavesDir",
+              "pattern": "*.sav",
+              "root": "gameinstall"
+            }
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39730705,
+      "change_number": 39733738,
       "data": {
         "appinfo": {
           "common": {
@@ -1411,23 +1443,7 @@
           },
           "ufs": {
             "maxnumfiles": "10000",
-            "quota": "100000000",
-            "rootoverrides": {
-              "0": {
-                "addpath": "",
-                "os": "Windows",
-                "oscompare": "=",
-                "root": "gameinstall",
-                "useinstead": "gameinstall"
-              }
-            },
-            "savefiles": {
-              "0": {
-                "path": "SavesDir",
-                "pattern": "*.sav",
-                "root": "gameinstall"
-              }
-            }
+            "quota": "100000000"
           }
         },
         "depots": {
@@ -1447,11 +1463,11 @@
           }
         }
       },
-      "observed_at": "2026-10-12T05:22:25.947Z",
+      "observed_at": "2026-10-12T07:52:25.252Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-12T05:22:25.947Z"
+  "updated_at": "2026-10-12T07:52:25.252Z"
 }
