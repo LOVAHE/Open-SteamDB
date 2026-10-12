@@ -368,11 +368,40 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-12T09:07:28.590Z",
+      "change_number": 39735688,
+      "changes": [
+        {
+          "after": "89",
+          "before": "90",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": {
+            "buildid": "25878346",
+            "description": "测试专用分支for test",
+            "timebuildupdated": 1791795637,
+            "timeupdated": 1791795640
+          },
+          "op": "add",
+          "path": "/depots/branches/test"
+        },
+        {
+          "after": "1245566969858966342",
+          "op": "add",
+          "path": "/depots/depots/4267801/manifests/test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39732838,
+      "change_number": 39735688,
       "data": {
         "appinfo": {
           "common": {
@@ -490,7 +519,7 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "23",
-            "review_percentage": "90",
+            "review_percentage": "89",
             "review_score": "7",
             "small_capsule": {
               "english": "c7b1ea6202d25e4f9165abbae7c1cc7b843e1732/capsule_231x87.jpg",
@@ -560,6 +589,12 @@
               "timebuildupdated": 1791783774,
               "timeupdated": 1791783774
             },
+            "test": {
+              "buildid": "25878346",
+              "description": "测试专用分支for test",
+              "timebuildupdated": 1791795637,
+              "timeupdated": 1791795640
+            },
             "win11stable": {
               "buildid": "25876156",
               "description": "Crash or Windows 11 Compatible",
@@ -581,6 +616,7 @@
               },
               "manifests": {
                 "public": "5207329957985098116",
+                "test": "1245566969858966342",
                 "win11stable": "4911046619650212818",
                 "win7compat": "3381507364965175716"
               }
@@ -598,11 +634,11 @@
           }
         }
       },
-      "observed_at": "2026-10-12T07:07:26.005Z",
+      "observed_at": "2026-10-12T09:07:28.590Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-12T07:07:26.005Z"
+  "updated_at": "2026-10-12T09:07:28.590Z"
 }
