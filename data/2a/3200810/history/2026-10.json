@@ -935,11 +935,29 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-12T13:07:24.662Z",
+      "change_number": 39742251,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_30"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39741844,
+      "change_number": 39742251,
       "data": {
         "appinfo": {
           "common": {
@@ -959,6 +977,7 @@
               "category_22": "1",
               "category_23": "1",
               "category_25": "1",
+              "category_30": "1",
               "category_62": "1"
             },
             "clienticon": "26b16835b357a9db62d203251aa1d35028635b13",
@@ -1071,7 +1090,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "GENERAL IDLER"
@@ -1145,7 +1165,7 @@
           }
         }
       },
-      "observed_at": "2026-10-12T12:52:23.511Z",
+      "observed_at": "2026-10-12T13:07:24.662Z",
       "tracked": true
     },
     "steam_store": {
@@ -1282,5 +1302,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-12T12:52:23.511Z"
+  "updated_at": "2026-10-12T13:07:24.662Z"
 }
