@@ -279,11 +279,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-13T19:07:26.769Z",
+      "change_number": 39790413,
+      "changes": [
+        {
+          "after": {
+            "buildid": "25915767",
+            "description": "英文版",
+            "timebuildupdated": 1791918223,
+            "timeupdated": 1791918223
+          },
+          "op": "add",
+          "path": "/depots/branches/english_test"
+        },
+        {
+          "after": "6070344230573077118",
+          "op": "add",
+          "path": "/depots/depots/5182511/manifests/english_test"
+        },
+        {
+          "after": "7244461373968155936",
+          "op": "add",
+          "path": "/depots/depots/5182512/manifests/english_test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39789697,
+      "change_number": 39790413,
       "data": {
         "appinfo": {
           "common": {
@@ -404,6 +432,12 @@
         },
         "depots": {
           "branches": {
+            "english_test": {
+              "buildid": "25915767",
+              "description": "英文版",
+              "timebuildupdated": 1791918223,
+              "timeupdated": 1791918223
+            },
             "public": {
               "buildid": "25834631",
               "timebuildupdated": 1791564576,
@@ -429,6 +463,7 @@
             },
             "5182511": {
               "manifests": {
+                "english_test": "6070344230573077118",
                 "public": "6070344230573077118"
               }
             },
@@ -436,16 +471,18 @@
               "config": {
                 "language": "english"
               },
-              "manifests": {}
+              "manifests": {
+                "english_test": "7244461373968155936"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-13T18:52:26.268Z",
+      "observed_at": "2026-10-13T19:07:26.769Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-13T18:52:26.268Z"
+  "updated_at": "2026-10-13T19:07:26.769Z"
 }
