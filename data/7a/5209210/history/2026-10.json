@@ -679,11 +679,65 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-13T11:07:24.918Z",
+      "change_number": 39774408,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_28"
+        },
+        {
+          "after": "full",
+          "op": "add",
+          "path": "/appinfo/common/controller_support"
+        },
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "25905202",
+          "before": "25904507",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791888858,
+          "before": 1791886779,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791888930,
+          "before": 1791886854,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4614902271434069830",
+          "before": "6966182048106921326",
+          "op": "replace",
+          "path": "/depots/depots/5209211/manifests/public"
+        },
+        {
+          "after": "1341894388432643139",
+          "before": "6985596037022721777",
+          "op": "replace",
+          "path": "/depots/depots/5209212/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39773369,
+      "change_number": 39774408,
       "data": {
         "appinfo": {
           "common": {
@@ -702,6 +756,7 @@
               "category_22": "1",
               "category_23": "1",
               "category_25": "1",
+              "category_28": "1",
               "category_62": "1",
               "category_67": "1",
               "category_68": "1",
@@ -712,6 +767,7 @@
             "clienticon": "f3a2fd618fc19578944a1217705dd2f076f35491",
             "community_hub_visible": "1",
             "community_visible_stats": "1",
+            "controller_support": "full",
             "genres": {
               "0": "4",
               "1": "23",
@@ -784,7 +840,7 @@
             "name": "Clickore Station",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,linux",
             "primary_genre": "4",
             "small_capsule": {
               "english": "93111061b65f4e745804f5f83b9230fb5387189b/capsule_231x87.jpg"
@@ -853,9 +909,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25904507",
-              "timebuildupdated": 1791886779,
-              "timeupdated": 1791886854
+              "buildid": "25905202",
+              "timebuildupdated": 1791888858,
+              "timeupdated": 1791888930
             }
           },
           "depots": {
@@ -865,7 +921,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "6966182048106921326"
+                "public": "4614902271434069830"
               }
             },
             "5209212": {
@@ -874,13 +930,13 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "6985596037022721777"
+                "public": "1341894388432643139"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-13T10:22:29.382Z",
+      "observed_at": "2026-10-13T11:07:24.918Z",
       "tracked": true
     },
     "steam_store": {
@@ -1043,5 +1099,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-13T10:22:29.382Z"
+  "updated_at": "2026-10-13T11:07:24.918Z"
 }
