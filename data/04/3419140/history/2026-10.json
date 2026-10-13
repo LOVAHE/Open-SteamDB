@@ -862,11 +862,91 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-13T21:37:28.971Z",
+      "change_number": 39794343,
+      "changes": [
+        {
+          "after": "25845809",
+          "before": "25822506",
+          "op": "replace",
+          "path": "/depots/branches/backup/buildid"
+        },
+        {
+          "after": 1791612149,
+          "before": 1791528320,
+          "op": "replace",
+          "path": "/depots/branches/backup/timebuildupdated"
+        },
+        {
+          "after": 1791612367,
+          "before": 1791528396,
+          "op": "replace",
+          "path": "/depots/branches/backup/timeupdated"
+        },
+        {
+          "after": "25918441",
+          "before": "25845809",
+          "op": "replace",
+          "path": "/depots/branches/beta-testing/buildid"
+        },
+        {
+          "after": 1791926659,
+          "before": 1791612149,
+          "op": "replace",
+          "path": "/depots/branches/beta-testing/timebuildupdated"
+        },
+        {
+          "after": 1791926768,
+          "before": 1791612367,
+          "op": "replace",
+          "path": "/depots/branches/beta-testing/timeupdated"
+        },
+        {
+          "after": "25918441",
+          "before": "25845809",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791926659,
+          "before": 1791612149,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791926768,
+          "before": 1791612367,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "442010687776035503",
+          "before": "2903108103823515771",
+          "op": "replace",
+          "path": "/depots/depots/3419141/manifests/backup"
+        },
+        {
+          "after": "6247204947434983670",
+          "before": "442010687776035503",
+          "op": "replace",
+          "path": "/depots/depots/3419141/manifests/beta-testing"
+        },
+        {
+          "after": "6247204947434983670",
+          "before": "442010687776035503",
+          "op": "replace",
+          "path": "/depots/depots/3419141/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39787175,
+      "change_number": 39794343,
       "data": {
         "appinfo": {
           "common": {
@@ -1057,39 +1137,39 @@
         "depots": {
           "branches": {
             "backup": {
-              "buildid": "25822506",
+              "buildid": "25845809",
               "description": "A version of the game before the default, in case something may break",
-              "timebuildupdated": 1791528320,
-              "timeupdated": 1791528396
+              "timebuildupdated": 1791612149,
+              "timeupdated": 1791612367
             },
             "beta-testing": {
-              "buildid": "25845809",
+              "buildid": "25918441",
               "description": "Unstable (might contain save-breaking issues) version of the game",
-              "timebuildupdated": 1791612149,
-              "timeupdated": 1791612367
+              "timebuildupdated": 1791926659,
+              "timeupdated": 1791926768
             },
             "public": {
-              "buildid": "25845809",
-              "timebuildupdated": 1791612149,
-              "timeupdated": 1791612367
+              "buildid": "25918441",
+              "timebuildupdated": 1791926659,
+              "timeupdated": 1791926768
             }
           },
           "depots": {
             "3419141": {
               "manifests": {
-                "backup": "2903108103823515771",
-                "beta-testing": "442010687776035503",
-                "public": "442010687776035503"
+                "backup": "442010687776035503",
+                "beta-testing": "6247204947434983670",
+                "public": "6247204947434983670"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-13T17:22:30.221Z",
+      "observed_at": "2026-10-13T21:37:28.971Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-13T17:22:30.221Z"
+  "updated_at": "2026-10-13T21:37:28.971Z"
 }
