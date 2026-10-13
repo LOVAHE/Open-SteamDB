@@ -652,11 +652,71 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-13T10:37:26.365Z",
+      "change_number": 39773810,
+      "changes": [
+        {
+          "after": {
+            "buildid": "25904756",
+            "description": "Fork Bomb Linux",
+            "timebuildupdated": 1791887542,
+            "timeupdated": 1791887682
+          },
+          "op": "add",
+          "path": "/depots/branches/linux-beta"
+        },
+        {
+          "after": "25894684",
+          "before": "25847816",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791847894,
+          "before": 1791624877,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791887737,
+          "before": 1791625150,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5072730409480328572",
+          "op": "add",
+          "path": "/depots/depots/5189091/manifests/linux-beta"
+        },
+        {
+          "after": "5072730409480328572",
+          "before": "8442842476996663669",
+          "op": "replace",
+          "path": "/depots/depots/5189091/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "linux"
+            },
+            "manifests": {
+              "linux-beta": "245000710295137490"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5189092"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39688266,
+      "change_number": 39773810,
       "data": {
         "appinfo": {
           "common": {
@@ -814,10 +874,16 @@
         },
         "depots": {
           "branches": {
+            "linux-beta": {
+              "buildid": "25904756",
+              "description": "Fork Bomb Linux",
+              "timebuildupdated": 1791887542,
+              "timeupdated": 1791887682
+            },
             "public": {
-              "buildid": "25847816",
-              "timebuildupdated": 1791624877,
-              "timeupdated": 1791625150
+              "buildid": "25894684",
+              "timebuildupdated": 1791847894,
+              "timeupdated": 1791887737
             }
           },
           "depots": {
@@ -826,13 +892,23 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "8442842476996663669"
+                "linux-beta": "5072730409480328572",
+                "public": "5072730409480328572"
+              }
+            },
+            "5189092": {
+              "config": {
+                "osarch": "64",
+                "oslist": "linux"
+              },
+              "manifests": {
+                "linux-beta": "245000710295137490"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-10T09:52:24.495Z",
+      "observed_at": "2026-10-13T10:37:26.365Z",
       "tracked": true
     },
     "steam_store": {
@@ -978,5 +1054,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-10T09:52:24.495Z"
+  "updated_at": "2026-10-13T10:37:26.365Z"
 }
