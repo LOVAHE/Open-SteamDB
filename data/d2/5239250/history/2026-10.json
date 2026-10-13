@@ -213,11 +213,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-13T07:22:30.187Z",
+      "change_number": 39768348,
+      "changes": [
+        {
+          "after": "windows,macos,linux",
+          "before": "windows,macos",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "25901128",
+          "before": "25856045",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791875555,
+          "before": 1791668261,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791875555,
+          "before": 1791668261,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5816098740357515792",
+          "op": "add",
+          "path": "/depots/depots/5239253/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39765111,
+      "change_number": 39768348,
       "data": {
         "appinfo": {
           "common": {
@@ -307,7 +344,7 @@
             "name": "Table of War Demo",
             "osarch": "64",
             "osextended": "macos64,macosapplesilicon,macosnotarized",
-            "oslist": "windows,macos",
+            "oslist": "windows,macos,linux",
             "parent": "5060350",
             "primary_genre": "2",
             "small_capsule": {
@@ -336,9 +373,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25856045",
-              "timebuildupdated": 1791668261,
-              "timeupdated": 1791668261
+              "buildid": "25901128",
+              "timebuildupdated": 1791875555,
+              "timeupdated": 1791875555
             }
           },
           "depots": {
@@ -362,16 +399,18 @@
               "config": {
                 "oslist": "linux"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "5816098740357515792"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-13T04:22:29.331Z",
+      "observed_at": "2026-10-13T07:22:30.187Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-13T04:22:29.331Z"
+  "updated_at": "2026-10-13T07:22:30.187Z"
 }
