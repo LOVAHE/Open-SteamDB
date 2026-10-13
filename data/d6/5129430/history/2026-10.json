@@ -265,11 +265,58 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-13T02:07:23.057Z",
+      "change_number": 39762689,
+      "changes": [
+        {
+          "after": {
+            "english": "1",
+            "schinese": "1"
+          },
+          "op": "add",
+          "path": "/appinfo/common/languages"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        },
+        {
+          "after": "25895978",
+          "before": "25874494",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791852988,
+          "before": 1791777054,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791856753,
+          "before": 1791815335,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3299107796912980836",
+          "before": "1743583469062705915",
+          "op": "replace",
+          "path": "/depots/depots/5129431/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39747278,
+      "change_number": 39762689,
       "data": {
         "appinfo": {
           "common": {
@@ -313,6 +360,10 @@
               "english": "a716e61c52487630fc12e7510d99d416647882ea/header.jpg"
             },
             "icon": "192e182ba45aac1be8a7619eb6e2c9c8f5f0c35e",
+            "languages": {
+              "english": "1",
+              "schinese": "1"
+            },
             "library_assets": {
               "library_capsule": "en",
               "library_header": "en",
@@ -395,6 +446,9 @@
             "supported_languages": {
               "english": {
                 "supported": "true"
+              },
+              "schinese": {
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -424,25 +478,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25874494",
-              "timebuildupdated": 1791777054,
-              "timeupdated": 1791815335
+              "buildid": "25895978",
+              "timebuildupdated": 1791852988,
+              "timeupdated": 1791856753
             }
           },
           "depots": {
             "5129431": {
               "manifests": {
-                "public": "1743583469062705915"
+                "public": "3299107796912980836"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-12T15:37:27.928Z",
+      "observed_at": "2026-10-13T02:07:23.057Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-12T15:37:27.928Z"
+  "updated_at": "2026-10-13T02:07:23.057Z"
 }
