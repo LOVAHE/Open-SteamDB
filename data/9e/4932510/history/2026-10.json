@@ -205,11 +205,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-13T14:22:28.331Z",
+      "change_number": 39780466,
+      "changes": [
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "25877979",
+          "before": "25630971",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791794280,
+          "before": 1790780828,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791900537,
+          "before": 1790780931,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2577014050749186678",
+          "op": "add",
+          "path": "/depots/depots/4932512/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39740867,
+      "change_number": 39780466,
       "data": {
         "appinfo": {
           "common": {
@@ -304,7 +341,7 @@
             "name": "Mùa Hình (Trading-cards Season)",
             "osarch": "",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,macos",
             "primary_genre": "4",
             "small_capsule": {
               "english": "23cb78c034510b3f4e9ca6cd019fcf252f7bd928/capsule_231x87.jpg"
@@ -357,9 +394,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25630971",
-              "timebuildupdated": 1790780828,
-              "timeupdated": 1790780931
+              "buildid": "25877979",
+              "timebuildupdated": 1791794280,
+              "timeupdated": 1791900537
             }
           },
           "depots": {
@@ -372,16 +409,18 @@
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "2577014050749186678"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-12T12:22:24.550Z",
+      "observed_at": "2026-10-13T14:22:28.331Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-12T12:22:24.550Z"
+  "updated_at": "2026-10-13T14:22:28.331Z"
 }

@@ -276,11 +276,54 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-13T14:22:28.331Z",
+      "change_number": 39781049,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "25909564",
+          "before": "25759794",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791901040,
+          "before": 1791312730,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791901040,
+          "before": 1791313007,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5722937024054503305",
+          "op": "add",
+          "path": "/depots/depots/5346562/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39780373,
+      "change_number": 39781049,
       "data": {
         "appinfo": {
           "common": {
@@ -371,8 +414,8 @@
             },
             "name": "Idle Reef Demo",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos",
             "parent": "5188560",
             "primary_genre": "4",
             "small_capsule": {
@@ -500,9 +543,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25759794",
-              "timebuildupdated": 1791312730,
-              "timeupdated": 1791313007
+              "buildid": "25909564",
+              "timebuildupdated": 1791901040,
+              "timeupdated": 1791901040
             }
           },
           "depots": {
@@ -518,16 +561,18 @@
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "5722937024054503305"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-13T14:07:28.850Z",
+      "observed_at": "2026-10-13T14:22:28.331Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-13T14:07:28.850Z"
+  "updated_at": "2026-10-13T14:22:28.331Z"
 }
