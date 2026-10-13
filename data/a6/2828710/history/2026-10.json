@@ -325,11 +325,41 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-13T19:22:25.694Z",
+      "change_number": 39790751,
+      "changes": [
+        {
+          "after": "84",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "4598",
+          "before": "4608",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/15"
+        },
+        {
+          "after": "4608",
+          "before": "4598",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/16"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39786387,
+      "change_number": 39790751,
       "data": {
         "appinfo": {
           "common": {
@@ -466,6 +496,8 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "1",
+            "review_percentage": "84",
+            "review_score": "7",
             "small_capsule": {
               "english": "c845c26a71524fa38b25c3b3da23a384de7d1436/capsule_231x87.jpg",
               "schinese": "a51a07ceacf190c1916ddba761e70916daefd01f/capsule_231x87_schinese.jpg"
@@ -488,8 +520,8 @@
               "12": "4191",
               "13": "3993",
               "14": "1667",
-              "15": "4608",
-              "16": "4598",
+              "15": "4598",
+              "16": "4608",
               "17": "7481",
               "18": "4166",
               "19": "5372"
@@ -641,11 +673,11 @@
           }
         }
       },
-      "observed_at": "2026-10-13T17:37:25.725Z",
+      "observed_at": "2026-10-13T19:22:25.694Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-13T17:37:25.725Z"
+  "updated_at": "2026-10-13T19:22:25.694Z"
 }
