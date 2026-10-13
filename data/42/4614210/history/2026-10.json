@@ -680,11 +680,50 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-13T15:37:27.478Z",
+      "change_number": 39783810,
+      "changes": [
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/spanish"
+        },
+        {
+          "after": "25827738",
+          "before": "25702623",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791545776,
+          "before": 1791067188,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791905832,
+          "before": 1791067278,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3160845966722973063",
+          "before": "7634159929432236217",
+          "op": "replace",
+          "path": "/depots/depots/4614211/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39727831,
+      "change_number": 39783810,
       "data": {
         "appinfo": {
           "common": {
@@ -818,6 +857,9 @@
               "polish": {
                 "supported": "true"
               },
+              "spanish": {
+                "supported": "true"
+              },
               "turkish": {
                 "supported": "true"
               }
@@ -835,21 +877,21 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25702623",
-              "timebuildupdated": 1791067188,
-              "timeupdated": 1791067278
+              "buildid": "25827738",
+              "timebuildupdated": 1791545776,
+              "timeupdated": 1791905832
             }
           },
           "depots": {
             "4614211": {
               "manifests": {
-                "public": "7634159929432236217"
+                "public": "3160845966722973063"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-12T02:22:24.767Z",
+      "observed_at": "2026-10-13T15:37:27.478Z",
       "tracked": true
     },
     "steam_store": {
@@ -983,5 +1025,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-12T02:22:24.767Z"
+  "updated_at": "2026-10-13T15:37:27.478Z"
 }
