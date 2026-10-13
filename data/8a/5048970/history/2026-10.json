@@ -317,11 +317,39 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-13T05:37:24.340Z",
+      "change_number": 39766517,
+      "changes": [
+        {
+          "after": {
+            "buildid": "25899898",
+            "description": "testing-branch",
+            "timebuildupdated": 1791869851,
+            "timeupdated": 1791869851
+          },
+          "op": "add",
+          "path": "/depots/branches/demo"
+        },
+        {
+          "after": "8292807464853982317",
+          "op": "add",
+          "path": "/depots/depots/5048971/manifests/demo"
+        },
+        {
+          "after": "1126335092081239158",
+          "op": "add",
+          "path": "/depots/depots/5048972/manifests/demo"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39504517,
+      "change_number": 39766517,
       "data": {
         "appinfo": {
           "common": {
@@ -463,6 +491,12 @@
         },
         "depots": {
           "branches": {
+            "demo": {
+              "buildid": "25899898",
+              "description": "testing-branch",
+              "timebuildupdated": 1791869851,
+              "timeupdated": 1791869851
+            },
             "public": {
               "buildid": "25707199",
               "timebuildupdated": 1791100828,
@@ -475,6 +509,7 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "demo": "8292807464853982317",
                 "public": "4142493725644380236"
               }
             },
@@ -483,13 +518,14 @@
                 "oslist": "linux"
               },
               "manifests": {
+                "demo": "1126335092081239158",
                 "public": "4512975249246629995"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-05T15:37:16.059Z",
+      "observed_at": "2026-10-13T05:37:24.340Z",
       "tracked": true
     },
     "steam_store": {
@@ -623,5 +659,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-06T22:52:19.231Z"
+  "updated_at": "2026-10-13T05:37:24.340Z"
 }
