@@ -768,11 +768,31 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-14T14:52:28.240Z",
+      "change_number": 39822649,
+      "changes": [
+        {
+          "after": "50",
+          "before": "10",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "10000000",
+          "before": "1000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39772534,
+      "change_number": 39822649,
       "data": {
         "appinfo": {
           "common": {
@@ -945,8 +965,8 @@
             "publisher": "Klafti Studio"
           },
           "ufs": {
-            "maxnumfiles": "10",
-            "quota": "1000000"
+            "maxnumfiles": "50",
+            "quota": "10000000"
           }
         },
         "depots": {
@@ -977,7 +997,7 @@
           }
         }
       },
-      "observed_at": "2026-10-13T09:52:27.316Z",
+      "observed_at": "2026-10-14T14:52:28.240Z",
       "tracked": true
     },
     "steam_store": {
@@ -1140,5 +1160,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-13T09:52:27.316Z"
+  "updated_at": "2026-10-14T14:52:28.240Z"
 }
