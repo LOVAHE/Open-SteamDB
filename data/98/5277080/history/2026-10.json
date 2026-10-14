@@ -221,11 +221,31 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-14T01:37:27.733Z",
+      "change_number": 39799959,
+      "changes": [
+        {
+          "after": "1024",
+          "before": "4",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "536870912",
+          "before": "33554432",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39799261,
+      "change_number": 39799959,
       "data": {
         "appinfo": {
           "common": {
@@ -371,8 +391,8 @@
             "publisher": "Ringarden"
           },
           "ufs": {
-            "maxnumfiles": "4",
-            "quota": "33554432",
+            "maxnumfiles": "1024",
+            "quota": "536870912",
             "savefiles": {
               "0": {
                 "path": "BloomBlowSteam/{64BitSteamID}/product/cloud",
@@ -419,11 +439,11 @@
           }
         }
       },
-      "observed_at": "2026-10-14T01:07:32.704Z",
+      "observed_at": "2026-10-14T01:37:27.733Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-14T01:07:32.704Z"
+  "updated_at": "2026-10-14T01:37:27.733Z"
 }
