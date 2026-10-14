@@ -1071,11 +1071,35 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-14T21:52:32.918Z",
+      "change_number": 39837421,
+      "changes": [
+        {
+          "after": "windows,macos",
+          "before": "windows,macos,linux",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/4388862"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39836854,
+      "change_number": 39837421,
       "data": {
         "appinfo": {
           "common": {
@@ -1178,7 +1202,7 @@
             "name": "Florentum",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows,macos,linux",
+            "oslist": "windows,macos",
             "primary_genre": "2",
             "small_capsule": {
               "english": "e09d8dbd7889a831acdf9dccacf624c396df9f6e/capsule_231x87.jpg"
@@ -1267,15 +1291,21 @@
               "manifests": {
                 "public": "7447577735016615147"
               }
+            },
+            "4388862": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-10-14T21:37:30.473Z",
+      "observed_at": "2026-10-14T21:52:32.918Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-14T21:37:30.473Z"
+  "updated_at": "2026-10-14T21:52:32.918Z"
 }
