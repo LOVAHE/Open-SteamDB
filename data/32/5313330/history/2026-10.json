@@ -144,11 +144,55 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-14T00:37:27.965Z",
+      "change_number": 39798455,
+      "changes": [
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "25921382",
+          "before": "25568955",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791937287,
+          "before": 1790560571,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791937287,
+          "before": 1790560659,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "2461736898914837930"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5313332"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39555505,
+      "change_number": 39798455,
       "data": {
         "appinfo": {
           "common": {
@@ -232,7 +276,7 @@
             "name": "Attunement Demo",
             "osarch": "",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,macos",
             "parent": "5295850",
             "primary_genre": "3",
             "small_capsule": {
@@ -260,9 +304,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25568955",
-              "timebuildupdated": 1790560571,
-              "timeupdated": 1790560659
+              "buildid": "25921382",
+              "timebuildupdated": 1791937287,
+              "timeupdated": 1791937287
             }
           },
           "depots": {
@@ -275,15 +319,23 @@
               "manifests": {
                 "public": "5261426874508082176"
               }
+            },
+            "5313332": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "2461736898914837930"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-06T23:22:24.418Z",
+      "observed_at": "2026-10-14T00:37:27.965Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-06T23:22:24.418Z"
+  "updated_at": "2026-10-14T00:37:27.965Z"
 }
