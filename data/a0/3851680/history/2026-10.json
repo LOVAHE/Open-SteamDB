@@ -327,11 +327,34 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-14T13:07:29.116Z",
+      "change_number": 39819057,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "20",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "Atelier Sento/{64BitSteamID}/TheDollShop",
+                "pattern": "*.save",
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39816813,
+      "change_number": 39819057,
       "data": {
         "appinfo": {
           "common": {
@@ -483,6 +506,17 @@
             "developer": "Atelier Sentô",
             "homepage": "https://ateliersento.com/",
             "publisher": "Atelier Sentô"
+          },
+          "ufs": {
+            "maxnumfiles": "20",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "Atelier Sento/{64BitSteamID}/TheDollShop",
+                "pattern": "*.save",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -513,11 +547,11 @@
           }
         }
       },
-      "observed_at": "2026-10-14T11:52:26.621Z",
+      "observed_at": "2026-10-14T13:07:29.116Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-14T11:52:26.621Z"
+  "updated_at": "2026-10-14T13:07:29.116Z"
 }
