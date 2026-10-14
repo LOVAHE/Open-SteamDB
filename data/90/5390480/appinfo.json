@@ -1,8 +1,8 @@
 {
   "appid": 5390480,
   "source": "steam_pics",
-  "updated_at": "2026-10-14T22:22:28.520Z",
-  "change_number": 39838088,
+  "updated_at": "2026-10-14T22:37:28.045Z",
+  "change_number": 39838403,
   "data": {
     "common": {
       "associations": {
@@ -166,6 +166,41 @@
     },
     "config": {
       "installdir": "Kintsugi Cottage Demo"
+    },
+    "ufs": {
+      "maxnumfiles": "15",
+      "quota": "10485760",
+      "rootoverrides": {
+        "0": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Godot/app_userdata/Kintsugi Cottage",
+              "replace": "godot/app_userdata/Kintsugi Cottage"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Godot/app_userdata/Kintsugi Cottage",
+          "pattern": "save_*.json",
+          "root": "WinAppDataRoaming"
+        },
+        "1": {
+          "path": "Godot/app_userdata/Kintsugi Cottage",
+          "pattern": "save_*.json.bak",
+          "root": "WinAppDataRoaming"
+        },
+        "2": {
+          "path": "Godot/app_userdata/Kintsugi Cottage",
+          "pattern": "save_slots.cfg",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }

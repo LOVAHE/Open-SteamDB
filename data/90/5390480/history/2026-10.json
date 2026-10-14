@@ -208,11 +208,58 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-14T22:37:28.045Z",
+      "change_number": 39838403,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "15",
+            "quota": "10485760",
+            "rootoverrides": {
+              "0": {
+                "os": "Linux",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Godot/app_userdata/Kintsugi Cottage",
+                    "replace": "godot/app_userdata/Kintsugi Cottage"
+                  }
+                },
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/Kintsugi Cottage",
+                "pattern": "save_*.json",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/Kintsugi Cottage",
+                "pattern": "save_*.json.bak",
+                "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "Godot/app_userdata/Kintsugi Cottage",
+                "pattern": "save_slots.cfg",
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39838088,
+      "change_number": 39838403,
       "data": {
         "appinfo": {
           "common": {
@@ -377,6 +424,41 @@
           "extended": {
             "developer": "fdots games",
             "publisher": "fdots games"
+          },
+          "ufs": {
+            "maxnumfiles": "15",
+            "quota": "10485760",
+            "rootoverrides": {
+              "0": {
+                "os": "Linux",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Godot/app_userdata/Kintsugi Cottage",
+                    "replace": "godot/app_userdata/Kintsugi Cottage"
+                  }
+                },
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/Kintsugi Cottage",
+                "pattern": "save_*.json",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/Kintsugi Cottage",
+                "pattern": "save_*.json.bak",
+                "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "Godot/app_userdata/Kintsugi Cottage",
+                "pattern": "save_slots.cfg",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -407,11 +489,11 @@
           }
         }
       },
-      "observed_at": "2026-10-14T22:22:28.520Z",
+      "observed_at": "2026-10-14T22:37:28.045Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-14T22:22:28.520Z"
+  "updated_at": "2026-10-14T22:37:28.045Z"
 }
