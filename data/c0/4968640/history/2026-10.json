@@ -929,11 +929,34 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-14T11:07:30.250Z",
+      "change_number": 39815353,
+      "changes": [
+        {
+          "after": {
+            "buildid": "25931625",
+            "description": "You can try out the latest patch scheduled for release.",
+            "timebuildupdated": 1791975494,
+            "timeupdated": 1791975915
+          },
+          "op": "add",
+          "path": "/depots/branches/experimental"
+        },
+        {
+          "after": "8785941308045353121",
+          "op": "add",
+          "path": "/depots/depots/4968641/manifests/experimental"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39812608,
+      "change_number": 39815353,
       "data": {
         "appinfo": {
           "common": {
@@ -1133,6 +1156,12 @@
         },
         "depots": {
           "branches": {
+            "experimental": {
+              "buildid": "25931625",
+              "description": "You can try out the latest patch scheduled for release.",
+              "timebuildupdated": 1791975494,
+              "timeupdated": 1791975915
+            },
             "public": {
               "buildid": "25846813",
               "timebuildupdated": 1791619115,
@@ -1158,17 +1187,18 @@
             },
             "4968641": {
               "manifests": {
+                "experimental": "8785941308045353121",
                 "public": "5234554018681201031"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-14T09:52:27.967Z",
+      "observed_at": "2026-10-14T11:07:30.250Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-14T09:52:27.967Z"
+  "updated_at": "2026-10-14T11:07:30.250Z"
 }
