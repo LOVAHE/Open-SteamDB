@@ -503,11 +503,35 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-14T21:07:31.122Z",
+      "change_number": 39835878,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "10",
+            "quota": "1048576",
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/No Survivors",
+                "pattern": "save_data.json",
+                "root": "WinAppDataRoaming"
+              },
+              "copied_from_parent": "1"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39754703,
+      "change_number": 39835878,
       "data": {
         "appinfo": {
           "common": {
@@ -626,6 +650,18 @@
           "extended": {
             "developer": "Sparky Games",
             "publisher": "Sparky Games"
+          },
+          "ufs": {
+            "maxnumfiles": "10",
+            "quota": "1048576",
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/No Survivors",
+                "pattern": "save_data.json",
+                "root": "WinAppDataRoaming"
+              },
+              "copied_from_parent": "1"
+            }
           }
         },
         "depots": {
@@ -645,7 +681,7 @@
           }
         }
       },
-      "observed_at": "2026-10-12T19:52:24.813Z",
+      "observed_at": "2026-10-14T21:07:31.122Z",
       "tracked": true
     },
     "steam_store": {
@@ -793,5 +829,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-12T19:52:24.813Z"
+  "updated_at": "2026-10-14T21:07:31.122Z"
 }
