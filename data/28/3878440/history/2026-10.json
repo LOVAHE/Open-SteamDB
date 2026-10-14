@@ -1728,11 +1728,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-14T10:07:26.907Z",
+      "change_number": 39813463,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "400",
+            "quota": "40000000",
+            "savefiles": {
+              "0": {
+                "path": "SoloCultivation/saves",
+                "pattern": "*",
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39812863,
+      "change_number": 39813463,
       "data": {
         "appinfo": {
           "common": {
@@ -1870,6 +1893,17 @@
           "extended": {
             "developer": "mindlesspanic",
             "publisher": "mindlesspanic"
+          },
+          "ufs": {
+            "maxnumfiles": "400",
+            "quota": "40000000",
+            "savefiles": {
+              "0": {
+                "path": "SoloCultivation/saves",
+                "pattern": "*",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -1906,7 +1940,7 @@
           }
         }
       },
-      "observed_at": "2026-10-14T09:52:27.967Z",
+      "observed_at": "2026-10-14T10:07:26.907Z",
       "tracked": true
     },
     "steam_store": {
@@ -2024,5 +2058,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-14T09:52:27.967Z"
+  "updated_at": "2026-10-14T10:07:26.907Z"
 }
