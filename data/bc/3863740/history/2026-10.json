@@ -343,11 +343,42 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-14T11:37:31.852Z",
+      "change_number": 39816162,
+      "changes": [
+        {
+          "after": "9000",
+          "before": "1000",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "1000000000",
+          "before": "100000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        },
+        {
+          "after": {
+            "0": {
+              "path": "Noplan Studio/NeeNee DeskPals",
+              "pattern": "*",
+              "root": "WinAppDataLocalLow"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39808332,
+      "change_number": 39816162,
       "data": {
         "appinfo": {
           "common": {
@@ -585,8 +616,15 @@
             "publisher": "NoPlan Studio"
           },
           "ufs": {
-            "maxnumfiles": "1000",
-            "quota": "100000000"
+            "maxnumfiles": "9000",
+            "quota": "1000000000",
+            "savefiles": {
+              "0": {
+                "path": "Noplan Studio/NeeNee DeskPals",
+                "pattern": "*",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -606,11 +644,11 @@
           }
         }
       },
-      "observed_at": "2026-10-14T07:37:30.005Z",
+      "observed_at": "2026-10-14T11:37:31.852Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-14T07:37:30.005Z"
+  "updated_at": "2026-10-14T11:37:31.852Z"
 }
