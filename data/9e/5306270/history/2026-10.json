@@ -276,11 +276,34 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-14T16:52:27.023Z",
+      "change_number": 39827701,
+      "changes": [
+        {
+          "after": {
+            "buildid": "25938948",
+            "description": "workshop test",
+            "timebuildupdated": 1791995474,
+            "timeupdated": 1791995488
+          },
+          "op": "add",
+          "path": "/depots/branches/workshop-beta"
+        },
+        {
+          "after": "5608580704261415251",
+          "op": "add",
+          "path": "/depots/depots/5306271/manifests/workshop-beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39826943,
+      "change_number": 39827701,
       "data": {
         "appinfo": {
           "common": {
@@ -497,22 +520,29 @@
               "buildid": "25451098",
               "timebuildupdated": 1790046622,
               "timeupdated": 1790046879
+            },
+            "workshop-beta": {
+              "buildid": "25938948",
+              "description": "workshop test",
+              "timebuildupdated": 1791995474,
+              "timeupdated": 1791995488
             }
           },
           "depots": {
             "5306271": {
               "manifests": {
-                "public": "5704193609287709058"
+                "public": "5704193609287709058",
+                "workshop-beta": "5608580704261415251"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-14T16:37:37.227Z",
+      "observed_at": "2026-10-14T16:52:27.023Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-14T16:37:37.227Z"
+  "updated_at": "2026-10-14T16:52:27.023Z"
 }

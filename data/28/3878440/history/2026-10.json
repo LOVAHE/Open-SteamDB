@@ -1751,11 +1751,91 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-14T16:52:27.023Z",
+      "change_number": 39827625,
+      "changes": [
+        {
+          "after": "25914562",
+          "before": "25884673",
+          "op": "replace",
+          "path": "/depots/branches/previous_branch/buildid"
+        },
+        {
+          "after": 1791914735,
+          "before": 1791815717,
+          "op": "replace",
+          "path": "/depots/branches/previous_branch/timebuildupdated"
+        },
+        {
+          "after": 1791914960,
+          "before": 1791815801,
+          "op": "replace",
+          "path": "/depots/branches/previous_branch/timeupdated"
+        },
+        {
+          "after": "25939269",
+          "before": "25914562",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791996354,
+          "before": 1791914735,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1791996587,
+          "before": 1791914960,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "25939269",
+          "before": "25914562",
+          "op": "replace",
+          "path": "/depots/branches/test/buildid"
+        },
+        {
+          "after": 1791996354,
+          "before": 1791914735,
+          "op": "replace",
+          "path": "/depots/branches/test/timebuildupdated"
+        },
+        {
+          "after": 1791996356,
+          "before": 1791914736,
+          "op": "replace",
+          "path": "/depots/branches/test/timeupdated"
+        },
+        {
+          "after": "6462749222921666340",
+          "before": "5720403187368552719",
+          "op": "replace",
+          "path": "/depots/depots/3878441/manifests/previous_branch"
+        },
+        {
+          "after": "830130621610825160",
+          "before": "6462749222921666340",
+          "op": "replace",
+          "path": "/depots/depots/3878441/manifests/public"
+        },
+        {
+          "after": "830130621610825160",
+          "before": "6462749222921666340",
+          "op": "replace",
+          "path": "/depots/depots/3878441/manifests/test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39813463,
+      "change_number": 39827625,
       "data": {
         "appinfo": {
           "common": {
@@ -1909,21 +1989,21 @@
         "depots": {
           "branches": {
             "previous_branch": {
-              "buildid": "25884673",
-              "description": "rollback",
-              "timebuildupdated": 1791815717,
-              "timeupdated": 1791815801
-            },
-            "public": {
               "buildid": "25914562",
+              "description": "rollback",
               "timebuildupdated": 1791914735,
               "timeupdated": 1791914960
             },
+            "public": {
+              "buildid": "25939269",
+              "timebuildupdated": 1791996354,
+              "timeupdated": 1791996587
+            },
             "test": {
-              "buildid": "25914562",
+              "buildid": "25939269",
               "description": "test",
-              "timebuildupdated": 1791914735,
-              "timeupdated": 1791914736
+              "timebuildupdated": 1791996354,
+              "timeupdated": 1791996356
             }
           },
           "depots": {
@@ -1932,15 +2012,15 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "previous_branch": "5720403187368552719",
-                "public": "6462749222921666340",
-                "test": "6462749222921666340"
+                "previous_branch": "6462749222921666340",
+                "public": "830130621610825160",
+                "test": "830130621610825160"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-14T10:07:26.907Z",
+      "observed_at": "2026-10-14T16:52:27.023Z",
       "tracked": true
     },
     "steam_store": {
@@ -2058,5 +2138,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-14T10:07:26.907Z"
+  "updated_at": "2026-10-14T16:52:27.023Z"
 }
