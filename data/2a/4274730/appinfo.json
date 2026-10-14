@@ -1,8 +1,8 @@
 {
   "appid": 4274730,
   "source": "steam_pics",
-  "updated_at": "2026-10-14T03:22:29.060Z",
-  "change_number": 39802635,
+  "updated_at": "2026-10-14T08:37:24.443Z",
+  "change_number": 39809768,
   "data": {
     "common": {
       "associations": {
@@ -150,33 +150,28 @@
     "ufs": {
       "maxnumfiles": "500",
       "quota": "5000000000",
-      "savefiles": {
+      "rootoverrides": {
         "0": {
-          "path": "roguefort\\saves",
-          "pattern": "*",
-          "platforms": {
-            "1": "Windows"
-          },
-          "recursive": "1",
-          "root": "WinAppDataRoaming"
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
         },
         "1": {
+          "addpath": "",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgConfigHome"
+        }
+      },
+      "savefiles": {
+        "0": {
           "path": "roguefort/saves",
           "pattern": "*",
-          "platforms": {
-            "1": "MacOS"
-          },
           "recursive": "1",
-          "root": "MacAppSupport"
-        },
-        "2": {
-          "path": "roguefort/saves",
-          "pattern": "*",
-          "platforms": {
-            "1": "Linux"
-          },
-          "recursive": "1",
-          "root": "LinuxXdgConfigHome"
+          "root": "WinAppDataRoaming"
         }
       }
     }

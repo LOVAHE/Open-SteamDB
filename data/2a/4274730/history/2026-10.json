@@ -280,11 +280,78 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-14T08:37:24.443Z",
+      "change_number": 39809768,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "addpath": "",
+              "os": "MacOS",
+              "oscompare": "=",
+              "root": "WinAppDataRoaming",
+              "useinstead": "MacAppSupport"
+            },
+            "1": {
+              "addpath": "",
+              "os": "Linux",
+              "oscompare": "=",
+              "root": "WinAppDataRoaming",
+              "useinstead": "LinuxXdgConfigHome"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "after": "roguefort/saves",
+          "before": "roguefort\\saves",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/path"
+        },
+        {
+          "before": {
+            "1": "Windows"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/0/platforms"
+        },
+        {
+          "before": {
+            "path": "roguefort/saves",
+            "pattern": "*",
+            "platforms": {
+              "1": "MacOS"
+            },
+            "recursive": "1",
+            "root": "MacAppSupport"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/1"
+        },
+        {
+          "before": {
+            "path": "roguefort/saves",
+            "pattern": "*",
+            "platforms": {
+              "1": "Linux"
+            },
+            "recursive": "1",
+            "root": "LinuxXdgConfigHome"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/2"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39802635,
+      "change_number": 39809768,
       "data": {
         "appinfo": {
           "common": {
@@ -433,33 +500,28 @@
           "ufs": {
             "maxnumfiles": "500",
             "quota": "5000000000",
-            "savefiles": {
+            "rootoverrides": {
               "0": {
-                "path": "roguefort\\saves",
-                "pattern": "*",
-                "platforms": {
-                  "1": "Windows"
-                },
-                "recursive": "1",
-                "root": "WinAppDataRoaming"
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
               },
               "1": {
+                "addpath": "",
+                "os": "Linux",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgConfigHome"
+              }
+            },
+            "savefiles": {
+              "0": {
                 "path": "roguefort/saves",
                 "pattern": "*",
-                "platforms": {
-                  "1": "MacOS"
-                },
                 "recursive": "1",
-                "root": "MacAppSupport"
-              },
-              "2": {
-                "path": "roguefort/saves",
-                "pattern": "*",
-                "platforms": {
-                  "1": "Linux"
-                },
-                "recursive": "1",
-                "root": "LinuxXdgConfigHome"
+                "root": "WinAppDataRoaming"
               }
             }
           }
@@ -500,11 +562,11 @@
           }
         }
       },
-      "observed_at": "2026-10-14T03:22:29.060Z",
+      "observed_at": "2026-10-14T08:37:24.443Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-14T03:22:29.060Z"
+  "updated_at": "2026-10-14T08:37:24.443Z"
 }
