@@ -241,11 +241,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-14T02:37:24.825Z",
+      "change_number": 39801570,
+      "changes": [
+        {
+          "after": "Cheese_Factory_GitRepo",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/path"
+        },
+        {
+          "after": "WinAppDataLocal",
+          "before": "gameinstall",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/root"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39801174,
+      "change_number": 39801570,
       "data": {
         "appinfo": {
           "common": {
@@ -386,9 +406,9 @@
             "quota": "20000000",
             "savefiles": {
               "0": {
-                "path": "",
+                "path": "Cheese_Factory_GitRepo",
                 "pattern": ".ini",
-                "root": "gameinstall"
+                "root": "WinAppDataLocal"
               }
             }
           }
@@ -410,11 +430,11 @@
           }
         }
       },
-      "observed_at": "2026-10-14T02:22:26.083Z",
+      "observed_at": "2026-10-14T02:37:24.825Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-14T02:22:26.083Z"
+  "updated_at": "2026-10-14T02:37:24.825Z"
 }
