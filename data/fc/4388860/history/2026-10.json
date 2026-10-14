@@ -1033,11 +1033,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-14T21:37:30.473Z",
+      "change_number": 39836854,
+      "changes": [
+        {
+          "after": "windows,macos,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "25944733",
+          "before": "25922541",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792013342,
+          "before": 1791941562,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792013502,
+          "before": 1791941585,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7447577735016615147",
+          "before": "7917363026724602811",
+          "op": "replace",
+          "path": "/depots/depots/4388861/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39802313,
+      "change_number": 39836854,
       "data": {
         "appinfo": {
           "common": {
@@ -1140,7 +1178,7 @@
             "name": "Florentum",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,macos,linux",
             "primary_genre": "2",
             "small_capsule": {
               "english": "e09d8dbd7889a831acdf9dccacf624c396df9f6e/capsule_231x87.jpg"
@@ -1215,9 +1253,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25922541",
-              "timebuildupdated": 1791941562,
-              "timeupdated": 1791941585
+              "buildid": "25944733",
+              "timebuildupdated": 1792013342,
+              "timeupdated": 1792013502
             }
           },
           "depots": {
@@ -1227,17 +1265,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "7917363026724602811"
+                "public": "7447577735016615147"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-14T03:07:26.014Z",
+      "observed_at": "2026-10-14T21:37:30.473Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-14T03:07:26.014Z"
+  "updated_at": "2026-10-14T21:37:30.473Z"
 }
