@@ -634,11 +634,42 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-15T11:52:29.621Z",
+      "change_number": 39858717,
+      "changes": [
+        {
+          "after": "macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "macos"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5212171"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39850719,
+      "change_number": 39858717,
       "data": {
         "appinfo": {
           "common": {
@@ -738,8 +769,8 @@
               "english": "The Proxy Demo"
             },
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macosapplesilicon",
+            "oslist": "windows,macos",
             "parent": "4942660",
             "primary_genre": "3",
             "small_capsule": {
@@ -777,6 +808,13 @@
             }
           },
           "depots": {
+            "5212171": {
+              "config": {
+                "osarch": "64",
+                "oslist": "macos"
+              },
+              "manifests": {}
+            },
             "5212179": {
               "config": {
                 "osarch": "64",
@@ -789,7 +827,7 @@
           }
         }
       },
-      "observed_at": "2026-10-15T07:37:30.167Z",
+      "observed_at": "2026-10-15T11:52:29.621Z",
       "tracked": true
     },
     "steam_store": {
@@ -948,5 +986,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T07:37:30.167Z"
+  "updated_at": "2026-10-15T11:52:29.621Z"
 }
