@@ -172,11 +172,39 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-15T07:52:26.903Z",
+      "change_number": 39851062,
+      "changes": [
+        {
+          "after": {
+            "buildid": "25953585",
+            "description": "1.0 UPDATE beta - ARCADE 21 games",
+            "timebuildupdated": 1792048549,
+            "timeupdated": 1792050058
+          },
+          "op": "add",
+          "path": "/depots/branches/beta10"
+        },
+        {
+          "after": "9168058256913633657",
+          "op": "add",
+          "path": "/depots/depots/4955611/manifests/beta10"
+        },
+        {
+          "after": "5948006679142806068",
+          "op": "add",
+          "path": "/depots/depots/4955612/manifests/beta10"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39816804,
+      "change_number": 39851062,
       "data": {
         "appinfo": {
           "common": {
@@ -308,6 +336,12 @@
         },
         "depots": {
           "branches": {
+            "beta10": {
+              "buildid": "25953585",
+              "description": "1.0 UPDATE beta - ARCADE 21 games",
+              "timebuildupdated": 1792048549,
+              "timeupdated": 1792050058
+            },
             "public": {
               "buildid": "25861780",
               "timebuildupdated": 1791709049,
@@ -320,6 +354,7 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "beta10": "9168058256913633657",
                 "public": "3059014319344470841"
               }
             },
@@ -329,17 +364,18 @@
                 "oslist": "linux"
               },
               "manifests": {
+                "beta10": "5948006679142806068",
                 "public": "2445383680191923467"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-14T12:22:28.867Z",
+      "observed_at": "2026-10-15T07:52:26.903Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-14T12:22:28.867Z"
+  "updated_at": "2026-10-15T07:52:26.903Z"
 }
