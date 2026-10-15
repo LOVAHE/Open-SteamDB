@@ -471,11 +471,60 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-15T10:22:30.145Z",
+      "change_number": 39855986,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": {
+            "maxnumfiles": "10000",
+            "quota": "500000000",
+            "savefiles": {
+              "0": {
+                "path": "Lichthund/Rockbeasts/SaveData",
+                "pattern": "*.sav",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "Lichthund/Rockbeasts/SaveData",
+                "pattern": "*.json",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
+              },
+              "2": {
+                "path": "Lichthund/Rockbeasts/Photos",
+                "pattern": "*.png",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39853751,
+      "change_number": 39855986,
       "data": {
         "appinfo": {
           "common": {
@@ -495,6 +544,7 @@
             },
             "category": {
               "category_2": "1",
+              "category_23": "1",
               "category_28": "1",
               "category_55": "1",
               "category_56": "1",
@@ -624,6 +674,38 @@
             "developer": "LICHTHUND",
             "homepage": "https://rockbeasts.com/",
             "publisher": "LICHTHUND"
+          },
+          "ufs": {
+            "maxnumfiles": "10000",
+            "quota": "500000000",
+            "savefiles": {
+              "0": {
+                "path": "Lichthund/Rockbeasts/SaveData",
+                "pattern": "*.sav",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "Lichthund/Rockbeasts/SaveData",
+                "pattern": "*.json",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
+              },
+              "2": {
+                "path": "Lichthund/Rockbeasts/Photos",
+                "pattern": "*.png",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -643,11 +725,11 @@
           }
         }
       },
-      "observed_at": "2026-10-15T09:22:37.115Z",
+      "observed_at": "2026-10-15T10:22:30.145Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T09:22:37.115Z"
+  "updated_at": "2026-10-15T10:22:30.145Z"
 }
