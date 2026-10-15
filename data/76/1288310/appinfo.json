@@ -1,8 +1,8 @@
 {
   "appid": 1288310,
   "source": "steam_pics",
-  "updated_at": "2026-10-04T16:32:21.706Z",
-  "change_number": 37443736,
+  "updated_at": "2026-10-15T18:07:37.772Z",
+  "change_number": 39872376,
   "data": {
     "common": {
       "associations": {
@@ -106,9 +106,9 @@
         "configuration": {
           "gamescope_frame_limiter_not_supported": "0",
           "hdr_support": "0",
-          "non_deck_display_glyphs": "0",
+          "non_deck_display_glyphs": "1",
           "primary_player_is_controller_slot_0": "0",
-          "recommended_runtime": "proton-7.0-3",
+          "recommended_runtime": "proton-stable",
           "requires_h264": "0",
           "requires_internet_for_setup": "0",
           "requires_internet_for_singleplayer": "0",
@@ -117,18 +117,39 @@
           "requires_proton_soundfonts": "0",
           "requires_voice_files": "0",
           "small_text": "0",
-          "supported_input": "gamepad"
+          "supported_input": "other"
         },
-        "steam_machine_compatibility": "0",
-        "steam_machine_tests": {},
+        "steam_machine_compatibility": "2",
+        "steam_machine_tests": {
+          "0": {
+            "display": "3",
+            "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+          },
+          "1": {
+            "display": "3",
+            "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+          },
+          "2": {
+            "display": "4",
+            "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+          },
+          "3": {
+            "display": "4",
+            "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+          }
+        },
         "steamos_compatibility": "2",
         "steamos_tests": {
           "0": {
             "display": "3",
             "token": "#SteamOS_TestResult_GameStartupFunctional"
+          },
+          "1": {
+            "display": "1",
+            "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
           }
         },
-        "test_timestamp": "1658188800",
+        "test_timestamp": "1791481990",
         "tested_build_id": "7840723",
         "tests": {
           "0": {
