@@ -490,11 +490,61 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-15T21:22:36.781Z",
+      "change_number": 39878247,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "25970978",
+          "before": "25949982",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792099220,
+          "before": 1792033236,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792099220,
+          "before": 1792033662,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6208062549809626255",
+          "before": "7818242778291232167",
+          "op": "replace",
+          "path": "/depots/depots/5371571/manifests/public"
+        },
+        {
+          "after": "2528296833235343930",
+          "before": "2247307128258924256",
+          "op": "replace",
+          "path": "/depots/depots/5371573/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39844914,
+      "change_number": 39878247,
       "data": {
         "appinfo": {
           "common": {
@@ -585,8 +635,8 @@
             },
             "name": "Head Miner Demo",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos",
             "parent": "5181050",
             "primary_genre": "4",
             "small_capsule": {
@@ -688,9 +738,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25949982",
-              "timebuildupdated": 1792033236,
-              "timeupdated": 1792033662
+              "buildid": "25970978",
+              "timebuildupdated": 1792099220,
+              "timeupdated": 1792099220
             }
           },
           "depots": {
@@ -699,7 +749,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "7818242778291232167"
+                "public": "6208062549809626255"
               }
             },
             "5371572": {
@@ -713,17 +763,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "2247307128258924256"
+                "public": "2528296833235343930"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-15T03:07:25.214Z",
+      "observed_at": "2026-10-15T21:22:36.781Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T03:07:25.214Z"
+  "updated_at": "2026-10-15T21:22:36.781Z"
 }
