@@ -440,11 +440,36 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-15T23:22:28.537Z",
+      "change_number": 39881537,
+      "changes": [
+        {
+          "after": "23",
+          "before": "4",
+          "op": "replace",
+          "path": "/appinfo/common/genres/1"
+        },
+        {
+          "after": "70",
+          "before": "23",
+          "op": "replace",
+          "path": "/appinfo/common/genres/2"
+        },
+        {
+          "before": "70",
+          "op": "remove",
+          "path": "/appinfo/common/genres/3"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39820378,
+      "change_number": 39881537,
       "data": {
         "appinfo": {
           "common": {
@@ -484,9 +509,8 @@
             "controller_support": "full",
             "genres": {
               "0": "1",
-              "1": "4",
-              "2": "23",
-              "3": "70"
+              "1": "23",
+              "2": "70"
             },
             "header_image": {
               "english": "417073d11575b8828b753b0d8bdd96696e572f63/header.jpg"
@@ -659,11 +683,11 @@
           }
         }
       },
-      "observed_at": "2026-10-14T13:52:29.619Z",
+      "observed_at": "2026-10-15T23:22:28.537Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-14T13:52:29.619Z"
+  "updated_at": "2026-10-15T23:22:28.537Z"
 }
