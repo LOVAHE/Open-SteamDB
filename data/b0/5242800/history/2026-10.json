@@ -750,11 +750,49 @@
       ],
       "kind": "change",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-15T13:07:27.949Z",
+      "change_number": 39861211,
+      "changes": [
+        {
+          "after": "25947357",
+          "before": "25890436",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792022863,
+          "before": 1791833012,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792069517,
+          "before": 1791849051,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3447343966020196535",
+          "before": "6240441751363598026",
+          "op": "replace",
+          "path": "/depots/depots/5242801/manifests/public"
+        },
+        {
+          "after": "2866333073346985127",
+          "before": "3170729035697025817",
+          "op": "replace",
+          "path": "/depots/depots/5242802/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39760135,
+      "change_number": 39861211,
       "data": {
         "appinfo": {
           "common": {
@@ -917,9 +955,9 @@
               "timeupdated": 1791507309
             },
             "public": {
-              "buildid": "25890436",
-              "timebuildupdated": 1791833012,
-              "timeupdated": 1791849051
+              "buildid": "25947357",
+              "timebuildupdated": 1792022863,
+              "timeupdated": 1792069517
             }
           },
           "depots": {
@@ -929,7 +967,7 @@
               },
               "manifests": {
                 "beta": "5609495847084253330",
-                "public": "6240441751363598026"
+                "public": "3447343966020196535"
               }
             },
             "5242802": {
@@ -938,13 +976,13 @@
               },
               "manifests": {
                 "beta": "8331644284376695629",
-                "public": "3170729035697025817"
+                "public": "2866333073346985127"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-12T23:52:24.711Z",
+      "observed_at": "2026-10-15T13:07:27.949Z",
       "tracked": true
     },
     "steam_store": {
@@ -1094,5 +1132,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-14T08:07:30.908Z"
+  "updated_at": "2026-10-15T13:07:27.949Z"
 }
