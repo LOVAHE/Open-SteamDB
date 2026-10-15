@@ -151,11 +151,27 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-15T00:07:26.316Z",
+      "change_number": 39840655,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "40",
+            "quota": "1000000000"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39780299,
+      "change_number": 39840655,
       "data": {
         "appinfo": {
           "common": {
@@ -269,6 +285,10 @@
           "extended": {
             "developer": "Riftway Studio",
             "publisher": "Riftway Studio"
+          },
+          "ufs": {
+            "maxnumfiles": "40",
+            "quota": "1000000000"
           }
         },
         "depots": {
@@ -293,11 +313,11 @@
           }
         }
       },
-      "observed_at": "2026-10-13T14:07:28.850Z",
+      "observed_at": "2026-10-15T00:07:26.316Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-13T14:07:28.850Z"
+  "updated_at": "2026-10-15T00:07:26.316Z"
 }

@@ -360,11 +360,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-15T00:07:26.316Z",
+      "change_number": 39840594,
+      "changes": [
+        {
+          "after": {
+            "buildid": "25947283",
+            "description": "Public preview of upcoming features. Uses a separate save game file.",
+            "timebuildupdated": 1792022548,
+            "timeupdated": 1792022549
+          },
+          "op": "add",
+          "path": "/depots/branches/beta"
+        },
+        {
+          "after": "1223739505423762334",
+          "op": "add",
+          "path": "/depots/depots/4697991/manifests/beta"
+        },
+        {
+          "after": "6977061703914813737",
+          "op": "add",
+          "path": "/depots/depots/4697992/manifests/beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39766205,
+      "change_number": 39840594,
       "data": {
         "appinfo": {
           "common": {
@@ -529,6 +557,12 @@
         },
         "depots": {
           "branches": {
+            "beta": {
+              "buildid": "25947283",
+              "description": "Public preview of upcoming features. Uses a separate save game file.",
+              "timebuildupdated": 1792022548,
+              "timeupdated": 1792022549
+            },
             "public": {
               "buildid": "25899640",
               "timebuildupdated": 1791868601,
@@ -541,6 +575,7 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "beta": "1223739505423762334",
                 "public": "6049410398275397014"
               }
             },
@@ -549,17 +584,18 @@
                 "oslist": "macos"
               },
               "manifests": {
+                "beta": "6977061703914813737",
                 "public": "4042188968526120004"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-13T05:22:28.850Z",
+      "observed_at": "2026-10-15T00:07:26.316Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-13T05:22:28.850Z"
+  "updated_at": "2026-10-15T00:07:26.316Z"
 }
