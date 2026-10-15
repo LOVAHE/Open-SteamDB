@@ -389,11 +389,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-15T11:22:35.699Z",
+      "change_number": 39857557,
+      "changes": [
+        {
+          "after": {
+            "buildid": "25957436",
+            "description": "Pre-release: the next version before it goes live. A run started here may not continue on the default version.",
+            "timebuildupdated": 1792060800,
+            "timeupdated": 1792061074
+          },
+          "op": "add",
+          "path": "/depots/branches/prerelease"
+        },
+        {
+          "after": "5398663261657880015",
+          "op": "add",
+          "path": "/depots/depots/5248521/manifests/prerelease"
+        },
+        {
+          "after": "4108380220084027067",
+          "op": "add",
+          "path": "/depots/depots/5248522/manifests/prerelease"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39856649,
+      "change_number": 39857557,
       "data": {
         "appinfo": {
           "common": {
@@ -690,6 +718,12 @@
         },
         "depots": {
           "branches": {
+            "prerelease": {
+              "buildid": "25957436",
+              "description": "Pre-release: the next version before it goes live. A run started here may not continue on the default version.",
+              "timebuildupdated": 1792060800,
+              "timeupdated": 1792061074
+            },
             "public": {
               "buildid": "25957436",
               "timebuildupdated": 1792060800,
@@ -703,6 +737,7 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "prerelease": "5398663261657880015",
                 "public": "5398663261657880015"
               }
             },
@@ -712,6 +747,7 @@
                 "oslist": "linux"
               },
               "manifests": {
+                "prerelease": "4108380220084027067",
                 "public": "4108380220084027067"
               }
             },
@@ -724,11 +760,11 @@
           }
         }
       },
-      "observed_at": "2026-10-15T10:52:28.640Z",
+      "observed_at": "2026-10-15T11:22:35.699Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T10:52:28.640Z"
+  "updated_at": "2026-10-15T11:22:35.699Z"
 }
