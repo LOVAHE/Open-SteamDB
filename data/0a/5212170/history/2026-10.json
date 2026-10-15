@@ -693,11 +693,42 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-15T15:37:31.971Z",
+      "change_number": 39866808,
+      "changes": [
+        {
+          "after": "25963673",
+          "before": "25953792",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792077779,
+          "before": 1792049270,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792078208,
+          "before": 1792049310,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "9035128828813009528",
+          "op": "add",
+          "path": "/depots/depots/5212171/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39866544,
+      "change_number": 39866808,
       "data": {
         "appinfo": {
           "common": {
@@ -836,9 +867,9 @@
               "timeupdated": 1792077779
             },
             "public": {
-              "buildid": "25953792",
-              "timebuildupdated": 1792049270,
-              "timeupdated": 1792049310
+              "buildid": "25963673",
+              "timebuildupdated": 1792077779,
+              "timeupdated": 1792078208
             }
           },
           "depots": {
@@ -848,7 +879,8 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "mactest": "9035128828813009528"
+                "mactest": "9035128828813009528",
+                "public": "9035128828813009528"
               }
             },
             "5212179": {
@@ -864,7 +896,7 @@
           }
         }
       },
-      "observed_at": "2026-10-15T15:22:29.684Z",
+      "observed_at": "2026-10-15T15:37:31.971Z",
       "tracked": true
     },
     "steam_store": {
@@ -1023,5 +1055,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T15:22:29.684Z"
+  "updated_at": "2026-10-15T15:37:31.971Z"
 }
