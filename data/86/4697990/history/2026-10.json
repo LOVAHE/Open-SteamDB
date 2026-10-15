@@ -388,11 +388,69 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-15T01:22:27.859Z",
+      "change_number": 39842392,
+      "changes": [
+        {
+          "before": {
+            "buildid": "25947283",
+            "description": "Public preview of upcoming features. Uses a separate save game file.",
+            "timebuildupdated": 1792022548,
+            "timeupdated": 1792022549
+          },
+          "op": "remove",
+          "path": "/depots/branches/beta"
+        },
+        {
+          "after": "25948384",
+          "before": "25899640",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792026939,
+          "before": 1791868601,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792027174,
+          "before": 1791868668,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": "1223739505423762334",
+          "op": "remove",
+          "path": "/depots/depots/4697991/manifests/beta"
+        },
+        {
+          "after": "5651430742854283240",
+          "before": "6049410398275397014",
+          "op": "replace",
+          "path": "/depots/depots/4697991/manifests/public"
+        },
+        {
+          "before": "6977061703914813737",
+          "op": "remove",
+          "path": "/depots/depots/4697992/manifests/beta"
+        },
+        {
+          "after": "2454998956515536159",
+          "before": "4042188968526120004",
+          "op": "replace",
+          "path": "/depots/depots/4697992/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39840594,
+      "change_number": 39842392,
       "data": {
         "appinfo": {
           "common": {
@@ -557,16 +615,10 @@
         },
         "depots": {
           "branches": {
-            "beta": {
-              "buildid": "25947283",
-              "description": "Public preview of upcoming features. Uses a separate save game file.",
-              "timebuildupdated": 1792022548,
-              "timeupdated": 1792022549
-            },
             "public": {
-              "buildid": "25899640",
-              "timebuildupdated": 1791868601,
-              "timeupdated": 1791868668
+              "buildid": "25948384",
+              "timebuildupdated": 1792026939,
+              "timeupdated": 1792027174
             }
           },
           "depots": {
@@ -575,8 +627,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "beta": "1223739505423762334",
-                "public": "6049410398275397014"
+                "public": "5651430742854283240"
               }
             },
             "4697992": {
@@ -584,18 +635,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "beta": "6977061703914813737",
-                "public": "4042188968526120004"
+                "public": "2454998956515536159"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-15T00:07:26.316Z",
+      "observed_at": "2026-10-15T01:22:27.859Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T00:07:26.316Z"
+  "updated_at": "2026-10-15T01:22:27.859Z"
 }
