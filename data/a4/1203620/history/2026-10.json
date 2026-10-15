@@ -1242,11 +1242,76 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-15T15:07:39.178Z",
+      "change_number": 39865859,
+      "changes": [
+        {
+          "before": "70",
+          "op": "remove",
+          "path": "/appinfo/common/genres/4"
+        },
+        {
+          "after": "1",
+          "before": "70",
+          "op": "replace",
+          "path": "/appinfo/common/primary_genre"
+        },
+        {
+          "after": "1792076616",
+          "before": "1706107140",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "1792073419",
+          "before": "1791999984",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "4951850,4991850",
+          "op": "add",
+          "path": "/appinfo/extended/listofdlc"
+        },
+        {
+          "after": "25936191",
+          "before": "23966345",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1791988100,
+          "before": 1782739237,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792076250,
+          "before": 1782744838,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4725006030779287006",
+          "before": "5368460047775505242",
+          "op": "replace",
+          "path": "/depots/depots/1203621/manifests/public"
+        },
+        {
+          "after": "4178926796913114816",
+          "op": "add",
+          "path": "/depots/depots/4951850/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39853128,
+      "change_number": 39865859,
       "data": {
         "appinfo": {
           "common": {
@@ -1291,8 +1356,7 @@
               "0": "1",
               "1": "25",
               "2": "23",
-              "3": "3",
-              "4": "70"
+              "3": "3"
             },
             "header_image": {
               "english": "731368301f231d622bd0b1e34afd2afcd86a1dcf/header.jpg"
@@ -1381,7 +1445,7 @@
             "osarch": "64",
             "osextended": "",
             "oslist": "windows",
-            "primary_genre": "70",
+            "primary_genre": "1",
             "review_percentage": "85",
             "review_score": "8",
             "small_capsule": {
@@ -1436,8 +1500,8 @@
                 }
               }
             },
-            "steam_release_date": "1706107140",
-            "store_asset_mtime": "1791999984",
+            "steam_release_date": "1792076616",
+            "store_asset_mtime": "1792073419",
             "store_tags": {
               "0": "1695",
               "1": "1662",
@@ -1516,6 +1580,7 @@
             "developer": "Keen Games GmbH",
             "gamedir": "Enshrouded",
             "homepage": "https://www.enshrouded.com",
+            "listofdlc": "4951850,4991850",
             "publisher": "Keen Games GmbH",
             "serverbrowsername": "Enshrouded"
           },
@@ -1527,9 +1592,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "23966345",
-              "timebuildupdated": 1782739237,
-              "timeupdated": 1782744838
+              "buildid": "25936191",
+              "timebuildupdated": 1791988100,
+              "timeupdated": 1792076250
             }
           },
           "depots": {
@@ -1543,17 +1608,19 @@
             },
             "1203621": {
               "manifests": {
-                "public": "5368460047775505242"
+                "public": "4725006030779287006"
               }
             },
             "4951850": {
               "dlcappid": 4951850,
-              "manifests": {}
+              "manifests": {
+                "public": "4178926796913114816"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-15T08:52:32.518Z",
+      "observed_at": "2026-10-15T15:07:39.178Z",
       "tracked": true
     },
     "steam_store": {
@@ -1840,5 +1907,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T08:52:32.518Z"
+  "updated_at": "2026-10-15T15:07:39.178Z"
 }
