@@ -241,11 +241,42 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-15T17:23:33.774Z",
+      "change_number": 39871055,
+      "changes": [
+        {
+          "after": "25966299",
+          "before": "25911033",
+          "op": "replace",
+          "path": "/depots/branches/internal/buildid"
+        },
+        {
+          "after": 1792084969,
+          "before": 1791904738,
+          "op": "replace",
+          "path": "/depots/branches/internal/timebuildupdated"
+        },
+        {
+          "after": 1792084969,
+          "before": 1791905023,
+          "op": "replace",
+          "path": "/depots/branches/internal/timeupdated"
+        },
+        {
+          "after": "4868269174498627126",
+          "op": "add",
+          "path": "/depots/depots/5262492/manifests/internal"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39870332,
+      "change_number": 39871055,
       "data": {
         "appinfo": {
           "common": {
@@ -424,10 +455,10 @@
         "depots": {
           "branches": {
             "internal": {
-              "buildid": "25911033",
+              "buildid": "25966299",
               "description": "Poco Loco 1.8.0",
-              "timebuildupdated": 1791904738,
-              "timeupdated": 1791905023
+              "timebuildupdated": 1792084969,
+              "timeupdated": 1792084969
             },
             "public": {
               "buildid": "25911033",
@@ -449,16 +480,18 @@
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "internal": "4868269174498627126"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-15T17:10:29.763Z",
+      "observed_at": "2026-10-15T17:23:33.774Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T17:10:29.763Z"
+  "updated_at": "2026-10-15T17:23:33.774Z"
 }
