@@ -217,11 +217,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-15T18:52:38.981Z",
+      "change_number": 39873947,
+      "changes": [
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "25968096",
+          "before": "25937175",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792090112,
+          "before": 1791990600,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792090321,
+          "before": 1791990657,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8744171388025410918",
+          "before": "4494916934805080679",
+          "op": "replace",
+          "path": "/depots/depots/5375201/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39857203,
+      "change_number": 39873947,
       "data": {
         "appinfo": {
           "common": {
@@ -323,7 +361,7 @@
             "name": "WINNIE-THE-POOH: Honey Distortion Demo",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,linux",
             "parent": "5315240",
             "primary_genre": "25",
             "small_capsule": {
@@ -365,25 +403,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25937175",
-              "timebuildupdated": 1791990600,
-              "timeupdated": 1791990657
+              "buildid": "25968096",
+              "timebuildupdated": 1792090112,
+              "timeupdated": 1792090321
             }
           },
           "depots": {
             "5375201": {
               "manifests": {
-                "public": "4494916934805080679"
+                "public": "8744171388025410918"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-15T11:07:59.391Z",
+      "observed_at": "2026-10-15T18:52:38.981Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T11:07:59.391Z"
+  "updated_at": "2026-10-15T18:52:38.981Z"
 }
