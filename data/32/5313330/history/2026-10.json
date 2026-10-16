@@ -265,11 +265,31 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-16T19:37:28.654Z",
+      "change_number": 39917448,
+      "changes": [
+        {
+          "after": "64",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osarch"
+        },
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39917407,
+      "change_number": 39917448,
       "data": {
         "appinfo": {
           "common": {
@@ -351,8 +371,8 @@
               }
             },
             "name": "Attunement Demo",
-            "osarch": "",
-            "osextended": "",
+            "osarch": "64",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
             "oslist": "windows,macos",
             "parent": "5295850",
             "primary_genre": "3",
@@ -408,11 +428,11 @@
           }
         }
       },
-      "observed_at": "2026-10-16T19:22:29.487Z",
+      "observed_at": "2026-10-16T19:37:28.654Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-16T19:22:29.487Z"
+  "updated_at": "2026-10-16T19:37:28.654Z"
 }
