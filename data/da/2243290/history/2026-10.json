@@ -828,11 +828,31 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-16T17:23:29.675Z",
+      "change_number": 39912940,
+      "changes": [
+        {
+          "after": "40",
+          "before": "10",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "500000000",
+          "before": "10000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39783308,
+      "change_number": 39912940,
       "data": {
         "appinfo": {
           "common": {
@@ -1002,8 +1022,8 @@
             "publisher": "ARIELEK"
           },
           "ufs": {
-            "maxnumfiles": "10",
-            "quota": "10000000",
+            "maxnumfiles": "40",
+            "quota": "500000000",
             "rootoverrides": {
               "0": {
                 "addpath": "ARIELEK/Number Machine",
@@ -1072,7 +1092,7 @@
           }
         }
       },
-      "observed_at": "2026-10-13T15:22:26.327Z",
+      "observed_at": "2026-10-16T17:23:29.675Z",
       "tracked": true
     },
     "steam_store": {
@@ -1330,5 +1350,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-13T15:22:26.327Z"
+  "updated_at": "2026-10-16T17:23:29.675Z"
 }
