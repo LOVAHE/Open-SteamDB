@@ -426,11 +426,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-16T02:07:27.390Z",
+      "change_number": 39885039,
+      "changes": [
+        {
+          "after": "Epic/",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/addpath"
+        },
+        {
+          "after": "MacAppSupport",
+          "before": "MacHome",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/useinstead"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39884441,
+      "change_number": 39885039,
       "data": {
         "appinfo": {
           "common": {
@@ -642,11 +662,11 @@
             "quota": "5000000",
             "rootoverrides": {
               "0": {
-                "addpath": "",
+                "addpath": "Epic/",
                 "os": "MacOS",
                 "oscompare": "=",
                 "root": "WinAppDataLocal",
-                "useinstead": "MacHome"
+                "useinstead": "MacAppSupport"
               }
             },
             "savefiles": {
@@ -707,11 +727,11 @@
           }
         }
       },
-      "observed_at": "2026-10-16T01:52:33.155Z",
+      "observed_at": "2026-10-16T02:07:27.390Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-16T01:52:33.155Z"
+  "updated_at": "2026-10-16T02:07:27.390Z"
 }
