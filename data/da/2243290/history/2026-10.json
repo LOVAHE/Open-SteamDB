@@ -848,11 +848,74 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-16T17:37:34.951Z",
+      "change_number": 39913551,
+      "changes": [
+        {
+          "before": "ARIELEK/Number Machine",
+          "op": "remove",
+          "path": "/appinfo/ufs/rootoverrides/0/addpath"
+        },
+        {
+          "after": {
+            "0": {
+              "find": "ARIELEK/Number Machine/Steam_{64BitSteamID}",
+              "replace": "ARIELEK/Number Machine/Steam_{64BitSteamID}"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides/0/pathtransforms"
+        },
+        {
+          "after": "MacAppSupport",
+          "before": "gameinstall",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/useinstead"
+        },
+        {
+          "before": ".config/unity3d/ARIELEK/Number Machine",
+          "op": "remove",
+          "path": "/appinfo/ufs/rootoverrides/1/addpath"
+        },
+        {
+          "after": {
+            "0": {
+              "find": "ARIELEK/Number Machine/Steam_{64BitSteamID}",
+              "replace": ".config/unity3d/ARIELEK/Number Machine/Steam_{64BitSteamID}"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides/1/pathtransforms"
+        },
+        {
+          "after": "LinuxHome",
+          "before": "gameinstall",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/1/useinstead"
+        },
+        {
+          "after": "ARIELEK/Number Machine/Steam_{64BitSteamID}",
+          "before": "ARIELEK/Number Machine",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/path"
+        },
+        {
+          "before": {
+            "1": "Windows"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/0/platforms"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39912940,
+      "change_number": 39913551,
       "data": {
         "appinfo": {
           "common": {
@@ -1026,27 +1089,34 @@
             "quota": "500000000",
             "rootoverrides": {
               "0": {
-                "addpath": "ARIELEK/Number Machine",
                 "os": "MacOS",
                 "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "ARIELEK/Number Machine/Steam_{64BitSteamID}",
+                    "replace": "ARIELEK/Number Machine/Steam_{64BitSteamID}"
+                  }
+                },
                 "root": "WinAppDataLocalLow",
-                "useinstead": "gameinstall"
+                "useinstead": "MacAppSupport"
               },
               "1": {
-                "addpath": ".config/unity3d/ARIELEK/Number Machine",
                 "os": "Linux",
                 "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "ARIELEK/Number Machine/Steam_{64BitSteamID}",
+                    "replace": ".config/unity3d/ARIELEK/Number Machine/Steam_{64BitSteamID}"
+                  }
+                },
                 "root": "WinAppDataLocalLow",
-                "useinstead": "gameinstall"
+                "useinstead": "LinuxHome"
               }
             },
             "savefiles": {
               "0": {
-                "path": "ARIELEK/Number Machine",
+                "path": "ARIELEK/Number Machine/Steam_{64BitSteamID}",
                 "pattern": "*.sav",
-                "platforms": {
-                  "1": "Windows"
-                },
                 "root": "WinAppDataLocalLow"
               },
               "copied_from_parent": "1"
@@ -1092,7 +1162,7 @@
           }
         }
       },
-      "observed_at": "2026-10-16T17:23:29.675Z",
+      "observed_at": "2026-10-16T17:37:34.951Z",
       "tracked": true
     },
     "steam_store": {
@@ -1350,5 +1420,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-16T17:23:29.675Z"
+  "updated_at": "2026-10-16T17:37:34.951Z"
 }

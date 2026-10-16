@@ -1,8 +1,8 @@
 {
   "appid": 2243290,
   "source": "steam_pics",
-  "updated_at": "2026-10-16T17:23:29.675Z",
-  "change_number": 39912940,
+  "updated_at": "2026-10-16T17:37:34.951Z",
+  "change_number": 39913551,
   "data": {
     "common": {
       "associations": {
@@ -175,27 +175,34 @@
       "quota": "500000000",
       "rootoverrides": {
         "0": {
-          "addpath": "ARIELEK/Number Machine",
           "os": "MacOS",
           "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "ARIELEK/Number Machine/Steam_{64BitSteamID}",
+              "replace": "ARIELEK/Number Machine/Steam_{64BitSteamID}"
+            }
+          },
           "root": "WinAppDataLocalLow",
-          "useinstead": "gameinstall"
+          "useinstead": "MacAppSupport"
         },
         "1": {
-          "addpath": ".config/unity3d/ARIELEK/Number Machine",
           "os": "Linux",
           "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "ARIELEK/Number Machine/Steam_{64BitSteamID}",
+              "replace": ".config/unity3d/ARIELEK/Number Machine/Steam_{64BitSteamID}"
+            }
+          },
           "root": "WinAppDataLocalLow",
-          "useinstead": "gameinstall"
+          "useinstead": "LinuxHome"
         }
       },
       "savefiles": {
         "0": {
-          "path": "ARIELEK/Number Machine",
+          "path": "ARIELEK/Number Machine/Steam_{64BitSteamID}",
           "pattern": "*.sav",
-          "platforms": {
-            "1": "Windows"
-          },
           "root": "WinAppDataLocalLow"
         },
         "copied_from_parent": "1"
