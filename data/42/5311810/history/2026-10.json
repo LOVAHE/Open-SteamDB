@@ -264,11 +264,57 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-16T23:52:33.179Z",
+      "change_number": 39924660,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "macosapplesilicon",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": {
+            "maxnumfiles": "10",
+            "quota": "10485760"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26000609",
+          "before": "25927387",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792194675,
+          "before": 1791962002,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792194675,
+          "before": 1791962002,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2888735911188542871",
+          "before": "6647557801368327587",
+          "op": "replace",
+          "path": "/depots/depots/5311812/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39807789,
+      "change_number": 39924660,
       "data": {
         "appinfo": {
           "common": {
@@ -368,7 +414,7 @@
             },
             "name": "Catomi: Suika Roguelike Demo",
             "osarch": "",
-            "osextended": "macosapplesilicon",
+            "osextended": "macos64,macosapplesilicon",
             "oslist": "windows,macos",
             "parent": "5150850",
             "primary_genre": "4",
@@ -393,14 +439,18 @@
             "developer": "Whisker and Scythe Studio",
             "homepage": "https://whiskerandscythe.com",
             "publisher": "Whisker and Scythe Studio"
+          },
+          "ufs": {
+            "maxnumfiles": "10",
+            "quota": "10485760"
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25927387",
-              "timebuildupdated": 1791962002,
-              "timeupdated": 1791962002
+              "buildid": "26000609",
+              "timebuildupdated": 1792194675,
+              "timeupdated": 1792194675
             }
           },
           "depots": {
@@ -417,17 +467,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "6647557801368327587"
+                "public": "2888735911188542871"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-14T07:37:30.005Z",
+      "observed_at": "2026-10-16T23:52:33.179Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-14T07:37:30.005Z"
+  "updated_at": "2026-10-16T23:52:33.179Z"
 }
