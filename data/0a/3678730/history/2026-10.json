@@ -409,11 +409,28 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-16T01:52:33.155Z",
+      "change_number": 39884441,
+      "changes": [
+        {
+          "after": {
+            "path": "BallMaze/Saved/SaveGames/Steam/{64BitSteamID}",
+            "pattern": "Save01.sav",
+            "root": "WinAppDataLocal"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/1"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39857280,
+      "change_number": 39884441,
       "data": {
         "appinfo": {
           "common": {
@@ -637,6 +654,11 @@
                 "path": "BallMaze/Saved/SaveGames",
                 "pattern": "Save01.sav",
                 "root": "WinAppDataLocal"
+              },
+              "1": {
+                "path": "BallMaze/Saved/SaveGames/Steam/{64BitSteamID}",
+                "pattern": "Save01.sav",
+                "root": "WinAppDataLocal"
               }
             }
           }
@@ -685,11 +707,11 @@
           }
         }
       },
-      "observed_at": "2026-10-15T11:07:59.391Z",
+      "observed_at": "2026-10-16T01:52:33.155Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T11:07:59.391Z"
+  "updated_at": "2026-10-16T01:52:33.155Z"
 }
