@@ -263,11 +263,75 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-16T15:22:31.687Z",
+      "change_number": 39908590,
+      "changes": [
+        {
+          "after": "9f3275474864540378dfdad80bec1ad68dc46e0b/header.jpg",
+          "before": "7b81ece78e153e7fde2e3f4e5a88dd6d4e5f0068/header.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/header_image/english"
+        },
+        {
+          "after": "df4498365f4819953e98dc2d28c8f7494f07717c/header_german.jpg",
+          "op": "add",
+          "path": "/appinfo/common/header_image/german"
+        },
+        {
+          "after": "en,de",
+          "before": "en",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets/library_capsule"
+        },
+        {
+          "after": "41f7448e2b19a20b06b718164a932b8fcf9ff531/library_capsule.jpg",
+          "before": "3a0e4aa16b799365816cccbdac4040b65440c248/library_capsule.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets_full/library_capsule/image/english"
+        },
+        {
+          "after": "4b70bfa7787756128d4ef481b635fa18f2a2b788/library_capsule_german.jpg",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_capsule/image/german"
+        },
+        {
+          "after": "41f7448e2b19a20b06b718164a932b8fcf9ff531/library_capsule_2x.jpg",
+          "before": "3a0e4aa16b799365816cccbdac4040b65440c248/library_capsule_2x.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets_full/library_capsule/image2x/english"
+        },
+        {
+          "after": "4b70bfa7787756128d4ef481b635fa18f2a2b788/library_capsule_german_2x.jpg",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_capsule/image2x/german"
+        },
+        {
+          "after": "31778eaa21b915c8de05308c07bc16338dcb3470/capsule_231x87.jpg",
+          "before": "b244eb62a4da2a4723551389c16d86bf4c0e6106/capsule_231x87.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/small_capsule/english"
+        },
+        {
+          "after": "6c7cd0c0a71c975d27b73678c6fe6cddda5b56b7/capsule_231x87_german.jpg",
+          "op": "add",
+          "path": "/appinfo/common/small_capsule/german"
+        },
+        {
+          "after": "1792162771",
+          "before": "1791961785",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39814785,
+      "change_number": 39908590,
       "data": {
         "appinfo": {
           "common": {
@@ -301,11 +365,12 @@
               "1": "2"
             },
             "header_image": {
-              "english": "7b81ece78e153e7fde2e3f4e5a88dd6d4e5f0068/header.jpg"
+              "english": "9f3275474864540378dfdad80bec1ad68dc46e0b/header.jpg",
+              "german": "df4498365f4819953e98dc2d28c8f7494f07717c/header_german.jpg"
             },
             "icon": "7d4ffb3739410a629dcc60ec371501f2e207b8d4",
             "library_assets": {
-              "library_capsule": "en",
+              "library_capsule": "en,de",
               "library_header": "en",
               "library_hero": "en",
               "library_hero_blur": "en",
@@ -319,10 +384,12 @@
             "library_assets_full": {
               "library_capsule": {
                 "image": {
-                  "english": "3a0e4aa16b799365816cccbdac4040b65440c248/library_capsule.jpg"
+                  "english": "41f7448e2b19a20b06b718164a932b8fcf9ff531/library_capsule.jpg",
+                  "german": "4b70bfa7787756128d4ef481b635fa18f2a2b788/library_capsule_german.jpg"
                 },
                 "image2x": {
-                  "english": "3a0e4aa16b799365816cccbdac4040b65440c248/library_capsule_2x.jpg"
+                  "english": "41f7448e2b19a20b06b718164a932b8fcf9ff531/library_capsule_2x.jpg",
+                  "german": "4b70bfa7787756128d4ef481b635fa18f2a2b788/library_capsule_german_2x.jpg"
                 }
               },
               "library_header": {
@@ -370,10 +437,11 @@
             "parent": "5031210",
             "primary_genre": "28",
             "small_capsule": {
-              "english": "b244eb62a4da2a4723551389c16d86bf4c0e6106/capsule_231x87.jpg"
+              "english": "31778eaa21b915c8de05308c07bc16338dcb3470/capsule_231x87.jpg",
+              "german": "6c7cd0c0a71c975d27b73678c6fe6cddda5b56b7/capsule_231x87_german.jpg"
             },
             "steam_release_date": "1791557951",
-            "store_asset_mtime": "1791961785",
+            "store_asset_mtime": "1792162771",
             "supported_languages": {
               "brazilian": {
                 "subtitles": "true",
@@ -479,11 +547,11 @@
           }
         }
       },
-      "observed_at": "2026-10-14T10:52:26.661Z",
+      "observed_at": "2026-10-16T15:22:31.687Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-14T10:52:26.661Z"
+  "updated_at": "2026-10-16T15:22:31.687Z"
 }
