@@ -530,11 +530,45 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-16T15:52:30.252Z",
+      "change_number": 39909756,
+      "changes": [
+        {
+          "after": "97",
+          "before": "96",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": {
+            "buildid": "25801659",
+            "description": "Early Access 1.0.0 (Old version)",
+            "timebuildupdated": 1791456964,
+            "timeupdated": 1791457844
+          },
+          "op": "add",
+          "path": "/depots/branches/ea1.0.0"
+        },
+        {
+          "after": "7426875822183117580",
+          "op": "add",
+          "path": "/depots/depots/3031881/manifests/ea1.0.0"
+        },
+        {
+          "after": "4973726736103107679",
+          "op": "add",
+          "path": "/depots/depots/3031882/manifests/ea1.0.0"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39907288,
+      "change_number": 39909756,
       "data": {
         "appinfo": {
           "common": {
@@ -630,7 +664,7 @@
             "osextended": "",
             "oslist": "windows,linux",
             "primary_genre": "28",
-            "review_percentage": "96",
+            "review_percentage": "97",
             "review_score": "9",
             "small_capsule": {
               "english": "8416d25fdaea7768497e09b3e741b7f92024b9df/capsule_231x87.jpg"
@@ -734,6 +768,12 @@
         },
         "depots": {
           "branches": {
+            "ea1.0.0": {
+              "buildid": "25801659",
+              "description": "Early Access 1.0.0 (Old version)",
+              "timebuildupdated": 1791456964,
+              "timeupdated": 1791457844
+            },
             "public": {
               "buildid": "25801659",
               "timebuildupdated": 1791456964,
@@ -760,6 +800,7 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "ea1.0.0": "7426875822183117580",
                 "public": "7426875822183117580",
                 "shader-debug": "6038720877773663918"
               }
@@ -769,6 +810,7 @@
                 "oslist": "linux"
               },
               "manifests": {
+                "ea1.0.0": "4973726736103107679",
                 "public": "4973726736103107679",
                 "shader-debug": "2674386800610503271"
               }
@@ -776,11 +818,11 @@
           }
         }
       },
-      "observed_at": "2026-10-16T14:52:31.904Z",
+      "observed_at": "2026-10-16T15:52:30.252Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-16T14:52:31.904Z"
+  "updated_at": "2026-10-16T15:52:30.252Z"
 }
