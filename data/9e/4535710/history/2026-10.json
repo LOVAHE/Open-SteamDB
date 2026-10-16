@@ -603,11 +603,42 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-16T03:22:30.211Z",
+      "change_number": 39886682,
+      "changes": [
+        {
+          "after": "25976101",
+          "before": "25975681",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792117810,
+          "before": 1792116213,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792120411,
+          "before": 1792116383,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1410907768835926425",
+          "op": "add",
+          "path": "/depots/depots/4535712/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39885826,
+      "change_number": 39886682,
       "data": {
         "appinfo": {
           "common": {
@@ -737,9 +768,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25975681",
-              "timebuildupdated": 1792116213,
-              "timeupdated": 1792116383
+              "buildid": "25976101",
+              "timebuildupdated": 1792117810,
+              "timeupdated": 1792120411
             }
           },
           "depots": {
@@ -752,12 +783,14 @@
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "1410907768835926425"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-16T02:37:28.622Z",
+      "observed_at": "2026-10-16T03:22:30.211Z",
       "tracked": true
     },
     "steam_store": {
@@ -880,5 +913,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-16T02:37:28.622Z"
+  "updated_at": "2026-10-16T03:22:30.211Z"
 }
