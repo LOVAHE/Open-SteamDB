@@ -228,11 +228,30 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-16T23:22:29.060Z",
+      "change_number": 39923883,
+      "changes": [
+        {
+          "before": "70",
+          "op": "remove",
+          "path": "/appinfo/common/genres/1"
+        },
+        {
+          "after": "1791201566",
+          "before": "1793430000",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39497944,
+      "change_number": 39923883,
       "data": {
         "appinfo": {
           "common": {
@@ -251,8 +270,7 @@
             },
             "clienticon": "b46458af44ea5e6ee00de30094c60e0000f82352",
             "genres": {
-              "0": "2",
-              "1": "70"
+              "0": "2"
             },
             "header_image": {
               "english": "f44389267ee0137f5d2a8b93c595aee860c7c88a/header.jpg"
@@ -323,7 +341,7 @@
             "small_capsule": {
               "english": "a1ab4f8d078b72b85d44d8311ee4cb8a6a6b73c1/capsule_231x87.jpg"
             },
-            "steam_release_date": "1793430000",
+            "steam_release_date": "1791201566",
             "store_asset_mtime": "1790637409",
             "supported_languages": {
               "english": {
@@ -369,7 +387,7 @@
           }
         }
       },
-      "observed_at": "2026-10-05T12:07:18.566Z",
+      "observed_at": "2026-10-16T23:22:29.060Z",
       "tracked": true
     },
     "steam_store": {
@@ -445,5 +463,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-06T13:22:20.732Z"
+  "updated_at": "2026-10-16T23:22:29.060Z"
 }
