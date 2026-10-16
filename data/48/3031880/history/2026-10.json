@@ -564,11 +564,69 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-16T16:07:31.249Z",
+      "change_number": 39910246,
+      "changes": [
+        {
+          "after": "25985572",
+          "before": "25801659",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792150851,
+          "before": 1791456964,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792166287,
+          "before": 1791457844,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": {
+            "buildid": "25918094",
+            "description": "This is only for debugging a graphics issue",
+            "timebuildupdated": 1791925505,
+            "timeupdated": 1791925593
+          },
+          "op": "remove",
+          "path": "/depots/branches/shader-debug"
+        },
+        {
+          "after": "5260023347367488724",
+          "before": "7426875822183117580",
+          "op": "replace",
+          "path": "/depots/depots/3031881/manifests/public"
+        },
+        {
+          "before": "6038720877773663918",
+          "op": "remove",
+          "path": "/depots/depots/3031881/manifests/shader-debug"
+        },
+        {
+          "after": "2844778118524203426",
+          "before": "4973726736103107679",
+          "op": "replace",
+          "path": "/depots/depots/3031882/manifests/public"
+        },
+        {
+          "before": "2674386800610503271",
+          "op": "remove",
+          "path": "/depots/depots/3031882/manifests/shader-debug"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39909756,
+      "change_number": 39910246,
       "data": {
         "appinfo": {
           "common": {
@@ -775,15 +833,9 @@
               "timeupdated": 1791457844
             },
             "public": {
-              "buildid": "25801659",
-              "timebuildupdated": 1791456964,
-              "timeupdated": 1791457844
-            },
-            "shader-debug": {
-              "buildid": "25918094",
-              "description": "This is only for debugging a graphics issue",
-              "timebuildupdated": 1791925505,
-              "timeupdated": 1791925593
+              "buildid": "25985572",
+              "timebuildupdated": 1792150851,
+              "timeupdated": 1792166287
             }
           },
           "depots": {
@@ -801,8 +853,7 @@
               },
               "manifests": {
                 "ea1.0.0": "7426875822183117580",
-                "public": "7426875822183117580",
-                "shader-debug": "6038720877773663918"
+                "public": "5260023347367488724"
               }
             },
             "3031882": {
@@ -811,18 +862,17 @@
               },
               "manifests": {
                 "ea1.0.0": "4973726736103107679",
-                "public": "4973726736103107679",
-                "shader-debug": "2674386800610503271"
+                "public": "2844778118524203426"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-16T15:52:30.252Z",
+      "observed_at": "2026-10-16T16:07:31.249Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-16T15:52:30.252Z"
+  "updated_at": "2026-10-16T16:07:31.249Z"
 }
