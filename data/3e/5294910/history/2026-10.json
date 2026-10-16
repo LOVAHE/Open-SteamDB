@@ -263,11 +263,70 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-16T11:37:28.393Z",
+      "change_number": 39900270,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": "https://turbomothgames.com",
+          "op": "add",
+          "path": "/appinfo/extended/homepage"
+        },
+        {
+          "after": {
+            "maxnumfiles": "20",
+            "quota": "10000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              },
+              "1": {
+                "os": "Linux",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Godot/app_userdata/Too Much Baggage Demo",
+                    "replace": "godot/app_userdata/Too Much Baggage Demo"
+                  }
+                },
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/Too Much Baggage Demo",
+                "pattern": "progress.cfg",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/Too Much Baggage Demo",
+                "pattern": "run_*.sav",
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39881199,
+      "change_number": 39900270,
       "data": {
         "appinfo": {
           "common": {
@@ -283,6 +342,7 @@
             },
             "category": {
               "category_2": "1",
+              "category_23": "1",
               "category_28": "1",
               "category_55": "1",
               "category_56": "1",
@@ -385,7 +445,45 @@
           },
           "extended": {
             "developer": "Turbo Moth Games",
+            "homepage": "https://turbomothgames.com",
             "publisher": "Turbo Moth Games"
+          },
+          "ufs": {
+            "maxnumfiles": "20",
+            "quota": "10000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              },
+              "1": {
+                "os": "Linux",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Godot/app_userdata/Too Much Baggage Demo",
+                    "replace": "godot/app_userdata/Too Much Baggage Demo"
+                  }
+                },
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/Too Much Baggage Demo",
+                "pattern": "progress.cfg",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/Too Much Baggage Demo",
+                "pattern": "run_*.sav",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -429,11 +527,11 @@
           }
         }
       },
-      "observed_at": "2026-10-15T23:22:28.537Z",
+      "observed_at": "2026-10-16T11:37:28.393Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T23:22:28.537Z"
+  "updated_at": "2026-10-16T11:37:28.393Z"
 }

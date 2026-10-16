@@ -1,8 +1,8 @@
 {
   "appid": 5294910,
   "source": "steam_pics",
-  "updated_at": "2026-10-15T23:22:28.537Z",
-  "change_number": 39881199,
+  "updated_at": "2026-10-16T11:37:28.393Z",
+  "change_number": 39900270,
   "data": {
     "common": {
       "associations": {
@@ -17,6 +17,7 @@
       },
       "category": {
         "category_2": "1",
+        "category_23": "1",
         "category_28": "1",
         "category_55": "1",
         "category_56": "1",
@@ -116,10 +117,48 @@
     },
     "extended": {
       "developer": "Turbo Moth Games",
+      "homepage": "https://turbomothgames.com",
       "publisher": "Turbo Moth Games"
     },
     "config": {
       "installdir": "Too Much Baggage Demo"
+    },
+    "ufs": {
+      "maxnumfiles": "20",
+      "quota": "10000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
+        },
+        "1": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Godot/app_userdata/Too Much Baggage Demo",
+              "replace": "godot/app_userdata/Too Much Baggage Demo"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Godot/app_userdata/Too Much Baggage Demo",
+          "pattern": "progress.cfg",
+          "root": "WinAppDataRoaming"
+        },
+        "1": {
+          "path": "Godot/app_userdata/Too Much Baggage Demo",
+          "pattern": "run_*.sav",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }
