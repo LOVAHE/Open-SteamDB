@@ -371,11 +371,59 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-16T07:07:28.213Z",
+      "change_number": 39891324,
+      "changes": [
+        {
+          "after": "macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/french"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/japanese"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/koreana"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39891265,
+      "change_number": 39891324,
       "data": {
         "appinfo": {
           "common": {
@@ -500,8 +548,8 @@
             },
             "name": "Poco Loco",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "primary_genre": "37",
             "small_capsule": {
               "english": "9954dd0261049789f6e2846e3b03da7dbd7336a3/capsule_231x87.jpg"
@@ -533,7 +581,19 @@
               "english": {
                 "supported": "true"
               },
+              "french": {
+                "supported": "true"
+              },
               "german": {
+                "supported": "true"
+              },
+              "japanese": {
+                "supported": "true"
+              },
+              "koreana": {
+                "supported": "true"
+              },
+              "schinese": {
                 "supported": "true"
               },
               "spanish": {
@@ -593,11 +653,11 @@
           }
         }
       },
-      "observed_at": "2026-10-16T06:52:31.565Z",
+      "observed_at": "2026-10-16T07:07:28.213Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-16T06:52:31.565Z"
+  "updated_at": "2026-10-16T07:07:28.213Z"
 }
