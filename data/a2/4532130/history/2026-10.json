@@ -312,11 +312,26 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-17T03:22:37.957Z",
+      "change_number": 39928213,
+      "changes": [
+        {
+          "before": {
+            "1": "Windows"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/0/platforms"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39928018,
+      "change_number": 39928213,
       "data": {
         "appinfo": {
           "common": {
@@ -459,9 +474,6 @@
               "0": {
                 "path": "KanAKanSave\\Save",
                 "pattern": "*.sav",
-                "platforms": {
-                  "1": "Windows"
-                },
                 "recursive": "1",
                 "root": "WinMyDocuments"
               }
@@ -489,11 +501,11 @@
           }
         }
       },
-      "observed_at": "2026-10-17T03:07:32.116Z",
+      "observed_at": "2026-10-17T03:22:37.957Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-17T03:07:32.116Z"
+  "updated_at": "2026-10-17T03:22:37.957Z"
 }
