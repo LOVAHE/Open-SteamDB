@@ -273,11 +273,50 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-17T03:07:32.116Z",
+      "change_number": 39928018,
+      "changes": [
+        {
+          "after": {
+            "1": "Windows"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/0/platforms"
+        },
+        {
+          "after": "26002884",
+          "before": "25981664",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792205647,
+          "before": 1792140237,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792205884,
+          "before": 1792140479,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5926409808017922848",
+          "before": "4498324299658104635",
+          "op": "replace",
+          "path": "/depots/depots/4532131/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39897669,
+      "change_number": 39928018,
       "data": {
         "appinfo": {
           "common": {
@@ -420,6 +459,9 @@
               "0": {
                 "path": "KanAKanSave\\Save",
                 "pattern": "*.sav",
+                "platforms": {
+                  "1": "Windows"
+                },
                 "recursive": "1",
                 "root": "WinMyDocuments"
               }
@@ -429,9 +471,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25981664",
-              "timebuildupdated": 1792140237,
-              "timeupdated": 1792140479
+              "buildid": "26002884",
+              "timebuildupdated": 1792205647,
+              "timeupdated": 1792205884
             }
           },
           "depots": {
@@ -441,17 +483,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "4498324299658104635"
+                "public": "5926409808017922848"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-16T10:22:28.099Z",
+      "observed_at": "2026-10-17T03:07:32.116Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-16T10:22:28.099Z"
+  "updated_at": "2026-10-17T03:07:32.116Z"
 }

@@ -911,11 +911,31 @@
       ],
       "kind": "change",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-17T03:07:32.116Z",
+      "change_number": 39928118,
+      "changes": [
+        {
+          "after": "4637",
+          "before": "353880",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/3"
+        },
+        {
+          "after": "353880",
+          "before": "4637",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/4"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39471417,
+      "change_number": 39928118,
       "data": {
         "appinfo": {
           "common": {
@@ -1146,8 +1166,8 @@
               "0": "21",
               "1": "19",
               "2": "1199779",
-              "3": "353880",
-              "4": "4637",
+              "3": "4637",
+              "4": "353880",
               "5": "1774",
               "6": "3834",
               "7": "3814",
@@ -1269,7 +1289,7 @@
           }
         }
       },
-      "observed_at": "2026-10-04T16:32:21.706Z",
+      "observed_at": "2026-10-17T03:07:32.116Z",
       "tracked": true
     },
     "steam_store": {
@@ -1476,5 +1496,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-10T02:52:20.497Z"
+  "updated_at": "2026-10-17T03:07:32.116Z"
 }
