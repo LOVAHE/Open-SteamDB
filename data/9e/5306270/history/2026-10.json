@@ -363,11 +363,54 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-17T03:52:33.705Z",
+      "change_number": 39928809,
+      "changes": [
+        {
+          "after": "5449980",
+          "op": "add",
+          "path": "/appinfo/extended/listofdlc"
+        },
+        {
+          "after": "25950730",
+          "before": "25951497",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792036246,
+          "before": 1792039343,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792208583,
+          "before": 1792039343,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5608580704261415251",
+          "before": "5704193609287709058",
+          "op": "replace",
+          "path": "/depots/depots/5306271/manifests/public"
+        },
+        {
+          "after": "5930513116217103234",
+          "before": "2942346100080148907",
+          "op": "replace",
+          "path": "/depots/depots/5449980/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39847138,
+      "change_number": 39928809,
       "data": {
         "appinfo": {
           "common": {
@@ -537,6 +580,7 @@
           },
           "extended": {
             "developer": "TarasFreund",
+            "listofdlc": "5449980",
             "publisher": "TarasFreund"
           },
           "ufs": {
@@ -581,9 +625,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25951497",
-              "timebuildupdated": 1792039343,
-              "timeupdated": 1792039343
+              "buildid": "25950730",
+              "timebuildupdated": 1792036246,
+              "timeupdated": 1792208583
             },
             "workshop-beta": {
               "buildid": "25938948",
@@ -595,7 +639,7 @@
           "depots": {
             "5306271": {
               "manifests": {
-                "public": "5704193609287709058",
+                "public": "5608580704261415251",
                 "workshop-beta": "5608580704261415251"
               }
             },
@@ -605,17 +649,17 @@
               },
               "dlcappid": 5449980,
               "manifests": {
-                "public": "2942346100080148907"
+                "public": "5930513116217103234"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-15T04:52:28.261Z",
+      "observed_at": "2026-10-17T03:52:33.705Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T04:52:28.261Z"
+  "updated_at": "2026-10-17T03:52:33.705Z"
 }
