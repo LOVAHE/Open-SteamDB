@@ -1749,11 +1749,160 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-17T00:52:33.568Z",
+      "change_number": 39925963,
+      "changes": [
+        {
+          "after": {
+            "category": "2",
+            "configuration": {
+              "gamescope_frame_limiter_not_supported": "0",
+              "hdr_support": "0",
+              "non_deck_display_glyphs": "1",
+              "primary_player_is_controller_slot_0": "0",
+              "recommended_runtime": "proton-stable",
+              "requires_h264": "0",
+              "requires_internet_for_setup": "0",
+              "requires_internet_for_singleplayer": "0",
+              "requires_manual_keyboard_invoke": "0",
+              "requires_non_controller_launcher_nav": "0",
+              "requires_proton_soundfonts": "0",
+              "requires_voice_files": "0",
+              "small_text": "1",
+              "supported_input": "other"
+            },
+            "steam_machine_compatibility": "2",
+            "steam_machine_tests": {
+              "0": {
+                "display": "3",
+                "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+              },
+              "1": {
+                "display": "4",
+                "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+              },
+              "2": {
+                "display": "4",
+                "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+              }
+            },
+            "steamos_compatibility": "2",
+            "steamos_tests": {
+              "0": {
+                "display": "3",
+                "token": "#SteamOS_TestResult_GameStartupFunctional"
+              }
+            },
+            "test_timestamp": "1792082982",
+            "tested_build_id": "25949286",
+            "tests": {
+              "0": {
+                "display": "3",
+                "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+              },
+              "1": {
+                "display": "3",
+                "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+              },
+              "2": {
+                "display": "3",
+                "token": "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+              },
+              "3": {
+                "display": "4",
+                "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+              },
+              "4": {
+                "display": "4",
+                "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility"
+        },
+        {
+          "after": "26001380",
+          "before": "25975458",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792198359,
+          "before": 1792115366,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792198359,
+          "before": 1792115366,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "26001304",
+          "before": "25975299",
+          "op": "replace",
+          "path": "/depots/branches/win11stable/buildid"
+        },
+        {
+          "after": 1792198021,
+          "before": 1792114841,
+          "op": "replace",
+          "path": "/depots/branches/win11stable/timebuildupdated"
+        },
+        {
+          "after": 1792198022,
+          "before": 1792114843,
+          "op": "replace",
+          "path": "/depots/branches/win11stable/timeupdated"
+        },
+        {
+          "after": "26001374",
+          "before": "25975525",
+          "op": "replace",
+          "path": "/depots/branches/win7compat/buildid"
+        },
+        {
+          "after": 1792198321,
+          "before": 1792115559,
+          "op": "replace",
+          "path": "/depots/branches/win7compat/timebuildupdated"
+        },
+        {
+          "after": 1792198321,
+          "before": 1792115559,
+          "op": "replace",
+          "path": "/depots/branches/win7compat/timeupdated"
+        },
+        {
+          "after": "5395905814631352131",
+          "before": "1879858637019084005",
+          "op": "replace",
+          "path": "/depots/depots/4267801/manifests/win11stable"
+        },
+        {
+          "after": "1485554873370703016",
+          "before": "741905430956888048",
+          "op": "replace",
+          "path": "/depots/depots/4267802/manifests/public"
+        },
+        {
+          "after": "1485554873370703016",
+          "before": "741905430956888048",
+          "op": "replace",
+          "path": "/depots/depots/4267802/manifests/win7compat"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39911277,
+      "change_number": 39925963,
       "data": {
         "appinfo": {
           "common": {
@@ -1878,6 +2027,71 @@
               "schinese": "6b045358b3eee9a9285f122bccabf332e48dfdcb/capsule_231x87_schinese.jpg",
               "tchinese": "6b045358b3eee9a9285f122bccabf332e48dfdcb/capsule_231x87_tchinese.jpg"
             },
+            "steam_deck_compatibility": {
+              "category": "2",
+              "configuration": {
+                "gamescope_frame_limiter_not_supported": "0",
+                "hdr_support": "0",
+                "non_deck_display_glyphs": "1",
+                "primary_player_is_controller_slot_0": "0",
+                "recommended_runtime": "proton-stable",
+                "requires_h264": "0",
+                "requires_internet_for_setup": "0",
+                "requires_internet_for_singleplayer": "0",
+                "requires_manual_keyboard_invoke": "0",
+                "requires_non_controller_launcher_nav": "0",
+                "requires_proton_soundfonts": "0",
+                "requires_voice_files": "0",
+                "small_text": "1",
+                "supported_input": "other"
+              },
+              "steam_machine_compatibility": "2",
+              "steam_machine_tests": {
+                "0": {
+                  "display": "3",
+                  "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+                },
+                "1": {
+                  "display": "4",
+                  "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+                },
+                "2": {
+                  "display": "4",
+                  "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+                }
+              },
+              "steamos_compatibility": "2",
+              "steamos_tests": {
+                "0": {
+                  "display": "3",
+                  "token": "#SteamOS_TestResult_GameStartupFunctional"
+                }
+              },
+              "test_timestamp": "1792082982",
+              "tested_build_id": "25949286",
+              "tests": {
+                "0": {
+                  "display": "3",
+                  "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+                },
+                "1": {
+                  "display": "3",
+                  "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+                },
+                "2": {
+                  "display": "3",
+                  "token": "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+                },
+                "3": {
+                  "display": "4",
+                  "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+                },
+                "4": {
+                  "display": "4",
+                  "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+                }
+              }
+            },
             "steam_release_date": "1791770322",
             "store_asset_mtime": "1791697135",
             "store_tags": {
@@ -1938,9 +2152,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25975458",
-              "timebuildupdated": 1792115366,
-              "timeupdated": 1792115366
+              "buildid": "26001380",
+              "timebuildupdated": 1792198359,
+              "timeupdated": 1792198359
             },
             "test": {
               "buildid": "25992323",
@@ -1949,16 +2163,16 @@
               "timeupdated": 1792168328
             },
             "win11stable": {
-              "buildid": "25975299",
+              "buildid": "26001304",
               "description": "Crash or Windows 11 Compatible",
-              "timebuildupdated": 1792114841,
-              "timeupdated": 1792114843
+              "timebuildupdated": 1792198021,
+              "timeupdated": 1792198022
             },
             "win7compat": {
-              "buildid": "25975525",
+              "buildid": "26001374",
               "description": "Windows 7 Compatible",
-              "timebuildupdated": 1792115559,
-              "timeupdated": 1792115559
+              "timebuildupdated": 1792198321,
+              "timeupdated": 1792198321
             }
           },
           "depots": {
@@ -1970,7 +2184,7 @@
               "manifests": {
                 "public": "8358452674099980682",
                 "test": "721361259785824047",
-                "win11stable": "1879858637019084005",
+                "win11stable": "5395905814631352131",
                 "win7compat": "8684370639512010894"
               }
             },
@@ -1980,18 +2194,18 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "741905430956888048",
-                "win7compat": "741905430956888048"
+                "public": "1485554873370703016",
+                "win7compat": "1485554873370703016"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-16T16:37:33.244Z",
+      "observed_at": "2026-10-17T00:52:33.568Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-16T16:37:33.244Z"
+  "updated_at": "2026-10-17T00:52:33.568Z"
 }
