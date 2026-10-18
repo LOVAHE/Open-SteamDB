@@ -1026,11 +1026,39 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T16:07:29.916Z",
+      "change_number": 39939159,
+      "changes": [
+        {
+          "after": "1792244422",
+          "before": "1791951403",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/latam"
+        },
+        {
+          "after": "3336600,3731990,3966020,5165820",
+          "before": "3336600,3731990,3966020",
+          "op": "replace",
+          "path": "/appinfo/extended/listofdlc"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39856924,
+      "change_number": 39939159,
       "data": {
         "appinfo": {
           "common": {
@@ -1252,7 +1280,7 @@
               }
             },
             "steam_release_date": "1775779080",
-            "store_asset_mtime": "1791951403",
+            "store_asset_mtime": "1792244422",
             "store_tags": {
               "0": "1100689",
               "1": "1662",
@@ -1300,6 +1328,10 @@
                 "subtitles": "true",
                 "supported": "true"
               },
+              "latam": {
+                "subtitles": "true",
+                "supported": "true"
+              },
               "russian": {
                 "subtitles": "true",
                 "supported": "true"
@@ -1326,7 +1358,7 @@
           "extended": {
             "developer": "CampFire Studio",
             "homepage": "https://mask.qoolandgames.com/",
-            "listofdlc": "3336600,3731990,3966020",
+            "listofdlc": "3336600,3731990,3966020,5165820",
             "publisher": "Qooland Games"
           },
           "ufs": {
@@ -1412,7 +1444,7 @@
           }
         }
       },
-      "observed_at": "2026-10-15T10:52:28.640Z",
+      "observed_at": "2026-10-18T16:07:29.916Z",
       "tracked": true
     },
     "steam_store": {
@@ -1715,5 +1747,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T10:52:28.640Z"
+  "updated_at": "2026-10-18T16:07:29.916Z"
 }

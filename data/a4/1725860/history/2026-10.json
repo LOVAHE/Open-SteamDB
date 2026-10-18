@@ -259,11 +259,61 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T16:07:29.916Z",
+      "change_number": 39957051,
+      "changes": [
+        {
+          "before": {
+            "0": {
+              "os": "Linux",
+              "oscompare": "=",
+              "pathtransforms": {
+                "0": {
+                  "find": "Keng7/KLU/Saves",
+                  "replace": "Keng7"
+                }
+              },
+              "root": "WinAppDataLocalLow",
+              "useinstead": "gameinstall"
+            }
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "after": "26021926",
+          "before": "26003391",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792306753,
+          "before": 1792208172,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792306860,
+          "before": 1792208196,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5425673455946866722",
+          "before": "7062603200977361008",
+          "op": "replace",
+          "path": "/depots/depots/1725861/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39928656,
+      "change_number": 39957051,
       "data": {
         "appinfo": {
           "common": {
@@ -404,20 +454,6 @@
           "ufs": {
             "maxnumfiles": "5000",
             "quota": "1000000000",
-            "rootoverrides": {
-              "0": {
-                "os": "Linux",
-                "oscompare": "=",
-                "pathtransforms": {
-                  "0": {
-                    "find": "Keng7/KLU/Saves",
-                    "replace": "Keng7"
-                  }
-                },
-                "root": "WinAppDataLocalLow",
-                "useinstead": "gameinstall"
-              }
-            },
             "savefiles": {
               "0": {
                 "path": "Keng7/KLU/Saves",
@@ -431,25 +467,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26003391",
-              "timebuildupdated": 1792208172,
-              "timeupdated": 1792208196
+              "buildid": "26021926",
+              "timebuildupdated": 1792306753,
+              "timeupdated": 1792306860
             }
           },
           "depots": {
             "1725861": {
               "manifests": {
-                "public": "7062603200977361008"
+                "public": "5425673455946866722"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-17T03:37:31.269Z",
+      "observed_at": "2026-10-18T16:07:29.916Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-17T03:37:31.269Z"
+  "updated_at": "2026-10-18T16:07:29.916Z"
 }

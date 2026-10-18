@@ -327,11 +327,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T16:07:29.916Z",
+      "change_number": 39963001,
+      "changes": [
+        {
+          "after": "*",
+          "before": "*.sav",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/pattern"
+        },
+        {
+          "after": "26025760",
+          "before": "26002884",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792328191,
+          "before": 1792205647,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792328260,
+          "before": 1792205884,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "547327805574299830",
+          "before": "5926409808017922848",
+          "op": "replace",
+          "path": "/depots/depots/4532131/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39928213,
+      "change_number": 39963001,
       "data": {
         "appinfo": {
           "common": {
@@ -473,7 +511,7 @@
             "savefiles": {
               "0": {
                 "path": "KanAKanSave\\Save",
-                "pattern": "*.sav",
+                "pattern": "*",
                 "recursive": "1",
                 "root": "WinMyDocuments"
               }
@@ -483,9 +521,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26002884",
-              "timebuildupdated": 1792205647,
-              "timeupdated": 1792205884
+              "buildid": "26025760",
+              "timebuildupdated": 1792328191,
+              "timeupdated": 1792328260
             }
           },
           "depots": {
@@ -495,17 +533,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "5926409808017922848"
+                "public": "547327805574299830"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-17T03:22:37.957Z",
+      "observed_at": "2026-10-18T16:07:29.916Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-17T03:22:37.957Z"
+  "updated_at": "2026-10-18T16:07:29.916Z"
 }

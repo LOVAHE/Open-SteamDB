@@ -170,11 +170,40 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T16:07:29.916Z",
+      "change_number": 39935972,
+      "changes": [
+        {
+          "after": "25",
+          "before": "23",
+          "op": "replace",
+          "path": "/appinfo/common/genres/0"
+        },
+        {
+          "after": "23",
+          "op": "add",
+          "path": "/appinfo/common/genres/1"
+        },
+        {
+          "after": "1792070904",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "1721",
+          "op": "add",
+          "path": "/appinfo/common/store_tags/7"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39861978,
+      "change_number": 39935972,
       "data": {
         "appinfo": {
           "common": {
@@ -199,7 +228,8 @@
             "clienticon": "a96adab7885d587bbcb5464ac973bcec4c8ab964",
             "community_hub_visible": "1",
             "genres": {
-              "0": "23"
+              "0": "25",
+              "1": "23"
             },
             "header_image": {
               "english": "901e1112eedb0f9f229b5ea0e1307aa9ba57004a/header.jpg"
@@ -269,6 +299,7 @@
             "small_capsule": {
               "english": "02871f93144fc1b20929bee0eccbb8712f69c3f3/capsule_231x87.jpg"
             },
+            "steam_release_date": "1792070904",
             "store_asset_mtime": "1791140588",
             "store_tags": {
               "0": "21",
@@ -277,7 +308,8 @@
               "3": "1667",
               "4": "7250",
               "5": "4182",
-              "6": "492"
+              "6": "492",
+              "7": "1721"
             },
             "supported_languages": {
               "english": {
@@ -331,11 +363,11 @@
           }
         }
       },
-      "observed_at": "2026-10-15T15:52:42.353Z",
+      "observed_at": "2026-10-18T16:07:29.916Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T15:52:42.353Z"
+  "updated_at": "2026-10-18T16:07:29.916Z"
 }

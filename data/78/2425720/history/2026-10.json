@@ -209,11 +209,95 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T16:07:29.916Z",
+      "change_number": 39964216,
+      "changes": [
+        {
+          "after": {
+            "brazilian": "1",
+            "english": "1",
+            "french": "1",
+            "latam": "1",
+            "russian": "1",
+            "schinese": "1"
+          },
+          "op": "add",
+          "path": "/appinfo/common/languages"
+        },
+        {
+          "after": "75",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "6",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "26018975",
+          "before": "25610947",
+          "op": "replace",
+          "path": "/depots/branches/development/buildid"
+        },
+        {
+          "after": 1792287742,
+          "before": 1790709757,
+          "op": "replace",
+          "path": "/depots/branches/development/timebuildupdated"
+        },
+        {
+          "after": 1792288090,
+          "before": 1790709839,
+          "op": "replace",
+          "path": "/depots/branches/development/timeupdated"
+        },
+        {
+          "after": "26018975",
+          "before": "25977495",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792287742,
+          "before": 1792123489,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792288324,
+          "before": 1792123601,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2144927542196179009",
+          "before": "3849973728801563979",
+          "op": "replace",
+          "path": "/depots/depots/2425721/manifests/development"
+        },
+        {
+          "after": "2144927542196179009",
+          "before": "1071612562616893151",
+          "op": "replace",
+          "path": "/depots/depots/2425721/manifests/public"
+        },
+        {
+          "after": "5974099080960788794",
+          "before": "3829436935074277092",
+          "op": "replace",
+          "path": "/depots/depots/2425722/manifests/development"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39901808,
+      "change_number": 39964216,
       "data": {
         "appinfo": {
           "common": {
@@ -246,6 +330,14 @@
               "english": "header.jpg"
             },
             "icon": "baa15089bec5189b00e1b78e71456db83642604a",
+            "languages": {
+              "brazilian": "1",
+              "english": "1",
+              "french": "1",
+              "latam": "1",
+              "russian": "1",
+              "schinese": "1"
+            },
             "library_assets": {
               "library_capsule": "en",
               "library_header": "en",
@@ -298,6 +390,8 @@
             "osextended": "macos64,macosapplesilicon",
             "oslist": "windows,macos,linux",
             "primary_genre": "23",
+            "review_percentage": "75",
+            "review_score": "6",
             "small_capsule": {
               "english": "capsule_231x87.jpg"
             },
@@ -376,15 +470,15 @@
         "depots": {
           "branches": {
             "development": {
-              "buildid": "25610947",
+              "buildid": "26018975",
               "description": "Private testing branch",
-              "timebuildupdated": 1790709757,
-              "timeupdated": 1790709839
+              "timebuildupdated": 1792287742,
+              "timeupdated": 1792288090
             },
             "public": {
-              "buildid": "25977495",
-              "timebuildupdated": 1792123489,
-              "timeupdated": 1792123601
+              "buildid": "26018975",
+              "timebuildupdated": 1792287742,
+              "timeupdated": 1792288324
             }
           },
           "depots": {
@@ -393,8 +487,8 @@
                 "osarch": "64"
               },
               "manifests": {
-                "development": "3849973728801563979",
-                "public": "1071612562616893151"
+                "development": "2144927542196179009",
+                "public": "2144927542196179009"
               }
             },
             "2425722": {
@@ -402,18 +496,18 @@
                 "osarch": "64"
               },
               "manifests": {
-                "development": "3829436935074277092",
+                "development": "5974099080960788794",
                 "public": "5974099080960788794"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-17T02:22:29.566Z",
+      "observed_at": "2026-10-18T16:07:29.916Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-17T02:22:29.566Z"
+  "updated_at": "2026-10-18T16:07:29.916Z"
 }

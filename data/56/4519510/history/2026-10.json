@@ -1247,11 +1247,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T16:07:29.916Z",
+      "change_number": 39964322,
+      "changes": [
+        {
+          "after": "1000000",
+          "before": "100000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        },
+        {
+          "after": "26026585",
+          "before": "26003321",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792331917,
+          "before": 1792207875,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792332019,
+          "before": 1792207958,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7171279831649844050",
+          "before": "714580813871608705",
+          "op": "replace",
+          "path": "/depots/depots/4519511/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39928578,
+      "change_number": 39964322,
       "data": {
         "appinfo": {
           "common": {
@@ -1426,7 +1464,7 @@
           },
           "ufs": {
             "maxnumfiles": "2",
-            "quota": "100000",
+            "quota": "1000000",
             "savefiles": {
               "0": {
                 "path": "Keysaster\\Saved\\SaveGames",
@@ -1442,9 +1480,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26003321",
-              "timebuildupdated": 1792207875,
-              "timeupdated": 1792207958
+              "buildid": "26026585",
+              "timebuildupdated": 1792331917,
+              "timeupdated": 1792332019
             }
           },
           "depots": {
@@ -1466,17 +1504,17 @@
             },
             "4519511": {
               "manifests": {
-                "public": "714580813871608705"
+                "public": "7171279831649844050"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-17T03:37:31.269Z",
+      "observed_at": "2026-10-18T16:07:29.916Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-17T03:37:31.269Z"
+  "updated_at": "2026-10-18T16:07:29.916Z"
 }
