@@ -594,11 +594,51 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T16:37:32.070Z",
+      "change_number": 39967079,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "10",
+            "quota": "1000000"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26028074",
+          "before": "25993279",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792338397,
+          "before": 1792171026,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792339027,
+          "before": 1792184694,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3922568780518862312",
+          "before": "1704612614394340409",
+          "op": "replace",
+          "path": "/depots/depots/5097681/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39920318,
+      "change_number": 39967079,
       "data": {
         "appinfo": {
           "common": {
@@ -842,14 +882,18 @@
           "extended": {
             "developer": "Anton Katkov",
             "publisher": "Phoenix Tools"
+          },
+          "ufs": {
+            "maxnumfiles": "10",
+            "quota": "1000000"
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25993279",
-              "timebuildupdated": 1792171026,
-              "timeupdated": 1792184694
+              "buildid": "26028074",
+              "timebuildupdated": 1792338397,
+              "timeupdated": 1792339027
             }
           },
           "depots": {
@@ -871,17 +915,17 @@
             },
             "5097681": {
               "manifests": {
-                "public": "1704612614394340409"
+                "public": "3922568780518862312"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-16T21:07:34.962Z",
+      "observed_at": "2026-10-18T16:37:32.070Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-16T21:07:34.962Z"
+  "updated_at": "2026-10-18T16:37:32.070Z"
 }

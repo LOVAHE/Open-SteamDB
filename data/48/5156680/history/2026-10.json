@@ -215,11 +215,100 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T16:37:32.070Z",
+      "change_number": 39967061,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_22"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/community_visible_stats"
+        },
+        {
+          "after": {
+            "brazilian": "1",
+            "english": "1",
+            "french": "1",
+            "german": "1",
+            "italian": "1",
+            "japanese": "1",
+            "koreana": "1",
+            "latam": "1",
+            "russian": "1",
+            "schinese": "1",
+            "turkish": "1"
+          },
+          "op": "add",
+          "path": "/appinfo/common/languages"
+        },
+        {
+          "after": "94",
+          "before": "100",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "1792165604",
+          "before": "1793430000",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "1792253422",
+          "before": "1792164967",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "26024644",
+          "before": "25989207",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792322022,
+          "before": 1792160575,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792322749,
+          "before": 1792161031,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "windows"
+            },
+            "depotfromapp": 228980,
+            "manifests": {},
+            "sharedinstall": true
+          },
+          "op": "add",
+          "path": "/depots/depots/228989"
+        },
+        {
+          "after": "853174255463618143",
+          "before": "4138742742697659204",
+          "op": "replace",
+          "path": "/depots/depots/5156681/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39924859,
+      "change_number": 39967061,
       "data": {
         "appinfo": {
           "common": {
@@ -235,6 +324,7 @@
             },
             "category": {
               "category_2": "1",
+              "category_22": "1",
               "category_28": "1",
               "category_55": "1",
               "category_56": "1",
@@ -243,6 +333,7 @@
               "category_60": "1"
             },
             "clienticon": "83087574b755789a1375f0627cf934fb4a831e65",
+            "community_visible_stats": "1",
             "controller_support": "full",
             "genres": {
               "0": "1",
@@ -254,6 +345,19 @@
               "english": "a2b8d5647a1ad573717d7fff507670cbaf0e8a36/header.jpg"
             },
             "icon": "83087574b755789a1375f0627cf934fb4a831e65",
+            "languages": {
+              "brazilian": "1",
+              "english": "1",
+              "french": "1",
+              "german": "1",
+              "italian": "1",
+              "japanese": "1",
+              "koreana": "1",
+              "latam": "1",
+              "russian": "1",
+              "schinese": "1",
+              "turkish": "1"
+            },
             "library_assets": {
               "library_capsule": "en",
               "library_header": "en",
@@ -316,13 +420,13 @@
             "oslist": "windows",
             "parent": "4247440",
             "primary_genre": "1",
-            "review_percentage": "100",
+            "review_percentage": "94",
             "review_score": "7",
             "small_capsule": {
               "english": "b9eb7cf58a5643088082323283aab9fb96637207/capsule_231x87.jpg"
             },
-            "steam_release_date": "1793430000",
-            "store_asset_mtime": "1792164967",
+            "steam_release_date": "1792165604",
+            "store_asset_mtime": "1792253422",
             "supported_languages": {
               "brazilian": {
                 "subtitles": "true",
@@ -387,29 +491,37 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25989207",
-              "timebuildupdated": 1792160575,
-              "timeupdated": 1792161031
+              "buildid": "26024644",
+              "timebuildupdated": 1792322022,
+              "timeupdated": 1792322749
             }
           },
           "depots": {
+            "228989": {
+              "config": {
+                "oslist": "windows"
+              },
+              "depotfromapp": 228980,
+              "manifests": {},
+              "sharedinstall": true
+            },
             "5156681": {
               "config": {
                 "osarch": "64",
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "4138742742697659204"
+                "public": "853174255463618143"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-17T00:52:33.568Z",
+      "observed_at": "2026-10-18T16:37:32.070Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-17T00:52:33.568Z"
+  "updated_at": "2026-10-18T16:37:32.070Z"
 }

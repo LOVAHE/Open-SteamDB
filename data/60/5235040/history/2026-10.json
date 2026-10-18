@@ -1135,11 +1135,129 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T16:37:32.070Z",
+      "change_number": 39945918,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_28"
+        },
+        {
+          "after": "full",
+          "op": "add",
+          "path": "/appinfo/common/controller_support"
+        },
+        {
+          "after": "23",
+          "before": "28",
+          "op": "replace",
+          "path": "/appinfo/common/genres/1"
+        },
+        {
+          "after": "28",
+          "before": "70",
+          "op": "replace",
+          "path": "/appinfo/common/genres/2"
+        },
+        {
+          "after": "70",
+          "op": "add",
+          "path": "/appinfo/common/genres/3"
+        },
+        {
+          "after": "492",
+          "before": "4202",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/14"
+        },
+        {
+          "after": "4202",
+          "before": "4328",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/15"
+        },
+        {
+          "after": "4328",
+          "before": "12472",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/16"
+        },
+        {
+          "after": "12472",
+          "op": "add",
+          "path": "/appinfo/common/store_tags/17"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/brazilian"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/spanish"
+        },
+        {
+          "after": "26011887",
+          "before": "25984395",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792253014,
+          "before": 1792147676,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792254119,
+          "before": 1792147759,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1691995730378190191",
+          "before": "4802125034049602006",
+          "op": "replace",
+          "path": "/depots/depots/5235041/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39898693,
+      "change_number": 39945918,
       "data": {
         "appinfo": {
           "common": {
@@ -1157,15 +1275,18 @@
               "category_2": "1",
               "category_22": "1",
               "category_23": "1",
+              "category_28": "1",
               "category_62": "1"
             },
             "clienticon": "7dbe1d6a59b6035ec2b56c13d8b42c6c9049dc7a",
             "community_hub_visible": "1",
             "community_visible_stats": "1",
+            "controller_support": "full",
             "genres": {
               "0": "4",
-              "1": "28",
-              "2": "70"
+              "1": "23",
+              "2": "28",
+              "3": "70"
             },
             "header_image": {
               "english": "a2097abe9e1eeda04a88e918e7d82e038d1224ec/header.jpg"
@@ -1254,11 +1375,17 @@
               "11": "4791",
               "12": "4695",
               "13": "1654",
-              "14": "4202",
-              "15": "4328",
-              "16": "12472"
+              "14": "492",
+              "15": "4202",
+              "16": "4328",
+              "17": "12472"
             },
             "supported_languages": {
+              "brazilian": {
+                "full_audio": "true",
+                "subtitles": "true",
+                "supported": "true"
+              },
               "english": {
                 "full_audio": "true",
                 "subtitles": "true",
@@ -1275,6 +1402,21 @@
                 "supported": "true"
               },
               "italian": {
+                "full_audio": "true",
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "russian": {
+                "full_audio": "true",
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "schinese": {
+                "full_audio": "true",
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "spanish": {
                 "full_audio": "true",
                 "subtitles": "true",
                 "supported": "true"
@@ -1315,21 +1457,21 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25984395",
-              "timebuildupdated": 1792147676,
-              "timeupdated": 1792147759
+              "buildid": "26011887",
+              "timebuildupdated": 1792253014,
+              "timeupdated": 1792254119
             }
           },
           "depots": {
             "5235041": {
               "manifests": {
-                "public": "4802125034049602006"
+                "public": "1691995730378190191"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-16T10:52:32.871Z",
+      "observed_at": "2026-10-18T16:37:32.070Z",
       "tracked": true
     },
     "steam_store": {
@@ -1494,5 +1636,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-16T10:52:32.871Z"
+  "updated_at": "2026-10-18T16:37:32.070Z"
 }

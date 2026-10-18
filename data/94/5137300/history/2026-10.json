@@ -175,11 +175,77 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T16:37:32.070Z",
+      "change_number": 39955484,
+      "changes": [
+        {
+          "after": "100",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "26018411",
+          "before": "25957487",
+          "op": "replace",
+          "path": "/depots/branches/beta/buildid"
+        },
+        {
+          "after": 1792284665,
+          "before": 1792060919,
+          "op": "replace",
+          "path": "/depots/branches/beta/timebuildupdated"
+        },
+        {
+          "after": 1792284667,
+          "before": 1792060921,
+          "op": "replace",
+          "path": "/depots/branches/beta/timeupdated"
+        },
+        {
+          "after": "26018411",
+          "before": "25778528",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792284665,
+          "before": 1791379174,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792286088,
+          "before": 1791379182,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "9144124870015389708",
+          "before": "63420170863884219",
+          "op": "replace",
+          "path": "/depots/depots/5137301/manifests/beta"
+        },
+        {
+          "after": "9144124870015389708",
+          "before": "2692818400736727333",
+          "op": "replace",
+          "path": "/depots/depots/5137301/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39856569,
+      "change_number": 39955484,
       "data": {
         "appinfo": {
           "common": {
@@ -272,6 +338,8 @@
             "oslist": "windows",
             "parent": "2899240",
             "primary_genre": "25",
+            "review_percentage": "100",
+            "review_score": "7",
             "small_capsule": {
               "english": "50cd55aa1311b4367e22ad98355a11be2b5ac2c7/capsule_231x87.jpg"
             },
@@ -304,32 +372,32 @@
         "depots": {
           "branches": {
             "beta": {
-              "buildid": "25957487",
+              "buildid": "26018411",
               "description": "テスト用",
-              "timebuildupdated": 1792060919,
-              "timeupdated": 1792060921
+              "timebuildupdated": 1792284665,
+              "timeupdated": 1792284667
             },
             "public": {
-              "buildid": "25778528",
-              "timebuildupdated": 1791379174,
-              "timeupdated": 1791379182
+              "buildid": "26018411",
+              "timebuildupdated": 1792284665,
+              "timeupdated": 1792286088
             }
           },
           "depots": {
             "5137301": {
               "manifests": {
-                "beta": "63420170863884219",
-                "public": "2692818400736727333"
+                "beta": "9144124870015389708",
+                "public": "9144124870015389708"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-15T10:52:28.640Z",
+      "observed_at": "2026-10-18T16:37:32.070Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T10:52:28.640Z"
+  "updated_at": "2026-10-18T16:37:32.070Z"
 }

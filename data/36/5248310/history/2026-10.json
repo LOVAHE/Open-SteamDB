@@ -447,11 +447,104 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T16:37:32.070Z",
+      "change_number": 39941845,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_15"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_22"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_28"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_55"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/community_visible_stats"
+        },
+        {
+          "after": "full",
+          "op": "add",
+          "path": "/appinfo/common/controller_support"
+        },
+        {
+          "after": "1792251978",
+          "before": "1792074977",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": {
+            "maxnumfiles": "1000",
+            "quota": "104857600",
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/Kaartel Demo/save/profiles/{64BitSteamID}/demo",
+                "pattern": "progress.cfg",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/Kaartel Demo/save/profiles/{64BitSteamID}/demo/games",
+                "pattern": "active.cfg",
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26011769",
+          "before": "25963301",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792252472,
+          "before": 1792076902,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792252617,
+          "before": 1792076924,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2801087244066963740",
+          "before": "7679534330822307380",
+          "op": "replace",
+          "path": "/depots/depots/5248311/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39866017,
+      "change_number": 39941845,
       "data": {
         "appinfo": {
           "common": {
@@ -466,7 +559,12 @@
               }
             },
             "category": {
+              "category_15": "1",
               "category_2": "1",
+              "category_22": "1",
+              "category_23": "1",
+              "category_28": "1",
+              "category_55": "1",
               "category_68": "1",
               "category_74": "1",
               "category_76": "1",
@@ -474,6 +572,8 @@
               "category_80": "1"
             },
             "clienticon": "7228d470d0ff8f19c11b2d815df83947fa96590c",
+            "community_visible_stats": "1",
+            "controller_support": "full",
             "genres": {
               "0": "2"
             },
@@ -547,7 +647,7 @@
               "english": "1dac6666de384179eaf5ff85b7411879d56a2186/capsule_231x87.jpg"
             },
             "steam_release_date": "1791297949",
-            "store_asset_mtime": "1792074977",
+            "store_asset_mtime": "1792251978",
             "supported_languages": {
               "english": {
                 "full_audio": "true",
@@ -564,30 +664,46 @@
             "developer": "Jion Interactive",
             "homepage": "https://jion.in",
             "publisher": "Jion Interactive"
+          },
+          "ufs": {
+            "maxnumfiles": "1000",
+            "quota": "104857600",
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/Kaartel Demo/save/profiles/{64BitSteamID}/demo",
+                "pattern": "progress.cfg",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/Kaartel Demo/save/profiles/{64BitSteamID}/demo/games",
+                "pattern": "active.cfg",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25963301",
-              "timebuildupdated": 1792076902,
-              "timeupdated": 1792076924
+              "buildid": "26011769",
+              "timebuildupdated": 1792252472,
+              "timeupdated": 1792252617
             }
           },
           "depots": {
             "5248311": {
               "manifests": {
-                "public": "7679534330822307380"
+                "public": "2801087244066963740"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-15T15:07:39.178Z",
+      "observed_at": "2026-10-18T16:37:32.070Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T15:07:39.178Z"
+  "updated_at": "2026-10-18T16:37:32.070Z"
 }

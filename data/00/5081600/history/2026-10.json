@@ -436,11 +436,94 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T16:37:32.070Z",
+      "change_number": 39944762,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_1"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_24"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_25"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_30"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_37"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_39"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_49"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_9"
+        },
+        {
+          "after": "1792066702",
+          "before": "1791663088",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": "26012791",
+          "before": "25774714",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792256719,
+          "before": 1791367932,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792259560,
+          "before": 1791368028,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4972260355208056376",
+          "before": "6871227684091552562",
+          "op": "replace",
+          "path": "/depots/depots/5081601/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39923958,
+      "change_number": 39944762,
       "data": {
         "appinfo": {
           "common": {
@@ -455,10 +538,18 @@
               }
             },
             "category": {
+              "category_1": "1",
               "category_18": "1",
               "category_2": "1",
               "category_23": "1",
-              "category_62": "1"
+              "category_24": "1",
+              "category_25": "1",
+              "category_30": "1",
+              "category_37": "1",
+              "category_39": "1",
+              "category_49": "1",
+              "category_62": "1",
+              "category_9": "1"
             },
             "clienticon": "b7c0d27caf4809218c4e8d7037e5f5842b1e632e",
             "community_hub_visible": "1",
@@ -538,7 +629,7 @@
               "english": "3b8bc583e671680a4a6a31abfa3a07e9d883028b/capsule_231x87.jpg"
             },
             "steam_release_date": "1791256566",
-            "store_asset_mtime": "1791663088",
+            "store_asset_mtime": "1792066702",
             "store_tags": {
               "0": "19",
               "1": "21",
@@ -564,7 +655,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "Beast Survivor"
@@ -588,21 +680,21 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25774714",
-              "timebuildupdated": 1791367932,
-              "timeupdated": 1791368028
+              "buildid": "26012791",
+              "timebuildupdated": 1792256719,
+              "timeupdated": 1792259560
             }
           },
           "depots": {
             "5081601": {
               "manifests": {
-                "public": "6871227684091552562"
+                "public": "4972260355208056376"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-16T23:22:29.060Z",
+      "observed_at": "2026-10-18T16:37:32.070Z",
       "tracked": true
     },
     "steam_store": {
@@ -738,5 +830,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-16T23:22:29.060Z"
+  "updated_at": "2026-10-18T16:37:32.070Z"
 }

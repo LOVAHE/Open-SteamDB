@@ -151,11 +151,66 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T16:37:32.070Z",
+      "change_number": 39935481,
+      "changes": [
+        {
+          "after": "64",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osarch"
+        },
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "26007267",
+          "before": "25695152",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792229657,
+          "before": 1791025141,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792230359,
+          "before": 1791025182,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1433336389532863101",
+          "before": "6608239371533340094",
+          "op": "replace",
+          "path": "/depots/depots/5211812/manifests/public"
+        },
+        {
+          "after": "64",
+          "op": "add",
+          "path": "/depots/depots/5211813/config/osarch"
+        },
+        {
+          "after": "8136807456595187558",
+          "before": "6857235737074082803",
+          "op": "replace",
+          "path": "/depots/depots/5211813/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39865108,
+      "change_number": 39935481,
       "data": {
         "appinfo": {
           "common": {
@@ -240,8 +295,8 @@
               }
             },
             "name": "King Alone Demo",
-            "osarch": "",
-            "osextended": "",
+            "osarch": "64",
+            "osextended": "macos64,macosapplesilicon",
             "oslist": "windows,macos",
             "parent": "4851120",
             "primary_genre": "1",
@@ -268,9 +323,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25695152",
-              "timebuildupdated": 1791025141,
-              "timeupdated": 1791025182
+              "buildid": "26007267",
+              "timebuildupdated": 1792229657,
+              "timeupdated": 1792230359
             }
           },
           "depots": {
@@ -279,25 +334,26 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "6608239371533340094"
+                "public": "1433336389532863101"
               }
             },
             "5211813": {
               "config": {
+                "osarch": "64",
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "6857235737074082803"
+                "public": "8136807456595187558"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-15T20:52:29.745Z",
+      "observed_at": "2026-10-18T16:37:32.070Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T20:52:29.745Z"
+  "updated_at": "2026-10-18T16:37:32.070Z"
 }

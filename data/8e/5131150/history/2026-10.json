@@ -571,11 +571,51 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T16:37:32.070Z",
+      "change_number": 39964974,
+      "changes": [
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/polish"
+        },
+        {
+          "after": "26026947",
+          "before": "25968380",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792333373,
+          "before": 1792091001,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792333501,
+          "before": 1792096548,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "86644486067268668",
+          "before": "375236105544123629",
+          "op": "replace",
+          "path": "/depots/depots/5131151/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39876985,
+      "change_number": 39964974,
       "data": {
         "appinfo": {
           "common": {
@@ -693,6 +733,10 @@
                 "subtitles": "true",
                 "supported": "true"
               },
+              "polish": {
+                "subtitles": "true",
+                "supported": "true"
+              },
               "russian": {
                 "full_audio": "true",
                 "subtitles": "true",
@@ -721,9 +765,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25968380",
-              "timebuildupdated": 1792091001,
-              "timeupdated": 1792096548
+              "buildid": "26026947",
+              "timebuildupdated": 1792333373,
+              "timeupdated": 1792333501
             }
           },
           "depots": {
@@ -732,13 +776,13 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "375236105544123629"
+                "public": "86644486067268668"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-15T20:37:33.010Z",
+      "observed_at": "2026-10-18T16:37:32.070Z",
       "tracked": true
     },
     "steam_store": {
@@ -852,5 +896,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T20:37:33.010Z"
+  "updated_at": "2026-10-18T16:37:32.070Z"
 }

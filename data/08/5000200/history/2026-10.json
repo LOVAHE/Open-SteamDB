@@ -528,11 +528,87 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T16:37:32.070Z",
+      "change_number": 39942797,
+      "changes": [
+        {
+          "before": "1",
+          "op": "remove",
+          "path": "/appinfo/common/category/category_30"
+        },
+        {
+          "after": "1792251738",
+          "before": "1791567969",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": {
+            "path": "Godot/app_userdata/Genesis From Water to Stars/saves",
+            "pattern": "槽*.cfg*",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        },
+        {
+          "after": {
+            "path": "Godot/app_userdata/Genesis From Water to Stars/saves",
+            "pattern": "全局Meta.cfg*",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/3"
+        },
+        {
+          "after": {
+            "buildid": "25912907",
+            "description": "旧版本",
+            "timebuildupdated": 1791909727,
+            "timeupdated": 1791910827
+          },
+          "op": "add",
+          "path": "/depots/branches/legacy"
+        },
+        {
+          "after": "26007631",
+          "before": "25912907",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792231636,
+          "before": 1791909727,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792231671,
+          "before": 1791910827,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6291135640620626602",
+          "op": "add",
+          "path": "/depots/depots/5000201/manifests/legacy"
+        },
+        {
+          "after": "2922465638818210690",
+          "before": "6291135640620626602",
+          "op": "replace",
+          "path": "/depots/depots/5000201/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39786662,
+      "change_number": 39942797,
       "data": {
         "appinfo": {
           "common": {
@@ -549,7 +625,6 @@
             "category": {
               "category_2": "1",
               "category_23": "1",
-              "category_30": "1",
               "category_67": "1",
               "category_68": "1",
               "category_74": "1",
@@ -645,7 +720,7 @@
               "english": "0469dd04962f377af597e31a74fc0dac348e010b/capsule_231x87.jpg"
             },
             "steam_release_date": "1791460805",
-            "store_asset_mtime": "1791567969",
+            "store_asset_mtime": "1792251738",
             "supported_languages": {
               "english": {
                 "full_audio": "true",
@@ -704,32 +779,49 @@
                   "1": "Windows"
                 },
                 "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "Godot/app_userdata/Genesis From Water to Stars/saves",
+                "pattern": "槽*.cfg*",
+                "root": "WinAppDataRoaming"
+              },
+              "3": {
+                "path": "Godot/app_userdata/Genesis From Water to Stars/saves",
+                "pattern": "全局Meta.cfg*",
+                "root": "WinAppDataRoaming"
               }
             }
           }
         },
         "depots": {
           "branches": {
-            "public": {
+            "legacy": {
               "buildid": "25912907",
+              "description": "旧版本",
               "timebuildupdated": 1791909727,
               "timeupdated": 1791910827
+            },
+            "public": {
+              "buildid": "26007631",
+              "timebuildupdated": 1792231636,
+              "timeupdated": 1792231671
             }
           },
           "depots": {
             "5000201": {
               "manifests": {
-                "public": "6291135640620626602"
+                "legacy": "6291135640620626602",
+                "public": "2922465638818210690"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-13T17:22:30.221Z",
+      "observed_at": "2026-10-18T16:37:32.070Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-13T17:22:30.221Z"
+  "updated_at": "2026-10-18T16:37:32.070Z"
 }

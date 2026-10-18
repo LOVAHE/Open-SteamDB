@@ -635,11 +635,36 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T16:37:32.070Z",
+      "change_number": 39954407,
+      "changes": [
+        {
+          "after": "80",
+          "before": "82",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "before": {
+            "config": {
+              "osarch": "64",
+              "oslist": "linux"
+            },
+            "manifests": {}
+          },
+          "op": "remove",
+          "path": "/depots/depots/5233942"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39920093,
+      "change_number": 39954407,
       "data": {
         "appinfo": {
           "common": {
@@ -753,7 +778,7 @@
             "oslist": "windows,linux",
             "parent": "2708040",
             "primary_genre": "1",
-            "review_percentage": "82",
+            "review_percentage": "80",
             "review_score": "7",
             "small_capsule": {
               "english": "c650f98a2e0870c5aa3abb760e29a30988b4310c/capsule_231x87.jpg"
@@ -927,22 +952,15 @@
               "manifests": {
                 "public": "6749365001572598563"
               }
-            },
-            "5233942": {
-              "config": {
-                "osarch": "64",
-                "oslist": "linux"
-              },
-              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-10-16T21:07:34.962Z",
+      "observed_at": "2026-10-18T16:37:32.070Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-16T21:07:34.962Z"
+  "updated_at": "2026-10-18T16:37:32.070Z"
 }

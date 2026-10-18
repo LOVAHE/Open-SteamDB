@@ -568,11 +568,69 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T16:37:32.070Z",
+      "change_number": 39968098,
+      "changes": [
+        {
+          "after": "99",
+          "before": "98",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "before": {
+            "buildid": "25959262",
+            "description": "1.1.7 without webview2",
+            "timebuildupdated": 1792066268,
+            "timeupdated": 1792066375
+          },
+          "op": "remove",
+          "path": "/depots/branches/lite"
+        },
+        {
+          "after": "26028704",
+          "before": "25959358",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792340873,
+          "before": 1792066499,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792341409,
+          "before": 1792066574,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": "4615055998054426683",
+          "op": "remove",
+          "path": "/depots/depots/5249211/manifests/lite"
+        },
+        {
+          "after": "7093755093256860732",
+          "before": "80633912701789707",
+          "op": "replace",
+          "path": "/depots/depots/5249211/manifests/public"
+        },
+        {
+          "before": "3760999671776487756",
+          "op": "remove",
+          "path": "/depots/depots/5388580/manifests/lite"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39929122,
+      "change_number": 39968098,
       "data": {
         "appinfo": {
           "common": {
@@ -689,7 +747,7 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "4",
-            "review_percentage": "98",
+            "review_percentage": "99",
             "review_score": "8",
             "small_capsule": {
               "english": "26e4825e3f8eff2463bd03bf827b1c1af0abe971/capsule_231x87.jpg"
@@ -796,16 +854,10 @@
         },
         "depots": {
           "branches": {
-            "lite": {
-              "buildid": "25959262",
-              "description": "1.1.7 without webview2",
-              "timebuildupdated": 1792066268,
-              "timeupdated": 1792066375
-            },
             "public": {
-              "buildid": "25959358",
-              "timebuildupdated": 1792066499,
-              "timeupdated": 1792066574
+              "buildid": "26028704",
+              "timebuildupdated": 1792340873,
+              "timeupdated": 1792341409
             }
           },
           "depots": {
@@ -814,8 +866,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "lite": "4615055998054426683",
-                "public": "80633912701789707"
+                "public": "7093755093256860732"
               }
             },
             "5388580": {
@@ -824,18 +875,17 @@
               },
               "dlcappid": 5388580,
               "manifests": {
-                "lite": "3760999671776487756",
                 "public": "3760999671776487756"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-17T04:07:29.073Z",
+      "observed_at": "2026-10-18T16:37:32.070Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-17T04:07:29.073Z"
+  "updated_at": "2026-10-18T16:37:32.070Z"
 }

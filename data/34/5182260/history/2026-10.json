@@ -586,11 +586,75 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T16:37:32.070Z",
+      "change_number": 39967061,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": "80",
+          "before": "69",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "8",
+          "before": "5",
+          "op": "replace",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": {
+            "maxnumfiles": "10",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "LostPixel/Keyboard Chaos",
+                "pattern": "*.json",
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26011875",
+          "before": "25969607",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792252969,
+          "before": 1792094721,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792253034,
+          "before": 1792094770,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7007915918013294184",
+          "before": "6550482362845350375",
+          "op": "replace",
+          "path": "/depots/depots/5182261/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39928970,
+      "change_number": 39967061,
       "data": {
         "appinfo": {
           "common": {
@@ -607,6 +671,7 @@
             "category": {
               "category_2": "1",
               "category_22": "1",
+              "category_23": "1",
               "category_62": "1",
               "category_68": "1",
               "category_74": "1",
@@ -686,8 +751,8 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "28",
-            "review_percentage": "69",
-            "review_score": "5",
+            "review_percentage": "80",
+            "review_score": "8",
             "small_capsule": {
               "english": "a83e25cf827482ce966fffd0b4484971a518a51d/capsule_231x87.jpg"
             },
@@ -761,14 +826,25 @@
           "extended": {
             "developer": "LostPixel",
             "publisher": "LostPixel"
+          },
+          "ufs": {
+            "maxnumfiles": "10",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "LostPixel/Keyboard Chaos",
+                "pattern": "*.json",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25969607",
-              "timebuildupdated": 1792094721,
-              "timeupdated": 1792094770
+              "buildid": "26011875",
+              "timebuildupdated": 1792252969,
+              "timeupdated": 1792253034
             }
           },
           "depots": {
@@ -785,17 +861,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "6550482362845350375"
+                "public": "7007915918013294184"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-17T04:07:29.073Z",
+      "observed_at": "2026-10-18T16:37:32.070Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-17T04:07:29.073Z"
+  "updated_at": "2026-10-18T16:37:32.070Z"
 }

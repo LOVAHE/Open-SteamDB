@@ -156,11 +156,65 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T16:37:32.070Z",
+      "change_number": 39961632,
+      "changes": [
+        {
+          "after": "100",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "4325",
+          "before": "3964",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/10"
+        },
+        {
+          "after": "3964",
+          "before": "4325",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/9"
+        },
+        {
+          "after": "26024942",
+          "before": "25992884",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792323698,
+          "before": 1792169951,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792323718,
+          "before": 1792170002,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3913822711100910643",
+          "before": "3311104062303935185",
+          "op": "replace",
+          "path": "/depots/depots/5007741/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39916834,
+      "change_number": 39961632,
       "data": {
         "appinfo": {
           "common": {
@@ -249,6 +303,8 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "3",
+            "review_percentage": "100",
+            "review_score": "7",
             "small_capsule": {
               "english": "dfb31843a92662f8cc2f6d36d327d73717a1c9eb/capsule_231x87.jpg"
             },
@@ -264,8 +320,8 @@
               "6": "4486",
               "7": "44868",
               "8": "1742",
-              "9": "4325",
-              "10": "3964",
+              "9": "3964",
+              "10": "4325",
               "11": "1755",
               "12": "4559",
               "13": "4182"
@@ -289,25 +345,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25992884",
-              "timebuildupdated": 1792169951,
-              "timeupdated": 1792170002
+              "buildid": "26024942",
+              "timebuildupdated": 1792323698,
+              "timeupdated": 1792323718
             }
           },
           "depots": {
             "5007741": {
               "manifests": {
-                "public": "3311104062303935185"
+                "public": "3913822711100910643"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-16T23:52:33.179Z",
+      "observed_at": "2026-10-18T16:37:32.070Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-16T23:52:33.179Z"
+  "updated_at": "2026-10-18T16:37:32.070Z"
 }
