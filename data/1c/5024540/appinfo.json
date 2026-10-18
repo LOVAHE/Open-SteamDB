@@ -1,8 +1,8 @@
 {
   "appid": 5024540,
   "source": "steam_pics",
-  "updated_at": "2026-10-18T19:52:31.218Z",
-  "change_number": 39972609,
+  "updated_at": "2026-10-18T20:07:33.776Z",
+  "change_number": 39972952,
   "data": {
     "common": {
       "associations": {
@@ -202,13 +202,24 @@
     "ufs": {
       "maxnumfiles": "100",
       "quota": "100000000",
+      "rootoverrides": {
+        "0": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Godot/app_userdata/LIMP MODE",
+              "replace": "godot/app_userdata/LIMP MODE"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
       "savefiles": {
         "0": {
           "path": "Godot/app_userdata/LIMP MODE",
           "pattern": "save_*.cfg",
-          "platforms": {
-            "1": "Windows"
-          },
           "root": "WinAppDataRoaming"
         }
       }
