@@ -1,8 +1,8 @@
 {
   "appid": 5300160,
   "source": "steam_pics",
-  "updated_at": "2026-10-15T18:37:31.126Z",
-  "change_number": 39873288,
+  "updated_at": "2026-10-18T17:10:32.305Z",
+  "change_number": 39964244,
   "data": {
     "common": {
       "associations": {
@@ -119,8 +119,10 @@
       "name": "Stellarite Miner",
       "osarch": "64",
       "osextended": "",
-      "oslist": "windows",
+      "oslist": "windows,linux",
       "primary_genre": "4",
+      "review_percentage": "50",
+      "review_score": "5",
       "small_capsule": {
         "english": "d65a1dc8c0d5094224db36df0ce1f925aec3b1f9/capsule_231x87.jpg"
       },
@@ -215,6 +217,20 @@
     "ufs": {
       "maxnumfiles": "10",
       "quota": "20000000",
+      "rootoverrides": {
+        "0": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Rising Moon Games/Stellarite Miner/Saves",
+              "replace": ".config/unity3d/Rising Moon Games/Stellarite Miner/Saves"
+            }
+          },
+          "root": "WinAppDataLocalLow",
+          "useinstead": "LinuxHome"
+        }
+      },
       "savefiles": {
         "0": {
           "path": "Rising Moon Games/Stellarite Miner/Saves",

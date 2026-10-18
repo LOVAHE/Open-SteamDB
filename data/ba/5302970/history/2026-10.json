@@ -145,11 +145,74 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T17:10:32.305Z",
+      "change_number": 39968543,
+      "changes": [
+        {
+          "after": "macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "1792329507",
+          "before": "1791837056",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "26028961",
+          "before": "25697460",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792341912,
+          "before": 1791038644,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792342286,
+          "before": 1791039565,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/5302971/config"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "1826898203937329183"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5302972"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39755891,
+      "change_number": 39968543,
       "data": {
         "appinfo": {
           "common": {
@@ -239,15 +302,15 @@
             },
             "name": "Gloom Hunters Demo",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macosapplesilicon",
+            "oslist": "windows,macos",
             "parent": "4465520",
             "primary_genre": "1",
             "small_capsule": {
               "english": "4c66ef38832bdd3e9996034a901d583290b31a94/capsule_231x87.jpg"
             },
             "steam_release_date": "1791569109",
-            "store_asset_mtime": "1791837056",
+            "store_asset_mtime": "1792329507",
             "supported_languages": {
               "english": {
                 "supported": "true"
@@ -267,25 +330,36 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25697460",
-              "timebuildupdated": 1791038644,
-              "timeupdated": 1791039565
+              "buildid": "26028961",
+              "timebuildupdated": 1792341912,
+              "timeupdated": 1792342286
             }
           },
           "depots": {
             "5302971": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
                 "public": "6059538760324503598"
+              }
+            },
+            "5302972": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "1826898203937329183"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-12T21:07:23.706Z",
+      "observed_at": "2026-10-18T17:10:32.305Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-12T21:07:23.706Z"
+  "updated_at": "2026-10-18T17:10:32.305Z"
 }

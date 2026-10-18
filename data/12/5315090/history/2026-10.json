@@ -215,11 +215,68 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T17:10:32.305Z",
+      "change_number": 39961648,
+      "changes": [
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26024040",
+          "before": "25972536",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792319159,
+          "before": 1792104328,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792319261,
+          "before": 1792104551,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/5315091/config"
+        },
+        {
+          "after": "3340037537117339589",
+          "before": "4018673281892943254",
+          "op": "replace",
+          "path": "/depots/depots/5315091/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "linux"
+            },
+            "manifests": {
+              "public": "6769640140323413834"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5315092"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39880598,
+      "change_number": 39961648,
       "data": {
         "appinfo": {
           "common": {
@@ -312,7 +369,7 @@
             "name": "Portal way Demo",
             "osarch": "",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,linux",
             "parent": "3553010",
             "primary_genre": "4",
             "small_capsule": {
@@ -343,25 +400,36 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25972536",
-              "timebuildupdated": 1792104328,
-              "timeupdated": 1792104551
+              "buildid": "26024040",
+              "timebuildupdated": 1792319159,
+              "timeupdated": 1792319261
             }
           },
           "depots": {
             "5315091": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
-                "public": "4018673281892943254"
+                "public": "3340037537117339589"
+              }
+            },
+            "5315092": {
+              "config": {
+                "oslist": "linux"
+              },
+              "manifests": {
+                "public": "6769640140323413834"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-15T22:52:30.500Z",
+      "observed_at": "2026-10-18T17:10:32.305Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T22:52:30.500Z"
+  "updated_at": "2026-10-18T17:10:32.305Z"
 }

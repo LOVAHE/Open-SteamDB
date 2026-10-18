@@ -296,11 +296,90 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T17:10:32.305Z",
+      "change_number": 39957693,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "buildid": "26022315",
+            "description": "Testing branch",
+            "timebuildupdated": 1792309566,
+            "timeupdated": 1792309889
+          },
+          "op": "add",
+          "path": "/depots/branches/beta"
+        },
+        {
+          "after": "26022315",
+          "before": "25947922",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792309566,
+          "before": 1792025090,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792309889,
+          "before": 1792025950,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/5299331/config"
+        },
+        {
+          "after": "9178950261551647687",
+          "op": "add",
+          "path": "/depots/depots/5299331/manifests/beta"
+        },
+        {
+          "after": "9178950261551647687",
+          "before": "5749730112025395993",
+          "op": "replace",
+          "path": "/depots/depots/5299331/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {
+              "beta": "4095741754172463129",
+              "public": "4095741754172463129"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5299332"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39841967,
+      "change_number": 39957693,
       "data": {
         "appinfo": {
           "common": {
@@ -424,8 +503,8 @@
             },
             "name": "Room Movers Demo",
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos",
             "parent": "5208930",
             "primary_genre": "4",
             "small_capsule": {
@@ -560,10 +639,16 @@
         },
         "depots": {
           "branches": {
+            "beta": {
+              "buildid": "26022315",
+              "description": "Testing branch",
+              "timebuildupdated": 1792309566,
+              "timeupdated": 1792309889
+            },
             "public": {
-              "buildid": "25947922",
-              "timebuildupdated": 1792025090,
-              "timeupdated": 1792025950
+              "buildid": "26022315",
+              "timebuildupdated": 1792309566,
+              "timeupdated": 1792309889
             }
           },
           "depots": {
@@ -576,18 +661,31 @@
               "sharedinstall": true
             },
             "5299331": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
-                "public": "5749730112025395993"
+                "beta": "9178950261551647687",
+                "public": "9178950261551647687"
+              }
+            },
+            "5299332": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {
+                "beta": "4095741754172463129",
+                "public": "4095741754172463129"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-15T01:22:27.859Z",
+      "observed_at": "2026-10-18T17:10:32.305Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T01:22:27.859Z"
+  "updated_at": "2026-10-18T17:10:32.305Z"
 }

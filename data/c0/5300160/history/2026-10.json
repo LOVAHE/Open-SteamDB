@@ -352,11 +352,98 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T17:10:32.305Z",
+      "change_number": 39964244,
+      "changes": [
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "50",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "5",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": {
+            "0": {
+              "os": "Linux",
+              "oscompare": "=",
+              "pathtransforms": {
+                "0": {
+                  "find": "Rising Moon Games/Stellarite Miner/Saves",
+                  "replace": ".config/unity3d/Rising Moon Games/Stellarite Miner/Saves"
+                }
+              },
+              "root": "WinAppDataLocalLow",
+              "useinstead": "LinuxHome"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "after": "26010897",
+          "before": "25967183",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792248432,
+          "before": 1792087441,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792249902,
+          "before": 1792088347,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "osarch": "64",
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/5300161/config"
+        },
+        {
+          "after": "1564678364139477367",
+          "before": "8434018584298469058",
+          "op": "replace",
+          "path": "/depots/depots/5300161/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "linux"
+            },
+            "manifests": {
+              "public": "5951366550497078759"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5300162"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39873288,
+      "change_number": 39964244,
       "data": {
         "appinfo": {
           "common": {
@@ -474,8 +561,10 @@
             "name": "Stellarite Miner",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,linux",
             "primary_genre": "4",
+            "review_percentage": "50",
+            "review_score": "5",
             "small_capsule": {
               "english": "d65a1dc8c0d5094224db36df0ce1f925aec3b1f9/capsule_231x87.jpg"
             },
@@ -570,6 +659,20 @@
           "ufs": {
             "maxnumfiles": "10",
             "quota": "20000000",
+            "rootoverrides": {
+              "0": {
+                "os": "Linux",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Rising Moon Games/Stellarite Miner/Saves",
+                    "replace": ".config/unity3d/Rising Moon Games/Stellarite Miner/Saves"
+                  }
+                },
+                "root": "WinAppDataLocalLow",
+                "useinstead": "LinuxHome"
+              }
+            },
             "savefiles": {
               "0": {
                 "path": "Rising Moon Games/Stellarite Miner/Saves",
@@ -582,25 +685,38 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25967183",
-              "timebuildupdated": 1792087441,
-              "timeupdated": 1792088347
+              "buildid": "26010897",
+              "timebuildupdated": 1792248432,
+              "timeupdated": 1792249902
             }
           },
           "depots": {
             "5300161": {
+              "config": {
+                "osarch": "64",
+                "oslist": "windows"
+              },
               "manifests": {
-                "public": "8434018584298469058"
+                "public": "1564678364139477367"
+              }
+            },
+            "5300162": {
+              "config": {
+                "osarch": "64",
+                "oslist": "linux"
+              },
+              "manifests": {
+                "public": "5951366550497078759"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-15T18:37:31.126Z",
+      "observed_at": "2026-10-18T17:10:32.305Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T18:37:31.126Z"
+  "updated_at": "2026-10-18T17:10:32.305Z"
 }

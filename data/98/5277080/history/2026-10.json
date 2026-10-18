@@ -273,11 +273,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-18T17:10:32.305Z",
+      "change_number": 39939057,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_30"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": "26009698",
+          "before": "25696416",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792242635,
+          "before": 1791032721,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792244247,
+          "before": 1791033396,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6405521362054446241",
+          "before": "6032059926179096411",
+          "op": "replace",
+          "path": "/depots/depots/5277081/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39928091,
+      "change_number": 39939057,
       "data": {
         "appinfo": {
           "common": {
@@ -293,6 +340,8 @@
             },
             "category": {
               "category_2": "1",
+              "category_23": "1",
+              "category_30": "1",
               "category_62": "1"
             },
             "clienticon": "f31ec7f7a143901404cd1a5741a1e3542036e780",
@@ -414,7 +463,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "Bloom Blow"
@@ -442,9 +492,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25696416",
-              "timebuildupdated": 1791032721,
-              "timeupdated": 1791033396
+              "buildid": "26009698",
+              "timebuildupdated": 1792242635,
+              "timeupdated": 1792244247
             }
           },
           "depots": {
@@ -458,7 +508,7 @@
             },
             "5277081": {
               "manifests": {
-                "public": "6032059926179096411"
+                "public": "6405521362054446241"
               }
             },
             "5379370": {
@@ -473,11 +523,11 @@
           }
         }
       },
-      "observed_at": "2026-10-17T03:07:32.116Z",
+      "observed_at": "2026-10-18T17:10:32.305Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-17T03:07:32.116Z"
+  "updated_at": "2026-10-18T17:10:32.305Z"
 }
