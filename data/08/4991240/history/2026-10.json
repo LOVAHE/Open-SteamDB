@@ -746,11 +746,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-19T21:52:35.152Z",
+      "change_number": 40020874,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "40",
+            "quota": "200000000",
+            "savefiles": {
+              "0": {
+                "path": "TUE_WitchCabin/Saved/SaveGames",
+                "pattern": "*.sav",
+                "root": "WinAppDataLocal"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40015980,
+      "change_number": 40020874,
       "data": {
         "appinfo": {
           "common": {
@@ -941,6 +964,17 @@
           "extended": {
             "developer": "Cleanup Crew!",
             "publisher": "Cleanup Crew!"
+          },
+          "ufs": {
+            "maxnumfiles": "40",
+            "quota": "200000000",
+            "savefiles": {
+              "0": {
+                "path": "TUE_WitchCabin/Saved/SaveGames",
+                "pattern": "*.sav",
+                "root": "WinAppDataLocal"
+              }
+            }
           }
         },
         "depots": {
@@ -976,11 +1010,11 @@
           }
         }
       },
-      "observed_at": "2026-10-19T19:07:34.866Z",
+      "observed_at": "2026-10-19T21:52:35.152Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T19:07:34.866Z"
+  "updated_at": "2026-10-19T21:52:35.152Z"
 }
