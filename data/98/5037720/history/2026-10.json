@@ -187,11 +187,42 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-19T16:38:35.053Z",
+      "change_number": 40008854,
+      "changes": [
+        {
+          "after": "8210ed375e78ab1936bdd3f23380466b4e425890/header.jpg",
+          "before": "907c12ac62ebfa84b03c4bb28a100da407c231b7/header.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/header_image/english"
+        },
+        {
+          "after": "2a165266ab05d0c4031b7fab84278b53618ebcec/capsule_231x87.jpg",
+          "before": "08abf9200b5ee55d0a0cd783673b07c0408d476b/capsule_231x87.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/small_capsule/english"
+        },
+        {
+          "after": "1792312496",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "1792427226",
+          "before": "1790005046",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39958378,
+      "change_number": 40008854,
       "data": {
         "appinfo": {
           "common": {
@@ -216,7 +247,7 @@
               "1": "23"
             },
             "header_image": {
-              "english": "907c12ac62ebfa84b03c4bb28a100da407c231b7/header.jpg"
+              "english": "8210ed375e78ab1936bdd3f23380466b4e425890/header.jpg"
             },
             "icon": "e39131151f34c1f79534600acd3a5d2e8f8fdda4",
             "library_assets": {
@@ -282,9 +313,10 @@
             "parent": "5004180",
             "primary_genre": "25",
             "small_capsule": {
-              "english": "08abf9200b5ee55d0a0cd783673b07c0408d476b/capsule_231x87.jpg"
+              "english": "2a165266ab05d0c4031b7fab84278b53618ebcec/capsule_231x87.jpg"
             },
-            "store_asset_mtime": "1790005046",
+            "steam_release_date": "1792312496",
+            "store_asset_mtime": "1792427226",
             "supported_languages": {
               "brazilian": {
                 "supported": "true"
@@ -365,11 +397,11 @@
           }
         }
       },
-      "observed_at": "2026-10-18T23:52:33.162Z",
+      "observed_at": "2026-10-19T16:38:35.053Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-18T23:52:33.162Z"
+  "updated_at": "2026-10-19T16:38:35.053Z"
 }
