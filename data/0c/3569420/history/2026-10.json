@@ -590,11 +590,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-19T04:07:32.956Z",
+      "change_number": 39983417,
+      "changes": [
+        {
+          "after": {
+            "buildid": "25950801",
+            "description": "For crossplay with platforms on older versions",
+            "timebuildupdated": 1792036446,
+            "timeupdated": 1792036446
+          },
+          "op": "add",
+          "path": "/depots/branches/crossplaycompatibility"
+        },
+        {
+          "after": "7405823306894005284",
+          "op": "add",
+          "path": "/depots/depots/3569421/manifests/crossplaycompatibility"
+        },
+        {
+          "after": "6253062225097583813",
+          "op": "add",
+          "path": "/depots/depots/3569422/manifests/crossplaycompatibility"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39977029,
+      "change_number": 39983417,
       "data": {
         "appinfo": {
           "common": {
@@ -854,6 +882,12 @@
         },
         "depots": {
           "branches": {
+            "crossplaycompatibility": {
+              "buildid": "25950801",
+              "description": "For crossplay with platforms on older versions",
+              "timebuildupdated": 1792036446,
+              "timeupdated": 1792036446
+            },
             "public": {
               "buildid": "25950801",
               "timebuildupdated": 1792036446,
@@ -874,6 +908,7 @@
                 "oslist": "windows,linux"
               },
               "manifests": {
+                "crossplaycompatibility": "7405823306894005284",
                 "public": "7405823306894005284"
               }
             },
@@ -882,17 +917,18 @@
                 "oslist": "macos"
               },
               "manifests": {
+                "crossplaycompatibility": "6253062225097583813",
                 "public": "6253062225097583813"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-18T23:07:33.060Z",
+      "observed_at": "2026-10-19T04:07:32.956Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-18T23:07:33.060Z"
+  "updated_at": "2026-10-19T04:07:32.956Z"
 }
