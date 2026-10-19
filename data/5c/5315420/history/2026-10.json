@@ -190,11 +190,60 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-19T22:52:39.306Z",
+      "change_number": 40022483,
+      "changes": [
+        {
+          "after": {
+            "osarch": "64",
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/5315421/config"
+        },
+        {
+          "before": {
+            "config": {
+              "language": "english",
+              "osarch": "64",
+              "oslist": "windows"
+            },
+            "manifests": {}
+          },
+          "op": "remove",
+          "path": "/depots/depots/5315422"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "linux"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5315423"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5315424"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40022211,
+      "change_number": 40022483,
       "data": {
         "appinfo": {
           "common": {
@@ -324,26 +373,35 @@
           },
           "depots": {
             "5315421": {
+              "config": {
+                "osarch": "64",
+                "oslist": "windows"
+              },
               "manifests": {
                 "public": "3888411697127871027"
               }
             },
-            "5315422": {
+            "5315423": {
               "config": {
-                "language": "english",
                 "osarch": "64",
-                "oslist": "windows"
+                "oslist": "linux"
+              },
+              "manifests": {}
+            },
+            "5315424": {
+              "config": {
+                "oslist": "macos"
               },
               "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-10-19T22:37:34.015Z",
+      "observed_at": "2026-10-19T22:52:39.306Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T22:37:34.015Z"
+  "updated_at": "2026-10-19T22:52:39.306Z"
 }
