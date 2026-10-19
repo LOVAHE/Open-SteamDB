@@ -1,8 +1,8 @@
 {
   "appid": 5129430,
   "source": "steam_pics",
-  "updated_at": "2026-10-17T03:07:32.116Z",
-  "change_number": 39928033,
+  "updated_at": "2026-10-19T16:52:42.451Z",
+  "change_number": 40009972,
   "data": {
     "common": {
       "associations": {
@@ -176,13 +176,19 @@
     "ufs": {
       "maxnumfiles": "64",
       "quota": "10000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
       "savefiles": {
         "0": {
           "path": "dev.rior.arcanum",
           "pattern": "save.json",
-          "platforms": {
-            "1": "Windows"
-          },
           "root": "WinAppDataRoaming"
         }
       }

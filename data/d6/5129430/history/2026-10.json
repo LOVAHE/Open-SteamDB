@@ -813,11 +813,50 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-19T16:52:42.451Z",
+      "change_number": 40009972,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "addpath": "",
+              "os": "Linux",
+              "oscompare": "=",
+              "root": "WinAppDataRoaming",
+              "useinstead": "LinuxXdgDataHome"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "before": {
+            "1": "Windows"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/0/platforms"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "linux"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5129432"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39928033,
+      "change_number": 40009972,
       "data": {
         "appinfo": {
           "common": {
@@ -992,13 +1031,19 @@
           "ufs": {
             "maxnumfiles": "64",
             "quota": "10000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "Linux",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              }
+            },
             "savefiles": {
               "0": {
                 "path": "dev.rior.arcanum",
                 "pattern": "save.json",
-                "platforms": {
-                  "1": "Windows"
-                },
                 "root": "WinAppDataRoaming"
               }
             }
@@ -1017,15 +1062,22 @@
               "manifests": {
                 "public": "601506132061211951"
               }
+            },
+            "5129432": {
+              "config": {
+                "osarch": "64",
+                "oslist": "linux"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-10-17T03:07:32.116Z",
+      "observed_at": "2026-10-19T16:52:42.451Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-17T03:07:32.116Z"
+  "updated_at": "2026-10-19T16:52:42.451Z"
 }
