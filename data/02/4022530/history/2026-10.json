@@ -439,11 +439,59 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-19T09:37:33.646Z",
+      "change_number": 39991527,
+      "changes": [
+        {
+          "after": "windows,macos,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26032202",
+          "before": "25967152",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792354034,
+          "before": 1792087366,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792401118,
+          "before": 1792087568,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7507683554928592986",
+          "before": "9095742894772570567",
+          "op": "replace",
+          "path": "/depots/depots/4022531/manifests/public"
+        },
+        {
+          "after": "9002031639433531412",
+          "op": "add",
+          "path": "/depots/depots/4022532/manifests/public"
+        },
+        {
+          "after": "2587885932132719293",
+          "op": "add",
+          "path": "/depots/depots/4022533/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39973248,
+      "change_number": 39991527,
       "data": {
         "appinfo": {
           "common": {
@@ -541,7 +589,7 @@
             "name": "Genesis",
             "osarch": "",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,macos,linux",
             "primary_genre": "37",
             "small_capsule": {
               "english": "efb0762f97a7e1b3480fc1cb40a414f01ff220a7/capsule_231x87.jpg"
@@ -590,9 +638,9 @@
               "timeupdated": 1792354034
             },
             "public": {
-              "buildid": "25967152",
-              "timebuildupdated": 1792087366,
-              "timeupdated": 1792087568
+              "buildid": "26032202",
+              "timebuildupdated": 1792354034,
+              "timeupdated": 1792401118
             }
           },
           "depots": {
@@ -602,7 +650,7 @@
               },
               "manifests": {
                 "beta": "7507683554928592986",
-                "public": "9095742894772570567"
+                "public": "7507683554928592986"
               }
             },
             "4022532": {
@@ -610,7 +658,8 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "beta": "9002031639433531412"
+                "beta": "9002031639433531412",
+                "public": "9002031639433531412"
               }
             },
             "4022533": {
@@ -618,17 +667,18 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "beta": "2587885932132719293"
+                "beta": "2587885932132719293",
+                "public": "2587885932132719293"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-18T20:07:33.776Z",
+      "observed_at": "2026-10-19T09:37:33.646Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-18T20:07:33.776Z"
+  "updated_at": "2026-10-19T09:37:33.646Z"
 }
