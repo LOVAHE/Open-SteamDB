@@ -169,11 +169,35 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-19T18:22:36.744Z",
+      "change_number": 40014259,
+      "changes": [
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "linux"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/4999211"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39919088,
+      "change_number": 40014259,
       "data": {
         "appinfo": {
           "common": {
@@ -269,7 +293,7 @@
             "name": "Diceminoes",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,linux",
             "primary_genre": "2",
             "small_capsule": {
               "english": "881585447194b657974ad0f5d9f7e2c04110485d/capsule_231x87.jpg"
@@ -318,6 +342,12 @@
             }
           },
           "depots": {
+            "4999211": {
+              "config": {
+                "oslist": "linux"
+              },
+              "manifests": {}
+            },
             "4999212": {
               "config": {
                 "oslist": "windows"
@@ -329,11 +359,11 @@
           }
         }
       },
-      "observed_at": "2026-10-18T16:37:32.070Z",
+      "observed_at": "2026-10-19T18:22:36.744Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-18T16:37:32.070Z"
+  "updated_at": "2026-10-19T18:22:36.744Z"
 }

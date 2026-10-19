@@ -221,11 +221,42 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-19T18:22:36.744Z",
+      "change_number": 40014335,
+      "changes": [
+        {
+          "after": "c8e2d85350b665bb9794dd3213974f5049f30915/library_header.jpg",
+          "before": "2c14ed89703d3a9ce882de34c3e1f2a7f1b4106b/library_header.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets_full/library_header/image/english"
+        },
+        {
+          "after": "c8e2d85350b665bb9794dd3213974f5049f30915/library_header_2x.jpg",
+          "before": "2c14ed89703d3a9ce882de34c3e1f2a7f1b4106b/library_header_2x.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets_full/library_header/image2x/english"
+        },
+        {
+          "after": "1792153928",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "1792433823",
+          "before": "1791662125",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40013243,
+      "change_number": 40014335,
       "data": {
         "appinfo": {
           "common": {
@@ -287,10 +318,10 @@
               },
               "library_header": {
                 "image": {
-                  "english": "2c14ed89703d3a9ce882de34c3e1f2a7f1b4106b/library_header.jpg"
+                  "english": "c8e2d85350b665bb9794dd3213974f5049f30915/library_header.jpg"
                 },
                 "image2x": {
-                  "english": "2c14ed89703d3a9ce882de34c3e1f2a7f1b4106b/library_header_2x.jpg"
+                  "english": "c8e2d85350b665bb9794dd3213974f5049f30915/library_header_2x.jpg"
                 }
               },
               "library_hero": {
@@ -329,7 +360,8 @@
             "small_capsule": {
               "english": "10d225d9cff44ece2bb2841d91058c6f807149d6/capsule_231x87.jpg"
             },
-            "store_asset_mtime": "1791662125",
+            "steam_release_date": "1792153928",
+            "store_asset_mtime": "1792433823",
             "supported_languages": {
               "english": {
                 "full_audio": "true",
@@ -401,11 +433,11 @@
           }
         }
       },
-      "observed_at": "2026-10-19T17:52:37.575Z",
+      "observed_at": "2026-10-19T18:22:36.744Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T17:52:37.575Z"
+  "updated_at": "2026-10-19T18:22:36.744Z"
 }
