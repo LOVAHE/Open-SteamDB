@@ -664,11 +664,78 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-19T09:52:31.372Z",
+      "change_number": 39992433,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": {
+            "maxnumfiles": "200",
+            "quota": "104857600",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/IdleAgency",
+                "pattern": "demo_save.json",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/IdleAgency",
+                "pattern": "demo_save.json.bak*",
+                "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "Godot/app_userdata/IdleAgency/slots/2",
+                "pattern": "demo_save.json",
+                "root": "WinAppDataRoaming"
+              },
+              "3": {
+                "path": "Godot/app_userdata/IdleAgency/slots/2",
+                "pattern": "demo_save.json.bak*",
+                "root": "WinAppDataRoaming"
+              },
+              "4": {
+                "path": "Godot/app_userdata/IdleAgency/slots/3",
+                "pattern": "demo_save.json",
+                "root": "WinAppDataRoaming"
+              },
+              "5": {
+                "path": "Godot/app_userdata/IdleAgency/slots/3",
+                "pattern": "demo_save.json.bak*",
+                "root": "WinAppDataRoaming"
+              },
+              "6": {
+                "path": "Godot/app_userdata/IdleAgency",
+                "pattern": "save_slots.json",
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39991734,
+      "change_number": 39992433,
       "data": {
         "appinfo": {
           "common": {
@@ -683,7 +750,8 @@
               }
             },
             "category": {
-              "category_2": "1"
+              "category_2": "1",
+              "category_23": "1"
             },
             "clienticon": "966cc3ed3dc4840e4d721bfaf8592312aa818d27",
             "genres": {
@@ -808,6 +876,56 @@
             "developer": "drowsycatstudio",
             "homepage": "https://drowsycatstudio.com/",
             "publisher": "drowsycatstudio"
+          },
+          "ufs": {
+            "maxnumfiles": "200",
+            "quota": "104857600",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/IdleAgency",
+                "pattern": "demo_save.json",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/IdleAgency",
+                "pattern": "demo_save.json.bak*",
+                "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "Godot/app_userdata/IdleAgency/slots/2",
+                "pattern": "demo_save.json",
+                "root": "WinAppDataRoaming"
+              },
+              "3": {
+                "path": "Godot/app_userdata/IdleAgency/slots/2",
+                "pattern": "demo_save.json.bak*",
+                "root": "WinAppDataRoaming"
+              },
+              "4": {
+                "path": "Godot/app_userdata/IdleAgency/slots/3",
+                "pattern": "demo_save.json",
+                "root": "WinAppDataRoaming"
+              },
+              "5": {
+                "path": "Godot/app_userdata/IdleAgency/slots/3",
+                "pattern": "demo_save.json.bak*",
+                "root": "WinAppDataRoaming"
+              },
+              "6": {
+                "path": "Godot/app_userdata/IdleAgency",
+                "pattern": "save_slots.json",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -838,11 +956,11 @@
           }
         }
       },
-      "observed_at": "2026-10-19T09:37:33.646Z",
+      "observed_at": "2026-10-19T09:52:31.372Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T09:37:33.646Z"
+  "updated_at": "2026-10-19T09:52:31.372Z"
 }
