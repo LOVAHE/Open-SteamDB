@@ -295,11 +295,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-19T18:52:34.847Z",
+      "change_number": 40015434,
+      "changes": [
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26057503",
+          "before": "26034921",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792431894,
+          "before": 1792364568,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792435696,
+          "before": 1792364687,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "253528211026427605",
+          "op": "add",
+          "path": "/depots/depots/5205703/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40009766,
+      "change_number": 40015434,
       "data": {
         "appinfo": {
           "common": {
@@ -394,7 +431,7 @@
             "name": "Cats Don't Carry Car Parts Demo",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,linux",
             "parent": "4698160",
             "primary_genre": "25",
             "small_capsule": {
@@ -422,9 +459,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26034921",
-              "timebuildupdated": 1792364568,
-              "timeupdated": 1792364687
+              "buildid": "26057503",
+              "timebuildupdated": 1792431894,
+              "timeupdated": 1792435696
             }
           },
           "depots": {
@@ -446,16 +483,18 @@
               "config": {
                 "oslist": "linux"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "253528211026427605"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-19T16:52:42.451Z",
+      "observed_at": "2026-10-19T18:52:34.847Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T16:52:42.451Z"
+  "updated_at": "2026-10-19T18:52:34.847Z"
 }
