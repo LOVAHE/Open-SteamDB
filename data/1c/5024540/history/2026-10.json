@@ -917,11 +917,45 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-19T12:22:35.734Z",
+      "change_number": 39997699,
+      "changes": [
+        {
+          "after": "Experimental same version as default",
+          "before": "Experimental newer version",
+          "op": "replace",
+          "path": "/depots/branches/experimental/description"
+        },
+        {
+          "after": {
+            "buildid": "26048500",
+            "description": "Further version experimental",
+            "timebuildupdated": 1792412415,
+            "timeupdated": 1792412478
+          },
+          "op": "add",
+          "path": "/depots/branches/experimental-2"
+        },
+        {
+          "after": "1021056337055928160",
+          "op": "add",
+          "path": "/depots/depots/5024541/manifests/experimental-2"
+        },
+        {
+          "after": "4478683833836881234",
+          "op": "add",
+          "path": "/depots/depots/5024542/manifests/experimental-2"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39992487,
+      "change_number": 39997699,
       "data": {
         "appinfo": {
           "common": {
@@ -1149,9 +1183,15 @@
           "branches": {
             "experimental": {
               "buildid": "26031719",
-              "description": "Experimental newer version",
+              "description": "Experimental same version as default",
               "timebuildupdated": 1792352233,
               "timeupdated": 1792352378
+            },
+            "experimental-2": {
+              "buildid": "26048500",
+              "description": "Further version experimental",
+              "timebuildupdated": 1792412415,
+              "timeupdated": 1792412478
             },
             "pre-version": {
               "buildid": "26011759",
@@ -1172,6 +1212,7 @@
               },
               "manifests": {
                 "experimental": "7518869312357705838",
+                "experimental-2": "1021056337055928160",
                 "pre-version": "8354316623047551405",
                 "public": "6943401625237222999"
               }
@@ -1182,6 +1223,7 @@
               },
               "manifests": {
                 "experimental": "7399790507091302431",
+                "experimental-2": "4478683833836881234",
                 "pre-version": "4351429492131485133",
                 "public": "8528558401901149115"
               }
@@ -1189,11 +1231,11 @@
           }
         }
       },
-      "observed_at": "2026-10-19T09:52:31.372Z",
+      "observed_at": "2026-10-19T12:22:35.734Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T09:52:31.372Z"
+  "updated_at": "2026-10-19T12:22:35.734Z"
 }
