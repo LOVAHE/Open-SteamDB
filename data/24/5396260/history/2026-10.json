@@ -194,11 +194,54 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-19T17:10:34.112Z",
+      "change_number": 40011295,
+      "changes": [
+        {
+          "after": "1792324238",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/arabic/subtitles"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/french/subtitles"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/german/subtitles"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/italian/subtitles"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/spanish/subtitles"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/turkish/subtitles"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40004048,
+      "change_number": 40011295,
       "data": {
         "appinfo": {
           "common": {
@@ -289,10 +332,10 @@
             "small_capsule": {
               "english": "10ba5dda9c3b25dcab1fe9ab76acc6699b7a24cc/capsule_231x87.jpg"
             },
+            "steam_release_date": "1792324238",
             "store_asset_mtime": "1791370118",
             "supported_languages": {
               "arabic": {
-                "subtitles": "true",
                 "supported": "true"
               },
               "english": {
@@ -300,23 +343,18 @@
                 "supported": "true"
               },
               "french": {
-                "subtitles": "true",
                 "supported": "true"
               },
               "german": {
-                "subtitles": "true",
                 "supported": "true"
               },
               "italian": {
-                "subtitles": "true",
                 "supported": "true"
               },
               "spanish": {
-                "subtitles": "true",
                 "supported": "true"
               },
               "turkish": {
-                "subtitles": "true",
                 "supported": "true"
               }
             },
@@ -347,11 +385,11 @@
           }
         }
       },
-      "observed_at": "2026-10-19T14:52:38.162Z",
+      "observed_at": "2026-10-19T17:10:34.112Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T14:52:38.162Z"
+  "updated_at": "2026-10-19T17:10:34.112Z"
 }
