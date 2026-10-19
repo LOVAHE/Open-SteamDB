@@ -150,11 +150,42 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-19T22:37:34.015Z",
+      "change_number": 40022041,
+      "changes": [
+        {
+          "after": "26064334",
+          "before": "25742203",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792448830,
+          "before": 1791254019,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792448830,
+          "before": 1791254083,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5362213522276782999",
+          "op": "add",
+          "path": "/depots/depots/5378492/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39874739,
+      "change_number": 40022041,
       "data": {
         "appinfo": {
           "common": {
@@ -266,9 +297,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25742203",
-              "timebuildupdated": 1791254019,
-              "timeupdated": 1791254083
+              "buildid": "26064334",
+              "timebuildupdated": 1792448830,
+              "timeupdated": 1792448830
             }
           },
           "depots": {
@@ -286,16 +317,18 @@
                 "language": "english",
                 "oslist": "windows"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "5362213522276782999"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-18T17:10:32.305Z",
+      "observed_at": "2026-10-19T22:37:34.015Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-18T17:10:32.305Z"
+  "updated_at": "2026-10-19T22:37:34.015Z"
 }
