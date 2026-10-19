@@ -295,11 +295,46 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-19T18:37:31.425Z",
+      "change_number": 40014643,
+      "changes": [
+        {
+          "after": "1790971801",
+          "before": "1798704000",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/french"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/japanese"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39919982,
+      "change_number": 40014643,
       "data": {
         "appinfo": {
           "common": {
@@ -393,7 +428,7 @@
             "small_capsule": {
               "english": "9faeae2367e04e7a0bd21db3fa90831fdc331359/capsule_231x87.jpg"
             },
-            "steam_release_date": "1798704000",
+            "steam_release_date": "1790971801",
             "store_asset_mtime": "1789742079",
             "supported_languages": {
               "brazilian": {
@@ -402,10 +437,19 @@
               "english": {
                 "supported": "true"
               },
+              "french": {
+                "supported": "true"
+              },
+              "japanese": {
+                "supported": "true"
+              },
               "latam": {
                 "supported": "true"
               },
               "portuguese": {
+                "supported": "true"
+              },
+              "schinese": {
                 "supported": "true"
               },
               "spanish": {
@@ -439,7 +483,7 @@
           }
         }
       },
-      "observed_at": "2026-10-16T21:07:34.962Z",
+      "observed_at": "2026-10-19T18:37:31.425Z",
       "tracked": true
     },
     "steam_store": {
@@ -547,5 +591,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-16T21:07:34.962Z"
+  "updated_at": "2026-10-19T18:37:31.425Z"
 }
