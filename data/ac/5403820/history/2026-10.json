@@ -300,11 +300,73 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-20T13:37:43.311Z",
+      "change_number": 40045728,
+      "changes": [
+        {
+          "before": {
+            "buildid": "25771033",
+            "description": "Internal language validation - 20261007",
+            "timebuildupdated": 1791355996,
+            "timeupdated": 1791356053
+          },
+          "op": "remove",
+          "path": "/depots/branches/language-validation"
+        },
+        {
+          "after": "26080276",
+          "before": "26025959",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792503257,
+          "before": 1792329146,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792503325,
+          "before": 1792329637,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": {
+            "buildid": "25773118",
+            "description": "Team demo testing - 20261007",
+            "timebuildupdated": 1791363272,
+            "timeupdated": 1791364066
+          },
+          "op": "remove",
+          "path": "/depots/branches/team-demo"
+        },
+        {
+          "before": "7612527496310291885",
+          "op": "remove",
+          "path": "/depots/depots/5403821/manifests/language-validation"
+        },
+        {
+          "after": "5203834764247627959",
+          "before": "4610291166040311253",
+          "op": "replace",
+          "path": "/depots/depots/5403821/manifests/public"
+        },
+        {
+          "before": "2748795499886643918",
+          "op": "remove",
+          "path": "/depots/depots/5403821/manifests/team-demo"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39963447,
+      "change_number": 40045728,
       "data": {
         "appinfo": {
           "common": {
@@ -452,40 +514,26 @@
         },
         "depots": {
           "branches": {
-            "language-validation": {
-              "buildid": "25771033",
-              "description": "Internal language validation - 20261007",
-              "timebuildupdated": 1791355996,
-              "timeupdated": 1791356053
-            },
             "public": {
-              "buildid": "26025959",
-              "timebuildupdated": 1792329146,
-              "timeupdated": 1792329637
-            },
-            "team-demo": {
-              "buildid": "25773118",
-              "description": "Team demo testing - 20261007",
-              "timebuildupdated": 1791363272,
-              "timeupdated": 1791364066
+              "buildid": "26080276",
+              "timebuildupdated": 1792503257,
+              "timeupdated": 1792503325
             }
           },
           "depots": {
             "5403821": {
               "manifests": {
-                "language-validation": "7612527496310291885",
-                "public": "4610291166040311253",
-                "team-demo": "2748795499886643918"
+                "public": "5203834764247627959"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-18T17:10:32.305Z",
+      "observed_at": "2026-10-20T13:37:43.311Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-18T17:10:32.305Z"
+  "updated_at": "2026-10-20T13:37:43.311Z"
 }
