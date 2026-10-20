@@ -223,11 +223,41 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-20T05:52:46.274Z",
+      "change_number": 40032141,
+      "changes": [
+        {
+          "after": "Nether Abyss Demo",
+          "before": "九渊 Demo",
+          "op": "replace",
+          "path": "/appinfo/common/name"
+        },
+        {
+          "before": "Nether Abyss Demo",
+          "op": "remove",
+          "path": "/appinfo/common/name_localized/english"
+        },
+        {
+          "after": "九渊 Demo",
+          "op": "add",
+          "path": "/appinfo/common/name_localized/schinese"
+        },
+        {
+          "after": "1792144920",
+          "before": "1792144953",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39946269,
+      "change_number": 40032141,
       "data": {
         "appinfo": {
           "common": {
@@ -336,9 +366,9 @@
                 }
               }
             },
-            "name": "九渊 Demo",
+            "name": "Nether Abyss Demo",
             "name_localized": {
-              "english": "Nether Abyss Demo",
+              "schinese": "九渊 Demo",
               "tchinese": "九淵 Demo"
             },
             "osarch": "64",
@@ -351,7 +381,7 @@
               "schinese": "b96b73b07f21005f3236d5959ffb43e162e080ac/capsule_231x87_schinese.jpg",
               "tchinese": "d505f59adc7f4124b26906a70cebe7d5acc2d31d/capsule_231x87_tchinese.jpg"
             },
-            "steam_release_date": "1792144953",
+            "steam_release_date": "1792144920",
             "store_asset_mtime": "1792153604",
             "supported_languages": {
               "english": {
@@ -391,11 +421,11 @@
           }
         }
       },
-      "observed_at": "2026-10-18T17:10:32.305Z",
+      "observed_at": "2026-10-20T05:52:46.274Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-18T17:10:32.305Z"
+  "updated_at": "2026-10-20T05:52:46.274Z"
 }
