@@ -481,11 +481,35 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-20T09:37:44.233Z",
+      "change_number": 40037902,
+      "changes": [
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40037173,
+      "change_number": 40037902,
       "data": {
         "appinfo": {
           "common": {
@@ -670,6 +694,14 @@
                 "full_audio": "true",
                 "subtitles": "true",
                 "supported": "true"
+              },
+              "russian": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "schinese": {
+                "subtitles": "true",
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -711,11 +743,11 @@
           }
         }
       },
-      "observed_at": "2026-10-20T09:07:34.485Z",
+      "observed_at": "2026-10-20T09:37:44.233Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T09:07:34.485Z"
+  "updated_at": "2026-10-20T09:37:44.233Z"
 }
