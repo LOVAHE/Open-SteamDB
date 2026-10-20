@@ -1190,21 +1190,90 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-20T16:37:40.600Z",
+      "change_number": 40052172,
+      "changes": [
+        {
+          "after": "王牌利斯",
+          "before": "王牌利斯工作室",
+          "op": "replace",
+          "path": "/appinfo/common/associations/0/name"
+        },
+        {
+          "after": "王牌利斯",
+          "before": "王牌利斯工作室",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/name"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/spanish"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/spanish"
+        },
+        {
+          "after": "王牌利斯",
+          "before": "王牌利斯工作室",
+          "op": "replace",
+          "path": "/appinfo/extended/developer"
+        },
+        {
+          "after": "王牌利斯",
+          "before": "王牌利斯工作室",
+          "op": "replace",
+          "path": "/appinfo/extended/publisher"
+        },
+        {
+          "after": "26084239",
+          "before": "26053873",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792513448,
+          "before": 1792424447,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792513843,
+          "before": 1792424583,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "248051756409722680",
+          "before": "3157663798954464593",
+          "op": "replace",
+          "path": "/depots/depots/5262941/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40006564,
+      "change_number": 40052172,
       "data": {
         "appinfo": {
           "common": {
             "associations": {
               "0": {
-                "name": "王牌利斯工作室",
+                "name": "王牌利斯",
                 "type": "developer"
               },
               "1": {
-                "name": "王牌利斯工作室",
+                "name": "王牌利斯",
                 "type": "publisher"
               }
             },
@@ -1229,7 +1298,8 @@
             "icon": "faa6b4bcf40eabcc97769d25b2f00465a3b8b096",
             "languages": {
               "english": "1",
-              "schinese": "1"
+              "schinese": "1",
+              "spanish": "1"
             },
             "library_assets": {
               "library_capsule": "en,zh-cn",
@@ -1341,6 +1411,10 @@
                 "full_audio": "true",
                 "subtitles": "true",
                 "supported": "true"
+              },
+              "spanish": {
+                "subtitles": "true",
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -1349,28 +1423,28 @@
             "installdir": "Myriad Gambit"
           },
           "extended": {
-            "developer": "王牌利斯工作室",
-            "publisher": "王牌利斯工作室"
+            "developer": "王牌利斯",
+            "publisher": "王牌利斯"
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26053873",
-              "timebuildupdated": 1792424447,
-              "timeupdated": 1792424583
+              "buildid": "26084239",
+              "timebuildupdated": 1792513448,
+              "timeupdated": 1792513843
             }
           },
           "depots": {
             "5262941": {
               "manifests": {
-                "public": "3157663798954464593"
+                "public": "248051756409722680"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-19T16:13:43.471Z",
+      "observed_at": "2026-10-20T16:37:40.600Z",
       "tracked": true
     },
     "steam_store": {
@@ -1511,5 +1585,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T16:13:43.471Z"
+  "updated_at": "2026-10-20T16:37:40.600Z"
 }
