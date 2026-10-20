@@ -378,11 +378,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-20T03:37:43.403Z",
+      "change_number": 40029233,
+      "changes": [
+        {
+          "after": {
+            "config": {
+              "oslist": "windows"
+            },
+            "depotfromapp": 228980,
+            "manifests": {},
+            "sharedinstall": true
+          },
+          "op": "add",
+          "path": "/depots/depots/228989"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40024922,
+      "change_number": 40029233,
       "data": {
         "appinfo": {
           "common": {
@@ -551,6 +571,14 @@
             }
           },
           "depots": {
+            "228989": {
+              "config": {
+                "oslist": "windows"
+              },
+              "depotfromapp": 228980,
+              "manifests": {},
+              "sharedinstall": true
+            },
             "5017871": {
               "manifests": {
                 "public": "2791454701676840445"
@@ -559,11 +587,11 @@
           }
         }
       },
-      "observed_at": "2026-10-20T01:07:39.212Z",
+      "observed_at": "2026-10-20T03:37:43.403Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T01:07:39.212Z"
+  "updated_at": "2026-10-20T03:37:43.403Z"
 }
