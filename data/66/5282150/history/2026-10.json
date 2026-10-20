@@ -1526,11 +1526,31 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-20T04:07:36.176Z",
+      "change_number": 40029900,
+      "changes": [
+        {
+          "after": "69",
+          "before": "70",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "5",
+          "before": "6",
+          "op": "replace",
+          "path": "/appinfo/common/review_score"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39959673,
+      "change_number": 40029900,
       "data": {
         "appinfo": {
           "common": {
@@ -1654,8 +1674,8 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "3",
-            "review_percentage": "70",
-            "review_score": "6",
+            "review_percentage": "69",
+            "review_score": "5",
             "small_capsule": {
               "english": "9acb04e24cdebc7477ab6d153fb747e5fbe5f1e3/capsule_231x87.jpg",
               "japanese": "5a852e751bbdf5b6796b82264604a8153a1f460c/capsule_231x87_japanese.jpg",
@@ -1731,7 +1751,7 @@
           }
         }
       },
-      "observed_at": "2026-10-18T17:10:32.305Z",
+      "observed_at": "2026-10-20T04:07:36.176Z",
       "tracked": true
     },
     "steam_store": {
@@ -1847,5 +1867,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T13:52:37.511Z"
+  "updated_at": "2026-10-20T04:07:36.176Z"
 }
