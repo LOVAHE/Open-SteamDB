@@ -194,11 +194,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-20T13:52:34.841Z",
+      "change_number": 40046270,
+      "changes": [
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26080627",
+          "before": "26035010",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792504151,
+          "before": 1792364928,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792504320,
+          "before": 1792365051,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8045991217968233200",
+          "op": "add",
+          "path": "/depots/depots/4266212/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40041901,
+      "change_number": 40046270,
       "data": {
         "appinfo": {
           "common": {
@@ -289,7 +326,7 @@
             "name": "Todd is Late",
             "osarch": "",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,macos",
             "primary_genre": "23",
             "small_capsule": {
               "english": "2f555945036f6b49c3cdc353e71bce1126080f24/capsule_231x87.jpg"
@@ -340,9 +377,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26035010",
-              "timebuildupdated": 1792364928,
-              "timeupdated": 1792365051
+              "buildid": "26080627",
+              "timebuildupdated": 1792504151,
+              "timeupdated": 1792504320
             }
           },
           "depots": {
@@ -358,16 +395,18 @@
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "8045991217968233200"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T11:52:32.841Z",
+      "observed_at": "2026-10-20T13:52:34.841Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T11:52:32.841Z"
+  "updated_at": "2026-10-20T13:52:34.841Z"
 }
