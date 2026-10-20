@@ -1,8 +1,8 @@
 {
   "appid": 4501160,
   "source": "steam_pics",
-  "updated_at": "2026-10-18T16:07:29.916Z",
-  "change_number": 39940542,
+  "updated_at": "2026-10-20T11:22:40.265Z",
+  "change_number": 40041082,
   "data": {
     "common": {
       "associations": {
@@ -153,6 +153,31 @@
     },
     "config": {
       "installdir": "Gimbap Heaven Demo"
+    },
+    "ufs": {
+      "maxnumfiles": "100",
+      "quota": "104857600",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Godot/app_userdata/GimbapHeaven/saves",
+          "pattern": "demo_save_*.json",
+          "root": "WinAppDataRoaming"
+        },
+        "1": {
+          "path": "Godot/app_userdata/GimbapHeaven",
+          "pattern": "demo_*.json",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }

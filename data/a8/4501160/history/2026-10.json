@@ -583,11 +583,48 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-20T11:22:40.265Z",
+      "change_number": 40041082,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "100",
+            "quota": "104857600",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/GimbapHeaven/saves",
+                "pattern": "demo_save_*.json",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/GimbapHeaven",
+                "pattern": "demo_*.json",
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39940542,
+      "change_number": 40041082,
       "data": {
         "appinfo": {
           "common": {
@@ -739,6 +776,31 @@
           "extended": {
             "developer": "Noligo Games",
             "publisher": "HS Solution"
+          },
+          "ufs": {
+            "maxnumfiles": "100",
+            "quota": "104857600",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/GimbapHeaven/saves",
+                "pattern": "demo_save_*.json",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/GimbapHeaven",
+                "pattern": "demo_*.json",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -772,7 +834,7 @@
           }
         }
       },
-      "observed_at": "2026-10-18T16:07:29.916Z",
+      "observed_at": "2026-10-20T11:22:40.265Z",
       "tracked": true
     },
     "steam_store": {
@@ -873,5 +935,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-18T16:07:29.916Z"
+  "updated_at": "2026-10-20T11:22:40.265Z"
 }
