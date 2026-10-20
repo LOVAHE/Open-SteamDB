@@ -205,11 +205,45 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-20T11:37:34.164Z",
+      "change_number": 40041698,
+      "changes": [
+        {
+          "after": "Practical Media",
+          "before": "Bit Forward Games",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/name"
+        },
+        {
+          "after": {
+            "name": "Bit Forward Games",
+            "type": "publisher"
+          },
+          "op": "add",
+          "path": "/appinfo/common/associations/2"
+        },
+        {
+          "after": "1792496170",
+          "before": "1790877286",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "Practical Media",
+          "before": "Bit Forward Games",
+          "op": "replace",
+          "path": "/appinfo/extended/publisher"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39975002,
+      "change_number": 40041698,
       "data": {
         "appinfo": {
           "common": {
@@ -219,6 +253,10 @@
                 "type": "developer"
               },
               "1": {
+                "name": "Practical Media",
+                "type": "publisher"
+              },
+              "2": {
                 "name": "Bit Forward Games",
                 "type": "publisher"
               }
@@ -316,7 +354,7 @@
               "english": "db8ae547ce775f777e6aac24c7dea64db92911da/capsule_231x87.jpg"
             },
             "steam_release_date": "1791492318",
-            "store_asset_mtime": "1790877286",
+            "store_asset_mtime": "1792496170",
             "supported_languages": {
               "english": {
                 "full_audio": "true",
@@ -331,7 +369,7 @@
           },
           "extended": {
             "developer": "Bit Forward Games",
-            "publisher": "Bit Forward Games"
+            "publisher": "Practical Media"
           }
         },
         "depots": {
@@ -363,11 +401,11 @@
           }
         }
       },
-      "observed_at": "2026-10-18T21:22:29.226Z",
+      "observed_at": "2026-10-20T11:37:34.164Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-18T21:22:29.226Z"
+  "updated_at": "2026-10-20T11:37:34.164Z"
 }
