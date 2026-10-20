@@ -351,11 +351,57 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-20T15:25:50.348Z",
+      "change_number": 40049517,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "path": "Dumbbell Games/CoinHarvest",
+              "pattern": "*.es3",
+              "platforms": {
+                "1": "Windows"
+              },
+              "root": "WinAppDataLocalLow"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles"
+        },
+        {
+          "after": "26082784",
+          "before": "26065322",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792509669,
+          "before": 1792452518,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792509700,
+          "before": 1792452557,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8634470143059063488",
+          "before": "3627440376584728197",
+          "op": "replace",
+          "path": "/depots/depots/4381181/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40048392,
+      "change_number": 40049517,
       "data": {
         "appinfo": {
           "common": {
@@ -611,31 +657,41 @@
           },
           "ufs": {
             "maxnumfiles": "40",
-            "quota": "400000000"
+            "quota": "400000000",
+            "savefiles": {
+              "0": {
+                "path": "Dumbbell Games/CoinHarvest",
+                "pattern": "*.es3",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26065322",
-              "timebuildupdated": 1792452518,
-              "timeupdated": 1792452557
+              "buildid": "26082784",
+              "timebuildupdated": 1792509669,
+              "timeupdated": 1792509700
             }
           },
           "depots": {
             "4381181": {
               "manifests": {
-                "public": "3627440376584728197"
+                "public": "8634470143059063488"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T14:52:38.673Z",
+      "observed_at": "2026-10-20T15:25:50.348Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T14:52:38.673Z"
+  "updated_at": "2026-10-20T15:25:50.348Z"
 }
