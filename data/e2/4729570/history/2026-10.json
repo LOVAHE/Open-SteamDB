@@ -249,11 +249,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-20T10:22:33.891Z",
+      "change_number": 40039546,
+      "changes": [
+        {
+          "after": "26076249",
+          "before": "26074562",
+          "op": "replace",
+          "path": "/depots/branches/beta/buildid"
+        },
+        {
+          "after": 1792491683,
+          "before": 1792486900,
+          "op": "replace",
+          "path": "/depots/branches/beta/timebuildupdated"
+        },
+        {
+          "after": 1792491683,
+          "before": 1792486900,
+          "op": "replace",
+          "path": "/depots/branches/beta/timeupdated"
+        },
+        {
+          "after": "674465906414723739",
+          "before": "6126989047928772721",
+          "op": "replace",
+          "path": "/depots/depots/4729571/manifests/beta"
+        },
+        {
+          "after": "1816620002448796483",
+          "op": "add",
+          "path": "/depots/depots/4729572/manifests/beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40037064,
+      "change_number": 40039546,
       "data": {
         "appinfo": {
           "common": {
@@ -409,10 +446,10 @@
         "depots": {
           "branches": {
             "beta": {
-              "buildid": "26074562",
+              "buildid": "26076249",
               "description": "beta",
-              "timebuildupdated": 1792486900,
-              "timeupdated": 1792486900
+              "timebuildupdated": 1792491683,
+              "timeupdated": 1792491683
             },
             "public": {
               "buildid": "26059969",
@@ -443,7 +480,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "beta": "6126989047928772721",
+                "beta": "674465906414723739",
                 "public": "640597178880796012"
               }
             },
@@ -452,16 +489,18 @@
                 "osarch": "64",
                 "oslist": "linux"
               },
-              "manifests": {}
+              "manifests": {
+                "beta": "1816620002448796483"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T09:07:34.485Z",
+      "observed_at": "2026-10-20T10:22:33.891Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T09:07:34.485Z"
+  "updated_at": "2026-10-20T10:22:33.891Z"
 }
