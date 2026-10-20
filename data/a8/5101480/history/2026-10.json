@@ -1149,11 +1149,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-20T07:37:37.033Z",
+      "change_number": 40034486,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40034099,
+      "change_number": 40034486,
       "data": {
         "appinfo": {
           "common": {
@@ -1246,8 +1266,8 @@
               "koreana": "날아다니는 벽돌 체험판"
             },
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos",
             "parent": "5093440",
             "primary_genre": "1",
             "small_capsule": {
@@ -1308,7 +1328,7 @@
           }
         }
       },
-      "observed_at": "2026-10-20T07:22:37.186Z",
+      "observed_at": "2026-10-20T07:37:37.033Z",
       "tracked": true
     },
     "steam_store": {
@@ -1457,5 +1477,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T07:22:37.186Z"
+  "updated_at": "2026-10-20T07:37:37.033Z"
 }
