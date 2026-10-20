@@ -767,11 +767,35 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-20T15:52:37.541Z",
+      "change_number": 40050306,
+      "changes": [
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/latam"
+        },
+        {
+          "before": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/spanish"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40044759,
+      "change_number": 40050306,
       "data": {
         "appinfo": {
           "common": {
@@ -890,15 +914,15 @@
                 "subtitles": "true",
                 "supported": "true"
               },
+              "latam": {
+                "subtitles": "true",
+                "supported": "true"
+              },
               "russian": {
                 "subtitles": "true",
                 "supported": "true"
               },
               "schinese": {
-                "subtitles": "true",
-                "supported": "true"
-              },
-              "spanish": {
                 "subtitles": "true",
                 "supported": "true"
               }
@@ -931,11 +955,11 @@
           }
         }
       },
-      "observed_at": "2026-10-20T13:22:37.101Z",
+      "observed_at": "2026-10-20T15:52:37.541Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T13:22:37.101Z"
+  "updated_at": "2026-10-20T15:52:37.541Z"
 }
