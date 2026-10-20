@@ -1118,11 +1118,42 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-20T07:22:37.186Z",
+      "change_number": 40034099,
+      "changes": [
+        {
+          "after": "26072625",
+          "before": "26071315",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792480584,
+          "before": 1792475175,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792480584,
+          "before": 1792475382,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6054645312464511670",
+          "op": "add",
+          "path": "/depots/depots/5101482/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40033130,
+      "change_number": 40034099,
       "data": {
         "appinfo": {
           "common": {
@@ -1251,9 +1282,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26071315",
-              "timebuildupdated": 1792475175,
-              "timeupdated": 1792475382
+              "buildid": "26072625",
+              "timebuildupdated": 1792480584,
+              "timeupdated": 1792480584
             }
           },
           "depots": {
@@ -1270,12 +1301,14 @@
                 "osarch": "64",
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "6054645312464511670"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T06:52:33.753Z",
+      "observed_at": "2026-10-20T07:22:37.186Z",
       "tracked": true
     },
     "steam_store": {
@@ -1424,5 +1457,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T06:52:33.753Z"
+  "updated_at": "2026-10-20T07:22:37.186Z"
 }
