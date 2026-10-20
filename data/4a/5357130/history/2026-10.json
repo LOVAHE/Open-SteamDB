@@ -293,11 +293,42 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-20T14:52:38.673Z",
+      "change_number": 40048186,
+      "changes": [
+        {
+          "after": "1",
+          "before": "4",
+          "op": "replace",
+          "path": "/appinfo/common/genres/0"
+        },
+        {
+          "after": "4",
+          "before": "23",
+          "op": "replace",
+          "path": "/appinfo/common/genres/1"
+        },
+        {
+          "after": "23",
+          "op": "add",
+          "path": "/appinfo/common/genres/2"
+        },
+        {
+          "after": "1792507120",
+          "before": "1792239115",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39963347,
+      "change_number": 40048186,
       "data": {
         "appinfo": {
           "common": {
@@ -324,8 +355,9 @@
             },
             "clienticon": "161810f0781aaa4b82d000fc79d9298b1a853c04",
             "genres": {
-              "0": "4",
-              "1": "23"
+              "0": "1",
+              "1": "4",
+              "2": "23"
             },
             "header_image": {
               "english": "affd88dad57296998b2af423ef786ca3290ab7b9/header.jpg"
@@ -397,7 +429,7 @@
               "english": "fe2cb36ca8559adf1bd3c36b4885cdb78ea6dc37/capsule_231x87.jpg"
             },
             "steam_release_date": "1792090492",
-            "store_asset_mtime": "1792239115",
+            "store_asset_mtime": "1792507120",
             "supported_languages": {
               "english": {
                 "subtitles": "true",
@@ -475,11 +507,11 @@
           }
         }
       },
-      "observed_at": "2026-10-18T17:10:32.305Z",
+      "observed_at": "2026-10-20T14:52:38.673Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-18T17:10:32.305Z"
+  "updated_at": "2026-10-20T14:52:38.673Z"
 }
