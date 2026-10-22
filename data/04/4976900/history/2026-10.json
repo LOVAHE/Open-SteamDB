@@ -754,11 +754,71 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-22T16:52:42.949Z",
+      "change_number": 40132594,
+      "changes": [
+        {
+          "after": "100",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": ".local/share/Rolling Stock",
+          "before": ".local/share/godot/app_userdata/Rolling Stock",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/addpath"
+        },
+        {
+          "after": "Rolling Stock",
+          "before": "Godot/app_userdata/Rolling Stock",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/1/addpath"
+        },
+        {
+          "after": "26136496",
+          "before": "26074770",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792680803,
+          "before": 1792487442,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792680945,
+          "before": 1792487506,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8403341054941253443",
+          "before": "7690902521900665514",
+          "op": "replace",
+          "path": "/depots/depots/4976901/manifests/public"
+        },
+        {
+          "after": "4726590084103052848",
+          "before": "4905923793875751786",
+          "op": "replace",
+          "path": "/depots/depots/4976902/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40037418,
+      "change_number": 40132594,
       "data": {
         "appinfo": {
           "common": {
@@ -883,6 +943,8 @@
             "oslist": "windows,linux",
             "parent": "4326820",
             "primary_genre": "4",
+            "review_percentage": "100",
+            "review_score": "7",
             "small_capsule": {
               "english": "a370433b741bcf7e43f4b7f00a6534e4e2032d6b/capsule_231x87.jpg"
             },
@@ -946,14 +1008,14 @@
             "quota": "20000000",
             "rootoverrides": {
               "0": {
-                "addpath": ".local/share/godot/app_userdata/Rolling Stock",
+                "addpath": ".local/share/Rolling Stock",
                 "os": "Linux",
                 "oscompare": "=",
                 "root": "gameinstall",
                 "useinstead": "LinuxHome"
               },
               "1": {
-                "addpath": "Godot/app_userdata/Rolling Stock",
+                "addpath": "Rolling Stock",
                 "os": "Windows",
                 "oscompare": "=",
                 "root": "gameinstall",
@@ -981,9 +1043,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26074770",
-              "timebuildupdated": 1792487442,
-              "timeupdated": 1792487506
+              "buildid": "26136496",
+              "timebuildupdated": 1792680803,
+              "timeupdated": 1792680945
             }
           },
           "depots": {
@@ -1008,7 +1070,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "7690902521900665514"
+                "public": "8403341054941253443"
               }
             },
             "4976902": {
@@ -1016,17 +1078,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "4905923793875751786"
+                "public": "4726590084103052848"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T09:22:32.964Z",
+      "observed_at": "2026-10-22T16:52:42.949Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T09:22:32.964Z"
+  "updated_at": "2026-10-22T16:52:42.949Z"
 }

@@ -182,11 +182,54 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-22T16:52:42.949Z",
+      "change_number": 40132199,
+      "changes": [
+        {
+          "after": "1792168111",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "https://soulhunter.md/",
+          "before": "https://cgilabgames.com/",
+          "op": "replace",
+          "path": "/appinfo/extended/homepage"
+        },
+        {
+          "after": "26135687",
+          "before": "25992124",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792678612,
+          "before": 1792167834,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792678672,
+          "before": 1792167836,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2513832286429591080",
+          "before": "651294446031010311",
+          "op": "replace",
+          "path": "/depots/depots/5146961/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39911161,
+      "change_number": 40132199,
       "data": {
         "appinfo": {
           "common": {
@@ -288,6 +331,7 @@
             "small_capsule": {
               "english": "0cfc905a42d173f216ee656e3818b436aafeae32/capsule_231x87.jpg"
             },
+            "steam_release_date": "1792168111",
             "store_asset_mtime": "1789127840",
             "supported_languages": {
               "brazilian": {
@@ -334,32 +378,32 @@
           },
           "extended": {
             "developer": "CGI LAB GAMES",
-            "homepage": "https://cgilabgames.com/",
+            "homepage": "https://soulhunter.md/",
             "publisher": "CGI LAB GAMES"
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25992124",
-              "timebuildupdated": 1792167834,
-              "timeupdated": 1792167836
+              "buildid": "26135687",
+              "timebuildupdated": 1792678612,
+              "timeupdated": 1792678672
             }
           },
           "depots": {
             "5146961": {
               "manifests": {
-                "public": "651294446031010311"
+                "public": "2513832286429591080"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-17T03:07:32.116Z",
+      "observed_at": "2026-10-22T16:52:42.949Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-17T03:07:32.116Z"
+  "updated_at": "2026-10-22T16:52:42.949Z"
 }

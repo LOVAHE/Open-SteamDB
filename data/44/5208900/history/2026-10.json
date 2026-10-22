@@ -358,11 +358,75 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-22T16:52:42.949Z",
+      "change_number": 40128944,
+      "changes": [
+        {
+          "after": "1792674763",
+          "before": "1792409452",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "before": {
+            "buildid": "26082466",
+            "description": "Apple silicon",
+            "timebuildupdated": 1792508878,
+            "timeupdated": 1792508878
+          },
+          "op": "remove",
+          "path": "/depots/branches/apple-silicon"
+        },
+        {
+          "after": "26133668",
+          "before": "26078393",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792673174,
+          "before": 1792498129,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792673208,
+          "before": 1792510854,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": "7396825535240684910",
+          "op": "remove",
+          "path": "/depots/depots/5208901/manifests/apple-silicon"
+        },
+        {
+          "after": "1336000378128838115",
+          "before": "7396825535240684910",
+          "op": "replace",
+          "path": "/depots/depots/5208901/manifests/public"
+        },
+        {
+          "before": "4409514244672409605",
+          "op": "remove",
+          "path": "/depots/depots/5208902/manifests/apple-silicon"
+        },
+        {
+          "after": "5079766054672425287",
+          "before": "4096942413801119657",
+          "op": "replace",
+          "path": "/depots/depots/5208902/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40050162,
+      "change_number": 40128944,
       "data": {
         "appinfo": {
           "common": {
@@ -459,7 +523,7 @@
               "english": "430b40b6072a112475b285ec803341c5dc72747c/capsule_231x87.jpg"
             },
             "steam_release_date": "1792428719",
-            "store_asset_mtime": "1792409452",
+            "store_asset_mtime": "1792674763",
             "store_tags": {
               "0": "599",
               "1": "701",
@@ -515,16 +579,10 @@
         },
         "depots": {
           "branches": {
-            "apple-silicon": {
-              "buildid": "26082466",
-              "description": "Apple silicon",
-              "timebuildupdated": 1792508878,
-              "timeupdated": 1792508878
-            },
             "public": {
-              "buildid": "26078393",
-              "timebuildupdated": 1792498129,
-              "timeupdated": 1792510854
+              "buildid": "26133668",
+              "timebuildupdated": 1792673174,
+              "timeupdated": 1792673208
             }
           },
           "depots": {
@@ -533,8 +591,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "apple-silicon": "7396825535240684910",
-                "public": "7396825535240684910"
+                "public": "1336000378128838115"
               }
             },
             "5208902": {
@@ -542,18 +599,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "apple-silicon": "4409514244672409605",
-                "public": "4096942413801119657"
+                "public": "5079766054672425287"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T15:52:37.541Z",
+      "observed_at": "2026-10-22T16:52:42.949Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T15:52:37.541Z"
+  "updated_at": "2026-10-22T16:52:42.949Z"
 }

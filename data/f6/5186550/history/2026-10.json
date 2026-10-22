@@ -554,11 +554,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-22T16:52:42.949Z",
+      "change_number": 40128958,
+      "changes": [
+        {
+          "after": "5455250,5455260,5455270",
+          "op": "add",
+          "path": "/appinfo/extended/listofdlc"
+        },
+        {
+          "after": "26099397",
+          "before": "26031590",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792564969,
+          "before": 1792351820,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792565190,
+          "before": 1792352104,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1845826581211507562",
+          "before": "5271659637062774784",
+          "op": "replace",
+          "path": "/depots/depots/5186551/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40007125,
+      "change_number": 40128958,
       "data": {
         "appinfo": {
           "common": {
@@ -827,6 +864,7 @@
           },
           "extended": {
             "developer": "Bulbasaur, Woowanggook",
+            "listofdlc": "5455250,5455260,5455270",
             "publisher": "OtterCat"
           },
           "ufs": {
@@ -849,9 +887,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26031590",
-              "timebuildupdated": 1792351820,
-              "timeupdated": 1792352104
+              "buildid": "26099397",
+              "timebuildupdated": 1792564969,
+              "timeupdated": 1792565190
             }
           },
           "depots": {
@@ -861,17 +899,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "5271659637062774784"
+                "public": "1845826581211507562"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-19T16:13:43.471Z",
+      "observed_at": "2026-10-22T16:52:42.949Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T16:13:43.471Z"
+  "updated_at": "2026-10-22T16:52:42.949Z"
 }

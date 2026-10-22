@@ -698,11 +698,27 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-22T16:52:42.949Z",
+      "change_number": 40136178,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "1000",
+            "quota": "104857600"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40009868,
+      "change_number": 40136178,
       "data": {
         "appinfo": {
           "common": {
@@ -978,6 +994,10 @@
           "extended": {
             "developer": "Stank Games",
             "publisher": "Stank Games"
+          },
+          "ufs": {
+            "maxnumfiles": "1000",
+            "quota": "104857600"
           }
         },
         "depots": {
@@ -1003,11 +1023,11 @@
           }
         }
       },
-      "observed_at": "2026-10-19T16:52:42.451Z",
+      "observed_at": "2026-10-22T16:52:42.949Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T16:52:42.451Z"
+  "updated_at": "2026-10-22T16:52:42.949Z"
 }

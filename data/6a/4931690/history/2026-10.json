@@ -620,11 +620,70 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-22T16:52:42.949Z",
+      "change_number": 40118701,
+      "changes": [
+        {
+          "after": "save-slot-1.sav",
+          "before": "*",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/pattern"
+        },
+        {
+          "before": {
+            "1": "Windows"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/0/platforms"
+        },
+        {
+          "before": "1",
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/0/recursive"
+        },
+        {
+          "after": {
+            "path": "VOID PROFIT - Aetrocor Trial Vessel/saves",
+            "pattern": "save-slot-1.sav",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/1"
+        },
+        {
+          "after": "26127772",
+          "before": "26046798",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792655482,
+          "before": 1792408010,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792655568,
+          "before": 1792408092,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1660973214054782077",
+          "before": "6861494472799887925",
+          "op": "replace",
+          "path": "/depots/depots/4931691/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39995050,
+      "change_number": 40118701,
       "data": {
         "appinfo": {
           "common": {
@@ -748,12 +807,13 @@
             "savefiles": {
               "0": {
                 "path": "VOID PROFIT Demo",
-                "pattern": "*",
-                "platforms": {
-                  "1": "Windows"
-                },
-                "recursive": "1",
+                "pattern": "save-slot-1.sav",
                 "root": "WinMyDocuments"
+              },
+              "1": {
+                "path": "VOID PROFIT - Aetrocor Trial Vessel/saves",
+                "pattern": "save-slot-1.sav",
+                "root": "WinAppDataRoaming"
               }
             }
           }
@@ -761,21 +821,21 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26046798",
-              "timebuildupdated": 1792408010,
-              "timeupdated": 1792408092
+              "buildid": "26127772",
+              "timebuildupdated": 1792655482,
+              "timeupdated": 1792655568
             }
           },
           "depots": {
             "4931691": {
               "manifests": {
-                "public": "6861494472799887925"
+                "public": "1660973214054782077"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-19T11:07:36.363Z",
+      "observed_at": "2026-10-22T16:52:42.949Z",
       "tracked": true
     },
     "steam_store": {
@@ -943,5 +1003,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T18:22:36.744Z"
+  "updated_at": "2026-10-22T16:52:42.949Z"
 }
