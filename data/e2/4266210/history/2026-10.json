@@ -245,11 +245,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-22T16:22:34.483Z",
+      "change_number": 40068035,
+      "changes": [
+        {
+          "after": "macos64",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26092509",
+          "before": "26080627",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792537327,
+          "before": 1792504151,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792537937,
+          "before": 1792504320,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1952881454607480410",
+          "before": "8045991217968233200",
+          "op": "replace",
+          "path": "/depots/depots/4266212/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40047081,
+      "change_number": 40068035,
       "data": {
         "appinfo": {
           "common": {
@@ -339,8 +383,8 @@
             },
             "name": "Todd is Late",
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64",
+            "oslist": "windows,macos",
             "primary_genre": "23",
             "small_capsule": {
               "english": "2f555945036f6b49c3cdc353e71bce1126080f24/capsule_231x87.jpg"
@@ -391,9 +435,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26080627",
-              "timebuildupdated": 1792504151,
-              "timeupdated": 1792504320
+              "buildid": "26092509",
+              "timebuildupdated": 1792537327,
+              "timeupdated": 1792537937
             }
           },
           "depots": {
@@ -410,17 +454,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "8045991217968233200"
+                "public": "1952881454607480410"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T14:22:44.962Z",
+      "observed_at": "2026-10-22T16:22:34.483Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T14:22:44.962Z"
+  "updated_at": "2026-10-22T16:22:34.483Z"
 }

@@ -623,11 +623,79 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-22T16:22:34.483Z",
+      "change_number": 40131923,
+      "changes": [
+        {
+          "after": "85",
+          "before": "88",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "1792679797",
+          "before": "1792511869",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/polish"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/ukrainian"
+        },
+        {
+          "after": "26099533",
+          "before": "25954096",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792565616,
+          "before": 1792050356,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792566137,
+          "before": 1792051313,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7285818080392014550",
+          "before": "8385918711491912102",
+          "op": "replace",
+          "path": "/depots/depots/2509871/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40051043,
+      "change_number": 40131923,
       "data": {
         "appinfo": {
           "common": {
@@ -799,7 +867,7 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "23",
-            "review_percentage": "88",
+            "review_percentage": "85",
             "review_score": "8",
             "small_capsule": {
               "english": "37df805c07ce8887d91bfc6aa4cd78c0248e0cff/capsule_231x87.jpg",
@@ -809,7 +877,7 @@
               "tchinese": "b31c31ba588f3aef76c63f2a6e4dde53f3ee1727/capsule_231x87_tchinese.jpg"
             },
             "steam_release_date": "1791810014",
-            "store_asset_mtime": "1792511869",
+            "store_asset_mtime": "1792679797",
             "store_tags": {
               "0": "1742",
               "1": "4166",
@@ -846,11 +914,23 @@
                 "subtitles": "true",
                 "supported": "true"
               },
+              "polish": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "russian": {
+                "subtitles": "true",
+                "supported": "true"
+              },
               "schinese": {
                 "subtitles": "true",
                 "supported": "true"
               },
               "tchinese": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "ukrainian": {
                 "subtitles": "true",
                 "supported": "true"
               }
@@ -894,26 +974,26 @@
               "timeupdated": 1784878917
             },
             "public": {
-              "buildid": "25954096",
-              "timebuildupdated": 1792050356,
-              "timeupdated": 1792051313
+              "buildid": "26099533",
+              "timebuildupdated": 1792565616,
+              "timeupdated": 1792566137
             }
           },
           "depots": {
             "2509871": {
               "manifests": {
                 "local": "2342100471159925484",
-                "public": "8385918711491912102"
+                "public": "7285818080392014550"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T16:07:38.740Z",
+      "observed_at": "2026-10-22T16:22:34.483Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T16:07:38.740Z"
+  "updated_at": "2026-10-22T16:22:34.483Z"
 }

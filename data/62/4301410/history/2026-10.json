@@ -464,11 +464,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-22T16:22:34.483Z",
+      "change_number": 40133085,
+      "changes": [
+        {
+          "after": {
+            "brazilian": "1",
+            "english": "1",
+            "french": "1",
+            "german": "1",
+            "japanese": "1",
+            "koreana": "1",
+            "polish": "1",
+            "schinese": "1",
+            "spanish": "1"
+          },
+          "op": "add",
+          "path": "/appinfo/common/languages"
+        },
+        {
+          "after": "26136859",
+          "before": "26081771",
+          "op": "replace",
+          "path": "/depots/branches/beta/buildid"
+        },
+        {
+          "after": 1792681735,
+          "before": 1792507034,
+          "op": "replace",
+          "path": "/depots/branches/beta/timebuildupdated"
+        },
+        {
+          "after": 1792681736,
+          "before": 1792507035,
+          "op": "replace",
+          "path": "/depots/branches/beta/timeupdated"
+        },
+        {
+          "after": "4379703233403150810",
+          "before": "847930827951369603",
+          "op": "replace",
+          "path": "/depots/depots/4301411/manifests/beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40047862,
+      "change_number": 40133085,
       "data": {
         "appinfo": {
           "common": {
@@ -502,6 +549,17 @@
               "english": "7aa485d0f74080ae6eb6bdaa8762220b2e97f13e/header.jpg"
             },
             "icon": "38b732815ef00344f000c785084396b93cee3d09",
+            "languages": {
+              "brazilian": "1",
+              "english": "1",
+              "french": "1",
+              "german": "1",
+              "japanese": "1",
+              "koreana": "1",
+              "polish": "1",
+              "schinese": "1",
+              "spanish": "1"
+            },
             "library_assets": {
               "library_capsule": "en",
               "library_header": "en",
@@ -634,10 +692,10 @@
         "depots": {
           "branches": {
             "beta": {
-              "buildid": "26081771",
+              "buildid": "26136859",
               "description": "testing early builds - might be buggy",
-              "timebuildupdated": 1792507034,
-              "timeupdated": 1792507035
+              "timebuildupdated": 1792681735,
+              "timeupdated": 1792681736
             },
             "public": {
               "buildid": "25922129",
@@ -672,7 +730,7 @@
             },
             "4301411": {
               "manifests": {
-                "beta": "847930827951369603",
+                "beta": "4379703233403150810",
                 "public": "2255966524424156175"
               }
             },
@@ -685,11 +743,11 @@
           }
         }
       },
-      "observed_at": "2026-10-20T14:37:36.307Z",
+      "observed_at": "2026-10-22T16:22:34.483Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T14:37:36.307Z"
+  "updated_at": "2026-10-22T16:22:34.483Z"
 }

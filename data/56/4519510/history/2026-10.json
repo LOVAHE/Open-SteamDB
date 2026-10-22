@@ -1690,11 +1690,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-22T16:22:34.483Z",
+      "change_number": 40126564,
+      "changes": [
+        {
+          "after": "64",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osarch"
+        },
+        {
+          "after": "26131682",
+          "before": "26083751",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792667434,
+          "before": 1792512256,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792667506,
+          "before": 1792512281,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "604156549682712713",
+          "before": "845852171786610329",
+          "op": "replace",
+          "path": "/depots/depots/4519511/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40051033,
+      "change_number": 40126564,
       "data": {
         "appinfo": {
           "common": {
@@ -1785,7 +1823,7 @@
               }
             },
             "name": "Keysaster",
-            "osarch": "",
+            "osarch": "64",
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "1",
@@ -1885,9 +1923,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26083751",
-              "timebuildupdated": 1792512256,
-              "timeupdated": 1792512281
+              "buildid": "26131682",
+              "timebuildupdated": 1792667434,
+              "timeupdated": 1792667506
             }
           },
           "depots": {
@@ -1909,17 +1947,17 @@
             },
             "4519511": {
               "manifests": {
-                "public": "845852171786610329"
+                "public": "604156549682712713"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T16:07:38.740Z",
+      "observed_at": "2026-10-22T16:22:34.483Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T16:07:38.740Z"
+  "updated_at": "2026-10-22T16:22:34.483Z"
 }

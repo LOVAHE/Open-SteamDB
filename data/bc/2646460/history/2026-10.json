@@ -1186,11 +1186,59 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-22T16:22:34.483Z",
+      "change_number": 40117538,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_28"
+        },
+        {
+          "after": "full",
+          "op": "add",
+          "path": "/appinfo/common/controller_support"
+        },
+        {
+          "after": "1792652820",
+          "before": "1792502412",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "26126338",
+          "before": "25955320",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792649939,
+          "before": 1792054454,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792652129,
+          "before": 1792055187,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "706671986656739104",
+          "before": "5702018525540651465",
+          "op": "replace",
+          "path": "/depots/depots/2646461/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40045117,
+      "change_number": 40117538,
       "data": {
         "appinfo": {
           "common": {
@@ -1209,6 +1257,7 @@
               "category_2": "1",
               "category_22": "1",
               "category_23": "1",
+              "category_28": "1",
               "category_30": "1",
               "category_36": "1",
               "category_38": "1",
@@ -1224,6 +1273,7 @@
             "clienttga": "7c34b73e12e3b9e8cd9ab8a195193073e677be0b",
             "community_hub_visible": "1",
             "community_visible_stats": "1",
+            "controller_support": "full",
             "genres": {
               "0": "25",
               "1": "23",
@@ -1412,7 +1462,7 @@
               }
             },
             "steam_release_date": "1775779080",
-            "store_asset_mtime": "1792502412",
+            "store_asset_mtime": "1792652820",
             "store_tags": {
               "0": "1100689",
               "1": "1662",
@@ -1512,9 +1562,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25955320",
-              "timebuildupdated": 1792054454,
-              "timeupdated": 1792055187
+              "buildid": "26126338",
+              "timebuildupdated": 1792649939,
+              "timeupdated": 1792652129
             },
             "public_test": {
               "buildid": "24792959",
@@ -1564,7 +1614,7 @@
             },
             "2646461": {
               "manifests": {
-                "public": "5702018525540651465",
+                "public": "706671986656739104",
                 "public_test": "2967870689064987898",
                 "publictest": "2967870689064987898"
               }
@@ -1576,7 +1626,7 @@
           }
         }
       },
-      "observed_at": "2026-10-20T13:22:37.101Z",
+      "observed_at": "2026-10-22T16:22:34.483Z",
       "tracked": true
     },
     "steam_store": {
@@ -1879,5 +1929,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T13:22:37.101Z"
+  "updated_at": "2026-10-22T16:22:34.483Z"
 }

@@ -712,11 +712,75 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-22T16:22:34.483Z",
+      "change_number": 40113107,
+      "changes": [
+        {
+          "after": "83",
+          "before": "82",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": {
+            "buildid": "26124188",
+            "description": "Public beta testing for upcoming updates",
+            "timebuildupdated": 1792640716,
+            "timeupdated": 1792640716
+          },
+          "op": "add",
+          "path": "/depots/branches/beta"
+        },
+        {
+          "after": "26124201",
+          "before": "25950801",
+          "op": "replace",
+          "path": "/depots/branches/crossplaycompatibility/buildid"
+        },
+        {
+          "after": 1792640760,
+          "before": 1792036446,
+          "op": "replace",
+          "path": "/depots/branches/crossplaycompatibility/timebuildupdated"
+        },
+        {
+          "after": 1792640760,
+          "before": 1792036446,
+          "op": "replace",
+          "path": "/depots/branches/crossplaycompatibility/timeupdated"
+        },
+        {
+          "after": "7580686346614579351",
+          "op": "add",
+          "path": "/depots/depots/3569421/manifests/beta"
+        },
+        {
+          "after": "3998784871483764186",
+          "before": "7405823306894005284",
+          "op": "replace",
+          "path": "/depots/depots/3569421/manifests/crossplaycompatibility"
+        },
+        {
+          "after": "4543402645997777528",
+          "op": "add",
+          "path": "/depots/depots/3569422/manifests/beta"
+        },
+        {
+          "after": "3669745579851192709",
+          "before": "6253062225097583813",
+          "op": "replace",
+          "path": "/depots/depots/3569422/manifests/crossplaycompatibility"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40031638,
+      "change_number": 40113107,
       "data": {
         "appinfo": {
           "common": {
@@ -845,7 +909,7 @@
             "osextended": "macos64,macosapplesilicon,macosnotarized",
             "oslist": "windows,macos",
             "primary_genre": "1",
-            "review_percentage": "82",
+            "review_percentage": "83",
             "review_score": "8",
             "small_capsule": {
               "english": "37a1f130512c4537b4a2b556bd104adb710bb0c5/capsule_231x87.jpg",
@@ -976,11 +1040,17 @@
         },
         "depots": {
           "branches": {
+            "beta": {
+              "buildid": "26124188",
+              "description": "Public beta testing for upcoming updates",
+              "timebuildupdated": 1792640716,
+              "timeupdated": 1792640716
+            },
             "crossplaycompatibility": {
-              "buildid": "25950801",
+              "buildid": "26124201",
               "description": "For crossplay with platforms on older versions",
-              "timebuildupdated": 1792036446,
-              "timeupdated": 1792036446
+              "timebuildupdated": 1792640760,
+              "timeupdated": 1792640760
             },
             "public": {
               "buildid": "26041777",
@@ -1002,7 +1072,8 @@
                 "oslist": "windows,linux"
               },
               "manifests": {
-                "crossplaycompatibility": "7405823306894005284",
+                "beta": "7580686346614579351",
+                "crossplaycompatibility": "3998784871483764186",
                 "public": "3998784871483764186"
               }
             },
@@ -1011,18 +1082,19 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "crossplaycompatibility": "6253062225097583813",
+                "beta": "4543402645997777528",
+                "crossplaycompatibility": "3669745579851192709",
                 "public": "3669745579851192709"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T05:37:31.588Z",
+      "observed_at": "2026-10-22T16:22:34.483Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T05:37:31.588Z"
+  "updated_at": "2026-10-22T16:22:34.483Z"
 }
