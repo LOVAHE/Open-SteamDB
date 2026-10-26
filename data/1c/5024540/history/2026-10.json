@@ -1654,11 +1654,115 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T19:07:34.369Z",
+      "change_number": 40269264,
+      "changes": [
+        {
+          "after": "26225327",
+          "before": "26166769",
+          "op": "replace",
+          "path": "/depots/branches/experimental/buildid"
+        },
+        {
+          "after": 1793040984,
+          "before": 1792776933,
+          "op": "replace",
+          "path": "/depots/branches/experimental/timebuildupdated"
+        },
+        {
+          "after": 1793041423,
+          "before": 1792778554,
+          "op": "replace",
+          "path": "/depots/branches/experimental/timeupdated"
+        },
+        {
+          "after": "26225327",
+          "before": "26202854",
+          "op": "replace",
+          "path": "/depots/branches/experimental-2/buildid"
+        },
+        {
+          "after": 1793040984,
+          "before": 1792959781,
+          "op": "replace",
+          "path": "/depots/branches/experimental-2/timebuildupdated"
+        },
+        {
+          "after": 1793041063,
+          "before": 1792959872,
+          "op": "replace",
+          "path": "/depots/branches/experimental-2/timeupdated"
+        },
+        {
+          "after": 1793041071,
+          "before": 1792894089,
+          "op": "replace",
+          "path": "/depots/branches/experimental-3/timeupdated"
+        },
+        {
+          "after": "26225327",
+          "before": "26166769",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793040984,
+          "before": 1792776933,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793041455,
+          "before": 1792778640,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2012757030388199117",
+          "before": "8202071850758490844",
+          "op": "replace",
+          "path": "/depots/depots/5024541/manifests/experimental"
+        },
+        {
+          "after": "2012757030388199117",
+          "before": "3847387302180007477",
+          "op": "replace",
+          "path": "/depots/depots/5024541/manifests/experimental-2"
+        },
+        {
+          "after": "2012757030388199117",
+          "before": "8202071850758490844",
+          "op": "replace",
+          "path": "/depots/depots/5024541/manifests/public"
+        },
+        {
+          "after": "705123623014275693",
+          "before": "1592633367188369930",
+          "op": "replace",
+          "path": "/depots/depots/5024542/manifests/experimental"
+        },
+        {
+          "after": "705123623014275693",
+          "before": "2621983260216410682",
+          "op": "replace",
+          "path": "/depots/depots/5024542/manifests/experimental-2"
+        },
+        {
+          "after": "705123623014275693",
+          "before": "1592633367188369930",
+          "op": "replace",
+          "path": "/depots/depots/5024542/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40268310,
+      "change_number": 40269264,
       "data": {
         "appinfo": {
           "common": {
@@ -1885,22 +1989,22 @@
         "depots": {
           "branches": {
             "experimental": {
-              "buildid": "26166769",
+              "buildid": "26225327",
               "description": "Experimental same version as default",
-              "timebuildupdated": 1792776933,
-              "timeupdated": 1792778554
+              "timebuildupdated": 1793040984,
+              "timeupdated": 1793041423
             },
             "experimental-2": {
-              "buildid": "26202854",
+              "buildid": "26225327",
               "description": "Further version experimental",
-              "timebuildupdated": 1792959781,
-              "timeupdated": 1792959872
+              "timebuildupdated": 1793040984,
+              "timeupdated": 1793041063
             },
             "experimental-3": {
               "buildid": "26190665",
               "description": "8 player coop exp (no zomb.)",
               "timebuildupdated": 1792888604,
-              "timeupdated": 1792894089
+              "timeupdated": 1793041071
             },
             "pre-version": {
               "buildid": "26081059",
@@ -1909,9 +2013,9 @@
               "timeupdated": 1792506311
             },
             "public": {
-              "buildid": "26166769",
-              "timebuildupdated": 1792776933,
-              "timeupdated": 1792778640
+              "buildid": "26225327",
+              "timebuildupdated": 1793040984,
+              "timeupdated": 1793041455
             }
           },
           "depots": {
@@ -1920,11 +2024,11 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "experimental": "8202071850758490844",
-                "experimental-2": "3847387302180007477",
+                "experimental": "2012757030388199117",
+                "experimental-2": "2012757030388199117",
                 "experimental-3": "3199519061729436914",
                 "pre-version": "6787099925644832567",
-                "public": "8202071850758490844"
+                "public": "2012757030388199117"
               }
             },
             "5024542": {
@@ -1932,21 +2036,21 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "experimental": "1592633367188369930",
-                "experimental-2": "2621983260216410682",
+                "experimental": "705123623014275693",
+                "experimental-2": "705123623014275693",
                 "experimental-3": "800931004910065817",
                 "pre-version": "1608571610833987907",
-                "public": "1592633367188369930"
+                "public": "705123623014275693"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-26T18:37:36.516Z",
+      "observed_at": "2026-10-26T19:07:34.369Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T18:37:36.516Z"
+  "updated_at": "2026-10-26T19:07:34.369Z"
 }
