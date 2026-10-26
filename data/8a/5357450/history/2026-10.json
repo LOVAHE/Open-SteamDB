@@ -643,11 +643,57 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T15:37:36.904Z",
+      "change_number": 40227790,
+      "changes": [
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/german"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/italian"
+        },
+        {
+          "after": "26173194",
+          "before": "26001904",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792798024,
+          "before": 1792200920,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792798053,
+          "before": 1792200944,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1399592656393510449",
+          "before": "3992634549378569739",
+          "op": "replace",
+          "path": "/depots/depots/5357451/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39926709,
+      "change_number": 40227790,
       "data": {
         "appinfo": {
           "common": {
@@ -759,6 +805,12 @@
               "french": {
                 "supported": "true"
               },
+              "german": {
+                "supported": "true"
+              },
+              "italian": {
+                "supported": "true"
+              },
               "japanese": {
                 "supported": "true"
               },
@@ -785,9 +837,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26001904",
-              "timebuildupdated": 1792200920,
-              "timeupdated": 1792200944
+              "buildid": "26173194",
+              "timebuildupdated": 1792798024,
+              "timeupdated": 1792798053
             }
           },
           "depots": {
@@ -797,17 +849,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "3992634549378569739"
+                "public": "1399592656393510449"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-17T01:37:28.587Z",
+      "observed_at": "2026-10-26T15:37:36.904Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-17T01:37:28.587Z"
+  "updated_at": "2026-10-26T15:37:36.904Z"
 }

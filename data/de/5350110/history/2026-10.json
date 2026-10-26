@@ -236,11 +236,85 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T15:37:36.904Z",
+      "change_number": 40234681,
+      "changes": [
+        {
+          "after": "macos64",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "1792956062",
+          "before": "1792449266",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "26195300",
+          "before": "26035350",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792921408,
+          "before": 1792366295,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792921602,
+          "before": 1792366582,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1114183081004996784",
+          "before": "4546885679495448607",
+          "op": "replace",
+          "path": "/depots/depots/5350111/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "3296763302481538803"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5350112"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "linux"
+            },
+            "manifests": {
+              "public": "662557757887131587"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5350113"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40022204,
+      "change_number": 40234681,
       "data": {
         "appinfo": {
           "common": {
@@ -328,15 +402,15 @@
             },
             "name": "Ruler of Empires Demo",
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64",
+            "oslist": "windows,macos,linux",
             "parent": "4885480",
             "primary_genre": "2",
             "small_capsule": {
               "english": "74c4a3abe914cf54069448e8f74f47e43dc86a70/capsule_231x87.jpg"
             },
             "steam_release_date": "1791460695",
-            "store_asset_mtime": "1792449266",
+            "store_asset_mtime": "1792956062",
             "supported_languages": {
               "arabic": {
                 "subtitles": "true",
@@ -400,9 +474,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26035350",
-              "timebuildupdated": 1792366295,
-              "timeupdated": 1792366582
+              "buildid": "26195300",
+              "timebuildupdated": 1792921408,
+              "timeupdated": 1792921602
             }
           },
           "depots": {
@@ -411,17 +485,33 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "4546885679495448607"
+                "public": "1114183081004996784"
+              }
+            },
+            "5350112": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "3296763302481538803"
+              }
+            },
+            "5350113": {
+              "config": {
+                "oslist": "linux"
+              },
+              "manifests": {
+                "public": "662557757887131587"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-19T22:37:34.015Z",
+      "observed_at": "2026-10-26T15:37:36.904Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T22:37:34.015Z"
+  "updated_at": "2026-10-26T15:37:36.904Z"
 }

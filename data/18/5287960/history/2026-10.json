@@ -637,11 +637,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T15:37:36.904Z",
+      "change_number": 40260959,
+      "changes": [
+        {
+          "after": "15",
+          "before": "10",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "15000000",
+          "before": "20000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        },
+        {
+          "after": "26220461",
+          "before": "26209938",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793028180,
+          "before": 1792992780,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793028356,
+          "before": 1792992842,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4831759667274528548",
+          "before": "3622763340368010921",
+          "op": "replace",
+          "path": "/depots/depots/5287961/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40253855,
+      "change_number": 40260959,
       "data": {
         "appinfo": {
           "common": {
@@ -824,8 +868,8 @@
             "publisher": "SparrowSim"
           },
           "ufs": {
-            "maxnumfiles": "10",
-            "quota": "20000000",
+            "maxnumfiles": "15",
+            "quota": "15000000",
             "savefiles": {
               "0": {
                 "path": "SortOnTheBall/Saved/SaveGames",
@@ -838,9 +882,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26209938",
-              "timebuildupdated": 1792992780,
-              "timeupdated": 1792992842
+              "buildid": "26220461",
+              "timebuildupdated": 1793028180,
+              "timeupdated": 1793028356
             }
           },
           "depots": {
@@ -862,17 +906,17 @@
             },
             "5287961": {
               "manifests": {
-                "public": "3622763340368010921"
+                "public": "4831759667274528548"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-26T13:22:35.056Z",
+      "observed_at": "2026-10-26T15:37:36.904Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T13:22:35.056Z"
+  "updated_at": "2026-10-26T15:37:36.904Z"
 }

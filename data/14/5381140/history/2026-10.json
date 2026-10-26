@@ -352,11 +352,50 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T15:37:36.904Z",
+      "change_number": 40179298,
+      "changes": [
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/spanish"
+        },
+        {
+          "after": "26166703",
+          "before": "26039207",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792776735,
+          "before": 1792381783,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792776787,
+          "before": 1792381838,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3190163938293457650",
+          "before": "722659432545279016",
+          "op": "replace",
+          "path": "/depots/depots/5381141/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40019208,
+      "change_number": 40179298,
       "data": {
         "appinfo": {
           "common": {
@@ -456,6 +495,9 @@
               },
               "english": {
                 "supported": "true"
+              },
+              "spanish": {
+                "supported": "true"
               }
             },
             "type": "Demo"
@@ -471,25 +513,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26039207",
-              "timebuildupdated": 1792381783,
-              "timeupdated": 1792381838
+              "buildid": "26166703",
+              "timebuildupdated": 1792776735,
+              "timeupdated": 1792776787
             }
           },
           "depots": {
             "5381141": {
               "manifests": {
-                "public": "722659432545279016"
+                "public": "3190163938293457650"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-19T20:52:35.172Z",
+      "observed_at": "2026-10-26T15:37:36.904Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T20:52:35.172Z"
+  "updated_at": "2026-10-26T15:37:36.904Z"
 }

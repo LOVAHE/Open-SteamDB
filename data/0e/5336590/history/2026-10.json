@@ -330,11 +330,101 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T15:37:36.904Z",
+      "change_number": 40261275,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/community_visible_stats"
+        },
+        {
+          "after": {
+            "english": "1",
+            "french": "1",
+            "german": "1",
+            "italian": "1",
+            "schinese": "1",
+            "spanish": "1"
+          },
+          "op": "add",
+          "path": "/appinfo/common/languages"
+        },
+        {
+          "after": "75",
+          "before": "72",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7926",
+          "before": "4305",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/14"
+        },
+        {
+          "after": "4305",
+          "before": "4726",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/15"
+        },
+        {
+          "after": "4726",
+          "before": "5350",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/17"
+        },
+        {
+          "after": "5350",
+          "before": "4182",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/18"
+        },
+        {
+          "after": "4182",
+          "op": "add",
+          "path": "/appinfo/common/store_tags/19"
+        },
+        {
+          "after": "26190174",
+          "before": "26079694",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792885699,
+          "before": 1792501780,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792885699,
+          "before": 1792501850,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4584539656718721327",
+          "before": "2026347430682459066",
+          "op": "replace",
+          "path": "/depots/depots/5336591/manifests/public"
+        },
+        {
+          "after": "3888576398838619829",
+          "before": "992826219831147281",
+          "op": "replace",
+          "path": "/depots/depots/5336592/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40046277,
+      "change_number": 40261275,
       "data": {
         "appinfo": {
           "common": {
@@ -355,6 +445,7 @@
             },
             "clienticon": "bc448787b9b9886b00faad5d6152cb6fec240880",
             "community_hub_visible": "1",
+            "community_visible_stats": "1",
             "genres": {
               "0": "4",
               "1": "23",
@@ -364,6 +455,14 @@
               "english": "1522f3ab0c5546ead3ee32787fc848475521e3ce/header.jpg"
             },
             "icon": "bc448787b9b9886b00faad5d6152cb6fec240880",
+            "languages": {
+              "english": "1",
+              "french": "1",
+              "german": "1",
+              "italian": "1",
+              "schinese": "1",
+              "spanish": "1"
+            },
             "library_assets": {
               "library_capsule": "en",
               "library_header": "en",
@@ -425,7 +524,7 @@
             "osextended": "macos64,macosapplesilicon,macosnotarized",
             "oslist": "windows,macos",
             "primary_genre": "4",
-            "review_percentage": "72",
+            "review_percentage": "75",
             "review_score": "6",
             "small_capsule": {
               "english": "936fde179431b5c217ac51037cba74252ee7ce60/capsule_231x87.jpg"
@@ -447,11 +546,12 @@
               "11": "4191",
               "12": "4252",
               "13": "492",
-              "14": "4305",
-              "15": "4726",
+              "14": "7926",
+              "15": "4305",
               "16": "5125",
-              "17": "5350",
-              "18": "4182"
+              "17": "4726",
+              "18": "5350",
+              "19": "4182"
             },
             "supported_languages": {
               "english": {
@@ -507,9 +607,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26079694",
-              "timebuildupdated": 1792501780,
-              "timeupdated": 1792501850
+              "buildid": "26190174",
+              "timebuildupdated": 1792885699,
+              "timeupdated": 1792885699
             }
           },
           "depots": {
@@ -523,7 +623,7 @@
             },
             "5336591": {
               "manifests": {
-                "public": "2026347430682459066"
+                "public": "4584539656718721327"
               }
             },
             "5336592": {
@@ -531,17 +631,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "992826219831147281"
+                "public": "3888576398838619829"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T13:52:34.841Z",
+      "observed_at": "2026-10-26T15:37:36.904Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T13:52:34.841Z"
+  "updated_at": "2026-10-26T15:37:36.904Z"
 }

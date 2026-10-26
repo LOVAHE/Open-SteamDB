@@ -166,11 +166,61 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T15:37:36.904Z",
+      "change_number": 40141293,
+      "changes": [
+        {
+          "after": "26141744",
+          "before": "25713396",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792695232,
+          "before": 1791137424,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792695232,
+          "before": 1791137424,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": {
+            "config": {
+              "oslist": "windows"
+            },
+            "depotfromapp": 228980,
+            "manifests": {},
+            "sharedinstall": true
+          },
+          "op": "remove",
+          "path": "/depots/depots/228989"
+        },
+        {
+          "after": "1276784988529098306",
+          "before": "2640059387206204032",
+          "op": "replace",
+          "path": "/depots/depots/5380121/manifests/public"
+        },
+        {
+          "after": "1835143462779116253",
+          "before": "1854308855428882355",
+          "op": "replace",
+          "path": "/depots/depots/5380122/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39913619,
+      "change_number": 40141293,
       "data": {
         "appinfo": {
           "common": {
@@ -288,27 +338,19 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25713396",
-              "timebuildupdated": 1791137424,
-              "timeupdated": 1791137424
+              "buildid": "26141744",
+              "timebuildupdated": 1792695232,
+              "timeupdated": 1792695232
             }
           },
           "depots": {
-            "228989": {
-              "config": {
-                "oslist": "windows"
-              },
-              "depotfromapp": 228980,
-              "manifests": {},
-              "sharedinstall": true
-            },
             "5380121": {
               "config": {
                 "osarch": "64",
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "2640059387206204032"
+                "public": "1276784988529098306"
               }
             },
             "5380122": {
@@ -317,17 +359,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "1854308855428882355"
+                "public": "1835143462779116253"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-16T19:52:29.872Z",
+      "observed_at": "2026-10-26T15:37:36.904Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-16T19:52:29.872Z"
+  "updated_at": "2026-10-26T15:37:36.904Z"
 }

@@ -275,11 +275,59 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T15:37:36.904Z",
+      "change_number": 40238579,
+      "changes": [
+        {
+          "after": "100",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "1792914040",
+          "before": "1791322009",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "26192226",
+          "before": "26072548",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792898994,
+          "before": 1792480336,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792900189,
+          "before": 1792480470,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2029929058282599782",
+          "before": "324151058873558593",
+          "op": "replace",
+          "path": "/depots/depots/5401821/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40034035,
+      "change_number": 40238579,
       "data": {
         "appinfo": {
           "common": {
@@ -374,11 +422,13 @@
             "oslist": "windows",
             "parent": "4710690",
             "primary_genre": "1",
+            "review_percentage": "100",
+            "review_score": "7",
             "small_capsule": {
               "english": "267aff93731039c2e945093994f295bfc87d7458/capsule_231x87.jpg"
             },
             "steam_release_date": "1792401822",
-            "store_asset_mtime": "1791322009",
+            "store_asset_mtime": "1792914040",
             "supported_languages": {
               "english": {
                 "full_audio": "true",
@@ -399,25 +449,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26072548",
-              "timebuildupdated": 1792480336,
-              "timeupdated": 1792480470
+              "buildid": "26192226",
+              "timebuildupdated": 1792898994,
+              "timeupdated": 1792900189
             }
           },
           "depots": {
             "5401821": {
               "manifests": {
-                "public": "324151058873558593"
+                "public": "2029929058282599782"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T07:22:37.186Z",
+      "observed_at": "2026-10-26T15:37:36.904Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T07:22:37.186Z"
+  "updated_at": "2026-10-26T15:37:36.904Z"
 }

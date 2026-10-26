@@ -344,11 +344,83 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T15:37:36.904Z",
+      "change_number": 40157150,
+      "changes": [
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/brazilian"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/german"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/japanese"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/koreana"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/tchinese"
+        },
+        {
+          "after": "26152590",
+          "before": "26009955",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792734356,
+          "before": 1792244202,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792734381,
+          "before": 1792244227,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3056948586356826443",
+          "before": "1298810576550064685",
+          "op": "replace",
+          "path": "/depots/depots/5331911/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39938840,
+      "change_number": 40157150,
       "data": {
         "appinfo": {
           "common": {
@@ -443,11 +515,31 @@
             "steam_release_date": "1791009360",
             "store_asset_mtime": "1792058861",
             "supported_languages": {
+              "brazilian": {
+                "subtitles": "true",
+                "supported": "true"
+              },
               "english": {
                 "subtitles": "true",
                 "supported": "true"
               },
+              "german": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "japanese": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "koreana": {
+                "subtitles": "true",
+                "supported": "true"
+              },
               "schinese": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "tchinese": {
                 "subtitles": "true",
                 "supported": "true"
               }
@@ -465,21 +557,21 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26009955",
-              "timebuildupdated": 1792244202,
-              "timeupdated": 1792244227
+              "buildid": "26152590",
+              "timebuildupdated": 1792734356,
+              "timeupdated": 1792734381
             }
           },
           "depots": {
             "5331911": {
               "manifests": {
-                "public": "1298810576550064685"
+                "public": "3056948586356826443"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-18T17:10:32.305Z",
+      "observed_at": "2026-10-26T15:37:36.904Z",
       "tracked": true
     },
     "steam_store": {
@@ -585,5 +677,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-18T17:10:32.305Z"
+  "updated_at": "2026-10-26T15:37:36.904Z"
 }

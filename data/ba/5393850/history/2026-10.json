@@ -287,11 +287,90 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T15:37:36.904Z",
+      "change_number": 40237881,
+      "changes": [
+        {
+          "after": "d23e72036b9c6cb67b3bf9382f2250b9113bf6ad/header.jpg",
+          "before": "8be085fd9e3e603e7e18719ff6b2ecbf064486dc/header.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/header_image/english"
+        },
+        {
+          "after": "d23e72036b9c6cb67b3bf9382f2250b9113bf6ad/library_header.jpg",
+          "before": "8be085fd9e3e603e7e18719ff6b2ecbf064486dc/library_header.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets_full/library_header/image/english"
+        },
+        {
+          "after": "d23e72036b9c6cb67b3bf9382f2250b9113bf6ad/library_header_2x.jpg",
+          "before": "8be085fd9e3e603e7e18719ff6b2ecbf064486dc/library_header_2x.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets_full/library_header/image2x/english"
+        },
+        {
+          "after": "96",
+          "before": "93",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "8",
+          "before": "7",
+          "op": "replace",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "1792667383",
+          "before": "1792053556",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": "26205188",
+          "before": "26075363",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792970231,
+          "before": 1792489136,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792970286,
+          "before": 1792489371,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3774080017314281143",
+          "before": "6292878083509686610",
+          "op": "replace",
+          "path": "/depots/depots/5393851/manifests/public"
+        },
+        {
+          "after": "8597062967140232328",
+          "before": "1429325828264919030",
+          "op": "replace",
+          "path": "/depots/depots/5393852/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40048404,
+      "change_number": 40237881,
       "data": {
         "appinfo": {
           "common": {
@@ -315,7 +394,7 @@
               "2": "37"
             },
             "header_image": {
-              "english": "8be085fd9e3e603e7e18719ff6b2ecbf064486dc/header.jpg"
+              "english": "d23e72036b9c6cb67b3bf9382f2250b9113bf6ad/header.jpg"
             },
             "icon": "805a5896449dbd1819e586a22ebd2367d8e665ce",
             "library_assets": {
@@ -341,10 +420,10 @@
               },
               "library_header": {
                 "image": {
-                  "english": "8be085fd9e3e603e7e18719ff6b2ecbf064486dc/library_header.jpg"
+                  "english": "d23e72036b9c6cb67b3bf9382f2250b9113bf6ad/library_header.jpg"
                 },
                 "image2x": {
-                  "english": "8be085fd9e3e603e7e18719ff6b2ecbf064486dc/library_header_2x.jpg"
+                  "english": "d23e72036b9c6cb67b3bf9382f2250b9113bf6ad/library_header_2x.jpg"
                 }
               },
               "library_hero": {
@@ -380,20 +459,21 @@
             "oslist": "windows,macos",
             "parent": "5092000",
             "primary_genre": "1",
-            "review_percentage": "93",
-            "review_score": "7",
+            "review_percentage": "96",
+            "review_score": "8",
             "small_capsule": {
               "english": "d4dcb9b0eeb5e7bf92f7ca20681977674e715dec/capsule_231x87.jpg"
             },
             "steam_release_date": "1792393230",
-            "store_asset_mtime": "1792053556",
+            "store_asset_mtime": "1792667383",
             "supported_languages": {
               "english": {
                 "full_audio": "true",
                 "supported": "true"
               }
             },
-            "type": "Demo"
+            "type": "Demo",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "TRACE Demo"
@@ -406,9 +486,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26075363",
-              "timebuildupdated": 1792489136,
-              "timeupdated": 1792489371
+              "buildid": "26205188",
+              "timebuildupdated": 1792970231,
+              "timeupdated": 1792970286
             }
           },
           "depots": {
@@ -417,7 +497,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "6292878083509686610"
+                "public": "3774080017314281143"
               }
             },
             "5393852": {
@@ -425,17 +505,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "1429325828264919030"
+                "public": "8597062967140232328"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T14:52:38.673Z",
+      "observed_at": "2026-10-26T15:37:36.904Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T14:52:38.673Z"
+  "updated_at": "2026-10-26T15:37:36.904Z"
 }
