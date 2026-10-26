@@ -499,11 +499,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T21:22:39.461Z",
+      "change_number": 40273799,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26227997",
+            "description": "Developers Tests",
+            "timebuildupdated": 1793049051,
+            "timeupdated": 1793049238
+          },
+          "op": "add",
+          "path": "/depots/branches/devtests"
+        },
+        {
+          "after": "1458129493617052725",
+          "op": "add",
+          "path": "/depots/depots/5252661/manifests/devtests"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40229319,
+      "change_number": 40273799,
       "data": {
         "appinfo": {
           "common": {
@@ -625,6 +648,12 @@
         },
         "depots": {
           "branches": {
+            "devtests": {
+              "buildid": "26227997",
+              "description": "Developers Tests",
+              "timebuildupdated": 1793049051,
+              "timeupdated": 1793049238
+            },
             "public": {
               "buildid": "26107172",
               "timebuildupdated": 1792588018,
@@ -637,17 +666,18 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "devtests": "1458129493617052725",
                 "public": "4050873910818938211"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-26T13:22:35.056Z",
+      "observed_at": "2026-10-26T21:22:39.461Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T13:22:35.056Z"
+  "updated_at": "2026-10-26T21:22:39.461Z"
 }
