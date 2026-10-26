@@ -400,11 +400,51 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T14:52:37.831Z",
+      "change_number": 40255748,
+      "changes": [
+        {
+          "after": {
+            "name": "Creata Games",
+            "type": "publisher"
+          },
+          "op": "add",
+          "path": "/appinfo/common/associations/2"
+        },
+        {
+          "after": "26217191",
+          "before": "26095912",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793019445,
+          "before": 1792549797,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793019660,
+          "before": 1792549881,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1009336713805077798",
+          "before": "7459233904305206337",
+          "op": "replace",
+          "path": "/depots/depots/4717321/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40068531,
+      "change_number": 40255748,
       "data": {
         "appinfo": {
           "common": {
@@ -415,6 +455,10 @@
               },
               "1": {
                 "name": "Doomers Entertainment",
+                "type": "publisher"
+              },
+              "2": {
+                "name": "Creata Games",
                 "type": "publisher"
               }
             },
@@ -523,9 +567,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26095912",
-              "timebuildupdated": 1792549797,
-              "timeupdated": 1792549881
+              "buildid": "26217191",
+              "timebuildupdated": 1793019445,
+              "timeupdated": 1793019660
             }
           },
           "depots": {
@@ -547,17 +591,17 @@
             },
             "4717321": {
               "manifests": {
-                "public": "7459233904305206337"
+                "public": "1009336713805077798"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-22T16:22:34.483Z",
+      "observed_at": "2026-10-26T14:52:37.831Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-22T16:22:34.483Z"
+  "updated_at": "2026-10-26T14:52:37.831Z"
 }

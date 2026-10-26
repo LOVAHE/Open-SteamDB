@@ -421,11 +421,80 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T14:52:37.831Z",
+      "change_number": 40204158,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/french"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/koreana"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/portuguese"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/tchinese"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/thai"
+        },
+        {
+          "after": "64",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osarch"
+        },
+        {
+          "after": "26179816",
+          "before": "26046357",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792833014,
+          "before": 1792406758,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792833331,
+          "before": 1792406805,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1042021367801386077",
+          "before": "3664484366315863266",
+          "op": "replace",
+          "path": "/depots/depots/2336221/manifests/public"
+        },
+        {
+          "after": "5541295984068983184",
+          "before": "3989430978918640794",
+          "op": "replace",
+          "path": "/depots/depots/2336222/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39994271,
+      "change_number": 40204158,
       "data": {
         "appinfo": {
           "common": {
@@ -476,8 +545,13 @@
             "icon": "acee60c7033bd9ba98f46944e915618df3d6f9ba",
             "languages": {
               "english": "1",
+              "french": "1",
               "japanese": "1",
-              "schinese": "1"
+              "koreana": "1",
+              "portuguese": "1",
+              "schinese": "1",
+              "tchinese": "1",
+              "thai": "1"
             },
             "library_assets": {
               "library_capsule": "zh-cn,en",
@@ -539,7 +613,7 @@
             "name_localized": {
               "schinese": "杯杯倒满 Feed The Cups"
             },
-            "osarch": "",
+            "osarch": "64",
             "osextended": "macos64,macosapplesilicon",
             "oslist": "windows,macos",
             "primary_genre": "28",
@@ -725,9 +799,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26046357",
-              "timebuildupdated": 1792406758,
-              "timeupdated": 1792406805
+              "buildid": "26179816",
+              "timebuildupdated": 1792833014,
+              "timeupdated": 1792833331
             }
           },
           "depots": {
@@ -736,7 +810,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "3664484366315863266"
+                "public": "1042021367801386077"
               }
             },
             "2336222": {
@@ -744,17 +818,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "3989430978918640794"
+                "public": "5541295984068983184"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-19T10:52:33.866Z",
+      "observed_at": "2026-10-26T14:52:37.831Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T10:52:33.866Z"
+  "updated_at": "2026-10-26T14:52:37.831Z"
 }

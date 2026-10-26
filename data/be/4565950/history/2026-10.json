@@ -208,11 +208,63 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T14:52:37.831Z",
+      "change_number": 40215350,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "26190310",
+          "before": "26034150",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792886494,
+          "before": 1792361582,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792887417,
+          "before": 1792361623,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/4565951/config"
+        },
+        {
+          "after": "1285743396886246816",
+          "before": "2460984677466757692",
+          "op": "replace",
+          "path": "/depots/depots/4565952/manifests/public"
+        },
+        {
+          "after": {
+            "oslist": "linux"
+          },
+          "op": "add",
+          "path": "/depots/depots/4565953/config"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39976189,
+      "change_number": 40215350,
       "data": {
         "appinfo": {
           "common": {
@@ -305,7 +357,7 @@
             },
             "name": "Harbor of Vows Demo",
             "osarch": "",
-            "osextended": "",
+            "osextended": "macos64,macosapplesilicon",
             "oslist": "windows,macos,linux",
             "parent": "4462940",
             "primary_genre": "23",
@@ -335,13 +387,16 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26034150",
-              "timebuildupdated": 1792361582,
-              "timeupdated": 1792361623
+              "buildid": "26190310",
+              "timebuildupdated": 1792886494,
+              "timeupdated": 1792887417
             }
           },
           "depots": {
             "4565951": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
                 "public": "3532444325500461082"
               }
@@ -352,10 +407,13 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "2460984677466757692"
+                "public": "1285743396886246816"
               }
             },
             "4565953": {
+              "config": {
+                "oslist": "linux"
+              },
               "manifests": {
                 "public": "3758855548745648010"
               }
@@ -363,11 +421,11 @@
           }
         }
       },
-      "observed_at": "2026-10-18T22:22:29.391Z",
+      "observed_at": "2026-10-26T14:52:37.831Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-18T22:22:29.391Z"
+  "updated_at": "2026-10-26T14:52:37.831Z"
 }

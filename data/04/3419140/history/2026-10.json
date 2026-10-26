@@ -1291,11 +1291,113 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T14:52:37.831Z",
+      "change_number": 40255717,
+      "changes": [
+        {
+          "after": "84",
+          "before": "81",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/italian"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        },
+        {
+          "after": "26090405",
+          "before": "25845809",
+          "op": "replace",
+          "path": "/depots/branches/backup/buildid"
+        },
+        {
+          "after": 1792530706,
+          "before": 1791612149,
+          "op": "replace",
+          "path": "/depots/branches/backup/timebuildupdated"
+        },
+        {
+          "after": 1792531076,
+          "before": 1791612367,
+          "op": "replace",
+          "path": "/depots/branches/backup/timeupdated"
+        },
+        {
+          "after": "26216252",
+          "before": "26128213",
+          "op": "replace",
+          "path": "/depots/branches/beta-testing/buildid"
+        },
+        {
+          "after": 1793016441,
+          "before": 1792656906,
+          "op": "replace",
+          "path": "/depots/branches/beta-testing/timebuildupdated"
+        },
+        {
+          "after": 1793016653,
+          "before": 1792657352,
+          "op": "replace",
+          "path": "/depots/branches/beta-testing/timeupdated"
+        },
+        {
+          "after": "26216252",
+          "before": "26090405",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793016441,
+          "before": 1792530706,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793016653,
+          "before": 1792531076,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8778810873106383590",
+          "before": "442010687776035503",
+          "op": "replace",
+          "path": "/depots/depots/3419141/manifests/backup"
+        },
+        {
+          "after": "5145424267666678417",
+          "before": "357010368738709732",
+          "op": "replace",
+          "path": "/depots/depots/3419141/manifests/beta-testing"
+        },
+        {
+          "after": "5145424267666678417",
+          "before": "8778810873106383590",
+          "op": "replace",
+          "path": "/depots/depots/3419141/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40119685,
+      "change_number": 40255717,
       "data": {
         "appinfo": {
           "common": {
@@ -1406,7 +1508,7 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "1",
-            "review_percentage": "81",
+            "review_percentage": "84",
             "review_score": "7",
             "small_capsule": {
               "english": "63680c58528a999b03b44fcc59c9eb6e24b6588a/capsule_231x87.jpg"
@@ -1448,11 +1550,19 @@
                 "subtitles": "true",
                 "supported": "true"
               },
+              "italian": {
+                "subtitles": "true",
+                "supported": "true"
+              },
               "latam": {
                 "subtitles": "true",
                 "supported": "true"
               },
               "polish": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "russian": {
                 "subtitles": "true",
                 "supported": "true"
               },
@@ -1493,39 +1603,39 @@
         "depots": {
           "branches": {
             "backup": {
-              "buildid": "25845809",
-              "description": "A version of the game before the default, in case something may break",
-              "timebuildupdated": 1791612149,
-              "timeupdated": 1791612367
-            },
-            "beta-testing": {
-              "buildid": "26128213",
-              "description": "Unstable (might contain save-breaking issues) version of the game",
-              "timebuildupdated": 1792656906,
-              "timeupdated": 1792657352
-            },
-            "public": {
               "buildid": "26090405",
+              "description": "A version of the game before the default, in case something may break",
               "timebuildupdated": 1792530706,
               "timeupdated": 1792531076
+            },
+            "beta-testing": {
+              "buildid": "26216252",
+              "description": "Unstable (might contain save-breaking issues) version of the game",
+              "timebuildupdated": 1793016441,
+              "timeupdated": 1793016653
+            },
+            "public": {
+              "buildid": "26216252",
+              "timebuildupdated": 1793016441,
+              "timeupdated": 1793016653
             }
           },
           "depots": {
             "3419141": {
               "manifests": {
-                "backup": "442010687776035503",
-                "beta-testing": "357010368738709732",
-                "public": "8778810873106383590"
+                "backup": "8778810873106383590",
+                "beta-testing": "5145424267666678417",
+                "public": "5145424267666678417"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-22T16:22:34.483Z",
+      "observed_at": "2026-10-26T14:52:37.831Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-22T16:22:34.483Z"
+  "updated_at": "2026-10-26T14:52:37.831Z"
 }

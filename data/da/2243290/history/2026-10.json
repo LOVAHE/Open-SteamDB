@@ -1020,11 +1020,75 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T14:52:37.831Z",
+      "change_number": 40231612,
+      "changes": [
+        {
+          "before": "1",
+          "op": "remove",
+          "path": "/appinfo/common/category/category_67"
+        },
+        {
+          "before": "1",
+          "op": "remove",
+          "path": "/appinfo/common/category/category_82"
+        },
+        {
+          "after": "82",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "26146378",
+          "before": "26115373",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792709776,
+          "before": 1792610504,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792709871,
+          "before": 1792610871,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "925675229008085048",
+          "before": "3599141513825984095",
+          "op": "replace",
+          "path": "/depots/depots/2243291/manifests/public"
+        },
+        {
+          "after": "1068467148667023261",
+          "before": "3315547201191452977",
+          "op": "replace",
+          "path": "/depots/depots/2243292/manifests/public"
+        },
+        {
+          "after": "3799095140379325836",
+          "before": "8867506238710654810",
+          "op": "replace",
+          "path": "/depots/depots/2243293/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40100655,
+      "change_number": 40231612,
       "data": {
         "appinfo": {
           "common": {
@@ -1046,13 +1110,11 @@
               "category_56": "1",
               "category_57": "1",
               "category_58": "1",
-              "category_67": "1",
               "category_68": "1",
               "category_69": "1",
               "category_74": "1",
               "category_79": "1",
-              "category_80": "1",
-              "category_82": "1"
+              "category_80": "1"
             },
             "clienticon": "24183fc81c78674107eed9a09d2f20b54080f91c",
             "clienttga": "ada562fac61baf1399785587b1dc17ca278a0c6c",
@@ -1143,6 +1205,8 @@
             "oslist": "windows,macos,linux",
             "parent": "2231090",
             "primary_genre": "28",
+            "review_percentage": "82",
+            "review_score": "7",
             "small_capsule": {
               "english": "67c755c0da8b1d998159121cbe9d769e07817456/capsule_231x87.jpg"
             },
@@ -1235,9 +1299,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26115373",
-              "timebuildupdated": 1792610504,
-              "timeupdated": 1792610871
+              "buildid": "26146378",
+              "timebuildupdated": 1792709776,
+              "timeupdated": 1792709871
             }
           },
           "depots": {
@@ -1247,7 +1311,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "3599141513825984095"
+                "public": "925675229008085048"
               }
             },
             "2243292": {
@@ -1256,7 +1320,7 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "3315547201191452977"
+                "public": "1068467148667023261"
               }
             },
             "2243293": {
@@ -1265,13 +1329,13 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "8867506238710654810"
+                "public": "3799095140379325836"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-22T16:22:34.483Z",
+      "observed_at": "2026-10-26T14:52:37.831Z",
       "tracked": true
     },
     "steam_store": {
@@ -1529,5 +1593,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-22T16:22:34.483Z"
+  "updated_at": "2026-10-26T14:52:37.831Z"
 }

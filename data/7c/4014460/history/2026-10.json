@@ -809,11 +809,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T14:52:37.831Z",
+      "change_number": 40242531,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/community_visible_stats"
+        },
+        {
+          "after": "26208615",
+          "before": "26098078",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792986159,
+          "before": 1792558555,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792986191,
+          "before": 1792558637,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6339964946034955820",
+          "before": "8629094138328401604",
+          "op": "replace",
+          "path": "/depots/depots/4014461/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40071771,
+      "change_number": 40242531,
       "data": {
         "appinfo": {
           "common": {
@@ -834,6 +871,7 @@
             },
             "clienticon": "241cc12f255a8c139c4ff6a5b7bb072ae69672c9",
             "community_hub_visible": "1",
+            "community_visible_stats": "1",
             "controller_support": "full",
             "genres": {
               "0": "1",
@@ -954,21 +992,21 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26098078",
-              "timebuildupdated": 1792558555,
-              "timeupdated": 1792558637
+              "buildid": "26208615",
+              "timebuildupdated": 1792986159,
+              "timeupdated": 1792986191
             }
           },
           "depots": {
             "4014461": {
               "manifests": {
-                "public": "8629094138328401604"
+                "public": "6339964946034955820"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-22T16:22:34.483Z",
+      "observed_at": "2026-10-26T14:52:37.831Z",
       "tracked": true
     },
     "steam_store": {
@@ -1103,5 +1141,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-22T16:22:34.483Z"
+  "updated_at": "2026-10-26T14:52:37.831Z"
 }

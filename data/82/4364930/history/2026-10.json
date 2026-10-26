@@ -1911,11 +1911,120 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T14:52:37.831Z",
+      "change_number": 40204446,
+      "changes": [
+        {
+          "after": "83",
+          "before": "84",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": {
+            "category": "2",
+            "configuration": {
+              "gamescope_frame_limiter_not_supported": "0",
+              "hdr_support": "0",
+              "non_deck_display_glyphs": "1",
+              "primary_player_is_controller_slot_0": "0",
+              "recommended_runtime": "native",
+              "requires_h264": "0",
+              "requires_internet_for_setup": "0",
+              "requires_internet_for_singleplayer": "0",
+              "requires_manual_keyboard_invoke": "0",
+              "requires_non_controller_launcher_nav": "0",
+              "requires_proton_soundfonts": "0",
+              "requires_voice_files": "0",
+              "small_text": "1",
+              "supported_input": "other"
+            },
+            "steam_machine_compatibility": "2",
+            "steam_machine_tests": {
+              "0": {
+                "display": "3",
+                "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+              },
+              "1": {
+                "display": "4",
+                "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+              },
+              "2": {
+                "display": "4",
+                "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+              }
+            },
+            "steamos_compatibility": "2",
+            "steamos_tests": {
+              "0": {
+                "display": "3",
+                "token": "#SteamOS_TestResult_GameStartupFunctional"
+              }
+            },
+            "test_timestamp": "1792174969",
+            "tested_build_id": "25868153",
+            "tests": {
+              "0": {
+                "display": "3",
+                "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+              },
+              "1": {
+                "display": "3",
+                "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+              },
+              "2": {
+                "display": "4",
+                "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+              },
+              "3": {
+                "display": "4",
+                "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility"
+        },
+        {
+          "after": "26183448",
+          "before": "26092769",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792852971,
+          "before": 1792538326,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792852971,
+          "before": 1792538326,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4121175313726411382",
+          "before": "1736364612716861962",
+          "op": "replace",
+          "path": "/depots/depots/4364931/manifests/public"
+        },
+        {
+          "after": "6943951585223192708",
+          "before": "2346345100377804706",
+          "op": "replace",
+          "path": "/depots/depots/4364932/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40070884,
+      "change_number": 40204446,
       "data": {
         "appinfo": {
           "common": {
@@ -2027,10 +2136,71 @@
             "osextended": "macos64,macosapplesilicon",
             "oslist": "windows,macos,linux",
             "primary_genre": "4",
-            "review_percentage": "84",
+            "review_percentage": "83",
             "review_score": "8",
             "small_capsule": {
               "english": "4cd58bdd3e16dd7dec0d984e9dd7a1a73c7b80f0/capsule_231x87.jpg"
+            },
+            "steam_deck_compatibility": {
+              "category": "2",
+              "configuration": {
+                "gamescope_frame_limiter_not_supported": "0",
+                "hdr_support": "0",
+                "non_deck_display_glyphs": "1",
+                "primary_player_is_controller_slot_0": "0",
+                "recommended_runtime": "native",
+                "requires_h264": "0",
+                "requires_internet_for_setup": "0",
+                "requires_internet_for_singleplayer": "0",
+                "requires_manual_keyboard_invoke": "0",
+                "requires_non_controller_launcher_nav": "0",
+                "requires_proton_soundfonts": "0",
+                "requires_voice_files": "0",
+                "small_text": "1",
+                "supported_input": "other"
+              },
+              "steam_machine_compatibility": "2",
+              "steam_machine_tests": {
+                "0": {
+                  "display": "3",
+                  "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+                },
+                "1": {
+                  "display": "4",
+                  "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+                },
+                "2": {
+                  "display": "4",
+                  "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+                }
+              },
+              "steamos_compatibility": "2",
+              "steamos_tests": {
+                "0": {
+                  "display": "3",
+                  "token": "#SteamOS_TestResult_GameStartupFunctional"
+                }
+              },
+              "test_timestamp": "1792174969",
+              "tested_build_id": "25868153",
+              "tests": {
+                "0": {
+                  "display": "3",
+                  "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+                },
+                "1": {
+                  "display": "3",
+                  "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+                },
+                "2": {
+                  "display": "4",
+                  "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+                },
+                "3": {
+                  "display": "4",
+                  "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+                }
+              }
             },
             "steam_release_date": "1790979511",
             "store_asset_mtime": "1791560070",
@@ -2106,9 +2276,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26092769",
-              "timebuildupdated": 1792538326,
-              "timeupdated": 1792538326
+              "buildid": "26183448",
+              "timebuildupdated": 1792852971,
+              "timeupdated": 1792852971
             }
           },
           "depots": {
@@ -2117,7 +2287,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "1736364612716861962"
+                "public": "4121175313726411382"
               }
             },
             "4364932": {
@@ -2125,7 +2295,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "2346345100377804706"
+                "public": "6943951585223192708"
               }
             },
             "4364933": {
@@ -2139,7 +2309,7 @@
           }
         }
       },
-      "observed_at": "2026-10-22T16:22:34.483Z",
+      "observed_at": "2026-10-26T14:52:37.831Z",
       "tracked": true
     },
     "steam_store": {
@@ -2312,5 +2482,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-22T16:22:34.483Z"
+  "updated_at": "2026-10-26T14:52:37.831Z"
 }
