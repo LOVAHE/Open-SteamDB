@@ -611,11 +611,54 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T16:37:40.109Z",
+      "change_number": 40263658,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos,linux",
+          "before": "windows,linux",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26222203",
+          "before": "26213667",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793032475,
+          "before": 1793008032,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793032475,
+          "before": 1793008648,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2484344286998414361",
+          "op": "add",
+          "path": "/depots/depots/5324963/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40250267,
+      "change_number": 40263658,
       "data": {
         "appinfo": {
           "common": {
@@ -718,8 +761,8 @@
               "german": "Aufstieg der Händler Demo"
             },
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows,linux",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos,linux",
             "parent": "5031210",
             "primary_genre": "28",
             "review_percentage": "80",
@@ -804,9 +847,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26213667",
-              "timebuildupdated": 1793008032,
-              "timeupdated": 1793008648
+              "buildid": "26222203",
+              "timebuildupdated": 1793032475,
+              "timeupdated": 1793032475
             }
           },
           "depots": {
@@ -830,16 +873,18 @@
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "2484344286998414361"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-26T15:37:36.904Z",
+      "observed_at": "2026-10-26T16:37:40.109Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T15:37:36.904Z"
+  "updated_at": "2026-10-26T16:37:40.109Z"
 }
