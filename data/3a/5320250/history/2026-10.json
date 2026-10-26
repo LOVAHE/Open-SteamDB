@@ -485,11 +485,77 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T13:22:35.056Z",
+      "change_number": 40230953,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "100",
+            "quota": "104857600",
+            "rootoverrides": {
+              "0": {
+                "os": "MacOS",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "saves/demo",
+                    "replace": "Godot/app_userdata/Endless Valkyrie/demo"
+                  }
+                },
+                "root": "gameinstall",
+                "useinstead": "MacAppSupport"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "saves/demo",
+                "pattern": "endless_valkyrie_save*.json",
+                "root": "gameinstall"
+              },
+              "1": {
+                "path": "saves/demo",
+                "pattern": "endless_valkyrie_save*.json.bak",
+                "root": "gameinstall"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26200387",
+          "before": "26045505",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792949167,
+          "before": 1792404373,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792949323,
+          "before": 1792404407,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "354878113721046360",
+          "before": "9055302072780668346",
+          "op": "replace",
+          "path": "/depots/depots/5320251/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40033320,
+      "change_number": 40230953,
       "data": {
         "appinfo": {
           "common": {
@@ -633,26 +699,56 @@
           "extended": {
             "developer": "Runeborn Studio",
             "publisher": "Runeborn Studio"
+          },
+          "ufs": {
+            "maxnumfiles": "100",
+            "quota": "104857600",
+            "rootoverrides": {
+              "0": {
+                "os": "MacOS",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "saves/demo",
+                    "replace": "Godot/app_userdata/Endless Valkyrie/demo"
+                  }
+                },
+                "root": "gameinstall",
+                "useinstead": "MacAppSupport"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "saves/demo",
+                "pattern": "endless_valkyrie_save*.json",
+                "root": "gameinstall"
+              },
+              "1": {
+                "path": "saves/demo",
+                "pattern": "endless_valkyrie_save*.json.bak",
+                "root": "gameinstall"
+              }
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26045505",
-              "timebuildupdated": 1792404373,
-              "timeupdated": 1792404407
+              "buildid": "26200387",
+              "timebuildupdated": 1792949167,
+              "timeupdated": 1792949323
             }
           },
           "depots": {
             "5320251": {
               "manifests": {
-                "public": "9055302072780668346"
+                "public": "354878113721046360"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T06:52:33.753Z",
+      "observed_at": "2026-10-26T13:22:35.056Z",
       "tracked": true
     },
     "steam_store": {
@@ -839,5 +935,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T06:52:33.753Z"
+  "updated_at": "2026-10-26T13:22:35.056Z"
 }

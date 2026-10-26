@@ -370,11 +370,76 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T13:22:35.056Z",
+      "change_number": 40167271,
+      "changes": [
+        {
+          "after": "5735a6f144bbbf131029a925b130897364ccc7ee/header_schinese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/header_image/schinese"
+        },
+        {
+          "after": "5735a6f144bbbf131029a925b130897364ccc7ee/header_tchinese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/header_image/tchinese"
+        },
+        {
+          "after": "e3c6428fcda9f949a011e9d9d5687694dc884ffb/capsule_231x87_schinese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/small_capsule/schinese"
+        },
+        {
+          "after": "e3c6428fcda9f949a011e9d9d5687694dc884ffb/capsule_231x87_tchinese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/small_capsule/tchinese"
+        },
+        {
+          "after": "1792447227",
+          "before": "1792446639",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/italian"
+        },
+        {
+          "after": "26158958",
+          "before": "26062269",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792755364,
+          "before": 1792445244,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792755651,
+          "before": 1792445418,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6164090862088111569",
+          "before": "4113705192338320141",
+          "op": "replace",
+          "path": "/depots/depots/5288611/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40021097,
+      "change_number": 40167271,
       "data": {
         "appinfo": {
           "common": {
@@ -405,7 +470,9 @@
               "2": "2"
             },
             "header_image": {
-              "english": "8800dae287794fb4ac834c9ac142aab92d962e5a/header.jpg"
+              "english": "8800dae287794fb4ac834c9ac142aab92d962e5a/header.jpg",
+              "schinese": "5735a6f144bbbf131029a925b130897364ccc7ee/header_schinese.jpg",
+              "tchinese": "5735a6f144bbbf131029a925b130897364ccc7ee/header_tchinese.jpg"
             },
             "icon": "6be69dc649f3c0930ddd08867012839976f82a0e",
             "languages": {
@@ -494,10 +561,12 @@
             "oslist": "windows",
             "primary_genre": "28",
             "small_capsule": {
-              "english": "c84c8ce218183a2c6e5efebacf846d973b676eb1/capsule_231x87.jpg"
+              "english": "c84c8ce218183a2c6e5efebacf846d973b676eb1/capsule_231x87.jpg",
+              "schinese": "e3c6428fcda9f949a011e9d9d5687694dc884ffb/capsule_231x87_schinese.jpg",
+              "tchinese": "e3c6428fcda9f949a011e9d9d5687694dc884ffb/capsule_231x87_tchinese.jpg"
             },
             "steam_release_date": "1792136568",
-            "store_asset_mtime": "1792446639",
+            "store_asset_mtime": "1792447227",
             "store_tags": {
               "0": "91114",
               "1": "12472",
@@ -542,6 +611,9 @@
               "indonesian": {
                 "supported": "true"
               },
+              "italian": {
+                "supported": "true"
+              },
               "japanese": {
                 "supported": "true"
               },
@@ -583,25 +655,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26062269",
-              "timebuildupdated": 1792445244,
-              "timeupdated": 1792445418
+              "buildid": "26158958",
+              "timebuildupdated": 1792755364,
+              "timeupdated": 1792755651
             }
           },
           "depots": {
             "5288611": {
               "manifests": {
-                "public": "4113705192338320141"
+                "public": "6164090862088111569"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-19T21:52:35.152Z",
+      "observed_at": "2026-10-26T13:22:35.056Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T21:52:35.152Z"
+  "updated_at": "2026-10-26T13:22:35.056Z"
 }

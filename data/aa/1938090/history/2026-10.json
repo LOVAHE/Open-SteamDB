@@ -6657,11 +6657,105 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T13:22:35.056Z",
+      "change_number": 40239904,
+      "changes": [
+        {
+          "before": "1",
+          "op": "remove",
+          "path": "/appinfo/common/category/category_18"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_28"
+        },
+        {
+          "before": "1",
+          "op": "remove",
+          "path": "/appinfo/common/category/category_59"
+        },
+        {
+          "after": "full",
+          "before": "partial",
+          "op": "replace",
+          "path": "/appinfo/common/controller_support"
+        },
+        {
+          "after": "1792806979",
+          "before": "1792523569",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "true",
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/koreana/full_audio"
+        },
+        {
+          "after": "26183560",
+          "before": "26082344",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792853609,
+          "before": 1792508562,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792886407,
+          "before": 1792602007,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6435955751458887063",
+          "before": "6733805895031062477",
+          "op": "replace",
+          "path": "/depots/depots/1938091/manifests/public"
+        },
+        {
+          "after": "1847876228787032557",
+          "before": "2584982735221580694",
+          "op": "replace",
+          "path": "/depots/depots/3180215/manifests/public"
+        },
+        {
+          "after": "4384283292448750160",
+          "before": "694938810086783797",
+          "op": "replace",
+          "path": "/depots/depots/5092423/manifests/public"
+        },
+        {
+          "after": "4914662069951232767",
+          "before": "2163417367746740198",
+          "op": "replace",
+          "path": "/depots/depots/5092424/manifests/public"
+        },
+        {
+          "after": "3181277811706186944",
+          "before": "619793826461198328",
+          "op": "replace",
+          "path": "/depots/depots/5092425/manifests/public"
+        },
+        {
+          "after": "54103845876371614",
+          "before": "4996990191089630754",
+          "op": "replace",
+          "path": "/depots/depots/5092426/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40135781,
+      "change_number": 40239904,
       "data": {
         "appinfo": {
           "common": {
@@ -6718,10 +6812,10 @@
             "category": {
               "category_1": "1",
               "category_13": "1",
-              "category_18": "1",
               "category_2": "1",
               "category_22": "1",
               "category_27": "1",
+              "category_28": "1",
               "category_35": "1",
               "category_36": "1",
               "category_38": "1",
@@ -6732,7 +6826,6 @@
               "category_56": "1",
               "category_57": "1",
               "category_58": "1",
-              "category_59": "1",
               "category_61": "1",
               "category_64": "1",
               "category_65": "1",
@@ -6748,7 +6841,7 @@
             "clienttga": "526e5ae3576ff7c87d09f7152579d43fb1ef5f48",
             "community_hub_visible": "1",
             "community_visible_stats": "1",
-            "controller_support": "partial",
+            "controller_support": "full",
             "genres": {
               "0": "1"
             },
@@ -6903,7 +6996,7 @@
               }
             },
             "steam_release_date": "1666929600",
-            "store_asset_mtime": "1792523569",
+            "store_asset_mtime": "1792806979",
             "store_tags": {
               "0": "1663",
               "1": "3859",
@@ -6962,6 +7055,7 @@
                 "supported": "true"
               },
               "koreana": {
+                "full_audio": "true",
                 "subtitles": "true",
                 "supported": "true"
               },
@@ -7029,9 +7123,9 @@
               "timeupdated": 1649372846
             },
             "public": {
-              "buildid": "26082344",
-              "timebuildupdated": 1792508562,
-              "timeupdated": 1792602007
+              "buildid": "26183560",
+              "timebuildupdated": 1792853609,
+              "timeupdated": 1792886407
             }
           },
           "depots": {
@@ -7046,7 +7140,7 @@
             "1938091": {
               "manifests": {
                 "local": "7073109254292645340",
-                "public": "6733805895031062477"
+                "public": "6435955751458887063"
               }
             },
             "1938092": {
@@ -8629,7 +8723,7 @@
               "config": {},
               "dlcappid": 2573900,
               "manifests": {
-                "public": "2584982735221580694"
+                "public": "1847876228787032557"
               }
             },
             "3180216": {
@@ -9460,25 +9554,25 @@
             "5092423": {
               "dlcappid": 4435490,
               "manifests": {
-                "public": "694938810086783797"
+                "public": "4384283292448750160"
               }
             },
             "5092424": {
               "dlcappid": 3606500,
               "manifests": {
-                "public": "2163417367746740198"
+                "public": "4914662069951232767"
               }
             },
             "5092425": {
               "dlcappid": 3606490,
               "manifests": {
-                "public": "619793826461198328"
+                "public": "3181277811706186944"
               }
             },
             "5092426": {
               "dlcappid": 3606480,
               "manifests": {
-                "public": "4996990191089630754"
+                "public": "54103845876371614"
               }
             },
             "5092427": {
@@ -9961,7 +10055,7 @@
           }
         }
       },
-      "observed_at": "2026-10-22T16:22:34.483Z",
+      "observed_at": "2026-10-26T13:22:35.056Z",
       "tracked": true
     },
     "steam_store": {
@@ -10511,5 +10605,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-22T16:22:34.483Z"
+  "updated_at": "2026-10-26T13:22:35.056Z"
 }

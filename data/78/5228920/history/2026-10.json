@@ -1040,11 +1040,84 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T13:22:35.056Z",
+      "change_number": 40255995,
+      "changes": [
+        {
+          "after": "1685",
+          "before": "3839",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/10"
+        },
+        {
+          "after": "3839",
+          "before": "1685",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/11"
+        },
+        {
+          "after": "1643",
+          "before": "4562",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/16"
+        },
+        {
+          "after": "4562",
+          "before": "1643",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/17"
+        },
+        {
+          "after": "560542",
+          "before": "23491",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/6"
+        },
+        {
+          "after": "23491",
+          "before": "560542",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/7"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": "26138704",
+          "before": "26043591",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792686471,
+          "before": 1792399056,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792689297,
+          "before": 1792399801,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1533183634791394203",
+          "before": "6002935474949647622",
+          "op": "replace",
+          "path": "/depots/depots/5228921/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40022898,
+      "change_number": 40255995,
       "data": {
         "appinfo": {
           "common": {
@@ -1226,18 +1299,18 @@
               "3": "3843",
               "4": "1239876",
               "5": "1654",
-              "6": "23491",
-              "7": "560542",
+              "6": "560542",
+              "7": "23491",
               "8": "3859",
               "9": "4191",
-              "10": "3839",
-              "11": "1685",
+              "10": "1685",
+              "11": "3839",
               "12": "4182",
               "13": "12472",
               "14": "492",
               "15": "1664",
-              "16": "4562",
-              "17": "1643",
+              "16": "1643",
+              "17": "4562",
               "18": "97376",
               "19": "6276"
             },
@@ -1367,7 +1440,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "Brick by Brick Tidy Up the Small Town!"
@@ -1400,9 +1474,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26043591",
-              "timebuildupdated": 1792399056,
-              "timeupdated": 1792399801
+              "buildid": "26138704",
+              "timebuildupdated": 1792686471,
+              "timeupdated": 1792689297
             }
           },
           "depots": {
@@ -1416,17 +1490,17 @@
             },
             "5228921": {
               "manifests": {
-                "public": "6002935474949647622"
+                "public": "1533183634791394203"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-19T23:07:40.571Z",
+      "observed_at": "2026-10-26T13:22:35.056Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T23:07:40.571Z"
+  "updated_at": "2026-10-26T13:22:35.056Z"
 }

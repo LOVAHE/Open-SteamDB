@@ -415,11 +415,101 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T13:22:35.056Z",
+      "change_number": 40237471,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": "1792598869",
+          "before": "1790086074",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "100",
+          "before": "0",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "268435456",
+          "before": "0",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        },
+        {
+          "after": {
+            "0": {
+              "os": "Linux",
+              "oscompare": "=",
+              "pathtransforms": {
+                "0": {
+                  "find": "Godot/app_userdata/Mischkalon",
+                  "replace": "godot/app_userdata/Mischkalon"
+                }
+              },
+              "root": "WinAppDataRoaming",
+              "useinstead": "LinuxXdgDataHome"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "after": {
+            "0": {
+              "path": "Godot/app_userdata/Mischkalon",
+              "pattern": "*.json",
+              "root": "WinAppDataRoaming"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles"
+        },
+        {
+          "after": "26204878",
+          "before": "26059676",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792968763,
+          "before": 1792437777,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792968978,
+          "before": 1792437859,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6465668056155652885",
+          "before": "5471557224577833598",
+          "op": "replace",
+          "path": "/depots/depots/5312931/manifests/public"
+        },
+        {
+          "after": "5765607640170565028",
+          "before": "8963393272976346362",
+          "op": "replace",
+          "path": "/depots/depots/5312932/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40016677,
+      "change_number": 40237471,
       "data": {
         "appinfo": {
           "common": {
@@ -441,6 +531,7 @@
               "category_1": "1",
               "category_2": "1",
               "category_22": "1",
+              "category_23": "1",
               "category_36": "1",
               "category_47": "1",
               "category_49": "1",
@@ -526,7 +617,7 @@
               "english": "9a2977b06a53859e989a43840fc684ca5050fc69/capsule_231x87.jpg"
             },
             "steam_release_date": "1791980022",
-            "store_asset_mtime": "1790086074",
+            "store_asset_mtime": "1792598869",
             "store_tags": {
               "0": "599",
               "1": "9",
@@ -580,22 +671,43 @@
             "publisher": "Clanwirtschaft.de"
           },
           "ufs": {
-            "maxnumfiles": "0",
-            "quota": "0"
+            "maxnumfiles": "100",
+            "quota": "268435456",
+            "rootoverrides": {
+              "0": {
+                "os": "Linux",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Godot/app_userdata/Mischkalon",
+                    "replace": "godot/app_userdata/Mischkalon"
+                  }
+                },
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/Mischkalon",
+                "pattern": "*.json",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26059676",
-              "timebuildupdated": 1792437777,
-              "timeupdated": 1792437859
+              "buildid": "26204878",
+              "timebuildupdated": 1792968763,
+              "timeupdated": 1792968978
             }
           },
           "depots": {
             "5312931": {
               "manifests": {
-                "public": "5471557224577833598"
+                "public": "6465668056155652885"
               }
             },
             "5312932": {
@@ -604,17 +716,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "8963393272976346362"
+                "public": "5765607640170565028"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-19T19:37:41.475Z",
+      "observed_at": "2026-10-26T13:22:35.056Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T19:37:41.475Z"
+  "updated_at": "2026-10-26T13:22:35.056Z"
 }

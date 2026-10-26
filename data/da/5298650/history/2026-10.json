@@ -255,11 +255,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T13:22:35.056Z",
+      "change_number": 40210052,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": "26182668",
+          "before": "26003570",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792848980,
+          "before": 1792209085,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792868990,
+          "before": 1792209204,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5141158549972853498",
+          "before": "5761341094298975126",
+          "op": "replace",
+          "path": "/depots/depots/5298651/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39929676,
+      "change_number": 40210052,
       "data": {
         "appinfo": {
           "common": {
@@ -381,7 +418,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "Cricket Club President"
@@ -409,25 +447,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26003570",
-              "timebuildupdated": 1792209085,
-              "timeupdated": 1792209204
+              "buildid": "26182668",
+              "timebuildupdated": 1792848980,
+              "timeupdated": 1792868990
             }
           },
           "depots": {
             "5298651": {
               "manifests": {
-                "public": "5761341094298975126"
+                "public": "5141158549972853498"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-18T17:10:32.305Z",
+      "observed_at": "2026-10-26T13:22:35.056Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-18T17:10:32.305Z"
+  "updated_at": "2026-10-26T13:22:35.056Z"
 }

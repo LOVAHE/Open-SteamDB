@@ -246,11 +246,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T13:22:35.056Z",
+      "change_number": 40213718,
+      "changes": [
+        {
+          "after": "91",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "1792360437",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "26138087",
+          "before": "26068131",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792684920,
+          "before": 1792462418,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792684967,
+          "before": 1792462496,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6691016656986799471",
+          "before": "8998250500223766577",
+          "op": "replace",
+          "path": "/depots/depots/5310421/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40027575,
+      "change_number": 40213718,
       "data": {
         "appinfo": {
           "common": {
@@ -340,9 +387,12 @@
             "oslist": "windows",
             "parent": "5131470",
             "primary_genre": "25",
+            "review_percentage": "91",
+            "review_score": "7",
             "small_capsule": {
               "english": "cfd7ff07233cf8ad8b9b4387946b85062fc3661f/capsule_231x87.jpg"
             },
+            "steam_release_date": "1792360437",
             "store_asset_mtime": "1792360351",
             "supported_languages": {
               "brazilian": {
@@ -405,25 +455,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26068131",
-              "timebuildupdated": 1792462418,
-              "timeupdated": 1792462496
+              "buildid": "26138087",
+              "timebuildupdated": 1792684920,
+              "timeupdated": 1792684967
             }
           },
           "depots": {
             "5310421": {
               "manifests": {
-                "public": "8998250500223766577"
+                "public": "6691016656986799471"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T02:22:34.302Z",
+      "observed_at": "2026-10-26T13:22:35.056Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T02:22:34.302Z"
+  "updated_at": "2026-10-26T13:22:35.056Z"
 }

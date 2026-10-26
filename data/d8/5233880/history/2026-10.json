@@ -220,11 +220,75 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T13:22:35.056Z",
+      "change_number": 40254744,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "10000",
+            "quota": "1073741824",
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/餘燼之軍",
+                "pattern": "active_slot*",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/餘燼之軍",
+                "pattern": "embers_save.json",
+                "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "Godot/app_userdata/餘燼之軍/saves",
+                "pattern": "*.json",
+                "root": "WinAppDataRoaming"
+              },
+              "3": {
+                "path": "Godot/app_userdata/餘燼之軍/v110_native",
+                "pattern": "*",
+                "recursive": "1",
+                "root": "WinAppDataRoaming"
+              },
+              "copied_from_parent": "1"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26216588",
+          "before": "26082688",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793017582,
+          "before": 1792509412,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793017815,
+          "before": 1792509606,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3030784126127259548",
+          "before": "6853003471301896810",
+          "op": "replace",
+          "path": "/depots/depots/5233881/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40049412,
+      "change_number": 40254744,
       "data": {
         "appinfo": {
           "common": {
@@ -344,14 +408,42 @@
           "extended": {
             "developer": "Lazycat Interactive",
             "publisher": "Lazycat Interactive"
+          },
+          "ufs": {
+            "maxnumfiles": "10000",
+            "quota": "1073741824",
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/餘燼之軍",
+                "pattern": "active_slot*",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/餘燼之軍",
+                "pattern": "embers_save.json",
+                "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "Godot/app_userdata/餘燼之軍/saves",
+                "pattern": "*.json",
+                "root": "WinAppDataRoaming"
+              },
+              "3": {
+                "path": "Godot/app_userdata/餘燼之軍/v110_native",
+                "pattern": "*",
+                "recursive": "1",
+                "root": "WinAppDataRoaming"
+              },
+              "copied_from_parent": "1"
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26082688",
-              "timebuildupdated": 1792509412,
-              "timeupdated": 1792509606
+              "buildid": "26216588",
+              "timebuildupdated": 1793017582,
+              "timeupdated": 1793017815
             }
           },
           "depots": {
@@ -361,17 +453,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "6853003471301896810"
+                "public": "3030784126127259548"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T15:25:50.348Z",
+      "observed_at": "2026-10-26T13:22:35.056Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T15:25:50.348Z"
+  "updated_at": "2026-10-26T13:22:35.056Z"
 }

@@ -1,8 +1,8 @@
 {
   "appid": 5312930,
   "source": "steam_pics",
-  "updated_at": "2026-10-19T19:37:41.475Z",
-  "change_number": 40016677,
+  "updated_at": "2026-10-26T13:22:35.056Z",
+  "change_number": 40237471,
   "data": {
     "common": {
       "associations": {
@@ -23,6 +23,7 @@
         "category_1": "1",
         "category_2": "1",
         "category_22": "1",
+        "category_23": "1",
         "category_36": "1",
         "category_47": "1",
         "category_49": "1",
@@ -108,7 +109,7 @@
         "english": "9a2977b06a53859e989a43840fc684ca5050fc69/capsule_231x87.jpg"
       },
       "steam_release_date": "1791980022",
-      "store_asset_mtime": "1790086074",
+      "store_asset_mtime": "1792598869",
       "store_tags": {
         "0": "599",
         "1": "9",
@@ -162,8 +163,29 @@
       "installdir": "Mischkalon"
     },
     "ufs": {
-      "maxnumfiles": "0",
-      "quota": "0"
+      "maxnumfiles": "100",
+      "quota": "268435456",
+      "rootoverrides": {
+        "0": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Godot/app_userdata/Mischkalon",
+              "replace": "godot/app_userdata/Mischkalon"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Godot/app_userdata/Mischkalon",
+          "pattern": "*.json",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }

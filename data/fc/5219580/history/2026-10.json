@@ -678,11 +678,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T13:22:35.056Z",
+      "change_number": 40221041,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_78"
+        },
+        {
+          "after": "26194527",
+          "before": "26073209",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792915897,
+          "before": 1792482591,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792915936,
+          "before": 1792482669,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4902922361838854844",
+          "before": "3081384978873661098",
+          "op": "replace",
+          "path": "/depots/depots/5219581/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40039404,
+      "change_number": 40221041,
       "data": {
         "appinfo": {
           "common": {
@@ -700,7 +737,8 @@
               "category_18": "1",
               "category_2": "1",
               "category_68": "1",
-              "category_75": "1"
+              "category_75": "1",
+              "category_78": "1"
             },
             "clienticon": "819a73e950c36a694ae96f1263abdb3bb042a4c6",
             "controller_support": "partial",
@@ -799,9 +837,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26073209",
-              "timebuildupdated": 1792482591,
-              "timeupdated": 1792482669
+              "buildid": "26194527",
+              "timebuildupdated": 1792915897,
+              "timeupdated": 1792915936
             }
           },
           "depots": {
@@ -827,13 +865,13 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "3081384978873661098"
+                "public": "4902922361838854844"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T10:22:33.891Z",
+      "observed_at": "2026-10-26T13:22:35.056Z",
       "tracked": true
     },
     "steam_store": {
@@ -954,5 +992,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T10:22:33.891Z"
+  "updated_at": "2026-10-26T13:22:35.056Z"
 }

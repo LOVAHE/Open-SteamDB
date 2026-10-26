@@ -1755,11 +1755,30 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T13:22:35.056Z",
+      "change_number": 40254621,
+      "changes": [
+        {
+          "after": {
+            "config": {
+              "oslist": "windows"
+            },
+            "dlcappid": 5498210,
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5498210"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40134409,
+      "change_number": 40254621,
       "data": {
         "appinfo": {
           "common": {
@@ -2094,11 +2113,18 @@
                 "astro_1_14_dx10": "3708448730461505702",
                 "public": "3434660958246006468"
               }
+            },
+            "5498210": {
+              "config": {
+                "oslist": "windows"
+              },
+              "dlcappid": 5498210,
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-10-22T16:22:34.483Z",
+      "observed_at": "2026-10-26T13:22:35.056Z",
       "tracked": true
     },
     "steam_store": {
@@ -2278,5 +2304,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-22T16:22:34.483Z"
+  "updated_at": "2026-10-26T13:22:35.056Z"
 }

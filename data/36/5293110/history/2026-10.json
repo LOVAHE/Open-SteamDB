@@ -390,11 +390,56 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T13:22:35.056Z",
+      "change_number": 40210496,
+      "changes": [
+        {
+          "after": "78",
+          "before": "90",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "6",
+          "before": "7",
+          "op": "replace",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": {
+            "buildid": "26122392",
+            "description": "MacBugFixWorkingBranch",
+            "timebuildupdated": 1792633540,
+            "timeupdated": 1792633540
+          },
+          "op": "add",
+          "path": "/depots/branches/macvalidation"
+        },
+        {
+          "after": "2104324843662770365",
+          "op": "add",
+          "path": "/depots/depots/5293111/manifests/macvalidation"
+        },
+        {
+          "after": "3013709412134131959",
+          "op": "add",
+          "path": "/depots/depots/5293112/manifests/macvalidation"
+        },
+        {
+          "after": "780886789313369335",
+          "op": "add",
+          "path": "/depots/depots/5293113/manifests/macvalidation"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39861145,
+      "change_number": 40210496,
       "data": {
         "appinfo": {
           "common": {
@@ -500,8 +545,8 @@
             "osextended": "macos64,macosapplesilicon,macosnotarized",
             "oslist": "windows,macos,linux",
             "primary_genre": "4",
-            "review_percentage": "90",
-            "review_score": "7",
+            "review_percentage": "78",
+            "review_score": "6",
             "small_capsule": {
               "english": "0777c4aeae025de0104c126221faa042c9516486/capsule_231x87.jpg"
             },
@@ -580,6 +625,12 @@
               "timebuildupdated": 1791938035,
               "timeupdated": 1791938035
             },
+            "macvalidation": {
+              "buildid": "26122392",
+              "description": "MacBugFixWorkingBranch",
+              "timebuildupdated": 1792633540,
+              "timeupdated": 1792633540
+            },
             "public": {
               "buildid": "25921615",
               "timebuildupdated": 1791938064,
@@ -601,6 +652,7 @@
               },
               "manifests": {
                 "beta": "2104324843662770365",
+                "macvalidation": "2104324843662770365",
                 "public": "2104324843662770365"
               }
             },
@@ -609,6 +661,7 @@
                 "oslist": "macos"
               },
               "manifests": {
+                "macvalidation": "3013709412134131959",
                 "public": "2991152129363439717"
               }
             },
@@ -618,17 +671,18 @@
               },
               "manifests": {
                 "beta": "780886789313369335",
+                "macvalidation": "780886789313369335",
                 "public": "780886789313369335"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-15T13:07:27.949Z",
+      "observed_at": "2026-10-26T13:22:35.056Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T13:07:27.949Z"
+  "updated_at": "2026-10-26T13:22:35.056Z"
 }

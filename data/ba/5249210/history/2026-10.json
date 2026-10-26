@@ -760,11 +760,82 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T13:22:35.056Z",
+      "change_number": 40131737,
+      "changes": [
+        {
+          "after": "97",
+          "before": "98",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "before": {
+            "path": "NekoTrak/users/{64BitSteamID}/data",
+            "pattern": "NekoTrak.db",
+            "platforms": {
+              "1": "Windows"
+            },
+            "root": "WinAppDataRoaming"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/0"
+        },
+        {
+          "before": {
+            "path": "NekoTrak/users/{64BitSteamID}/data",
+            "pattern": "manifest.json",
+            "platforms": {
+              "1": "Windows"
+            },
+            "root": "WinAppDataRoaming"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/1"
+        },
+        {
+          "after": {
+            "path": "NekoTrak/users/{64BitSteamID}/cloud",
+            "pattern": "cloud-snapshot.db",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/3"
+        },
+        {
+          "after": "26135015",
+          "before": "26076663",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792676844,
+          "before": 1792492912,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792677076,
+          "before": 1792493367,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3680329155096092228",
+          "before": "161348647511858166",
+          "op": "replace",
+          "path": "/depots/depots/5249211/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40040329,
+      "change_number": 40131737,
       "data": {
         "appinfo": {
           "common": {
@@ -881,7 +952,7 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "4",
-            "review_percentage": "98",
+            "review_percentage": "97",
             "review_score": "8",
             "small_capsule": {
               "english": "26e4825e3f8eff2463bd03bf827b1c1af0abe971/capsule_231x87.jpg"
@@ -974,28 +1045,17 @@
             "maxnumfiles": "50",
             "quota": "5000000000",
             "savefiles": {
-              "0": {
-                "path": "NekoTrak/users/{64BitSteamID}/data",
-                "pattern": "NekoTrak.db",
-                "platforms": {
-                  "1": "Windows"
-                },
-                "root": "WinAppDataRoaming"
-              },
-              "1": {
-                "path": "NekoTrak/users/{64BitSteamID}/data",
-                "pattern": "manifest.json",
-                "platforms": {
-                  "1": "Windows"
-                },
-                "root": "WinAppDataRoaming"
-              },
               "2": {
                 "path": "NekoTrak/users/{64BitSteamID}/",
                 "pattern": "config.json",
                 "platforms": {
                   "1": "Windows"
                 },
+                "root": "WinAppDataRoaming"
+              },
+              "3": {
+                "path": "NekoTrak/users/{64BitSteamID}/cloud",
+                "pattern": "cloud-snapshot.db",
                 "root": "WinAppDataRoaming"
               }
             }
@@ -1004,9 +1064,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26076663",
-              "timebuildupdated": 1792492912,
-              "timeupdated": 1792493367
+              "buildid": "26135015",
+              "timebuildupdated": 1792676844,
+              "timeupdated": 1792677076
             }
           },
           "depots": {
@@ -1015,7 +1075,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "161348647511858166"
+                "public": "3680329155096092228"
               }
             },
             "5388580": {
@@ -1030,11 +1090,11 @@
           }
         }
       },
-      "observed_at": "2026-10-20T10:52:34.514Z",
+      "observed_at": "2026-10-26T13:22:35.056Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T10:52:34.514Z"
+  "updated_at": "2026-10-26T13:22:35.056Z"
 }

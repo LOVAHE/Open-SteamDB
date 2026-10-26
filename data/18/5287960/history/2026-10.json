@@ -580,11 +580,68 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T13:22:35.056Z",
+      "change_number": 40253855,
+      "changes": [
+        {
+          "after": "91",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": {
+            "maxnumfiles": "10",
+            "quota": "20000000",
+            "savefiles": {
+              "0": {
+                "path": "SortOnTheBall/Saved/SaveGames",
+                "pattern": "*.sav",
+                "root": "WinAppDataLocal"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26209938",
+          "before": "26078904",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792992780,
+          "before": 1792499479,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792992842,
+          "before": 1792501072,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3622763340368010921",
+          "before": "112330058192843512",
+          "op": "replace",
+          "path": "/depots/depots/5287961/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40044318,
+      "change_number": 40253855,
       "data": {
         "appinfo": {
           "common": {
@@ -693,6 +750,8 @@
             "oslist": "windows",
             "parent": "5234330",
             "primary_genre": "28",
+            "review_percentage": "91",
+            "review_score": "7",
             "small_capsule": {
               "english": "a0488ed84231a9a399eba185789d5756e3933fc9/capsule_231x87.jpg",
               "schinese": "52b34a3ce4c54eb8760a1355069019094f82c1b8/capsule_231x87_schinese.jpg",
@@ -763,14 +822,25 @@
           "extended": {
             "developer": "SparrowSim",
             "publisher": "SparrowSim"
+          },
+          "ufs": {
+            "maxnumfiles": "10",
+            "quota": "20000000",
+            "savefiles": {
+              "0": {
+                "path": "SortOnTheBall/Saved/SaveGames",
+                "pattern": "*.sav",
+                "root": "WinAppDataLocal"
+              }
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26078904",
-              "timebuildupdated": 1792499479,
-              "timeupdated": 1792501072
+              "buildid": "26209938",
+              "timebuildupdated": 1792992780,
+              "timeupdated": 1792992842
             }
           },
           "depots": {
@@ -792,17 +862,17 @@
             },
             "5287961": {
               "manifests": {
-                "public": "112330058192843512"
+                "public": "3622763340368010921"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T13:07:37.273Z",
+      "observed_at": "2026-10-26T13:22:35.056Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T13:07:37.273Z"
+  "updated_at": "2026-10-26T13:22:35.056Z"
 }

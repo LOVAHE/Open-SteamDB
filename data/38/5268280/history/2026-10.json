@@ -155,11 +155,86 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T13:22:35.056Z",
+      "change_number": 40212291,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows,macos,linux",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "8",
+          "before": "7",
+          "op": "replace",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "1792425185",
+          "before": "1798704000",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "1792876570",
+          "before": "1790666522",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "26187706",
+          "before": "26058307",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792872729,
+          "before": 1792434020,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792872798,
+          "before": 1792434120,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4520956508439795629",
+          "before": "1773521404786030878",
+          "op": "replace",
+          "path": "/depots/depots/5268281/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "language": "english",
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "4744331535998747508"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5268282"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40017714,
+      "change_number": 40212291,
       "data": {
         "appinfo": {
           "common": {
@@ -256,17 +331,17 @@
             },
             "name": "Horse Race Tests: Life is Pain Demo",
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows,macos,linux",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos",
             "parent": "4360160",
             "primary_genre": "1",
             "review_percentage": "100",
-            "review_score": "7",
+            "review_score": "8",
             "small_capsule": {
               "english": "24e43435514c94f4b22d9c60beab5aab107e5ec1/capsule_231x87.jpg"
             },
-            "steam_release_date": "1798704000",
-            "store_asset_mtime": "1790666522",
+            "steam_release_date": "1792425185",
+            "store_asset_mtime": "1792876570",
             "supported_languages": {
               "english": {
                 "subtitles": "true",
@@ -287,25 +362,34 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26058307",
-              "timebuildupdated": 1792434020,
-              "timeupdated": 1792434120
+              "buildid": "26187706",
+              "timebuildupdated": 1792872729,
+              "timeupdated": 1792872798
             }
           },
           "depots": {
             "5268281": {
               "manifests": {
-                "public": "1773521404786030878"
+                "public": "4520956508439795629"
+              }
+            },
+            "5268282": {
+              "config": {
+                "language": "english",
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "4744331535998747508"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T15:25:50.348Z",
+      "observed_at": "2026-10-26T13:22:35.056Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T15:25:50.348Z"
+  "updated_at": "2026-10-26T13:22:35.056Z"
 }

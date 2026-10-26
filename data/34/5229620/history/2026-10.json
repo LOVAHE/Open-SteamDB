@@ -1049,11 +1049,48 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-26T13:22:35.056Z",
+      "change_number": 40254462,
+      "changes": [
+        {
+          "after": "https://anotherbuild.com/escape-the-playground",
+          "op": "add",
+          "path": "/appinfo/extended/homepage"
+        },
+        {
+          "after": "26216477",
+          "before": "25947039",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793017166,
+          "before": 1792021618,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793017220,
+          "before": 1792022037,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1868254262070208506",
+          "before": "2166067623023503913",
+          "op": "replace",
+          "path": "/depots/depots/5229621/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39840384,
+      "change_number": 40254462,
       "data": {
         "appinfo": {
           "common": {
@@ -1254,6 +1291,7 @@
           },
           "extended": {
             "developer": "AnotherBuild",
+            "homepage": "https://anotherbuild.com/escape-the-playground",
             "publisher": "AnotherBuild"
           },
           "ufs": {
@@ -1285,21 +1323,21 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25947039",
-              "timebuildupdated": 1792021618,
-              "timeupdated": 1792022037
+              "buildid": "26216477",
+              "timebuildupdated": 1793017166,
+              "timeupdated": 1793017220
             }
           },
           "depots": {
             "5229621": {
               "manifests": {
-                "public": "2166067623023503913"
+                "public": "1868254262070208506"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-15T00:07:26.316Z",
+      "observed_at": "2026-10-26T13:22:35.056Z",
       "tracked": true
     },
     "steam_store": {
@@ -1570,5 +1608,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T13:22:37.101Z"
+  "updated_at": "2026-10-26T13:22:35.056Z"
 }

@@ -249,11 +249,60 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-26T13:22:35.056Z",
+      "change_number": 40061916,
+      "changes": [
+        {
+          "after": "fb1ebb608178ff45354773b191fbb5127e7a6407/header.jpg",
+          "before": "8ddc71f9573ac96e4de5c7633e420c9a243bae44/header.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/header_image/english"
+        },
+        {
+          "after": "70e21df217954875fc9f940b12e966751104107c/library_capsule.jpg",
+          "before": "f48e44136521af5662c6ffba987efc7a5be822c6/library_capsule.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets_full/library_capsule/image/english"
+        },
+        {
+          "after": "70e21df217954875fc9f940b12e966751104107c/library_capsule_2x.jpg",
+          "before": "f48e44136521af5662c6ffba987efc7a5be822c6/library_capsule_2x.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets_full/library_capsule/image2x/english"
+        },
+        {
+          "after": "fb1ebb608178ff45354773b191fbb5127e7a6407/library_header.jpg",
+          "before": "6041f304bd1b74414f2a5c0ec204e6c1b19cd5de/library_header.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets_full/library_header/image/english"
+        },
+        {
+          "after": "fb1ebb608178ff45354773b191fbb5127e7a6407/library_header_2x.jpg",
+          "before": "6041f304bd1b74414f2a5c0ec204e6c1b19cd5de/library_header_2x.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets_full/library_header/image2x/english"
+        },
+        {
+          "after": "1790955495",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "1792532680",
+          "before": "1788543807",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39427512,
+      "change_number": 40061916,
       "data": {
         "appinfo": {
           "common": {
@@ -275,7 +324,7 @@
               "0": "28"
             },
             "header_image": {
-              "english": "8ddc71f9573ac96e4de5c7633e420c9a243bae44/header.jpg"
+              "english": "fb1ebb608178ff45354773b191fbb5127e7a6407/header.jpg"
             },
             "icon": "4de256fed769834e3fd89930c9e9ac2284dec686",
             "library_assets": {
@@ -293,18 +342,18 @@
             "library_assets_full": {
               "library_capsule": {
                 "image": {
-                  "english": "f48e44136521af5662c6ffba987efc7a5be822c6/library_capsule.jpg"
+                  "english": "70e21df217954875fc9f940b12e966751104107c/library_capsule.jpg"
                 },
                 "image2x": {
-                  "english": "f48e44136521af5662c6ffba987efc7a5be822c6/library_capsule_2x.jpg"
+                  "english": "70e21df217954875fc9f940b12e966751104107c/library_capsule_2x.jpg"
                 }
               },
               "library_header": {
                 "image": {
-                  "english": "6041f304bd1b74414f2a5c0ec204e6c1b19cd5de/library_header.jpg"
+                  "english": "fb1ebb608178ff45354773b191fbb5127e7a6407/library_header.jpg"
                 },
                 "image2x": {
-                  "english": "6041f304bd1b74414f2a5c0ec204e6c1b19cd5de/library_header_2x.jpg"
+                  "english": "fb1ebb608178ff45354773b191fbb5127e7a6407/library_header_2x.jpg"
                 }
               },
               "library_hero": {
@@ -343,7 +392,8 @@
             "small_capsule": {
               "english": "7a8bdfec2b8fb646dfc2999df3c524269b00b9fc/capsule_231x87.jpg"
             },
-            "store_asset_mtime": "1788543807",
+            "steam_release_date": "1790955495",
+            "store_asset_mtime": "1792532680",
             "supported_languages": {
               "english": {
                 "supported": "true"
@@ -381,7 +431,7 @@
           }
         }
       },
-      "observed_at": "2026-10-05T06:07:13.936Z",
+      "observed_at": "2026-10-26T13:22:35.056Z",
       "tracked": true
     },
     "steam_store": {
@@ -487,5 +537,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-05T22:52:22.398Z"
+  "updated_at": "2026-10-26T13:22:35.056Z"
 }

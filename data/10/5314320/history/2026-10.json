@@ -438,11 +438,43 @@
       ],
       "kind": "change",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-26T13:22:35.056Z",
+      "change_number": 40123972,
+      "changes": [
+        {
+          "after": "26131042",
+          "before": "25838155",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792665497,
+          "before": 1791576211,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792665530,
+          "before": 1791576306,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1217544746364660704",
+          "before": "5262924832958439538",
+          "op": "replace",
+          "path": "/depots/depots/5314321/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39673984,
+      "change_number": 40123972,
       "data": {
         "appinfo": {
           "common": {
@@ -563,21 +595,21 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25838155",
-              "timebuildupdated": 1791576211,
-              "timeupdated": 1791576306
+              "buildid": "26131042",
+              "timebuildupdated": 1792665497,
+              "timeupdated": 1792665530
             }
           },
           "depots": {
             "5314321": {
               "manifests": {
-                "public": "5262924832958439538"
+                "public": "1217544746364660704"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-09T20:22:29.192Z",
+      "observed_at": "2026-10-26T13:22:35.056Z",
       "tracked": true
     },
     "steam_store": {
@@ -707,5 +739,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-15T07:37:30.167Z"
+  "updated_at": "2026-10-26T13:22:35.056Z"
 }

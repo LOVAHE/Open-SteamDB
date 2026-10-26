@@ -378,11 +378,33 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T13:22:35.056Z",
+      "change_number": 40113711,
+      "changes": [
+        {
+          "after": {
+            "name": "Circuits",
+            "type": "franchise"
+          },
+          "op": "add",
+          "path": "/appinfo/common/associations/4"
+        },
+        {
+          "after": "https://101circuits.com/",
+          "before": "https://chillingmoose.com/101circuits",
+          "op": "replace",
+          "path": "/appinfo/extended/homepage"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39945926,
+      "change_number": 40113711,
       "data": {
         "appinfo": {
           "common": {
@@ -401,6 +423,10 @@
               },
               "3": {
                 "name": "SYSCALL",
+                "type": "franchise"
+              },
+              "4": {
+                "name": "Circuits",
                 "type": "franchise"
               }
             },
@@ -564,7 +590,7 @@
           },
           "extended": {
             "developer": "Chilling Moose Games",
-            "homepage": "https://chillingmoose.com/101circuits",
+            "homepage": "https://101circuits.com/",
             "publisher": "Chilling Moose Games"
           },
           "ufs": {
@@ -632,11 +658,11 @@
           }
         }
       },
-      "observed_at": "2026-10-18T17:10:32.305Z",
+      "observed_at": "2026-10-26T13:22:35.056Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-18T17:10:32.305Z"
+  "updated_at": "2026-10-26T13:22:35.056Z"
 }
