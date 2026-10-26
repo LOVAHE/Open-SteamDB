@@ -176,11 +176,47 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T15:07:34.151Z",
+      "change_number": 40259826,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_30"
+        },
+        {
+          "after": "1791910667",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": {
+            "maxnumfiles": "100",
+            "quota": "104857600"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39786562,
+      "change_number": 40259826,
       "data": {
         "appinfo": {
           "common": {
@@ -196,6 +232,8 @@
             },
             "category": {
               "category_2": "1",
+              "category_23": "1",
+              "category_30": "1",
               "category_62": "1"
             },
             "clienticon": "fe55bd2b71de2f0d13f82b101b3a22f9acccf6aa",
@@ -288,6 +326,7 @@
               "english": "7208bdb390782ea20a30c221dd743647ac7818e0/capsule_231x87.jpg",
               "sc_schinese": "62bc9a77ac22d5aedcf16fdfca0a3f4b264521dc/capsule_231x87_sc_schinese.jpg"
             },
+            "steam_release_date": "1791910667",
             "store_asset_mtime": "1790661630",
             "store_tags": {
               "0": "597",
@@ -313,7 +352,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "whateverFarm"
@@ -321,6 +361,10 @@
           "extended": {
             "developer": "Odd Sprout Studio",
             "publisher": "Odd Sprout Studio"
+          },
+          "ufs": {
+            "maxnumfiles": "100",
+            "quota": "104857600"
           }
         },
         "depots": {
@@ -343,11 +387,11 @@
           }
         }
       },
-      "observed_at": "2026-10-13T18:07:29.189Z",
+      "observed_at": "2026-10-26T15:07:34.151Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-13T18:07:29.189Z"
+  "updated_at": "2026-10-26T15:07:34.151Z"
 }

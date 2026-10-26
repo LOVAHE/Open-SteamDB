@@ -1312,11 +1312,124 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T15:07:34.151Z",
+      "change_number": 40235330,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_9"
+        },
+        {
+          "after": "81",
+          "before": "78",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "before": "6",
+          "op": "replace",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/english/full_audio"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/japanese"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/portuguese"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/spanish"
+        },
+        {
+          "after": "26182622",
+          "before": "26079472",
+          "op": "replace",
+          "path": "/depots/branches/game-client-v2-alpha/buildid"
+        },
+        {
+          "after": 1792848765,
+          "before": 1792501169,
+          "op": "replace",
+          "path": "/depots/branches/game-client-v2-alpha/timebuildupdated"
+        },
+        {
+          "after": 1792848767,
+          "before": 1792501172,
+          "op": "replace",
+          "path": "/depots/branches/game-client-v2-alpha/timeupdated"
+        },
+        {
+          "after": "26182655",
+          "before": "26079507",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792848928,
+          "before": 1792501242,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792848965,
+          "before": 1792501266,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4141384832268391941",
+          "before": "5510479108882426636",
+          "op": "replace",
+          "path": "/depots/depots/4904571/manifests/game-client-v2-alpha"
+        },
+        {
+          "after": "719429416020059943",
+          "before": "6218855768864033427",
+          "op": "replace",
+          "path": "/depots/depots/4904571/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40101989,
+      "change_number": 40235330,
       "data": {
         "appinfo": {
           "common": {
@@ -1342,7 +1455,8 @@
               "category_74": "1",
               "category_76": "1",
               "category_79": "1",
-              "category_80": "1"
+              "category_80": "1",
+              "category_9": "1"
             },
             "clienticon": "82c23586fdba342db181ce2dc29903e61aa3c8b2",
             "community_hub_visible": "1",
@@ -1420,8 +1534,8 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "37",
-            "review_percentage": "78",
-            "review_score": "6",
+            "review_percentage": "81",
+            "review_score": "7",
             "small_capsule": {
               "english": "e8e9eb5a7ab059760628f6588fe8a8b19f77353f/capsule_231x87.jpg"
             },
@@ -1445,7 +1559,21 @@
             },
             "supported_languages": {
               "english": {
-                "full_audio": "true",
+                "supported": "true"
+              },
+              "japanese": {
+                "supported": "true"
+              },
+              "portuguese": {
+                "supported": "true"
+              },
+              "russian": {
+                "supported": "true"
+              },
+              "schinese": {
+                "supported": "true"
+              },
+              "spanish": {
                 "supported": "true"
               }
             },
@@ -1464,32 +1592,32 @@
         "depots": {
           "branches": {
             "game-client-v2-alpha": {
-              "buildid": "26079472",
+              "buildid": "26182622",
               "description": "The new game client. Very early in development. Please report any bugs.",
-              "timebuildupdated": 1792501169,
-              "timeupdated": 1792501172
+              "timebuildupdated": 1792848765,
+              "timeupdated": 1792848767
             },
             "public": {
-              "buildid": "26079507",
-              "timebuildupdated": 1792501242,
-              "timeupdated": 1792501266
+              "buildid": "26182655",
+              "timebuildupdated": 1792848928,
+              "timeupdated": 1792848965
             }
           },
           "depots": {
             "4904571": {
               "manifests": {
-                "game-client-v2-alpha": "5510479108882426636",
-                "public": "6218855768864033427"
+                "game-client-v2-alpha": "4141384832268391941",
+                "public": "719429416020059943"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-22T16:52:42.949Z",
+      "observed_at": "2026-10-26T15:07:34.151Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-22T16:52:42.949Z"
+  "updated_at": "2026-10-26T15:07:34.151Z"
 }

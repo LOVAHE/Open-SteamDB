@@ -916,11 +916,73 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T15:07:34.151Z",
+      "change_number": 40219706,
+      "changes": [
+        {
+          "after": "26193023",
+          "before": "26027125",
+          "op": "replace",
+          "path": "/depots/branches/linux-beta/buildid"
+        },
+        {
+          "after": 1792904400,
+          "before": 1792334309,
+          "op": "replace",
+          "path": "/depots/branches/linux-beta/timebuildupdated"
+        },
+        {
+          "after": 1792909516,
+          "before": 1792339604,
+          "op": "replace",
+          "path": "/depots/branches/linux-beta/timeupdated"
+        },
+        {
+          "after": "26193027",
+          "before": "26027113",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792904425,
+          "before": 1792334269,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792909540,
+          "before": 1792339573,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7237218233670441932",
+          "before": "2328656189144944390",
+          "op": "replace",
+          "path": "/depots/depots/5189091/manifests/linux-beta"
+        },
+        {
+          "after": "7237218233670441932",
+          "before": "2328656189144944390",
+          "op": "replace",
+          "path": "/depots/depots/5189091/manifests/public"
+        },
+        {
+          "after": "8384330298885771358",
+          "before": "7977354905284804034",
+          "op": "replace",
+          "path": "/depots/depots/5189092/manifests/linux-beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39967297,
+      "change_number": 40219706,
       "data": {
         "appinfo": {
           "common": {
@@ -1079,15 +1141,15 @@
         "depots": {
           "branches": {
             "linux-beta": {
-              "buildid": "26027125",
+              "buildid": "26193023",
               "description": "Fork Bomb Linux",
-              "timebuildupdated": 1792334309,
-              "timeupdated": 1792339604
+              "timebuildupdated": 1792904400,
+              "timeupdated": 1792909516
             },
             "public": {
-              "buildid": "26027113",
-              "timebuildupdated": 1792334269,
-              "timeupdated": 1792339573
+              "buildid": "26193027",
+              "timebuildupdated": 1792904425,
+              "timeupdated": 1792909540
             }
           },
           "depots": {
@@ -1096,8 +1158,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "linux-beta": "2328656189144944390",
-                "public": "2328656189144944390"
+                "linux-beta": "7237218233670441932",
+                "public": "7237218233670441932"
               }
             },
             "5189092": {
@@ -1106,13 +1168,13 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "linux-beta": "7977354905284804034"
+                "linux-beta": "8384330298885771358"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-18T16:37:32.070Z",
+      "observed_at": "2026-10-26T15:07:34.151Z",
       "tracked": true
     },
     "steam_store": {
@@ -1258,5 +1320,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-18T16:37:32.070Z"
+  "updated_at": "2026-10-26T15:07:34.151Z"
 }

@@ -450,11 +450,67 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T15:07:34.151Z",
+      "change_number": 40252045,
+      "changes": [
+        {
+          "after": "windows,macos,linux",
+          "before": "windows,macos",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/czech"
+        },
+        {
+          "after": "26203243",
+          "before": "26102846",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792961402,
+          "before": 1792576178,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792965190,
+          "before": 1792590931,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2469155896000731332",
+          "before": "4686265360226559971",
+          "op": "replace",
+          "path": "/depots/depots/5025951/manifests/public"
+        },
+        {
+          "after": "5655362834089848945",
+          "before": "529957623014195438",
+          "op": "replace",
+          "path": "/depots/depots/5025952/manifests/public"
+        },
+        {
+          "after": "93655447278255177",
+          "op": "add",
+          "path": "/depots/depots/5025953/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40108888,
+      "change_number": 40252045,
       "data": {
         "appinfo": {
           "common": {
@@ -557,7 +613,7 @@
             "name": "Giblings",
             "osarch": "64",
             "osextended": "macosapplesilicon,macosnotarized",
-            "oslist": "windows,macos",
+            "oslist": "windows,macos,linux",
             "primary_genre": "1",
             "small_capsule": {
               "english": "1ab185aae47bec0a56f1f55b3ef55a1c6c834ef4/capsule_231x87.jpg"
@@ -591,6 +647,9 @@
                 "supported": "true"
               },
               "bulgarian": {
+                "supported": "true"
+              },
+              "czech": {
                 "supported": "true"
               },
               "danish": {
@@ -679,9 +738,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26102846",
-              "timebuildupdated": 1792576178,
-              "timeupdated": 1792590931
+              "buildid": "26203243",
+              "timebuildupdated": 1792961402,
+              "timeupdated": 1792965190
             }
           },
           "depots": {
@@ -690,7 +749,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "4686265360226559971"
+                "public": "2469155896000731332"
               }
             },
             "5025952": {
@@ -698,23 +757,25 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "529957623014195438"
+                "public": "5655362834089848945"
               }
             },
             "5025953": {
               "config": {
                 "oslist": "linux"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "93655447278255177"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-22T16:52:42.949Z",
+      "observed_at": "2026-10-26T15:07:34.151Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-22T16:52:42.949Z"
+  "updated_at": "2026-10-26T15:07:34.151Z"
 }

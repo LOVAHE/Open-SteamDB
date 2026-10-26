@@ -1,8 +1,8 @@
 {
   "appid": 5169440,
   "source": "steam_pics",
-  "updated_at": "2026-10-22T16:52:42.949Z",
-  "change_number": 40106365,
+  "updated_at": "2026-10-26T15:07:34.151Z",
+  "change_number": 40202479,
   "data": {
     "common": {
       "associations": {
@@ -194,40 +194,32 @@
     "ufs": {
       "maxnumfiles": "20",
       "quota": "400000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": ".config/unity3d/",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "WinAppDataLocalLow",
+          "useinstead": "LinuxHome"
+        },
+        "1": {
+          "addpath": "Library/Application Support/",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataLocalLow",
+          "useinstead": "MacHome"
+        }
+      },
       "savefiles": {
         "0": {
           "path": "7heads studio/TidyUpTheRoyalArmory",
           "pattern": "prefs.json",
-          "platforms": {
-            "1": "Windows"
-          },
           "root": "WinAppDataLocalLow"
         },
-        "1": {
-          "path": ".config/unity3d/7heads studio/TidyUpTheRoyalArmory",
-          "pattern": "prefs.json",
-          "platforms": {
-            "1": "Linux"
-          },
-          "root": "LinuxHome"
-        },
-        "2": {
-          "path": "Library/Application Support/7heads studio/TidyUpTheRoyalArmory",
-          "pattern": "prefs.json, save_*.json",
-          "platforms": {
-            "1": "MacOS"
-          },
-          "root": "MacHome"
-        },
-        "3": {
-          "path": "SavesDir",
-          "pattern": "*.sav",
-          "root": "gameinstall"
-        },
-        "4": {
-          "path": "SavesDir",
-          "pattern": "*.sav",
-          "root": "gameinstall"
+        "6": {
+          "path": "7heads studio/TidyUpTheRoyalArmory",
+          "pattern": "save_*.json\t",
+          "root": "WinAppDataLocalLow"
         }
       }
     }

@@ -395,11 +395,67 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T15:07:34.151Z",
+      "change_number": 40237586,
+      "changes": [
+        {
+          "after": "100",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/japanese"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/koreana"
+        },
+        {
+          "after": "26204945",
+          "before": "26025087",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792969086,
+          "before": 1792324430,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792969291,
+          "before": 1792324480,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "529981817710021180",
+          "before": "6381935973753591993",
+          "op": "replace",
+          "path": "/depots/depots/5148601/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39961884,
+      "change_number": 40237586,
       "data": {
         "appinfo": {
           "common": {
@@ -492,6 +548,8 @@
             "oslist": "windows",
             "parent": "4716880",
             "primary_genre": "23",
+            "review_percentage": "100",
+            "review_score": "7",
             "small_capsule": {
               "english": "df7d3ad6874c6be319c3da7c140c04d602782fc5/capsule_231x87.jpg"
             },
@@ -508,6 +566,12 @@
                 "supported": "true"
               },
               "german": {
+                "supported": "true"
+              },
+              "japanese": {
+                "supported": "true"
+              },
+              "koreana": {
                 "supported": "true"
               },
               "russian": {
@@ -547,9 +611,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26025087",
-              "timebuildupdated": 1792324430,
-              "timeupdated": 1792324480
+              "buildid": "26204945",
+              "timebuildupdated": 1792969086,
+              "timeupdated": 1792969291
             }
           },
           "depots": {
@@ -558,17 +622,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "6381935973753591993"
+                "public": "529981817710021180"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-18T16:37:32.070Z",
+      "observed_at": "2026-10-26T15:07:34.151Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-18T16:37:32.070Z"
+  "updated_at": "2026-10-26T15:07:34.151Z"
 }

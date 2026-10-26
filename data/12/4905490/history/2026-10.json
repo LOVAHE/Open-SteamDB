@@ -479,11 +479,54 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T15:07:34.151Z",
+      "change_number": 40239846,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_22"
+        },
+        {
+          "after": "Service_Pleace_0.1.6",
+          "before": "Service_Pleace_0.1.4",
+          "op": "replace",
+          "path": "/appinfo/config/installdir"
+        },
+        {
+          "after": "26206303",
+          "before": "25949065",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792975727,
+          "before": 1792029581,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792975754,
+          "before": 1792107652,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4403016236797128391",
+          "before": "6749457283537238737",
+          "op": "replace",
+          "path": "/depots/depots/4905491/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39922287,
+      "change_number": 40239846,
       "data": {
         "appinfo": {
           "common": {
@@ -500,6 +543,7 @@
             "category": {
               "category_1": "1",
               "category_2": "1",
+              "category_22": "1",
               "category_36": "1",
               "category_49": "1",
               "category_62": "1"
@@ -618,7 +662,7 @@
             "type": "Game"
           },
           "config": {
-            "installdir": "Service_Pleace_0.1.4"
+            "installdir": "Service_Pleace_0.1.6"
           },
           "extended": {
             "developer": "Little Guy Studio",
@@ -632,21 +676,21 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25949065",
-              "timebuildupdated": 1792029581,
-              "timeupdated": 1792107652
+              "buildid": "26206303",
+              "timebuildupdated": 1792975727,
+              "timeupdated": 1792975754
             }
           },
           "depots": {
             "4905491": {
               "manifests": {
-                "public": "6749457283537238737"
+                "public": "4403016236797128391"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-16T22:22:33.316Z",
+      "observed_at": "2026-10-26T15:07:34.151Z",
       "tracked": true
     },
     "steam_store": {
@@ -775,5 +819,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-16T22:22:33.316Z"
+  "updated_at": "2026-10-26T15:07:34.151Z"
 }

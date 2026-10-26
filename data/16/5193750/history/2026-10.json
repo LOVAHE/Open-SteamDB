@@ -410,11 +410,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T15:07:34.151Z",
+      "change_number": 40192954,
+      "changes": [
+        {
+          "after": "1792725833",
+          "before": "1792470631",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "Idle Witch Demo/{Steam3AccountID}/",
+          "before": "Idle Witch/{Steam3AccountID}/",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/path"
+        },
+        {
+          "after": "26175892",
+          "before": "26060372",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792809982,
+          "before": 1792439562,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1792811070,
+          "before": 1792439675,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2742473499296801914",
+          "before": "5704112399613963191",
+          "op": "replace",
+          "path": "/depots/depots/5193751/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40030705,
+      "change_number": 40192954,
       "data": {
         "appinfo": {
           "common": {
@@ -522,7 +566,7 @@
               "english": "f20fc9945b42ae403663c7c717a9f07d56b3bc4b/capsule_231x87.jpg"
             },
             "steam_release_date": "1791421100",
-            "store_asset_mtime": "1792470631",
+            "store_asset_mtime": "1792725833",
             "supported_languages": {
               "brazilian": {
                 "supported": "true"
@@ -578,7 +622,7 @@
             "quota": "10000000",
             "savefiles": {
               "0": {
-                "path": "Idle Witch/{Steam3AccountID}/",
+                "path": "Idle Witch Demo/{Steam3AccountID}/",
                 "pattern": "*.save",
                 "root": "WinAppDataRoaming"
               }
@@ -588,25 +632,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26060372",
-              "timebuildupdated": 1792439562,
-              "timeupdated": 1792439675
+              "buildid": "26175892",
+              "timebuildupdated": 1792809982,
+              "timeupdated": 1792811070
             }
           },
           "depots": {
             "5193751": {
               "manifests": {
-                "public": "5704112399613963191"
+                "public": "2742473499296801914"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-20T04:37:32.308Z",
+      "observed_at": "2026-10-26T15:07:34.151Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-20T04:37:32.308Z"
+  "updated_at": "2026-10-26T15:07:34.151Z"
 }
