@@ -1,8 +1,8 @@
 {
   "appid": 5229620,
   "source": "steam_pics",
-  "updated_at": "2026-10-26T18:37:36.516Z",
-  "change_number": 40268330,
+  "updated_at": "2026-10-26T21:07:34.985Z",
+  "change_number": 40273510,
   "data": {
     "common": {
       "associations": {
@@ -206,7 +206,7 @@
       "installdir": "Escape the Playground"
     },
     "ufs": {
-      "maxnumfiles": "10",
+      "maxnumfiles": "40",
       "quota": "1048576",
       "rootoverrides": {
         "0": {
@@ -225,7 +225,27 @@
       "savefiles": {
         "0": {
           "path": "Godot/app_userdata/Escape the Playground",
-          "pattern": "*",
+          "pattern": "*.cfg",
+          "root": "WinAppDataRoaming"
+        },
+        "1": {
+          "path": "Godot/app_userdata/Escape the Playground/steam_{64BitSteamID}",
+          "pattern": "*.cfg",
+          "root": "WinAppDataRoaming"
+        },
+        "2": {
+          "path": "Godot/app_userdata/Escape the Playground/steam_{64BitSteamID}",
+          "pattern": "*.json",
+          "root": "WinAppDataRoaming"
+        },
+        "3": {
+          "path": "Godot/app_userdata/Escape the Playground/steam_{64BitSteamID}",
+          "pattern": "*.txt",
+          "root": "WinAppDataRoaming"
+        },
+        "4": {
+          "path": "Godot/app_userdata/Escape the Playground",
+          "pattern": "stats_state.json",
           "root": "WinAppDataRoaming"
         }
       }

@@ -1132,11 +1132,91 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-26T21:07:34.985Z",
+      "change_number": 40273510,
+      "changes": [
+        {
+          "after": "40",
+          "before": "10",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "*.cfg",
+          "before": "*",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/pattern"
+        },
+        {
+          "after": {
+            "path": "Godot/app_userdata/Escape the Playground/steam_{64BitSteamID}",
+            "pattern": "*.cfg",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/1"
+        },
+        {
+          "after": {
+            "path": "Godot/app_userdata/Escape the Playground/steam_{64BitSteamID}",
+            "pattern": "*.json",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        },
+        {
+          "after": {
+            "path": "Godot/app_userdata/Escape the Playground/steam_{64BitSteamID}",
+            "pattern": "*.txt",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/3"
+        },
+        {
+          "after": {
+            "path": "Godot/app_userdata/Escape the Playground",
+            "pattern": "stats_state.json",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/4"
+        },
+        {
+          "after": "26227938",
+          "before": "26223309",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793048856,
+          "before": 1793035295,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793048904,
+          "before": 1793035318,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7898122297238463086",
+          "before": "5463036913139181886",
+          "op": "replace",
+          "path": "/depots/depots/5229621/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40268330,
+      "change_number": 40273510,
       "data": {
         "appinfo": {
           "common": {
@@ -1341,7 +1421,7 @@
             "publisher": "AnotherBuild"
           },
           "ufs": {
-            "maxnumfiles": "10",
+            "maxnumfiles": "40",
             "quota": "1048576",
             "rootoverrides": {
               "0": {
@@ -1360,7 +1440,27 @@
             "savefiles": {
               "0": {
                 "path": "Godot/app_userdata/Escape the Playground",
-                "pattern": "*",
+                "pattern": "*.cfg",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/Escape the Playground/steam_{64BitSteamID}",
+                "pattern": "*.cfg",
+                "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "Godot/app_userdata/Escape the Playground/steam_{64BitSteamID}",
+                "pattern": "*.json",
+                "root": "WinAppDataRoaming"
+              },
+              "3": {
+                "path": "Godot/app_userdata/Escape the Playground/steam_{64BitSteamID}",
+                "pattern": "*.txt",
+                "root": "WinAppDataRoaming"
+              },
+              "4": {
+                "path": "Godot/app_userdata/Escape the Playground",
+                "pattern": "stats_state.json",
                 "root": "WinAppDataRoaming"
               }
             }
@@ -1369,21 +1469,21 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26223309",
-              "timebuildupdated": 1793035295,
-              "timeupdated": 1793035318
+              "buildid": "26227938",
+              "timebuildupdated": 1793048856,
+              "timeupdated": 1793048904
             }
           },
           "depots": {
             "5229621": {
               "manifests": {
-                "public": "5463036913139181886"
+                "public": "7898122297238463086"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-26T18:37:36.516Z",
+      "observed_at": "2026-10-26T21:07:34.985Z",
       "tracked": true
     },
     "steam_store": {
@@ -1654,5 +1754,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T18:37:36.516Z"
+  "updated_at": "2026-10-26T21:07:34.985Z"
 }
