@@ -1351,11 +1351,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T12:07:39.815Z",
+      "change_number": 40379776,
+      "changes": [
+        {
+          "after": "5002700",
+          "op": "add",
+          "path": "/appinfo/extended/listofdlc"
+        },
+        {
+          "after": "25500664",
+          "before": "24997718",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1790239133,
+          "before": 1787938042,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793275204,
+          "before": 1788778729,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4570980140646388395",
+          "before": "9161997191706108505",
+          "op": "replace",
+          "path": "/depots/depots/1943951/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40370279,
+      "change_number": 40379776,
       "data": {
         "appinfo": {
           "common": {
@@ -1613,6 +1650,7 @@
           },
           "extended": {
             "developer": "Fancy Games",
+            "listofdlc": "5002700",
             "publisher": "Secret Mode"
           },
           "ufs": {
@@ -1633,9 +1671,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "24997718",
-              "timebuildupdated": 1787938042,
-              "timeupdated": 1788778729
+              "buildid": "25500664",
+              "timebuildupdated": 1790239133,
+              "timeupdated": 1793275204
             }
           },
           "depots": {
@@ -1660,13 +1698,13 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "9161997191706108505"
+                "public": "4570980140646388395"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-29T07:52:35.593Z",
+      "observed_at": "2026-10-29T12:07:39.815Z",
       "tracked": true
     },
     "steam_store": {
@@ -1926,5 +1964,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-29T07:52:35.593Z"
+  "updated_at": "2026-10-29T12:07:39.815Z"
 }
