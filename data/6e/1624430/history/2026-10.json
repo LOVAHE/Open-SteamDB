@@ -230,11 +230,64 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T07:52:35.593Z",
+      "change_number": 40362113,
+      "changes": [
+        {
+          "after": "60",
+          "before": "61",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "26276666",
+          "before": "26200189",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793206760,
+          "before": 1792948278,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793206788,
+          "before": 1792948341,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "buildid": "26285586",
+            "description": "Test server - upcoming changes (balance). Separate database; characters may be wiped.",
+            "timebuildupdated": 1793234829,
+            "timeupdated": 1793235792
+          },
+          "op": "add",
+          "path": "/depots/branches/test"
+        },
+        {
+          "after": "8856329104899964190",
+          "before": "4117164331854901515",
+          "op": "replace",
+          "path": "/depots/depots/1624431/manifests/public"
+        },
+        {
+          "after": "8733310233681784336",
+          "op": "add",
+          "path": "/depots/depots/1624431/manifests/test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40272208,
+      "change_number": 40362113,
       "data": {
         "appinfo": {
           "common": {
@@ -343,7 +396,7 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "29",
-            "review_percentage": "61",
+            "review_percentage": "60",
             "review_score": "5",
             "small_capsule": {
               "english": "0693b7292a7eb6cbe86c99d38e4114c5516dac2e/capsule_231x87.jpg"
@@ -409,25 +462,32 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26200189",
-              "timebuildupdated": 1792948278,
-              "timeupdated": 1792948341
+              "buildid": "26276666",
+              "timebuildupdated": 1793206760,
+              "timeupdated": 1793206788
+            },
+            "test": {
+              "buildid": "26285586",
+              "description": "Test server - upcoming changes (balance). Separate database; characters may be wiped.",
+              "timebuildupdated": 1793234829,
+              "timeupdated": 1793235792
             }
           },
           "depots": {
             "1624431": {
               "manifests": {
-                "public": "4117164331854901515"
+                "public": "8856329104899964190",
+                "test": "8733310233681784336"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-26T20:37:36.418Z",
+      "observed_at": "2026-10-29T07:52:35.593Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T20:37:36.418Z"
+  "updated_at": "2026-10-29T07:52:35.593Z"
 }

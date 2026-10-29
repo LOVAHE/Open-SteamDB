@@ -345,11 +345,98 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T07:52:35.593Z",
+      "change_number": 40300159,
+      "changes": [
+        {
+          "after": {
+            "buildid": "25989251",
+            "description": "Previous build rollback",
+            "timebuildupdated": 1792160689,
+            "timeupdated": 1792160733
+          },
+          "op": "add",
+          "path": "/depots/branches/prev"
+        },
+        {
+          "after": "26244481",
+          "before": "25989251",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793107815,
+          "before": 1792160689,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793108076,
+          "before": 1792160733,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7825431636720725796",
+          "op": "add",
+          "path": "/depots/depots/4554441/manifests/prev"
+        },
+        {
+          "after": "1780516246240010847",
+          "before": "7825431636720725796",
+          "op": "replace",
+          "path": "/depots/depots/4554441/manifests/public"
+        },
+        {
+          "after": "458378979489824963",
+          "op": "add",
+          "path": "/depots/depots/4554442/manifests/prev"
+        },
+        {
+          "after": "4075173555839247958",
+          "op": "add",
+          "path": "/depots/depots/4554443/manifests/prev"
+        },
+        {
+          "after": "2848718015567754365",
+          "op": "add",
+          "path": "/depots/depots/4554444/manifests/prev"
+        },
+        {
+          "after": "7916094277717815856",
+          "op": "add",
+          "path": "/depots/depots/4554445/manifests/prev"
+        },
+        {
+          "after": "5964704863901501431",
+          "op": "add",
+          "path": "/depots/depots/4554446/manifests/prev"
+        },
+        {
+          "after": "2873147254132782855",
+          "op": "add",
+          "path": "/depots/depots/4554447/manifests/prev"
+        },
+        {
+          "after": "5421114342233025909",
+          "op": "add",
+          "path": "/depots/depots/4554448/manifests/prev"
+        },
+        {
+          "after": "5503688816639133070",
+          "op": "add",
+          "path": "/depots/depots/4554449/manifests/prev"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39945784,
+      "change_number": 40300159,
       "data": {
         "appinfo": {
           "common": {
@@ -546,10 +633,16 @@
         },
         "depots": {
           "branches": {
-            "public": {
+            "prev": {
               "buildid": "25989251",
+              "description": "Previous build rollback",
               "timebuildupdated": 1792160689,
               "timeupdated": 1792160733
+            },
+            "public": {
+              "buildid": "26244481",
+              "timebuildupdated": 1793107815,
+              "timeupdated": 1793108076
             }
           },
           "depots": {
@@ -563,7 +656,8 @@
             },
             "4554441": {
               "manifests": {
-                "public": "7825431636720725796"
+                "prev": "7825431636720725796",
+                "public": "1780516246240010847"
               }
             },
             "4554442": {
@@ -571,6 +665,7 @@
                 "language": "russian"
               },
               "manifests": {
+                "prev": "458378979489824963",
                 "public": "458378979489824963"
               }
             },
@@ -579,6 +674,7 @@
                 "language": "english"
               },
               "manifests": {
+                "prev": "4075173555839247958",
                 "public": "4075173555839247958"
               }
             },
@@ -587,6 +683,7 @@
                 "language": "french"
               },
               "manifests": {
+                "prev": "2848718015567754365",
                 "public": "2848718015567754365"
               }
             },
@@ -595,6 +692,7 @@
                 "language": "german"
               },
               "manifests": {
+                "prev": "7916094277717815856",
                 "public": "7916094277717815856"
               }
             },
@@ -603,6 +701,7 @@
                 "language": "spanish"
               },
               "manifests": {
+                "prev": "5964704863901501431",
                 "public": "5964704863901501431"
               }
             },
@@ -611,6 +710,7 @@
                 "language": "schinese"
               },
               "manifests": {
+                "prev": "2873147254132782855",
                 "public": "2873147254132782855"
               }
             },
@@ -619,6 +719,7 @@
                 "language": "polish"
               },
               "manifests": {
+                "prev": "5421114342233025909",
                 "public": "5421114342233025909"
               }
             },
@@ -627,17 +728,18 @@
                 "language": "turkish"
               },
               "manifests": {
+                "prev": "5503688816639133070",
                 "public": "5503688816639133070"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-18T16:07:29.916Z",
+      "observed_at": "2026-10-29T07:52:35.593Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-18T16:07:29.916Z"
+  "updated_at": "2026-10-29T07:52:35.593Z"
 }

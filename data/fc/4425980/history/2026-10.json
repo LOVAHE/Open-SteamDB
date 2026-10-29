@@ -1046,11 +1046,32 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T07:52:35.593Z",
+      "change_number": 40294324,
+      "changes": [
+        {
+          "after": "true",
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/brazilian/supported"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/spanish"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40235328,
+      "change_number": 40294324,
       "data": {
         "appinfo": {
           "common": {
@@ -1246,7 +1267,8 @@
             },
             "supported_languages": {
               "brazilian": {
-                "subtitles": "true"
+                "subtitles": "true",
+                "supported": "true"
               },
               "english": {
                 "full_audio": "true",
@@ -1274,6 +1296,10 @@
                 "supported": "true"
               },
               "schinese": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "spanish": {
                 "subtitles": "true",
                 "supported": "true"
               },
@@ -1314,11 +1340,11 @@
           }
         }
       },
-      "observed_at": "2026-10-26T14:52:37.831Z",
+      "observed_at": "2026-10-29T07:52:35.593Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T14:52:37.831Z"
+  "updated_at": "2026-10-29T07:52:35.593Z"
 }

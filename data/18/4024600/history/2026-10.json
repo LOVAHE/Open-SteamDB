@@ -378,11 +378,52 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T07:52:35.593Z",
+      "change_number": 40342029,
+      "changes": [
+        {
+          "after": {
+            "path": "Pyramid/Saved/SaveGames/Steam/{64BitSteamID}/Demo",
+            "pattern": "PyramidRuns_*.sav",
+            "root": "WinAppDataLocal"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/1"
+        },
+        {
+          "after": "26263113",
+          "before": "26191072",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793166632,
+          "before": 1792891455,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793166668,
+          "before": 1792891481,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8707965682590973444",
+          "before": "4875823979527577737",
+          "op": "replace",
+          "path": "/depots/depots/4024601/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40216201,
+      "change_number": 40342029,
       "data": {
         "appinfo": {
           "common": {
@@ -701,6 +742,11 @@
                 "path": "Pyramid/Saved/SaveGames/Steam/{64BitSteamID}",
                 "pattern": "*.sav",
                 "root": "WinAppDataLocal"
+              },
+              "1": {
+                "path": "Pyramid/Saved/SaveGames/Steam/{64BitSteamID}/Demo",
+                "pattern": "PyramidRuns_*.sav",
+                "root": "WinAppDataLocal"
               }
             }
           }
@@ -708,9 +754,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26191072",
-              "timebuildupdated": 1792891455,
-              "timeupdated": 1792891481
+              "buildid": "26263113",
+              "timebuildupdated": 1793166632,
+              "timeupdated": 1793166668
             }
           },
           "depots": {
@@ -735,7 +781,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "4875823979527577737"
+                "public": "8707965682590973444"
               }
             },
             "4024602": {
@@ -747,11 +793,11 @@
           }
         }
       },
-      "observed_at": "2026-10-27T01:52:37.760Z",
+      "observed_at": "2026-10-29T07:52:35.593Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-27T01:52:37.760Z"
+  "updated_at": "2026-10-29T07:52:35.593Z"
 }

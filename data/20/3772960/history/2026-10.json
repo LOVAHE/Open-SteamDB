@@ -453,11 +453,63 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-29T07:52:35.593Z",
+      "change_number": 40347830,
+      "changes": [
+        {
+          "after": "2",
+          "before": "0",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_compatibility"
+        },
+        {
+          "after": {
+            "display": "3",
+            "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/0"
+        },
+        {
+          "after": {
+            "display": "3",
+            "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/1"
+        },
+        {
+          "after": {
+            "display": "4",
+            "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/2"
+        },
+        {
+          "after": {
+            "display": "4",
+            "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/3"
+        },
+        {
+          "after": "1792601061",
+          "before": "1790340400",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/test_timestamp"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39492372,
+      "change_number": 40347830,
       "data": {
         "appinfo": {
           "common": {
@@ -581,8 +633,25 @@
                 "small_text": "1",
                 "supported_input": "other"
               },
-              "steam_machine_compatibility": "0",
-              "steam_machine_tests": {},
+              "steam_machine_compatibility": "2",
+              "steam_machine_tests": {
+                "0": {
+                  "display": "3",
+                  "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+                },
+                "1": {
+                  "display": "3",
+                  "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+                },
+                "2": {
+                  "display": "4",
+                  "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+                },
+                "3": {
+                  "display": "4",
+                  "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+                }
+              },
               "steamos_compatibility": "2",
               "steamos_tests": {
                 "0": {
@@ -594,7 +663,7 @@
                   "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
                 }
               },
-              "test_timestamp": "1790340400",
+              "test_timestamp": "1792601061",
               "tested_build_id": "22030660",
               "tests": {
                 "0": {
@@ -734,7 +803,7 @@
           }
         }
       },
-      "observed_at": "2026-10-06T00:37:19.284Z",
+      "observed_at": "2026-10-29T07:52:35.593Z",
       "tracked": true
     },
     "steam_store": {
@@ -895,5 +964,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-16T10:52:32.871Z"
+  "updated_at": "2026-10-29T07:52:35.593Z"
 }

@@ -185,11 +185,58 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T07:52:35.593Z",
+      "change_number": 40300032,
+      "changes": [
+        {
+          "after": {
+            "english": "1",
+            "latam": "1"
+          },
+          "op": "add",
+          "path": "/appinfo/common/languages"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/latam"
+        },
+        {
+          "after": "26244578",
+          "before": "26189948",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793108074,
+          "before": 1792884392,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793110686,
+          "before": 1793045954,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "359909551882469126",
+          "before": "631165960056096861",
+          "op": "replace",
+          "path": "/depots/depots/3940272/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40272447,
+      "change_number": 40300032,
       "data": {
         "appinfo": {
           "common": {
@@ -227,6 +274,10 @@
               "english": "cc7cc2ad4067ab1eef60defbba14029c2167c4ff/header.jpg"
             },
             "icon": "1ae98c939a2a89429b3205f4d6b018c11d4dcd8d",
+            "languages": {
+              "english": "1",
+              "latam": "1"
+            },
             "library_assets": {
               "library_capsule": "en",
               "library_header": "en",
@@ -310,6 +361,9 @@
             "supported_languages": {
               "english": {
                 "supported": "true"
+              },
+              "latam": {
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -347,25 +401,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26189948",
-              "timebuildupdated": 1792884392,
-              "timeupdated": 1793045954
+              "buildid": "26244578",
+              "timebuildupdated": 1793108074,
+              "timeupdated": 1793110686
             }
           },
           "depots": {
             "3940272": {
               "manifests": {
-                "public": "631165960056096861"
+                "public": "359909551882469126"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-27T03:52:39.644Z",
+      "observed_at": "2026-10-29T07:52:35.593Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-27T03:52:39.644Z"
+  "updated_at": "2026-10-29T07:52:35.593Z"
 }

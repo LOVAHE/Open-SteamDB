@@ -172,11 +172,63 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T07:52:35.593Z",
+      "change_number": 40363085,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "4",
+            "quota": "1000000"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26275700",
+          "before": "25466608",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793204315,
+          "before": 1790104307,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793238448,
+          "before": 1790173486,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3893738358742242588",
+          "before": "6735815104878949862",
+          "op": "replace",
+          "path": "/depots/depots/4570071/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "8904217268343819082"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/4570072"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39947182,
+      "change_number": 40363085,
       "data": {
         "appinfo": {
           "common": {
@@ -313,14 +365,18 @@
             "developer": "John Wonmo Seong",
             "homepage": "https://johnseong.com",
             "publisher": "Orchestr Aerospace Inc."
+          },
+          "ufs": {
+            "maxnumfiles": "4",
+            "quota": "1000000"
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25466608",
-              "timebuildupdated": 1790104307,
-              "timeupdated": 1790173486
+              "buildid": "26275700",
+              "timebuildupdated": 1793204315,
+              "timeupdated": 1793238448
             }
           },
           "depots": {
@@ -329,17 +385,25 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "6735815104878949862"
+                "public": "3893738358742242588"
+              }
+            },
+            "4570072": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "8904217268343819082"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-19T01:22:33.189Z",
+      "observed_at": "2026-10-29T07:52:35.593Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T01:22:33.189Z"
+  "updated_at": "2026-10-29T07:52:35.593Z"
 }

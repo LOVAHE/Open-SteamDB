@@ -277,11 +277,74 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T07:52:35.593Z",
+      "change_number": 40345806,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26262411",
+          "before": "26201910",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793163534,
+          "before": 1792955382,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793204348,
+          "before": 1792955451,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/4683431/config"
+        },
+        {
+          "after": "7204601226570060868",
+          "before": "3234635317313855354",
+          "op": "replace",
+          "path": "/depots/depots/4683431/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "1992009605006041434"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/4683432"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40233197,
+      "change_number": 40345806,
       "data": {
         "appinfo": {
           "common": {
@@ -373,8 +436,8 @@
             },
             "name": "ScareZone: Haunted Attraction Tycoon Demo",
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos",
             "parent": "4402490",
             "primary_genre": "4",
             "small_capsule": {
@@ -403,25 +466,36 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26201910",
-              "timebuildupdated": 1792955382,
-              "timeupdated": 1792955451
+              "buildid": "26262411",
+              "timebuildupdated": 1793163534,
+              "timeupdated": 1793204348
             }
           },
           "depots": {
             "4683431": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
-                "public": "3234635317313855354"
+                "public": "7204601226570060868"
+              }
+            },
+            "4683432": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "1992009605006041434"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-26T14:52:37.831Z",
+      "observed_at": "2026-10-29T07:52:35.593Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T14:52:37.831Z"
+  "updated_at": "2026-10-29T07:52:35.593Z"
 }

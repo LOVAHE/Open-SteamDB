@@ -374,11 +374,69 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T07:52:35.593Z",
+      "change_number": 40367730,
+      "changes": [
+        {
+          "after": "72",
+          "before": "75",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "5851",
+          "before": "1645",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/10"
+        },
+        {
+          "after": "615955",
+          "before": "9",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/2"
+        },
+        {
+          "after": "9",
+          "before": "615955",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/4"
+        },
+        {
+          "after": "1645",
+          "before": "5851",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/9"
+        },
+        {
+          "after": {
+            "buildid": "26278357",
+            "description": "Beta version",
+            "timebuildupdated": 1793211121,
+            "timeupdated": 1793211121
+          },
+          "op": "add",
+          "path": "/depots/branches/beta"
+        },
+        {
+          "after": "8067726299517077813",
+          "op": "add",
+          "path": "/depots/depots/4704521/manifests/beta"
+        },
+        {
+          "after": "3416074429685731630",
+          "op": "add",
+          "path": "/depots/depots/4704522/manifests/beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40284133,
+      "change_number": 40367730,
       "data": {
         "appinfo": {
           "common": {
@@ -492,7 +550,7 @@
             "osextended": "macos64,macosapplesilicon",
             "oslist": "windows,macos",
             "primary_genre": "4",
-            "review_percentage": "75",
+            "review_percentage": "72",
             "review_score": "6",
             "small_capsule": {
               "english": "fffe895f9ff83764fd437188ea0e7d93fe0d6848/capsule_231x87.jpg"
@@ -502,15 +560,15 @@
             "store_tags": {
               "0": "560542",
               "1": "597",
-              "2": "9",
+              "2": "615955",
               "3": "1084988",
-              "4": "615955",
+              "4": "9",
               "5": "1659",
               "6": "1654",
               "7": "3835",
               "8": "492",
-              "9": "5851",
-              "10": "1645",
+              "9": "1645",
+              "10": "5851",
               "11": "3964",
               "12": "6276",
               "13": "8945",
@@ -615,6 +673,12 @@
         },
         "depots": {
           "branches": {
+            "beta": {
+              "buildid": "26278357",
+              "description": "Beta version",
+              "timebuildupdated": 1793211121,
+              "timeupdated": 1793211121
+            },
             "public": {
               "buildid": "25853002",
               "timebuildupdated": 1791652242,
@@ -635,6 +699,7 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "beta": "8067726299517077813",
                 "public": "4596653076751839553"
               }
             },
@@ -643,17 +708,18 @@
                 "oslist": "macos"
               },
               "manifests": {
+                "beta": "3416074429685731630",
                 "public": "3416074429685731630"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-27T04:37:37.746Z",
+      "observed_at": "2026-10-29T07:52:35.593Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-27T04:37:37.746Z"
+  "updated_at": "2026-10-29T07:52:35.593Z"
 }
