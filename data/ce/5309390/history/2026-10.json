@@ -165,11 +165,34 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T14:22:45.380Z",
+      "change_number": 40384662,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26299044",
+            "description": "Online duel test 3.6.0",
+            "timebuildupdated": 1793282937,
+            "timeupdated": 1793283736
+          },
+          "op": "add",
+          "path": "/depots/branches/duel"
+        },
+        {
+          "after": "2745492156225340476",
+          "op": "add",
+          "path": "/depots/depots/5309391/manifests/duel"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40197888,
+      "change_number": 40384662,
       "data": {
         "appinfo": {
           "common": {
@@ -306,6 +329,12 @@
         },
         "depots": {
           "branches": {
+            "duel": {
+              "buildid": "26299044",
+              "description": "Online duel test 3.6.0",
+              "timebuildupdated": 1793282937,
+              "timeupdated": 1793283736
+            },
             "public": {
               "buildid": "26173664",
               "timebuildupdated": 1792799887,
@@ -315,17 +344,18 @@
           "depots": {
             "5309391": {
               "manifests": {
+                "duel": "2745492156225340476",
                 "public": "8929634777237987468"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-26T23:52:37.180Z",
+      "observed_at": "2026-10-29T14:22:45.380Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T23:52:37.180Z"
+  "updated_at": "2026-10-29T14:22:45.380Z"
 }
