@@ -384,11 +384,35 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-29T08:07:39.394Z",
+      "change_number": 40320606,
+      "changes": [
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/depots/depots/4838692/config/oslist"
+        },
+        {
+          "before": {
+            "config": {
+              "oslist": "linux"
+            },
+            "manifests": {}
+          },
+          "op": "remove",
+          "path": "/depots/depots/4838694"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39501510,
+      "change_number": 40320606,
       "data": {
         "appinfo": {
           "common": {
@@ -565,7 +589,7 @@
             },
             "4838692": {
               "config": {
-                "oslist": "windows"
+                "oslist": "windows,linux"
               },
               "manifests": {
                 "public": "4055284526166567671"
@@ -576,17 +600,11 @@
                 "oslist": "macos"
               },
               "manifests": {}
-            },
-            "4838694": {
-              "config": {
-                "oslist": "linux"
-              },
-              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-10-05T14:07:17.060Z",
+      "observed_at": "2026-10-29T08:07:39.394Z",
       "tracked": true
     },
     "steam_store": {
@@ -757,5 +775,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-06T17:52:20.132Z"
+  "updated_at": "2026-10-29T08:07:39.394Z"
 }

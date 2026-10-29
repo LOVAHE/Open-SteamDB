@@ -597,11 +597,59 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T08:07:39.394Z",
+      "change_number": 40352193,
+      "changes": [
+        {
+          "after": "45",
+          "before": "50",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "1791870145",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "5505480",
+          "op": "add",
+          "path": "/appinfo/extended/listofdlc"
+        },
+        {
+          "after": "26251889",
+          "before": "26218799",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793127548,
+          "before": 1793024162,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793127681,
+          "before": 1793024235,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1714542780693780406",
+          "before": "596889493038334726",
+          "op": "replace",
+          "path": "/depots/depots/5006181/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40258298,
+      "change_number": 40352193,
       "data": {
         "appinfo": {
           "common": {
@@ -710,11 +758,12 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "37",
-            "review_percentage": "50",
+            "review_percentage": "45",
             "review_score": "5",
             "small_capsule": {
               "english": "69c6307d3dac7151f13d50fa0ee16120eb537d3e/capsule_231x87.jpg"
             },
+            "steam_release_date": "1791870145",
             "store_asset_mtime": "1785695061",
             "store_tags": {
               "0": "42804",
@@ -785,6 +834,7 @@
           "extended": {
             "developer": "Vaultkeeper Games",
             "homepage": "https://rogue-scout.carrd.co/",
+            "listofdlc": "5505480",
             "publisher": "Hellfun Digital"
           },
           "ufs": {
@@ -795,9 +845,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26218799",
-              "timebuildupdated": 1793024162,
-              "timeupdated": 1793024235
+              "buildid": "26251889",
+              "timebuildupdated": 1793127548,
+              "timeupdated": 1793127681
             }
           },
           "depots": {
@@ -807,17 +857,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "596889493038334726"
+                "public": "1714542780693780406"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-26T15:07:34.151Z",
+      "observed_at": "2026-10-29T08:07:39.394Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T15:07:34.151Z"
+  "updated_at": "2026-10-29T08:07:39.394Z"
 }

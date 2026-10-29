@@ -234,11 +234,75 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T08:07:39.394Z",
+      "change_number": 40359275,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_28"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_55"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_57"
+        },
+        {
+          "after": "full",
+          "op": "add",
+          "path": "/appinfo/common/controller_support"
+        },
+        {
+          "after": "46",
+          "before": "41",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "26241864",
+          "before": "26154048",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793100105,
+          "before": 1792740191,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793100357,
+          "before": 1792740602,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "672019407737765160",
+          "before": "4995617280426489460",
+          "op": "replace",
+          "path": "/depots/depots/5100711/manifests/public"
+        },
+        {
+          "after": "5910052625600664001",
+          "before": "6241418718398468779",
+          "op": "replace",
+          "path": "/depots/depots/5100712/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40198849,
+      "change_number": 40359275,
       "data": {
         "appinfo": {
           "common": {
@@ -256,11 +320,15 @@
               "category_2": "1",
               "category_22": "1",
               "category_23": "1",
+              "category_28": "1",
+              "category_55": "1",
+              "category_57": "1",
               "category_62": "1"
             },
             "clienticon": "b627bd145b25fb501cc7e773e61a5a615ca9dc25",
             "community_hub_visible": "1",
             "community_visible_stats": "1",
+            "controller_support": "full",
             "genres": {
               "0": "4",
               "1": "23"
@@ -330,7 +398,7 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "4",
-            "review_percentage": "41",
+            "review_percentage": "46",
             "review_score": "5",
             "small_capsule": {
               "english": "22f5ac9d0fb4ccc0c00cff4a2d57c9449e369de6/capsule_231x87.jpg"
@@ -435,21 +503,21 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26154048",
-              "timebuildupdated": 1792740191,
-              "timeupdated": 1792740602
+              "buildid": "26241864",
+              "timebuildupdated": 1793100105,
+              "timeupdated": 1793100357
             }
           },
           "depots": {
             "5100711": {
               "manifests": {
-                "public": "4995617280426489460"
+                "public": "672019407737765160"
               }
             },
             "5100712": {
               "dlcappid": 5480500,
               "manifests": {
-                "public": "6241418718398468779"
+                "public": "5910052625600664001"
               }
             },
             "5480500": {
@@ -459,11 +527,11 @@
           }
         }
       },
-      "observed_at": "2026-10-27T06:37:37.195Z",
+      "observed_at": "2026-10-29T08:07:39.394Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-27T06:37:37.195Z"
+  "updated_at": "2026-10-29T08:07:39.394Z"
 }

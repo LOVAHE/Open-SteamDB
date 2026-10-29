@@ -211,11 +211,135 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T08:07:39.394Z",
+      "change_number": 40346996,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "1793206016",
+          "before": "1792849599",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "122",
+          "before": "4695",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/10"
+        },
+        {
+          "after": "1741",
+          "before": "1664",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/11"
+        },
+        {
+          "after": "4695",
+          "before": "17305",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/4"
+        },
+        {
+          "after": "1664",
+          "before": "597",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/5"
+        },
+        {
+          "after": "17305",
+          "before": "1741",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/6"
+        },
+        {
+          "after": "597",
+          "before": "1716",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/7"
+        },
+        {
+          "after": "1716",
+          "before": "6730",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/8"
+        },
+        {
+          "after": "6730",
+          "before": "122",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/9"
+        },
+        {
+          "after": "26255057",
+          "before": "26180793",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793137274,
+          "before": 1792838784,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793137274,
+          "before": 1792838785,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4328178408211828666",
+          "before": "1642953619164832427",
+          "op": "replace",
+          "path": "/depots/depots/4999151/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "linux"
+            },
+            "manifests": {
+              "public": "2471810190106908853"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/4999152"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "216723108249609241"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/4999153"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40268494,
+      "change_number": 40346996,
       "data": {
         "appinfo": {
           "common": {
@@ -323,27 +447,27 @@
             },
             "name": "Chesstria",
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos,linux",
             "primary_genre": "2",
             "small_capsule": {
               "english": "e7e93892cc2e6f042818b62812a2095217d9562a/capsule_231x87.jpg"
             },
             "steam_release_date": "1792850402",
-            "store_asset_mtime": "1792849599",
+            "store_asset_mtime": "1793206016",
             "store_tags": {
               "0": "3959",
               "1": "9",
               "2": "4184",
               "3": "1775",
-              "4": "17305",
-              "5": "597",
-              "6": "1741",
-              "7": "1716",
-              "8": "6730",
-              "9": "122",
-              "10": "4695",
-              "11": "1664",
+              "4": "4695",
+              "5": "1664",
+              "6": "17305",
+              "7": "597",
+              "8": "1716",
+              "9": "6730",
+              "10": "122",
+              "11": "1741",
               "12": "4325",
               "13": "3871",
               "14": "560542",
@@ -396,9 +520,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26180793",
-              "timebuildupdated": 1792838784,
-              "timeupdated": 1792838785
+              "buildid": "26255057",
+              "timebuildupdated": 1793137274,
+              "timeupdated": 1793137274
             }
           },
           "depots": {
@@ -407,17 +531,35 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "1642953619164832427"
+                "public": "4328178408211828666"
+              }
+            },
+            "4999152": {
+              "config": {
+                "osarch": "64",
+                "oslist": "linux"
+              },
+              "manifests": {
+                "public": "2471810190106908853"
+              }
+            },
+            "4999153": {
+              "config": {
+                "osarch": "64",
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "216723108249609241"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-27T04:52:37.294Z",
+      "observed_at": "2026-10-29T08:07:39.394Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-27T04:52:37.294Z"
+  "updated_at": "2026-10-29T08:07:39.394Z"
 }

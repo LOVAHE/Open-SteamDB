@@ -227,11 +227,60 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T08:07:39.394Z",
+      "change_number": 40310512,
+      "changes": [
+        {
+          "after": "5212020",
+          "op": "add",
+          "path": "/appinfo/extended/listofdlc"
+        },
+        {
+          "after": "26252174",
+          "before": "26190585",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793128381,
+          "before": 1792888071,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793128381,
+          "before": 1792888071,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7149260177997458001",
+          "before": "8702990722522305295",
+          "op": "replace",
+          "path": "/depots/depots/5018721/manifests/public"
+        },
+        {
+          "after": "7940002465827107286",
+          "before": "348371929364323447",
+          "op": "replace",
+          "path": "/depots/depots/5018722/manifests/public"
+        },
+        {
+          "after": "3317476839396419414",
+          "before": "6465935968860863477",
+          "op": "replace",
+          "path": "/depots/depots/5018723/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40215479,
+      "change_number": 40310512,
       "data": {
         "appinfo": {
           "common": {
@@ -366,6 +415,7 @@
           },
           "extended": {
             "developer": "Arkd3v",
+            "listofdlc": "5212020",
             "publisher": "Arkd3v-Studios, LLC"
           },
           "ufs": {
@@ -405,9 +455,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26190585",
-              "timebuildupdated": 1792888071,
-              "timeupdated": 1792888071
+              "buildid": "26252174",
+              "timebuildupdated": 1793128381,
+              "timeupdated": 1793128381
             }
           },
           "depots": {
@@ -416,7 +466,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "8702990722522305295"
+                "public": "7149260177997458001"
               }
             },
             "5018722": {
@@ -425,7 +475,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "348371929364323447"
+                "public": "7940002465827107286"
               }
             },
             "5018723": {
@@ -433,7 +483,7 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "6465935968860863477"
+                "public": "3317476839396419414"
               }
             },
             "5212020": {
@@ -445,11 +495,11 @@
           }
         }
       },
-      "observed_at": "2026-10-27T04:07:37.336Z",
+      "observed_at": "2026-10-29T08:07:39.394Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-27T04:07:37.336Z"
+  "updated_at": "2026-10-29T08:07:39.394Z"
 }

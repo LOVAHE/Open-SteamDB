@@ -174,11 +174,48 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T08:07:39.394Z",
+      "change_number": 40312798,
+      "changes": [
+        {
+          "after": "26194760",
+          "before": "25319164",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1792917338,
+          "before": 1789463966,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793132319,
+          "before": 1789465004,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3292682626840103358",
+          "before": "4280492377704438397",
+          "op": "replace",
+          "path": "/depots/depots/4718781/manifests/public"
+        },
+        {
+          "after": "7024440542869843164",
+          "op": "add",
+          "path": "/depots/depots/4718782/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40198971,
+      "change_number": 40312798,
       "data": {
         "appinfo": {
           "common": {
@@ -302,9 +339,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25319164",
-              "timebuildupdated": 1789463966,
-              "timeupdated": 1789465004
+              "buildid": "26194760",
+              "timebuildupdated": 1792917338,
+              "timeupdated": 1793132319
             }
           },
           "depots": {
@@ -326,7 +363,7 @@
             },
             "4718781": {
               "manifests": {
-                "public": "4280492377704438397"
+                "public": "3292682626840103358"
               }
             },
             "4718782": {
@@ -334,16 +371,18 @@
                 "osarch": "64",
                 "oslist": "windows"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "7024440542869843164"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-26T20:22:37.050Z",
+      "observed_at": "2026-10-29T08:07:39.394Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T20:22:37.050Z"
+  "updated_at": "2026-10-29T08:07:39.394Z"
 }

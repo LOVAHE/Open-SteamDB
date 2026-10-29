@@ -649,11 +649,73 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T08:07:39.394Z",
+      "change_number": 40354474,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26278987",
+            "description": "precisionstrike",
+            "timebuildupdated": 1793212876,
+            "timeupdated": 1793212878
+          },
+          "op": "add",
+          "path": "/depots/branches/precisionstrike"
+        },
+        {
+          "after": {
+            "buildid": "26281027",
+            "description": "precisionstrike1",
+            "timebuildupdated": 1793218875,
+            "timeupdated": 1793218877
+          },
+          "op": "add",
+          "path": "/depots/branches/precisionstrike1"
+        },
+        {
+          "after": "26281027",
+          "before": "25694967",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793218875,
+          "before": 1791023809,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793219496,
+          "before": 1791024849,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7084213699300873781",
+          "op": "add",
+          "path": "/depots/depots/4899731/manifests/precisionstrike"
+        },
+        {
+          "after": "8645302379399257196",
+          "op": "add",
+          "path": "/depots/depots/4899731/manifests/precisionstrike1"
+        },
+        {
+          "after": "8645302379399257196",
+          "before": "1794384550517877788",
+          "op": "replace",
+          "path": "/depots/depots/4899731/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40007118,
+      "change_number": 40354474,
       "data": {
         "appinfo": {
           "common": {
@@ -804,22 +866,36 @@
         },
         "depots": {
           "branches": {
+            "precisionstrike": {
+              "buildid": "26278987",
+              "description": "precisionstrike",
+              "timebuildupdated": 1793212876,
+              "timeupdated": 1793212878
+            },
+            "precisionstrike1": {
+              "buildid": "26281027",
+              "description": "precisionstrike1",
+              "timebuildupdated": 1793218875,
+              "timeupdated": 1793218877
+            },
             "public": {
-              "buildid": "25694967",
-              "timebuildupdated": 1791023809,
-              "timeupdated": 1791024849
+              "buildid": "26281027",
+              "timebuildupdated": 1793218875,
+              "timeupdated": 1793219496
             }
           },
           "depots": {
             "4899731": {
               "manifests": {
-                "public": "1794384550517877788"
+                "precisionstrike": "7084213699300873781",
+                "precisionstrike1": "8645302379399257196",
+                "public": "8645302379399257196"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-19T16:13:43.471Z",
+      "observed_at": "2026-10-29T08:07:39.394Z",
       "tracked": true
     },
     "steam_store": {
@@ -963,5 +1039,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-19T16:13:43.471Z"
+  "updated_at": "2026-10-29T08:07:39.394Z"
 }
