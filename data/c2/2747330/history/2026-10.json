@@ -1180,11 +1180,43 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T13:07:41.539Z",
+      "change_number": 40381790,
+      "changes": [
+        {
+          "after": "26293638",
+          "before": "25365262",
+          "op": "replace",
+          "path": "/depots/branches/previous-version/buildid"
+        },
+        {
+          "after": 1793267066,
+          "before": 1789637338,
+          "op": "replace",
+          "path": "/depots/branches/previous-version/timebuildupdated"
+        },
+        {
+          "after": 1793278916,
+          "before": 1789655028,
+          "op": "replace",
+          "path": "/depots/branches/previous-version/timeupdated"
+        },
+        {
+          "after": "1618511385517508498",
+          "before": "2200019218177479806",
+          "op": "replace",
+          "path": "/depots/depots/2747331/manifests/previous-version"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40375425,
+      "change_number": 40381790,
       "data": {
         "appinfo": {
           "common": {
@@ -1423,10 +1455,10 @@
         "depots": {
           "branches": {
             "previous-version": {
-              "buildid": "25365262",
+              "buildid": "26293638",
               "description": "This branch points to the previously shipped version",
-              "timebuildupdated": 1789637338,
-              "timeupdated": 1789655028
+              "timebuildupdated": 1793267066,
+              "timeupdated": 1793278916
             },
             "public": {
               "buildid": "25827374",
@@ -1453,7 +1485,7 @@
             },
             "2747331": {
               "manifests": {
-                "previous-version": "2200019218177479806",
+                "previous-version": "1618511385517508498",
                 "public": "1667136542347291170"
               }
             },
@@ -1467,7 +1499,7 @@
           }
         }
       },
-      "observed_at": "2026-10-29T09:52:40.195Z",
+      "observed_at": "2026-10-29T13:07:41.539Z",
       "tracked": true
     },
     "steam_store": {
@@ -1675,5 +1707,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-29T09:52:40.195Z"
+  "updated_at": "2026-10-29T13:07:41.539Z"
 }
