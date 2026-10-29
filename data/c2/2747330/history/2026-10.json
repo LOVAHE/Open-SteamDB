@@ -1212,11 +1212,81 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T13:22:39.899Z",
+      "change_number": 40382143,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/community_visible_stats"
+        },
+        {
+          "after": {
+            "brazilian": "1",
+            "english": "1",
+            "french": "1",
+            "german": "1",
+            "italian": "1",
+            "japanese": "1",
+            "koreana": "1",
+            "polish": "1",
+            "russian": "1",
+            "schinese": "1",
+            "spanish": "1"
+          },
+          "op": "add",
+          "path": "/appinfo/common/languages"
+        },
+        {
+          "before": {
+            "1": "Windows"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/0/platforms"
+        },
+        {
+          "after": {
+            "path": "SpeciesUnknown/Saved/SaveGames",
+            "pattern": "SideQuests.sav",
+            "root": "WinAppDataLocal"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/1"
+        },
+        {
+          "after": "26293638",
+          "before": "25827374",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793267066,
+          "before": 1791544742,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793279437,
+          "before": 1791549816,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1618511385517508498",
+          "before": "1667136542347291170",
+          "op": "replace",
+          "path": "/depots/depots/2747331/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40381790,
+      "change_number": 40382143,
       "data": {
         "appinfo": {
           "common": {
@@ -1242,6 +1312,7 @@
             "clienticon": "a92c14dbaaec12fd2ef5086e0375913c6ee2fdbc",
             "clienttga": "4c2d10bc2c626dcdacbbf86959e59ada1536b1ab",
             "community_hub_visible": "1",
+            "community_visible_stats": "1",
             "controller_support": "full",
             "genres": {
               "0": "1",
@@ -1252,6 +1323,19 @@
               "english": "7ace5e7b6e062e635c577464f25d847467f0c6c3/header.jpg"
             },
             "icon": "42a2d5aa6bfe0170123a18653ddd2de359960765",
+            "languages": {
+              "brazilian": "1",
+              "english": "1",
+              "french": "1",
+              "german": "1",
+              "italian": "1",
+              "japanese": "1",
+              "koreana": "1",
+              "polish": "1",
+              "russian": "1",
+              "schinese": "1",
+              "spanish": "1"
+            },
             "library_assets": {
               "library_capsule": "en",
               "library_header": "en",
@@ -1444,9 +1528,11 @@
               "0": {
                 "path": "SpeciesUnknown/Saved/SaveGames",
                 "pattern": "SaveGame_Progress.sav",
-                "platforms": {
-                  "1": "Windows"
-                },
+                "root": "WinAppDataLocal"
+              },
+              "1": {
+                "path": "SpeciesUnknown/Saved/SaveGames",
+                "pattern": "SideQuests.sav",
                 "root": "WinAppDataLocal"
               }
             }
@@ -1461,9 +1547,9 @@
               "timeupdated": 1793278916
             },
             "public": {
-              "buildid": "25827374",
-              "timebuildupdated": 1791544742,
-              "timeupdated": 1791549816
+              "buildid": "26293638",
+              "timebuildupdated": 1793267066,
+              "timeupdated": 1793279437
             }
           },
           "depots": {
@@ -1486,7 +1572,7 @@
             "2747331": {
               "manifests": {
                 "previous-version": "1618511385517508498",
-                "public": "1667136542347291170"
+                "public": "1618511385517508498"
               }
             },
             "4030871": {
@@ -1499,7 +1585,7 @@
           }
         }
       },
-      "observed_at": "2026-10-29T13:07:41.539Z",
+      "observed_at": "2026-10-29T13:22:39.899Z",
       "tracked": true
     },
     "steam_store": {
@@ -1707,5 +1793,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-29T13:07:41.539Z"
+  "updated_at": "2026-10-29T13:22:39.899Z"
 }

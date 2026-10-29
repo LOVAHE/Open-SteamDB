@@ -721,11 +721,44 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T13:22:39.899Z",
+      "change_number": 40382451,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": {
+            "buildid": "26298022",
+            "description": "workshop beta",
+            "timebuildupdated": 1793279933,
+            "timeupdated": 1793279933
+          },
+          "op": "add",
+          "path": "/depots/branches/workshop-beta"
+        },
+        {
+          "after": "731866077017281785",
+          "op": "add",
+          "path": "/depots/depots/2436941/manifests/workshop-beta"
+        },
+        {
+          "after": "314020594590458387",
+          "op": "add",
+          "path": "/depots/depots/2436942/manifests/workshop-beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40382077,
+      "change_number": 40382451,
       "data": {
         "appinfo": {
           "common": {
@@ -994,7 +1027,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "Sephiria"
@@ -1016,6 +1050,12 @@
               "timebuildupdated": 1789130700,
               "timeupdated": 1789130735
             },
+            "workshop-beta": {
+              "buildid": "26298022",
+              "description": "workshop beta",
+              "timebuildupdated": 1793279933,
+              "timeupdated": 1793279933
+            },
             "x86-0.10.13": {
               "buildid": "22013627",
               "description": "Sephiria 32-bit (Windows only)",
@@ -1030,6 +1070,7 @@
               },
               "manifests": {
                 "public": "7811884755405591800",
+                "workshop-beta": "731866077017281785",
                 "x86-0.10.13": "1320113521384357902"
               }
             },
@@ -1039,13 +1080,14 @@
               },
               "manifests": {
                 "public": "280745067316842463",
+                "workshop-beta": "314020594590458387",
                 "x86-0.10.13": "5502842212160162385"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-29T13:07:41.539Z",
+      "observed_at": "2026-10-29T13:22:39.899Z",
       "tracked": true
     },
     "steam_store": {
@@ -1239,5 +1281,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-29T13:07:41.539Z"
+  "updated_at": "2026-10-29T13:22:39.899Z"
 }

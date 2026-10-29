@@ -1,8 +1,8 @@
 {
   "appid": 2747330,
   "source": "steam_pics",
-  "updated_at": "2026-10-29T13:07:41.539Z",
-  "change_number": 40381790,
+  "updated_at": "2026-10-29T13:22:39.899Z",
+  "change_number": 40382143,
   "data": {
     "common": {
       "associations": {
@@ -27,6 +27,7 @@
       "clienticon": "a92c14dbaaec12fd2ef5086e0375913c6ee2fdbc",
       "clienttga": "4c2d10bc2c626dcdacbbf86959e59ada1536b1ab",
       "community_hub_visible": "1",
+      "community_visible_stats": "1",
       "controller_support": "full",
       "genres": {
         "0": "1",
@@ -37,6 +38,19 @@
         "english": "7ace5e7b6e062e635c577464f25d847467f0c6c3/header.jpg"
       },
       "icon": "42a2d5aa6bfe0170123a18653ddd2de359960765",
+      "languages": {
+        "brazilian": "1",
+        "english": "1",
+        "french": "1",
+        "german": "1",
+        "italian": "1",
+        "japanese": "1",
+        "koreana": "1",
+        "polish": "1",
+        "russian": "1",
+        "schinese": "1",
+        "spanish": "1"
+      },
       "library_assets": {
         "library_capsule": "en",
         "library_header": "en",
@@ -229,9 +243,11 @@
         "0": {
           "path": "SpeciesUnknown/Saved/SaveGames",
           "pattern": "SaveGame_Progress.sav",
-          "platforms": {
-            "1": "Windows"
-          },
+          "root": "WinAppDataLocal"
+        },
+        "1": {
+          "path": "SpeciesUnknown/Saved/SaveGames",
+          "pattern": "SideQuests.sav",
           "root": "WinAppDataLocal"
         }
       }
