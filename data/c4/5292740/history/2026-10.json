@@ -192,11 +192,75 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T08:37:46.063Z",
+      "change_number": 40355007,
+      "changes": [
+        {
+          "after": {
+            "schinese": "踏平僵尸小镇",
+            "tchinese": "踏平殭屍小鎮"
+          },
+          "op": "add",
+          "path": "/appinfo/common/name_localized"
+        },
+        {
+          "after": "26262849",
+          "before": "26191142",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793165477,
+          "before": 1792891909,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793176726,
+          "before": 1792891959,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "26262849",
+          "before": "25858476",
+          "op": "replace",
+          "path": "/depots/branches/test/buildid"
+        },
+        {
+          "after": 1793165477,
+          "before": 1791683600,
+          "op": "replace",
+          "path": "/depots/branches/test/timebuildupdated"
+        },
+        {
+          "after": 1793174059,
+          "before": 1791683625,
+          "op": "replace",
+          "path": "/depots/branches/test/timeupdated"
+        },
+        {
+          "after": "8272706608298160156",
+          "before": "5841662698699342015",
+          "op": "replace",
+          "path": "/depots/depots/5292741/manifests/public"
+        },
+        {
+          "after": "8272706608298160156",
+          "before": "452709719671054181",
+          "op": "replace",
+          "path": "/depots/depots/5292741/manifests/test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40216304,
+      "change_number": 40355007,
       "data": {
         "appinfo": {
           "common": {
@@ -292,6 +356,10 @@
               }
             },
             "name": "Raze the Zombie Horde",
+            "name_localized": {
+              "schinese": "踏平僵尸小镇",
+              "tchinese": "踏平殭屍小鎮"
+            },
             "osarch": "64",
             "osextended": "",
             "oslist": "windows",
@@ -346,15 +414,15 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26191142",
-              "timebuildupdated": 1792891909,
-              "timeupdated": 1792891959
+              "buildid": "26262849",
+              "timebuildupdated": 1793165477,
+              "timeupdated": 1793176726
             },
             "test": {
-              "buildid": "25858476",
+              "buildid": "26262849",
               "description": "test",
-              "timebuildupdated": 1791683600,
-              "timeupdated": 1791683625
+              "timebuildupdated": 1793165477,
+              "timeupdated": 1793174059
             }
           },
           "depots": {
@@ -368,18 +436,18 @@
             },
             "5292741": {
               "manifests": {
-                "public": "5841662698699342015",
-                "test": "452709719671054181"
+                "public": "8272706608298160156",
+                "test": "8272706608298160156"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-26T15:37:36.904Z",
+      "observed_at": "2026-10-29T08:37:46.063Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T15:37:36.904Z"
+  "updated_at": "2026-10-29T08:37:46.063Z"
 }

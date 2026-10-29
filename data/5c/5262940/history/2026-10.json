@@ -1331,11 +1331,67 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T08:37:46.063Z",
+      "change_number": 40336441,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/russian"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/tchinese"
+        },
+        {
+          "after": "1793108164",
+          "before": "1792345387",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/tchinese"
+        },
+        {
+          "after": "26269606",
+          "before": "26175005",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793188814,
+          "before": 1792805830,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793189036,
+          "before": 1792806393,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6924196877837047001",
+          "before": "8057316761372599653",
+          "op": "replace",
+          "path": "/depots/depots/5262941/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40256975,
+      "change_number": 40336441,
       "data": {
         "appinfo": {
           "common": {
@@ -1370,8 +1426,10 @@
             "icon": "faa6b4bcf40eabcc97769d25b2f00465a3b8b096",
             "languages": {
               "english": "1",
+              "russian": "1",
               "schinese": "1",
-              "spanish": "1"
+              "spanish": "1",
+              "tchinese": "1"
             },
             "library_assets": {
               "library_capsule": "en,zh-cn",
@@ -1451,7 +1509,7 @@
               "schinese": "3eb5cfbbd36a467aa4b0943c5a63a4ae1ce38b0c/capsule_231x87_schinese.jpg"
             },
             "steam_release_date": "1791021224",
-            "store_asset_mtime": "1792345387",
+            "store_asset_mtime": "1793108164",
             "store_tags": {
               "0": "1084988",
               "1": "1666",
@@ -1491,6 +1549,10 @@
               "spanish": {
                 "subtitles": "true",
                 "supported": "true"
+              },
+              "tchinese": {
+                "subtitles": "true",
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -1506,21 +1568,21 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26175005",
-              "timebuildupdated": 1792805830,
-              "timeupdated": 1792806393
+              "buildid": "26269606",
+              "timebuildupdated": 1793188814,
+              "timeupdated": 1793189036
             }
           },
           "depots": {
             "5262941": {
               "manifests": {
-                "public": "8057316761372599653"
+                "public": "6924196877837047001"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-26T15:37:36.904Z",
+      "observed_at": "2026-10-29T08:37:46.063Z",
       "tracked": true
     },
     "steam_store": {
@@ -1661,5 +1723,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T15:37:36.904Z"
+  "updated_at": "2026-10-29T08:37:46.063Z"
 }

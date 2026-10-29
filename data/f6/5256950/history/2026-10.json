@@ -366,11 +366,41 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T08:37:46.063Z",
+      "change_number": 40321463,
+      "changes": [
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/english"
+        },
+        {
+          "after": {
+            "maxnumfiles": "20",
+            "quota": "104857600",
+            "savefiles": {
+              "0": {
+                "path": "SanGoFate/cloud-saves-r2/steam-{Steam3AccountID}",
+                "pattern": "*",
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40240773,
+      "change_number": 40321463,
       "data": {
         "appinfo": {
           "common": {
@@ -506,6 +536,9 @@
               "18": "1084988"
             },
             "supported_languages": {
+              "english": {
+                "supported": "true"
+              },
               "japanese": {
                 "supported": "true"
               },
@@ -524,6 +557,17 @@
           "extended": {
             "developer": "Guangpop Studio",
             "publisher": "Overpost Games"
+          },
+          "ufs": {
+            "maxnumfiles": "20",
+            "quota": "104857600",
+            "savefiles": {
+              "0": {
+                "path": "SanGoFate/cloud-saves-r2/steam-{Steam3AccountID}",
+                "pattern": "*",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -543,11 +587,11 @@
           }
         }
       },
-      "observed_at": "2026-10-26T13:22:35.056Z",
+      "observed_at": "2026-10-29T08:37:46.063Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T13:22:35.056Z"
+  "updated_at": "2026-10-29T08:37:46.063Z"
 }

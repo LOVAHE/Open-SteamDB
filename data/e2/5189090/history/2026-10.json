@@ -978,11 +978,79 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T08:37:46.063Z",
+      "change_number": 40336554,
+      "changes": [
+        {
+          "after": "1793189265",
+          "before": "1787911962",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "26261696",
+          "before": "26193023",
+          "op": "replace",
+          "path": "/depots/branches/linux-beta/buildid"
+        },
+        {
+          "after": 1793160334,
+          "before": 1792904400,
+          "op": "replace",
+          "path": "/depots/branches/linux-beta/timebuildupdated"
+        },
+        {
+          "after": 1793160503,
+          "before": 1792909516,
+          "op": "replace",
+          "path": "/depots/branches/linux-beta/timeupdated"
+        },
+        {
+          "after": "26261685",
+          "before": "26193027",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793160292,
+          "before": 1792904425,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793160543,
+          "before": 1792909540,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "615486761088148489",
+          "before": "7237218233670441932",
+          "op": "replace",
+          "path": "/depots/depots/5189091/manifests/linux-beta"
+        },
+        {
+          "after": "615486761088148489",
+          "before": "7237218233670441932",
+          "op": "replace",
+          "path": "/depots/depots/5189091/manifests/public"
+        },
+        {
+          "after": "6908976581583789427",
+          "before": "8384330298885771358",
+          "op": "replace",
+          "path": "/depots/depots/5189092/manifests/linux-beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40219706,
+      "change_number": 40336554,
       "data": {
         "appinfo": {
           "common": {
@@ -1085,7 +1153,7 @@
               "english": "6e9ddcfe83c248605c33b561b7e8178c950bef2d/capsule_231x87.jpg"
             },
             "steam_release_date": "1790983169",
-            "store_asset_mtime": "1787911962",
+            "store_asset_mtime": "1793189265",
             "store_tags": {
               "0": "599",
               "1": "5432",
@@ -1141,15 +1209,15 @@
         "depots": {
           "branches": {
             "linux-beta": {
-              "buildid": "26193023",
+              "buildid": "26261696",
               "description": "Fork Bomb Linux",
-              "timebuildupdated": 1792904400,
-              "timeupdated": 1792909516
+              "timebuildupdated": 1793160334,
+              "timeupdated": 1793160503
             },
             "public": {
-              "buildid": "26193027",
-              "timebuildupdated": 1792904425,
-              "timeupdated": 1792909540
+              "buildid": "26261685",
+              "timebuildupdated": 1793160292,
+              "timeupdated": 1793160543
             }
           },
           "depots": {
@@ -1158,8 +1226,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "linux-beta": "7237218233670441932",
-                "public": "7237218233670441932"
+                "linux-beta": "615486761088148489",
+                "public": "615486761088148489"
               }
             },
             "5189092": {
@@ -1168,13 +1236,13 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "linux-beta": "8384330298885771358"
+                "linux-beta": "6908976581583789427"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-26T15:07:34.151Z",
+      "observed_at": "2026-10-29T08:37:46.063Z",
       "tracked": true
     },
     "steam_store": {
@@ -1320,5 +1388,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T15:07:34.151Z"
+  "updated_at": "2026-10-29T08:37:46.063Z"
 }

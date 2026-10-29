@@ -1326,11 +1326,54 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T08:37:46.063Z",
+      "change_number": 40370763,
+      "changes": [
+        {
+          "after": "58",
+          "before": "59",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": "26288037",
+          "before": "26232922",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793244642,
+          "before": 1793066688,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793244744,
+          "before": 1793066969,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8620767686388809625",
+          "before": "8165298243276060531",
+          "op": "replace",
+          "path": "/depots/depots/5235071/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40280641,
+      "change_number": 40370763,
       "data": {
         "appinfo": {
           "common": {
@@ -1441,7 +1484,7 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "4",
-            "review_percentage": "59",
+            "review_percentage": "58",
             "review_score": "5",
             "small_capsule": {
               "english": "bbe229eeef5ad9ccefa9f8cc82dbb9fa7140341b/capsule_231x87.jpg",
@@ -1472,7 +1515,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "百世成仙"
@@ -1507,25 +1551,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26232922",
-              "timebuildupdated": 1793066688,
-              "timeupdated": 1793066969
+              "buildid": "26288037",
+              "timebuildupdated": 1793244642,
+              "timeupdated": 1793244744
             }
           },
           "depots": {
             "5235071": {
               "manifests": {
-                "public": "8165298243276060531"
+                "public": "8620767686388809625"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-27T02:22:38.816Z",
+      "observed_at": "2026-10-29T08:37:46.063Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-27T02:22:38.816Z"
+  "updated_at": "2026-10-29T08:37:46.063Z"
 }

@@ -1153,21 +1153,101 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T08:37:46.063Z",
+      "change_number": 40370633,
+      "changes": [
+        {
+          "after": "OYU Games",
+          "before": "ShoXx",
+          "op": "replace",
+          "path": "/appinfo/common/associations/0/name"
+        },
+        {
+          "after": "OYU Games",
+          "before": "Oyen &amp; Umi Games",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/name"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/french"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/latam"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/spanish"
+        },
+        {
+          "after": "OYU Games",
+          "before": "ShoXx",
+          "op": "replace",
+          "path": "/appinfo/extended/developer"
+        },
+        {
+          "after": "OYU Games",
+          "before": "Oyen &amp; Umi Games",
+          "op": "replace",
+          "path": "/appinfo/extended/publisher"
+        },
+        {
+          "after": "26290693",
+          "before": "26152822",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793256339,
+          "before": 1792735364,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793256374,
+          "before": 1792736601,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1437648729780513741",
+          "before": "8031817891681132924",
+          "op": "replace",
+          "path": "/depots/depots/5258341/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40285137,
+      "change_number": 40370633,
       "data": {
         "appinfo": {
           "common": {
             "associations": {
               "0": {
-                "name": "ShoXx",
+                "name": "OYU Games",
                 "type": "developer"
               },
               "1": {
-                "name": "Oyen &amp; Umi Games",
+                "name": "OYU Games",
                 "type": "publisher"
               }
             },
@@ -1286,7 +1366,15 @@
                 "subtitles": "true",
                 "supported": "true"
               },
+              "french": {
+                "subtitles": "true",
+                "supported": "true"
+              },
               "german": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "latam": {
                 "subtitles": "true",
                 "supported": "true"
               },
@@ -1297,6 +1385,10 @@
               "schinese": {
                 "subtitles": "true",
                 "supported": "true"
+              },
+              "spanish": {
+                "subtitles": "true",
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -1305,8 +1397,8 @@
             "installdir": "One Million Coins"
           },
           "extended": {
-            "developer": "ShoXx",
-            "publisher": "Oyen &amp; Umi Games"
+            "developer": "OYU Games",
+            "publisher": "OYU Games"
           },
           "ufs": {
             "maxnumfiles": "100",
@@ -1326,9 +1418,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26152822",
-              "timebuildupdated": 1792735364,
-              "timeupdated": 1792736601
+              "buildid": "26290693",
+              "timebuildupdated": 1793256339,
+              "timeupdated": 1793256374
             }
           },
           "depots": {
@@ -1350,17 +1442,17 @@
             },
             "5258341": {
               "manifests": {
-                "public": "8031817891681132924"
+                "public": "1437648729780513741"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-27T05:37:36.408Z",
+      "observed_at": "2026-10-29T08:37:46.063Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-27T05:37:36.408Z"
+  "updated_at": "2026-10-29T08:37:46.063Z"
 }

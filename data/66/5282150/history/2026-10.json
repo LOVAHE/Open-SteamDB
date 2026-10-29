@@ -1584,11 +1584,30 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T08:37:46.063Z",
+      "change_number": 40370512,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": "1000",
+          "before": "100",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40229905,
+      "change_number": 40370512,
       "data": {
         "appinfo": {
           "common": {
@@ -1748,7 +1767,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "PlayAgainExpedition"
@@ -1758,7 +1778,7 @@
             "publisher": "滑稽工作室"
           },
           "ufs": {
-            "maxnumfiles": "100",
+            "maxnumfiles": "1000",
             "quota": "104857600",
             "savefiles": {
               "0": {
@@ -1789,7 +1809,7 @@
           }
         }
       },
-      "observed_at": "2026-10-26T13:22:35.056Z",
+      "observed_at": "2026-10-29T08:37:46.063Z",
       "tracked": true
     },
     "steam_store": {
@@ -1905,5 +1925,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T13:22:35.056Z"
+  "updated_at": "2026-10-29T08:37:46.063Z"
 }

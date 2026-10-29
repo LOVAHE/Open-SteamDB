@@ -1301,11 +1301,59 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T08:37:46.063Z",
+      "change_number": 40339025,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_22"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/community_visible_stats"
+        },
+        {
+          "after": "91",
+          "before": "92",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "26270834",
+          "before": "26218300",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793192225,
+          "before": 1793022892,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793192267,
+          "before": 1793023288,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5471580783578621616",
+          "before": "53133979383423930",
+          "op": "replace",
+          "path": "/depots/depots/5257201/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40274206,
+      "change_number": 40339025,
       "data": {
         "appinfo": {
           "common": {
@@ -1322,12 +1370,14 @@
             "category": {
               "category_1": "1",
               "category_2": "1",
+              "category_22": "1",
               "category_38": "1",
               "category_62": "1",
               "category_9": "1"
             },
             "clienticon": "3cdefcff199f55bfd9a0f9069a13329e0f96671b",
             "community_hub_visible": "1",
+            "community_visible_stats": "1",
             "genres": {
               "0": "4",
               "1": "23",
@@ -1399,7 +1449,7 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "37",
-            "review_percentage": "92",
+            "review_percentage": "91",
             "review_score": "8",
             "small_capsule": {
               "english": "f42f2535944b447698e6467b18c950f07b5812a4/capsule_231x87.jpg"
@@ -1446,21 +1496,21 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26218300",
-              "timebuildupdated": 1793022892,
-              "timeupdated": 1793023288
+              "buildid": "26270834",
+              "timebuildupdated": 1793192225,
+              "timeupdated": 1793192267
             }
           },
           "depots": {
             "5257201": {
               "manifests": {
-                "public": "53133979383423930"
+                "public": "5471580783578621616"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-26T21:52:38.366Z",
+      "observed_at": "2026-10-29T08:37:46.063Z",
       "tracked": true
     },
     "steam_store": {
@@ -1582,5 +1632,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T21:52:38.366Z"
+  "updated_at": "2026-10-29T08:37:46.063Z"
 }

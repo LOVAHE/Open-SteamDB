@@ -1,8 +1,8 @@
 {
   "appid": 5256950,
   "source": "steam_pics",
-  "updated_at": "2026-10-26T13:22:35.056Z",
-  "change_number": 40240773,
+  "updated_at": "2026-10-29T08:37:46.063Z",
+  "change_number": 40321463,
   "data": {
     "common": {
       "associations": {
@@ -137,6 +137,9 @@
         "18": "1084988"
       },
       "supported_languages": {
+        "english": {
+          "supported": "true"
+        },
         "japanese": {
           "supported": "true"
         },
@@ -155,6 +158,17 @@
     },
     "config": {
       "installdir": "SanGoFate"
+    },
+    "ufs": {
+      "maxnumfiles": "20",
+      "quota": "104857600",
+      "savefiles": {
+        "0": {
+          "path": "SanGoFate/cloud-saves-r2/steam-{Steam3AccountID}",
+          "pattern": "*",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }
