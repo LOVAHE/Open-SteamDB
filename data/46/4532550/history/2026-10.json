@@ -1447,11 +1447,103 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T17:37:42.773Z",
+      "change_number": 40392208,
+      "changes": [
+        {
+          "after": "0",
+          "before": "1",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/configuration/requires_manual_keyboard_invoke"
+        },
+        {
+          "after": "4",
+          "before": "3",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/2/display"
+        },
+        {
+          "after": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional",
+          "before": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/2/token"
+        },
+        {
+          "after": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant",
+          "before": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/3/token"
+        },
+        {
+          "before": {
+            "display": "4",
+            "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+          },
+          "op": "remove",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/4"
+        },
+        {
+          "before": {
+            "display": "1",
+            "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+          },
+          "op": "remove",
+          "path": "/appinfo/common/steam_deck_compatibility/steamos_tests/2"
+        },
+        {
+          "after": "1792688794",
+          "before": "1789055396",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/test_timestamp"
+        },
+        {
+          "after": "26068002",
+          "before": "25075522",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tested_build_id"
+        },
+        {
+          "after": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible",
+          "before": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/2/token"
+        },
+        {
+          "after": "4",
+          "before": "3",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/3/display"
+        },
+        {
+          "after": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional",
+          "before": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/3/token"
+        },
+        {
+          "after": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant",
+          "before": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/4/token"
+        },
+        {
+          "before": {
+            "display": "4",
+            "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+          },
+          "op": "remove",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/5"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40343439,
+      "change_number": 40392208,
       "data": {
         "appinfo": {
           "common": {
@@ -1600,7 +1692,7 @@
                 "requires_h264": "0",
                 "requires_internet_for_setup": "0",
                 "requires_internet_for_singleplayer": "0",
-                "requires_manual_keyboard_invoke": "1",
+                "requires_manual_keyboard_invoke": "0",
                 "requires_non_controller_launcher_nav": "0",
                 "requires_proton_soundfonts": "0",
                 "requires_voice_files": "0",
@@ -1618,14 +1710,10 @@
                   "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
                 },
                 "2": {
-                  "display": "3",
-                  "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
-                },
-                "3": {
                   "display": "4",
                   "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
                 },
-                "4": {
+                "3": {
                   "display": "4",
                   "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
                 }
@@ -1639,14 +1727,10 @@
                 "1": {
                   "display": "1",
                   "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
-                },
-                "2": {
-                  "display": "1",
-                  "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
                 }
               },
-              "test_timestamp": "1789055396",
-              "tested_build_id": "25075522",
+              "test_timestamp": "1792688794",
+              "tested_build_id": "26068002",
               "tests": {
                 "0": {
                   "display": "3",
@@ -1658,17 +1742,13 @@
                 },
                 "2": {
                   "display": "3",
-                  "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
-                },
-                "3": {
-                  "display": "3",
                   "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
                 },
-                "4": {
+                "3": {
                   "display": "4",
                   "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
                 },
-                "5": {
+                "4": {
                   "display": "4",
                   "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
                 }
@@ -1794,11 +1874,11 @@
           }
         }
       },
-      "observed_at": "2026-10-29T07:52:35.593Z",
+      "observed_at": "2026-10-29T17:37:42.773Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-29T07:52:35.593Z"
+  "updated_at": "2026-10-29T17:37:42.773Z"
 }
