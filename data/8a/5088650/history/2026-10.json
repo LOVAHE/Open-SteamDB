@@ -267,11 +267,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T15:37:44.145Z",
+      "change_number": 40387465,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos,linux",
+          "before": "windows,linux",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "1791527777",
+          "before": "1798704000",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "macos"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5088652"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39913862,
+      "change_number": 40387465,
       "data": {
         "appinfo": {
           "common": {
@@ -366,13 +403,13 @@
             },
             "name": "Lane Rider: Highway Runner",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows,linux",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos,linux",
             "primary_genre": "9",
             "small_capsule": {
               "english": "e51ff083f294cac36bdda73709960829f01a00ac/capsule_231x87.jpg"
             },
-            "steam_release_date": "1798704000",
+            "steam_release_date": "1791527777",
             "store_asset_mtime": "1790781108",
             "store_tags": {
               "0": "699",
@@ -454,6 +491,13 @@
                 "public": "2867294251668694578"
               }
             },
+            "5088652": {
+              "config": {
+                "osarch": "64",
+                "oslist": "macos"
+              },
+              "manifests": {}
+            },
             "5088653": {
               "config": {
                 "oslist": "linux"
@@ -473,11 +517,11 @@
           }
         }
       },
-      "observed_at": "2026-10-16T17:52:30.452Z",
+      "observed_at": "2026-10-29T15:37:44.145Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-16T17:52:30.452Z"
+  "updated_at": "2026-10-29T15:37:44.145Z"
 }
