@@ -274,11 +274,57 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T09:37:39.576Z",
+      "change_number": 40336858,
+      "changes": [
+        {
+          "after": "61",
+          "before": "66",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/vietnamese"
+        },
+        {
+          "after": "26244482",
+          "before": "26220132",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793107821,
+          "before": 1793027295,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793107842,
+          "before": 1793027319,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1322495774317578537",
+          "before": "8369825490689185890",
+          "op": "replace",
+          "path": "/depots/depots/5337871/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40260964,
+      "change_number": 40336858,
       "data": {
         "appinfo": {
           "common": {
@@ -369,7 +415,7 @@
             "oslist": "windows",
             "parent": "4986050",
             "primary_genre": "28",
-            "review_percentage": "66",
+            "review_percentage": "61",
             "review_score": "5",
             "small_capsule": {
               "english": "8fa94499515aad85d6b6211f510aefd17a09311a/capsule_231x87.jpg"
@@ -428,6 +474,10 @@
               "turkish": {
                 "subtitles": "true",
                 "supported": "true"
+              },
+              "vietnamese": {
+                "subtitles": "true",
+                "supported": "true"
               }
             },
             "type": "Demo"
@@ -443,25 +493,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26220132",
-              "timebuildupdated": 1793027295,
-              "timeupdated": 1793027319
+              "buildid": "26244482",
+              "timebuildupdated": 1793107821,
+              "timeupdated": 1793107842
             }
           },
           "depots": {
             "5337871": {
               "manifests": {
-                "public": "8369825490689185890"
+                "public": "1322495774317578537"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-26T15:37:36.904Z",
+      "observed_at": "2026-10-29T09:37:39.576Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T15:37:36.904Z"
+  "updated_at": "2026-10-29T09:37:39.576Z"
 }

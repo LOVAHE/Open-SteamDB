@@ -205,11 +205,61 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T09:37:39.576Z",
+      "change_number": 40333833,
+      "changes": [
+        {
+          "after": "macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos,linux",
+          "before": "windows,linux",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "1792941576",
+          "before": "1798704000",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "26267821",
+          "before": "26198554",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793183954,
+          "before": 1792940380,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793183954,
+          "before": 1792940380,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2630501065195252800",
+          "before": "1785490064756954978",
+          "op": "replace",
+          "path": "/depots/depots/5303894/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40228257,
+      "change_number": 40333833,
       "data": {
         "appinfo": {
           "common": {
@@ -299,13 +349,13 @@
             },
             "name": "Project Neko",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows,linux",
+            "osextended": "macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos,linux",
             "primary_genre": "1",
             "small_capsule": {
               "english": "6908826ee89888cec581e70756d2f050e5099804/capsule_231x87.jpg"
             },
-            "steam_release_date": "1798704000",
+            "steam_release_date": "1792941576",
             "store_asset_mtime": "1790006939",
             "store_tags": {
               "0": "1752",
@@ -343,9 +393,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26198554",
-              "timebuildupdated": 1792940380,
-              "timeupdated": 1792940380
+              "buildid": "26267821",
+              "timebuildupdated": 1793183954,
+              "timeupdated": 1793183954
             },
             "releasebuild": {
               "buildid": "25864847",
@@ -394,18 +444,18 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "1785490064756954978",
+                "public": "2630501065195252800",
                 "releasebuild": "1785490064756954978"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-26T13:22:35.056Z",
+      "observed_at": "2026-10-29T09:37:39.576Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T13:22:35.056Z"
+  "updated_at": "2026-10-29T09:37:39.576Z"
 }

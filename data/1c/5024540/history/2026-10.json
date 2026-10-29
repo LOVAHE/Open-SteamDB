@@ -2256,11 +2256,30 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T09:37:39.576Z",
+      "change_number": 40372790,
+      "changes": [
+        {
+          "after": "200",
+          "before": "100",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/0/recursive"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40350266,
+      "change_number": 40372790,
       "data": {
         "appinfo": {
           "common": {
@@ -2459,7 +2478,7 @@
             "publisher": "StreetMarkers Games"
           },
           "ufs": {
-            "maxnumfiles": "100",
+            "maxnumfiles": "200",
             "quota": "100000000",
             "rootoverrides": {
               "0": {
@@ -2479,6 +2498,7 @@
               "0": {
                 "path": "Godot/app_userdata/LIMP MODE",
                 "pattern": "save_*.cfg",
+                "recursive": "1",
                 "root": "WinAppDataRoaming"
               }
             }
@@ -2544,11 +2564,11 @@
           }
         }
       },
-      "observed_at": "2026-10-29T08:07:39.394Z",
+      "observed_at": "2026-10-29T09:37:39.576Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-29T08:07:39.394Z"
+  "updated_at": "2026-10-29T09:37:39.576Z"
 }

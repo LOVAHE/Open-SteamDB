@@ -252,11 +252,74 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T09:37:39.576Z",
+      "change_number": 40340719,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26272426",
+          "before": "26162664",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793196332,
+          "before": 1792765557,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793196408,
+          "before": 1792765913,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/5368861/config"
+        },
+        {
+          "after": "2382222262881133973",
+          "before": "4713695779455673081",
+          "op": "replace",
+          "path": "/depots/depots/5368861/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "2220069086404999527"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5368862"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40243946,
+      "change_number": 40340719,
       "data": {
         "appinfo": {
           "common": {
@@ -352,8 +415,8 @@
             },
             "name": "Grilluminati Demo",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "parent": "4703930",
             "primary_genre": "1",
             "review_percentage": "98",
@@ -383,25 +446,36 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26162664",
-              "timebuildupdated": 1792765557,
-              "timeupdated": 1792765913
+              "buildid": "26272426",
+              "timebuildupdated": 1793196332,
+              "timeupdated": 1793196408
             }
           },
           "depots": {
             "5368861": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
-                "public": "4713695779455673081"
+                "public": "2382222262881133973"
+              }
+            },
+            "5368862": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "2220069086404999527"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-26T15:37:36.904Z",
+      "observed_at": "2026-10-29T09:37:39.576Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T15:37:36.904Z"
+  "updated_at": "2026-10-29T09:37:39.576Z"
 }

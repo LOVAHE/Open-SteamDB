@@ -592,11 +592,29 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-10-29T09:37:39.576Z",
+      "change_number": 40315868,
+      "changes": [
+        {
+          "before": "100",
+          "op": "remove",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "before": "7",
+          "op": "remove",
+          "path": "/appinfo/common/review_score"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40107696,
+      "change_number": 40315868,
       "data": {
         "appinfo": {
           "common": {
@@ -700,8 +718,6 @@
             "oslist": "windows",
             "parent": "5058280",
             "primary_genre": "1",
-            "review_percentage": "100",
-            "review_score": "7",
             "small_capsule": {
               "english": "1669aa33621a13354f0bd378b59963beab3caac3/capsule_231x87.jpg"
             },
@@ -821,7 +837,7 @@
           }
         }
       },
-      "observed_at": "2026-10-26T13:22:35.056Z",
+      "observed_at": "2026-10-29T09:37:39.576Z",
       "tracked": true
     },
     "steam_store": {
@@ -999,5 +1015,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-28T10:24:37.727Z"
+  "updated_at": "2026-10-29T09:37:39.576Z"
 }
