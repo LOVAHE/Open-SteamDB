@@ -298,11 +298,42 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T17:10:48.131Z",
+      "change_number": 40390552,
+      "changes": [
+        {
+          "after": "26302286",
+          "before": "25992942",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793291264,
+          "before": 1792170095,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793293008,
+          "before": 1792177980,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1607319411920216950",
+          "op": "add",
+          "path": "/depots/depots/5362432/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40390173,
+      "change_number": 40390552,
       "data": {
         "appinfo": {
           "common": {
@@ -450,9 +481,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25992942",
-              "timebuildupdated": 1792170095,
-              "timeupdated": 1792177980
+              "buildid": "26302286",
+              "timebuildupdated": 1793291264,
+              "timeupdated": 1793293008
             }
           },
           "depots": {
@@ -478,7 +509,9 @@
                 "osarch": "64",
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "1607319411920216950"
+              }
             },
             "5362433": {
               "config": {
@@ -491,11 +524,11 @@
           }
         }
       },
-      "observed_at": "2026-10-29T16:52:48.621Z",
+      "observed_at": "2026-10-29T17:10:48.131Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-29T16:52:48.621Z"
+  "updated_at": "2026-10-29T17:10:48.131Z"
 }

@@ -193,11 +193,34 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T17:10:48.131Z",
+      "change_number": 40391087,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26303148",
+            "description": "Work-in-progress builds: unstable but shows things yet to be revealed!",
+            "timebuildupdated": 1793293534,
+            "timeupdated": 1793293543
+          },
+          "op": "add",
+          "path": "/depots/branches/beta"
+        },
+        {
+          "after": "6382336780449367210",
+          "op": "add",
+          "path": "/depots/depots/4199051/manifests/beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40299418,
+      "change_number": 40391087,
       "data": {
         "appinfo": {
           "common": {
@@ -362,6 +385,12 @@
         },
         "depots": {
           "branches": {
+            "beta": {
+              "buildid": "26303148",
+              "description": "Work-in-progress builds: unstable but shows things yet to be revealed!",
+              "timebuildupdated": 1793293534,
+              "timeupdated": 1793293543
+            },
             "public": {
               "buildid": "26245179",
               "timebuildupdated": 1793109704,
@@ -371,17 +400,18 @@
           "depots": {
             "4199051": {
               "manifests": {
+                "beta": "6382336780449367210",
                 "public": "8474540958919741016"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-29T07:22:40.217Z",
+      "observed_at": "2026-10-29T17:10:48.131Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-29T07:22:40.217Z"
+  "updated_at": "2026-10-29T17:10:48.131Z"
 }
