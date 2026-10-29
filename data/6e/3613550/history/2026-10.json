@@ -239,11 +239,71 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T23:22:53.371Z",
+      "change_number": 40402215,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos,linux",
+          "before": "windows,linux",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26310345",
+          "before": "26201055",
+          "op": "replace",
+          "path": "/depots/branches/beta/buildid"
+        },
+        {
+          "after": 1793315731,
+          "before": 1792951987,
+          "op": "replace",
+          "path": "/depots/branches/beta/timebuildupdated"
+        },
+        {
+          "after": 1793315765,
+          "before": 1792952120,
+          "op": "replace",
+          "path": "/depots/branches/beta/timeupdated"
+        },
+        {
+          "after": "2794759814851813908",
+          "before": "8797306815884176357",
+          "op": "replace",
+          "path": "/depots/depots/3613552/manifests/beta"
+        },
+        {
+          "after": "7823715367868599790",
+          "before": "8389632029587222841",
+          "op": "replace",
+          "path": "/depots/depots/3613553/manifests/beta"
+        },
+        {
+          "before": "64",
+          "op": "remove",
+          "path": "/depots/depots/3613554/config/osarch"
+        },
+        {
+          "after": "2788702429444467700",
+          "op": "add",
+          "path": "/depots/depots/3613554/manifests/beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40398834,
+      "change_number": 40402215,
       "data": {
         "appinfo": {
           "common": {
@@ -335,8 +395,8 @@
             },
             "name": "Checkmage!",
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows,linux",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos,linux",
             "primary_genre": "23",
             "small_capsule": {
               "english": "b67ac8b28be7f20396c522d5d564906a8fa174f6/capsule_231x87.jpg"
@@ -395,10 +455,10 @@
         "depots": {
           "branches": {
             "beta": {
-              "buildid": "26201055",
+              "buildid": "26310345",
               "description": "Beta branch",
-              "timebuildupdated": 1792951987,
-              "timeupdated": 1792952120
+              "timebuildupdated": 1793315731,
+              "timeupdated": 1793315765
             },
             "debug": {
               "buildid": "26201055",
@@ -432,7 +492,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "beta": "8797306815884176357",
+                "beta": "2794759814851813908",
                 "debug": "8797306815884176357",
                 "public": "7625960024523646999"
               }
@@ -442,26 +502,27 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "beta": "8389632029587222841",
+                "beta": "7823715367868599790",
                 "debug": "8389632029587222841",
                 "public": "4893946113801240052"
               }
             },
             "3613554": {
               "config": {
-                "osarch": "64",
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "beta": "2788702429444467700"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-29T21:22:47.194Z",
+      "observed_at": "2026-10-29T23:22:53.371Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-29T21:22:47.194Z"
+  "updated_at": "2026-10-29T23:22:53.371Z"
 }
