@@ -1204,11 +1204,51 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T09:52:40.195Z",
+      "change_number": 40374935,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "100",
+            "quota": "500000000"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26293243",
+          "before": "26291647",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793265794,
+          "before": 1793260391,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793266038,
+          "before": 1793260712,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8709972929558901548",
+          "before": "7893593659168414854",
+          "op": "replace",
+          "path": "/depots/depots/3955961/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40372365,
+      "change_number": 40374935,
       "data": {
         "appinfo": {
           "common": {
@@ -1434,14 +1474,18 @@
             "developer": "Spiritx2 Studio",
             "homepage": "https://steamcommunity.com/chat/invite/krjgomUC",
             "publisher": "Spiritx2 Studio"
+          },
+          "ufs": {
+            "maxnumfiles": "100",
+            "quota": "500000000"
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26291647",
-              "timebuildupdated": 1793260391,
-              "timeupdated": 1793260712
+              "buildid": "26293243",
+              "timebuildupdated": 1793265794,
+              "timeupdated": 1793266038
             }
           },
           "depots": {
@@ -1455,17 +1499,17 @@
             },
             "3955961": {
               "manifests": {
-                "public": "7893593659168414854"
+                "public": "8709972929558901548"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-29T08:37:46.063Z",
+      "observed_at": "2026-10-29T09:52:40.195Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-29T08:37:46.063Z"
+  "updated_at": "2026-10-29T09:52:40.195Z"
 }

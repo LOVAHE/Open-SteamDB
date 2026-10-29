@@ -207,11 +207,88 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-29T09:52:40.195Z",
+      "change_number": 40374467,
+      "changes": [
+        {
+          "before": "1",
+          "op": "remove",
+          "path": "/appinfo/common/category/category_18"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_22"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_28"
+        },
+        {
+          "after": "full",
+          "before": "partial",
+          "op": "replace",
+          "path": "/appinfo/common/controller_support"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/french"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/german"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/japanese"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/koreana"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40358018,
+      "change_number": 40374467,
       "data": {
         "appinfo": {
           "common": {
@@ -227,9 +304,10 @@
             },
             "category": {
               "category_1": "1",
-              "category_18": "1",
               "category_2": "1",
+              "category_22": "1",
               "category_23": "1",
+              "category_28": "1",
               "category_38": "1",
               "category_62": "1",
               "category_9": "1"
@@ -237,7 +315,7 @@
             "clienticon": "eafca3ca03a36bf709f79b06c12a97300549a3db",
             "community_hub_visible": "1",
             "community_visible_stats": "1",
-            "controller_support": "partial",
+            "controller_support": "full",
             "genres": {
               "0": "4",
               "1": "23",
@@ -340,6 +418,30 @@
               "english": {
                 "subtitles": "true",
                 "supported": "true"
+              },
+              "french": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "german": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "japanese": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "koreana": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "russian": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "schinese": {
+                "subtitles": "true",
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -405,11 +507,11 @@
           }
         }
       },
-      "observed_at": "2026-10-29T07:22:40.217Z",
+      "observed_at": "2026-10-29T09:52:40.195Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-29T07:22:40.217Z"
+  "updated_at": "2026-10-29T09:52:40.195Z"
 }
