@@ -331,11 +331,38 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T13:22:53.173Z",
+      "change_number": 40423322,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "5",
+            "quota": "100000000",
+            "savefiles": {
+              "0": {
+                "path": "SOUL CAT Entertainment Sdn Bhd/FaceTrack Demo",
+                "pattern": "*",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40286046,
+      "change_number": 40423322,
       "data": {
         "appinfo": {
           "common": {
@@ -498,6 +525,21 @@
             "developer": "SCE Games Studio",
             "homepage": "https://soulcatentertainment.com/solutions/facetrack",
             "publisher": "SOUL CAT Entertainment"
+          },
+          "ufs": {
+            "maxnumfiles": "5",
+            "quota": "100000000",
+            "savefiles": {
+              "0": {
+                "path": "SOUL CAT Entertainment Sdn Bhd/FaceTrack Demo",
+                "pattern": "*",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -521,11 +563,11 @@
           }
         }
       },
-      "observed_at": "2026-10-27T06:37:37.195Z",
+      "observed_at": "2026-10-30T13:22:53.173Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-27T06:37:37.195Z"
+  "updated_at": "2026-10-30T13:22:53.173Z"
 }
