@@ -212,11 +212,80 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T19:37:56.406Z",
+      "change_number": 40436686,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26332389",
+            "description": "Dedicated branch for pre-release testing",
+            "timebuildupdated": 1793388295,
+            "timeupdated": 1793388529
+          },
+          "op": "add",
+          "path": "/depots/branches/prerelease"
+        },
+        {
+          "after": "26332389",
+          "before": "25994548",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793388295,
+          "before": 1792174378,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793389035,
+          "before": 1792174486,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8637613337757787456",
+          "op": "add",
+          "path": "/depots/depots/5038622/manifests/prerelease"
+        },
+        {
+          "after": "8637613337757787456",
+          "before": "4873691953862859800",
+          "op": "replace",
+          "path": "/depots/depots/5038622/manifests/public"
+        },
+        {
+          "after": "5247888322445286097",
+          "op": "add",
+          "path": "/depots/depots/5038623/manifests/prerelease"
+        },
+        {
+          "after": "5247888322445286097",
+          "before": "8834355516885878113",
+          "op": "replace",
+          "path": "/depots/depots/5038623/manifests/public"
+        },
+        {
+          "after": "2297073648859905747",
+          "op": "add",
+          "path": "/depots/depots/5038624/manifests/prerelease"
+        },
+        {
+          "after": "2297073648859905747",
+          "before": "3805120152711824907",
+          "op": "replace",
+          "path": "/depots/depots/5038624/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40407555,
+      "change_number": 40436686,
       "data": {
         "appinfo": {
           "common": {
@@ -381,10 +450,16 @@
         },
         "depots": {
           "branches": {
+            "prerelease": {
+              "buildid": "26332389",
+              "description": "Dedicated branch for pre-release testing",
+              "timebuildupdated": 1793388295,
+              "timeupdated": 1793388529
+            },
             "public": {
-              "buildid": "25994548",
-              "timebuildupdated": 1792174378,
-              "timeupdated": 1792174486
+              "buildid": "26332389",
+              "timebuildupdated": 1793388295,
+              "timeupdated": 1793389035
             }
           },
           "depots": {
@@ -393,7 +468,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "4873691953862859800"
+                "prerelease": "8637613337757787456",
+                "public": "8637613337757787456"
               }
             },
             "5038623": {
@@ -401,7 +477,8 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "8834355516885878113"
+                "prerelease": "5247888322445286097",
+                "public": "5247888322445286097"
               }
             },
             "5038624": {
@@ -409,17 +486,18 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "3805120152711824907"
+                "prerelease": "2297073648859905747",
+                "public": "2297073648859905747"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-30T04:52:39.991Z",
+      "observed_at": "2026-10-30T19:37:56.406Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-30T04:52:39.991Z"
+  "updated_at": "2026-10-30T19:37:56.406Z"
 }
