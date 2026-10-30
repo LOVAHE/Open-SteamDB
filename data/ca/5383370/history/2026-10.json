@@ -448,11 +448,61 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T21:52:46.066Z",
+      "change_number": 40440457,
+      "changes": [
+        {
+          "after": "26335058",
+          "before": "26334744",
+          "op": "replace",
+          "path": "/depots/branches/beta/buildid"
+        },
+        {
+          "after": 1793397134,
+          "before": 1793395951,
+          "op": "replace",
+          "path": "/depots/branches/beta/timebuildupdated"
+        },
+        {
+          "after": 1793397135,
+          "before": 1793395953,
+          "op": "replace",
+          "path": "/depots/branches/beta/timeupdated"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "windows"
+            },
+            "depotfromapp": 228980,
+            "manifests": {},
+            "sharedinstall": true
+          },
+          "op": "add",
+          "path": "/depots/depots/228989"
+        },
+        {
+          "after": "3726010014197361110",
+          "before": "6698951343768909020",
+          "op": "replace",
+          "path": "/depots/depots/5383372/manifests/beta"
+        },
+        {
+          "after": "3988854700145944990",
+          "before": "6166983426295390679",
+          "op": "replace",
+          "path": "/depots/depots/5383373/manifests/beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40439930,
+      "change_number": 40440457,
       "data": {
         "appinfo": {
           "common": {
@@ -584,10 +634,10 @@
         "depots": {
           "branches": {
             "beta": {
-              "buildid": "26334744",
+              "buildid": "26335058",
               "description": "Testing branch",
-              "timebuildupdated": 1793395951,
-              "timeupdated": 1793395953
+              "timebuildupdated": 1793397134,
+              "timeupdated": 1793397135
             },
             "public": {
               "buildid": "26316696",
@@ -596,12 +646,20 @@
             }
           },
           "depots": {
+            "228989": {
+              "config": {
+                "oslist": "windows"
+              },
+              "depotfromapp": 228980,
+              "manifests": {},
+              "sharedinstall": true
+            },
             "5383372": {
               "config": {
                 "oslist": "linux"
               },
               "manifests": {
-                "beta": "6698951343768909020",
+                "beta": "3726010014197361110",
                 "public": "8154925956657221627"
               }
             },
@@ -610,18 +668,18 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "beta": "6166983426295390679",
+                "beta": "3988854700145944990",
                 "public": "6295426114082180314"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-30T21:37:44.310Z",
+      "observed_at": "2026-10-30T21:52:46.066Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-30T21:37:44.310Z"
+  "updated_at": "2026-10-30T21:52:46.066Z"
 }
