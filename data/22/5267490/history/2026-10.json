@@ -438,11 +438,61 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T15:22:53.889Z",
+      "change_number": 40427420,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "macos64",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "87",
+          "before": "90",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "26326763",
+          "before": "26304032",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793373203,
+          "before": 1793295959,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793373317,
+          "before": 1793295989,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4742092810988456699",
+          "before": "5897984395132121699",
+          "op": "replace",
+          "path": "/depots/depots/5267491/manifests/public"
+        },
+        {
+          "after": "3056298664701466648",
+          "before": "8139988925494244777",
+          "op": "replace",
+          "path": "/depots/depots/5267492/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40427118,
+      "change_number": 40427420,
       "data": {
         "appinfo": {
           "common": {
@@ -593,10 +643,10 @@
             },
             "name": "Lantern Hollow",
             "osarch": "",
-            "osextended": "macos64",
+            "osextended": "macos64,macosapplesilicon",
             "oslist": "windows,macos",
             "primary_genre": "4",
-            "review_percentage": "90",
+            "review_percentage": "87",
             "review_score": "7",
             "small_capsule": {
               "english": "40d02f8e907d6234659c8a60b01ecaf3d7d96f38/capsule_231x87.jpg",
@@ -752,15 +802,15 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26304032",
-              "timebuildupdated": 1793295959,
-              "timeupdated": 1793295989
+              "buildid": "26326763",
+              "timebuildupdated": 1793373203,
+              "timeupdated": 1793373317
             }
           },
           "depots": {
             "5267491": {
               "manifests": {
-                "public": "5897984395132121699"
+                "public": "4742092810988456699"
               }
             },
             "5267492": {
@@ -769,17 +819,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "8139988925494244777"
+                "public": "3056298664701466648"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-30T15:07:56.603Z",
+      "observed_at": "2026-10-30T15:22:53.889Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-30T15:07:56.603Z"
+  "updated_at": "2026-10-30T15:22:53.889Z"
 }
