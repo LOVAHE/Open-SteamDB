@@ -165,11 +165,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T18:52:45.611Z",
+      "change_number": 40434958,
+      "changes": [
+        {
+          "after": "a274f91bf5a4df53794e56f3578dcebdf8ff4acb/header.jpg",
+          "before": "header.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/header_image/english"
+        },
+        {
+          "after": {
+            "library_capsule": "en"
+          },
+          "op": "add",
+          "path": "/appinfo/common/library_assets"
+        },
+        {
+          "after": {
+            "library_capsule": {
+              "image": {
+                "english": "4bb878926628c3ce5184b853e71491c5389e3b15/library_capsule.jpg"
+              },
+              "image2x": {
+                "english": "4bb878926628c3ce5184b853e71491c5389e3b15/library_capsule_2x.jpg"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full"
+        },
+        {
+          "after": "cd4b268f79fb9dd07082c3e528315685a248eca1/capsule_231x87.jpg",
+          "before": "capsule_231x87.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/small_capsule/english"
+        },
+        {
+          "after": "1793385532",
+          "before": "1464992648",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40434121,
+      "change_number": 40434958,
       "data": {
         "appinfo": {
           "common": {
@@ -199,9 +246,22 @@
               "1": "23"
             },
             "header_image": {
-              "english": "header.jpg"
+              "english": "a274f91bf5a4df53794e56f3578dcebdf8ff4acb/header.jpg"
             },
             "icon": "7ce57180e4e1f9b223dbebcc39a8dac7e437f961",
+            "library_assets": {
+              "library_capsule": "en"
+            },
+            "library_assets_full": {
+              "library_capsule": {
+                "image": {
+                  "english": "4bb878926628c3ce5184b853e71491c5389e3b15/library_capsule.jpg"
+                },
+                "image2x": {
+                  "english": "4bb878926628c3ce5184b853e71491c5389e3b15/library_capsule_2x.jpg"
+                }
+              }
+            },
             "logo": "899e0bf9173143fd298fce33bda5e2761549ec1e",
             "logo_small": "899e0bf9173143fd298fce33bda5e2761549ec1e_thumb",
             "metacritic_name": "Dawn of the Robot Empire",
@@ -211,10 +271,10 @@
             "oslist": "android",
             "primary_genre": "1",
             "small_capsule": {
-              "english": "capsule_231x87.jpg"
+              "english": "cd4b268f79fb9dd07082c3e528315685a248eca1/capsule_231x87.jpg"
             },
             "steam_release_date": "1792979236",
-            "store_asset_mtime": "1464992648",
+            "store_asset_mtime": "1793385532",
             "store_tags": {
               "0": "19",
               "1": "492",
@@ -267,11 +327,11 @@
           }
         }
       },
-      "observed_at": "2026-10-30T18:22:48.766Z",
+      "observed_at": "2026-10-30T18:52:45.611Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-30T18:22:48.766Z"
+  "updated_at": "2026-10-30T18:52:45.611Z"
 }
