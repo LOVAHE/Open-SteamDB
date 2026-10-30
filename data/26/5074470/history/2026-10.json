@@ -1007,11 +1007,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T08:22:53.543Z",
+      "change_number": 40413975,
+      "changes": [
+        {
+          "after": "26318297",
+          "before": "26317745",
+          "op": "replace",
+          "path": "/depots/branches/test/buildid"
+        },
+        {
+          "after": 1793348168,
+          "before": 1793345889,
+          "op": "replace",
+          "path": "/depots/branches/test/timebuildupdated"
+        },
+        {
+          "after": 1793348177,
+          "before": 1793345896,
+          "op": "replace",
+          "path": "/depots/branches/test/timeupdated"
+        },
+        {
+          "after": "3712439706066890715",
+          "before": "7109785082566685574",
+          "op": "replace",
+          "path": "/depots/depots/5074471/manifests/test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40413060,
+      "change_number": 40413975,
       "data": {
         "appinfo": {
           "common": {
@@ -1285,27 +1317,27 @@
               "timeupdated": 1793291765
             },
             "test": {
-              "buildid": "26317745",
+              "buildid": "26318297",
               "description": "测试版本",
-              "timebuildupdated": 1793345889,
-              "timeupdated": 1793345896
+              "timebuildupdated": 1793348168,
+              "timeupdated": 1793348177
             }
           },
           "depots": {
             "5074471": {
               "manifests": {
                 "public": "554882946995279411",
-                "test": "7109785082566685574"
+                "test": "3712439706066890715"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-30T07:37:43.637Z",
+      "observed_at": "2026-10-30T08:22:53.543Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-30T07:37:43.637Z"
+  "updated_at": "2026-10-30T08:22:53.543Z"
 }
