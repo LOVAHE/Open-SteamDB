@@ -312,11 +312,51 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T07:52:43.140Z",
+      "change_number": 40413243,
+      "changes": [
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/4080862"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "dlcappid": 4978650,
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/4978651"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "dlcappid": 5071060,
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5071061"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40226072,
+      "change_number": 40413243,
       "data": {
         "appinfo": {
           "common": {
@@ -491,6 +531,12 @@
                 "public": "5819048000483348193"
               }
             },
+            "4080862": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {}
+            },
             "4978650": {
               "config": {
                 "oslist": "windows"
@@ -501,6 +547,13 @@
                 "public": "6651212888566090237"
               }
             },
+            "4978651": {
+              "config": {
+                "oslist": "macos"
+              },
+              "dlcappid": 4978650,
+              "manifests": {}
+            },
             "5071060": {
               "config": {
                 "oslist": "windows"
@@ -509,15 +562,22 @@
               "manifests": {
                 "prototype-multiplayer": "966347855504135735"
               }
+            },
+            "5071061": {
+              "config": {
+                "oslist": "macos"
+              },
+              "dlcappid": 5071060,
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-10-26T14:52:37.831Z",
+      "observed_at": "2026-10-30T07:52:43.140Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T14:52:37.831Z"
+  "updated_at": "2026-10-30T07:52:43.140Z"
 }
