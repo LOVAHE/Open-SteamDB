@@ -344,11 +344,25 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T17:56:47.017Z",
+      "change_number": 40433420,
+      "changes": [
+        {
+          "after": "save_slot_0.json*",
+          "before": "save_slot_*.json*",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/pattern"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40431061,
+      "change_number": 40433420,
       "data": {
         "appinfo": {
           "common": {
@@ -504,7 +518,7 @@
             "savefiles": {
               "0": {
                 "path": "XumiImmortalIndustry/Demo_5289820/accounts/{64BitSteamID}",
-                "pattern": "save_slot_*.json*",
+                "pattern": "save_slot_0.json*",
                 "platforms": {
                   "1": "Windows"
                 },
@@ -569,11 +583,11 @@
           }
         }
       },
-      "observed_at": "2026-10-30T16:52:49.701Z",
+      "observed_at": "2026-10-30T17:56:47.017Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-30T16:52:49.701Z"
+  "updated_at": "2026-10-30T17:56:47.017Z"
 }

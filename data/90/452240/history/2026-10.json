@@ -102,11 +102,56 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T17:56:47.017Z",
+      "change_number": 40433470,
+      "changes": [
+        {
+          "after": "26330454",
+          "before": "26208192",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793382975,
+          "before": 1792984274,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793383012,
+          "before": 1792984342,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5146273141442046292",
+          "before": "5310905306441003802",
+          "op": "replace",
+          "path": "/depots/depots/452243/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "windows"
+            },
+            "manifests": {
+              "public": "4226971604120376413"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/452244"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40241952,
+      "change_number": 40433470,
       "data": {
         "appinfo": {
           "common": {
@@ -177,9 +222,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26208192",
-              "timebuildupdated": 1792984274,
-              "timeupdated": 1792984342
+              "buildid": "26330454",
+              "timebuildupdated": 1793382975,
+              "timeupdated": 1793383012
             }
           },
           "depots": {
@@ -189,17 +234,26 @@
                 "oslist": "android"
               },
               "manifests": {
-                "public": "5310905306441003802"
+                "public": "5146273141442046292"
+              }
+            },
+            "452244": {
+              "config": {
+                "osarch": "64",
+                "oslist": "windows"
+              },
+              "manifests": {
+                "public": "4226971604120376413"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-29T07:22:40.217Z",
+      "observed_at": "2026-10-30T17:56:47.017Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-29T07:22:40.217Z"
+  "updated_at": "2026-10-30T17:56:47.017Z"
 }
