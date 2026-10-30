@@ -193,11 +193,63 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T04:07:50.583Z",
+      "change_number": 40408823,
+      "changes": [
+        {
+          "after": "macos64",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26314868",
+          "before": "26300206",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793333092,
+          "before": 1793285840,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793333092,
+          "before": 1793285878,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "config": {
+              "language": "english",
+              "osarch": "64",
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "7575461158177483000"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/4966613"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40385982,
+      "change_number": 40408823,
       "data": {
         "appinfo": {
           "common": {
@@ -286,8 +338,8 @@
             },
             "name": "PRIEST Demo",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64",
+            "oslist": "windows,macos",
             "parent": "4929330",
             "primary_genre": "23",
             "small_capsule": {
@@ -313,9 +365,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26300206",
-              "timebuildupdated": 1793285840,
-              "timeupdated": 1793285878
+              "buildid": "26314868",
+              "timebuildupdated": 1793333092,
+              "timeupdated": 1793333092
             }
           },
           "depots": {
@@ -335,15 +387,25 @@
               "manifests": {
                 "public": "4374665205178013739"
               }
+            },
+            "4966613": {
+              "config": {
+                "language": "english",
+                "osarch": "64",
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "7575461158177483000"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-29T15:07:43.659Z",
+      "observed_at": "2026-10-30T04:07:50.583Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-29T15:07:43.659Z"
+  "updated_at": "2026-10-30T04:07:50.583Z"
 }
