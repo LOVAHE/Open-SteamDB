@@ -215,11 +215,106 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T07:07:43.037Z",
+      "change_number": 40412380,
+      "changes": [
+        {
+          "after": "26229918",
+          "before": "26201690",
+          "op": "replace",
+          "path": "/depots/branches/past/buildid"
+        },
+        {
+          "after": 1793055535,
+          "before": 1792954515,
+          "op": "replace",
+          "path": "/depots/branches/past/timebuildupdated"
+        },
+        {
+          "after": 1793055850,
+          "before": 1792958727,
+          "op": "replace",
+          "path": "/depots/branches/past/timeupdated"
+        },
+        {
+          "after": {
+            "buildid": "26191271",
+            "description": "Public prerelease save compatible branch.",
+            "timebuildupdated": 1792892648,
+            "timeupdated": 1793343962
+          },
+          "op": "add",
+          "path": "/depots/branches/prerelease"
+        },
+        {
+          "after": "26316860",
+          "before": "26223804",
+          "op": "replace",
+          "path": "/depots/branches/preview/buildid"
+        },
+        {
+          "after": 1793342231,
+          "before": 1793036549,
+          "op": "replace",
+          "path": "/depots/branches/preview/timebuildupdated"
+        },
+        {
+          "after": 1793343722,
+          "before": 1793036603,
+          "op": "replace",
+          "path": "/depots/branches/preview/timeupdated"
+        },
+        {
+          "after": "26316860",
+          "before": "26229918",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793342231,
+          "before": 1793055535,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793343721,
+          "before": 1793055850,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2529913074947537293",
+          "before": "2930596691849017914",
+          "op": "replace",
+          "path": "/depots/depots/4831661/manifests/past"
+        },
+        {
+          "after": "3974878724269238220",
+          "op": "add",
+          "path": "/depots/depots/4831661/manifests/prerelease"
+        },
+        {
+          "after": "1695780146287926865",
+          "before": "7668135513004669127",
+          "op": "replace",
+          "path": "/depots/depots/4831661/manifests/preview"
+        },
+        {
+          "after": "1695780146287926865",
+          "before": "2529913074947537293",
+          "op": "replace",
+          "path": "/depots/depots/4831661/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40411732,
+      "change_number": 40412380,
       "data": {
         "appinfo": {
           "common": {
@@ -367,21 +462,27 @@
         "depots": {
           "branches": {
             "past": {
-              "buildid": "26201690",
-              "description": "Public past save compatible branch.",
-              "timebuildupdated": 1792954515,
-              "timeupdated": 1792958727
-            },
-            "preview": {
-              "buildid": "26223804",
-              "description": "Public preview branch.",
-              "timebuildupdated": 1793036549,
-              "timeupdated": 1793036603
-            },
-            "public": {
               "buildid": "26229918",
+              "description": "Public past save compatible branch.",
               "timebuildupdated": 1793055535,
               "timeupdated": 1793055850
+            },
+            "prerelease": {
+              "buildid": "26191271",
+              "description": "Public prerelease save compatible branch.",
+              "timebuildupdated": 1792892648,
+              "timeupdated": 1793343962
+            },
+            "preview": {
+              "buildid": "26316860",
+              "description": "Public preview branch.",
+              "timebuildupdated": 1793342231,
+              "timeupdated": 1793343722
+            },
+            "public": {
+              "buildid": "26316860",
+              "timebuildupdated": 1793342231,
+              "timeupdated": 1793343721
             }
           },
           "depots": {
@@ -392,19 +493,20 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "past": "2930596691849017914",
-                "preview": "7668135513004669127",
-                "public": "2529913074947537293"
+                "past": "2529913074947537293",
+                "prerelease": "3974878724269238220",
+                "preview": "1695780146287926865",
+                "public": "1695780146287926865"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-30T06:52:49.262Z",
+      "observed_at": "2026-10-30T07:07:43.037Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-30T06:52:49.262Z"
+  "updated_at": "2026-10-30T07:07:43.037Z"
 }
