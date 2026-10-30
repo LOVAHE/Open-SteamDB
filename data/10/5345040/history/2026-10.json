@@ -256,11 +256,34 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T07:22:44.204Z",
+      "change_number": 40412512,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "20",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "FlowDot/Stick A Fork/saves",
+                "pattern": "StickAFork.Save.*",
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40388870,
+      "change_number": 40412512,
       "data": {
         "appinfo": {
           "common": {
@@ -484,6 +507,17 @@
           "extended": {
             "developer": "Flowdot",
             "publisher": "Flowdot"
+          },
+          "ufs": {
+            "maxnumfiles": "20",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "FlowDot/Stick A Fork/saves",
+                "pattern": "StickAFork.Save.*",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -503,11 +537,11 @@
           }
         }
       },
-      "observed_at": "2026-10-29T22:22:48.753Z",
+      "observed_at": "2026-10-30T07:22:44.204Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-29T22:22:48.753Z"
+  "updated_at": "2026-10-30T07:22:44.204Z"
 }
