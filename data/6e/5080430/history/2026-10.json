@@ -417,11 +417,67 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T06:22:48.896Z",
+      "change_number": 40411333,
+      "changes": [
+        {
+          "after": "26301072",
+          "before": "26292207",
+          "op": "replace",
+          "path": "/depots/branches/lastworking/buildid"
+        },
+        {
+          "after": 1793288263,
+          "before": 1793262400,
+          "op": "replace",
+          "path": "/depots/branches/lastworking/timebuildupdated"
+        },
+        {
+          "after": 1793288289,
+          "before": 1793262426,
+          "op": "replace",
+          "path": "/depots/branches/lastworking/timeupdated"
+        },
+        {
+          "after": "26316589",
+          "before": "26301072",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793341052,
+          "before": 1793288263,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793341081,
+          "before": 1793288289,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "635926036956443284",
+          "before": "8284125606261203670",
+          "op": "replace",
+          "path": "/depots/depots/5080431/manifests/lastworking"
+        },
+        {
+          "after": "8900076766759044510",
+          "before": "635926036956443284",
+          "op": "replace",
+          "path": "/depots/depots/5080431/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40393436,
+      "change_number": 40411333,
       "data": {
         "appinfo": {
           "common": {
@@ -630,15 +686,15 @@
         "depots": {
           "branches": {
             "lastworking": {
-              "buildid": "26292207",
-              "description": "Last working branch backup",
-              "timebuildupdated": 1793262400,
-              "timeupdated": 1793262426
-            },
-            "public": {
               "buildid": "26301072",
+              "description": "Last working branch backup",
               "timebuildupdated": 1793288263,
               "timeupdated": 1793288289
+            },
+            "public": {
+              "buildid": "26316589",
+              "timebuildupdated": 1793341052,
+              "timeupdated": 1793341081
             },
             "test": {
               "buildid": "26256510",
@@ -653,19 +709,19 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "lastworking": "8284125606261203670",
-                "public": "635926036956443284",
+                "lastworking": "635926036956443284",
+                "public": "8900076766759044510",
                 "test": "3857505161374900264"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-29T18:22:44.523Z",
+      "observed_at": "2026-10-30T06:22:48.896Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-29T18:22:44.523Z"
+  "updated_at": "2026-10-30T06:22:48.896Z"
 }
