@@ -465,11 +465,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T08:52:49.811Z",
+      "change_number": 40414933,
+      "changes": [
+        {
+          "before": {
+            "buildid": "25190815",
+            "description": "arnas testing branch",
+            "timebuildupdated": 1788883139,
+            "timeupdated": 1788883139
+          },
+          "op": "remove",
+          "path": "/depots/branches/test"
+        },
+        {
+          "before": "4812150082291174776",
+          "op": "remove",
+          "path": "/depots/depots/3818451/manifests/test"
+        },
+        {
+          "before": "174626770566794009",
+          "op": "remove",
+          "path": "/depots/depots/3818452/manifests/test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40411239,
+      "change_number": 40414933,
       "data": {
         "appinfo": {
           "common": {
@@ -632,12 +660,6 @@
               "buildid": "26310803",
               "timebuildupdated": 1793317352,
               "timeupdated": 1793319211
-            },
-            "test": {
-              "buildid": "25190815",
-              "description": "arnas testing branch",
-              "timebuildupdated": 1788883139,
-              "timeupdated": 1788883139
             }
           },
           "depots": {
@@ -646,8 +668,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "9019589340679579177",
-                "test": "4812150082291174776"
+                "public": "9019589340679579177"
               }
             },
             "3818452": {
@@ -655,8 +676,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "8041716725726154179",
-                "test": "174626770566794009"
+                "public": "8041716725726154179"
               }
             },
             "3818453": {
@@ -670,11 +690,11 @@
           }
         }
       },
-      "observed_at": "2026-10-30T06:22:48.896Z",
+      "observed_at": "2026-10-30T08:52:49.811Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-30T06:22:48.896Z"
+  "updated_at": "2026-10-30T08:52:49.811Z"
 }
