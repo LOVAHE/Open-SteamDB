@@ -586,11 +586,61 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T19:22:55.693Z",
+      "change_number": 40436161,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26332109",
+          "before": "26188451",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793387484,
+          "before": 1792876561,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793387776,
+          "before": 1792876770,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4237849921205400817",
+          "before": "7349307582640035593",
+          "op": "replace",
+          "path": "/depots/depots/4995031/manifests/public"
+        },
+        {
+          "after": "5034939862538948851",
+          "before": "7757524207337735989",
+          "op": "replace",
+          "path": "/depots/depots/4995032/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40402341,
+      "change_number": 40436161,
       "data": {
         "appinfo": {
           "common": {
@@ -686,8 +736,8 @@
             },
             "name": "Folded Fables: Tidy Up The Dragon Hoard",
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "primary_genre": "28",
             "review_percentage": "96",
             "review_score": "8",
@@ -802,9 +852,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26188451",
-              "timebuildupdated": 1792876561,
-              "timeupdated": 1792876770
+              "buildid": "26332109",
+              "timebuildupdated": 1793387484,
+              "timeupdated": 1793387776
             }
           },
           "depots": {
@@ -813,7 +863,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "7349307582640035593"
+                "public": "4237849921205400817"
               }
             },
             "4995032": {
@@ -821,17 +871,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "7757524207337735989"
+                "public": "5034939862538948851"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-29T23:22:53.371Z",
+      "observed_at": "2026-10-30T19:22:55.693Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-29T23:22:53.371Z"
+  "updated_at": "2026-10-30T19:22:55.693Z"
 }
