@@ -214,11 +214,37 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T14:07:48.107Z",
+      "change_number": 40424913,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "1793348795",
+          "before": "1798704000",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40415368,
+      "change_number": 40424913,
       "data": {
         "appinfo": {
           "common": {
@@ -321,13 +347,13 @@
               "schinese": "哭到天荒 (Cry Me a Cosmos)"
             },
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos",
             "primary_genre": "2",
             "small_capsule": {
               "english": "69be122746acd28aa87b5a3ee12fa744d2999cc5/capsule_231x87.jpg"
             },
-            "steam_release_date": "1798704000",
+            "steam_release_date": "1793348795",
             "store_asset_mtime": "1793327224",
             "store_tags": {
               "0": "1091588",
@@ -419,11 +445,11 @@
           }
         }
       },
-      "observed_at": "2026-10-30T11:52:52.611Z",
+      "observed_at": "2026-10-30T14:07:48.107Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-30T11:52:52.611Z"
+  "updated_at": "2026-10-30T14:07:48.107Z"
 }
