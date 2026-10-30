@@ -265,11 +265,37 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T17:10:50.816Z",
+      "change_number": 40431246,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/russian"
+        },
+        {
+          "after": "1793368872",
+          "before": "1792656699",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40430797,
+      "change_number": 40431246,
       "data": {
         "appinfo": {
           "common": {
@@ -315,6 +341,7 @@
               "german": "1",
               "japanese": "1",
               "koreana": "1",
+              "russian": "1",
               "schinese": "1",
               "spanish": "1"
             },
@@ -383,7 +410,7 @@
               "english": "73e7d31c1d04aa419840352b3670bdcd946ccda0/capsule_231x87.jpg"
             },
             "steam_release_date": "1793137791",
-            "store_asset_mtime": "1792656699",
+            "store_asset_mtime": "1793368872",
             "store_tags": {
               "0": "560542",
               "1": "615955",
@@ -423,6 +450,9 @@
                 "supported": "true"
               },
               "koreana": {
+                "supported": "true"
+              },
+              "russian": {
                 "supported": "true"
               },
               "schinese": {
@@ -482,11 +512,11 @@
           }
         }
       },
-      "observed_at": "2026-10-30T16:52:49.701Z",
+      "observed_at": "2026-10-30T17:10:50.816Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-30T16:52:49.701Z"
+  "updated_at": "2026-10-30T17:10:50.816Z"
 }
