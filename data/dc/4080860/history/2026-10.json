@@ -352,11 +352,64 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T12:07:50.340Z",
+      "change_number": 40420324,
+      "changes": [
+        {
+          "after": "26322129",
+          "before": "26197203",
+          "op": "replace",
+          "path": "/depots/branches/prototype-multiplayer/buildid"
+        },
+        {
+          "after": 1793360308,
+          "before": 1792932888,
+          "op": "replace",
+          "path": "/depots/branches/prototype-multiplayer/timebuildupdated"
+        },
+        {
+          "after": 1793361250,
+          "before": 1792934635,
+          "op": "replace",
+          "path": "/depots/branches/prototype-multiplayer/timeupdated"
+        },
+        {
+          "after": "3719368422593991617",
+          "before": "4903792784867367",
+          "op": "replace",
+          "path": "/depots/depots/4080861/manifests/prototype-multiplayer"
+        },
+        {
+          "after": "3302891023527184269",
+          "op": "add",
+          "path": "/depots/depots/4080862/manifests/prototype-multiplayer"
+        },
+        {
+          "after": "745390835979633337",
+          "op": "add",
+          "path": "/depots/depots/4978651/manifests/prototype-multiplayer"
+        },
+        {
+          "after": "6066367385020337928",
+          "before": "966347855504135735",
+          "op": "replace",
+          "path": "/depots/depots/5071060/manifests/prototype-multiplayer"
+        },
+        {
+          "after": "548918815462698303",
+          "op": "add",
+          "path": "/depots/depots/5071061/manifests/prototype-multiplayer"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40413243,
+      "change_number": 40420324,
       "data": {
         "appinfo": {
           "common": {
@@ -510,10 +563,10 @@
         "depots": {
           "branches": {
             "prototype-multiplayer": {
-              "buildid": "26197203",
+              "buildid": "26322129",
               "description": "マルチプレイテスト用",
-              "timebuildupdated": 1792932888,
-              "timeupdated": 1792934635
+              "timebuildupdated": 1793360308,
+              "timeupdated": 1793361250
             },
             "public": {
               "buildid": "25796022",
@@ -527,7 +580,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "prototype-multiplayer": "4903792784867367",
+                "prototype-multiplayer": "3719368422593991617",
                 "public": "5819048000483348193"
               }
             },
@@ -535,7 +588,9 @@
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "prototype-multiplayer": "3302891023527184269"
+              }
             },
             "4978650": {
               "config": {
@@ -552,7 +607,9 @@
                 "oslist": "macos"
               },
               "dlcappid": 4978650,
-              "manifests": {}
+              "manifests": {
+                "prototype-multiplayer": "745390835979633337"
+              }
             },
             "5071060": {
               "config": {
@@ -560,7 +617,7 @@
               },
               "dlcappid": 5071060,
               "manifests": {
-                "prototype-multiplayer": "966347855504135735"
+                "prototype-multiplayer": "6066367385020337928"
               }
             },
             "5071061": {
@@ -568,16 +625,18 @@
                 "oslist": "macos"
               },
               "dlcappid": 5071060,
-              "manifests": {}
+              "manifests": {
+                "prototype-multiplayer": "548918815462698303"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-30T07:52:43.140Z",
+      "observed_at": "2026-10-30T12:07:50.340Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-30T07:52:43.140Z"
+  "updated_at": "2026-10-30T12:07:50.340Z"
 }
