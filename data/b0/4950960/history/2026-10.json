@@ -692,11 +692,65 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T02:37:46.214Z",
+      "change_number": 40406797,
+      "changes": [
+        {
+          "after": "81",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "26313539",
+          "before": "26184300",
+          "op": "replace",
+          "path": "/depots/branches/beta/buildid"
+        },
+        {
+          "after": 1793327802,
+          "before": 1792856989,
+          "op": "replace",
+          "path": "/depots/branches/beta/timebuildupdated"
+        },
+        {
+          "after": 1793327802,
+          "before": 1792856989,
+          "op": "replace",
+          "path": "/depots/branches/beta/timeupdated"
+        },
+        {
+          "after": "2159551719807153500",
+          "before": "6858852442982389914",
+          "op": "replace",
+          "path": "/depots/depots/4950961/manifests/beta"
+        },
+        {
+          "after": "5054254536968582909",
+          "before": "588367872458478815",
+          "op": "replace",
+          "path": "/depots/depots/4950962/manifests/beta"
+        },
+        {
+          "after": "4579551748570343865",
+          "before": "8170214031755138122",
+          "op": "replace",
+          "path": "/depots/depots/4950963/manifests/beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40315868,
+      "change_number": 40406797,
       "data": {
         "appinfo": {
           "common": {
@@ -799,6 +853,8 @@
             "oslist": "windows,linux",
             "parent": "4484890",
             "primary_genre": "28",
+            "review_percentage": "81",
+            "review_score": "7",
             "small_capsule": {
               "english": "8f3dc559ae35c35bf228226ba8698b960535e7c3/capsule_231x87.jpg"
             },
@@ -825,10 +881,10 @@
         "depots": {
           "branches": {
             "beta": {
-              "buildid": "26184300",
+              "buildid": "26313539",
               "description": "beta branch",
-              "timebuildupdated": 1792856989,
-              "timeupdated": 1792856989
+              "timebuildupdated": 1793327802,
+              "timeupdated": 1793327802
             },
             "public": {
               "buildid": "26184300",
@@ -842,7 +898,7 @@
                 "osarch": "64"
               },
               "manifests": {
-                "beta": "6858852442982389914",
+                "beta": "2159551719807153500",
                 "public": "6858852442982389914"
               }
             },
@@ -852,7 +908,7 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "beta": "588367872458478815",
+                "beta": "5054254536968582909",
                 "public": "588367872458478815"
               }
             },
@@ -862,18 +918,18 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "beta": "8170214031755138122",
+                "beta": "4579551748570343865",
                 "public": "8170214031755138122"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-29T08:07:39.394Z",
+      "observed_at": "2026-10-30T02:37:46.214Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-29T08:07:39.394Z"
+  "updated_at": "2026-10-30T02:37:46.214Z"
 }
