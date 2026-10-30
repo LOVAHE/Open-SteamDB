@@ -349,11 +349,60 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-30T04:52:39.991Z",
+      "change_number": 40409769,
+      "changes": [
+        {
+          "after": "macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26315502",
+          "before": "26312265",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793335965,
+          "before": 1793322980,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793335965,
+          "before": 1793323013,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8613771783928873201",
+          "before": "7762222593562977325",
+          "op": "replace",
+          "path": "/depots/depots/5429301/manifests/public"
+        },
+        {
+          "after": "4941620377493008408",
+          "op": "add",
+          "path": "/depots/depots/5429302/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40408562,
+      "change_number": 40409769,
       "data": {
         "appinfo": {
           "common": {
@@ -462,8 +511,8 @@
             },
             "name": "Closing Time at the Wooden Toy Shop",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macosapplesilicon",
+            "oslist": "windows,macos",
             "primary_genre": "4",
             "small_capsule": {
               "english": "842b0bcf9fa4d3cfb16729d7de6962ce32eeb8b7/capsule_231x87.jpg"
@@ -593,9 +642,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26312265",
-              "timebuildupdated": 1793322980,
-              "timeupdated": 1793323013
+              "buildid": "26315502",
+              "timebuildupdated": 1793335965,
+              "timeupdated": 1793335965
             }
           },
           "depots": {
@@ -604,23 +653,25 @@
                 "oslist": "windows,linux"
               },
               "manifests": {
-                "public": "7762222593562977325"
+                "public": "8613771783928873201"
               }
             },
             "5429302": {
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "4941620377493008408"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-10-30T04:07:50.583Z",
+      "observed_at": "2026-10-30T04:52:39.991Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-30T04:07:50.583Z"
+  "updated_at": "2026-10-30T04:52:39.991Z"
 }
