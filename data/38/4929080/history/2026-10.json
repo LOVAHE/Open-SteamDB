@@ -262,11 +262,28 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-31T11:22:49.877Z",
+      "change_number": 40453939,
+      "changes": [
+        {
+          "after": {
+            "path": "carcelera",
+            "pattern": "progress.ron",
+            "root": "WinAppDataLocal"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/1"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40419937,
+      "change_number": 40453939,
       "data": {
         "appinfo": {
           "common": {
@@ -455,6 +472,11 @@
                 "path": "carcelera",
                 "pattern": "*.sav",
                 "root": "WinAppDataLocal"
+              },
+              "1": {
+                "path": "carcelera",
+                "pattern": "progress.ron",
+                "root": "WinAppDataLocal"
               }
             }
           }
@@ -487,11 +509,11 @@
           }
         }
       },
-      "observed_at": "2026-10-30T11:52:52.611Z",
+      "observed_at": "2026-10-31T11:22:49.877Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-30T11:52:52.611Z"
+  "updated_at": "2026-10-31T11:22:49.877Z"
 }
