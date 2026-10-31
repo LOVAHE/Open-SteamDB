@@ -625,11 +625,24 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-31T02:37:45.075Z",
+      "change_number": 40446384,
+      "changes": [
+        {
+          "before": "64",
+          "op": "remove",
+          "path": "/depots/depots/3892283/config/osarch"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40446172,
+      "change_number": 40446384,
       "data": {
         "appinfo": {
           "common": {
@@ -799,7 +812,6 @@
             },
             "3892283": {
               "config": {
-                "osarch": "64",
                 "oslist": "macos"
               },
               "manifests": {
@@ -809,7 +821,7 @@
           }
         }
       },
-      "observed_at": "2026-10-31T02:22:44.732Z",
+      "observed_at": "2026-10-31T02:37:45.075Z",
       "tracked": true
     },
     "steam_store": {
@@ -990,5 +1002,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-31T02:22:44.732Z"
+  "updated_at": "2026-10-31T02:37:45.075Z"
 }
