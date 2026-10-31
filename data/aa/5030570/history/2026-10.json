@@ -855,11 +855,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-31T09:52:48.798Z",
+      "change_number": 40452534,
+      "changes": [
+        {
+          "after": "26343595",
+          "before": "26343348",
+          "op": "replace",
+          "path": "/depots/branches/testing/buildid"
+        },
+        {
+          "after": 1793440201,
+          "before": 1793438477,
+          "op": "replace",
+          "path": "/depots/branches/testing/timebuildupdated"
+        },
+        {
+          "after": 1793440201,
+          "before": 1793438477,
+          "op": "replace",
+          "path": "/depots/branches/testing/timeupdated"
+        },
+        {
+          "after": "252330044655160056",
+          "before": "2393291847099310164",
+          "op": "replace",
+          "path": "/depots/depots/5030571/manifests/testing"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40452155,
+      "change_number": 40452534,
       "data": {
         "appinfo": {
           "common": {
@@ -1077,10 +1109,10 @@
               "timeupdated": 1793375933
             },
             "testing": {
-              "buildid": "26343348",
+              "buildid": "26343595",
               "description": "Testing",
-              "timebuildupdated": 1793438477,
-              "timeupdated": 1793438477
+              "timebuildupdated": 1793440201,
+              "timeupdated": 1793440201
             }
           },
           "depots": {
@@ -1095,17 +1127,17 @@
             "5030571": {
               "manifests": {
                 "public": "5674173688665004860",
-                "testing": "2393291847099310164"
+                "testing": "252330044655160056"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-31T09:22:48.792Z",
+      "observed_at": "2026-10-31T09:52:48.798Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-31T09:22:48.792Z"
+  "updated_at": "2026-10-31T09:52:48.798Z"
 }
