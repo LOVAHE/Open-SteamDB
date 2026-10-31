@@ -556,11 +556,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-31T22:37:51.057Z",
+      "change_number": 40466927,
+      "changes": [
+        {
+          "after": "26352561",
+          "before": "26351562",
+          "op": "replace",
+          "path": "/depots/branches/test/buildid"
+        },
+        {
+          "after": 1793485709,
+          "before": 1793480441,
+          "op": "replace",
+          "path": "/depots/branches/test/timebuildupdated"
+        },
+        {
+          "after": 1793486103,
+          "before": 1793480717,
+          "op": "replace",
+          "path": "/depots/branches/test/timeupdated"
+        },
+        {
+          "after": "6831348324495350370",
+          "before": "4518518212749201819",
+          "op": "replace",
+          "path": "/depots/depots/1624431/manifests/test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40465466,
+      "change_number": 40466927,
       "data": {
         "appinfo": {
           "common": {
@@ -740,27 +772,27 @@
               "timeupdated": 1793411414
             },
             "test": {
-              "buildid": "26351562",
+              "buildid": "26352561",
               "description": "Test server - upcoming changes (balance). Separate database; characters may be wiped.",
-              "timebuildupdated": 1793480441,
-              "timeupdated": 1793480717
+              "timebuildupdated": 1793485709,
+              "timeupdated": 1793486103
             }
           },
           "depots": {
             "1624431": {
               "manifests": {
                 "public": "3921317309040375913",
-                "test": "4518518212749201819"
+                "test": "6831348324495350370"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-31T21:07:57.223Z",
+      "observed_at": "2026-10-31T22:37:51.057Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-31T21:07:57.223Z"
+  "updated_at": "2026-10-31T22:37:51.057Z"
 }
