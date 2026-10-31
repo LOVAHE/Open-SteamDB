@@ -1,8 +1,8 @@
 {
   "appid": 5190030,
   "source": "steam_pics",
-  "updated_at": "2026-10-29T20:22:46.669Z",
-  "change_number": 40397067,
+  "updated_at": "2026-10-31T09:37:52.820Z",
+  "change_number": 40452301,
   "data": {
     "common": {
       "associations": {
@@ -293,6 +293,31 @@
     },
     "config": {
       "installdir": "Tidy up the Town"
+    },
+    "ufs": {
+      "maxnumfiles": "1000",
+      "quota": "250000000",
+      "rootoverrides": {
+        "0": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Godot/app_userdata/TidyUpTheTown/saves",
+              "replace": "godot/app_userdata/TidyUpTheTown/saves"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Godot/app_userdata/TidyUpTheTown/saves",
+          "pattern": "*.sav",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }
