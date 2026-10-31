@@ -227,11 +227,27 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-31T14:22:44.029Z",
+      "change_number": 40457238,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "1000",
+            "quota": "1073741824"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40456872,
+      "change_number": 40457238,
       "data": {
         "appinfo": {
           "common": {
@@ -376,6 +392,10 @@
           "extended": {
             "developer": "Snackcart",
             "publisher": "Snackcart"
+          },
+          "ufs": {
+            "maxnumfiles": "1000",
+            "quota": "1073741824"
           }
         },
         "depots": {
@@ -399,11 +419,11 @@
           }
         }
       },
-      "observed_at": "2026-10-31T14:07:46.891Z",
+      "observed_at": "2026-10-31T14:22:44.029Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-31T14:07:46.891Z"
+  "updated_at": "2026-10-31T14:22:44.029Z"
 }
