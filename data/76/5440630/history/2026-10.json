@@ -228,11 +228,47 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-31T13:52:47.909Z",
+      "change_number": 40456495,
+      "changes": [
+        {
+          "after": "Angour Gaming",
+          "before": "AngourStudio",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/name"
+        },
+        {
+          "after": "developer",
+          "before": "publisher",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/type"
+        },
+        {
+          "after": {
+            "name": "AngourStudio",
+            "type": "publisher"
+          },
+          "op": "add",
+          "path": "/appinfo/common/associations/2"
+        },
+        {
+          "after": {
+            "name": "Angour Studio",
+            "type": "publisher"
+          },
+          "op": "add",
+          "path": "/appinfo/common/associations/3"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40456310,
+      "change_number": 40456495,
       "data": {
         "appinfo": {
           "common": {
@@ -242,7 +278,15 @@
                 "type": "developer"
               },
               "1": {
+                "name": "Angour Gaming",
+                "type": "developer"
+              },
+              "2": {
                 "name": "AngourStudio",
+                "type": "publisher"
+              },
+              "3": {
+                "name": "Angour Studio",
                 "type": "publisher"
               }
             },
@@ -401,11 +445,11 @@
           }
         }
       },
-      "observed_at": "2026-10-31T13:38:16.618Z",
+      "observed_at": "2026-10-31T13:52:47.909Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-31T13:38:16.618Z"
+  "updated_at": "2026-10-31T13:52:47.909Z"
 }
