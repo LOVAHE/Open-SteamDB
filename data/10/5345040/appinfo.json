@@ -1,8 +1,8 @@
 {
   "appid": 5345040,
   "source": "steam_pics",
-  "updated_at": "2026-10-31T04:07:48.016Z",
-  "change_number": 40447883,
+  "updated_at": "2026-10-31T08:07:51.885Z",
+  "change_number": 40450981,
   "data": {
     "common": {
       "associations": {
@@ -230,6 +230,20 @@
     "ufs": {
       "maxnumfiles": "20",
       "quota": "10000000",
+      "rootoverrides": {
+        "0": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "FlowDot/Stick A Fork/saves",
+              "replace": ".config/unity3d/FlowDot/Stick A Fork/saves"
+            }
+          },
+          "root": "WinAppDataLocalLow",
+          "useinstead": "LinuxHome"
+        }
+      },
       "savefiles": {
         "0": {
           "path": "FlowDot/Stick A Fork/saves",
