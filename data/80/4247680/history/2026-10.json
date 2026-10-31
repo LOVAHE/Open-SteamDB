@@ -421,11 +421,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-31T05:52:51.877Z",
+      "change_number": 40449203,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26341114",
+            "description": "Beta Testing New items",
+            "timebuildupdated": 1793424636,
+            "timeupdated": 1793424729
+          },
+          "op": "remove",
+          "path": "/depots/branches/beta"
+        },
+        {
+          "before": "7306245836055745960",
+          "op": "remove",
+          "path": "/depots/depots/4247681/manifests/beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40449034,
+      "change_number": 40449203,
       "data": {
         "appinfo": {
           "common": {
@@ -595,12 +618,6 @@
         },
         "depots": {
           "branches": {
-            "beta": {
-              "buildid": "26341114",
-              "description": "Beta Testing New items",
-              "timebuildupdated": 1793424636,
-              "timeupdated": 1793424729
-            },
             "public": {
               "buildid": "26328137",
               "timebuildupdated": 1793376841,
@@ -618,18 +635,17 @@
             },
             "4247681": {
               "manifests": {
-                "beta": "7306245836055745960",
                 "public": "7601854474667701254"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-31T05:37:56.673Z",
+      "observed_at": "2026-10-31T05:52:51.877Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-31T05:37:56.673Z"
+  "updated_at": "2026-10-31T05:52:51.877Z"
 }
