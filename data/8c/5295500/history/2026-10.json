@@ -346,11 +346,36 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-31T21:37:55.709Z",
+      "change_number": 40465968,
+      "changes": [
+        {
+          "after": "Dilan Chacha",
+          "before": "Dilan chacha",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/name"
+        },
+        {
+          "after": "developer",
+          "before": "publisher",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/type"
+        },
+        {
+          "before": "Dilan chacha",
+          "op": "remove",
+          "path": "/appinfo/extended/publisher"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40324825,
+      "change_number": 40465968,
       "data": {
         "appinfo": {
           "common": {
@@ -360,8 +385,8 @@
                 "type": "developer"
               },
               "1": {
-                "name": "Dilan chacha",
-                "type": "publisher"
+                "name": "Dilan Chacha",
+                "type": "developer"
               },
               "2": {
                 "name": "La maldición de Max",
@@ -570,8 +595,7 @@
           },
           "extended": {
             "developer": "Max Studies",
-            "homepage": "https://maxstudies.netlify.app/",
-            "publisher": "Dilan chacha"
+            "homepage": "https://maxstudies.netlify.app/"
           }
         },
         "depots": {
@@ -611,11 +635,11 @@
           }
         }
       },
-      "observed_at": "2026-10-29T09:37:39.576Z",
+      "observed_at": "2026-10-31T21:37:55.709Z",
       "tracked": true
     }
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-29T09:37:39.576Z"
+  "updated_at": "2026-10-31T21:37:55.709Z"
 }
