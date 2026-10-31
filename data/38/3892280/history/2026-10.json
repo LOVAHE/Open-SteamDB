@@ -572,11 +572,32 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-10-31T01:37:49.013Z",
+      "change_number": 40445109,
+      "changes": [
+        {
+          "after": "macos64",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/3892281/config"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40237602,
+      "change_number": 40445109,
       "data": {
         "appinfo": {
           "common": {
@@ -673,7 +694,7 @@
             },
             "name": "Bloody Bunny 3D",
             "osarch": "",
-            "osextended": "",
+            "osextended": "macos64",
             "oslist": "windows,macos,linux",
             "primary_genre": "1",
             "small_capsule": {
@@ -729,6 +750,9 @@
           },
           "depots": {
             "3892281": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
                 "public": "7546465710484325759"
               }
@@ -753,7 +777,7 @@
           }
         }
       },
-      "observed_at": "2026-10-26T14:52:37.831Z",
+      "observed_at": "2026-10-31T01:37:49.013Z",
       "tracked": true
     },
     "steam_store": {
@@ -934,5 +958,5 @@
   },
   "month": "2026-10",
   "schema": 1,
-  "updated_at": "2026-10-26T14:52:37.831Z"
+  "updated_at": "2026-10-31T01:37:49.013Z"
 }
