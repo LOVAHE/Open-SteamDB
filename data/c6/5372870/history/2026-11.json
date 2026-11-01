@@ -230,11 +230,32 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-01T04:37:46.921Z",
+      "change_number": 40471515,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "addpath": "",
+              "os": "MacOS",
+              "oscompare": "=",
+              "root": "WinAppDataRoaming",
+              "useinstead": "MacAppSupport"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40471291,
+      "change_number": 40471515,
       "data": {
         "appinfo": {
           "common": {
@@ -380,6 +401,15 @@
           "ufs": {
             "maxnumfiles": "50",
             "quota": "100000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
             "savefiles": {
               "0": {
                 "path": "Zero League/saves",
@@ -418,11 +448,11 @@
           }
         }
       },
-      "observed_at": "2026-11-01T04:07:51.363Z",
+      "observed_at": "2026-11-01T04:37:46.921Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-01T04:07:51.363Z"
+  "updated_at": "2026-11-01T04:37:46.921Z"
 }
