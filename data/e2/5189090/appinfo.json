@@ -1,8 +1,8 @@
 {
   "appid": 5189090,
   "source": "steam_pics",
-  "updated_at": "2026-11-01T08:07:49.380Z",
-  "change_number": 40474073,
+  "updated_at": "2026-11-01T09:14:52.318Z",
+  "change_number": 40474625,
   "data": {
     "common": {
       "associations": {
@@ -145,13 +145,19 @@
     "ufs": {
       "maxnumfiles": "100",
       "quota": "10000000",
+      "rootoverrides": {
+        "1": {
+          "addpath": "",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
       "savefiles": {
         "0": {
           "path": "ForkBomb",
           "pattern": "colony.json",
-          "platforms": {
-            "1": "Windows"
-          },
           "root": "WinAppDataRoaming"
         }
       }
