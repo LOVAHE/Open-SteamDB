@@ -329,21 +329,87 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-01T02:22:52.942Z",
+      "change_number": 40470054,
+      "changes": [
+        {
+          "after": "vanillapunch",
+          "before": "ddukbaek2",
+          "op": "replace",
+          "path": "/appinfo/common/associations/0/name"
+        },
+        {
+          "after": "vanillapunch",
+          "before": "ddukbaek2",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/name"
+        },
+        {
+          "after": "vanillapunch",
+          "before": "ddukbaek2",
+          "op": "replace",
+          "path": "/appinfo/extended/developer"
+        },
+        {
+          "after": "https://vanillapunch.com",
+          "op": "add",
+          "path": "/appinfo/extended/homepage"
+        },
+        {
+          "after": "vanillapunch",
+          "before": "ddukbaek2",
+          "op": "replace",
+          "path": "/appinfo/extended/publisher"
+        },
+        {
+          "after": "26354977",
+          "before": "26271138",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793499637,
+          "before": 1793192970,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793499637,
+          "before": 1793193123,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7290306320560995861",
+          "before": "1272631188377004767",
+          "op": "replace",
+          "path": "/depots/depots/5391421/manifests/public"
+        },
+        {
+          "after": "9066602307211367606",
+          "op": "add",
+          "path": "/depots/depots/5391422/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40469693,
+      "change_number": 40470054,
       "data": {
         "appinfo": {
           "common": {
             "associations": {
               "0": {
-                "name": "ddukbaek2",
+                "name": "vanillapunch",
                 "type": "developer"
               },
               "1": {
-                "name": "ddukbaek2",
+                "name": "vanillapunch",
                 "type": "publisher"
               }
             },
@@ -594,8 +660,9 @@
             "installdir": "Found You"
           },
           "extended": {
-            "developer": "ddukbaek2",
-            "publisher": "ddukbaek2"
+            "developer": "vanillapunch",
+            "homepage": "https://vanillapunch.com",
+            "publisher": "vanillapunch"
           },
           "ufs": {
             "maxnumfiles": "10",
@@ -605,9 +672,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26271138",
-              "timebuildupdated": 1793192970,
-              "timeupdated": 1793193123
+              "buildid": "26354977",
+              "timebuildupdated": 1793499637,
+              "timeupdated": 1793499637
             }
           },
           "depots": {
@@ -616,23 +683,25 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "1272631188377004767"
+                "public": "7290306320560995861"
               }
             },
             "5391422": {
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "9066602307211367606"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-01T02:07:53.179Z",
+      "observed_at": "2026-11-01T02:22:52.942Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-01T02:07:53.179Z"
+  "updated_at": "2026-11-01T02:22:52.942Z"
 }
