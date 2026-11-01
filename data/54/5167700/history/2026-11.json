@@ -256,11 +256,65 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-01T17:22:52.823Z",
+      "change_number": 40483456,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "10",
+            "quota": "10000000",
+            "rootoverrides": {
+              "0": {
+                "os": "Linux",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Godot/app_userdata/ThisGameSocks",
+                    "replace": "godot/app_userdata/ThisGameSocks"
+                  }
+                },
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              },
+              "1": {
+                "os": "MacOS",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Godot/app_userdata/ThisGameSocks",
+                    "replace": "Godot/app_userdata/ThisGameSocks"
+                  }
+                },
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/ThisGameSocks",
+                "pattern": "slot*",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/ThisGameSocks",
+                "pattern": "profile.cfg",
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40482960,
+      "change_number": 40483456,
       "data": {
         "appinfo": {
           "common": {
@@ -473,6 +527,48 @@
             "developer": "Blacksmith",
             "homepage": "https://www.thisgamesocks.com",
             "publisher": "Abokado Studio"
+          },
+          "ufs": {
+            "maxnumfiles": "10",
+            "quota": "10000000",
+            "rootoverrides": {
+              "0": {
+                "os": "Linux",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Godot/app_userdata/ThisGameSocks",
+                    "replace": "godot/app_userdata/ThisGameSocks"
+                  }
+                },
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              },
+              "1": {
+                "os": "MacOS",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Godot/app_userdata/ThisGameSocks",
+                    "replace": "Godot/app_userdata/ThisGameSocks"
+                  }
+                },
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/ThisGameSocks",
+                "pattern": "slot*",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/ThisGameSocks",
+                "pattern": "profile.cfg",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -503,11 +599,11 @@
           }
         }
       },
-      "observed_at": "2026-11-01T16:52:53.664Z",
+      "observed_at": "2026-11-01T17:22:52.823Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-01T16:52:53.664Z"
+  "updated_at": "2026-11-01T17:22:52.823Z"
 }

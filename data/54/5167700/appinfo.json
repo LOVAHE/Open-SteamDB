@@ -1,8 +1,8 @@
 {
   "appid": 5167700,
   "source": "steam_pics",
-  "updated_at": "2026-11-01T16:52:53.664Z",
-  "change_number": 40482960,
+  "updated_at": "2026-11-01T17:22:52.823Z",
+  "change_number": 40483456,
   "data": {
     "common": {
       "associations": {
@@ -214,6 +214,48 @@
     },
     "config": {
       "installdir": "This Game Socks"
+    },
+    "ufs": {
+      "maxnumfiles": "10",
+      "quota": "10000000",
+      "rootoverrides": {
+        "0": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Godot/app_userdata/ThisGameSocks",
+              "replace": "godot/app_userdata/ThisGameSocks"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        },
+        "1": {
+          "os": "MacOS",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Godot/app_userdata/ThisGameSocks",
+              "replace": "Godot/app_userdata/ThisGameSocks"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Godot/app_userdata/ThisGameSocks",
+          "pattern": "slot*",
+          "root": "WinAppDataRoaming"
+        },
+        "1": {
+          "path": "Godot/app_userdata/ThisGameSocks",
+          "pattern": "profile.cfg",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }
