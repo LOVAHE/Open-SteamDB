@@ -371,11 +371,59 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-01T17:37:49.956Z",
+      "change_number": 40483716,
+      "changes": [
+        {
+          "after": "672cadeb1209299647a09d7dfce62b66d1f8211a/header.jpg",
+          "before": "cc21b32f6e220147368dab0778cddc7278d26147/header.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/header_image/english"
+        },
+        {
+          "after": "3dbdf752b8ff651d3634d385ac12aa37050a37d0/header_schinese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/header_image/schinese"
+        },
+        {
+          "after": "672cadeb1209299647a09d7dfce62b66d1f8211a/library_header.jpg",
+          "before": "7ab579cfc642bad64bc97aacc4ee8bb77c5dd4f2/library_header.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets_full/library_header/image/english"
+        },
+        {
+          "after": "672cadeb1209299647a09d7dfce62b66d1f8211a/library_header_2x.jpg",
+          "before": "7ab579cfc642bad64bc97aacc4ee8bb77c5dd4f2/library_header_2x.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets_full/library_header/image2x/english"
+        },
+        {
+          "after": "bfca235ce567128b9ea5e1dcd589d55339275d5a/capsule_231x87.jpg",
+          "before": "9fc42dd3344c5fe77b49c462c4049472509f24ce/capsule_231x87.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/small_capsule/english"
+        },
+        {
+          "after": "f1159d3c9cde476eae81a95707fc62dda25e3fea/capsule_231x87_schinese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/small_capsule/schinese"
+        },
+        {
+          "after": "1793553912",
+          "before": "1793553506",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40483584,
+      "change_number": 40483716,
       "data": {
         "appinfo": {
           "common": {
@@ -402,7 +450,8 @@
               "3": "2"
             },
             "header_image": {
-              "english": "cc21b32f6e220147368dab0778cddc7278d26147/header.jpg"
+              "english": "672cadeb1209299647a09d7dfce62b66d1f8211a/header.jpg",
+              "schinese": "3dbdf752b8ff651d3634d385ac12aa37050a37d0/header_schinese.jpg"
             },
             "icon": "e81fe7a162cd57caa3ebb9a6d13dc5741b75c4d7",
             "library_assets": {
@@ -430,10 +479,10 @@
               },
               "library_header": {
                 "image": {
-                  "english": "7ab579cfc642bad64bc97aacc4ee8bb77c5dd4f2/library_header.jpg"
+                  "english": "672cadeb1209299647a09d7dfce62b66d1f8211a/library_header.jpg"
                 },
                 "image2x": {
-                  "english": "7ab579cfc642bad64bc97aacc4ee8bb77c5dd4f2/library_header_2x.jpg"
+                  "english": "672cadeb1209299647a09d7dfce62b66d1f8211a/library_header_2x.jpg"
                 }
               },
               "library_hero": {
@@ -474,10 +523,11 @@
             "oslist": "windows",
             "primary_genre": "2",
             "small_capsule": {
-              "english": "9fc42dd3344c5fe77b49c462c4049472509f24ce/capsule_231x87.jpg"
+              "english": "bfca235ce567128b9ea5e1dcd589d55339275d5a/capsule_231x87.jpg",
+              "schinese": "f1159d3c9cde476eae81a95707fc62dda25e3fea/capsule_231x87_schinese.jpg"
             },
             "steam_release_date": "1793383057",
-            "store_asset_mtime": "1793553506",
+            "store_asset_mtime": "1793553912",
             "store_tags": {
               "0": "122",
               "1": "1723",
@@ -540,11 +590,11 @@
           }
         }
       },
-      "observed_at": "2026-11-01T17:22:52.823Z",
+      "observed_at": "2026-11-01T17:37:49.956Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-01T17:22:52.823Z"
+  "updated_at": "2026-11-01T17:37:49.956Z"
 }
