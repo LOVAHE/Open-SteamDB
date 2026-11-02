@@ -341,11 +341,47 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-02T15:53:22.082Z",
+      "change_number": 40513854,
+      "changes": [
+        {
+          "after": "1",
+          "before": "25",
+          "op": "replace",
+          "path": "/appinfo/common/genres/0"
+        },
+        {
+          "after": "4",
+          "op": "add",
+          "path": "/appinfo/common/genres/1"
+        },
+        {
+          "after": "18",
+          "op": "add",
+          "path": "/appinfo/common/genres/2"
+        },
+        {
+          "after": "18",
+          "before": "25",
+          "op": "replace",
+          "path": "/appinfo/common/primary_genre"
+        },
+        {
+          "after": "https://www.inazuma7.co.jp/battle/",
+          "before": "https://www.inazuma7.co.jp/battle/index_en.html",
+          "op": "replace",
+          "path": "/appinfo/extended/homepage"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40478509,
+      "change_number": 40513854,
       "data": {
         "appinfo": {
           "common": {
@@ -374,7 +410,9 @@
             "community_hub_visible": "1",
             "community_visible_stats": "1",
             "genres": {
-              "0": "25"
+              "0": "1",
+              "1": "4",
+              "2": "18"
             },
             "header_image": {
               "english": "de758e0c08d639c73024306fe76c9b3f6976a34b/header.jpg"
@@ -440,7 +478,7 @@
             "osarch": "64",
             "osextended": "macos64",
             "oslist": "windows,macos,linux",
-            "primary_genre": "25",
+            "primary_genre": "18",
             "small_capsule": {
               "english": "79f8db3582433b19b924bd15238c82455a7a5ea3/capsule_231x87.jpg"
             },
@@ -525,7 +563,7 @@
           },
           "extended": {
             "developer": "Dr. Takahiro Yonemura",
-            "homepage": "https://www.inazuma7.co.jp/battle/index_en.html",
+            "homepage": "https://www.inazuma7.co.jp/battle/",
             "publisher": "Inazuma Inc."
           }
         },
@@ -584,11 +622,11 @@
           }
         }
       },
-      "observed_at": "2026-11-01T13:22:54.876Z",
+      "observed_at": "2026-11-02T15:53:22.082Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-01T13:22:54.876Z"
+  "updated_at": "2026-11-02T15:53:22.082Z"
 }
