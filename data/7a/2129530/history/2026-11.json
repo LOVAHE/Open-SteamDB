@@ -961,11 +961,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-02T17:08:08.540Z",
+      "change_number": 40516412,
+      "changes": [
+        {
+          "after": "26385002",
+          "before": "26383588",
+          "op": "replace",
+          "path": "/depots/branches/local/buildid"
+        },
+        {
+          "after": 1793639006,
+          "before": 1793635054,
+          "op": "replace",
+          "path": "/depots/branches/local/timebuildupdated"
+        },
+        {
+          "after": 1793639006,
+          "before": 1793635054,
+          "op": "replace",
+          "path": "/depots/branches/local/timeupdated"
+        },
+        {
+          "after": "4483273593329160991",
+          "before": "4660491253712428797",
+          "op": "replace",
+          "path": "/depots/depots/4351720/manifests/local"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40514219,
+      "change_number": 40516412,
       "data": {
         "appinfo": {
           "common": {
@@ -1313,10 +1345,10 @@
         "depots": {
           "branches": {
             "local": {
-              "buildid": "26383588",
+              "buildid": "26385002",
               "description": "Local Content Server",
-              "timebuildupdated": 1793635054,
-              "timeupdated": 1793635054
+              "timebuildupdated": 1793639006,
+              "timeupdated": 1793639006
             },
             "public": {
               "buildid": "24819707",
@@ -1357,14 +1389,14 @@
               },
               "dlcappid": 4351720,
               "manifests": {
-                "local": "4660491253712428797",
+                "local": "4483273593329160991",
                 "public": "6551131955355540364"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-02T16:08:00.069Z",
+      "observed_at": "2026-11-02T17:08:08.540Z",
       "tracked": true
     },
     "steam_store": {
@@ -1611,5 +1643,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-02T16:08:00.069Z"
+  "updated_at": "2026-11-02T17:08:08.540Z"
 }
