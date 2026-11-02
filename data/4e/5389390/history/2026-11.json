@@ -216,11 +216,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-02T19:53:03.428Z",
+      "change_number": 40522513,
+      "changes": [
+        {
+          "after": "26387541",
+          "before": "26195701",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793646086,
+          "before": 1792924017,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793648874,
+          "before": 1792925297,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2699785753725725581",
+          "before": "2019877518334121379",
+          "op": "replace",
+          "path": "/depots/depots/5389391/manifests/public"
+        },
+        {
+          "after": "4303246031410320471",
+          "op": "add",
+          "path": "/depots/depots/5389392/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40520291,
+      "change_number": 40522513,
       "data": {
         "appinfo": {
           "common": {
@@ -387,31 +424,33 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26195701",
-              "timebuildupdated": 1792924017,
-              "timeupdated": 1792925297
+              "buildid": "26387541",
+              "timebuildupdated": 1793646086,
+              "timeupdated": 1793648874
             }
           },
           "depots": {
             "5389391": {
               "manifests": {
-                "public": "2019877518334121379"
+                "public": "2699785753725725581"
               }
             },
             "5389392": {
               "config": {
                 "oslist": "linux"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "4303246031410320471"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-02T18:52:54.185Z",
+      "observed_at": "2026-11-02T19:53:03.428Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-02T18:52:54.185Z"
+  "updated_at": "2026-11-02T19:53:03.428Z"
 }
