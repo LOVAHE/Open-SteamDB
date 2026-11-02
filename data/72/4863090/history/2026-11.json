@@ -925,11 +925,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-02T13:38:00.818Z",
+      "change_number": 40509242,
+      "changes": [
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26380102",
+          "before": "26379908",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793625035,
+          "before": 1793624438,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793626051,
+          "before": 1793624438,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1510947630444474492",
+          "before": "1920641619352238331",
+          "op": "replace",
+          "path": "/depots/depots/4863091/manifests/public"
+        },
+        {
+          "after": "5270265641827604030",
+          "before": "1410782426102832032",
+          "op": "replace",
+          "path": "/depots/depots/4863092/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40508753,
+      "change_number": 40509242,
       "data": {
         "appinfo": {
           "common": {
@@ -1038,7 +1082,7 @@
             "name": "Bravemech: The Century War",
             "osarch": "",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,linux",
             "primary_genre": "1",
             "small_capsule": {
               "english": "0415d45c406758f0dbbec8c26dee4c4c99092ddb/capsule_231x87.jpg"
@@ -1133,9 +1177,9 @@
               "timeupdated": 1793625035
             },
             "public": {
-              "buildid": "26379908",
-              "timebuildupdated": 1793624438,
-              "timeupdated": 1793624438
+              "buildid": "26380102",
+              "timebuildupdated": 1793625035,
+              "timeupdated": 1793626051
             }
           },
           "depots": {
@@ -1153,7 +1197,7 @@
               },
               "manifests": {
                 "beta": "1510947630444474492",
-                "public": "1920641619352238331"
+                "public": "1510947630444474492"
               }
             },
             "4863092": {
@@ -1162,17 +1206,17 @@
               },
               "manifests": {
                 "beta": "5270265641827604030",
-                "public": "1410782426102832032"
+                "public": "5270265641827604030"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-02T13:23:02.706Z",
+      "observed_at": "2026-11-02T13:38:00.818Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-02T13:23:02.706Z"
+  "updated_at": "2026-11-02T13:38:00.818Z"
 }
