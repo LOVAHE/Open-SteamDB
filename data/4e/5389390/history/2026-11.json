@@ -297,11 +297,30 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-02T21:22:59.771Z",
+      "change_number": 40525315,
+      "changes": [
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "https://vanus.hu",
+          "op": "add",
+          "path": "/appinfo/extended/homepage"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40523823,
+      "change_number": 40525315,
       "data": {
         "appinfo": {
           "common": {
@@ -403,7 +422,7 @@
             "name": "GayTeA VI",
             "osarch": "",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,linux",
             "primary_genre": "23",
             "small_capsule": {
               "english": "731500c9185e8732d3a09c24bba2ec9c636ee656/capsule_231x87.jpg"
@@ -446,6 +465,7 @@
           },
           "extended": {
             "developer": "VaNuS Games",
+            "homepage": "https://vanus.hu",
             "publisher": "VaNuS Games"
           },
           "ufs": {
@@ -496,11 +516,11 @@
           }
         }
       },
-      "observed_at": "2026-11-02T20:38:10.184Z",
+      "observed_at": "2026-11-02T21:22:59.771Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-02T20:38:10.184Z"
+  "updated_at": "2026-11-02T21:22:59.771Z"
 }
