@@ -194,11 +194,72 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-02T14:23:04.909Z",
+      "change_number": 40511001,
+      "changes": [
+        {
+          "after": "100",
+          "before": "0",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "400000000",
+          "before": "0",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        },
+        {
+          "after": {
+            "0": {
+              "path": "www/save",
+              "pattern": "*.rpgsave",
+              "root": "gameinstall"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles"
+        },
+        {
+          "after": "26381449",
+          "before": "26374115",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793629083,
+          "before": 1793604056,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793629317,
+          "before": 1793604078,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4288615279591236109",
+          "before": "7956548997294037216",
+          "op": "replace",
+          "path": "/depots/depots/3422711/manifests/public"
+        },
+        {
+          "after": "9136960729066820498",
+          "before": "1738025429043968049",
+          "op": "replace",
+          "path": "/depots/depots/3422712/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40503576,
+      "change_number": 40511001,
       "data": {
         "appinfo": {
           "common": {
@@ -340,16 +401,23 @@
             "publisher": "糕薯科技"
           },
           "ufs": {
-            "maxnumfiles": "0",
-            "quota": "0"
+            "maxnumfiles": "100",
+            "quota": "400000000",
+            "savefiles": {
+              "0": {
+                "path": "www/save",
+                "pattern": "*.rpgsave",
+                "root": "gameinstall"
+              }
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26374115",
-              "timebuildupdated": 1793604056,
-              "timeupdated": 1793604078
+              "buildid": "26381449",
+              "timebuildupdated": 1793629083,
+              "timeupdated": 1793629317
             }
           },
           "depots": {
@@ -358,7 +426,7 @@
                 "language": "schinese"
               },
               "manifests": {
-                "public": "7956548997294037216"
+                "public": "4288615279591236109"
               }
             },
             "3422712": {
@@ -366,17 +434,17 @@
                 "language": "english"
               },
               "manifests": {
-                "public": "1738025429043968049"
+                "public": "9136960729066820498"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-02T10:23:07.646Z",
+      "observed_at": "2026-11-02T14:23:04.909Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-02T10:23:07.646Z"
+  "updated_at": "2026-11-02T14:23:04.909Z"
 }
