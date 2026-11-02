@@ -883,11 +883,67 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-02T06:52:57.538Z",
+      "change_number": 40498328,
+      "changes": [
+        {
+          "after": "26373621",
+          "before": "26370056",
+          "op": "replace",
+          "path": "/depots/branches/launch-candidate/buildid"
+        },
+        {
+          "after": 1793601573,
+          "before": 1793584351,
+          "op": "replace",
+          "path": "/depots/branches/launch-candidate/timebuildupdated"
+        },
+        {
+          "after": 1793601573,
+          "before": 1793584351,
+          "op": "replace",
+          "path": "/depots/branches/launch-candidate/timeupdated"
+        },
+        {
+          "after": "26373621",
+          "before": "26370056",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793601573,
+          "before": 1793584351,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793601670,
+          "before": 1793584456,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4381683892798548675",
+          "before": "2786260883337215886",
+          "op": "replace",
+          "path": "/depots/depots/4618671/manifests/launch-candidate"
+        },
+        {
+          "after": "4381683892798548675",
+          "before": "2786260883337215886",
+          "op": "replace",
+          "path": "/depots/depots/4618671/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40497388,
+      "change_number": 40498328,
       "data": {
         "appinfo": {
           "common": {
@@ -1240,32 +1296,32 @@
         "depots": {
           "branches": {
             "launch-candidate": {
-              "buildid": "26370056",
+              "buildid": "26373621",
               "description": "0.1.0 launch3 validation candidate (0b4707920); default held for Main approval",
-              "timebuildupdated": 1793584351,
-              "timeupdated": 1793584351
+              "timebuildupdated": 1793601573,
+              "timeupdated": 1793601573
             },
             "public": {
-              "buildid": "26370056",
-              "timebuildupdated": 1793584351,
-              "timeupdated": 1793584456
+              "buildid": "26373621",
+              "timebuildupdated": 1793601573,
+              "timeupdated": 1793601670
             }
           },
           "depots": {
             "4618671": {
               "manifests": {
-                "launch-candidate": "2786260883337215886",
-                "public": "2786260883337215886"
+                "launch-candidate": "4381683892798548675",
+                "public": "4381683892798548675"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-02T05:52:56.171Z",
+      "observed_at": "2026-11-02T06:52:57.538Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-02T05:52:56.171Z"
+  "updated_at": "2026-11-02T06:52:57.538Z"
 }
