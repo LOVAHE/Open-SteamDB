@@ -268,11 +268,70 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-02T23:07:57.684Z",
+      "change_number": 40528149,
+      "changes": [
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26392253",
+          "before": "26369422",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793660880,
+          "before": 1793581450,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793660880,
+          "before": 1793581475,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "osarch": "64",
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/5443491/config"
+        },
+        {
+          "after": "7035607649765009589",
+          "before": "2346268085673660958",
+          "op": "replace",
+          "path": "/depots/depots/5443491/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "linux"
+            },
+            "manifests": {
+              "public": "2103613878304803271"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5443492"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40492298,
+      "change_number": 40528149,
       "data": {
         "appinfo": {
           "common": {
@@ -359,7 +418,7 @@
             "name": "SYSTEM INTRUDER Demo",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,linux",
             "parent": "5210800",
             "primary_genre": "1",
             "review_percentage": "90",
@@ -392,25 +451,38 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26369422",
-              "timebuildupdated": 1793581450,
-              "timeupdated": 1793581475
+              "buildid": "26392253",
+              "timebuildupdated": 1793660880,
+              "timeupdated": 1793660880
             }
           },
           "depots": {
             "5443491": {
+              "config": {
+                "osarch": "64",
+                "oslist": "windows"
+              },
               "manifests": {
-                "public": "2346268085673660958"
+                "public": "7035607649765009589"
+              }
+            },
+            "5443492": {
+              "config": {
+                "osarch": "64",
+                "oslist": "linux"
+              },
+              "manifests": {
+                "public": "2103613878304803271"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-02T01:52:51.347Z",
+      "observed_at": "2026-11-02T23:07:57.684Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-02T01:52:51.347Z"
+  "updated_at": "2026-11-02T23:07:57.684Z"
 }
