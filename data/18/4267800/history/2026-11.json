@@ -319,11 +319,67 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-02T01:52:51.347Z",
+      "change_number": 40492773,
+      "changes": [
+        {
+          "after": "26369676",
+          "before": "26340852",
+          "op": "replace",
+          "path": "/depots/branches/win11stable/buildid"
+        },
+        {
+          "after": 1793582576,
+          "before": 1793423159,
+          "op": "replace",
+          "path": "/depots/branches/win11stable/timebuildupdated"
+        },
+        {
+          "after": 1793582577,
+          "before": 1793423160,
+          "op": "replace",
+          "path": "/depots/branches/win11stable/timeupdated"
+        },
+        {
+          "after": "26369754",
+          "before": "26271239",
+          "op": "replace",
+          "path": "/depots/branches/win7compat/buildid"
+        },
+        {
+          "after": 1793582990,
+          "before": 1793193224,
+          "op": "replace",
+          "path": "/depots/branches/win7compat/timebuildupdated"
+        },
+        {
+          "after": 1793582990,
+          "before": 1793193224,
+          "op": "replace",
+          "path": "/depots/branches/win7compat/timeupdated"
+        },
+        {
+          "after": "5135770568034944361",
+          "before": "8487180811782376266",
+          "op": "replace",
+          "path": "/depots/depots/4267801/manifests/win11stable"
+        },
+        {
+          "after": "6512226290165731207",
+          "before": "4609693748328168943",
+          "op": "replace",
+          "path": "/depots/depots/4267802/manifests/win7compat"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40475722,
+      "change_number": 40492773,
       "data": {
         "appinfo": {
           "common": {
@@ -584,16 +640,16 @@
               "timeupdated": 1793463276
             },
             "win11stable": {
-              "buildid": "26340852",
+              "buildid": "26369676",
               "description": "Crash or Windows 11 Compatible",
-              "timebuildupdated": 1793423159,
-              "timeupdated": 1793423160
+              "timebuildupdated": 1793582576,
+              "timeupdated": 1793582577
             },
             "win7compat": {
-              "buildid": "26271239",
+              "buildid": "26369754",
               "description": "Windows 7 Compatible",
-              "timebuildupdated": 1793193224,
-              "timeupdated": 1793193224
+              "timebuildupdated": 1793582990,
+              "timeupdated": 1793582990
             }
           },
           "depots": {
@@ -605,7 +661,7 @@
               "manifests": {
                 "public": "8155043189194690820",
                 "test": "8367417583589073390",
-                "win11stable": "8487180811782376266",
+                "win11stable": "5135770568034944361",
                 "win7compat": "3826072245426579061"
               }
             },
@@ -616,17 +672,17 @@
               },
               "manifests": {
                 "public": "4609693748328168943",
-                "win7compat": "4609693748328168943"
+                "win7compat": "6512226290165731207"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-01T10:22:51.604Z",
+      "observed_at": "2026-11-02T01:52:51.347Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-01T10:22:51.604Z"
+  "updated_at": "2026-11-02T01:52:51.347Z"
 }
