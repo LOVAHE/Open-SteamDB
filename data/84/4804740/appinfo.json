@@ -1,8 +1,8 @@
 {
   "appid": 4804740,
   "source": "steam_pics",
-  "updated_at": "2026-10-22T16:52:42.949Z",
-  "change_number": 40136297,
+  "updated_at": "2026-11-02T18:26:01.285Z",
+  "change_number": 40519421,
   "data": {
     "common": {
       "associations": {
@@ -135,6 +135,44 @@
     },
     "config": {
       "installdir": "GET RAMMED Demo"
+    },
+    "ufs": {
+      "maxnumfiles": "100",
+      "quota": "104857600",
+      "rootoverrides": {
+        "0": {
+          "os": "MacOS",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Hyrax Studios/GET RAMMED/Progression/{64BitSteamID}",
+              "replace": "Hyrax Studios/GET RAMMED/Progression/{64BitSteamID}"
+            }
+          },
+          "root": "WinAppDataLocalLow",
+          "useinstead": "MacAppSupport"
+        },
+        "1": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Hyrax Studios/GET RAMMED/Progression/{64BitSteamID}",
+              "replace": ".config/unity3d/Hyrax Studios/GET RAMMED/Progression/{64BitSteamID}"
+            }
+          },
+          "root": "WinAppDataLocalLow",
+          "useinstead": "LinuxHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Hyrax Studios/GET RAMMED/Progression/{64BitSteamID}",
+          "pattern": "progression.json",
+          "root": "WinAppDataLocalLow"
+        },
+        "copied_from_parent": "1"
+      }
     }
   }
 }
