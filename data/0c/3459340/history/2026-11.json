@@ -357,11 +357,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-02T03:07:59.271Z",
+      "change_number": 40494475,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26371015",
+            "description": "Lacey for Linux",
+            "timebuildupdated": 1793588738,
+            "timeupdated": 1793588738
+          },
+          "op": "add",
+          "path": "/depots/branches/linux"
+        },
+        {
+          "after": "8499514457441921142",
+          "op": "add",
+          "path": "/depots/depots/3459341/manifests/linux"
+        },
+        {
+          "after": "8322668320039570870",
+          "op": "add",
+          "path": "/depots/depots/3459349/manifests/linux"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40493771,
+      "change_number": 40494475,
       "data": {
         "appinfo": {
           "common": {
@@ -539,6 +567,12 @@
         },
         "depots": {
           "branches": {
+            "linux": {
+              "buildid": "26371015",
+              "description": "Lacey for Linux",
+              "timebuildupdated": 1793588738,
+              "timeupdated": 1793588738
+            },
             "public": {
               "buildid": "26369238",
               "timebuildupdated": 1793580421,
@@ -548,6 +582,7 @@
           "depots": {
             "3459341": {
               "manifests": {
+                "linux": "8499514457441921142",
                 "public": "3471757685920242651"
               }
             },
@@ -556,16 +591,18 @@
                 "osarch": "64",
                 "oslist": "linux"
               },
-              "manifests": {}
+              "manifests": {
+                "linux": "8322668320039570870"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-02T02:22:54.150Z",
+      "observed_at": "2026-11-02T03:07:59.271Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-02T02:22:54.150Z"
+  "updated_at": "2026-11-02T03:07:59.271Z"
 }
