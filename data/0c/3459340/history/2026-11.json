@@ -417,11 +417,57 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-02T03:52:58.365Z",
+      "change_number": 40495340,
+      "changes": [
+        {
+          "after": "51",
+          "before": "50",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "26371494",
+          "before": "26371234",
+          "op": "replace",
+          "path": "/depots/branches/linux/buildid"
+        },
+        {
+          "after": 1793590934,
+          "before": 1793589569,
+          "op": "replace",
+          "path": "/depots/branches/linux/timebuildupdated"
+        },
+        {
+          "after": 1793590934,
+          "before": 1793589569,
+          "op": "replace",
+          "path": "/depots/branches/linux/timeupdated"
+        },
+        {
+          "after": {
+            "osarch": "64",
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/3459341/config"
+        },
+        {
+          "after": "515926733719721",
+          "before": "3898675852610135576",
+          "op": "replace",
+          "path": "/depots/depots/3459349/manifests/linux"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40494840,
+      "change_number": 40495340,
       "data": {
         "appinfo": {
           "common": {
@@ -526,7 +572,7 @@
             "osextended": "",
             "oslist": "windows,linux",
             "primary_genre": "23",
-            "review_percentage": "50",
+            "review_percentage": "51",
             "review_score": "5",
             "small_capsule": {
               "english": "ec041afee0a968355562ff321c045c5f13c1bd23/capsule_231x87.jpg"
@@ -600,10 +646,10 @@
         "depots": {
           "branches": {
             "linux": {
-              "buildid": "26371234",
+              "buildid": "26371494",
               "description": "Lacey for Linux",
-              "timebuildupdated": 1793589569,
-              "timeupdated": 1793589569
+              "timebuildupdated": 1793590934,
+              "timeupdated": 1793590934
             },
             "public": {
               "buildid": "26369238",
@@ -613,6 +659,10 @@
           },
           "depots": {
             "3459341": {
+              "config": {
+                "osarch": "64",
+                "oslist": "windows"
+              },
               "manifests": {
                 "linux": "8499514457441921142",
                 "public": "3471757685920242651"
@@ -624,17 +674,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "linux": "3898675852610135576"
+                "linux": "515926733719721"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-02T03:22:51.077Z",
+      "observed_at": "2026-11-02T03:52:58.365Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-02T03:22:51.077Z"
+  "updated_at": "2026-11-02T03:52:58.365Z"
 }
