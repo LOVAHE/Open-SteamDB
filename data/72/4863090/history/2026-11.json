@@ -770,11 +770,80 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-02T11:52:57.274Z",
+      "change_number": 40506018,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "addpath": "",
+              "os": "Linux",
+              "oscompare": "=",
+              "root": "WinAppDataRoaming",
+              "useinstead": "LinuxXdgConfigHome"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "before": {
+            "1": "Windows"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/0/platforms"
+        },
+        {
+          "after": "26377955",
+          "before": "26376455",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793618068,
+          "before": 1793613323,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793619582,
+          "before": 1793613644,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/4863091/config"
+        },
+        {
+          "after": "1920641619352238331",
+          "before": "4478326319424204927",
+          "op": "replace",
+          "path": "/depots/depots/4863091/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "linux"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/4863092"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40505306,
+      "change_number": 40506018,
       "data": {
         "appinfo": {
           "common": {
@@ -951,13 +1020,19 @@
           "ufs": {
             "maxnumfiles": "5000",
             "quota": "500000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "Linux",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgConfigHome"
+              }
+            },
             "savefiles": {
               "0": {
                 "path": "Bravemech\\cloud",
                 "pattern": "save.json",
-                "platforms": {
-                  "1": "Windows"
-                },
                 "root": "WinAppDataRoaming"
               }
             }
@@ -972,9 +1047,9 @@
               "timeupdated": 1793618068
             },
             "public": {
-              "buildid": "26376455",
-              "timebuildupdated": 1793613323,
-              "timeupdated": 1793613644
+              "buildid": "26377955",
+              "timebuildupdated": 1793618068,
+              "timeupdated": 1793619582
             }
           },
           "depots": {
@@ -987,19 +1062,28 @@
               "sharedinstall": true
             },
             "4863091": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
                 "beta": "1920641619352238331",
-                "public": "4478326319424204927"
+                "public": "1920641619352238331"
               }
+            },
+            "4863092": {
+              "config": {
+                "oslist": "linux"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-02T11:23:07.463Z",
+      "observed_at": "2026-11-02T11:52:57.274Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-02T11:23:07.463Z"
+  "updated_at": "2026-11-02T11:52:57.274Z"
 }

@@ -1,8 +1,8 @@
 {
   "appid": 4863090,
   "source": "steam_pics",
-  "updated_at": "2026-11-02T11:23:07.463Z",
-  "change_number": 40505306,
+  "updated_at": "2026-11-02T11:52:57.274Z",
+  "change_number": 40506018,
   "data": {
     "common": {
       "associations": {
@@ -178,13 +178,19 @@
     "ufs": {
       "maxnumfiles": "5000",
       "quota": "500000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgConfigHome"
+        }
+      },
       "savefiles": {
         "0": {
           "path": "Bravemech\\cloud",
           "pattern": "save.json",
-          "platforms": {
-            "1": "Windows"
-          },
           "root": "WinAppDataRoaming"
         }
       }
