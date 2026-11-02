@@ -289,11 +289,51 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-02T18:11:00.057Z",
+      "change_number": 40519170,
+      "changes": [
+        {
+          "after": "macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "90",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5329942"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40516078,
+      "change_number": 40519170,
       "data": {
         "appinfo": {
           "common": {
@@ -398,9 +438,11 @@
             },
             "name": "SCROLLS: Tidy up the Library of Olympus!",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macosapplesilicon",
+            "oslist": "windows,macos",
             "primary_genre": "4",
+            "review_percentage": "90",
+            "review_score": "7",
             "small_capsule": {
               "english": "382ec9eee89c8d8768da454975b73bde3c917878/capsule_231x87.jpg"
             },
@@ -512,15 +554,21 @@
               "manifests": {
                 "public": "742925666202799897"
               }
+            },
+            "5329942": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-02T17:08:08.540Z",
+      "observed_at": "2026-11-02T18:11:00.057Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-02T17:08:08.540Z"
+  "updated_at": "2026-11-02T18:11:00.057Z"
 }
