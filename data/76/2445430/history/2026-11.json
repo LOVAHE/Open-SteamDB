@@ -214,11 +214,62 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-02T05:52:56.171Z",
+      "change_number": 40497576,
+      "changes": [
+        {
+          "after": "26373084",
+          "before": "26176217",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793598671,
+          "before": 1792811529,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793598796,
+          "before": 1792811656,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "language": "english"
+          },
+          "op": "add",
+          "path": "/depots/depots/2445431/config"
+        },
+        {
+          "after": "8057201647522135753",
+          "before": "1535604742069516876",
+          "op": "replace",
+          "path": "/depots/depots/2445431/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "language": "japanese"
+            },
+            "manifests": {
+              "public": "3790374454188364201"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/2445432"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40472734,
+      "change_number": 40497576,
       "data": {
         "appinfo": {
           "common": {
@@ -398,25 +449,36 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26176217",
-              "timebuildupdated": 1792811529,
-              "timeupdated": 1792811656
+              "buildid": "26373084",
+              "timebuildupdated": 1793598671,
+              "timeupdated": 1793598796
             }
           },
           "depots": {
             "2445431": {
+              "config": {
+                "language": "english"
+              },
               "manifests": {
-                "public": "1535604742069516876"
+                "public": "8057201647522135753"
+              }
+            },
+            "2445432": {
+              "config": {
+                "language": "japanese"
+              },
+              "manifests": {
+                "public": "3790374454188364201"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-01T06:22:51.945Z",
+      "observed_at": "2026-11-02T05:52:56.171Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-01T06:22:51.945Z"
+  "updated_at": "2026-11-02T05:52:56.171Z"
 }
