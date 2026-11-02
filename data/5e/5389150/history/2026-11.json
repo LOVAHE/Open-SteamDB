@@ -178,11 +178,35 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-02T03:22:51.077Z",
+      "change_number": 40494794,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "20",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "Outreach Games/Keyp It Up",
+                "pattern": "*",
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40494297,
+      "change_number": 40494794,
       "data": {
         "appinfo": {
           "common": {
@@ -318,6 +342,18 @@
           "extended": {
             "developer": "OutReach Games",
             "publisher": "OutReach Games"
+          },
+          "ufs": {
+            "maxnumfiles": "20",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "Outreach Games/Keyp It Up",
+                "pattern": "*",
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -340,11 +376,11 @@
           }
         }
       },
-      "observed_at": "2026-11-02T03:07:59.271Z",
+      "observed_at": "2026-11-02T03:22:51.077Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-02T03:07:59.271Z"
+  "updated_at": "2026-11-02T03:22:51.077Z"
 }
