@@ -303,11 +303,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-03T19:39:36.682Z",
+      "change_number": 40561912,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26414501",
+            "description": "Rolled back to previous version of Godot",
+            "timebuildupdated": 1793734710,
+            "timeupdated": 1793734722
+          },
+          "op": "add",
+          "path": "/depots/branches/4.4_testing"
+        },
+        {
+          "after": "2239326969223766435",
+          "op": "add",
+          "path": "/depots/depots/4648891/manifests/4.4_testing"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40535700,
+      "change_number": 40561912,
       "data": {
         "appinfo": {
           "common": {
@@ -461,6 +484,12 @@
         },
         "depots": {
           "branches": {
+            "4.4_testing": {
+              "buildid": "26414501",
+              "description": "Rolled back to previous version of Godot",
+              "timebuildupdated": 1793734710,
+              "timeupdated": 1793734722
+            },
             "public": {
               "buildid": "26397964",
               "timebuildupdated": 1793681576,
@@ -470,17 +499,18 @@
           "depots": {
             "4648891": {
               "manifests": {
+                "4.4_testing": "2239326969223766435",
                 "public": "5090451074593679377"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-03T05:08:00.057Z",
+      "observed_at": "2026-11-03T19:39:36.682Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-03T05:08:00.057Z"
+  "updated_at": "2026-11-03T19:39:36.682Z"
 }
