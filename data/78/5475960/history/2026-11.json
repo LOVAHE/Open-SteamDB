@@ -521,11 +521,34 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-03T22:23:02.485Z",
+      "change_number": 40566953,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26383331",
+            "description": "contains the version of the game that was live before the current patch. Switch to this if the new version has a big bad bug or if it's not savegame compatible.",
+            "timebuildupdated": 1793634469,
+            "timeupdated": 1793635270
+          },
+          "op": "add",
+          "path": "/depots/branches/last-version"
+        },
+        {
+          "after": "6856209444485312461",
+          "op": "add",
+          "path": "/depots/depots/5475961/manifests/last-version"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40563945,
+      "change_number": 40566953,
       "data": {
         "appinfo": {
           "common": {
@@ -752,6 +775,12 @@
         },
         "depots": {
           "branches": {
+            "last-version": {
+              "buildid": "26383331",
+              "description": "contains the version of the game that was live before the current patch. Switch to this if the new version has a big bad bug or if it's not savegame compatible.",
+              "timebuildupdated": 1793634469,
+              "timeupdated": 1793635270
+            },
             "public": {
               "buildid": "26383331",
               "timebuildupdated": 1793634469,
@@ -767,6 +796,7 @@
           "depots": {
             "5475961": {
               "manifests": {
+                "last-version": "6856209444485312461",
                 "public": "6856209444485312461",
                 "staging": "7823427665233108865"
               }
@@ -774,11 +804,11 @@
           }
         }
       },
-      "observed_at": "2026-11-03T20:56:46.557Z",
+      "observed_at": "2026-11-03T22:23:02.485Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-03T20:56:46.557Z"
+  "updated_at": "2026-11-03T22:23:02.485Z"
 }

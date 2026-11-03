@@ -304,11 +304,45 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-03T22:23:02.485Z",
+      "change_number": 40566954,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "100",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "BackroomsAnomalyProjectDemo/Saved/SaveGames",
+                "pattern": "*.sav",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocal"
+              },
+              "1": {
+                "path": "BackroomAnomalyProject/Config",
+                "pattern": "UserSettings.json",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "gameinstall"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40565981,
+      "change_number": 40566954,
       "data": {
         "appinfo": {
           "common": {
@@ -456,6 +490,28 @@
           "extended": {
             "developer": "Mahatsu",
             "publisher": "Mahatsu"
+          },
+          "ufs": {
+            "maxnumfiles": "100",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "BackroomsAnomalyProjectDemo/Saved/SaveGames",
+                "pattern": "*.sav",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocal"
+              },
+              "1": {
+                "path": "BackroomAnomalyProject/Config",
+                "pattern": "UserSettings.json",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "gameinstall"
+              }
+            }
           }
         },
         "depots": {
@@ -491,11 +547,11 @@
           }
         }
       },
-      "observed_at": "2026-11-03T21:53:09.034Z",
+      "observed_at": "2026-11-03T22:23:02.485Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-03T21:53:09.034Z"
+  "updated_at": "2026-11-03T22:23:02.485Z"
 }
