@@ -469,11 +469,37 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-03T10:53:00.270Z",
+      "change_number": 40544079,
+      "changes": [
+        {
+          "after": {
+            "path": "Yae_Absolute/savegames",
+            "pattern": "Save*",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        },
+        {
+          "after": {
+            "path": "Yae_Absolute/savegames",
+            "pattern": "tmp_cur_sshot.tga",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/3"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40543933,
+      "change_number": 40544079,
       "data": {
         "appinfo": {
           "common": {
@@ -694,6 +720,16 @@
                 "path": "My Games/YaE_Absolute/savegames",
                 "pattern": "tmp_cur_sshot.tga",
                 "root": "WinMyDocuments"
+              },
+              "2": {
+                "path": "Yae_Absolute/savegames",
+                "pattern": "Save*",
+                "root": "WinAppDataRoaming"
+              },
+              "3": {
+                "path": "Yae_Absolute/savegames",
+                "pattern": "tmp_cur_sshot.tga",
+                "root": "WinAppDataRoaming"
               }
             }
           }
@@ -747,11 +783,11 @@
           }
         }
       },
-      "observed_at": "2026-11-03T10:37:59.717Z",
+      "observed_at": "2026-11-03T10:53:00.270Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-03T10:37:59.717Z"
+  "updated_at": "2026-11-03T10:53:00.270Z"
 }
