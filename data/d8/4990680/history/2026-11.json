@@ -376,11 +376,31 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-03T19:09:18.289Z",
+      "change_number": 40561061,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40552623,
+      "change_number": 40561061,
       "data": {
         "appinfo": {
           "common": {
@@ -478,8 +498,8 @@
             },
             "name": "Terminidle",
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos",
             "primary_genre": "23",
             "small_capsule": {
               "english": "4151786f3018deb644eac96a460670a77ca5ec0f/capsule_231x87.jpg"
@@ -615,11 +635,11 @@
           }
         }
       },
-      "observed_at": "2026-11-03T15:08:06.740Z",
+      "observed_at": "2026-11-03T19:09:18.289Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-03T15:08:06.740Z"
+  "updated_at": "2026-11-03T19:09:18.289Z"
 }
