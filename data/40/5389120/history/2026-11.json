@@ -284,11 +284,74 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-03T02:22:58.815Z",
+      "change_number": 40532461,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26395518",
+          "before": "26379400",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793672381,
+          "before": 1793622792,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793672613,
+          "before": 1793636638,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "oslist": "windows,linux"
+          },
+          "op": "add",
+          "path": "/depots/depots/5389121/config"
+        },
+        {
+          "after": "8827462733843498934",
+          "before": "5867608866743680917",
+          "op": "replace",
+          "path": "/depots/depots/5389121/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "2455565759647978045"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5389122"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40527835,
+      "change_number": 40532461,
       "data": {
         "appinfo": {
           "common": {
@@ -378,8 +441,8 @@
             },
             "name": "Bongo VPet - Taskbar Buddy",
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos",
             "primary_genre": "4",
             "small_capsule": {
               "english": "5f0edf3becddd398ca5f8b3bd2c5226a105fb02b/capsule_231x87.jpg"
@@ -510,25 +573,36 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26379400",
-              "timebuildupdated": 1793622792,
-              "timeupdated": 1793636638
+              "buildid": "26395518",
+              "timebuildupdated": 1793672381,
+              "timeupdated": 1793672613
             }
           },
           "depots": {
             "5389121": {
+              "config": {
+                "oslist": "windows,linux"
+              },
               "manifests": {
-                "public": "5867608866743680917"
+                "public": "8827462733843498934"
+              }
+            },
+            "5389122": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "2455565759647978045"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-02T23:07:57.684Z",
+      "observed_at": "2026-11-03T02:22:58.815Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-02T23:07:57.684Z"
+  "updated_at": "2026-11-03T02:22:58.815Z"
 }

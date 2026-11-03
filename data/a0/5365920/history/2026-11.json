@@ -164,11 +164,51 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-03T02:22:58.815Z",
+      "change_number": 40531416,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "4000",
+            "quota": "200000000"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26394164",
+          "before": "26381210",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793667343,
+          "before": 1793628425,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793667495,
+          "before": 1793628875,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4349774875823137643",
+          "before": "6143993418550916675",
+          "op": "replace",
+          "path": "/depots/depots/5365921/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40510752,
+      "change_number": 40531416,
       "data": {
         "appinfo": {
           "common": {
@@ -300,30 +340,34 @@
           "extended": {
             "developer": "Terracraft Software",
             "publisher": "Terracraft Software"
+          },
+          "ufs": {
+            "maxnumfiles": "4000",
+            "quota": "200000000"
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26381210",
-              "timebuildupdated": 1793628425,
-              "timeupdated": 1793628875
+              "buildid": "26394164",
+              "timebuildupdated": 1793667343,
+              "timeupdated": 1793667495
             }
           },
           "depots": {
             "5365921": {
               "manifests": {
-                "public": "6143993418550916675"
+                "public": "4349774875823137643"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-02T20:53:09.299Z",
+      "observed_at": "2026-11-03T02:22:58.815Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-02T20:53:09.299Z"
+  "updated_at": "2026-11-03T02:22:58.815Z"
 }
