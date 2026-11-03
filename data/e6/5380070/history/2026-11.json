@@ -269,11 +269,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-03T21:08:24.899Z",
+      "change_number": 40564584,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26410175",
+            "description": "Açık Bölge (Open Zone) beta",
+            "timebuildupdated": 1793722178,
+            "timeupdated": 1793722178
+          },
+          "op": "remove",
+          "path": "/depots/branches/acikbolge"
+        },
+        {
+          "before": "4843044754372905045",
+          "op": "remove",
+          "path": "/depots/depots/5380071/manifests/acikbolge"
+        },
+        {
+          "before": "830324160235114714",
+          "op": "remove",
+          "path": "/depots/depots/5380072/manifests/acikbolge"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40554847,
+      "change_number": 40564584,
       "data": {
         "appinfo": {
           "common": {
@@ -482,12 +510,6 @@
         },
         "depots": {
           "branches": {
-            "acikbolge": {
-              "buildid": "26410175",
-              "description": "Açık Bölge (Open Zone) beta",
-              "timebuildupdated": 1793722178,
-              "timeupdated": 1793722178
-            },
             "public": {
               "buildid": "26335635",
               "timebuildupdated": 1793399229,
@@ -500,7 +522,6 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "acikbolge": "4843044754372905045",
                 "public": "5054473065488665528"
               }
             },
@@ -509,18 +530,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "acikbolge": "830324160235114714",
                 "public": "7737204657115950197"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-03T16:08:47.107Z",
+      "observed_at": "2026-11-03T21:08:24.899Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-03T16:08:47.107Z"
+  "updated_at": "2026-11-03T21:08:24.899Z"
 }
