@@ -527,11 +527,25 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-03T14:08:00.299Z",
+      "change_number": 40550214,
+      "changes": [
+        {
+          "after": "*.es3",
+          "before": "SaveFile.es3",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/pattern"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40544074,
+      "change_number": 40550214,
       "data": {
         "appinfo": {
           "common": {
@@ -722,7 +736,7 @@
             "savefiles": {
               "0": {
                 "path": "glassPixelGames/Fuel Station Simulator",
-                "pattern": "SaveFile.es3",
+                "pattern": "*.es3",
                 "platforms": {
                   "1": "Windows"
                 },
@@ -748,11 +762,11 @@
           }
         }
       },
-      "observed_at": "2026-11-03T10:53:00.270Z",
+      "observed_at": "2026-11-03T14:08:00.299Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-03T10:53:00.270Z"
+  "updated_at": "2026-11-03T14:08:00.299Z"
 }

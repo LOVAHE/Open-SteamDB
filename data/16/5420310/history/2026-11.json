@@ -381,11 +381,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-03T14:08:00.299Z",
+      "change_number": 40550216,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26404793",
+            "description": "內部測試",
+            "timebuildupdated": 1793707043,
+            "timeupdated": 1793707043
+          },
+          "op": "remove",
+          "path": "/depots/branches/beta"
+        },
+        {
+          "after": "26407022",
+          "before": "26317373",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793713834,
+          "before": 1793344303,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793714217,
+          "before": 1793344555,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": "3502868632726792346",
+          "op": "remove",
+          "path": "/depots/depots/5420311/manifests/beta"
+        },
+        {
+          "after": "6049597558892029418",
+          "before": "2831537864222911776",
+          "op": "replace",
+          "path": "/depots/depots/5420311/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40546446,
+      "change_number": 40550216,
       "data": {
         "appinfo": {
           "common": {
@@ -526,16 +573,10 @@
         },
         "depots": {
           "branches": {
-            "beta": {
-              "buildid": "26404793",
-              "description": "內部測試",
-              "timebuildupdated": 1793707043,
-              "timeupdated": 1793707043
-            },
             "public": {
-              "buildid": "26317373",
-              "timebuildupdated": 1793344303,
-              "timeupdated": 1793344555
+              "buildid": "26407022",
+              "timebuildupdated": 1793713834,
+              "timeupdated": 1793714217
             }
           },
           "depots": {
@@ -561,18 +602,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "beta": "3502868632726792346",
-                "public": "2831537864222911776"
+                "public": "6049597558892029418"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-03T12:07:59.003Z",
+      "observed_at": "2026-11-03T14:08:00.299Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-03T12:07:59.003Z"
+  "updated_at": "2026-11-03T14:08:00.299Z"
 }
