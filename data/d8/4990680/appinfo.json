@@ -1,8 +1,8 @@
 {
   "appid": 4990680,
   "source": "steam_pics",
-  "updated_at": "2026-11-03T13:23:00.263Z",
-  "change_number": 40548796,
+  "updated_at": "2026-11-03T14:23:02.316Z",
+  "change_number": 40550805,
   "data": {
     "common": {
       "associations": {
@@ -145,6 +145,15 @@
     "ufs": {
       "maxnumfiles": "200",
       "quota": "50000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "Windows",
+          "oscompare": "=",
+          "root": "gameinstall",
+          "useinstead": "gameinstall"
+        }
+      },
       "savefiles": {
         "0": {
           "path": "Zero Task/Terminidle",
@@ -170,6 +179,31 @@
           },
           "recursive": "1",
           "root": "WinAppDataLocalLow"
+        },
+        "3": {
+          "path": "unity.Zero Task.Terminidle",
+          "pattern": "terminidle_save*",
+          "platforms": {
+            "1": "MacOS"
+          },
+          "root": "MacAppSupport"
+        },
+        "4": {
+          "path": "unity.Zero Task.Terminidle",
+          "pattern": "terminidle_slots*",
+          "platforms": {
+            "1": "MacOS"
+          },
+          "root": "MacAppSupport"
+        },
+        "5": {
+          "path": "unity.Zero Task.Terminidle",
+          "pattern": "scripts*",
+          "platforms": {
+            "1": "MacOS"
+          },
+          "recursive": "1",
+          "root": "MacAppSupport"
         }
       }
     }
