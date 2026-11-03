@@ -548,11 +548,44 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-03T22:38:02.401Z",
+      "change_number": 40567050,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26411652",
+            "description": "Benchmarking",
+            "timebuildupdated": 1793726242,
+            "timeupdated": 1793744760
+          },
+          "op": "add",
+          "path": "/depots/branches/benchmarktest"
+        },
+        {
+          "after": "2672282755052017547",
+          "op": "add",
+          "path": "/depots/depots/5363351/manifests/benchmarktest"
+        },
+        {
+          "after": "2949681047281739242",
+          "op": "add",
+          "path": "/depots/depots/5363352/manifests/benchmarktest"
+        },
+        {
+          "after": "1652951950294844680",
+          "op": "add",
+          "path": "/depots/depots/5363353/manifests/benchmarktest"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40555844,
+      "change_number": 40567050,
       "data": {
         "appinfo": {
           "common": {
@@ -717,6 +750,12 @@
         },
         "depots": {
           "branches": {
+            "benchmarktest": {
+              "buildid": "26411652",
+              "description": "Benchmarking",
+              "timebuildupdated": 1793726242,
+              "timeupdated": 1793744760
+            },
             "public": {
               "buildid": "26384072",
               "timebuildupdated": 1793636449,
@@ -737,6 +776,7 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "benchmarktest": "2672282755052017547",
                 "public": "2020658382480843952"
               }
             },
@@ -745,6 +785,7 @@
                 "oslist": "linux"
               },
               "manifests": {
+                "benchmarktest": "2949681047281739242",
                 "public": "5880191086670048196"
               }
             },
@@ -753,17 +794,18 @@
                 "oslist": "macos"
               },
               "manifests": {
+                "benchmarktest": "1652951950294844680",
                 "public": "7265231581773301368"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-03T16:38:30.236Z",
+      "observed_at": "2026-11-03T22:38:02.401Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-03T16:38:30.236Z"
+  "updated_at": "2026-11-03T22:38:02.401Z"
 }
