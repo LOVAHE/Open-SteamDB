@@ -293,11 +293,33 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-04T02:22:56.090Z",
+      "change_number": 40571843,
+      "changes": [
+        {
+          "after": "1791335399",
+          "before": "1798704000",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/turkish"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40571492,
+      "change_number": 40571843,
       "data": {
         "appinfo": {
           "common": {
@@ -409,7 +431,7 @@
             "small_capsule": {
               "english": "e4a4d68f6f5c7f4e11f7a2c635be0c8767df5cff/capsule_231x87.jpg"
             },
-            "steam_release_date": "1798704000",
+            "steam_release_date": "1791335399",
             "store_asset_mtime": "1791150053",
             "store_tags": {
               "0": "3814",
@@ -478,6 +500,10 @@
               "spanish": {
                 "subtitles": "true",
                 "supported": "true"
+              },
+              "turkish": {
+                "subtitles": "true",
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -510,11 +536,11 @@
           }
         }
       },
-      "observed_at": "2026-11-04T01:37:52.602Z",
+      "observed_at": "2026-11-04T02:22:56.090Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-04T01:37:52.602Z"
+  "updated_at": "2026-11-04T02:22:56.090Z"
 }
