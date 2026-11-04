@@ -337,11 +337,37 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-04T16:33:11.322Z",
+      "change_number": 40596656,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "os": "Linux",
+              "oscompare": "=",
+              "pathtransforms": {
+                "0": {
+                  "find": "nonogames/SinfulSurvivors",
+                  "replace": "unity3d/nonogames/SinfulSurvivors"
+                }
+              },
+              "root": "WinAppDataLocalLow",
+              "useinstead": "LinuxXdgConfigHome"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40595640,
+      "change_number": 40596656,
       "data": {
         "appinfo": {
           "common": {
@@ -608,6 +634,20 @@
           "ufs": {
             "maxnumfiles": "20",
             "quota": "400000000",
+            "rootoverrides": {
+              "0": {
+                "os": "Linux",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "nonogames/SinfulSurvivors",
+                    "replace": "unity3d/nonogames/SinfulSurvivors"
+                  }
+                },
+                "root": "WinAppDataLocalLow",
+                "useinstead": "LinuxXdgConfigHome"
+              }
+            },
             "savefiles": {
               "0": {
                 "path": "nonogames/SinfulSurvivors",
@@ -642,11 +682,11 @@
           }
         }
       },
-      "observed_at": "2026-11-04T16:20:15.271Z",
+      "observed_at": "2026-11-04T16:33:11.322Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-04T16:20:15.271Z"
+  "updated_at": "2026-11-04T16:33:11.322Z"
 }
