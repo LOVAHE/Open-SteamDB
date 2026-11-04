@@ -932,11 +932,51 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-04T20:38:07.132Z",
+      "change_number": 40604920,
+      "changes": [
+        {
+          "after": {
+            "full_audio": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/greek"
+        },
+        {
+          "after": "26441464",
+          "before": "26441370",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793824034,
+          "before": 1793823776,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793824035,
+          "before": 1793823776,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2042727177786731783",
+          "before": "4043540074017176393",
+          "op": "replace",
+          "path": "/depots/depots/940232/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40604699,
+      "change_number": 40604920,
       "data": {
         "appinfo": {
           "common": {
@@ -1083,6 +1123,10 @@
                 "full_audio": "true",
                 "supported": "true"
               },
+              "greek": {
+                "full_audio": "true",
+                "supported": "true"
+              },
               "hungarian": {
                 "full_audio": "true",
                 "supported": "true"
@@ -1169,9 +1213,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26441370",
-              "timebuildupdated": 1793823776,
-              "timeupdated": 1793823776
+              "buildid": "26441464",
+              "timebuildupdated": 1793824034,
+              "timeupdated": 1793824035
             }
           },
           "depots": {
@@ -1204,17 +1248,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "4043540074017176393"
+                "public": "2042727177786731783"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-04T20:23:05.268Z",
+      "observed_at": "2026-11-04T20:38:07.132Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-04T20:23:05.268Z"
+  "updated_at": "2026-11-04T20:38:07.132Z"
 }
