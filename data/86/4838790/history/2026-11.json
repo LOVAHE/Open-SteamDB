@@ -348,11 +348,35 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-04T04:22:57.826Z",
+      "change_number": 40574787,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "100",
+            "quota": "90000000",
+            "savefiles": {
+              "1": {
+                "path": "sanguo_qunxiong/saves",
+                "pattern": "*",
+                "recursive": "1",
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40574759,
+      "change_number": 40574787,
       "data": {
         "appinfo": {
           "common": {
@@ -523,6 +547,18 @@
           "extended": {
             "developer": "LI BO",
             "publisher": "叮果的游戏"
+          },
+          "ufs": {
+            "maxnumfiles": "100",
+            "quota": "90000000",
+            "savefiles": {
+              "1": {
+                "path": "sanguo_qunxiong/saves",
+                "pattern": "*",
+                "recursive": "1",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -546,11 +582,11 @@
           }
         }
       },
-      "observed_at": "2026-11-04T04:07:59.864Z",
+      "observed_at": "2026-11-04T04:22:57.826Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-04T04:07:59.864Z"
+  "updated_at": "2026-11-04T04:22:57.826Z"
 }
