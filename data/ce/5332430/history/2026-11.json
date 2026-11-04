@@ -445,11 +445,69 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-04T15:53:03.640Z",
+      "change_number": 40595205,
+      "changes": [
+        {
+          "after": "26435522",
+          "before": "26359511",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793807106,
+          "before": 1793532636,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793807177,
+          "before": 1793532636,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": {
+            "buildid": "26210072",
+            "description": "Windows",
+            "timebuildupdated": 1792993473,
+            "timeupdated": 1792993473
+          },
+          "op": "remove",
+          "path": "/depots/branches/windows-test"
+        },
+        {
+          "after": "7694821042276186567",
+          "before": "7767479182960090459",
+          "op": "replace",
+          "path": "/depots/depots/5332431/manifests/public"
+        },
+        {
+          "before": "9033235762588022685",
+          "op": "remove",
+          "path": "/depots/depots/5332431/manifests/windows-test"
+        },
+        {
+          "after": "8618218754493707970",
+          "before": "5502253490949073329",
+          "op": "replace",
+          "path": "/depots/depots/5332432/manifests/public"
+        },
+        {
+          "before": "5416144369738498548",
+          "op": "remove",
+          "path": "/depots/depots/5332432/manifests/windows-test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40582267,
+      "change_number": 40595205,
       "data": {
         "appinfo": {
           "common": {
@@ -615,15 +673,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26359511",
-              "timebuildupdated": 1793532636,
-              "timeupdated": 1793532636
-            },
-            "windows-test": {
-              "buildid": "26210072",
-              "description": "Windows",
-              "timebuildupdated": 1792993473,
-              "timeupdated": 1792993473
+              "buildid": "26435522",
+              "timebuildupdated": 1793807106,
+              "timeupdated": 1793807177
             }
           },
           "depots": {
@@ -641,8 +693,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "7767479182960090459",
-                "windows-test": "9033235762588022685"
+                "public": "7694821042276186567"
               }
             },
             "5332432": {
@@ -651,18 +702,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "5502253490949073329",
-                "windows-test": "5416144369738498548"
+                "public": "8618218754493707970"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-04T09:08:04.041Z",
+      "observed_at": "2026-11-04T15:53:03.640Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-04T09:08:04.041Z"
+  "updated_at": "2026-11-04T15:53:03.640Z"
 }
