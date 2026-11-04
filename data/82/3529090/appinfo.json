@@ -1,8 +1,8 @@
 {
   "appid": 3529090,
   "source": "steam_pics",
-  "updated_at": "2026-11-04T16:53:31.510Z",
-  "change_number": 40597673,
+  "updated_at": "2026-11-04T17:08:02.129Z",
+  "change_number": 40597720,
   "data": {
     "common": {
       "associations": {
@@ -180,6 +180,32 @@
     "ufs": {
       "maxnumfiles": "7",
       "quota": "5242880",
+      "rootoverrides": {
+        "0": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "/Godot/app_userdata/Astra Bestiary",
+              "replace": "godot/app_userdata/Astra Bestiary/cloud"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        },
+        "1": {
+          "os": "MacOS",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "/Godot/app_userdata/Astra Bestiary",
+              "replace": "Godot/app_userdata/Astra Bestiary/cloud"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
+        }
+      },
       "savefiles": {
         "0": {
           "path": "/Godot/app_userdata/Astra Bestiary",
@@ -201,6 +227,11 @@
           "path": "/Godot/app_userdata/Astra Bestiary",
           "pattern": "*.save",
           "root": "MacAppSupport"
+        },
+        "3": {
+          "path": "/Godot/app_userdata/Astra Bestiary/cloud",
+          "pattern": "*.save",
+          "root": "WinAppDataRoaming"
         }
       }
     }

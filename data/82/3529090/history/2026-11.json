@@ -286,11 +286,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-04T17:08:02.129Z",
+      "change_number": 40597720,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "os": "Linux",
+              "oscompare": "=",
+              "pathtransforms": {
+                "0": {
+                  "find": "/Godot/app_userdata/Astra Bestiary",
+                  "replace": "godot/app_userdata/Astra Bestiary/cloud"
+                }
+              },
+              "root": "WinAppDataRoaming",
+              "useinstead": "LinuxXdgDataHome"
+            },
+            "1": {
+              "os": "MacOS",
+              "oscompare": "=",
+              "pathtransforms": {
+                "0": {
+                  "find": "/Godot/app_userdata/Astra Bestiary",
+                  "replace": "Godot/app_userdata/Astra Bestiary/cloud"
+                }
+              },
+              "root": "WinAppDataRoaming",
+              "useinstead": "MacAppSupport"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "after": {
+            "path": "/Godot/app_userdata/Astra Bestiary/cloud",
+            "pattern": "*.save",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/3"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40597673,
+      "change_number": 40597720,
       "data": {
         "appinfo": {
           "common": {
@@ -469,6 +516,32 @@
           "ufs": {
             "maxnumfiles": "7",
             "quota": "5242880",
+            "rootoverrides": {
+              "0": {
+                "os": "Linux",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "/Godot/app_userdata/Astra Bestiary",
+                    "replace": "godot/app_userdata/Astra Bestiary/cloud"
+                  }
+                },
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              },
+              "1": {
+                "os": "MacOS",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "/Godot/app_userdata/Astra Bestiary",
+                    "replace": "Godot/app_userdata/Astra Bestiary/cloud"
+                  }
+                },
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
             "savefiles": {
               "0": {
                 "path": "/Godot/app_userdata/Astra Bestiary",
@@ -490,6 +563,11 @@
                 "path": "/Godot/app_userdata/Astra Bestiary",
                 "pattern": "*.save",
                 "root": "MacAppSupport"
+              },
+              "3": {
+                "path": "/Godot/app_userdata/Astra Bestiary/cloud",
+                "pattern": "*.save",
+                "root": "WinAppDataRoaming"
               }
             }
           }
@@ -539,11 +617,11 @@
           }
         }
       },
-      "observed_at": "2026-11-04T16:53:31.510Z",
+      "observed_at": "2026-11-04T17:08:02.129Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-04T16:53:31.510Z"
+  "updated_at": "2026-11-04T17:08:02.129Z"
 }
