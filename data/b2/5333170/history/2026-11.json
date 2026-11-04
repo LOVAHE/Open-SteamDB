@@ -209,11 +209,69 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-04T20:08:12.869Z",
+      "change_number": 40603970,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26440588",
+            "description": "Test branch for new demo versions",
+            "timebuildupdated": 1793821396,
+            "timeupdated": 1793821544
+          },
+          "op": "remove",
+          "path": "/depots/branches/demo_test"
+        },
+        {
+          "after": "26440588",
+          "before": "26297899",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793821396,
+          "before": 1793279563,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793822288,
+          "before": 1793279931,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": "3536852350224940774",
+          "op": "remove",
+          "path": "/depots/depots/5333171/manifests/demo_test"
+        },
+        {
+          "after": "3536852350224940774",
+          "before": "6242734940999435392",
+          "op": "replace",
+          "path": "/depots/depots/5333171/manifests/public"
+        },
+        {
+          "before": "7012046023980979938",
+          "op": "remove",
+          "path": "/depots/depots/5333172/manifests/demo_test"
+        },
+        {
+          "after": "7012046023980979938",
+          "before": "2831503816093947322",
+          "op": "replace",
+          "path": "/depots/depots/5333172/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40603548,
+      "change_number": 40603970,
       "data": {
         "appinfo": {
           "common": {
@@ -355,16 +413,10 @@
         },
         "depots": {
           "branches": {
-            "demo_test": {
-              "buildid": "26440588",
-              "description": "Test branch for new demo versions",
-              "timebuildupdated": 1793821396,
-              "timeupdated": 1793821544
-            },
             "public": {
-              "buildid": "26297899",
-              "timebuildupdated": 1793279563,
-              "timeupdated": 1793279931
+              "buildid": "26440588",
+              "timebuildupdated": 1793821396,
+              "timeupdated": 1793822288
             }
           },
           "depots": {
@@ -373,8 +425,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "demo_test": "3536852350224940774",
-                "public": "6242734940999435392"
+                "public": "3536852350224940774"
               }
             },
             "5333172": {
@@ -382,18 +433,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "demo_test": "7012046023980979938",
-                "public": "2831503816093947322"
+                "public": "7012046023980979938"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-04T19:53:02.772Z",
+      "observed_at": "2026-11-04T20:08:12.869Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-04T19:53:02.772Z"
+  "updated_at": "2026-11-04T20:08:12.869Z"
 }
