@@ -1,8 +1,8 @@
 {
   "appid": 4779470,
   "source": "steam_pics",
-  "updated_at": "2026-11-04T11:08:04.845Z",
-  "change_number": 40585919,
+  "updated_at": "2026-11-04T11:53:23.446Z",
+  "change_number": 40587027,
   "data": {
     "common": {
       "associations": {
@@ -17,6 +17,8 @@
       },
       "category": {
         "category_2": "1",
+        "category_22": "1",
+        "category_23": "1",
         "category_28": "1",
         "category_55": "1",
         "category_56": "1",
@@ -195,6 +197,39 @@
     },
     "config": {
       "installdir": "Walkers"
+    },
+    "ufs": {
+      "maxnumfiles": "200",
+      "quota": "104857600",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataLocalLow",
+          "useinstead": "MacAppSupport"
+        },
+        "1": {
+          "addpath": ".config/unity3d/",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "WinAppDataLocalLow",
+          "useinstead": "LinuxHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Punch Interactive/Walkers/saves",
+          "pattern": "*",
+          "recursive": "1",
+          "root": "WinAppDataLocalLow"
+        },
+        "1": {
+          "path": "Punch Interactive/Walkers",
+          "pattern": "*.json",
+          "root": "WinAppDataLocalLow"
+        }
+      }
     }
   }
 }

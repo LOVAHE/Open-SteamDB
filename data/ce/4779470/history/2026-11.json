@@ -433,11 +433,66 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-04T11:53:23.446Z",
+      "change_number": 40587027,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_22"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": {
+            "maxnumfiles": "200",
+            "quota": "104857600",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataLocalLow",
+                "useinstead": "MacAppSupport"
+              },
+              "1": {
+                "addpath": ".config/unity3d/",
+                "os": "Linux",
+                "oscompare": "=",
+                "root": "WinAppDataLocalLow",
+                "useinstead": "LinuxHome"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Punch Interactive/Walkers/saves",
+                "pattern": "*",
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "Punch Interactive/Walkers",
+                "pattern": "*.json",
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40585919,
+      "change_number": 40587027,
       "data": {
         "appinfo": {
           "common": {
@@ -453,6 +508,8 @@
             },
             "category": {
               "category_2": "1",
+              "category_22": "1",
+              "category_23": "1",
               "category_28": "1",
               "category_55": "1",
               "category_56": "1",
@@ -631,6 +688,39 @@
             "developer": "Punch Interactive",
             "homepage": "https://punchinteractive.io/",
             "publisher": "Punch Interactive"
+          },
+          "ufs": {
+            "maxnumfiles": "200",
+            "quota": "104857600",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataLocalLow",
+                "useinstead": "MacAppSupport"
+              },
+              "1": {
+                "addpath": ".config/unity3d/",
+                "os": "Linux",
+                "oscompare": "=",
+                "root": "WinAppDataLocalLow",
+                "useinstead": "LinuxHome"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Punch Interactive/Walkers/saves",
+                "pattern": "*",
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "Punch Interactive/Walkers",
+                "pattern": "*.json",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -658,11 +748,11 @@
           }
         }
       },
-      "observed_at": "2026-11-04T11:08:04.845Z",
+      "observed_at": "2026-11-04T11:53:23.446Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-04T11:08:04.845Z"
+  "updated_at": "2026-11-04T11:53:23.446Z"
 }
