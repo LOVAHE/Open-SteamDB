@@ -192,11 +192,31 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-04T08:07:57.952Z",
+      "change_number": 40579452,
+      "changes": [
+        {
+          "after": "20",
+          "before": "40",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "10000000",
+          "before": "100000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40554586,
+      "change_number": 40579452,
       "data": {
         "appinfo": {
           "common": {
@@ -338,8 +358,8 @@
             "publisher": "Thorn Spire Games"
           },
           "ufs": {
-            "maxnumfiles": "40",
-            "quota": "100000000",
+            "maxnumfiles": "20",
+            "quota": "10000000",
             "rootoverrides": {
               "0": {
                 "addpath": "Godot/app_userdata/HeartHarvest/save_slots",
@@ -375,11 +395,11 @@
           }
         }
       },
-      "observed_at": "2026-11-03T18:10:44.576Z",
+      "observed_at": "2026-11-04T08:07:57.952Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-03T18:10:44.576Z"
+  "updated_at": "2026-11-04T08:07:57.952Z"
 }
