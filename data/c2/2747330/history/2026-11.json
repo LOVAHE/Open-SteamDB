@@ -708,11 +708,67 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-05T10:53:06.571Z",
+      "change_number": 40625220,
+      "changes": [
+        {
+          "after": "26454154",
+          "before": "26293638",
+          "op": "replace",
+          "path": "/depots/branches/previous-version/buildid"
+        },
+        {
+          "after": 1793870549,
+          "before": 1793267066,
+          "op": "replace",
+          "path": "/depots/branches/previous-version/timebuildupdated"
+        },
+        {
+          "after": 1793875437,
+          "before": 1793278916,
+          "op": "replace",
+          "path": "/depots/branches/previous-version/timeupdated"
+        },
+        {
+          "after": "26454154",
+          "before": "26325592",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793870549,
+          "before": 1793370261,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793875510,
+          "before": 1793372546,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4763017536515179783",
+          "before": "1618511385517508498",
+          "op": "replace",
+          "path": "/depots/depots/2747331/manifests/previous-version"
+        },
+        {
+          "after": "4763017536515179783",
+          "before": "6756576968454086815",
+          "op": "replace",
+          "path": "/depots/depots/2747331/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40622786,
+      "change_number": 40625220,
       "data": {
         "appinfo": {
           "common": {
@@ -968,15 +1024,15 @@
         "depots": {
           "branches": {
             "previous-version": {
-              "buildid": "26293638",
+              "buildid": "26454154",
               "description": "This branch points to the previously shipped version",
-              "timebuildupdated": 1793267066,
-              "timeupdated": 1793278916
+              "timebuildupdated": 1793870549,
+              "timeupdated": 1793875437
             },
             "public": {
-              "buildid": "26325592",
-              "timebuildupdated": 1793370261,
-              "timeupdated": 1793372546
+              "buildid": "26454154",
+              "timebuildupdated": 1793870549,
+              "timeupdated": 1793875510
             }
           },
           "depots": {
@@ -998,8 +1054,8 @@
             },
             "2747331": {
               "manifests": {
-                "previous-version": "1618511385517508498",
-                "public": "6756576968454086815"
+                "previous-version": "4763017536515179783",
+                "public": "4763017536515179783"
               }
             },
             "4030871": {
@@ -1012,7 +1068,7 @@
           }
         }
       },
-      "observed_at": "2026-11-05T09:23:05.844Z",
+      "observed_at": "2026-11-05T10:53:06.571Z",
       "tracked": true
     },
     "steam_store": {
@@ -1220,5 +1276,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T09:23:05.844Z"
+  "updated_at": "2026-11-05T10:53:06.571Z"
 }
