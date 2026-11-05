@@ -429,11 +429,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-05T14:23:12.114Z",
+      "change_number": 40631840,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26460175",
+            "description": "windowed_start",
+            "timebuildupdated": 1793888241,
+            "timeupdated": 1793888242
+          },
+          "op": "add",
+          "path": "/depots/branches/window"
+        },
+        {
+          "after": "3244351961801344665",
+          "op": "add",
+          "path": "/depots/depots/1602621/manifests/window"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40631501,
+      "change_number": 40631840,
       "data": {
         "appinfo": {
           "common": {
@@ -668,22 +691,29 @@
               "buildid": "26459961",
               "timebuildupdated": 1793887612,
               "timeupdated": 1793887652
+            },
+            "window": {
+              "buildid": "26460175",
+              "description": "windowed_start",
+              "timebuildupdated": 1793888241,
+              "timeupdated": 1793888242
             }
           },
           "depots": {
             "1602621": {
               "manifests": {
-                "public": "2003749802278334961"
+                "public": "2003749802278334961",
+                "window": "3244351961801344665"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-05T14:08:26.019Z",
+      "observed_at": "2026-11-05T14:23:12.114Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T14:08:26.019Z"
+  "updated_at": "2026-11-05T14:23:12.114Z"
 }
