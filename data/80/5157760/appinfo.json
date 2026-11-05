@@ -1,8 +1,8 @@
 {
   "appid": 5157760,
   "source": "steam_pics",
-  "updated_at": "2026-11-05T09:23:05.844Z",
-  "change_number": 40622530,
+  "updated_at": "2026-11-05T11:23:03.080Z",
+  "change_number": 40626060,
   "data": {
     "common": {
       "associations": {
@@ -217,7 +217,35 @@
     },
     "ufs": {
       "maxnumfiles": "1000",
-      "quota": "104857600"
+      "quota": "104857600",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
+        },
+        "1": {
+          "addpath": "",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "AlienTenantWantsHornyEnergy",
+          "pattern": "*.json",
+          "root": "WinAppDataRoaming"
+        },
+        "1": {
+          "path": "AlienTenantWantsHornyEnergy/savesReview",
+          "pattern": "*.webp",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }

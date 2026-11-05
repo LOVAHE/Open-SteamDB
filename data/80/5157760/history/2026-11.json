@@ -893,11 +893,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-05T11:23:03.080Z",
+      "change_number": 40626060,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "addpath": "",
+              "os": "MacOS",
+              "oscompare": "=",
+              "root": "WinAppDataRoaming",
+              "useinstead": "MacAppSupport"
+            },
+            "1": {
+              "addpath": "",
+              "os": "Linux",
+              "oscompare": "=",
+              "root": "WinAppDataRoaming",
+              "useinstead": "LinuxXdgDataHome"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "after": {
+            "0": {
+              "path": "AlienTenantWantsHornyEnergy",
+              "pattern": "*.json",
+              "root": "WinAppDataRoaming"
+            },
+            "1": {
+              "path": "AlienTenantWantsHornyEnergy/savesReview",
+              "pattern": "*.webp",
+              "root": "WinAppDataRoaming"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40622530,
+      "change_number": 40626060,
       "data": {
         "appinfo": {
           "common": {
@@ -1113,7 +1157,35 @@
           },
           "ufs": {
             "maxnumfiles": "1000",
-            "quota": "104857600"
+            "quota": "104857600",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              },
+              "1": {
+                "addpath": "",
+                "os": "Linux",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "AlienTenantWantsHornyEnergy",
+                "pattern": "*.json",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "AlienTenantWantsHornyEnergy/savesReview",
+                "pattern": "*.webp",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -1154,11 +1226,11 @@
           }
         }
       },
-      "observed_at": "2026-11-05T09:23:05.844Z",
+      "observed_at": "2026-11-05T11:23:03.080Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T09:23:05.844Z"
+  "updated_at": "2026-11-05T11:23:03.080Z"
 }
