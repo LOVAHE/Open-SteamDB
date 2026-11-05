@@ -234,11 +234,51 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-05T07:08:16.943Z",
+      "change_number": 40619092,
+      "changes": [
+        {
+          "after": "Bit Bot Media",
+          "before": "FreakZone Games",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/name"
+        },
+        {
+          "after": "Frankie Freako",
+          "before": "Bit Bot Media",
+          "op": "replace",
+          "path": "/appinfo/common/associations/2/name"
+        },
+        {
+          "after": "franchise",
+          "before": "publisher",
+          "op": "replace",
+          "path": "/appinfo/common/associations/2/type"
+        },
+        {
+          "before": {
+            "name": "Frankie Freako",
+            "type": "franchise"
+          },
+          "op": "remove",
+          "path": "/appinfo/common/associations/3"
+        },
+        {
+          "after": "Bit Bot Media",
+          "before": "FreakZone Games",
+          "op": "replace",
+          "path": "/appinfo/extended/publisher"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40600691,
+      "change_number": 40619092,
       "data": {
         "appinfo": {
           "common": {
@@ -248,14 +288,10 @@
                 "type": "developer"
               },
               "1": {
-                "name": "FreakZone Games",
-                "type": "publisher"
-              },
-              "2": {
                 "name": "Bit Bot Media",
                 "type": "publisher"
               },
-              "3": {
+              "2": {
                 "name": "Frankie Freako",
                 "type": "franchise"
               }
@@ -389,7 +425,7 @@
           "extended": {
             "developer": "FreakZone Games",
             "homepage": "https://freakzonegames.com/",
-            "publisher": "FreakZone Games"
+            "publisher": "Bit Bot Media"
           },
           "ufs": {
             "maxnumfiles": "10",
@@ -413,11 +449,11 @@
           }
         }
       },
-      "observed_at": "2026-11-04T18:26:24.182Z",
+      "observed_at": "2026-11-05T07:08:16.943Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-04T18:26:24.182Z"
+  "updated_at": "2026-11-05T07:08:16.943Z"
 }
