@@ -248,11 +248,60 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-05T13:38:05.578Z",
+      "change_number": 40630495,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26459299",
+          "before": "26348570",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793885699,
+          "before": 1793466089,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793885699,
+          "before": 1793466144,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6048461023796136637",
+          "before": "3193212508291300005",
+          "op": "replace",
+          "path": "/depots/depots/4818911/manifests/public"
+        },
+        {
+          "after": "4437207249875887116",
+          "op": "add",
+          "path": "/depots/depots/4818912/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40629800,
+      "change_number": 40630495,
       "data": {
         "appinfo": {
           "common": {
@@ -338,8 +387,8 @@
             },
             "name": "Oddbat Demo",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "parent": "3158280",
             "primary_genre": "23",
             "review_percentage": "100",
@@ -442,9 +491,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26348570",
-              "timebuildupdated": 1793466089,
-              "timeupdated": 1793466144
+              "buildid": "26459299",
+              "timebuildupdated": 1793885699,
+              "timeupdated": 1793885699
             }
           },
           "depots": {
@@ -461,23 +510,25 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "3193212508291300005"
+                "public": "6048461023796136637"
               }
             },
             "4818912": {
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "4437207249875887116"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-05T13:23:07.586Z",
+      "observed_at": "2026-11-05T13:38:05.578Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T13:23:07.586Z"
+  "updated_at": "2026-11-05T13:38:05.578Z"
 }

@@ -1,8 +1,8 @@
 {
   "appid": 5441310,
   "source": "steam_pics",
-  "updated_at": "2026-11-05T03:38:11.182Z",
-  "change_number": 40604070,
+  "updated_at": "2026-11-05T13:38:05.578Z",
+  "change_number": 40630261,
   "data": {
     "common": {
       "associations": {
@@ -129,6 +129,31 @@
     },
     "config": {
       "installdir": "Plague Inc The Board Game The Video Game Demo"
+    },
+    "ufs": {
+      "maxnumfiles": "10",
+      "quota": "10000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Plague Inc. Board Game Demo/campaign/steam-{64BitSteamID}",
+          "pattern": "campaign-progress.json",
+          "root": "WinAppDataRoaming"
+        },
+        "1": {
+          "path": "Plague Inc. Board Game Demo/saves/steam-{64BitSteamID}",
+          "pattern": "save-game*.json",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }

@@ -183,11 +183,32 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-05T13:38:05.578Z",
+      "change_number": 40630581,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/community_visible_stats"
+        },
+        {
+          "after": {
+            "english": "1",
+            "schinese": "1"
+          },
+          "op": "add",
+          "path": "/appinfo/common/languages"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40508314,
+      "change_number": 40630581,
       "data": {
         "appinfo": {
           "common": {
@@ -207,6 +228,7 @@
             },
             "clienticon": "807f65902b8e73087532c7925def66fb2e0dfe7f",
             "community_hub_visible": "1",
+            "community_visible_stats": "1",
             "genres": {
               "0": "4",
               "1": "23",
@@ -218,6 +240,10 @@
               "schinese": "c0ba4063d19a548a34beb55ce987e0547de5453b/header_schinese.jpg"
             },
             "icon": "c178da38cc3649ac5b1eab29b1dbcddd18d3485f",
+            "languages": {
+              "english": "1",
+              "schinese": "1"
+            },
             "library_assets": {
               "library_capsule": "en,zh-cn",
               "library_header": "en,zh-cn",
@@ -357,11 +383,11 @@
           }
         }
       },
-      "observed_at": "2026-11-02T13:23:02.706Z",
+      "observed_at": "2026-11-05T13:38:05.578Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-02T13:23:02.706Z"
+  "updated_at": "2026-11-05T13:38:05.578Z"
 }
