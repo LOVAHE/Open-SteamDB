@@ -194,21 +194,58 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-05T12:53:14.660Z",
+      "change_number": 40628959,
+      "changes": [
+        {
+          "after": "OrionsReachDev",
+          "before": "Sinesters Studios",
+          "op": "replace",
+          "path": "/appinfo/common/associations/0/name"
+        },
+        {
+          "after": "OrionsReachDev",
+          "before": "Sinesters Studios",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/name"
+        },
+        {
+          "after": "OrionsReachDev",
+          "before": "Sinesters Studios",
+          "op": "replace",
+          "path": "/appinfo/extended/developer"
+        },
+        {
+          "before": "https://sinesters.davidtei.com/",
+          "op": "remove",
+          "path": "/appinfo/extended/homepage"
+        },
+        {
+          "after": "OrionsReachDev",
+          "before": "Sinesters Studios",
+          "op": "replace",
+          "path": "/appinfo/extended/publisher"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40497818,
+      "change_number": 40628959,
       "data": {
         "appinfo": {
           "common": {
             "associations": {
               "0": {
-                "name": "Sinesters Studios",
+                "name": "OrionsReachDev",
                 "type": "developer"
               },
               "1": {
-                "name": "Sinesters Studios",
+                "name": "OrionsReachDev",
                 "type": "publisher"
               }
             },
@@ -353,9 +390,8 @@
             "installdir": "Orions_Reach"
           },
           "extended": {
-            "developer": "Sinesters Studios",
-            "homepage": "https://sinesters.davidtei.com/",
-            "publisher": "Sinesters Studios"
+            "developer": "OrionsReachDev",
+            "publisher": "OrionsReachDev"
           },
           "ufs": {
             "maxnumfiles": "10",
@@ -379,11 +415,11 @@
           }
         }
       },
-      "observed_at": "2026-11-04T15:08:03.746Z",
+      "observed_at": "2026-11-05T12:53:14.660Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-04T15:08:03.746Z"
+  "updated_at": "2026-11-05T12:53:14.660Z"
 }
