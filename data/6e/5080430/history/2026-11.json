@@ -680,11 +680,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-05T15:08:22.181Z",
+      "change_number": 40633211,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26460999",
+            "description": "Testing new editor",
+            "timebuildupdated": 1793890419,
+            "timeupdated": 1793890467
+          },
+          "op": "add",
+          "path": "/depots/branches/editorbeta"
+        },
+        {
+          "after": "1153233309179300683",
+          "op": "add",
+          "path": "/depots/depots/5080431/manifests/editorbeta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40632165,
+      "change_number": 40633211,
       "data": {
         "appinfo": {
           "common": {
@@ -892,6 +915,12 @@
         },
         "depots": {
           "branches": {
+            "editorbeta": {
+              "buildid": "26460999",
+              "description": "Testing new editor",
+              "timebuildupdated": 1793890419,
+              "timeupdated": 1793890467
+            },
             "lastworking": {
               "buildid": "26432153",
               "description": "Last working branch backup",
@@ -916,6 +945,7 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "editorbeta": "1153233309179300683",
                 "lastworking": "2262729836857459667",
                 "public": "7688139905325337742",
                 "test": "3857505161374900264"
@@ -924,11 +954,11 @@
           }
         }
       },
-      "observed_at": "2026-11-05T14:38:10.193Z",
+      "observed_at": "2026-11-05T15:08:22.181Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T14:38:10.193Z"
+  "updated_at": "2026-11-05T15:08:22.181Z"
 }
