@@ -335,11 +335,94 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-05T13:08:06.327Z",
+      "change_number": 40629472,
+      "changes": [
+        {
+          "after": "1793664459",
+          "before": "1798704000",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/brazilian"
+        },
+        {
+          "after": "true",
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/english/subtitles"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/french"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/german"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/spanish"
+        },
+        {
+          "after": "26454212",
+          "before": "26413496",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793870746,
+          "before": 1793731645,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793883308,
+          "before": 1793750698,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5543693642715085269",
+          "before": "2164690419670903293",
+          "op": "replace",
+          "path": "/depots/depots/4387612/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40622899,
+      "change_number": 40629472,
       "data": {
         "appinfo": {
           "common": {
@@ -443,7 +526,7 @@
             "small_capsule": {
               "english": "4ffb191b168ea4060d1c8ef3e0e1500c019b8dd3/capsule_231x87.jpg"
             },
-            "steam_release_date": "1798704000",
+            "steam_release_date": "1793664459",
             "store_asset_mtime": "1787089764",
             "store_tags": {
               "0": "9",
@@ -461,8 +544,29 @@
               "12": "1708"
             },
             "supported_languages": {
+              "brazilian": {
+                "subtitles": "true",
+                "supported": "true"
+              },
               "english": {
                 "full_audio": "true",
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "french": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "german": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "schinese": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "spanish": {
+                "subtitles": "true",
                 "supported": "true"
               }
             },
@@ -543,9 +647,9 @@
               "timeupdated": 1793870746
             },
             "public": {
-              "buildid": "26413496",
-              "timebuildupdated": 1793731645,
-              "timeupdated": 1793750698
+              "buildid": "26454212",
+              "timebuildupdated": 1793870746,
+              "timeupdated": 1793883308
             }
           },
           "depots": {
@@ -559,17 +663,17 @@
               },
               "manifests": {
                 "beta": "5543693642715085269",
-                "public": "2164690419670903293"
+                "public": "5543693642715085269"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-05T09:37:58.716Z",
+      "observed_at": "2026-11-05T13:08:06.327Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T09:37:58.716Z"
+  "updated_at": "2026-11-05T13:08:06.327Z"
 }

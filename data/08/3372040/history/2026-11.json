@@ -322,11 +322,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-05T13:08:06.327Z",
+      "change_number": 40629447,
+      "changes": [
+        {
+          "after": "26438235",
+          "before": "25347582",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793814317,
+          "before": 1789566936,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793883775,
+          "before": 1789566965,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "buildid": "25347582",
+            "description": "Release version - 2 Nov 2026",
+            "timebuildupdated": 1789566936,
+            "timeupdated": 1789566965
+          },
+          "op": "add",
+          "path": "/depots/branches/release_v1.0"
+        },
+        {
+          "after": "5763082374787694192",
+          "before": "944055728406603344",
+          "op": "replace",
+          "path": "/depots/depots/3372041/manifests/public"
+        },
+        {
+          "after": "944055728406603344",
+          "op": "add",
+          "path": "/depots/depots/3372041/manifests/release_v1.0"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40629013,
+      "change_number": 40629447,
       "data": {
         "appinfo": {
           "common": {
@@ -552,7 +599,13 @@
         "depots": {
           "branches": {
             "public": {
+              "buildid": "26438235",
+              "timebuildupdated": 1793814317,
+              "timeupdated": 1793883775
+            },
+            "release_v1.0": {
               "buildid": "25347582",
+              "description": "Release version - 2 Nov 2026",
               "timebuildupdated": 1789566936,
               "timeupdated": 1789566965
             }
@@ -560,17 +613,18 @@
           "depots": {
             "3372041": {
               "manifests": {
-                "public": "944055728406603344"
+                "public": "5763082374787694192",
+                "release_v1.0": "944055728406603344"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-05T12:53:14.660Z",
+      "observed_at": "2026-11-05T13:08:06.327Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T12:53:14.660Z"
+  "updated_at": "2026-11-05T13:08:06.327Z"
 }
