@@ -186,11 +186,31 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-05T19:08:07.262Z",
+      "change_number": 40642342,
+      "changes": [
+        {
+          "after": "100",
+          "before": "10000",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "1000000",
+          "before": "10000000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40640415,
+      "change_number": 40642342,
       "data": {
         "appinfo": {
           "common": {
@@ -302,8 +322,8 @@
             "publisher": "Polished Games"
           },
           "ufs": {
-            "maxnumfiles": "10000",
-            "quota": "10000000000",
+            "maxnumfiles": "100",
+            "quota": "1000000",
             "rootoverrides": {
               "0": {
                 "addpath": "",
@@ -343,11 +363,11 @@
           }
         }
       },
-      "observed_at": "2026-11-05T18:11:22.127Z",
+      "observed_at": "2026-11-05T19:08:07.262Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T18:11:22.127Z"
+  "updated_at": "2026-11-05T19:08:07.262Z"
 }
