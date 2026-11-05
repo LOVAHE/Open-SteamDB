@@ -176,11 +176,59 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-05T16:23:36.536Z",
+      "change_number": 40636671,
+      "changes": [
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "buildid": "26462994",
+            "description": "Mac Version for Demo",
+            "timebuildupdated": 1793895388,
+            "timeupdated": 1793895388
+          },
+          "op": "add",
+          "path": "/depots/branches/macbuild"
+        },
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/5501661/config"
+        },
+        {
+          "after": "705962312850765708",
+          "op": "add",
+          "path": "/depots/depots/5501661/manifests/macbuild"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {
+              "macbuild": "8551871978365631859"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5501662"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40602848,
+      "change_number": 40636671,
       "data": {
         "appinfo": {
           "common": {
@@ -271,7 +319,7 @@
             "name": "SCRATCH FEVER Demo",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,macos",
             "parent": "5414230",
             "primary_genre": "23",
             "small_capsule": {
@@ -296,6 +344,12 @@
         },
         "depots": {
           "branches": {
+            "macbuild": {
+              "buildid": "26462994",
+              "description": "Mac Version for Demo",
+              "timebuildupdated": 1793895388,
+              "timeupdated": 1793895388
+            },
             "public": {
               "buildid": "26440121",
               "timebuildupdated": 1793819818,
@@ -304,18 +358,30 @@
           },
           "depots": {
             "5501661": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
+                "macbuild": "705962312850765708",
                 "public": "705962312850765708"
+              }
+            },
+            "5501662": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {
+                "macbuild": "8551871978365631859"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-04T19:23:07.942Z",
+      "observed_at": "2026-11-05T16:23:36.536Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-04T19:23:07.942Z"
+  "updated_at": "2026-11-05T16:23:36.536Z"
 }
