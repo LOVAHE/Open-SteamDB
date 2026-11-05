@@ -1,8 +1,8 @@
 {
   "appid": 5157760,
   "source": "steam_pics",
-  "updated_at": "2026-11-05T04:23:05.373Z",
-  "change_number": 40615807,
+  "updated_at": "2026-11-05T05:53:00.239Z",
+  "change_number": 40617410,
   "data": {
     "common": {
       "associations": {
@@ -214,6 +214,33 @@
     },
     "config": {
       "installdir": "Alien Tenant Wants Horny Energy"
+    },
+    "ufs": {
+      "maxnumfiles": "1000",
+      "quota": "104857600",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
+        },
+        "1": {
+          "addpath": "",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "AlienTenantWantsHornyEnergy",
+          "pattern": "*.json",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }

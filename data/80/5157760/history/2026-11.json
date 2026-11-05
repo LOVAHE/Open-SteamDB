@@ -795,11 +795,50 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-05T05:53:00.239Z",
+      "change_number": 40617410,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "1000",
+            "quota": "104857600",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              },
+              "1": {
+                "addpath": "",
+                "os": "Linux",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "AlienTenantWantsHornyEnergy",
+                "pattern": "*.json",
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40615807,
+      "change_number": 40617410,
       "data": {
         "appinfo": {
           "common": {
@@ -1012,6 +1051,33 @@
           "extended": {
             "developer": "Ripening Peach",
             "publisher": "Ripening Peach"
+          },
+          "ufs": {
+            "maxnumfiles": "1000",
+            "quota": "104857600",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              },
+              "1": {
+                "addpath": "",
+                "os": "Linux",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "AlienTenantWantsHornyEnergy",
+                "pattern": "*.json",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -1052,11 +1118,11 @@
           }
         }
       },
-      "observed_at": "2026-11-05T04:23:05.373Z",
+      "observed_at": "2026-11-05T05:53:00.239Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T04:23:05.373Z"
+  "updated_at": "2026-11-05T05:53:00.239Z"
 }

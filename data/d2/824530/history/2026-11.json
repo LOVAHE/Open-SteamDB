@@ -351,11 +351,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-05T05:53:00.239Z",
+      "change_number": 40617559,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40617156,
+      "change_number": 40617559,
       "data": {
         "appinfo": {
           "common": {
@@ -546,8 +566,8 @@
               "turkish": "Duck Casino: Kumar Simülatörü"
             },
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos",
             "primary_genre": "23",
             "small_capsule": {
               "brazilian": "fa13b4b4c6d5b4109d6ed863d2f915a8d032071f/capsule_231x87_brazilian.jpg",
@@ -674,11 +694,11 @@
           }
         }
       },
-      "observed_at": "2026-11-05T05:38:00.067Z",
+      "observed_at": "2026-11-05T05:53:00.239Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T05:38:00.067Z"
+  "updated_at": "2026-11-05T05:53:00.239Z"
 }
