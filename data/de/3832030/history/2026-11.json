@@ -464,11 +464,44 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-05T11:38:04.612Z",
+      "change_number": 40626405,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26422858",
+            "description": "Testing branch",
+            "timebuildupdated": 1793764441,
+            "timeupdated": 1793764465
+          },
+          "op": "remove",
+          "path": "/depots/branches/beta"
+        },
+        {
+          "before": "5742028315848183364",
+          "op": "remove",
+          "path": "/depots/depots/3832031/manifests/beta"
+        },
+        {
+          "before": "5139898781049564872",
+          "op": "remove",
+          "path": "/depots/depots/3832032/manifests/beta"
+        },
+        {
+          "before": "5363016982654806044",
+          "op": "remove",
+          "path": "/depots/depots/3832033/manifests/beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40626365,
+      "change_number": 40626405,
       "data": {
         "appinfo": {
           "common": {
@@ -718,12 +751,6 @@
         },
         "depots": {
           "branches": {
-            "beta": {
-              "buildid": "26422858",
-              "description": "Testing branch",
-              "timebuildupdated": 1793764441,
-              "timeupdated": 1793764465
-            },
             "public": {
               "buildid": "26422858",
               "timebuildupdated": 1793764441,
@@ -736,7 +763,6 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "beta": "5742028315848183364",
                 "public": "5742028315848183364"
               }
             },
@@ -745,7 +771,6 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "beta": "5139898781049564872",
                 "public": "5139898781049564872"
               }
             },
@@ -754,18 +779,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "beta": "5363016982654806044",
                 "public": "5363016982654806044"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-05T11:23:03.080Z",
+      "observed_at": "2026-11-05T11:38:04.612Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T11:23:03.080Z"
+  "updated_at": "2026-11-05T11:38:04.612Z"
 }
