@@ -1,8 +1,8 @@
 {
   "appid": 2218060,
   "source": "steam_pics",
-  "updated_at": "2026-11-04T19:08:14.143Z",
-  "change_number": 40602377,
+  "updated_at": "2026-11-05T02:08:12.863Z",
+  "change_number": 40612248,
   "data": {
     "common": {
       "associations": {
@@ -19,6 +19,7 @@
         "category_1": "1",
         "category_2": "1",
         "category_22": "1",
+        "category_23": "1",
         "category_27": "1",
         "category_28": "1",
         "category_36": "1",
@@ -201,6 +202,20 @@
     "ufs": {
       "maxnumfiles": "20",
       "quota": "104857600",
+      "rootoverrides": {
+        "0": {
+          "os": "MacOS",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "LegacyLabs/Backdraft/{64BitSteamID}/saves",
+              "replace": "com.LegacyLabs.Backdraft/{64BitSteamID}/saves"
+            }
+          },
+          "root": "WinAppDataLocalLow",
+          "useinstead": "MacAppSupport"
+        }
+      },
       "savefiles": {
         "0": {
           "path": "LegacyLabs/Backdraft/{64BitSteamID}/saves",

@@ -436,11 +436,69 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-05T02:08:12.863Z",
+      "change_number": 40610898,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26446136",
+          "before": "26433998",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793839084,
+          "before": 1793803149,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793839084,
+          "before": 1793803965,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": {
+            "buildid": "26345053",
+            "description": "0.9.2 validation - Normal, Hell and 20 new enemies",
+            "timebuildupdated": 1793448712,
+            "timeupdated": 1793448721
+          },
+          "op": "remove",
+          "path": "/depots/branches/validation_092"
+        },
+        {
+          "before": "2288684085197717142",
+          "op": "remove",
+          "path": "/depots/depots/5427561/manifests/validation_092"
+        },
+        {
+          "after": "6860893763644684637",
+          "op": "add",
+          "path": "/depots/depots/5427562/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40593279,
+      "change_number": 40610898,
       "data": {
         "appinfo": {
           "common": {
@@ -551,8 +609,8 @@
             },
             "name": "Wild Guard",
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "primary_genre": "23",
             "small_capsule": {
               "english": "ee9703a23ae992f274a7cd5dd641f710b827fb8a/capsule_231x87.jpg"
@@ -658,38 +716,33 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26433998",
-              "timebuildupdated": 1793803149,
-              "timeupdated": 1793803965
-            },
-            "validation_092": {
-              "buildid": "26345053",
-              "description": "0.9.2 validation - Normal, Hell and 20 new enemies",
-              "timebuildupdated": 1793448712,
-              "timeupdated": 1793448721
+              "buildid": "26446136",
+              "timebuildupdated": 1793839084,
+              "timeupdated": 1793839084
             }
           },
           "depots": {
             "5427561": {
               "manifests": {
-                "public": "4368397357998268627",
-                "validation_092": "2288684085197717142"
+                "public": "4368397357998268627"
               }
             },
             "5427562": {
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "6860893763644684637"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-04T14:53:11.582Z",
+      "observed_at": "2026-11-05T02:08:12.863Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-04T14:53:11.582Z"
+  "updated_at": "2026-11-05T02:08:12.863Z"
 }
