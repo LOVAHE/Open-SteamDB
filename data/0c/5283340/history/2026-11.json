@@ -368,11 +368,68 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-05T21:23:27.851Z",
+      "change_number": 40646080,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "20",
+            "quota": "20000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Plague Inc. Board Game/campaign/steam-{64BitSteamID}",
+                "pattern": "campaign-progress.json",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Plague Inc. Board Game/saves/steam-{64BitSteamID}",
+                "pattern": "save-game*.json",
+                "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "Plague Inc. Board Game/progress/steam-{64BitSteamID}",
+                "pattern": "player-progress.json",
+                "root": "WinAppDataRoaming"
+              },
+              "3": {
+                "path": "Plague Inc. Board Game Demo/campaign/steam-{64BitSteamID}",
+                "pattern": "campaign-progress.json",
+                "root": "WinAppDataRoaming"
+              },
+              "4": {
+                "path": "Plague Inc. Board Game Demo/saves/steam-{64BitSteamID}",
+                "pattern": "save-game*.json",
+                "root": "WinAppDataRoaming"
+              },
+              "5": {
+                "path": "Plague Inc. Board Game Demo/progress/steam-{64BitSteamID}",
+                "pattern": "player-progress.json",
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40645568,
+      "change_number": 40646080,
       "data": {
         "appinfo": {
           "common": {
@@ -652,6 +709,51 @@
             "homepage": "https://www.ndemiccreations.com/en/69-plague-inc-the-board-game-the-video-game",
             "listofdlc": "5527870,5527880,5528120",
             "publisher": "Ndemic Creations"
+          },
+          "ufs": {
+            "maxnumfiles": "20",
+            "quota": "20000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Plague Inc. Board Game/campaign/steam-{64BitSteamID}",
+                "pattern": "campaign-progress.json",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Plague Inc. Board Game/saves/steam-{64BitSteamID}",
+                "pattern": "save-game*.json",
+                "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "Plague Inc. Board Game/progress/steam-{64BitSteamID}",
+                "pattern": "player-progress.json",
+                "root": "WinAppDataRoaming"
+              },
+              "3": {
+                "path": "Plague Inc. Board Game Demo/campaign/steam-{64BitSteamID}",
+                "pattern": "campaign-progress.json",
+                "root": "WinAppDataRoaming"
+              },
+              "4": {
+                "path": "Plague Inc. Board Game Demo/saves/steam-{64BitSteamID}",
+                "pattern": "save-game*.json",
+                "root": "WinAppDataRoaming"
+              },
+              "5": {
+                "path": "Plague Inc. Board Game Demo/progress/steam-{64BitSteamID}",
+                "pattern": "player-progress.json",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -682,11 +784,11 @@
           }
         }
       },
-      "observed_at": "2026-11-05T20:53:07.641Z",
+      "observed_at": "2026-11-05T21:23:27.851Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T20:53:07.641Z"
+  "updated_at": "2026-11-05T21:23:27.851Z"
 }

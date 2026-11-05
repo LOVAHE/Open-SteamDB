@@ -889,11 +889,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-05T21:23:27.851Z",
+      "change_number": 40646084,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26468853",
+            "description": "Lacey's Flash Games on linux",
+            "timebuildupdated": 1793913003,
+            "timeupdated": 1793913003
+          },
+          "op": "add",
+          "path": "/depots/branches/lacey_linux"
+        },
+        {
+          "after": "4324116969847559287",
+          "op": "add",
+          "path": "/depots/depots/3459341/manifests/lacey_linux"
+        },
+        {
+          "after": "7858203261697490172",
+          "op": "add",
+          "path": "/depots/depots/3459349/manifests/lacey_linux"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40636527,
+      "change_number": 40646084,
       "data": {
         "appinfo": {
           "common": {
@@ -1072,6 +1100,12 @@
         },
         "depots": {
           "branches": {
+            "lacey_linux": {
+              "buildid": "26468853",
+              "description": "Lacey's Flash Games on linux",
+              "timebuildupdated": 1793913003,
+              "timeupdated": 1793913003
+            },
             "public": {
               "buildid": "26423632",
               "timebuildupdated": 1793767676,
@@ -1085,6 +1119,7 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "lacey_linux": "4324116969847559287",
                 "public": "8537965176306713386"
               }
             },
@@ -1094,17 +1129,18 @@
                 "oslist": "linux"
               },
               "manifests": {
+                "lacey_linux": "7858203261697490172",
                 "public": "7858203261697490172"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-05T16:23:36.536Z",
+      "observed_at": "2026-11-05T21:23:27.851Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T16:23:36.536Z"
+  "updated_at": "2026-11-05T21:23:27.851Z"
 }

@@ -260,11 +260,28 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-05T21:23:27.851Z",
+      "change_number": 40646114,
+      "changes": [
+        {
+          "after": {
+            "path": "Plague Inc. Board Game Demo/progress/steam-{64BitSteamID}",
+            "pattern": "player-progress.json",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40645657,
+      "change_number": 40646114,
       "data": {
         "appinfo": {
           "common": {
@@ -415,6 +432,11 @@
                 "path": "Plague Inc. Board Game Demo/saves/steam-{64BitSteamID}",
                 "pattern": "save-game*.json",
                 "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "Plague Inc. Board Game Demo/progress/steam-{64BitSteamID}",
+                "pattern": "player-progress.json",
+                "root": "WinAppDataRoaming"
               }
             }
           }
@@ -447,11 +469,11 @@
           }
         }
       },
-      "observed_at": "2026-11-05T21:08:17.955Z",
+      "observed_at": "2026-11-05T21:23:27.851Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T21:08:17.955Z"
+  "updated_at": "2026-11-05T21:23:27.851Z"
 }
