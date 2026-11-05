@@ -354,11 +354,49 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-11-05T14:08:26.019Z",
+      "change_number": 40631434,
+      "changes": [
+        {
+          "after": "26459877",
+          "before": "26294980",
+          "op": "replace",
+          "path": "/depots/branches/beta/buildid"
+        },
+        {
+          "after": 1793887343,
+          "before": 1793271275,
+          "op": "replace",
+          "path": "/depots/branches/beta/timebuildupdated"
+        },
+        {
+          "after": 1793887512,
+          "before": 1793271307,
+          "op": "replace",
+          "path": "/depots/branches/beta/timeupdated"
+        },
+        {
+          "after": "5783681370554233661",
+          "before": "2537412563675438880",
+          "op": "replace",
+          "path": "/depots/depots/5176181/manifests/beta"
+        },
+        {
+          "after": "6781244451384985023",
+          "before": "2186299684766334492",
+          "op": "replace",
+          "path": "/depots/depots/5176182/manifests/beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40386767,
+      "change_number": 40631434,
       "data": {
         "appinfo": {
           "common": {
@@ -546,10 +584,10 @@
               "timeupdated": 1790170019
             },
             "beta": {
-              "buildid": "26294980",
+              "buildid": "26459877",
               "description": "beta test version",
-              "timebuildupdated": 1793271275,
-              "timeupdated": 1793271307
+              "timebuildupdated": 1793887343,
+              "timeupdated": 1793887512
             },
             "public": {
               "buildid": "25950876",
@@ -565,7 +603,7 @@
               },
               "manifests": {
                 "0.7.4": "3932827469906036724",
-                "beta": "2537412563675438880",
+                "beta": "5783681370554233661",
                 "public": "7199951671282486280"
               }
             },
@@ -576,14 +614,14 @@
               },
               "manifests": {
                 "0.7.4": "8064216710729659053",
-                "beta": "2186299684766334492",
+                "beta": "6781244451384985023",
                 "public": "7095149033941126103"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-29T15:22:41.137Z",
+      "observed_at": "2026-11-05T14:08:26.019Z",
       "tracked": true
     },
     "steam_store": {
@@ -704,5 +742,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T09:08:05.204Z"
+  "updated_at": "2026-11-05T14:08:26.019Z"
 }
