@@ -1413,11 +1413,58 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T22:10:43.723Z",
+      "change_number": 40686220,
+      "changes": [
+        {
+          "after": "26495222",
+          "before": "26482341",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794000804,
+          "before": 1793962526,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794002623,
+          "before": 1793963967,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "buildid": "26482341",
+            "description": "version 1.6 of the game",
+            "timebuildupdated": 1793962526,
+            "timeupdated": 1793963967
+          },
+          "op": "add",
+          "path": "/depots/branches/v1_6"
+        },
+        {
+          "after": "7584029147194299814",
+          "before": "6825743808065988852",
+          "op": "replace",
+          "path": "/depots/depots/5475961/manifests/public"
+        },
+        {
+          "after": "6825743808065988852",
+          "op": "add",
+          "path": "/depots/depots/5475961/manifests/v1_6"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40685478,
+      "change_number": 40686220,
       "data": {
         "appinfo": {
           "common": {
@@ -1797,9 +1844,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26482341",
-              "timebuildupdated": 1793962526,
-              "timeupdated": 1793963967
+              "buildid": "26495222",
+              "timebuildupdated": 1794000804,
+              "timeupdated": 1794002623
             },
             "v1_2": {
               "buildid": "26417478",
@@ -1824,26 +1871,33 @@
               "description": "version 1.5 of the game",
               "timebuildupdated": 1793923461,
               "timeupdated": 1793923860
+            },
+            "v1_6": {
+              "buildid": "26482341",
+              "description": "version 1.6 of the game",
+              "timebuildupdated": 1793962526,
+              "timeupdated": 1793963967
             }
           },
           "depots": {
             "5475961": {
               "manifests": {
-                "public": "6825743808065988852",
+                "public": "7584029147194299814",
                 "v1_2": "4249020936498645144",
                 "v1_3": "8717494428669787138",
                 "v1_4": "6593634433458858942",
-                "v1_5": "1489930386515331454"
+                "v1_5": "1489930386515331454",
+                "v1_6": "6825743808065988852"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-06T21:40:09.405Z",
+      "observed_at": "2026-11-06T22:10:43.723Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T21:40:09.405Z"
+  "updated_at": "2026-11-06T22:10:43.723Z"
 }
