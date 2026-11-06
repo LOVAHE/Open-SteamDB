@@ -293,11 +293,44 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T09:38:13.066Z",
+      "change_number": 40662988,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26480791",
+            "description": "For testing purposes",
+            "timebuildupdated": 1793957930,
+            "timeupdated": 1793957930
+          },
+          "op": "add",
+          "path": "/depots/branches/testing"
+        },
+        {
+          "after": "5033794855930294545",
+          "op": "add",
+          "path": "/depots/depots/4225282/manifests/testing"
+        },
+        {
+          "after": "3406827046865932907",
+          "op": "add",
+          "path": "/depots/depots/4225283/manifests/testing"
+        },
+        {
+          "after": "5405774391692217002",
+          "op": "add",
+          "path": "/depots/depots/5477300/manifests/testing"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40576899,
+      "change_number": 40662988,
       "data": {
         "appinfo": {
           "common": {
@@ -530,6 +563,12 @@
               "buildid": "26402800",
               "timebuildupdated": 1793700851,
               "timeupdated": 1793700851
+            },
+            "testing": {
+              "buildid": "26480791",
+              "description": "For testing purposes",
+              "timebuildupdated": 1793957930,
+              "timeupdated": 1793957930
             }
           },
           "depots": {
@@ -540,7 +579,8 @@
               },
               "manifests": {
                 "debug": "7740139978399328935",
-                "public": "3344257091715013822"
+                "public": "3344257091715013822",
+                "testing": "5033794855930294545"
               }
             },
             "4225283": {
@@ -550,24 +590,26 @@
               },
               "manifests": {
                 "debug": "5898176991299494896",
-                "public": "2141250574807343510"
+                "public": "2141250574807343510",
+                "testing": "3406827046865932907"
               }
             },
             "5477300": {
               "dlcappid": 5477300,
               "manifests": {
                 "debug": "5405774391692217002",
-                "public": "5405774391692217002"
+                "public": "5405774391692217002",
+                "testing": "5405774391692217002"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-04T06:08:04.403Z",
+      "observed_at": "2026-11-06T09:38:13.066Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-04T06:08:04.403Z"
+  "updated_at": "2026-11-06T09:38:13.066Z"
 }
