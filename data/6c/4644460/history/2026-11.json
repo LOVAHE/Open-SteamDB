@@ -195,11 +195,41 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T13:23:23.227Z",
+      "change_number": 40669569,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/4644462"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40599747,
+      "change_number": 40669569,
       "data": {
         "appinfo": {
           "common": {
@@ -287,8 +317,8 @@
             },
             "name": "We Are Rebellion",
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos",
             "primary_genre": "23",
             "small_capsule": {
               "english": "8cbb2fe78b6379e8c8cc56e998335f1cf44daf02/capsule_231x87.jpg"
@@ -377,15 +407,21 @@
               "manifests": {
                 "public": "3973196067198515338"
               }
+            },
+            "4644462": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-05T02:08:12.863Z",
+      "observed_at": "2026-11-06T13:23:23.227Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T02:08:12.863Z"
+  "updated_at": "2026-11-06T13:23:23.227Z"
 }

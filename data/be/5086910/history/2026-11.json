@@ -201,11 +201,30 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T13:23:23.227Z",
+      "change_number": 40669830,
+      "changes": [
+        {
+          "after": "windows,macos,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "1793955876",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40663583,
+      "change_number": 40669830,
       "data": {
         "appinfo": {
           "common": {
@@ -328,11 +347,12 @@
             },
             "osarch": "",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,macos,linux",
             "primary_genre": "23",
             "small_capsule": {
               "english": "f2971ce7097d513c584b440fc62d7375771b9070/capsule_231x87.jpg"
             },
+            "steam_release_date": "1793955876",
             "store_asset_mtime": "1792591551",
             "store_tags": {
               "0": "29482",
@@ -386,11 +406,11 @@
           }
         }
       },
-      "observed_at": "2026-11-06T10:08:52.722Z",
+      "observed_at": "2026-11-06T13:23:23.227Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T10:08:52.722Z"
+  "updated_at": "2026-11-06T13:23:23.227Z"
 }
