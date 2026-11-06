@@ -299,11 +299,61 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T17:53:39.242Z",
+      "change_number": 40679127,
+      "changes": [
+        {
+          "after": "1000",
+          "before": "100",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "26491149",
+          "before": "26469067",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793987392,
+          "before": 1793913567,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793987460,
+          "before": 1793914030,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4271272323412931676",
+          "before": "6421467851859136980",
+          "op": "replace",
+          "path": "/depots/depots/4633121/manifests/public"
+        },
+        {
+          "after": "4948814688842285944",
+          "before": "2081746859980322459",
+          "op": "replace",
+          "path": "/depots/depots/4633122/manifests/public"
+        },
+        {
+          "after": "7017810624261500078",
+          "before": "803455864606462952",
+          "op": "replace",
+          "path": "/depots/depots/4633123/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40674004,
+      "change_number": 40679127,
       "data": {
         "appinfo": {
           "common": {
@@ -468,16 +518,16 @@
             "publisher": "Squeezed Hamster Games"
           },
           "ufs": {
-            "maxnumfiles": "100",
+            "maxnumfiles": "1000",
             "quota": "400000000"
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26469067",
-              "timebuildupdated": 1793913567,
-              "timeupdated": 1793914030
+              "buildid": "26491149",
+              "timebuildupdated": 1793987392,
+              "timeupdated": 1793987460
             }
           },
           "depots": {
@@ -486,7 +536,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "6421467851859136980"
+                "public": "4271272323412931676"
               }
             },
             "4633122": {
@@ -494,7 +544,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "2081746859980322459"
+                "public": "4948814688842285944"
               }
             },
             "4633123": {
@@ -502,17 +552,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "803455864606462952"
+                "public": "7017810624261500078"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-06T15:24:22.767Z",
+      "observed_at": "2026-11-06T17:53:39.242Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T15:24:22.767Z"
+  "updated_at": "2026-11-06T17:53:39.242Z"
 }
