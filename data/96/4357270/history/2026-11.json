@@ -162,11 +162,34 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T16:53:15.795Z",
+      "change_number": 40677041,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26489890",
+            "description": "Testing Steam Connection",
+            "timebuildupdated": 1793983732,
+            "timeupdated": 1793983732
+          },
+          "op": "add",
+          "path": "/depots/branches/experimental"
+        },
+        {
+          "after": "1960434146892896115",
+          "op": "add",
+          "path": "/depots/depots/4357271/manifests/experimental"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40657212,
+      "change_number": 40677041,
       "data": {
         "appinfo": {
           "common": {
@@ -296,6 +319,12 @@
         },
         "depots": {
           "branches": {
+            "experimental": {
+              "buildid": "26489890",
+              "description": "Testing Steam Connection",
+              "timebuildupdated": 1793983732,
+              "timeupdated": 1793983732
+            },
             "public": {
               "buildid": "26341170",
               "timebuildupdated": 1793424951,
@@ -309,17 +338,18 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "experimental": "1960434146892896115",
                 "public": "8958580907071677547"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-06T05:53:14.251Z",
+      "observed_at": "2026-11-06T16:53:15.795Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T05:53:14.251Z"
+  "updated_at": "2026-11-06T16:53:15.795Z"
 }
