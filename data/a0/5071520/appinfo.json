@@ -1,8 +1,8 @@
 {
   "appid": 5071520,
   "source": "steam_pics",
-  "updated_at": "2026-11-06T11:38:20.386Z",
-  "change_number": 40666478,
+  "updated_at": "2026-11-06T18:38:56.776Z",
+  "change_number": 40680585,
   "data": {
     "common": {
       "associations": {
@@ -164,30 +164,27 @@
     "ufs": {
       "maxnumfiles": "20",
       "quota": "2000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
+        },
+        "1": {
+          "addpath": "",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
       "savefiles": {
         "0": {
           "path": "com.haroldwaresolutions.xenobiomecommand/saves",
           "pattern": "*.json",
-          "platforms": {
-            "1": "Windows"
-          },
           "root": "WinAppDataRoaming"
-        },
-        "1": {
-          "path": "com.haroldwaresolutions.xenobiomecommand/saves",
-          "pattern": "*.json",
-          "platforms": {
-            "1": "MacOS"
-          },
-          "root": "MacAppSupport"
-        },
-        "2": {
-          "path": "com.haroldwaresolutions.xenobiomecommand/saves",
-          "pattern": "*.json",
-          "platforms": {
-            "1": "Linux"
-          },
-          "root": "LinuxXdgDataHome"
         }
       }
     }
