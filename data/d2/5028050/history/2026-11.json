@@ -689,11 +689,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T22:57:05.029Z",
+      "change_number": 40687374,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": "26496522",
+          "before": "26491876",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794005212,
+          "before": 1793989619,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794005520,
+          "before": 1793989888,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4189083252559204342",
+          "before": "212161941432844381",
+          "op": "replace",
+          "path": "/depots/depots/5028051/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40683501,
+      "change_number": 40687374,
       "data": {
         "appinfo": {
           "common": {
@@ -877,7 +914,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "Traffic Architect"
@@ -910,9 +948,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26491876",
-              "timebuildupdated": 1793989619,
-              "timeupdated": 1793989888
+              "buildid": "26496522",
+              "timebuildupdated": 1794005212,
+              "timeupdated": 1794005520
             }
           },
           "depots": {
@@ -929,7 +967,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "212161941432844381"
+                "public": "4189083252559204342"
               }
             },
             "5028052": {
@@ -943,11 +981,11 @@
           }
         }
       },
-      "observed_at": "2026-11-06T20:32:09.063Z",
+      "observed_at": "2026-11-06T22:57:05.029Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T20:32:09.063Z"
+  "updated_at": "2026-11-06T22:57:05.029Z"
 }
