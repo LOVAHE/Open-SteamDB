@@ -643,11 +643,44 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T21:40:09.405Z",
+      "change_number": 40685575,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26187885",
+            "description": "v1.0.0",
+            "timebuildupdated": 1792873683,
+            "timeupdated": 1793282090
+          },
+          "op": "add",
+          "path": "/depots/branches/v1.0.0"
+        },
+        {
+          "after": "1832737755528485607",
+          "op": "add",
+          "path": "/depots/depots/3026451/manifests/v1.0.0"
+        },
+        {
+          "after": "7724756528743620812",
+          "op": "add",
+          "path": "/depots/depots/3026452/manifests/v1.0.0"
+        },
+        {
+          "after": "2883322984031894706",
+          "op": "add",
+          "path": "/depots/depots/3026453/manifests/v1.0.0"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40682496,
+      "change_number": 40685575,
       "data": {
         "appinfo": {
           "common": {
@@ -1018,6 +1051,12 @@
               "buildid": "26187885",
               "timebuildupdated": 1792873683,
               "timeupdated": 1793282090
+            },
+            "v1.0.0": {
+              "buildid": "26187885",
+              "description": "v1.0.0",
+              "timebuildupdated": 1792873683,
+              "timeupdated": 1793282090
             }
           },
           "depots": {
@@ -1039,7 +1078,8 @@
             },
             "3026451": {
               "manifests": {
-                "public": "1832737755528485607"
+                "public": "1832737755528485607",
+                "v1.0.0": "1832737755528485607"
               }
             },
             "3026452": {
@@ -1047,7 +1087,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "7724756528743620812"
+                "public": "7724756528743620812",
+                "v1.0.0": "7724756528743620812"
               }
             },
             "3026453": {
@@ -1055,7 +1096,8 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "2883322984031894706"
+                "public": "2883322984031894706",
+                "v1.0.0": "2883322984031894706"
               }
             },
             "3883820": {
@@ -1065,11 +1107,11 @@
           }
         }
       },
-      "observed_at": "2026-11-06T19:57:52.010Z",
+      "observed_at": "2026-11-06T21:40:09.405Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T19:57:52.010Z"
+  "updated_at": "2026-11-06T21:40:09.405Z"
 }
