@@ -204,11 +204,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T16:41:28.290Z",
+      "change_number": 40676816,
+      "changes": [
+        {
+          "after": {
+            "path": "com.crookedstone.undertheelm/saves/{64BitSteamID}",
+            "pattern": "*.json",
+            "platforms": {
+              "1": "Windows"
+            },
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/1"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40641874,
+      "change_number": 40676816,
       "data": {
         "appinfo": {
           "common": {
@@ -364,6 +384,14 @@
                   "1": "Windows"
                 },
                 "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "com.crookedstone.undertheelm/saves/{64BitSteamID}",
+                "pattern": "*.json",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataRoaming"
               }
             }
           }
@@ -385,11 +413,11 @@
           }
         }
       },
-      "observed_at": "2026-11-05T18:53:15.715Z",
+      "observed_at": "2026-11-06T16:41:28.290Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T18:53:15.715Z"
+  "updated_at": "2026-11-06T16:41:28.290Z"
 }
