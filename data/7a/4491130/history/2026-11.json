@@ -406,11 +406,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T04:23:17.274Z",
+      "change_number": 40655767,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40655504,
+      "change_number": 40655767,
       "data": {
         "appinfo": {
           "common": {
@@ -513,8 +533,8 @@
             },
             "name": "Kings Call 2",
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "primary_genre": "37",
             "review_percentage": "31",
             "review_score": "4",
@@ -604,11 +624,11 @@
           }
         }
       },
-      "observed_at": "2026-11-06T04:08:14.615Z",
+      "observed_at": "2026-11-06T04:23:17.274Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T04:08:14.615Z"
+  "updated_at": "2026-11-06T04:23:17.274Z"
 }
