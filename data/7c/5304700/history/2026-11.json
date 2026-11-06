@@ -632,11 +632,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T02:08:09.601Z",
+      "change_number": 40651049,
+      "changes": [
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26471284",
+          "before": "26309222",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793920805,
+          "before": 1793311941,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793924923,
+          "before": 1793313199,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/5304701/config"
+        },
+        {
+          "after": "7344645799872292435",
+          "op": "add",
+          "path": "/depots/depots/5304702/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40648587,
+      "change_number": 40651049,
       "data": {
         "appinfo": {
           "common": {
@@ -805,7 +849,7 @@
             "name": "Coins Must Be Made",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,linux",
             "primary_genre": "1",
             "small_capsule": {
               "arabic": "eff446f71e139637f77800146c5b1328ccb5ee5e/capsule_231x87_arabic.jpg",
@@ -976,13 +1020,16 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26309222",
-              "timebuildupdated": 1793311941,
-              "timeupdated": 1793313199
+              "buildid": "26471284",
+              "timebuildupdated": 1793920805,
+              "timeupdated": 1793924923
             }
           },
           "depots": {
             "5304701": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
                 "public": "3156531929526339460"
               }
@@ -991,16 +1038,18 @@
               "config": {
                 "oslist": "linux"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "7344645799872292435"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-05T22:53:13.445Z",
+      "observed_at": "2026-11-06T02:08:09.601Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T22:53:13.445Z"
+  "updated_at": "2026-11-06T02:08:09.601Z"
 }
