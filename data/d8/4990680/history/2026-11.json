@@ -558,11 +558,110 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T14:24:01.643Z",
+      "change_number": 40671564,
+      "changes": [
+        {
+          "before": "",
+          "op": "remove",
+          "path": "/appinfo/ufs/rootoverrides/0/addpath"
+        },
+        {
+          "after": "MacOS",
+          "before": "Windows",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/os"
+        },
+        {
+          "after": {
+            "0": {
+              "find": "Zero Task/Terminidle",
+              "replace": "unity.Zero Task.Terminidle"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides/0/pathtransforms"
+        },
+        {
+          "after": "WinAppDataLocalLow",
+          "before": "gameinstall",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/root"
+        },
+        {
+          "after": "MacAppSupport",
+          "before": "gameinstall",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/useinstead"
+        },
+        {
+          "before": {
+            "1": "Windows"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/0/platforms"
+        },
+        {
+          "before": {
+            "1": "Windows"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/1/platforms"
+        },
+        {
+          "before": {
+            "1": "Windows"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/2/platforms"
+        },
+        {
+          "before": {
+            "path": "unity.Zero Task.Terminidle",
+            "pattern": "terminidle_save*",
+            "platforms": {
+              "1": "MacOS"
+            },
+            "root": "MacAppSupport"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/3"
+        },
+        {
+          "before": {
+            "path": "unity.Zero Task.Terminidle",
+            "pattern": "terminidle_slots*",
+            "platforms": {
+              "1": "MacOS"
+            },
+            "root": "MacAppSupport"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/4"
+        },
+        {
+          "before": {
+            "path": "unity.Zero Task.Terminidle",
+            "pattern": "scripts*",
+            "platforms": {
+              "1": "MacOS"
+            },
+            "recursive": "1",
+            "root": "MacAppSupport"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/5"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40635988,
+      "change_number": 40671564,
       "data": {
         "appinfo": {
           "common": {
@@ -708,63 +807,34 @@
             "quota": "50000000",
             "rootoverrides": {
               "0": {
-                "addpath": "",
-                "os": "Windows",
+                "os": "MacOS",
                 "oscompare": "=",
-                "root": "gameinstall",
-                "useinstead": "gameinstall"
+                "pathtransforms": {
+                  "0": {
+                    "find": "Zero Task/Terminidle",
+                    "replace": "unity.Zero Task.Terminidle"
+                  }
+                },
+                "root": "WinAppDataLocalLow",
+                "useinstead": "MacAppSupport"
               }
             },
             "savefiles": {
               "0": {
                 "path": "Zero Task/Terminidle",
                 "pattern": "terminidle_save*\t",
-                "platforms": {
-                  "1": "Windows"
-                },
                 "root": "WinAppDataLocalLow"
               },
               "1": {
                 "path": "Zero Task/Terminidle",
                 "pattern": "terminidle_slots*\t",
-                "platforms": {
-                  "1": "Windows"
-                },
                 "root": "WinAppDataLocalLow"
               },
               "2": {
                 "path": "Zero Task/Terminidle",
                 "pattern": "scripts*",
-                "platforms": {
-                  "1": "Windows"
-                },
                 "recursive": "1",
                 "root": "WinAppDataLocalLow"
-              },
-              "3": {
-                "path": "unity.Zero Task.Terminidle",
-                "pattern": "terminidle_save*",
-                "platforms": {
-                  "1": "MacOS"
-                },
-                "root": "MacAppSupport"
-              },
-              "4": {
-                "path": "unity.Zero Task.Terminidle",
-                "pattern": "terminidle_slots*",
-                "platforms": {
-                  "1": "MacOS"
-                },
-                "root": "MacAppSupport"
-              },
-              "5": {
-                "path": "unity.Zero Task.Terminidle",
-                "pattern": "scripts*",
-                "platforms": {
-                  "1": "MacOS"
-                },
-                "recursive": "1",
-                "root": "MacAppSupport"
               }
             }
           }
@@ -797,11 +867,11 @@
           }
         }
       },
-      "observed_at": "2026-11-05T16:08:23.431Z",
+      "observed_at": "2026-11-06T14:24:01.643Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T16:08:23.431Z"
+  "updated_at": "2026-11-06T14:24:01.643Z"
 }
