@@ -356,11 +356,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T23:37:25.994Z",
+      "change_number": 40688336,
+      "changes": [
+        {
+          "after": "95",
+          "before": "97",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": {
+            "path": "Sweet Buns Games/Sexpatch",
+            "pattern": "SaveWipeEpoch.txt",
+            "root": "WinAppDataLocalLow"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/1"
+        },
+        {
+          "after": "26491670",
+          "before": "26487362",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793989060,
+          "before": 1793976723,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794008022,
+          "before": 1793977142,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3722752865461076474",
+          "before": "9164099108559264684",
+          "op": "replace",
+          "path": "/depots/depots/4463731/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40685283,
+      "change_number": 40688336,
       "data": {
         "appinfo": {
           "common": {
@@ -461,7 +508,7 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "28",
-            "review_percentage": "97",
+            "review_percentage": "95",
             "review_score": "7",
             "small_capsule": {
               "english": "be36f7acf20c687de39b90554596a8c71ae19ac9/capsule_231x87.jpg"
@@ -632,6 +679,11 @@
                 "path": "Sweet Buns Games/Sexpatch/SaveData",
                 "pattern": "*",
                 "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "Sweet Buns Games/Sexpatch",
+                "pattern": "SaveWipeEpoch.txt",
+                "root": "WinAppDataLocalLow"
               }
             }
           }
@@ -639,9 +691,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26487362",
-              "timebuildupdated": 1793976723,
-              "timeupdated": 1793977142
+              "buildid": "26491670",
+              "timebuildupdated": 1793989060,
+              "timeupdated": 1794008022
             }
           },
           "depots": {
@@ -655,17 +707,17 @@
             },
             "4463731": {
               "manifests": {
-                "public": "9164099108559264684"
+                "public": "3722752865461076474"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-06T21:27:55.273Z",
+      "observed_at": "2026-11-06T23:37:25.994Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T21:27:55.273Z"
+  "updated_at": "2026-11-06T23:37:25.994Z"
 }
