@@ -364,11 +364,44 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T11:38:20.386Z",
+      "change_number": 40666353,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26483005",
+            "description": "A build of the game with the console enabled, for debugging purposes",
+            "timebuildupdated": 1793964529,
+            "timeupdated": 1793964529
+          },
+          "op": "add",
+          "path": "/depots/branches/console-enabled"
+        },
+        {
+          "after": "2343911359576501360",
+          "op": "add",
+          "path": "/depots/depots/4225282/manifests/console-enabled"
+        },
+        {
+          "after": "255531501626395422",
+          "op": "add",
+          "path": "/depots/depots/4225283/manifests/console-enabled"
+        },
+        {
+          "after": "5405774391692217002",
+          "op": "add",
+          "path": "/depots/depots/5477300/manifests/console-enabled"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40666106,
+      "change_number": 40666353,
       "data": {
         "appinfo": {
           "common": {
@@ -591,6 +624,12 @@
         },
         "depots": {
           "branches": {
+            "console-enabled": {
+              "buildid": "26483005",
+              "description": "A build of the game with the console enabled, for debugging purposes",
+              "timebuildupdated": 1793964529,
+              "timeupdated": 1793964529
+            },
             "debug": {
               "buildid": "26299795",
               "description": "Debug options enabled",
@@ -616,6 +655,7 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "console-enabled": "2343911359576501360",
                 "debug": "7740139978399328935",
                 "public": "5033794855930294545",
                 "testing": "5033794855930294545"
@@ -627,6 +667,7 @@
                 "oslist": "linux"
               },
               "manifests": {
+                "console-enabled": "255531501626395422",
                 "debug": "5898176991299494896",
                 "public": "3406827046865932907",
                 "testing": "3406827046865932907"
@@ -635,6 +676,7 @@
             "5477300": {
               "dlcappid": 5477300,
               "manifests": {
+                "console-enabled": "5405774391692217002",
                 "debug": "5405774391692217002",
                 "public": "5405774391692217002",
                 "testing": "5405774391692217002"
@@ -643,11 +685,11 @@
           }
         }
       },
-      "observed_at": "2026-11-06T11:25:38.415Z",
+      "observed_at": "2026-11-06T11:38:20.386Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T11:25:38.415Z"
+  "updated_at": "2026-11-06T11:38:20.386Z"
 }

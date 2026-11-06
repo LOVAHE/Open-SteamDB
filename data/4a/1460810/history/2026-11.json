@@ -342,11 +342,69 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T11:38:20.386Z",
+      "change_number": 40666605,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26464897",
+            "description": "experimental new feature preview",
+            "timebuildupdated": 1793900709,
+            "timeupdated": 1793901048
+          },
+          "op": "remove",
+          "path": "/depots/branches/openbeta"
+        },
+        {
+          "after": "26482967",
+          "before": "26478828",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793964438,
+          "before": 1793951091,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793964997,
+          "before": 1793955601,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": "7669519779776027830",
+          "op": "remove",
+          "path": "/depots/depots/1460811/manifests/openbeta"
+        },
+        {
+          "after": "8049470344054692456",
+          "before": "6685478093571265212",
+          "op": "replace",
+          "path": "/depots/depots/1460811/manifests/public"
+        },
+        {
+          "before": "327347880771847553",
+          "op": "remove",
+          "path": "/depots/depots/1460812/manifests/openbeta"
+        },
+        {
+          "after": "7457510569922894601",
+          "before": "4895640914631455986",
+          "op": "replace",
+          "path": "/depots/depots/1460812/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40666169,
+      "change_number": 40666605,
       "data": {
         "appinfo": {
           "common": {
@@ -599,16 +657,10 @@
         },
         "depots": {
           "branches": {
-            "openbeta": {
-              "buildid": "26464897",
-              "description": "experimental new feature preview",
-              "timebuildupdated": 1793900709,
-              "timeupdated": 1793901048
-            },
             "public": {
-              "buildid": "26478828",
-              "timebuildupdated": 1793951091,
-              "timeupdated": 1793955601
+              "buildid": "26482967",
+              "timebuildupdated": 1793964438,
+              "timeupdated": 1793964997
             }
           },
           "depots": {
@@ -617,8 +669,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "openbeta": "7669519779776027830",
-                "public": "6685478093571265212"
+                "public": "8049470344054692456"
               }
             },
             "1460812": {
@@ -626,18 +677,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "openbeta": "327347880771847553",
-                "public": "4895640914631455986"
+                "public": "7457510569922894601"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-06T11:25:38.415Z",
+      "observed_at": "2026-11-06T11:38:20.386Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T11:25:38.415Z"
+  "updated_at": "2026-11-06T11:38:20.386Z"
 }
