@@ -1,8 +1,8 @@
 {
   "appid": 4663730,
   "source": "steam_pics",
-  "updated_at": "2026-11-06T03:23:09.415Z",
-  "change_number": 40654581,
+  "updated_at": "2026-11-06T09:08:23.078Z",
+  "change_number": 40662150,
   "data": {
     "common": {
       "associations": {
@@ -170,9 +170,14 @@
       "quota": "500000000",
       "rootoverrides": {
         "1": {
-          "addpath": ".local/share/",
           "os": "Linux",
           "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Godot/app_userdata/How Empires Work/saves",
+              "replace": ".local/share/godot/app_userdata/How Empires Work/saves"
+            }
+          },
           "root": "WinAppDataRoaming",
           "useinstead": "LinuxHome"
         },

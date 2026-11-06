@@ -486,11 +486,34 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T09:08:23.078Z",
+      "change_number": 40662150,
+      "changes": [
+        {
+          "before": ".local/share/",
+          "op": "remove",
+          "path": "/appinfo/ufs/rootoverrides/1/addpath"
+        },
+        {
+          "after": {
+            "0": {
+              "find": "Godot/app_userdata/How Empires Work/saves",
+              "replace": ".local/share/godot/app_userdata/How Empires Work/saves"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides/1/pathtransforms"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40654581,
+      "change_number": 40662150,
       "data": {
         "appinfo": {
           "common": {
@@ -659,9 +682,14 @@
             "quota": "500000000",
             "rootoverrides": {
               "1": {
-                "addpath": ".local/share/",
                 "os": "Linux",
                 "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Godot/app_userdata/How Empires Work/saves",
+                    "replace": ".local/share/godot/app_userdata/How Empires Work/saves"
+                  }
+                },
                 "root": "WinAppDataRoaming",
                 "useinstead": "LinuxHome"
               },
@@ -719,11 +747,11 @@
           }
         }
       },
-      "observed_at": "2026-11-06T03:23:09.415Z",
+      "observed_at": "2026-11-06T09:08:23.078Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T03:23:09.415Z"
+  "updated_at": "2026-11-06T09:08:23.078Z"
 }
