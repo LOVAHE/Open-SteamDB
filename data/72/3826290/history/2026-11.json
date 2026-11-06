@@ -292,11 +292,55 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T17:14:48.722Z",
+      "change_number": 40677377,
+      "changes": [
+        {
+          "after": "2000",
+          "before": "200",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "300000000",
+          "before": "50000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        },
+        {
+          "after": "26489032",
+          "before": "26481387",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793981215,
+          "before": 1793959809,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793984384,
+          "before": 1793960523,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6129492080965185966",
+          "before": "454759196321857479",
+          "op": "replace",
+          "path": "/depots/depots/3826292/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40676787,
+      "change_number": 40677377,
       "data": {
         "appinfo": {
           "common": {
@@ -441,8 +485,8 @@
             "publisher": "Cosmic Train"
           },
           "ufs": {
-            "maxnumfiles": "200",
-            "quota": "50000000",
+            "maxnumfiles": "2000",
+            "quota": "300000000",
             "savefiles": {
               "0": {
                 "path": "save",
@@ -455,9 +499,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26481387",
-              "timebuildupdated": 1793959809,
-              "timeupdated": 1793960523
+              "buildid": "26489032",
+              "timebuildupdated": 1793981215,
+              "timeupdated": 1793984384
             }
           },
           "depots": {
@@ -466,17 +510,17 @@
                 "language": "english"
               },
               "manifests": {
-                "public": "454759196321857479"
+                "public": "6129492080965185966"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-06T16:41:28.290Z",
+      "observed_at": "2026-11-06T17:14:48.722Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T16:41:28.290Z"
+  "updated_at": "2026-11-06T17:14:48.722Z"
 }
