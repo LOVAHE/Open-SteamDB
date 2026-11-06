@@ -434,11 +434,77 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T20:10:43.819Z",
+      "change_number": 40683092,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_28"
+        },
+        {
+          "after": "full",
+          "op": "add",
+          "path": "/appinfo/common/controller_support"
+        },
+        {
+          "after": "26493423",
+          "before": "26493317",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793994583,
+          "before": 1793994190,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793995184,
+          "before": 1793994278,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "26493317",
+          "before": "26392540",
+          "op": "replace",
+          "path": "/depots/branches/stage/buildid"
+        },
+        {
+          "after": 1793994190,
+          "before": 1793661756,
+          "op": "replace",
+          "path": "/depots/branches/stage/timebuildupdated"
+        },
+        {
+          "after": 1793994278,
+          "before": 1793661786,
+          "op": "replace",
+          "path": "/depots/branches/stage/timeupdated"
+        },
+        {
+          "after": "5868745428921976958",
+          "before": "1460320481947538872",
+          "op": "replace",
+          "path": "/depots/depots/5260111/manifests/public"
+        },
+        {
+          "after": "1460320481947538872",
+          "before": "9202049848607097503",
+          "op": "replace",
+          "path": "/depots/depots/5260111/manifests/stage"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40682562,
+      "change_number": 40683092,
       "data": {
         "appinfo": {
           "common": {
@@ -460,6 +526,7 @@
               "category_2": "1",
               "category_22": "1",
               "category_23": "1",
+              "category_28": "1",
               "category_62": "1",
               "category_64": "1",
               "category_67": "1",
@@ -470,6 +537,7 @@
             "clienticon": "6d641158a4e0f83617febc2e32cbef85bad3ff79",
             "community_hub_visible": "1",
             "community_visible_stats": "1",
+            "controller_support": "full",
             "genres": {
               "0": "23",
               "1": "28",
@@ -592,15 +660,15 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26493317",
-              "timebuildupdated": 1793994190,
-              "timeupdated": 1793994278
+              "buildid": "26493423",
+              "timebuildupdated": 1793994583,
+              "timeupdated": 1793995184
             },
             "stage": {
-              "buildid": "26392540",
+              "buildid": "26493317",
               "description": "Private staging branch",
-              "timebuildupdated": 1793661756,
-              "timeupdated": 1793661786
+              "timebuildupdated": 1793994190,
+              "timeupdated": 1793994278
             }
           },
           "depots": {
@@ -614,18 +682,18 @@
             },
             "5260111": {
               "manifests": {
-                "public": "1460320481947538872",
-                "stage": "9202049848607097503"
+                "public": "5868745428921976958",
+                "stage": "1460320481947538872"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-06T19:57:52.010Z",
+      "observed_at": "2026-11-06T20:10:43.819Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T19:57:52.010Z"
+  "updated_at": "2026-11-06T20:10:43.819Z"
 }
