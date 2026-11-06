@@ -370,11 +370,60 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T07:23:18.251Z",
+      "change_number": 40659267,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "path": "SuperDove/Chess_ ThreeKingdoms",
+              "pattern": "progress.json",
+              "root": "WinAppDataLocalLow"
+            },
+            "1": {
+              "path": "SuperDove/Chess_ ThreeKingdoms",
+              "pattern": "progress.json.bak",
+              "root": "WinAppDataLocalLow"
+            },
+            "2": {
+              "path": "SuperDove/Chess_ ThreeKingdoms",
+              "pattern": "gamesave.json",
+              "root": "WinAppDataLocalLow"
+            },
+            "3": {
+              "path": "SuperDove/Chess_ ThreeKingdoms",
+              "pattern": "gamesave.json.bak",
+              "root": "WinAppDataLocalLow"
+            },
+            "4": {
+              "path": "SuperDove/Chess_ ThreeKingdoms",
+              "pattern": "global_run_records.json",
+              "root": "WinAppDataLocalLow"
+            },
+            "5": {
+              "path": "SuperDove/Chess_ ThreeKingdoms",
+              "pattern": "steam_achievements_7656*.json",
+              "root": "WinAppDataLocalLow"
+            },
+            "6": {
+              "path": "SuperDove/Chess_ ThreeKingdoms",
+              "pattern": "steam_achievements_7656*.json.bak",
+              "root": "WinAppDataLocalLow"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40658290,
+      "change_number": 40659267,
       "data": {
         "appinfo": {
           "common": {
@@ -588,7 +637,44 @@
           },
           "ufs": {
             "maxnumfiles": "100",
-            "quota": "100000000"
+            "quota": "100000000",
+            "savefiles": {
+              "0": {
+                "path": "SuperDove/Chess_ ThreeKingdoms",
+                "pattern": "progress.json",
+                "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "SuperDove/Chess_ ThreeKingdoms",
+                "pattern": "progress.json.bak",
+                "root": "WinAppDataLocalLow"
+              },
+              "2": {
+                "path": "SuperDove/Chess_ ThreeKingdoms",
+                "pattern": "gamesave.json",
+                "root": "WinAppDataLocalLow"
+              },
+              "3": {
+                "path": "SuperDove/Chess_ ThreeKingdoms",
+                "pattern": "gamesave.json.bak",
+                "root": "WinAppDataLocalLow"
+              },
+              "4": {
+                "path": "SuperDove/Chess_ ThreeKingdoms",
+                "pattern": "global_run_records.json",
+                "root": "WinAppDataLocalLow"
+              },
+              "5": {
+                "path": "SuperDove/Chess_ ThreeKingdoms",
+                "pattern": "steam_achievements_7656*.json",
+                "root": "WinAppDataLocalLow"
+              },
+              "6": {
+                "path": "SuperDove/Chess_ ThreeKingdoms",
+                "pattern": "steam_achievements_7656*.json.bak",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -608,11 +694,11 @@
           }
         }
       },
-      "observed_at": "2026-11-06T06:38:13.728Z",
+      "observed_at": "2026-11-06T07:23:18.251Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T06:38:13.728Z"
+  "updated_at": "2026-11-06T07:23:18.251Z"
 }
