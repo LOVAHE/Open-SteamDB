@@ -294,11 +294,54 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T08:53:23.943Z",
+      "change_number": 40661466,
+      "changes": [
+        {
+          "before": "70",
+          "op": "remove",
+          "path": "/appinfo/common/genres/0"
+        },
+        {
+          "after": "1793954738",
+          "before": "1792180848",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "26421646",
+          "before": "26355342",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793759642,
+          "before": 1793501891,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793954376,
+          "before": 1793759569,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3388096011955751452",
+          "before": "4839045115560973570",
+          "op": "replace",
+          "path": "/depots/depots/5036481/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40661270,
+      "change_number": 40661466,
       "data": {
         "appinfo": {
           "common": {
@@ -334,9 +377,7 @@
             "clienticon": "f0f23c2eb923277848d74fad760c5a25481b698c",
             "community_hub_visible": "1",
             "controller_support": "full",
-            "genres": {
-              "0": "70"
-            },
+            "genres": {},
             "header_image": {
               "english": "9cda901dca74b6f8fbb660b8f9b5f0175e6772a6/header.jpg",
               "japanese": "360dcf819cf2e861271eb928b33be4841558c547/header_japanese.jpg",
@@ -426,7 +467,7 @@
               "japanese": "1d613570a6e8d09f3170c308986a70f2dd67a0a2/capsule_231x87_japanese.jpg",
               "koreana": "dfdf95ba7fd590ec6b9e92bf3366795c750c4926/capsule_231x87_koreana.jpg"
             },
-            "steam_release_date": "1792180848",
+            "steam_release_date": "1793954738",
             "store_asset_mtime": "1793520704",
             "store_tags": {
               "0": "3799",
@@ -481,9 +522,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26355342",
-              "timebuildupdated": 1793501891,
-              "timeupdated": 1793759569
+              "buildid": "26421646",
+              "timebuildupdated": 1793759642,
+              "timeupdated": 1793954376
             }
           },
           "depots": {
@@ -492,17 +533,17 @@
                 "oslist": "windows,linux"
               },
               "manifests": {
-                "public": "4839045115560973570"
+                "public": "3388096011955751452"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-06T08:38:15.978Z",
+      "observed_at": "2026-11-06T08:53:23.943Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T08:38:15.978Z"
+  "updated_at": "2026-11-06T08:53:23.943Z"
 }
