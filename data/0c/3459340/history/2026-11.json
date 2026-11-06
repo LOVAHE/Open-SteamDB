@@ -917,11 +917,101 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T03:08:13.230Z",
+      "change_number": 40654407,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26468853",
+            "description": "Lacey's Flash Games on linux",
+            "timebuildupdated": 1793913003,
+            "timeupdated": 1793913003
+          },
+          "op": "remove",
+          "path": "/depots/branches/lacey_linux"
+        },
+        {
+          "after": {
+            "buildid": "26474836",
+            "description": "linux",
+            "timebuildupdated": 1793934476,
+            "timeupdated": 1793934476
+          },
+          "op": "add",
+          "path": "/depots/branches/linux_lacey"
+        },
+        {
+          "after": "26474691",
+          "before": "26423632",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793934059,
+          "before": 1793767676,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793934342,
+          "before": 1793767731,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": "4324116969847559287",
+          "op": "remove",
+          "path": "/depots/depots/3459341/manifests/lacey_linux"
+        },
+        {
+          "after": "90891639903817848",
+          "op": "add",
+          "path": "/depots/depots/3459341/manifests/linux_lacey"
+        },
+        {
+          "after": "90891639903817848",
+          "before": "8537965176306713386",
+          "op": "replace",
+          "path": "/depots/depots/3459341/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "linux"
+            },
+            "manifests": {
+              "linux_lacey": "5046516076727934960"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/3459342"
+        },
+        {
+          "before": "7858203261697490172",
+          "op": "remove",
+          "path": "/depots/depots/3459349/manifests/lacey_linux"
+        },
+        {
+          "after": "8404931886222616698",
+          "op": "add",
+          "path": "/depots/depots/3459349/manifests/linux_lacey"
+        },
+        {
+          "after": "8404931886222616698",
+          "before": "7858203261697490172",
+          "op": "replace",
+          "path": "/depots/depots/3459349/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40646084,
+      "change_number": 40654407,
       "data": {
         "appinfo": {
           "common": {
@@ -1100,16 +1190,16 @@
         },
         "depots": {
           "branches": {
-            "lacey_linux": {
-              "buildid": "26468853",
-              "description": "Lacey's Flash Games on linux",
-              "timebuildupdated": 1793913003,
-              "timeupdated": 1793913003
+            "linux_lacey": {
+              "buildid": "26474836",
+              "description": "linux",
+              "timebuildupdated": 1793934476,
+              "timeupdated": 1793934476
             },
             "public": {
-              "buildid": "26423632",
-              "timebuildupdated": 1793767676,
-              "timeupdated": 1793767731
+              "buildid": "26474691",
+              "timebuildupdated": 1793934059,
+              "timeupdated": 1793934342
             }
           },
           "depots": {
@@ -1119,8 +1209,16 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "lacey_linux": "4324116969847559287",
-                "public": "8537965176306713386"
+                "linux_lacey": "90891639903817848",
+                "public": "90891639903817848"
+              }
+            },
+            "3459342": {
+              "config": {
+                "oslist": "linux"
+              },
+              "manifests": {
+                "linux_lacey": "5046516076727934960"
               }
             },
             "3459349": {
@@ -1129,18 +1227,18 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "lacey_linux": "7858203261697490172",
-                "public": "7858203261697490172"
+                "linux_lacey": "8404931886222616698",
+                "public": "8404931886222616698"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-05T21:23:27.851Z",
+      "observed_at": "2026-11-06T03:08:13.230Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T21:23:27.851Z"
+  "updated_at": "2026-11-06T03:08:13.230Z"
 }
