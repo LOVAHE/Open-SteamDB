@@ -380,11 +380,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T15:24:22.767Z",
+      "change_number": 40673564,
+      "changes": [
+        {
+          "after": "26487735",
+          "before": "26484393",
+          "op": "replace",
+          "path": "/depots/branches/demo/buildid"
+        },
+        {
+          "after": 1793977702,
+          "before": 1793968405,
+          "op": "replace",
+          "path": "/depots/branches/demo/timebuildupdated"
+        },
+        {
+          "after": 1793977703,
+          "before": 1793968405,
+          "op": "replace",
+          "path": "/depots/branches/demo/timeupdated"
+        },
+        {
+          "after": "2607670813788709109",
+          "before": "7932480239562447207",
+          "op": "replace",
+          "path": "/depots/depots/5048971/manifests/demo"
+        },
+        {
+          "after": "3277400586482857938",
+          "before": "2324214347982896445",
+          "op": "replace",
+          "path": "/depots/depots/5048972/manifests/demo"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40668325,
+      "change_number": 40673564,
       "data": {
         "appinfo": {
           "common": {
@@ -527,10 +565,10 @@
         "depots": {
           "branches": {
             "demo": {
-              "buildid": "26484393",
+              "buildid": "26487735",
               "description": "testing-branch",
-              "timebuildupdated": 1793968405,
-              "timeupdated": 1793968405
+              "timebuildupdated": 1793977702,
+              "timeupdated": 1793977703
             },
             "public": {
               "buildid": "26055397",
@@ -544,7 +582,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "demo": "7932480239562447207",
+                "demo": "2607670813788709109",
                 "public": "6197575651258212320"
               }
             },
@@ -553,14 +591,14 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "demo": "2324214347982896445",
+                "demo": "3277400586482857938",
                 "public": "836876597897303152"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-06T12:38:35.474Z",
+      "observed_at": "2026-11-06T15:24:22.767Z",
       "tracked": true
     },
     "steam_store": {
@@ -694,5 +732,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T12:38:35.474Z"
+  "updated_at": "2026-11-06T15:24:22.767Z"
 }
