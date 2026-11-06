@@ -392,11 +392,36 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-06T17:27:27.022Z",
+      "change_number": 40678152,
+      "changes": [
+        {
+          "after": {
+            "oslist": "macos"
+          },
+          "op": "add",
+          "path": "/depots/depots/2828501/config"
+        },
+        {
+          "after": {
+            "depotfromapp": 2828500,
+            "manifests": {
+              "public": "5145691608909662874"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/2828508"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40677967,
+      "change_number": 40678152,
       "data": {
         "appinfo": {
           "common": {
@@ -582,8 +607,17 @@
               "sharedinstall": true
             },
             "2828501": {
+              "config": {
+                "oslist": "macos"
+              },
               "depotfromapp": 2828500,
               "manifests": {}
+            },
+            "2828508": {
+              "depotfromapp": 2828500,
+              "manifests": {
+                "public": "5145691608909662874"
+              }
             },
             "4199961": {
               "config": {
@@ -623,11 +657,11 @@
           }
         }
       },
-      "observed_at": "2026-11-06T17:14:48.722Z",
+      "observed_at": "2026-11-06T17:27:27.022Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T17:14:48.722Z"
+  "updated_at": "2026-11-06T17:27:27.022Z"
 }
