@@ -558,11 +558,69 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-07T08:51:24.272Z",
+      "change_number": 40697776,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26503082",
+            "description": "Last level xp fix",
+            "timebuildupdated": 1794040490,
+            "timeupdated": 1794040509
+          },
+          "op": "add",
+          "path": "/depots/branches/last_level_xp_fix"
+        },
+        {
+          "after": "26503114",
+          "before": "26502986",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794040699,
+          "before": 1794039805,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794040847,
+          "before": 1794039988,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5171341268499767438",
+          "op": "add",
+          "path": "/depots/depots/3204331/manifests/last_level_xp_fix"
+        },
+        {
+          "after": "27050238165726265",
+          "before": "6645177845748061941",
+          "op": "replace",
+          "path": "/depots/depots/3204331/manifests/public"
+        },
+        {
+          "after": "4004611890488273682",
+          "op": "add",
+          "path": "/depots/depots/3204332/manifests/last_level_xp_fix"
+        },
+        {
+          "after": "3374536609104737056",
+          "before": "3743885892238307399",
+          "op": "replace",
+          "path": "/depots/depots/3204332/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40697581,
+      "change_number": 40697776,
       "data": {
         "appinfo": {
           "common": {
@@ -904,10 +962,16 @@
         },
         "depots": {
           "branches": {
+            "last_level_xp_fix": {
+              "buildid": "26503082",
+              "description": "Last level xp fix",
+              "timebuildupdated": 1794040490,
+              "timeupdated": 1794040509
+            },
             "public": {
-              "buildid": "26502986",
-              "timebuildupdated": 1794039805,
-              "timeupdated": 1794039988
+              "buildid": "26503114",
+              "timebuildupdated": 1794040699,
+              "timeupdated": 1794040847
             }
           },
           "depots": {
@@ -933,7 +997,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "6645177845748061941"
+                "last_level_xp_fix": "5171341268499767438",
+                "public": "27050238165726265"
               }
             },
             "3204332": {
@@ -941,17 +1006,18 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "3743885892238307399"
+                "last_level_xp_fix": "4004611890488273682",
+                "public": "3374536609104737056"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-07T08:28:40.906Z",
+      "observed_at": "2026-11-07T08:51:24.272Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-07T08:28:40.906Z"
+  "updated_at": "2026-11-07T08:51:24.272Z"
 }
