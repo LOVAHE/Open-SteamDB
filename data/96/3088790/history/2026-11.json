@@ -382,11 +382,45 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-07T17:31:52.751Z",
+      "change_number": 40706735,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "200",
+            "quota": "104857600",
+            "savefiles": {
+              "0": {
+                "path": "3B Bros/Market Master Simulator/Saves",
+                "pattern": "*",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "3B Bros/Market Master Simulator",
+                "pattern": "*.json",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40697507,
+      "change_number": 40706735,
       "data": {
         "appinfo": {
           "common": {
@@ -636,6 +670,28 @@
           "extended": {
             "developer": "3B Bros",
             "publisher": "3B Bros"
+          },
+          "ufs": {
+            "maxnumfiles": "200",
+            "quota": "104857600",
+            "savefiles": {
+              "0": {
+                "path": "3B Bros/Market Master Simulator/Saves",
+                "pattern": "*",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "3B Bros/Market Master Simulator",
+                "pattern": "*.json",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -659,11 +715,11 @@
           }
         }
       },
-      "observed_at": "2026-11-07T08:28:40.906Z",
+      "observed_at": "2026-11-07T17:31:52.751Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-07T08:28:40.906Z"
+  "updated_at": "2026-11-07T17:31:52.751Z"
 }

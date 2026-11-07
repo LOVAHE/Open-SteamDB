@@ -395,11 +395,41 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-07T17:31:52.751Z",
+      "change_number": 40707235,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5281912"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40683334,
+      "change_number": 40707235,
       "data": {
         "appinfo": {
           "common": {
@@ -527,8 +557,8 @@
             },
             "name": "War Of The Twelve",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos",
             "primary_genre": "1",
             "small_capsule": {
               "english": "cc1d0644dd6ecbff66452d394515b6b58dd9104a/capsule_231x87.jpg"
@@ -694,15 +724,21 @@
               "manifests": {
                 "public": "888270706864811321"
               }
+            },
+            "5281912": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-06T20:32:09.063Z",
+      "observed_at": "2026-11-07T17:31:52.751Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T20:32:09.063Z"
+  "updated_at": "2026-11-07T17:31:52.751Z"
 }
