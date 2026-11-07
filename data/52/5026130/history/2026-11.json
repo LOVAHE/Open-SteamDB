@@ -371,11 +371,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-07T19:41:58.573Z",
+      "change_number": 40709823,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": "26510503",
+          "before": "26509840",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794079757,
+          "before": 1794076492,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794079827,
+          "before": 1794076635,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6789620590382910681",
+          "before": "2130923058736346298",
+          "op": "replace",
+          "path": "/depots/depots/5026133/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40708810,
+      "change_number": 40709823,
       "data": {
         "appinfo": {
           "common": {
@@ -607,7 +644,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "Cable Arrange"
@@ -634,25 +672,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26509840",
-              "timebuildupdated": 1794076492,
-              "timeupdated": 1794076635
+              "buildid": "26510503",
+              "timebuildupdated": 1794079757,
+              "timeupdated": 1794079827
             }
           },
           "depots": {
             "5026133": {
               "manifests": {
-                "public": "2130923058736346298"
+                "public": "6789620590382910681"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-07T18:49:09.046Z",
+      "observed_at": "2026-11-07T19:41:58.573Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-07T18:49:09.046Z"
+  "updated_at": "2026-11-07T19:41:58.573Z"
 }
