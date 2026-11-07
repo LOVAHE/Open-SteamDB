@@ -275,11 +275,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-07T21:48:48.430Z",
+      "change_number": 40711730,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26190799",
+            "description": "The old UI style",
+            "timebuildupdated": 1792889492,
+            "timeupdated": 1793231486
+          },
+          "op": "add",
+          "path": "/depots/branches/old-ui"
+        },
+        {
+          "after": "1960512051113170885",
+          "op": "add",
+          "path": "/depots/depots/552742/manifests/old-ui"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40702931,
+      "change_number": 40711730,
       "data": {
         "appinfo": {
           "common": {
@@ -444,6 +467,12 @@
               "timebuildupdated": 1793921922,
               "timeupdated": 1794058152
             },
+            "old-ui": {
+              "buildid": "26190799",
+              "description": "The old UI style",
+              "timebuildupdated": 1792889492,
+              "timeupdated": 1793231486
+            },
             "public": {
               "buildid": "26190799",
               "timebuildupdated": 1792889492,
@@ -482,17 +511,18 @@
               },
               "manifests": {
                 "beta": "3279405469687468536",
+                "old-ui": "1960512051113170885",
                 "public": "1960512051113170885"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-07T13:38:57.199Z",
+      "observed_at": "2026-11-07T21:48:48.430Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-07T13:38:57.199Z"
+  "updated_at": "2026-11-07T21:48:48.430Z"
 }
