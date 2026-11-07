@@ -723,11 +723,25 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-07T13:38:57.199Z",
+      "change_number": 40702599,
+      "changes": [
+        {
+          "after": "com.ARIELEK.NumberMachine/Steam_{64BitSteamID}",
+          "before": "com.ARIELEK.Number Machine/Steam_{64BitSteamID}",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/pathtransforms/0/replace"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40698992,
+      "change_number": 40702599,
       "data": {
         "appinfo": {
           "common": {
@@ -904,7 +918,7 @@
                 "pathtransforms": {
                   "0": {
                     "find": "ARIELEK/Number Machine/Steam_{64BitSteamID}",
-                    "replace": "com.ARIELEK.Number Machine/Steam_{64BitSteamID}"
+                    "replace": "com.ARIELEK.NumberMachine/Steam_{64BitSteamID}"
                   }
                 },
                 "root": "WinAppDataLocalLow",
@@ -972,7 +986,7 @@
           }
         }
       },
-      "observed_at": "2026-11-07T10:29:05.295Z",
+      "observed_at": "2026-11-07T13:38:57.199Z",
       "tracked": true
     },
     "steam_store": {
@@ -1166,5 +1180,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-07T10:29:05.295Z"
+  "updated_at": "2026-11-07T13:38:57.199Z"
 }

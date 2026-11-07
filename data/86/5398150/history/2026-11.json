@@ -676,11 +676,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-07T13:38:57.199Z",
+      "change_number": 40702629,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26506115",
+            "description": "Developer GFN receiver diagnostic. Test depot is available only to Developer Comp.",
+            "timebuildupdated": 1794057259,
+            "timeupdated": 1794057259
+          },
+          "op": "add",
+          "path": "/depots/branches/gfn-hand-test"
+        },
+        {
+          "after": "138792765642761533",
+          "op": "add",
+          "path": "/depots/depots/5398151/manifests/gfn-hand-test"
+        },
+        {
+          "after": "7789748720456951153",
+          "op": "add",
+          "path": "/depots/depots/5398152/manifests/gfn-hand-test"
+        },
+        {
+          "after": "6459994687341470620",
+          "op": "add",
+          "path": "/depots/depots/5398154/manifests/gfn-hand-test"
+        },
+        {
+          "after": "580684440937265836",
+          "op": "add",
+          "path": "/depots/depots/5398155/manifests/gfn-hand-test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40698861,
+      "change_number": 40702629,
       "data": {
         "appinfo": {
           "common": {
@@ -870,6 +908,12 @@
         },
         "depots": {
           "branches": {
+            "gfn-hand-test": {
+              "buildid": "26506115",
+              "description": "Developer GFN receiver diagnostic. Test depot is available only to Developer Comp.",
+              "timebuildupdated": 1794057259,
+              "timeupdated": 1794057259
+            },
             "linux-native-test": {
               "buildid": "26270710",
               "description": "Developer-only native Linux x86_64 validation",
@@ -889,6 +933,7 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "gfn-hand-test": "138792765642761533",
                 "linux-native-test": "6362941307165986960",
                 "public": "138792765642761533"
               }
@@ -898,6 +943,7 @@
                 "oslist": "macos"
               },
               "manifests": {
+                "gfn-hand-test": "7789748720456951153",
                 "linux-native-test": "4794736455625355493",
                 "public": "7789748720456951153"
               }
@@ -917,6 +963,7 @@
                 "oslist": "linux"
               },
               "manifests": {
+                "gfn-hand-test": "6459994687341470620",
                 "public": "6459994687341470620"
               }
             },
@@ -925,16 +972,18 @@
                 "osarch": "64",
                 "oslist": "windows"
               },
-              "manifests": {}
+              "manifests": {
+                "gfn-hand-test": "580684440937265836"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-07T09:43:20.150Z",
+      "observed_at": "2026-11-07T13:38:57.199Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-07T09:43:20.150Z"
+  "updated_at": "2026-11-07T13:38:57.199Z"
 }
