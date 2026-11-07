@@ -229,11 +229,69 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-07T15:35:21.869Z",
+      "change_number": 40704320,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26442512",
+            "description": "La primera versión",
+            "timebuildupdated": 1793826949,
+            "timeupdated": 1793827041
+          },
+          "op": "add",
+          "path": "/depots/branches/legacy"
+        },
+        {
+          "after": "26507022",
+          "before": "26442512",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794062319,
+          "before": 1793826949,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794062682,
+          "before": 1793827041,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5451667691116231586",
+          "op": "add",
+          "path": "/depots/depots/5347501/manifests/legacy"
+        },
+        {
+          "after": "7468915771123465434",
+          "before": "5451667691116231586",
+          "op": "replace",
+          "path": "/depots/depots/5347501/manifests/public"
+        },
+        {
+          "after": "4114061539535091515",
+          "op": "add",
+          "path": "/depots/depots/5347502/manifests/legacy"
+        },
+        {
+          "after": "7277362179848132945",
+          "before": "4114061539535091515",
+          "op": "replace",
+          "path": "/depots/depots/5347502/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40606356,
+      "change_number": 40704320,
       "data": {
         "appinfo": {
           "common": {
@@ -383,10 +441,16 @@
         },
         "depots": {
           "branches": {
-            "public": {
+            "legacy": {
               "buildid": "26442512",
+              "description": "La primera versión",
               "timebuildupdated": 1793826949,
               "timeupdated": 1793827041
+            },
+            "public": {
+              "buildid": "26507022",
+              "timebuildupdated": 1794062319,
+              "timeupdated": 1794062682
             }
           },
           "depots": {
@@ -396,7 +460,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "5451667691116231586"
+                "legacy": "5451667691116231586",
+                "public": "7468915771123465434"
               }
             },
             "5347502": {
@@ -405,17 +470,18 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "4114061539535091515"
+                "legacy": "4114061539535091515",
+                "public": "7277362179848132945"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-04T21:23:20.192Z",
+      "observed_at": "2026-11-07T15:35:21.869Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-04T21:23:20.192Z"
+  "updated_at": "2026-11-07T15:35:21.869Z"
 }

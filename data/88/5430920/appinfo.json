@@ -1,8 +1,8 @@
 {
   "appid": 5430920,
   "source": "steam_pics",
-  "updated_at": "2026-11-07T13:59:39.187Z",
-  "change_number": 40703483,
+  "updated_at": "2026-11-07T15:35:21.869Z",
+  "change_number": 40704813,
   "data": {
     "common": {
       "associations": {
@@ -193,22 +193,25 @@
     "ufs": {
       "maxnumfiles": "500",
       "quota": "1000000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "WinMyDocuments",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
       "savefiles": {
         "0": {
           "path": "My Games/Kingdom.py/saves",
           "pattern": "*",
-          "platforms": {
-            "1": "Windows"
-          },
           "recursive": "1",
           "root": "WinMyDocuments"
         },
         "1": {
           "path": "My Games/Kingdom.py/Themes",
           "pattern": "*",
-          "platforms": {
-            "1": "Windows"
-          },
           "recursive": "1",
           "root": "WinMyDocuments"
         }
