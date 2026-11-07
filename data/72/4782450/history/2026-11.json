@@ -167,11 +167,47 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-07T06:33:24.265Z",
+      "change_number": 40695823,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26501849",
+            "description": "VR Build",
+            "timebuildupdated": 1794032335,
+            "timeupdated": 1794032479
+          },
+          "op": "add",
+          "path": "/depots/branches/beta"
+        },
+        {
+          "after": "4543442953706718463",
+          "op": "add",
+          "path": "/depots/depots/4782451/manifests/beta"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "windows"
+            },
+            "manifests": {
+              "beta": "6915729716790150688"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/4782452"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40621653,
+      "change_number": 40695823,
       "data": {
         "appinfo": {
           "common": {
@@ -307,6 +343,12 @@
         },
         "depots": {
           "branches": {
+            "beta": {
+              "buildid": "26501849",
+              "description": "VR Build",
+              "timebuildupdated": 1794032335,
+              "timeupdated": 1794032479
+            },
             "public": {
               "buildid": "26218380",
               "timebuildupdated": 1793023067,
@@ -319,17 +361,27 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "beta": "4543442953706718463",
                 "public": "4543442953706718463"
+              }
+            },
+            "4782452": {
+              "config": {
+                "osarch": "64",
+                "oslist": "windows"
+              },
+              "manifests": {
+                "beta": "6915729716790150688"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-06T02:39:00.300Z",
+      "observed_at": "2026-11-07T06:33:24.265Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T02:39:00.300Z"
+  "updated_at": "2026-11-07T06:33:24.265Z"
 }
