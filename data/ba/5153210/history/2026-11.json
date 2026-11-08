@@ -312,11 +312,76 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-08T19:18:28.539Z",
+      "change_number": 40732326,
+      "changes": [
+        {
+          "after": "macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26525093",
+          "before": "25698063",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794165388,
+          "before": 1791041876,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794165434,
+          "before": 1791041917,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "language": "english",
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/5153211/config"
+        },
+        {
+          "after": "6474437327415088320",
+          "before": "8080359836527341155",
+          "op": "replace",
+          "path": "/depots/depots/5153211/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "language": "english",
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "2923109389896321850"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5153212"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40602416,
+      "change_number": 40732326,
       "data": {
         "appinfo": {
           "common": {
@@ -406,8 +471,8 @@
             },
             "name": "punkt",
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macosapplesilicon",
+            "oslist": "windows,macos",
             "primary_genre": "37",
             "review_percentage": "91",
             "review_score": "7",
@@ -455,21 +520,34 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25698063",
-              "timebuildupdated": 1791041876,
-              "timeupdated": 1791041917
+              "buildid": "26525093",
+              "timebuildupdated": 1794165388,
+              "timeupdated": 1794165434
             }
           },
           "depots": {
             "5153211": {
+              "config": {
+                "language": "english",
+                "oslist": "windows"
+              },
               "manifests": {
-                "public": "8080359836527341155"
+                "public": "6474437327415088320"
+              }
+            },
+            "5153212": {
+              "config": {
+                "language": "english",
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "2923109389896321850"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-04T19:08:14.143Z",
+      "observed_at": "2026-11-08T19:18:28.539Z",
       "tracked": true
     },
     "steam_store": {
@@ -598,5 +676,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-04T19:08:14.143Z"
+  "updated_at": "2026-11-08T19:18:28.539Z"
 }

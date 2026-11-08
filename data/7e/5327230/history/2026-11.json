@@ -261,11 +261,68 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-08T19:18:28.539Z",
+      "change_number": 40732003,
+      "changes": [
+        {
+          "after": "macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26524829",
+          "before": "26513303",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794164312,
+          "before": 1794094338,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794164514,
+          "before": 1794094516,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/5327231/config"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "1554705228474360992"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5327232"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40714063,
+      "change_number": 40732003,
       "data": {
         "appinfo": {
           "common": {
@@ -350,8 +407,8 @@
             },
             "name": "Waywardens Demo",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macosapplesilicon",
+            "oslist": "windows,macos",
             "parent": "4682090",
             "primary_genre": "3",
             "small_capsule": {
@@ -403,25 +460,36 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26513303",
-              "timebuildupdated": 1794094338,
-              "timeupdated": 1794094516
+              "buildid": "26524829",
+              "timebuildupdated": 1794164312,
+              "timeupdated": 1794164514
             }
           },
           "depots": {
             "5327231": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
                 "public": "5944785542985274199"
+              }
+            },
+            "5327232": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "1554705228474360992"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-08T04:45:12.852Z",
+      "observed_at": "2026-11-08T19:18:28.539Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-08T04:45:12.852Z"
+  "updated_at": "2026-11-08T19:18:28.539Z"
 }
