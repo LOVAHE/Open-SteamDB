@@ -620,11 +620,56 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-08T04:45:12.852Z",
+      "change_number": 40716523,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": {
+            "maxnumfiles": "100",
+            "quota": "1000000000"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26515045",
+          "before": "26498620",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794104781,
+          "before": 1794013977,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794104826,
+          "before": 1794014011,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1246317683853165369",
+          "before": "8971250925877096162",
+          "op": "replace",
+          "path": "/depots/depots/5432221/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40708489,
+      "change_number": 40716523,
       "data": {
         "appinfo": {
           "common": {
@@ -785,7 +830,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "Rice & Ink Family Chronicle"
@@ -794,14 +840,18 @@
             "developer": "Daniling",
             "homepage": "https://daniling.org/",
             "publisher": "Daniling"
+          },
+          "ufs": {
+            "maxnumfiles": "100",
+            "quota": "1000000000"
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26498620",
-              "timebuildupdated": 1794013977,
-              "timeupdated": 1794014011
+              "buildid": "26515045",
+              "timebuildupdated": 1794104781,
+              "timeupdated": 1794104826
             }
           },
           "depots": {
@@ -823,17 +873,17 @@
             },
             "5432221": {
               "manifests": {
-                "public": "8971250925877096162"
+                "public": "1246317683853165369"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-07T18:49:09.046Z",
+      "observed_at": "2026-11-08T04:45:12.852Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-07T18:49:09.046Z"
+  "updated_at": "2026-11-08T04:45:12.852Z"
 }

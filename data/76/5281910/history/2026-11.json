@@ -432,11 +432,60 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-08T04:45:12.852Z",
+      "change_number": 40715903,
+      "changes": [
+        {
+          "after": {
+            "path": "Epic/WarOfTheTwelve/Saved/SaveGames",
+            "pattern": "*.sav",
+            "platforms": {
+              "1": "MacOS"
+            },
+            "root": "MacAppSupport"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/1"
+        },
+        {
+          "after": "26514308",
+          "before": "26493849",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794100337,
+          "before": 1793995964,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794100338,
+          "before": 1793996040,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "971023708593037383",
+          "before": "888270706864811321",
+          "op": "replace",
+          "path": "/depots/depots/5281911/manifests/public"
+        },
+        {
+          "after": "4329725991948272392",
+          "op": "add",
+          "path": "/depots/depots/5281912/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40708882,
+      "change_number": 40715903,
       "data": {
         "appinfo": {
           "common": {
@@ -694,6 +743,14 @@
                   "1": "Windows"
                 },
                 "root": "WinAppDataLocal"
+              },
+              "1": {
+                "path": "Epic/WarOfTheTwelve/Saved/SaveGames",
+                "pattern": "*.sav",
+                "platforms": {
+                  "1": "MacOS"
+                },
+                "root": "MacAppSupport"
               }
             }
           }
@@ -701,9 +758,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26493849",
-              "timebuildupdated": 1793995964,
-              "timeupdated": 1793996040
+              "buildid": "26514308",
+              "timebuildupdated": 1794100337,
+              "timeupdated": 1794100338
             }
           },
           "depots": {
@@ -729,23 +786,25 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "888270706864811321"
+                "public": "971023708593037383"
               }
             },
             "5281912": {
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "4329725991948272392"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-07T18:49:09.046Z",
+      "observed_at": "2026-11-08T04:45:12.852Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-07T18:49:09.046Z"
+  "updated_at": "2026-11-08T04:45:12.852Z"
 }
