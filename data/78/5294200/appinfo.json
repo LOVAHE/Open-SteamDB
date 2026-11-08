@@ -1,8 +1,8 @@
 {
   "appid": 5294200,
   "source": "steam_pics",
-  "updated_at": "2026-11-08T07:57:54.823Z",
-  "change_number": 40720278,
+  "updated_at": "2026-11-08T10:28:39.069Z",
+  "change_number": 40721637,
   "data": {
     "common": {
       "associations": {
@@ -16,9 +16,12 @@
         }
       },
       "category": {
+        "category_1": "1",
         "category_2": "1",
         "category_22": "1",
         "category_23": "1",
+        "category_47": "1",
+        "category_49": "1",
         "category_62": "1"
       },
       "clienticon": "f3a7115fe0ddeeb9a2ea5d5bdc5f18b390699c36",
@@ -106,8 +109,8 @@
       },
       "name": "The Usual Table: Texas Hold’em",
       "osarch": "64",
-      "osextended": "",
-      "oslist": "windows",
+      "osextended": "macos64,macosapplesilicon,macosnotarized",
+      "oslist": "windows,macos",
       "primary_genre": "4",
       "small_capsule": {
         "english": "08ddc09533507487fff07a355f7cdce0105c5047/capsule_231x87.jpg",
@@ -177,6 +180,15 @@
     "ufs": {
       "maxnumfiles": "1000",
       "quota": "1073741824",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
+        }
+      },
       "savefiles": {
         "0": {
           "path": "Godot/app_userdata/The Usual Table/saves",

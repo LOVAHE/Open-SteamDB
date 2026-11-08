@@ -315,11 +315,88 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-08T10:28:39.069Z",
+      "change_number": 40721637,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_1"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_47"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_49"
+        },
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "0": {
+              "addpath": "",
+              "os": "MacOS",
+              "oscompare": "=",
+              "root": "WinAppDataRoaming",
+              "useinstead": "MacAppSupport"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "after": "26518237",
+          "before": "26508362",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794128209,
+          "before": 1794069001,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794128209,
+          "before": 1794069026,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1447568559810640583",
+          "before": "1526307810287806736",
+          "op": "replace",
+          "path": "/depots/depots/5294201/manifests/public"
+        },
+        {
+          "after": "190357043925170466",
+          "op": "add",
+          "path": "/depots/depots/5294202/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40720278,
+      "change_number": 40721637,
       "data": {
         "appinfo": {
           "common": {
@@ -334,9 +411,12 @@
               }
             },
             "category": {
+              "category_1": "1",
               "category_2": "1",
               "category_22": "1",
               "category_23": "1",
+              "category_47": "1",
+              "category_49": "1",
               "category_62": "1"
             },
             "clienticon": "f3a7115fe0ddeeb9a2ea5d5bdc5f18b390699c36",
@@ -424,8 +504,8 @@
             },
             "name": "The Usual Table: Texas Hold’em",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "primary_genre": "4",
             "small_capsule": {
               "english": "08ddc09533507487fff07a355f7cdce0105c5047/capsule_231x87.jpg",
@@ -495,6 +575,15 @@
           "ufs": {
             "maxnumfiles": "1000",
             "quota": "1073741824",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
             "savefiles": {
               "0": {
                 "path": "Godot/app_userdata/The Usual Table/saves",
@@ -512,9 +601,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26508362",
-              "timebuildupdated": 1794069001,
-              "timeupdated": 1794069026
+              "buildid": "26518237",
+              "timebuildupdated": 1794128209,
+              "timeupdated": 1794128209
             }
           },
           "depots": {
@@ -523,23 +612,25 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "1526307810287806736"
+                "public": "1447568559810640583"
               }
             },
             "5294202": {
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "190357043925170466"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-08T07:57:54.823Z",
+      "observed_at": "2026-11-08T10:28:39.069Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-08T07:57:54.823Z"
+  "updated_at": "2026-11-08T10:28:39.069Z"
 }
