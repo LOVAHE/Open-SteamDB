@@ -382,11 +382,44 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-08T11:48:45.991Z",
+      "change_number": 40723452,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26519480",
+            "description": "1.4.3 smoke test",
+            "timebuildupdated": 1794136938,
+            "timeupdated": 1794137540
+          },
+          "op": "add",
+          "path": "/depots/branches/rc-1-4-3"
+        },
+        {
+          "after": "5641233796353555022",
+          "op": "add",
+          "path": "/depots/depots/4865361/manifests/rc-1-4-3"
+        },
+        {
+          "after": "2750898866283452130",
+          "op": "add",
+          "path": "/depots/depots/4865362/manifests/rc-1-4-3"
+        },
+        {
+          "after": "499253831170542740",
+          "op": "add",
+          "path": "/depots/depots/4865363/manifests/rc-1-4-3"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40647167,
+      "change_number": 40723452,
       "data": {
         "appinfo": {
           "common": {
@@ -642,6 +675,12 @@
               "buildid": "26323663",
               "timebuildupdated": 1793364912,
               "timeupdated": 1793392899
+            },
+            "rc-1-4-3": {
+              "buildid": "26519480",
+              "description": "1.4.3 smoke test",
+              "timebuildupdated": 1794136938,
+              "timeupdated": 1794137540
             }
           },
           "depots": {
@@ -652,7 +691,8 @@
               },
               "manifests": {
                 "previous": "2885761737362495711",
-                "public": "8922042735617118160"
+                "public": "8922042735617118160",
+                "rc-1-4-3": "5641233796353555022"
               }
             },
             "4865362": {
@@ -662,7 +702,8 @@
               },
               "manifests": {
                 "previous": "8001326980688412862",
-                "public": "137462476546286395"
+                "public": "137462476546286395",
+                "rc-1-4-3": "2750898866283452130"
               }
             },
             "4865363": {
@@ -671,17 +712,18 @@
               },
               "manifests": {
                 "previous": "1522073056884250847",
-                "public": "7864992840912948086"
+                "public": "7864992840912948086",
+                "rc-1-4-3": "499253831170542740"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-05T21:53:10.899Z",
+      "observed_at": "2026-11-08T11:48:45.991Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T21:53:10.899Z"
+  "updated_at": "2026-11-08T11:48:45.991Z"
 }

@@ -515,11 +515,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-08T11:48:45.991Z",
+      "change_number": 40723405,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26516391",
+            "description": "可自由调整三尸法力（回退版本）",
+            "timebuildupdated": 1794113988,
+            "timeupdated": 1794114877
+          },
+          "op": "add",
+          "path": "/depots/branches/v26516391"
+        },
+        {
+          "after": "3695019841985172886",
+          "op": "add",
+          "path": "/depots/depots/5382461/manifests/v26516391"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40719654,
+      "change_number": 40723405,
       "data": {
         "appinfo": {
           "common": {
@@ -633,22 +656,29 @@
               "buildid": "26517236",
               "timebuildupdated": 1794120245,
               "timeupdated": 1794120476
+            },
+            "v26516391": {
+              "buildid": "26516391",
+              "description": "可自由调整三尸法力（回退版本）",
+              "timebuildupdated": 1794113988,
+              "timeupdated": 1794114877
             }
           },
           "depots": {
             "5382461": {
               "manifests": {
-                "public": "7008053190618616549"
+                "public": "7008053190618616549",
+                "v26516391": "3695019841985172886"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-08T07:13:34.656Z",
+      "observed_at": "2026-11-08T11:48:45.991Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-08T07:13:34.656Z"
+  "updated_at": "2026-11-08T11:48:45.991Z"
 }

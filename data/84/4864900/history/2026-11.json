@@ -738,11 +738,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-08T11:48:45.991Z",
+      "change_number": 40723340,
+      "changes": [
+        {
+          "after": "20",
+          "before": "10",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "30000000",
+          "before": "10000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40717781,
+      "change_number": 40723340,
       "data": {
         "appinfo": {
           "common": {
@@ -903,8 +923,8 @@
             "publisher": "XRT"
           },
           "ufs": {
-            "maxnumfiles": "10",
-            "quota": "10000000",
+            "maxnumfiles": "20",
+            "quota": "30000000",
             "savefiles": {
               "0": {
                 "path": "Tpler\\DysonSphereDesktopFactory",
@@ -934,11 +954,11 @@
           }
         }
       },
-      "observed_at": "2026-11-08T04:45:12.852Z",
+      "observed_at": "2026-11-08T11:48:45.991Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-08T04:45:12.852Z"
+  "updated_at": "2026-11-08T11:48:45.991Z"
 }
