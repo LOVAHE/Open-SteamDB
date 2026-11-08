@@ -298,11 +298,62 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-08T07:13:34.656Z",
+      "change_number": 40719942,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos,linux",
+          "before": "windows,linux",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26517319",
+          "before": "26506124",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794121002,
+          "before": 1794057309,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794121040,
+          "before": 1794057352,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "config": {
+              "language": "english",
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "53518018492127373"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5403213"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40702666,
+      "change_number": 40719942,
       "data": {
         "appinfo": {
           "common": {
@@ -406,8 +457,8 @@
               "koreana": "냥덤 : 다크 캣 디펜스"
             },
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows,linux",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos,linux",
             "primary_genre": "23",
             "small_capsule": {
               "english": "3be919c32481d1da8d33c257b61168d71f42d248/capsule_231x87.jpg"
@@ -477,9 +528,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26506124",
-              "timebuildupdated": 1794057309,
-              "timeupdated": 1794057352
+              "buildid": "26517319",
+              "timebuildupdated": 1794121002,
+              "timeupdated": 1794121040
             }
           },
           "depots": {
@@ -500,15 +551,24 @@
               "manifests": {
                 "public": "7463124700793599669"
               }
+            },
+            "5403213": {
+              "config": {
+                "language": "english",
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "53518018492127373"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-07T13:38:57.199Z",
+      "observed_at": "2026-11-08T07:13:34.656Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-07T13:38:57.199Z"
+  "updated_at": "2026-11-08T07:13:34.656Z"
 }
