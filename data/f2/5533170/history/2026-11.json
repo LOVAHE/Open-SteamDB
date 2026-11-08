@@ -327,11 +327,69 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-08T22:40:47.807Z",
+      "change_number": 40735050,
+      "changes": [
+        {
+          "after": "10",
+          "before": "0",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "10000000",
+          "before": "0",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        },
+        {
+          "after": {
+            "0": {
+              "path": "Godot/app_userdata/SLICKWAVE",
+              "pattern": "demo_meta_progression.json",
+              "platforms": {
+                "1": "Windows"
+              },
+              "root": "WinAppDataRoaming"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles"
+        },
+        {
+          "after": "26526885",
+          "before": "26519142",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794173615,
+          "before": 1794134847,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794173637,
+          "before": 1794135502,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4147321066434152230",
+          "before": "4658413629820637804",
+          "op": "replace",
+          "path": "/depots/depots/5533171/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40732914,
+      "change_number": 40735050,
       "data": {
         "appinfo": {
           "common": {
@@ -470,32 +528,42 @@
             "publisher": "SLICK3R"
           },
           "ufs": {
-            "maxnumfiles": "0",
-            "quota": "0"
+            "maxnumfiles": "10",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/SLICKWAVE",
+                "pattern": "demo_meta_progression.json",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26519142",
-              "timebuildupdated": 1794134847,
-              "timeupdated": 1794135502
+              "buildid": "26526885",
+              "timebuildupdated": 1794173615,
+              "timeupdated": 1794173637
             }
           },
           "depots": {
             "5533171": {
               "manifests": {
-                "public": "4658413629820637804"
+                "public": "4147321066434152230"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-08T19:48:24.129Z",
+      "observed_at": "2026-11-08T22:40:47.807Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-08T19:48:24.129Z"
+  "updated_at": "2026-11-08T22:40:47.807Z"
 }

@@ -290,11 +290,71 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-08T22:40:47.807Z",
+      "change_number": 40735396,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/thai"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/vietnamese"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/thai"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/vietnamese"
+        },
+        {
+          "after": "26527021",
+          "before": "26517000",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794174234,
+          "before": 1794118459,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794174604,
+          "before": 1794119303,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5737796500198145026",
+          "before": "7045645937831332058",
+          "op": "replace",
+          "path": "/depots/depots/4755251/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40732369,
+      "change_number": 40735396,
       "data": {
         "appinfo": {
           "common": {
@@ -347,8 +407,10 @@
               "schinese": "1",
               "spanish": "1",
               "tchinese": "1",
+              "thai": "1",
               "turkish": "1",
-              "ukrainian": "1"
+              "ukrainian": "1",
+              "vietnamese": "1"
             },
             "library_assets": {
               "library_capsule": "en",
@@ -517,12 +579,22 @@
                 "subtitles": "true",
                 "supported": "true"
               },
+              "thai": {
+                "full_audio": "true",
+                "subtitles": "true",
+                "supported": "true"
+              },
               "turkish": {
                 "full_audio": "true",
                 "subtitles": "true",
                 "supported": "true"
               },
               "ukrainian": {
+                "full_audio": "true",
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "vietnamese": {
                 "full_audio": "true",
                 "subtitles": "true",
                 "supported": "true"
@@ -542,9 +614,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26517000",
-              "timebuildupdated": 1794118459,
-              "timeupdated": 1794119303
+              "buildid": "26527021",
+              "timebuildupdated": 1794174234,
+              "timeupdated": 1794174604
             }
           },
           "depots": {
@@ -558,17 +630,17 @@
             },
             "4755251": {
               "manifests": {
-                "public": "7045645937831332058"
+                "public": "5737796500198145026"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-08T19:48:24.129Z",
+      "observed_at": "2026-11-08T22:40:47.807Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-08T19:48:24.129Z"
+  "updated_at": "2026-11-08T22:40:47.807Z"
 }

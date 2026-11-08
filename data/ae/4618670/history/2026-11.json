@@ -1924,11 +1924,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-08T22:40:47.807Z",
+      "change_number": 40735264,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26436299",
+            "description": "0.1.0 launch3 validation candidate (0b4707920); default held for Main approval",
+            "timebuildupdated": 1793809157,
+            "timeupdated": 1793809157
+          },
+          "op": "remove",
+          "path": "/depots/branches/launch-candidate"
+        },
+        {
+          "after": "26526962",
+          "before": "26522153",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794174000,
+          "before": 1794151872,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794174253,
+          "before": 1794152662,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": "8054116240615068965",
+          "op": "remove",
+          "path": "/depots/depots/4618671/manifests/launch-candidate"
+        },
+        {
+          "after": "4039415224252259926",
+          "before": "635453559130716933",
+          "op": "replace",
+          "path": "/depots/depots/4618671/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40727875,
+      "change_number": 40735264,
       "data": {
         "appinfo": {
           "common": {
@@ -2280,33 +2327,26 @@
         },
         "depots": {
           "branches": {
-            "launch-candidate": {
-              "buildid": "26436299",
-              "description": "0.1.0 launch3 validation candidate (0b4707920); default held for Main approval",
-              "timebuildupdated": 1793809157,
-              "timeupdated": 1793809157
-            },
             "public": {
-              "buildid": "26522153",
-              "timebuildupdated": 1794151872,
-              "timeupdated": 1794152662
+              "buildid": "26526962",
+              "timebuildupdated": 1794174000,
+              "timeupdated": 1794174253
             }
           },
           "depots": {
             "4618671": {
               "manifests": {
-                "launch-candidate": "8054116240615068965",
-                "public": "635453559130716933"
+                "public": "4039415224252259926"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-08T16:32:03.995Z",
+      "observed_at": "2026-11-08T22:40:47.807Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-08T16:32:03.995Z"
+  "updated_at": "2026-11-08T22:40:47.807Z"
 }
