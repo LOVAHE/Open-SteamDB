@@ -495,11 +495,44 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-08T14:59:05.350Z",
+      "change_number": 40726820,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26521696",
+            "description": "CTZ 1.4.4 full release candidate",
+            "timebuildupdated": 1794149402,
+            "timeupdated": 1794149402
+          },
+          "op": "add",
+          "path": "/depots/branches/rc-1-4-4"
+        },
+        {
+          "after": "1128487065690756395",
+          "op": "add",
+          "path": "/depots/depots/4865361/manifests/rc-1-4-4"
+        },
+        {
+          "after": "8502173356989618721",
+          "op": "add",
+          "path": "/depots/depots/4865362/manifests/rc-1-4-4"
+        },
+        {
+          "after": "2464984626496236143",
+          "op": "add",
+          "path": "/depots/depots/4865363/manifests/rc-1-4-4"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40724842,
+      "change_number": 40726820,
       "data": {
         "appinfo": {
           "common": {
@@ -761,6 +794,12 @@
               "description": "1.4.3 smoke test",
               "timebuildupdated": 1794136938,
               "timeupdated": 1794137540
+            },
+            "rc-1-4-4": {
+              "buildid": "26521696",
+              "description": "CTZ 1.4.4 full release candidate",
+              "timebuildupdated": 1794149402,
+              "timeupdated": 1794149402
             }
           },
           "depots": {
@@ -772,7 +811,8 @@
               "manifests": {
                 "previous": "8922042735617118160",
                 "public": "5641233796353555022",
-                "rc-1-4-3": "5641233796353555022"
+                "rc-1-4-3": "5641233796353555022",
+                "rc-1-4-4": "1128487065690756395"
               }
             },
             "4865362": {
@@ -783,7 +823,8 @@
               "manifests": {
                 "previous": "137462476546286395",
                 "public": "2750898866283452130",
-                "rc-1-4-3": "2750898866283452130"
+                "rc-1-4-3": "2750898866283452130",
+                "rc-1-4-4": "8502173356989618721"
               }
             },
             "4865363": {
@@ -793,17 +834,18 @@
               "manifests": {
                 "previous": "7864992840912948086",
                 "public": "499253831170542740",
-                "rc-1-4-3": "499253831170542740"
+                "rc-1-4-3": "499253831170542740",
+                "rc-1-4-4": "2464984626496236143"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-08T13:27:51.838Z",
+      "observed_at": "2026-11-08T14:59:05.350Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-08T13:27:51.838Z"
+  "updated_at": "2026-11-08T14:59:05.350Z"
 }
