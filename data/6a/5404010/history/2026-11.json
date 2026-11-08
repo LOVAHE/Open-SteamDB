@@ -2234,11 +2234,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-08T13:27:51.838Z",
+      "change_number": 40725282,
+      "changes": [
+        {
+          "after": "96",
+          "before": "95",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/japanese"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/koreana"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40722961,
+      "change_number": 40725282,
       "data": {
         "appinfo": {
           "common": {
@@ -2347,7 +2375,7 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "1",
-            "review_percentage": "95",
+            "review_percentage": "96",
             "review_score": "8",
             "small_capsule": {
               "english": "ad02a18b11fe6a9f8a10614de65df19683b15c86/capsule_231x87.jpg"
@@ -2387,6 +2415,12 @@
                 "supported": "true"
               },
               "german": {
+                "supported": "true"
+              },
+              "japanese": {
+                "supported": "true"
+              },
+              "koreana": {
                 "supported": "true"
               },
               "latam": {
@@ -2434,11 +2468,11 @@
           }
         }
       },
-      "observed_at": "2026-11-08T11:48:45.991Z",
+      "observed_at": "2026-11-08T13:27:51.838Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-08T11:48:45.991Z"
+  "updated_at": "2026-11-08T13:27:51.838Z"
 }

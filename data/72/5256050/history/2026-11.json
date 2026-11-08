@@ -410,11 +410,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-08T13:27:51.838Z",
+      "change_number": 40724286,
+      "changes": [
+        {
+          "after": "Ultimate Games S.A.",
+          "before": "Releaseplay Studio",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/name"
+        },
+        {
+          "after": {
+            "name": "Ultimate Publishing",
+            "type": "publisher"
+          },
+          "op": "add",
+          "path": "/appinfo/common/associations/2"
+        },
+        {
+          "after": {
+            "name": "PlayWay S.A.",
+            "type": "publisher"
+          },
+          "op": "add",
+          "path": "/appinfo/common/associations/3"
+        },
+        {
+          "after": {
+            "name": "Simulation Games",
+            "type": "franchise"
+          },
+          "op": "add",
+          "path": "/appinfo/common/associations/4"
+        },
+        {
+          "after": "Ultimate Games S.A.",
+          "before": "Releaseplay Studio",
+          "op": "replace",
+          "path": "/appinfo/extended/publisher"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40723534,
+      "change_number": 40724286,
       "data": {
         "appinfo": {
           "common": {
@@ -424,8 +468,20 @@
                 "type": "developer"
               },
               "1": {
-                "name": "Releaseplay Studio",
+                "name": "Ultimate Games S.A.",
                 "type": "publisher"
+              },
+              "2": {
+                "name": "Ultimate Publishing",
+                "type": "publisher"
+              },
+              "3": {
+                "name": "PlayWay S.A.",
+                "type": "publisher"
+              },
+              "4": {
+                "name": "Simulation Games",
+                "type": "franchise"
               }
             },
             "category": {
@@ -538,7 +594,7 @@
           },
           "extended": {
             "developer": "Releaseplay Studio",
-            "publisher": "Releaseplay Studio"
+            "publisher": "Ultimate Games S.A."
           }
         },
         "depots": {
@@ -558,7 +614,7 @@
           }
         }
       },
-      "observed_at": "2026-11-08T11:48:45.991Z",
+      "observed_at": "2026-11-08T13:27:51.838Z",
       "tracked": true
     },
     "steam_store": {
@@ -783,5 +839,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-08T11:48:45.991Z"
+  "updated_at": "2026-11-08T13:27:51.838Z"
 }
