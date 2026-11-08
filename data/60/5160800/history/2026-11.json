@@ -787,11 +787,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-08T18:03:26.385Z",
+      "change_number": 40729956,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26508166",
+            "description": "Game Version V14.1",
+            "timebuildupdated": 1794067978,
+            "timeupdated": 1794070266
+          },
+          "op": "add",
+          "path": "/depots/branches/v14.1"
+        },
+        {
+          "after": "5782550192845528674",
+          "op": "add",
+          "path": "/depots/depots/5160801/manifests/v14.1"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40728720,
+      "change_number": 40729956,
       "data": {
         "appinfo": {
           "common": {
@@ -1002,22 +1025,29 @@
               "buildid": "26508166",
               "timebuildupdated": 1794067978,
               "timeupdated": 1794070266
+            },
+            "v14.1": {
+              "buildid": "26508166",
+              "description": "Game Version V14.1",
+              "timebuildupdated": 1794067978,
+              "timeupdated": 1794070266
             }
           },
           "depots": {
             "5160801": {
               "manifests": {
-                "public": "5782550192845528674"
+                "public": "5782550192845528674",
+                "v14.1": "5782550192845528674"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-08T16:32:03.995Z",
+      "observed_at": "2026-11-08T18:03:26.385Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-08T16:32:03.995Z"
+  "updated_at": "2026-11-08T18:03:26.385Z"
 }
