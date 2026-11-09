@@ -1145,11 +1145,44 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-09T22:23:33.434Z",
+      "change_number": 40771960,
+      "changes": [
+        {
+          "after": {
+            "buildid": "25485521",
+            "description": "temporary fall-back",
+            "timebuildupdated": 1790178459,
+            "timeupdated": 1790597201
+          },
+          "op": "add",
+          "path": "/depots/branches/42.21"
+        },
+        {
+          "after": "6227964391387020578",
+          "op": "add",
+          "path": "/depots/depots/108602/manifests/42.21"
+        },
+        {
+          "after": "1215816700457910954",
+          "op": "add",
+          "path": "/depots/depots/108603/manifests/42.21"
+        },
+        {
+          "after": "7544133343391543313",
+          "op": "add",
+          "path": "/depots/depots/108604/manifests/42.21"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40768769,
+      "change_number": 40771960,
       "data": {
         "appinfo": {
           "common": {
@@ -1432,6 +1465,12 @@
               "timebuildupdated": 1787665877,
               "timeupdated": 1787742805
             },
+            "42.21": {
+              "buildid": "25485521",
+              "description": "temporary fall-back",
+              "timebuildupdated": 1790178459,
+              "timeupdated": 1790597201
+            },
             "legacy41": {
               "buildid": "24928713",
               "description": "Build 41.78.21",
@@ -1460,6 +1499,7 @@
               },
               "manifests": {
                 "42.19": "7456569631117531632",
+                "42.21": "6227964391387020578",
                 "legacy41": "136142907591102939",
                 "pre-release": "2530924131936452542",
                 "public": "2530924131936452542"
@@ -1471,6 +1511,7 @@
               },
               "manifests": {
                 "42.19": "7619260596173999460",
+                "42.21": "1215816700457910954",
                 "legacy41": "8887512142279836582",
                 "pre-release": "7642676132386718371",
                 "public": "7642676132386718371"
@@ -1482,6 +1523,7 @@
               },
               "manifests": {
                 "42.19": "3800542641970134965",
+                "42.21": "7544133343391543313",
                 "legacy41": "2821110472886219465",
                 "pre-release": "2378094061158458897",
                 "public": "2378094061158458897"
@@ -1530,7 +1572,7 @@
           }
         }
       },
-      "observed_at": "2026-11-09T20:23:29.813Z",
+      "observed_at": "2026-11-09T22:23:33.434Z",
       "tracked": true
     },
     "steam_store": {
@@ -1700,5 +1742,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T20:23:29.813Z"
+  "updated_at": "2026-11-09T22:23:33.434Z"
 }
