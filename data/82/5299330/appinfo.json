@@ -1,8 +1,8 @@
 {
   "appid": 5299330,
   "source": "steam_pics",
-  "updated_at": "2026-11-08T19:48:24.129Z",
-  "change_number": 40732567,
+  "updated_at": "2026-11-09T23:38:36.647Z",
+  "change_number": 40773842,
   "data": {
     "common": {
       "associations": {
@@ -238,21 +238,24 @@
     "ufs": {
       "maxnumfiles": "300",
       "quota": "100000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataLocalLow",
+          "useinstead": "MacAppSupport"
+        }
+      },
       "savefiles": {
         "0": {
           "path": "OzyCozyGames/Room Movers",
           "pattern": "progress.json",
-          "platforms": {
-            "1": "Windows"
-          },
           "root": "WinAppDataLocalLow"
         },
         "1": {
-          "path": "OzyCozyGames/Room Movers/Photos\t",
+          "path": "OzyCozyGames/Room Movers/Photos",
           "pattern": "*.png",
-          "platforms": {
-            "1": "Windows"
-          },
           "root": "WinAppDataLocalLow"
         },
         "copied_from_parent": "1"

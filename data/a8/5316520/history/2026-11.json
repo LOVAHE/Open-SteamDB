@@ -382,11 +382,41 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-09T23:38:36.647Z",
+      "change_number": 40774078,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "10000",
+            "quota": "1000000000",
+            "savefiles": {
+              "0": {
+                "path": "Cosmic Dog LLC/GRASS/SaveData/0",
+                "pattern": "*",
+                "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "Cosmic Dog LLC/GRASS/GrassCutMaps",
+                "pattern": "*",
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
+              },
+              "copied_from_parent": "1"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40739028,
+      "change_number": 40774078,
       "data": {
         "appinfo": {
           "common": {
@@ -550,6 +580,24 @@
             "developer": "Cosmic Dog",
             "homepage": "https://discord.com/invite/7YHUtSzSHk",
             "publisher": "Mighty Coconut"
+          },
+          "ufs": {
+            "maxnumfiles": "10000",
+            "quota": "1000000000",
+            "savefiles": {
+              "0": {
+                "path": "Cosmic Dog LLC/GRASS/SaveData/0",
+                "pattern": "*",
+                "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "Cosmic Dog LLC/GRASS/GrassCutMaps",
+                "pattern": "*",
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
+              },
+              "copied_from_parent": "1"
+            }
           }
         },
         "depots": {
@@ -575,11 +623,11 @@
           }
         }
       },
-      "observed_at": "2026-11-09T15:53:28.916Z",
+      "observed_at": "2026-11-09T23:38:36.647Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T15:53:28.916Z"
+  "updated_at": "2026-11-09T23:38:36.647Z"
 }

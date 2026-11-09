@@ -618,11 +618,52 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-09T23:38:36.647Z",
+      "change_number": 40773842,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "addpath": "",
+              "os": "MacOS",
+              "oscompare": "=",
+              "root": "WinAppDataLocalLow",
+              "useinstead": "MacAppSupport"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "before": {
+            "1": "Windows"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/0/platforms"
+        },
+        {
+          "after": "OzyCozyGames/Room Movers/Photos",
+          "before": "OzyCozyGames/Room Movers/Photos\t",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/1/path"
+        },
+        {
+          "before": {
+            "1": "Windows"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/1/platforms"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40732567,
+      "change_number": 40773842,
       "data": {
         "appinfo": {
           "common": {
@@ -859,21 +900,24 @@
           "ufs": {
             "maxnumfiles": "300",
             "quota": "100000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataLocalLow",
+                "useinstead": "MacAppSupport"
+              }
+            },
             "savefiles": {
               "0": {
                 "path": "OzyCozyGames/Room Movers",
                 "pattern": "progress.json",
-                "platforms": {
-                  "1": "Windows"
-                },
                 "root": "WinAppDataLocalLow"
               },
               "1": {
-                "path": "OzyCozyGames/Room Movers/Photos\t",
+                "path": "OzyCozyGames/Room Movers/Photos",
                 "pattern": "*.png",
-                "platforms": {
-                  "1": "Windows"
-                },
                 "root": "WinAppDataLocalLow"
               },
               "copied_from_parent": "1"
@@ -924,11 +968,11 @@
           }
         }
       },
-      "observed_at": "2026-11-08T19:48:24.129Z",
+      "observed_at": "2026-11-09T23:38:36.647Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-08T19:48:24.129Z"
+  "updated_at": "2026-11-09T23:38:36.647Z"
 }
