@@ -320,11 +320,77 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-09T15:23:25.939Z",
+      "change_number": 40748076,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": "1794029600",
+          "before": "1792461956",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "before": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/latam"
+        },
+        {
+          "after": {
+            "maxnumfiles": "10",
+            "quota": "10485760",
+            "savefiles": {
+              "0": {
+                "path": "MtnMyhmPrbFrstAskLtr/Saved/SaveGames",
+                "pattern": "Campaign_*.sav",
+                "root": "WinAppDataLocal"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26534670",
+          "before": "26367963",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794211423,
+          "before": 1793574333,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794211580,
+          "before": 1793574386,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "688183313657152258",
+          "before": "6218977100686010599",
+          "op": "replace",
+          "path": "/depots/depots/5135071/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40490339,
+      "change_number": 40748076,
       "data": {
         "appinfo": {
           "common": {
@@ -342,6 +408,7 @@
               "category_18": "1",
               "category_2": "1",
               "category_22": "1",
+              "category_23": "1",
               "category_55": "1",
               "category_62": "1",
               "category_68": "1",
@@ -425,7 +492,7 @@
               "english": "e81e2dd04c119fbcbd71ca1d0467692d587e5a85/capsule_231x87.jpg"
             },
             "steam_release_date": "1793380688",
-            "store_asset_mtime": "1792461956",
+            "store_asset_mtime": "1794029600",
             "store_tags": {
               "0": "3978",
               "1": "1663",
@@ -474,10 +541,6 @@
                 "subtitles": "true",
                 "supported": "true"
               },
-              "latam": {
-                "subtitles": "true",
-                "supported": "true"
-              },
               "polish": {
                 "subtitles": "true",
                 "supported": "true"
@@ -507,14 +570,25 @@
           "extended": {
             "developer": "Blue Screen of Tuxedo, LLC",
             "publisher": "Blue Screen of Tuxedo, LLC"
+          },
+          "ufs": {
+            "maxnumfiles": "10",
+            "quota": "10485760",
+            "savefiles": {
+              "0": {
+                "path": "MtnMyhmPrbFrstAskLtr/Saved/SaveGames",
+                "pattern": "Campaign_*.sav",
+                "root": "WinAppDataLocal"
+              }
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26367963",
-              "timebuildupdated": 1793574333,
-              "timeupdated": 1793574386
+              "buildid": "26534670",
+              "timebuildupdated": 1794211423,
+              "timeupdated": 1794211580
             }
           },
           "depots": {
@@ -536,17 +610,17 @@
             },
             "5135071": {
               "manifests": {
-                "public": "6218977100686010599"
+                "public": "688183313657152258"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-01T23:08:04.491Z",
+      "observed_at": "2026-11-09T15:23:25.939Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-01T23:08:04.491Z"
+  "updated_at": "2026-11-09T15:23:25.939Z"
 }
