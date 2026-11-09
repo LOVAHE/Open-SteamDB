@@ -278,11 +278,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-09T19:38:25.082Z",
+      "change_number": 40767324,
+      "changes": [
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26548164",
+          "before": "26500494",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794252903,
+          "before": 1794023492,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794252903,
+          "before": 1794027331,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2667222597356743930",
+          "op": "add",
+          "path": "/depots/depots/5300462/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40761308,
+      "change_number": 40767324,
       "data": {
         "appinfo": {
           "common": {
@@ -388,7 +425,7 @@
             "name": "Medium Rare Demo",
             "osarch": "",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,macos",
             "parent": "4909780",
             "primary_genre": "25",
             "review_percentage": "98",
@@ -419,9 +456,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26500494",
-              "timebuildupdated": 1794023492,
-              "timeupdated": 1794027331
+              "buildid": "26548164",
+              "timebuildupdated": 1794252903,
+              "timeupdated": 1794252903
             }
           },
           "depots": {
@@ -437,16 +474,18 @@
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "2667222597356743930"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-09T17:38:22.049Z",
+      "observed_at": "2026-11-09T19:38:25.082Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T17:38:22.049Z"
+  "updated_at": "2026-11-09T19:38:25.082Z"
 }
