@@ -844,11 +844,143 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-09T13:38:13.768Z",
+      "change_number": 40739246,
+      "changes": [
+        {
+          "after": "3",
+          "before": "1",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/category"
+        },
+        {
+          "after": "3",
+          "before": "1",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_compatibility"
+        },
+        {
+          "after": "4",
+          "before": "2",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/0/display"
+        },
+        {
+          "after": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional",
+          "before": "#SteamMachine_TestResult_SteamOSDoesNotSupport",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/0/token"
+        },
+        {
+          "after": {
+            "display": "4",
+            "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/1"
+        },
+        {
+          "after": {
+            "display": "4",
+            "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/2"
+        },
+        {
+          "after": "2",
+          "before": "1",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steamos_compatibility"
+        },
+        {
+          "after": "3",
+          "before": "2",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steamos_tests/0/display"
+        },
+        {
+          "after": "#SteamOS_TestResult_GameStartupFunctional",
+          "before": "#SteamOS_TestResult_SteamOSDoesNotSupport",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steamos_tests/0/token"
+        },
+        {
+          "after": "1793903309",
+          "before": "1793650560",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/test_timestamp"
+        },
+        {
+          "after": "4",
+          "before": "2",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/0/display"
+        },
+        {
+          "after": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional",
+          "before": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/0/token"
+        },
+        {
+          "after": {
+            "display": "4",
+            "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/1"
+        },
+        {
+          "after": {
+            "display": "4",
+            "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/2"
+        },
+        {
+          "after": {
+            "display": "4",
+            "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/3"
+        },
+        {
+          "after": "26528652",
+          "before": "26491416",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794182011,
+          "before": 1793988264,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794188072,
+          "before": 1793988283,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "9213779079966516432",
+          "before": "3598967504964985712",
+          "op": "replace",
+          "path": "/depots/depots/1274232/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40679578,
+      "change_number": 40739246,
       "data": {
         "appinfo": {
           "common": {
@@ -964,7 +1096,7 @@
               "english": "capsule_231x87.jpg"
             },
             "steam_deck_compatibility": {
-              "category": "1",
+              "category": "3",
               "configuration": {
                 "gamescope_frame_limiter_not_supported": "0",
                 "hdr_support": "0",
@@ -981,26 +1113,46 @@
                 "small_text": "0",
                 "supported_input": "other"
               },
-              "steam_machine_compatibility": "1",
+              "steam_machine_compatibility": "3",
               "steam_machine_tests": {
                 "0": {
-                  "display": "2",
-                  "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+                  "display": "4",
+                  "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+                },
+                "1": {
+                  "display": "4",
+                  "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+                },
+                "2": {
+                  "display": "4",
+                  "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
                 }
               },
-              "steamos_compatibility": "1",
+              "steamos_compatibility": "2",
               "steamos_tests": {
                 "0": {
-                  "display": "2",
-                  "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+                  "display": "3",
+                  "token": "#SteamOS_TestResult_GameStartupFunctional"
                 }
               },
-              "test_timestamp": "1793650560",
+              "test_timestamp": "1793903309",
               "tested_build_id": "26364663",
               "tests": {
                 "0": {
-                  "display": "2",
-                  "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+                  "display": "4",
+                  "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+                },
+                "1": {
+                  "display": "4",
+                  "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+                },
+                "2": {
+                  "display": "4",
+                  "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+                },
+                "3": {
+                  "display": "4",
+                  "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
                 }
               }
             },
@@ -1119,9 +1271,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26491416",
-              "timebuildupdated": 1793988264,
-              "timeupdated": 1793988283
+              "buildid": "26528652",
+              "timebuildupdated": 1794182011,
+              "timeupdated": 1794188072
             }
           },
           "depots": {
@@ -1130,17 +1282,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "3598967504964985712"
+                "public": "9213779079966516432"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-06T18:12:38.868Z",
+      "observed_at": "2026-11-09T13:38:13.768Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T18:12:38.868Z"
+  "updated_at": "2026-11-09T13:38:13.768Z"
 }
