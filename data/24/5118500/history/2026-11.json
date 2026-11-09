@@ -349,11 +349,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-09T22:53:19.278Z",
+      "change_number": 40772670,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26551891",
+            "description": "dev testing game here",
+            "timebuildupdated": 1794264410,
+            "timeupdated": 1794264410
+          },
+          "op": "add",
+          "path": "/depots/branches/test"
+        },
+        {
+          "after": "6124987531455259755",
+          "op": "add",
+          "path": "/depots/depots/5118501/manifests/test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40771842,
+      "change_number": 40772670,
       "data": {
         "appinfo": {
           "common": {
@@ -634,6 +657,12 @@
               "buildid": "26543028",
               "timebuildupdated": 1794238316,
               "timeupdated": 1794238365
+            },
+            "test": {
+              "buildid": "26551891",
+              "description": "dev testing game here",
+              "timebuildupdated": 1794264410,
+              "timeupdated": 1794264410
             }
           },
           "depots": {
@@ -642,17 +671,18 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "5932814588103772834"
+                "public": "5932814588103772834",
+                "test": "6124987531455259755"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-09T22:23:33.434Z",
+      "observed_at": "2026-11-09T22:53:19.278Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T22:23:33.434Z"
+  "updated_at": "2026-11-09T22:53:19.278Z"
 }
