@@ -372,11 +372,64 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-09T21:08:26.196Z",
+      "change_number": 40769696,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_1"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_38"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_9"
+        },
+        {
+          "after": "1791375049",
+          "before": "1798704000",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "26549762",
+          "before": "25784653",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794257870,
+          "before": 1791396230,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794257928,
+          "before": 1791396287,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7504742759661348790",
+          "before": "1514381716655412848",
+          "op": "replace",
+          "path": "/depots/depots/5125591/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40768493,
+      "change_number": 40769696,
       "data": {
         "appinfo": {
           "common": {
@@ -391,16 +444,19 @@
               }
             },
             "category": {
+              "category_1": "1",
               "category_2": "1",
               "category_22": "1",
               "category_23": "1",
               "category_28": "1",
+              "category_38": "1",
               "category_55": "1",
               "category_56": "1",
               "category_57": "1",
               "category_58": "1",
               "category_59": "1",
-              "category_62": "1"
+              "category_62": "1",
+              "category_9": "1"
             },
             "clienticon": "53d0a086b4291b2a22b402f3c19556841281073e",
             "community_hub_visible": "1",
@@ -478,7 +534,7 @@
             "small_capsule": {
               "english": "ac0a67efd742f4e84eaa08ecba426dc9bd27a0f6/capsule_231x87.jpg"
             },
-            "steam_release_date": "1798704000",
+            "steam_release_date": "1791375049",
             "store_asset_mtime": "1788451438",
             "store_tags": {
               "0": "597",
@@ -529,9 +585,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25784653",
-              "timebuildupdated": 1791396230,
-              "timeupdated": 1791396287
+              "buildid": "26549762",
+              "timebuildupdated": 1794257870,
+              "timeupdated": 1794257928
             }
           },
           "depots": {
@@ -540,7 +596,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "1514381716655412848"
+                "public": "7504742759661348790"
               }
             },
             "5125592": {
@@ -567,7 +623,7 @@
           }
         }
       },
-      "observed_at": "2026-11-09T20:23:29.813Z",
+      "observed_at": "2026-11-09T21:08:26.196Z",
       "tracked": true
     },
     "steam_store": {
@@ -712,5 +768,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T20:23:29.813Z"
+  "updated_at": "2026-11-09T21:08:26.196Z"
 }
