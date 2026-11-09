@@ -352,11 +352,73 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-09T15:53:28.916Z",
+      "change_number": 40614679,
+      "changes": [
+        {
+          "after": "def63dec93b66590bd37495d47f7de71da075710/header_brazilian.jpg",
+          "op": "add",
+          "path": "/appinfo/common/header_image/brazilian"
+        },
+        {
+          "after": "a1188e071094060cd764fb200899704ec151cda4/header_spanish.jpg",
+          "op": "add",
+          "path": "/appinfo/common/header_image/spanish"
+        },
+        {
+          "after": "1793848341",
+          "before": "1793510797",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/brazilian"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/spanish"
+        },
+        {
+          "after": "26448769",
+          "before": "26357624",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1793848450,
+          "before": 1793519489,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1793848479,
+          "before": 1793519513,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1052314643871713273",
+          "before": "8105695805152154399",
+          "op": "replace",
+          "path": "/depots/depots/5324491/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40473868,
+      "change_number": 40614679,
       "data": {
         "appinfo": {
           "common": {
@@ -392,6 +454,7 @@
               "0": "2"
             },
             "header_image": {
+              "brazilian": "def63dec93b66590bd37495d47f7de71da075710/header_brazilian.jpg",
               "english": "43af2bd5caf398f2d3b32e6e772ccd5d4982a66a/header.jpg",
               "french": "46012b50982f07f4c3da4ec2da1c97e041495228/header_french.jpg",
               "german": "beeafca233e3961073809462874c9516ae6f8098/header_german.jpg",
@@ -400,6 +463,7 @@
               "koreana": "e06dfcdc7494f731e3460eb2b32cedfc07c71102/header_koreana.jpg",
               "russian": "20e6bc024c5dac5d0f3d6283ddf839cbb5da8e2f/header_russian.jpg",
               "schinese": "6014075bbca05a95bf2aee26dd5ee8c6f6b3f66e/header_schinese.jpg",
+              "spanish": "a1188e071094060cd764fb200899704ec151cda4/header_spanish.jpg",
               "tchinese": "6014075bbca05a95bf2aee26dd5ee8c6f6b3f66e/header_tchinese.jpg"
             },
             "icon": "77902813d6b604ab20b881ff56759b8d96c8dc95",
@@ -495,7 +559,7 @@
               "tchinese": "de948fe70e8d5a983d8aed3c16cf07b500607c9e/capsule_231x87_tchinese.jpg"
             },
             "steam_release_date": "1792128304",
-            "store_asset_mtime": "1793510797",
+            "store_asset_mtime": "1793848341",
             "store_tags": {
               "0": "1091588",
               "1": "32322",
@@ -514,6 +578,9 @@
               "14": "4182"
             },
             "supported_languages": {
+              "brazilian": {
+                "supported": "true"
+              },
               "english": {
                 "supported": "true"
               },
@@ -536,6 +603,9 @@
                 "supported": "true"
               },
               "schinese": {
+                "supported": "true"
+              },
+              "spanish": {
                 "supported": "true"
               },
               "tchinese": {
@@ -570,25 +640,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26357624",
-              "timebuildupdated": 1793519489,
-              "timeupdated": 1793519513
+              "buildid": "26448769",
+              "timebuildupdated": 1793848450,
+              "timeupdated": 1793848479
             }
           },
           "depots": {
             "5324491": {
               "manifests": {
-                "public": "8105695805152154399"
+                "public": "1052314643871713273"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-01T07:52:49.179Z",
+      "observed_at": "2026-11-09T15:53:28.916Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-01T07:52:49.179Z"
+  "updated_at": "2026-11-09T15:53:28.916Z"
 }

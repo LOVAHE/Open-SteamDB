@@ -388,11 +388,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-09T15:53:28.916Z",
+      "change_number": 40759762,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "10",
+            "quota": "5242880",
+            "savefiles": {
+              "0": {
+                "path": " nestward/LINE WARLORD/lwcloud",
+                "pattern": "*.lwsave",
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26543084",
+          "before": "26521911",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794238463,
+          "before": 1794150562,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794238519,
+          "before": 1794150613,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8769226994827425798",
+          "before": "1514015369167192083",
+          "op": "replace",
+          "path": "/depots/depots/4938661/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40727149,
+      "change_number": 40759762,
       "data": {
         "appinfo": {
           "common": {
@@ -574,30 +621,41 @@
           "extended": {
             "developer": "Nestward",
             "publisher": "Nestward"
+          },
+          "ufs": {
+            "maxnumfiles": "10",
+            "quota": "5242880",
+            "savefiles": {
+              "0": {
+                "path": " nestward/LINE WARLORD/lwcloud",
+                "pattern": "*.lwsave",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26521911",
-              "timebuildupdated": 1794150562,
-              "timeupdated": 1794150613
+              "buildid": "26543084",
+              "timebuildupdated": 1794238463,
+              "timeupdated": 1794238519
             }
           },
           "depots": {
             "4938661": {
               "manifests": {
-                "public": "1514015369167192083"
+                "public": "8769226994827425798"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-08T15:19:32.272Z",
+      "observed_at": "2026-11-09T15:53:28.916Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-08T15:19:32.272Z"
+  "updated_at": "2026-11-09T15:53:28.916Z"
 }
