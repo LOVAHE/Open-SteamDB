@@ -828,11 +828,67 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-09T21:23:29.443Z",
+      "change_number": 40770237,
+      "changes": [
+        {
+          "after": "500",
+          "before": "0",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "100000000",
+          "before": "0",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        },
+        {
+          "after": {
+            "0": {
+              "path": "Saves",
+              "pattern": "*",
+              "recursive": "1",
+              "root": "gameinstall"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles"
+        },
+        {
+          "after": "26550155",
+          "before": "26507316",
+          "op": "replace",
+          "path": "/depots/branches/test/buildid"
+        },
+        {
+          "after": 1794259102,
+          "before": 1794063760,
+          "op": "replace",
+          "path": "/depots/branches/test/timebuildupdated"
+        },
+        {
+          "after": 1794259132,
+          "before": 1794063803,
+          "op": "replace",
+          "path": "/depots/branches/test/timeupdated"
+        },
+        {
+          "after": "5455972158767593026",
+          "before": "6030827905362349570",
+          "op": "replace",
+          "path": "/depots/depots/4725171/manifests/test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40763024,
+      "change_number": 40770237,
       "data": {
         "appinfo": {
           "common": {
@@ -1006,8 +1062,16 @@
             "publisher": "Satur Entertainment"
           },
           "ufs": {
-            "maxnumfiles": "0",
-            "quota": "0"
+            "maxnumfiles": "500",
+            "quota": "100000000",
+            "savefiles": {
+              "0": {
+                "path": "Saves",
+                "pattern": "*",
+                "recursive": "1",
+                "root": "gameinstall"
+              }
+            }
           }
         },
         "depots": {
@@ -1018,10 +1082,10 @@
               "timeupdated": 1794064879
             },
             "test": {
-              "buildid": "26507316",
+              "buildid": "26550155",
               "description": "test",
-              "timebuildupdated": 1794063760,
-              "timeupdated": 1794063803
+              "timebuildupdated": 1794259102,
+              "timeupdated": 1794259132
             }
           },
           "depots": {
@@ -1036,17 +1100,17 @@
             "4725171": {
               "manifests": {
                 "public": "6030827905362349570",
-                "test": "6030827905362349570"
+                "test": "5455972158767593026"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-09T17:38:22.049Z",
+      "observed_at": "2026-11-09T21:23:29.443Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T17:38:22.049Z"
+  "updated_at": "2026-11-09T21:23:29.443Z"
 }
