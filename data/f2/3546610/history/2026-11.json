@@ -1050,11 +1050,45 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-09T17:38:22.049Z",
+      "change_number": 40763675,
+      "changes": [
+        {
+          "after": "93",
+          "before": "92",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "before": {
+            "buildid": "26496083",
+            "description": "Experimental branch where you can test the next version or patch before it goes live",
+            "timebuildupdated": 1794003689,
+            "timeupdated": 1794003938
+          },
+          "op": "remove",
+          "path": "/depots/branches/public-test-realm"
+        },
+        {
+          "before": "3505465275261255225",
+          "op": "remove",
+          "path": "/depots/depots/3546611/manifests/public-test-realm"
+        },
+        {
+          "before": "5767793502620268716",
+          "op": "remove",
+          "path": "/depots/depots/3546612/manifests/public-test-realm"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40759898,
+      "change_number": 40763675,
       "data": {
         "appinfo": {
           "common": {
@@ -1186,7 +1220,7 @@
             "osextended": "macos64",
             "oslist": "windows,macos",
             "primary_genre": "1",
-            "review_percentage": "92",
+            "review_percentage": "93",
             "review_score": "8",
             "small_capsule": {
               "english": "1ca5fb3f97515a7e64ac364468d4d3120979ce33/capsule_231x87.jpg",
@@ -1382,12 +1416,6 @@
               "buildid": "26496083",
               "timebuildupdated": 1794003689,
               "timeupdated": 1794003938
-            },
-            "public-test-realm": {
-              "buildid": "26496083",
-              "description": "Experimental branch where you can test the next version or patch before it goes live",
-              "timebuildupdated": 1794003689,
-              "timeupdated": 1794003938
             }
           },
           "depots": {
@@ -1396,8 +1424,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "3505465275261255225",
-                "public-test-realm": "3505465275261255225"
+                "public": "3505465275261255225"
               }
             },
             "3546612": {
@@ -1405,18 +1432,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "5767793502620268716",
-                "public-test-realm": "5767793502620268716"
+                "public": "5767793502620268716"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-09T15:53:28.916Z",
+      "observed_at": "2026-11-09T17:38:22.049Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T15:53:28.916Z"
+  "updated_at": "2026-11-09T17:38:22.049Z"
 }

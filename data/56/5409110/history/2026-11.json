@@ -285,11 +285,30 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-09T17:38:22.049Z",
+      "change_number": 40762782,
+      "changes": [
+        {
+          "after": "macos64",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "64",
+          "op": "add",
+          "path": "/depots/depots/5409112/config/osarch"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40736687,
+      "change_number": 40762782,
       "data": {
         "appinfo": {
           "common": {
@@ -379,7 +398,7 @@
             },
             "name": "Ultimate Jello Party Demo",
             "osarch": "",
-            "osextended": "",
+            "osextended": "macos64",
             "oslist": "windows,macos",
             "parent": "2972760",
             "primary_genre": "1",
@@ -431,6 +450,7 @@
             },
             "5409112": {
               "config": {
+                "osarch": "64",
                 "oslist": "macos"
               },
               "manifests": {
@@ -440,11 +460,11 @@
           }
         }
       },
-      "observed_at": "2026-11-08T23:05:22.840Z",
+      "observed_at": "2026-11-09T17:38:22.049Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-08T23:05:22.840Z"
+  "updated_at": "2026-11-09T17:38:22.049Z"
 }

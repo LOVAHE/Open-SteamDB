@@ -866,11 +866,40 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-09T17:38:22.049Z",
+      "change_number": 40761283,
+      "changes": [
+        {
+          "after": "74",
+          "before": "73",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "before": {
+            "buildid": "26508166",
+            "description": "Game Version V14.1",
+            "timebuildupdated": 1794067978,
+            "timeupdated": 1794070266
+          },
+          "op": "remove",
+          "path": "/depots/branches/v14.1"
+        },
+        {
+          "before": "5782550192845528674",
+          "op": "remove",
+          "path": "/depots/depots/5160801/manifests/v14.1"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40757851,
+      "change_number": 40761283,
       "data": {
         "appinfo": {
           "common": {
@@ -982,7 +1011,7 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "28",
-            "review_percentage": "73",
+            "review_percentage": "74",
             "review_score": "6",
             "small_capsule": {
               "english": "3dec380fa3c66a40ffc1d36be2ac518cf9dcda05/capsule_231x87.jpg"
@@ -1082,12 +1111,6 @@
               "timebuildupdated": 1794067978,
               "timeupdated": 1794070266
             },
-            "v14.1": {
-              "buildid": "26508166",
-              "description": "Game Version V14.1",
-              "timebuildupdated": 1794067978,
-              "timeupdated": 1794070266
-            },
             "v15-1-beta": {
               "buildid": "26542122",
               "description": "Version V15.2",
@@ -1099,18 +1122,17 @@
             "5160801": {
               "manifests": {
                 "public": "5782550192845528674",
-                "v14.1": "5782550192845528674",
                 "v15-1-beta": "3173679817553883718"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-09T15:23:25.939Z",
+      "observed_at": "2026-11-09T17:38:22.049Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T15:23:25.939Z"
+  "updated_at": "2026-11-09T17:38:22.049Z"
 }
