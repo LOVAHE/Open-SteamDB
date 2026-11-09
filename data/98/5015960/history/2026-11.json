@@ -523,11 +523,69 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-09T15:08:28.825Z",
+      "change_number": 40754018,
+      "changes": [
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/french"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/german"
+        },
+        {
+          "after": "26519528",
+          "before": "26490946",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794137195,
+          "before": 1793986709,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794205605,
+          "before": 1793990616,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8889740979407788329",
+          "before": "8970569047181286474",
+          "op": "replace",
+          "path": "/depots/depots/5015962/manifests/public"
+        },
+        {
+          "after": "5911744096204785177",
+          "before": "5421030038639900012",
+          "op": "replace",
+          "path": "/depots/depots/5015963/manifests/public"
+        },
+        {
+          "after": "5638993362502756063",
+          "before": "1983791787877409001",
+          "op": "replace",
+          "path": "/depots/depots/5015964/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40729982,
+      "change_number": 40754018,
       "data": {
         "appinfo": {
           "common": {
@@ -664,6 +722,12 @@
               "english": {
                 "supported": "true"
               },
+              "french": {
+                "supported": "true"
+              },
+              "german": {
+                "supported": "true"
+              },
               "japanese": {
                 "supported": "true"
               },
@@ -725,9 +789,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26490946",
-              "timebuildupdated": 1793986709,
-              "timeupdated": 1793990616
+              "buildid": "26519528",
+              "timebuildupdated": 1794137195,
+              "timeupdated": 1794205605
             }
           },
           "depots": {
@@ -736,7 +800,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "8970569047181286474"
+                "public": "8889740979407788329"
               }
             },
             "5015963": {
@@ -744,7 +808,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "5421030038639900012"
+                "public": "5911744096204785177"
               }
             },
             "5015964": {
@@ -752,17 +816,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "1983791787877409001"
+                "public": "5638993362502756063"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-08T18:03:26.385Z",
+      "observed_at": "2026-11-09T15:08:28.825Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-08T18:03:26.385Z"
+  "updated_at": "2026-11-09T15:08:28.825Z"
 }

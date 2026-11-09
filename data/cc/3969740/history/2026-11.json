@@ -180,11 +180,55 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-09T15:08:28.825Z",
+      "change_number": 40757375,
+      "changes": [
+        {
+          "after": "64",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osarch"
+        },
+        {
+          "after": "26541785",
+          "before": "26488749",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794234911,
+          "before": 1793980446,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794234942,
+          "before": 1793980596,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8468677576956725476",
+          "before": "7043332704119227846",
+          "op": "replace",
+          "path": "/depots/depots/3969742/manifests/public"
+        },
+        {
+          "after": "1159758950798331743",
+          "before": "4641409696451937538",
+          "op": "replace",
+          "path": "/depots/depots/3969743/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40703552,
+      "change_number": 40757375,
       "data": {
         "appinfo": {
           "common": {
@@ -274,7 +318,7 @@
               }
             },
             "name": "Gem Beasts",
-            "osarch": "",
+            "osarch": "64",
             "osextended": "",
             "oslist": "windows,linux",
             "primary_genre": "23",
@@ -321,9 +365,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26488749",
-              "timebuildupdated": 1793980446,
-              "timeupdated": 1793980596
+              "buildid": "26541785",
+              "timebuildupdated": 1794234911,
+              "timeupdated": 1794234942
             }
           },
           "depots": {
@@ -336,7 +380,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "7043332704119227846"
+                "public": "8468677576956725476"
               }
             },
             "3969743": {
@@ -345,17 +389,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "4641409696451937538"
+                "public": "1159758950798331743"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-07T17:31:52.751Z",
+      "observed_at": "2026-11-09T15:08:28.825Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-07T17:31:52.751Z"
+  "updated_at": "2026-11-09T15:08:28.825Z"
 }

@@ -324,11 +324,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-09T15:08:28.825Z",
+      "change_number": 40740719,
+      "changes": [
+        {
+          "after": "26530849",
+          "before": "26497148",
+          "op": "replace",
+          "path": "/depots/branches/beta/buildid"
+        },
+        {
+          "after": 1794192601,
+          "before": 1794007531,
+          "op": "replace",
+          "path": "/depots/branches/beta/timebuildupdated"
+        },
+        {
+          "after": 1794192601,
+          "before": 1794007531,
+          "op": "replace",
+          "path": "/depots/branches/beta/timeupdated"
+        },
+        {
+          "after": "274182409532792423",
+          "before": "6416456857355345022",
+          "op": "replace",
+          "path": "/depots/depots/4954191/manifests/beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40688126,
+      "change_number": 40740719,
       "data": {
         "appinfo": {
           "common": {
@@ -490,10 +522,10 @@
         "depots": {
           "branches": {
             "beta": {
-              "buildid": "26497148",
+              "buildid": "26530849",
               "description": "CI staging - every main merge lands here",
-              "timebuildupdated": 1794007531,
-              "timeupdated": 1794007531
+              "timebuildupdated": 1794192601,
+              "timeupdated": 1794192601
             },
             "public": {
               "buildid": "26035326",
@@ -504,18 +536,18 @@
           "depots": {
             "4954191": {
               "manifests": {
-                "beta": "6416456857355345022",
+                "beta": "274182409532792423",
                 "public": "1661132561933643025"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-06T23:37:25.994Z",
+      "observed_at": "2026-11-09T15:08:28.825Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T23:37:25.994Z"
+  "updated_at": "2026-11-09T15:08:28.825Z"
 }

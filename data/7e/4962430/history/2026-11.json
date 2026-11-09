@@ -338,11 +338,31 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-09T15:08:28.825Z",
+      "change_number": 40757575,
+      "changes": [
+        {
+          "after": "0",
+          "before": "10",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "0",
+          "before": "10485760",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40721984,
+      "change_number": 40757575,
       "data": {
         "appinfo": {
           "common": {
@@ -500,8 +520,8 @@
             "publisher": "Ryaland Studio"
           },
           "ufs": {
-            "maxnumfiles": "10",
-            "quota": "10485760"
+            "maxnumfiles": "0",
+            "quota": "0"
           }
         },
         "depots": {
@@ -521,7 +541,7 @@
           }
         }
       },
-      "observed_at": "2026-11-08T10:28:39.069Z",
+      "observed_at": "2026-11-09T15:08:28.825Z",
       "tracked": true
     },
     "steam_store": {
@@ -666,5 +686,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-08T10:28:39.069Z"
+  "updated_at": "2026-11-09T15:08:28.825Z"
 }
