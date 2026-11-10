@@ -1708,11 +1708,44 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T09:23:19.155Z",
+      "change_number": 40786919,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "os": "Windows",
+              "oscompare": "=",
+              "pathtransforms": {
+                "0": {
+                  "find": "",
+                  "replace": "com.DefaultComany.2DProject"
+                }
+              },
+              "root": "gameinstall",
+              "useinstead": "gameinstall"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "before": {
+            "1": "Windows"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/0/platforms"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40783928,
+      "change_number": 40786919,
       "data": {
         "appinfo": {
           "common": {
@@ -2160,13 +2193,24 @@
           "ufs": {
             "maxnumfiles": "1000",
             "quota": "100000000",
+            "rootoverrides": {
+              "0": {
+                "os": "Windows",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "",
+                    "replace": "com.DefaultComany.2DProject"
+                  }
+                },
+                "root": "gameinstall",
+                "useinstead": "gameinstall"
+              }
+            },
             "savefiles": {
               "0": {
                 "path": "Artless Games/MessageFromAliens",
                 "pattern": "*.sav",
-                "platforms": {
-                  "1": "Windows"
-                },
                 "recursive": "1",
                 "root": "WinAppDataLocalLow"
               }
@@ -2211,11 +2255,11 @@
           }
         }
       },
-      "observed_at": "2026-11-10T07:38:26.078Z",
+      "observed_at": "2026-11-10T09:23:19.155Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T07:38:26.078Z"
+  "updated_at": "2026-11-10T09:23:19.155Z"
 }
