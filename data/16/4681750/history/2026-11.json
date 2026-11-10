@@ -462,11 +462,25 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T06:53:16.691Z",
+      "change_number": 40782982,
+      "changes": [
+        {
+          "after": ".local/share/Steam/steamapps/common/Tribal Towers Siege of the Shifting Fortress/TribalTowersSiege/Saved/SaveGames/",
+          "before": ".config/Epic/TribalTowersSiege/Saved/SaveGames/",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/pathtransforms/0/replace"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40782590,
+      "change_number": 40782982,
       "data": {
         "appinfo": {
           "common": {
@@ -616,7 +630,7 @@
                 "pathtransforms": {
                   "0": {
                     "find": "TribalTowersSiege/Saved/SaveGames/",
-                    "replace": ".config/Epic/TribalTowersSiege/Saved/SaveGames/"
+                    "replace": ".local/share/Steam/steamapps/common/Tribal Towers Siege of the Shifting Fortress/TribalTowersSiege/Saved/SaveGames/"
                   }
                 },
                 "root": "WinAppDataLocal",
@@ -666,7 +680,7 @@
           }
         }
       },
-      "observed_at": "2026-11-10T06:38:25.088Z",
+      "observed_at": "2026-11-10T06:53:16.691Z",
       "tracked": true
     },
     "steam_store": {
@@ -876,5 +890,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T06:38:25.088Z"
+  "updated_at": "2026-11-10T06:53:16.691Z"
 }
