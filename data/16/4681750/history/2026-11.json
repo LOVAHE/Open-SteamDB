@@ -508,11 +508,37 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T07:38:26.078Z",
+      "change_number": 40783837,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "os": "Linux",
+              "oscompare": "=",
+              "pathtransforms": {
+                "0": {
+                  "find": "TribalTowersSiege/Saved/SaveGames/{64BitSteamID}",
+                  "replace": "TribalTowersSiege/Saved/SaveGames/{64BitSteamID}"
+                }
+              },
+              "root": "WinAppDataLocal",
+              "useinstead": "gameinstall"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40783641,
+      "change_number": 40783837,
       "data": {
         "appinfo": {
           "common": {
@@ -655,6 +681,20 @@
           "ufs": {
             "maxnumfiles": "500",
             "quota": "10000000",
+            "rootoverrides": {
+              "0": {
+                "os": "Linux",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "TribalTowersSiege/Saved/SaveGames/{64BitSteamID}",
+                    "replace": "TribalTowersSiege/Saved/SaveGames/{64BitSteamID}"
+                  }
+                },
+                "root": "WinAppDataLocal",
+                "useinstead": "gameinstall"
+              }
+            },
             "savefiles": {
               "0": {
                 "path": "TribalTowersSiege/Saved/SaveGames/{64BitSteamID}",
@@ -698,7 +738,7 @@
           }
         }
       },
-      "observed_at": "2026-11-10T07:23:19.134Z",
+      "observed_at": "2026-11-10T07:38:26.078Z",
       "tracked": true
     },
     "steam_store": {
@@ -908,5 +948,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T07:23:19.134Z"
+  "updated_at": "2026-11-10T07:38:26.078Z"
 }
