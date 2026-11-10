@@ -1741,11 +1741,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T09:53:18.089Z",
+      "change_number": 40787863,
+      "changes": [
+        {
+          "after": "MacOS",
+          "before": "Windows",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/os"
+        },
+        {
+          "after": "Artless Games/MessageFromAliens/{64BitSteamID}",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/pathtransforms/0/find"
+        },
+        {
+          "after": "com.DefaultComany.2DProject/{64BitSteamID}",
+          "before": "com.DefaultComany.2DProject",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/pathtransforms/0/replace"
+        },
+        {
+          "after": "WinAppDataLocalLow",
+          "before": "gameinstall",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/root"
+        },
+        {
+          "after": "MacAppSupport",
+          "before": "gameinstall",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/useinstead"
+        },
+        {
+          "after": "Artless Games/MessageFromAliens/{64BitSteamID}",
+          "before": "Artless Games/MessageFromAliens",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/path"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40786919,
+      "change_number": 40787863,
       "data": {
         "appinfo": {
           "common": {
@@ -2195,21 +2239,21 @@
             "quota": "100000000",
             "rootoverrides": {
               "0": {
-                "os": "Windows",
+                "os": "MacOS",
                 "oscompare": "=",
                 "pathtransforms": {
                   "0": {
-                    "find": "",
-                    "replace": "com.DefaultComany.2DProject"
+                    "find": "Artless Games/MessageFromAliens/{64BitSteamID}",
+                    "replace": "com.DefaultComany.2DProject/{64BitSteamID}"
                   }
                 },
-                "root": "gameinstall",
-                "useinstead": "gameinstall"
+                "root": "WinAppDataLocalLow",
+                "useinstead": "MacAppSupport"
               }
             },
             "savefiles": {
               "0": {
-                "path": "Artless Games/MessageFromAliens",
+                "path": "Artless Games/MessageFromAliens/{64BitSteamID}",
                 "pattern": "*.sav",
                 "recursive": "1",
                 "root": "WinAppDataLocalLow"
@@ -2255,11 +2299,11 @@
           }
         }
       },
-      "observed_at": "2026-11-10T09:23:19.155Z",
+      "observed_at": "2026-11-10T09:53:18.089Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T09:23:19.155Z"
+  "updated_at": "2026-11-10T09:53:18.089Z"
 }

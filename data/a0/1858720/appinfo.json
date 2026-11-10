@@ -1,8 +1,8 @@
 {
   "appid": 1858720,
   "source": "steam_pics",
-  "updated_at": "2026-11-10T09:23:19.155Z",
-  "change_number": 40786919,
+  "updated_at": "2026-11-10T09:53:18.089Z",
+  "change_number": 40787863,
   "data": {
     "common": {
       "associations": {
@@ -451,21 +451,21 @@
       "quota": "100000000",
       "rootoverrides": {
         "0": {
-          "os": "Windows",
+          "os": "MacOS",
           "oscompare": "=",
           "pathtransforms": {
             "0": {
-              "find": "",
-              "replace": "com.DefaultComany.2DProject"
+              "find": "Artless Games/MessageFromAliens/{64BitSteamID}",
+              "replace": "com.DefaultComany.2DProject/{64BitSteamID}"
             }
           },
-          "root": "gameinstall",
-          "useinstead": "gameinstall"
+          "root": "WinAppDataLocalLow",
+          "useinstead": "MacAppSupport"
         }
       },
       "savefiles": {
         "0": {
-          "path": "Artless Games/MessageFromAliens",
+          "path": "Artless Games/MessageFromAliens/{64BitSteamID}",
           "pattern": "*.sav",
           "recursive": "1",
           "root": "WinAppDataLocalLow"
