@@ -1632,11 +1632,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T07:23:19.134Z",
+      "change_number": 40783653,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "26559457",
+          "before": "26559253",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794295029,
+          "before": 1794294104,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794295029,
+          "before": 1794294104,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4429293654610423896",
+          "before": "5442143838990873546",
+          "op": "replace",
+          "path": "/depots/depots/1858721/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40783393,
+      "change_number": 40783653,
       "data": {
         "appinfo": {
           "common": {
@@ -1729,7 +1767,7 @@
               "tchinese": "異星來信"
             },
             "osarch": "64",
-            "osextended": "",
+            "osextended": "macos64,macosapplesilicon",
             "oslist": "windows,macos",
             "primary_genre": "23",
             "review_percentage": "93",
@@ -2100,9 +2138,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26559253",
-              "timebuildupdated": 1794294104,
-              "timeupdated": 1794294104
+              "buildid": "26559457",
+              "timebuildupdated": 1794295029,
+              "timeupdated": 1794295029
             }
           },
           "depots": {
@@ -2120,7 +2158,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "5442143838990873546"
+                "public": "4429293654610423896"
               }
             },
             "1858722": {
@@ -2135,11 +2173,11 @@
           }
         }
       },
-      "observed_at": "2026-11-10T07:08:11.476Z",
+      "observed_at": "2026-11-10T07:23:19.134Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T07:08:11.476Z"
+  "updated_at": "2026-11-10T07:23:19.134Z"
 }
