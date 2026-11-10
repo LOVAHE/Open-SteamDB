@@ -240,11 +240,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T12:38:20.232Z",
+      "change_number": 40792851,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26565337",
+          "before": "26135313",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794313785,
+          "before": 1792677636,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794313901,
+          "before": 1792678074,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5220395213528076832",
+          "before": "7341225964520605610",
+          "op": "replace",
+          "path": "/depots/depots/5313451/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40785055,
+      "change_number": 40792851,
       "data": {
         "appinfo": {
           "common": {
@@ -352,8 +396,8 @@
               "tchinese": "拼題獵碼手 VI Demo"
             },
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos",
             "parent": "5204500",
             "primary_genre": "2",
             "small_capsule": {
@@ -432,9 +476,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26135313",
-              "timebuildupdated": 1792677636,
-              "timeupdated": 1792678074
+              "buildid": "26565337",
+              "timebuildupdated": 1794313785,
+              "timeupdated": 1794313901
             }
           },
           "depots": {
@@ -443,7 +487,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "7341225964520605610"
+                "public": "5220395213528076832"
               }
             },
             "5313452": {
@@ -455,11 +499,11 @@
           }
         }
       },
-      "observed_at": "2026-11-10T08:23:20.518Z",
+      "observed_at": "2026-11-10T12:38:20.232Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T08:23:20.518Z"
+  "updated_at": "2026-11-10T12:38:20.232Z"
 }
