@@ -1837,11 +1837,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T11:53:12.413Z",
+      "change_number": 40791649,
+      "changes": [
+        {
+          "after": "com.artlessgames.alien/{64BitSteamID}",
+          "before": "com.DefaultCompany.2DProject/{64BitSteamID}",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/pathtransforms/0/replace"
+        },
+        {
+          "after": "26564542",
+          "before": "26563339",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794311265,
+          "before": 1794307431,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794311265,
+          "before": 1794307432,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7775372972338162767",
+          "before": "6614965439518872080",
+          "op": "replace",
+          "path": "/depots/depots/1858721/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40789737,
+      "change_number": 40791649,
       "data": {
         "appinfo": {
           "common": {
@@ -2296,7 +2334,7 @@
                 "pathtransforms": {
                   "0": {
                     "find": "Artless Games/MessageFromAliens/{64BitSteamID}",
-                    "replace": "com.DefaultCompany.2DProject/{64BitSteamID}"
+                    "replace": "com.artlessgames.alien/{64BitSteamID}"
                   }
                 },
                 "root": "WinAppDataLocalLow",
@@ -2316,9 +2354,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26563339",
-              "timebuildupdated": 1794307431,
-              "timeupdated": 1794307432
+              "buildid": "26564542",
+              "timebuildupdated": 1794311265,
+              "timeupdated": 1794311265
             }
           },
           "depots": {
@@ -2336,7 +2374,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "6614965439518872080"
+                "public": "7775372972338162767"
               }
             },
             "1858722": {
@@ -2351,11 +2389,11 @@
           }
         }
       },
-      "observed_at": "2026-11-10T10:53:12.085Z",
+      "observed_at": "2026-11-10T11:53:12.413Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T10:53:12.085Z"
+  "updated_at": "2026-11-10T11:53:12.413Z"
 }
