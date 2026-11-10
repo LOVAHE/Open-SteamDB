@@ -988,11 +988,33 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T22:38:45.926Z",
+      "change_number": 40812144,
+      "changes": [
+        {
+          "before": {
+            "1": "Windows"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/0/platforms"
+        },
+        {
+          "before": {
+            "1": "Windows"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/1/platforms"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40811921,
+      "change_number": 40812144,
       "data": {
         "appinfo": {
           "common": {
@@ -1147,17 +1169,11 @@
               "0": {
                 "path": "GDF_Phalanx/accounts/{64BitSteamID}",
                 "pattern": "campaign_progress.cfg",
-                "platforms": {
-                  "1": "Windows"
-                },
                 "root": "WinAppDataRoaming"
               },
               "1": {
                 "path": "GDF_Phalanx/accounts/{64BitSteamID}/missions",
                 "pattern": "*.json",
-                "platforms": {
-                  "1": "Windows"
-                },
                 "root": "WinAppDataRoaming"
               }
             }
@@ -1200,11 +1216,11 @@
           }
         }
       },
-      "observed_at": "2026-11-10T22:23:24.733Z",
+      "observed_at": "2026-11-10T22:38:45.926Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T22:23:24.733Z"
+  "updated_at": "2026-11-10T22:38:45.926Z"
 }
