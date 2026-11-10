@@ -424,11 +424,49 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-11-10T06:38:25.088Z",
+      "change_number": 40782590,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "500",
+            "quota": "10000000",
+            "rootoverrides": {
+              "0": {
+                "os": "Linux",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "TribalTowersSiege/Saved/SaveGames/",
+                    "replace": ".config/Epic/TribalTowersSiege/Saved/SaveGames/"
+                  }
+                },
+                "root": "WinAppDataLocal",
+                "useinstead": "LinuxHome"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "TribalTowersSiege/Saved/SaveGames/",
+                "pattern": "*.sav",
+                "recursive": "1",
+                "root": "WinAppDataLocal"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40572439,
+      "change_number": 40782590,
       "data": {
         "appinfo": {
           "common": {
@@ -567,6 +605,32 @@
             "developer": "Super Maple Studio",
             "homepage": "https://www.SuperMapleStudio.com",
             "publisher": "Super Maple Studio"
+          },
+          "ufs": {
+            "maxnumfiles": "500",
+            "quota": "10000000",
+            "rootoverrides": {
+              "0": {
+                "os": "Linux",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "TribalTowersSiege/Saved/SaveGames/",
+                    "replace": ".config/Epic/TribalTowersSiege/Saved/SaveGames/"
+                  }
+                },
+                "root": "WinAppDataLocal",
+                "useinstead": "LinuxHome"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "TribalTowersSiege/Saved/SaveGames/",
+                "pattern": "*.sav",
+                "recursive": "1",
+                "root": "WinAppDataLocal"
+              }
+            }
           }
         },
         "depots": {
@@ -602,7 +666,7 @@
           }
         }
       },
-      "observed_at": "2026-11-04T02:22:56.090Z",
+      "observed_at": "2026-11-10T06:38:25.088Z",
       "tracked": true
     },
     "steam_store": {
@@ -812,5 +876,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-04T13:23:10.018Z"
+  "updated_at": "2026-11-10T06:38:25.088Z"
 }

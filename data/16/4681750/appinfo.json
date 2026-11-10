@@ -1,8 +1,8 @@
 {
   "appid": 4681750,
   "source": "steam_pics",
-  "updated_at": "2026-11-04T02:22:56.090Z",
-  "change_number": 40572439,
+  "updated_at": "2026-11-10T06:38:25.088Z",
+  "change_number": 40782590,
   "data": {
     "common": {
       "associations": {
@@ -140,6 +140,32 @@
     },
     "config": {
       "installdir": "Tribal Towers - Siege of the Shifting Fortress Demo"
+    },
+    "ufs": {
+      "maxnumfiles": "500",
+      "quota": "10000000",
+      "rootoverrides": {
+        "0": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "TribalTowersSiege/Saved/SaveGames/",
+              "replace": ".config/Epic/TribalTowersSiege/Saved/SaveGames/"
+            }
+          },
+          "root": "WinAppDataLocal",
+          "useinstead": "LinuxHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "TribalTowersSiege/Saved/SaveGames/",
+          "pattern": "*.sav",
+          "recursive": "1",
+          "root": "WinAppDataLocal"
+        }
+      }
     }
   }
 }
