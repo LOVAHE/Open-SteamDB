@@ -443,11 +443,50 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T11:38:17.570Z",
+      "change_number": 40791140,
+      "changes": [
+        {
+          "after": "26564120",
+          "before": "26551188",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794309997,
+          "before": 1794262365,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794309997,
+          "before": 1794262365,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "oslist": "linux"
+          },
+          "op": "add",
+          "path": "/depots/depots/5056393/config"
+        },
+        {
+          "after": "8693420864155364442",
+          "before": "5348553644844651670",
+          "op": "replace",
+          "path": "/depots/depots/5056393/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40781069,
+      "change_number": 40791140,
       "data": {
         "appinfo": {
           "common": {
@@ -684,9 +723,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26551188",
-              "timebuildupdated": 1794262365,
-              "timeupdated": 1794262365
+              "buildid": "26564120",
+              "timebuildupdated": 1794309997,
+              "timeupdated": 1794309997
             }
           },
           "depots": {
@@ -707,18 +746,21 @@
               }
             },
             "5056393": {
+              "config": {
+                "oslist": "linux"
+              },
               "manifests": {
-                "public": "5348553644844651670"
+                "public": "8693420864155364442"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-10T05:08:27.215Z",
+      "observed_at": "2026-11-10T11:38:17.570Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T05:08:27.215Z"
+  "updated_at": "2026-11-10T11:38:17.570Z"
 }
