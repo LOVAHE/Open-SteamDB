@@ -373,11 +373,30 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-11-10T15:08:40.235Z",
+      "change_number": 40798031,
+      "changes": [
+        {
+          "after": "云中歌",
+          "before": "余烬边界",
+          "op": "replace",
+          "path": "/appinfo/common/name"
+        },
+        {
+          "after": "1791345900",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39561538,
+      "change_number": 40798031,
       "data": {
         "appinfo": {
           "common": {
@@ -496,7 +515,7 @@
                 }
               }
             },
-            "name": "余烬边界",
+            "name": "云中歌",
             "name_localized": {
               "english": "Ember Frontier",
               "japanese": "エンバー・フロンティア",
@@ -512,6 +531,7 @@
               "schinese": "a926e88432567251b6aca056ed0cd3aa5ae7e834/capsule_231x87_schinese.jpg",
               "tchinese": "1fb9f5a30e4863e6b78e54c568ededb842e00442/capsule_231x87_tchinese.jpg"
             },
+            "steam_release_date": "1791345900",
             "store_asset_mtime": "1789788782",
             "store_tags": {
               "0": "791774",
@@ -580,7 +600,7 @@
           }
         }
       },
-      "observed_at": "2026-10-07T04:07:16.518Z",
+      "observed_at": "2026-11-10T15:08:40.235Z",
       "tracked": true
     },
     "steam_store": {
@@ -742,5 +762,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-05T06:53:13.119Z"
+  "updated_at": "2026-11-10T15:08:40.235Z"
 }
