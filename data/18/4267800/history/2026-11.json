@@ -1089,11 +1089,67 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T14:23:46.751Z",
+      "change_number": 40796466,
+      "changes": [
+        {
+          "after": "26567666",
+          "before": "26559921",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794320544,
+          "before": 1794297028,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794320544,
+          "before": 1794297028,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "26567646",
+          "before": "26559910",
+          "op": "replace",
+          "path": "/depots/branches/test/buildid"
+        },
+        {
+          "after": 1794320494,
+          "before": 1794296973,
+          "op": "replace",
+          "path": "/depots/branches/test/timebuildupdated"
+        },
+        {
+          "after": 1794320496,
+          "before": 1794296987,
+          "op": "replace",
+          "path": "/depots/branches/test/timeupdated"
+        },
+        {
+          "after": "2882190989824455997",
+          "before": "5569181345111792046",
+          "op": "replace",
+          "path": "/depots/depots/4267801/manifests/public"
+        },
+        {
+          "after": "2882190989824455997",
+          "before": "5569181345111792046",
+          "op": "replace",
+          "path": "/depots/depots/4267801/manifests/test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40784233,
+      "change_number": 40796466,
       "data": {
         "appinfo": {
           "common": {
@@ -1343,15 +1399,15 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26559921",
-              "timebuildupdated": 1794297028,
-              "timeupdated": 1794297028
+              "buildid": "26567666",
+              "timebuildupdated": 1794320544,
+              "timeupdated": 1794320544
             },
             "test": {
-              "buildid": "26559910",
+              "buildid": "26567646",
               "description": "测试专用分支for test",
-              "timebuildupdated": 1794296973,
-              "timeupdated": 1794296987
+              "timebuildupdated": 1794320494,
+              "timeupdated": 1794320496
             },
             "win11stable": {
               "buildid": "26558594",
@@ -1373,8 +1429,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "5569181345111792046",
-                "test": "5569181345111792046",
+                "public": "2882190989824455997",
+                "test": "2882190989824455997",
                 "win11stable": "2424842153629820291",
                 "win7compat": "2654721752655298603"
               }
@@ -1392,11 +1448,11 @@
           }
         }
       },
-      "observed_at": "2026-11-10T07:53:19.136Z",
+      "observed_at": "2026-11-10T14:23:46.751Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T07:53:19.136Z"
+  "updated_at": "2026-11-10T14:23:46.751Z"
 }
