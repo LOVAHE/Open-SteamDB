@@ -461,11 +461,28 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T02:23:19.569Z",
+      "change_number": 40777088,
+      "changes": [
+        {
+          "after": {
+            "path": "Coin2tools/tower",
+            "pattern": "equipment_*.json",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40761766,
+      "change_number": 40777088,
       "data": {
         "appinfo": {
           "common": {
@@ -624,6 +641,11 @@
                 "path": "Coin2tools/tower",
                 "pattern": "local_progress.dat",
                 "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "Coin2tools/tower",
+                "pattern": "equipment_*.json",
+                "root": "WinAppDataRoaming"
               }
             }
           }
@@ -645,11 +667,11 @@
           }
         }
       },
-      "observed_at": "2026-11-09T17:38:22.049Z",
+      "observed_at": "2026-11-10T02:23:19.569Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T17:38:22.049Z"
+  "updated_at": "2026-11-10T02:23:19.569Z"
 }
