@@ -350,11 +350,37 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T19:23:39.845Z",
+      "change_number": 40806989,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "100",
+            "quota": "100000000",
+            "savefiles": {
+              "0": {
+                "path": "Hydropolis/Local Storage/leveldb",
+                "pattern": "*",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40805597,
+      "change_number": 40806989,
       "data": {
         "appinfo": {
           "common": {
@@ -520,6 +546,20 @@
           "extended": {
             "developer": "Trash Fox Studios",
             "publisher": "Trash Fox Studios"
+          },
+          "ufs": {
+            "maxnumfiles": "100",
+            "quota": "100000000",
+            "savefiles": {
+              "0": {
+                "path": "Hydropolis/Local Storage/leveldb",
+                "pattern": "*",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -549,11 +589,11 @@
           }
         }
       },
-      "observed_at": "2026-11-10T18:38:26.053Z",
+      "observed_at": "2026-11-10T19:23:39.845Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T18:38:26.053Z"
+  "updated_at": "2026-11-10T19:23:39.845Z"
 }
