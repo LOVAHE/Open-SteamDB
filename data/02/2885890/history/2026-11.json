@@ -218,11 +218,42 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T23:53:27.910Z",
+      "change_number": 40813495,
+      "changes": [
+        {
+          "after": "2",
+          "before": "0",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "10000000",
+          "before": "0",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        },
+        {
+          "after": {
+            "0": {
+              "path": "GloomBreak",
+              "pattern": "*.sav",
+              "root": "WinAppDataLocal"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40776916,
+      "change_number": 40813495,
       "data": {
         "appinfo": {
           "common": {
@@ -367,8 +398,15 @@
             "publisher": "rcab"
           },
           "ufs": {
-            "maxnumfiles": "0",
-            "quota": "0"
+            "maxnumfiles": "2",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "GloomBreak",
+                "pattern": "*.sav",
+                "root": "WinAppDataLocal"
+              }
+            }
           }
         },
         "depots": {
@@ -401,11 +439,11 @@
           }
         }
       },
-      "observed_at": "2026-11-10T02:23:19.569Z",
+      "observed_at": "2026-11-10T23:53:27.910Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T02:23:19.569Z"
+  "updated_at": "2026-11-10T23:53:27.910Z"
 }

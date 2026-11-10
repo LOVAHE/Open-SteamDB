@@ -574,11 +574,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T23:53:27.910Z",
+      "change_number": 40813237,
+      "changes": [
+        {
+          "before": {
+            "0": {
+              "os": "Linux",
+              "oscompare": "=",
+              "pathtransforms": {
+                "0": {
+                  "find": "TribalTowersSiege/Saved/SaveGames/{64BitSteamID}",
+                  "replace": ".local/share/Steam/steamapps/common/Tribal Towers Siege of the Shifting Fortress/TribalTowersSiege/Saved/SaveGames/{64BitSteamID}"
+                }
+              },
+              "root": "WinAppDataLocal",
+              "useinstead": "LinuxHome"
+            }
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "after": "TribalTowersSiege/Saved/SaveGames/",
+          "before": "TribalTowersSiege/Saved/SaveGames/{64BitSteamID}",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/path"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40806994,
+      "change_number": 40813237,
       "data": {
         "appinfo": {
           "common": {
@@ -721,23 +753,9 @@
           "ufs": {
             "maxnumfiles": "500",
             "quota": "100000000",
-            "rootoverrides": {
-              "0": {
-                "os": "Linux",
-                "oscompare": "=",
-                "pathtransforms": {
-                  "0": {
-                    "find": "TribalTowersSiege/Saved/SaveGames/{64BitSteamID}",
-                    "replace": ".local/share/Steam/steamapps/common/Tribal Towers Siege of the Shifting Fortress/TribalTowersSiege/Saved/SaveGames/{64BitSteamID}"
-                  }
-                },
-                "root": "WinAppDataLocal",
-                "useinstead": "LinuxHome"
-              }
-            },
             "savefiles": {
               "0": {
-                "path": "TribalTowersSiege/Saved/SaveGames/{64BitSteamID}",
+                "path": "TribalTowersSiege/Saved/SaveGames/",
                 "pattern": "*.sav",
                 "recursive": "1",
                 "root": "WinAppDataLocal"
@@ -778,7 +796,7 @@
           }
         }
       },
-      "observed_at": "2026-11-10T19:23:39.845Z",
+      "observed_at": "2026-11-10T23:53:27.910Z",
       "tracked": true
     },
     "steam_store": {
@@ -988,5 +1006,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T19:23:39.845Z"
+  "updated_at": "2026-11-10T23:53:27.910Z"
 }
