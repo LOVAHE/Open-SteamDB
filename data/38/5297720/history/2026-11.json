@@ -937,11 +937,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T21:53:24.331Z",
+      "change_number": 40811158,
+      "changes": [
+        {
+          "after": "26576915",
+          "before": "26548343",
+          "op": "replace",
+          "path": "/depots/branches/open_beta/buildid"
+        },
+        {
+          "after": 1794347614,
+          "before": 1794253435,
+          "op": "replace",
+          "path": "/depots/branches/open_beta/timebuildupdated"
+        },
+        {
+          "after": 1794347614,
+          "before": 1794253435,
+          "op": "replace",
+          "path": "/depots/branches/open_beta/timeupdated"
+        },
+        {
+          "after": "4856867768184962772",
+          "before": "738602610497268288",
+          "op": "replace",
+          "path": "/depots/depots/5297721/manifests/open_beta"
+        },
+        {
+          "after": "4810340304083883165",
+          "op": "add",
+          "path": "/depots/depots/5297722/manifests/open_beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40810493,
+      "change_number": 40811158,
       "data": {
         "appinfo": {
           "common": {
@@ -1115,10 +1152,10 @@
         "depots": {
           "branches": {
             "open_beta": {
-              "buildid": "26548343",
+              "buildid": "26576915",
               "description": "public test",
-              "timebuildupdated": 1794253435,
-              "timeupdated": 1794253435
+              "timebuildupdated": 1794347614,
+              "timeupdated": 1794347614
             },
             "public": {
               "buildid": "26548343",
@@ -1133,7 +1170,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "open_beta": "738602610497268288",
+                "open_beta": "4856867768184962772",
                 "public": "738602610497268288"
               }
             },
@@ -1142,16 +1179,18 @@
                 "osarch": "64",
                 "oslist": "linux"
               },
-              "manifests": {}
+              "manifests": {
+                "open_beta": "4810340304083883165"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-10T21:38:22.158Z",
+      "observed_at": "2026-11-10T21:53:24.331Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T21:38:22.158Z"
+  "updated_at": "2026-11-10T21:53:24.331Z"
 }
