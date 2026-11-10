@@ -1047,11 +1047,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T13:28:24.258Z",
+      "change_number": 40794335,
+      "changes": [
+        {
+          "after": "26566305",
+          "before": "26550486",
+          "op": "replace",
+          "path": "/depots/branches/test/buildid"
+        },
+        {
+          "after": 1794316733,
+          "before": 1794259995,
+          "op": "replace",
+          "path": "/depots/branches/test/timebuildupdated"
+        },
+        {
+          "after": 1794316733,
+          "before": 1794259995,
+          "op": "replace",
+          "path": "/depots/branches/test/timeupdated"
+        },
+        {
+          "after": "8708650179157011870",
+          "before": "4402329807857738145",
+          "op": "replace",
+          "path": "/depots/depots/4890771/manifests/test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40770643,
+      "change_number": 40794335,
       "data": {
         "appinfo": {
           "common": {
@@ -1324,23 +1356,23 @@
               "timeupdated": 1793957860
             },
             "test": {
-              "buildid": "26550486",
+              "buildid": "26566305",
               "description": "voluntary upcoming update testing",
-              "timebuildupdated": 1794259995,
-              "timeupdated": 1794259995
+              "timebuildupdated": 1794316733,
+              "timeupdated": 1794316733
             }
           },
           "depots": {
             "4890771": {
               "manifests": {
                 "public": "6630750474945900780",
-                "test": "4402329807857738145"
+                "test": "8708650179157011870"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-09T21:38:30.775Z",
+      "observed_at": "2026-11-10T13:28:24.258Z",
       "tracked": true
     },
     "steam_store": {
@@ -1506,5 +1538,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T21:38:30.775Z"
+  "updated_at": "2026-11-10T13:28:24.258Z"
 }
