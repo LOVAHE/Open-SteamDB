@@ -615,11 +615,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T03:08:30.445Z",
+      "change_number": 40778645,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26506904",
+            "description": "kunkun",
+            "timebuildupdated": 1794061708,
+            "timeupdated": 1794061788
+          },
+          "op": "add",
+          "path": "/depots/branches/older"
+        },
+        {
+          "after": "26555663",
+          "before": "26555408",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794278177,
+          "before": 1794277363,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794278230,
+          "before": 1794277424,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7589478515213696480",
+          "op": "add",
+          "path": "/depots/depots/5432291/manifests/older"
+        },
+        {
+          "after": "364554069878612095",
+          "before": "1988302672272716427",
+          "op": "replace",
+          "path": "/depots/depots/5432291/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40777729,
+      "change_number": 40778645,
       "data": {
         "appinfo": {
           "common": {
@@ -788,26 +835,33 @@
         },
         "depots": {
           "branches": {
+            "older": {
+              "buildid": "26506904",
+              "description": "kunkun",
+              "timebuildupdated": 1794061708,
+              "timeupdated": 1794061788
+            },
             "public": {
-              "buildid": "26555408",
-              "timebuildupdated": 1794277363,
-              "timeupdated": 1794277424
+              "buildid": "26555663",
+              "timebuildupdated": 1794278177,
+              "timeupdated": 1794278230
             }
           },
           "depots": {
             "5432291": {
               "manifests": {
-                "public": "1988302672272716427"
+                "older": "7589478515213696480",
+                "public": "364554069878612095"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-10T02:23:19.569Z",
+      "observed_at": "2026-11-10T03:08:30.445Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T02:23:19.569Z"
+  "updated_at": "2026-11-10T03:08:30.445Z"
 }

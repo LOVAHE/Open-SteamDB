@@ -294,11 +294,59 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T03:08:30.445Z",
+      "change_number": 40778716,
+      "changes": [
+        {
+          "after": "90",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "26556029",
+          "before": "26554324",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794279679,
+          "before": 1794273360,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794279699,
+          "before": 1794273381,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "220795471762005464",
+          "before": "5956484128455889326",
+          "op": "replace",
+          "path": "/depots/depots/4077321/manifests/public"
+        },
+        {
+          "after": "3656250032388525762",
+          "before": "2014099267266784582",
+          "op": "replace",
+          "path": "/depots/depots/4077322/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40776270,
+      "change_number": 40778716,
       "data": {
         "appinfo": {
           "common": {
@@ -401,6 +449,8 @@
             "osextended": "macosapplesilicon",
             "oslist": "windows,macos",
             "primary_genre": "3",
+            "review_percentage": "90",
+            "review_score": "7",
             "small_capsule": {
               "english": "d98ab29310bbfbead95211ce8c49a4af23c87a73/capsule_231x87.jpg"
             },
@@ -478,9 +528,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26554324",
-              "timebuildupdated": 1794273360,
-              "timeupdated": 1794273381
+              "buildid": "26556029",
+              "timebuildupdated": 1794279679,
+              "timeupdated": 1794279699
             }
           },
           "depots": {
@@ -489,7 +539,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "5956484128455889326"
+                "public": "220795471762005464"
               }
             },
             "4077322": {
@@ -497,17 +547,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "2014099267266784582"
+                "public": "3656250032388525762"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-10T02:23:19.569Z",
+      "observed_at": "2026-11-10T03:08:30.445Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T02:23:19.569Z"
+  "updated_at": "2026-11-10T03:08:30.445Z"
 }
