@@ -534,11 +534,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T07:53:19.136Z",
+      "change_number": 40784037,
+      "changes": [
+        {
+          "after": ".local/share/Steam/steamapps/common/TribalTowersSiege/Saved/SaveGames/{64BitSteamID}",
+          "before": "TribalTowersSiege/Saved/SaveGames/{64BitSteamID}",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/pathtransforms/0/replace"
+        },
+        {
+          "after": "LinuxHome",
+          "before": "gameinstall",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/useinstead"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40783837,
+      "change_number": 40784037,
       "data": {
         "appinfo": {
           "common": {
@@ -688,11 +708,11 @@
                 "pathtransforms": {
                   "0": {
                     "find": "TribalTowersSiege/Saved/SaveGames/{64BitSteamID}",
-                    "replace": "TribalTowersSiege/Saved/SaveGames/{64BitSteamID}"
+                    "replace": ".local/share/Steam/steamapps/common/TribalTowersSiege/Saved/SaveGames/{64BitSteamID}"
                   }
                 },
                 "root": "WinAppDataLocal",
-                "useinstead": "gameinstall"
+                "useinstead": "LinuxHome"
               }
             },
             "savefiles": {
@@ -738,7 +758,7 @@
           }
         }
       },
-      "observed_at": "2026-11-10T07:38:26.078Z",
+      "observed_at": "2026-11-10T07:53:19.136Z",
       "tracked": true
     },
     "steam_store": {
@@ -948,5 +968,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T07:38:26.078Z"
+  "updated_at": "2026-11-10T07:53:19.136Z"
 }
