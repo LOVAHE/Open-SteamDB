@@ -1,8 +1,8 @@
 {
   "appid": 4901860,
   "source": "steam_pics",
-  "updated_at": "2026-11-10T03:53:14.869Z",
-  "change_number": 40767631,
+  "updated_at": "2026-11-10T19:53:28.129Z",
+  "change_number": 40807840,
   "data": {
     "common": {
       "associations": {
@@ -173,11 +173,16 @@
       "installdir": "The Big Suck"
     },
     "ufs": {
-      "maxnumfiles": "100",
-      "quota": "10000000",
+      "maxnumfiles": "256",
+      "quota": "50000000",
       "savefiles": {
         "0": {
           "path": "the-big-suck-steam/saves",
+          "pattern": "*.json",
+          "root": "WinAppDataRoaming"
+        },
+        "1": {
+          "path": "the-big-suck-steam-accounts/{64BitSteamID}/saves",
           "pattern": "*.json",
           "root": "WinAppDataRoaming"
         }

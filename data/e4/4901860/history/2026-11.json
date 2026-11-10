@@ -221,11 +221,40 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T19:53:28.129Z",
+      "change_number": 40807840,
+      "changes": [
+        {
+          "after": "256",
+          "before": "100",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "50000000",
+          "before": "10000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        },
+        {
+          "after": {
+            "path": "the-big-suck-steam-accounts/{64BitSteamID}/saves",
+            "pattern": "*.json",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/1"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40767631,
+      "change_number": 40807840,
       "data": {
         "appinfo": {
           "common": {
@@ -397,11 +426,16 @@
             "publisher": "Critics Arcade"
           },
           "ufs": {
-            "maxnumfiles": "100",
-            "quota": "10000000",
+            "maxnumfiles": "256",
+            "quota": "50000000",
             "savefiles": {
               "0": {
                 "path": "the-big-suck-steam/saves",
+                "pattern": "*.json",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "the-big-suck-steam-accounts/{64BitSteamID}/saves",
                 "pattern": "*.json",
                 "root": "WinAppDataRoaming"
               }
@@ -433,11 +467,11 @@
           }
         }
       },
-      "observed_at": "2026-11-10T03:53:14.869Z",
+      "observed_at": "2026-11-10T19:53:28.129Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T03:53:14.869Z"
+  "updated_at": "2026-11-10T19:53:28.129Z"
 }
