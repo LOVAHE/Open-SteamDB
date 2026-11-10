@@ -505,11 +505,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-10T05:23:25.156Z",
+      "change_number": 40781248,
+      "changes": [
+        {
+          "after": "26557924",
+          "before": "26556258",
+          "op": "replace",
+          "path": "/depots/branches/test/buildid"
+        },
+        {
+          "after": 1794287678,
+          "before": 1794280416,
+          "op": "replace",
+          "path": "/depots/branches/test/timebuildupdated"
+        },
+        {
+          "after": 1794287746,
+          "before": 1794280416,
+          "op": "replace",
+          "path": "/depots/branches/test/timeupdated"
+        },
+        {
+          "after": "2989290234056139746",
+          "before": "8707363907825782311",
+          "op": "replace",
+          "path": "/depots/depots/5118501/manifests/test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40781069,
+      "change_number": 40781248,
       "data": {
         "appinfo": {
           "common": {
@@ -792,10 +824,10 @@
               "timeupdated": 1794238365
             },
             "test": {
-              "buildid": "26556258",
+              "buildid": "26557924",
               "description": "dev testing game here",
-              "timebuildupdated": 1794280416,
-              "timeupdated": 1794280416
+              "timebuildupdated": 1794287678,
+              "timeupdated": 1794287746
             }
           },
           "depots": {
@@ -805,17 +837,17 @@
               },
               "manifests": {
                 "public": "5932814588103772834",
-                "test": "8707363907825782311"
+                "test": "2989290234056139746"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-10T05:08:27.215Z",
+      "observed_at": "2026-11-10T05:23:25.156Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T05:08:27.215Z"
+  "updated_at": "2026-11-10T05:23:25.156Z"
 }
