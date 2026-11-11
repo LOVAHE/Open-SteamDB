@@ -698,11 +698,49 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T04:23:12.085Z",
+      "change_number": 40819976,
+      "changes": [
+        {
+          "after": "26583166",
+          "before": "26533809",
+          "op": "replace",
+          "path": "/depots/branches/beta/buildid"
+        },
+        {
+          "after": 1794370877,
+          "before": 1794207382,
+          "op": "replace",
+          "path": "/depots/branches/beta/timebuildupdated"
+        },
+        {
+          "after": 1794370877,
+          "before": 1794207382,
+          "op": "replace",
+          "path": "/depots/branches/beta/timeupdated"
+        },
+        {
+          "after": "244141572097148025",
+          "before": "4641873589361454500",
+          "op": "replace",
+          "path": "/depots/depots/3569421/manifests/beta"
+        },
+        {
+          "after": "3255639816444045606",
+          "before": "4892100423198708372",
+          "op": "replace",
+          "path": "/depots/depots/3569422/manifests/beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40779846,
+      "change_number": 40819976,
       "data": {
         "appinfo": {
           "common": {
@@ -963,10 +1001,10 @@
         "depots": {
           "branches": {
             "beta": {
-              "buildid": "26533809",
+              "buildid": "26583166",
               "description": "Public beta testing for upcoming updates",
-              "timebuildupdated": 1794207382,
-              "timeupdated": 1794207382
+              "timebuildupdated": 1794370877,
+              "timeupdated": 1794370877
             },
             "crossplaycompatibility": {
               "buildid": "26444530",
@@ -994,7 +1032,7 @@
                 "oslist": "windows,linux"
               },
               "manifests": {
-                "beta": "4641873589361454500",
+                "beta": "244141572097148025",
                 "crossplaycompatibility": "5019290880771635323",
                 "public": "5019290880771635323"
               }
@@ -1004,7 +1042,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "beta": "4892100423198708372",
+                "beta": "3255639816444045606",
                 "crossplaycompatibility": "510923242632881313",
                 "public": "510923242632881313"
               }
@@ -1012,11 +1050,11 @@
           }
         }
       },
-      "observed_at": "2026-11-10T04:08:23.780Z",
+      "observed_at": "2026-11-11T04:23:12.085Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T04:08:23.780Z"
+  "updated_at": "2026-11-11T04:23:12.085Z"
 }
