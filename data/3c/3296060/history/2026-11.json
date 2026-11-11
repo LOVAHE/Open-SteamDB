@@ -755,11 +755,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T20:08:35.246Z",
+      "change_number": 40847030,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26497480",
+            "description": "This build is hotfix #2, if you're having trouble with crossplay use this.",
+            "timebuildupdated": 1794008844,
+            "timeupdated": 1794011728
+          },
+          "op": "add",
+          "path": "/depots/branches/previous_build"
+        },
+        {
+          "after": "2697573429002562772",
+          "op": "add",
+          "path": "/depots/depots/3296061/manifests/previous_build"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40839610,
+      "change_number": 40847030,
       "data": {
         "appinfo": {
           "common": {
@@ -1036,6 +1059,12 @@
         },
         "depots": {
           "branches": {
+            "previous_build": {
+              "buildid": "26497480",
+              "description": "This build is hotfix #2, if you're having trouble with crossplay use this.",
+              "timebuildupdated": 1794008844,
+              "timeupdated": 1794011728
+            },
             "public": {
               "buildid": "26574302",
               "timebuildupdated": 1794339052,
@@ -1051,6 +1080,7 @@
           "depots": {
             "3296061": {
               "manifests": {
+                "previous_build": "2697573429002562772",
                 "public": "6036372899751437340",
                 "releasebuild": "7106069775036966276"
               }
@@ -1058,11 +1088,11 @@
           }
         }
       },
-      "observed_at": "2026-11-11T16:23:23.018Z",
+      "observed_at": "2026-11-11T20:08:35.246Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T16:23:23.018Z"
+  "updated_at": "2026-11-11T20:08:35.246Z"
 }

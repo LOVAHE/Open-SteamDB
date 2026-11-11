@@ -354,11 +354,29 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T20:08:35.246Z",
+      "change_number": 40847369,
+      "changes": [
+        {
+          "after": {
+            "path": "RobotoGames/Stormforge/Saves/{Steam3AccountID}/Cache",
+            "pattern": "*",
+            "recursive": "1",
+            "root": "WinAppDataLocalLow"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40841670,
+      "change_number": 40847369,
       "data": {
         "appinfo": {
           "common": {
@@ -601,6 +619,12 @@
                 "pattern": "*",
                 "recursive": "1",
                 "root": "WinAppDataLocalLow"
+              },
+              "2": {
+                "path": "RobotoGames/Stormforge/Saves/{Steam3AccountID}/Cache",
+                "pattern": "*",
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
               }
             }
           }
@@ -637,11 +661,11 @@
           }
         }
       },
-      "observed_at": "2026-11-11T17:08:34.513Z",
+      "observed_at": "2026-11-11T20:08:35.246Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T17:08:34.513Z"
+  "updated_at": "2026-11-11T20:08:35.246Z"
 }

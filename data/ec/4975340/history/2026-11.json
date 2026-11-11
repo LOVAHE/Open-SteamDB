@@ -244,11 +244,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T20:08:35.246Z",
+      "change_number": 40847215,
+      "changes": [
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26600334",
+          "before": "26572972",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794426804,
+          "before": 1794334951,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794427389,
+          "before": 1794335352,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8492211725852138320",
+          "op": "add",
+          "path": "/depots/depots/4975342/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40846852,
+      "change_number": 40847215,
       "data": {
         "appinfo": {
           "common": {
@@ -340,7 +377,7 @@
             "name": "3D Bumper Billiards",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,linux",
             "primary_genre": "23",
             "small_capsule": {
               "english": "aa2f5f6624ac9df60b523a64c378037901fda335/capsule_231x87.jpg"
@@ -394,9 +431,9 @@
               "timeupdated": 1794426804
             },
             "public": {
-              "buildid": "26572972",
-              "timebuildupdated": 1794334951,
-              "timeupdated": 1794335352
+              "buildid": "26600334",
+              "timebuildupdated": 1794426804,
+              "timeupdated": 1794427389
             }
           },
           "depots": {
@@ -414,17 +451,18 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "launch-qa": "8492211725852138320"
+                "launch-qa": "8492211725852138320",
+                "public": "8492211725852138320"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-11T19:53:26.617Z",
+      "observed_at": "2026-11-11T20:08:35.246Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T19:53:26.617Z"
+  "updated_at": "2026-11-11T20:08:35.246Z"
 }
