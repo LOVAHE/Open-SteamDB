@@ -183,11 +183,35 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T03:38:14.407Z",
+      "change_number": 40818885,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "100",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "LiquidMeowGames/ShadowFruitDuelDemo",
+                "pattern": "*",
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40818769,
+      "change_number": 40818885,
       "data": {
         "appinfo": {
           "common": {
@@ -326,6 +350,18 @@
           "extended": {
             "developer": "Gaseous Cat Games",
             "publisher": "Gaseous Cat Games"
+          },
+          "ufs": {
+            "maxnumfiles": "100",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "LiquidMeowGames/ShadowFruitDuelDemo",
+                "pattern": "*",
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -345,11 +381,11 @@
           }
         }
       },
-      "observed_at": "2026-11-11T03:23:10.106Z",
+      "observed_at": "2026-11-11T03:38:14.407Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T03:23:10.106Z"
+  "updated_at": "2026-11-11T03:38:14.407Z"
 }
