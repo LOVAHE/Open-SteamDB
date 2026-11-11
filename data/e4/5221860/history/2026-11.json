@@ -1477,11 +1477,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T16:23:23.018Z",
+      "change_number": 40839810,
+      "changes": [
+        {
+          "after": "26595929",
+          "before": "26595435",
+          "op": "replace",
+          "path": "/depots/branches/beta/buildid"
+        },
+        {
+          "after": 1794413705,
+          "before": 1794412456,
+          "op": "replace",
+          "path": "/depots/branches/beta/timebuildupdated"
+        },
+        {
+          "after": 1794413717,
+          "before": 1794412468,
+          "op": "replace",
+          "path": "/depots/branches/beta/timeupdated"
+        },
+        {
+          "after": "7480030422134300733",
+          "before": "368369600441742691",
+          "op": "replace",
+          "path": "/depots/depots/5221863/manifests/beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40839010,
+      "change_number": 40839810,
       "data": {
         "appinfo": {
           "common": {
@@ -1767,10 +1799,10 @@
         "depots": {
           "branches": {
             "beta": {
-              "buildid": "26595435",
+              "buildid": "26595929",
               "description": "Beta Branch",
-              "timebuildupdated": 1794412456,
-              "timeupdated": 1794412468
+              "timebuildupdated": 1794413705,
+              "timeupdated": 1794413717
             },
             "nov4-2026": {
               "buildid": "26434707",
@@ -1803,7 +1835,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "beta": "368369600441742691",
+                "beta": "7480030422134300733",
                 "nov4-2026": "7949715966533878280",
                 "public": "368369600441742691"
               }
@@ -1811,7 +1843,7 @@
           }
         }
       },
-      "observed_at": "2026-11-11T15:53:31.587Z",
+      "observed_at": "2026-11-11T16:23:23.018Z",
       "tracked": true
     },
     "steam_store": {
@@ -2130,5 +2162,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T15:53:31.587Z"
+  "updated_at": "2026-11-11T16:23:23.018Z"
 }
