@@ -249,11 +249,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T02:23:31.208Z",
+      "change_number": 40816040,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "os": "Linux",
+              "oscompare": "=",
+              "pathtransforms": {
+                "0": {
+                  "find": "GloomBreak",
+                  "replace": ".config/GloomBreak"
+                }
+              },
+              "root": "WinAppDataRoaming",
+              "useinstead": "LinuxHome"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "after": "WinAppDataRoaming",
+          "before": "WinAppDataLocal",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/root"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40813495,
+      "change_number": 40816040,
       "data": {
         "appinfo": {
           "common": {
@@ -400,11 +432,25 @@
           "ufs": {
             "maxnumfiles": "2",
             "quota": "10000000",
+            "rootoverrides": {
+              "0": {
+                "os": "Linux",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "GloomBreak",
+                    "replace": ".config/GloomBreak"
+                  }
+                },
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxHome"
+              }
+            },
             "savefiles": {
               "0": {
                 "path": "GloomBreak",
                 "pattern": "*.sav",
-                "root": "WinAppDataLocal"
+                "root": "WinAppDataRoaming"
               }
             }
           }
@@ -439,11 +485,11 @@
           }
         }
       },
-      "observed_at": "2026-11-10T23:53:27.910Z",
+      "observed_at": "2026-11-11T02:23:31.208Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T23:53:27.910Z"
+  "updated_at": "2026-11-11T02:23:31.208Z"
 }

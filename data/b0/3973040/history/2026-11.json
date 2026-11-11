@@ -191,11 +191,53 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T02:23:31.208Z",
+      "change_number": 40817405,
+      "changes": [
+        {
+          "after": "80",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "26581113",
+          "before": "26573866",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794363312,
+          "before": 1794337613,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794363564,
+          "before": 1794337672,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5298805233601986733",
+          "before": "1142769001616825684",
+          "op": "replace",
+          "path": "/depots/depots/3973041/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40806773,
+      "change_number": 40817405,
       "data": {
         "appinfo": {
           "common": {
@@ -292,6 +334,8 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "4",
+            "review_percentage": "80",
+            "review_score": "7",
             "small_capsule": {
               "english": "0a6bc3c728de3e765f1c05647ed1f8201ef954d3/capsule_231x87.jpg"
             },
@@ -351,9 +395,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26573866",
-              "timebuildupdated": 1794337613,
-              "timeupdated": 1794337672
+              "buildid": "26581113",
+              "timebuildupdated": 1794363312,
+              "timeupdated": 1794363564
             }
           },
           "depots": {
@@ -367,17 +411,17 @@
             },
             "3973041": {
               "manifests": {
-                "public": "1142769001616825684"
+                "public": "5298805233601986733"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-10T21:08:23.579Z",
+      "observed_at": "2026-11-11T02:23:31.208Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T21:08:23.579Z"
+  "updated_at": "2026-11-11T02:23:31.208Z"
 }

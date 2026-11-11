@@ -693,11 +693,73 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T02:23:31.208Z",
+      "change_number": 40816329,
+      "changes": [
+        {
+          "after": "26580516",
+          "before": "26554891",
+          "op": "replace",
+          "path": "/depots/branches/beta/buildid"
+        },
+        {
+          "after": 1794361186,
+          "before": 1794275513,
+          "op": "replace",
+          "path": "/depots/branches/beta/timebuildupdated"
+        },
+        {
+          "after": 1794361210,
+          "before": 1794275536,
+          "op": "replace",
+          "path": "/depots/branches/beta/timeupdated"
+        },
+        {
+          "after": "26580516",
+          "before": "26525157",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794361186,
+          "before": 1794165709,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794361302,
+          "before": 1794184264,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8557437574433682424",
+          "before": "376986312891057402",
+          "op": "replace",
+          "path": "/depots/depots/5039371/manifests/beta"
+        },
+        {
+          "after": "8557437574433682424",
+          "before": "2820874127763011710",
+          "op": "replace",
+          "path": "/depots/depots/5039371/manifests/public"
+        },
+        {
+          "after": "3010553593870821380",
+          "before": "5283944644871335195",
+          "op": "replace",
+          "path": "/depots/depots/5039372/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40776969,
+      "change_number": 40816329,
       "data": {
         "appinfo": {
           "common": {
@@ -841,15 +903,15 @@
         "depots": {
           "branches": {
             "beta": {
-              "buildid": "26554891",
+              "buildid": "26580516",
               "description": "Beta Testing",
-              "timebuildupdated": 1794275513,
-              "timeupdated": 1794275536
+              "timebuildupdated": 1794361186,
+              "timeupdated": 1794361210
             },
             "public": {
-              "buildid": "26525157",
-              "timebuildupdated": 1794165709,
-              "timeupdated": 1794184264
+              "buildid": "26580516",
+              "timebuildupdated": 1794361186,
+              "timeupdated": 1794361302
             }
           },
           "depots": {
@@ -859,8 +921,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "beta": "376986312891057402",
-                "public": "2820874127763011710"
+                "beta": "8557437574433682424",
+                "public": "8557437574433682424"
               }
             },
             "5039372": {
@@ -870,17 +932,17 @@
               },
               "manifests": {
                 "beta": "3010553593870821380",
-                "public": "5283944644871335195"
+                "public": "3010553593870821380"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-10T02:23:19.569Z",
+      "observed_at": "2026-11-11T02:23:31.208Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T02:23:19.569Z"
+  "updated_at": "2026-11-11T02:23:31.208Z"
 }

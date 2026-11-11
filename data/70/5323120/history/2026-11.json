@@ -344,11 +344,27 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T02:23:31.208Z",
+      "change_number": 40814405,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "10000",
+            "quota": "10000000000"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40813812,
+      "change_number": 40814405,
       "data": {
         "appinfo": {
           "common": {
@@ -484,6 +500,10 @@
             "developer": "KILLZARSS",
             "homepage": "https://gaoarc.com/",
             "publisher": "KILLZARSS"
+          },
+          "ufs": {
+            "maxnumfiles": "10000",
+            "quota": "10000000000"
           }
         },
         "depots": {
@@ -551,11 +571,11 @@
           }
         }
       },
-      "observed_at": "2026-11-10T23:53:27.910Z",
+      "observed_at": "2026-11-11T02:23:31.208Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T23:53:27.910Z"
+  "updated_at": "2026-11-11T02:23:31.208Z"
 }
