@@ -323,11 +323,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T13:23:20.664Z",
+      "change_number": 40833645,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26563247",
+            "description": "1.0.1 – Previous build for continuing old Story Mode saves",
+            "timebuildupdated": 1794307170,
+            "timeupdated": 1794307211
+          },
+          "op": "add",
+          "path": "/depots/branches/legacy-1.0.1"
+        },
+        {
+          "after": "26591807",
+          "before": "26563247",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794402353,
+          "before": 1794307170,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794402598,
+          "before": 1794307211,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "750071491575731184",
+          "op": "add",
+          "path": "/depots/depots/4838131/manifests/legacy-1.0.1"
+        },
+        {
+          "after": "4375950015134804382",
+          "before": "750071491575731184",
+          "op": "replace",
+          "path": "/depots/depots/4838131/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40828319,
+      "change_number": 40833645,
       "data": {
         "appinfo": {
           "common": {
@@ -514,26 +561,33 @@
         },
         "depots": {
           "branches": {
-            "public": {
+            "legacy-1.0.1": {
               "buildid": "26563247",
+              "description": "1.0.1 – Previous build for continuing old Story Mode saves",
               "timebuildupdated": 1794307170,
               "timeupdated": 1794307211
+            },
+            "public": {
+              "buildid": "26591807",
+              "timebuildupdated": 1794402353,
+              "timeupdated": 1794402598
             }
           },
           "depots": {
             "4838131": {
               "manifests": {
-                "public": "750071491575731184"
+                "legacy-1.0.1": "750071491575731184",
+                "public": "4375950015134804382"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-11T10:08:21.712Z",
+      "observed_at": "2026-11-11T13:23:20.664Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T10:08:21.712Z"
+  "updated_at": "2026-11-11T13:23:20.664Z"
 }
