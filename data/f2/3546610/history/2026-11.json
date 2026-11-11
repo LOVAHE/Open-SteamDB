@@ -1483,11 +1483,35 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T10:08:21.712Z",
+      "change_number": 40828266,
+      "changes": [
+        {
+          "after": {
+            "os": "Linux",
+            "oscompare": "=",
+            "pathtransforms": {
+              "0": {
+                "find": "Lavapotion/wielders-of-the-essence/[User]",
+                "replace": ".config/unity3d/Lavapotion/wielders-of-the-essence/[User]"
+              }
+            },
+            "root": "WinAppDataLocalLow",
+            "useinstead": "LinuxHome"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides/1"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40827059,
+      "change_number": 40828266,
       "data": {
         "appinfo": {
           "common": {
@@ -1773,6 +1797,18 @@
                 },
                 "root": "WinAppDataLocalLow",
                 "useinstead": "MacAppSupport"
+              },
+              "1": {
+                "os": "Linux",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Lavapotion/wielders-of-the-essence/[User]",
+                    "replace": ".config/unity3d/Lavapotion/wielders-of-the-essence/[User]"
+                  }
+                },
+                "root": "WinAppDataLocalLow",
+                "useinstead": "LinuxHome"
               }
             },
             "savefiles": {
@@ -1852,11 +1888,11 @@
           }
         }
       },
-      "observed_at": "2026-11-11T09:23:26.317Z",
+      "observed_at": "2026-11-11T10:08:21.712Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T09:23:26.317Z"
+  "updated_at": "2026-11-11T10:08:21.712Z"
 }
