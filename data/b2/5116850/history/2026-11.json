@@ -213,11 +213,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T09:08:20.030Z",
+      "change_number": 40826489,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26586920",
+            "description": "GFN Diag",
+            "timebuildupdated": 1794386818,
+            "timeupdated": 1794386818
+          },
+          "op": "remove",
+          "path": "/depots/branches/gfn-diag"
+        },
+        {
+          "before": "5771029521905401701",
+          "op": "remove",
+          "path": "/depots/depots/5116851/manifests/gfn-diag"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40825919,
+      "change_number": 40826489,
       "data": {
         "appinfo": {
           "common": {
@@ -379,12 +402,6 @@
         },
         "depots": {
           "branches": {
-            "gfn-diag": {
-              "buildid": "26586920",
-              "description": "GFN Diag",
-              "timebuildupdated": 1794386818,
-              "timeupdated": 1794386818
-            },
             "public": {
               "buildid": "26376906",
               "timebuildupdated": 1793614848,
@@ -394,18 +411,17 @@
           "depots": {
             "5116851": {
               "manifests": {
-                "gfn-diag": "5771029521905401701",
                 "public": "1884687238253316040"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-11T08:53:19.306Z",
+      "observed_at": "2026-11-11T09:08:20.030Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T08:53:19.306Z"
+  "updated_at": "2026-11-11T09:08:20.030Z"
 }
