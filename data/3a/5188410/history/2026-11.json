@@ -195,11 +195,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T18:28:29.517Z",
+      "change_number": 40844309,
+      "changes": [
+        {
+          "after": "1794421287",
+          "before": "1794172440",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/ukrainian"
+        },
+        {
+          "after": "26597863",
+          "before": "26530051",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794419326,
+          "before": 1794189051,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794421509,
+          "before": 1794189750,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1457035747686287072",
+          "before": "4144003183138894027",
+          "op": "replace",
+          "path": "/depots/depots/5188411/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40739718,
+      "change_number": 40844309,
       "data": {
         "appinfo": {
           "common": {
@@ -296,9 +343,14 @@
               "english": "c4775f4e0000119ec5eb5adee65dbb1f3b71c0b4/capsule_231x87.jpg"
             },
             "steam_release_date": "1793803857",
-            "store_asset_mtime": "1794172440",
+            "store_asset_mtime": "1794421287",
             "supported_languages": {
               "english": {
+                "full_audio": "true",
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "ukrainian": {
                 "full_audio": "true",
                 "subtitles": "true",
                 "supported": "true"
@@ -317,25 +369,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26530051",
-              "timebuildupdated": 1794189051,
-              "timeupdated": 1794189750
+              "buildid": "26597863",
+              "timebuildupdated": 1794419326,
+              "timeupdated": 1794421509
             }
           },
           "depots": {
             "5188411": {
               "manifests": {
-                "public": "4144003183138894027"
+                "public": "1457035747686287072"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-09T15:23:25.939Z",
+      "observed_at": "2026-11-11T18:28:29.517Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T15:23:25.939Z"
+  "updated_at": "2026-11-11T18:28:29.517Z"
 }
