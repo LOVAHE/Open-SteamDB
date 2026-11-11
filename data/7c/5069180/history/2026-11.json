@@ -204,11 +204,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T14:23:20.075Z",
+      "change_number": 40836098,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26593451",
+            "description": "test",
+            "timebuildupdated": 1794406939,
+            "timeupdated": 1794406939
+          },
+          "op": "add",
+          "path": "/depots/branches/test"
+        },
+        {
+          "after": "1717763390221611000",
+          "op": "add",
+          "path": "/depots/depots/5069181/manifests/test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40833675,
+      "change_number": 40836098,
       "data": {
         "appinfo": {
           "common": {
@@ -372,22 +395,29 @@
               "buildid": "26422688",
               "timebuildupdated": 1793763766,
               "timeupdated": 1793764098
+            },
+            "test": {
+              "buildid": "26593451",
+              "description": "test",
+              "timebuildupdated": 1794406939,
+              "timeupdated": 1794406939
             }
           },
           "depots": {
             "5069181": {
               "manifests": {
-                "public": "2807370910076048934"
+                "public": "2807370910076048934",
+                "test": "1717763390221611000"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-11T13:23:20.664Z",
+      "observed_at": "2026-11-11T14:23:20.075Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T13:23:20.664Z"
+  "updated_at": "2026-11-11T14:23:20.075Z"
 }
