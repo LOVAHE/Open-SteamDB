@@ -942,11 +942,65 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T12:53:20.199Z",
+      "change_number": 40833116,
+      "changes": [
+        {
+          "after": "Experimental Version",
+          "before": "Experimental same version as default",
+          "op": "replace",
+          "path": "/depots/branches/experimental/description"
+        },
+        {
+          "before": {
+            "buildid": "26504653",
+            "description": "Further version experimental",
+            "timebuildupdated": 1794049475,
+            "timeupdated": 1794049541
+          },
+          "op": "remove",
+          "path": "/depots/branches/experimental-2"
+        },
+        {
+          "before": {
+            "buildid": "26358976",
+            "description": "8 player coop exp (no zomb.)",
+            "timebuildupdated": 1793529249,
+            "timeupdated": 1793539878
+          },
+          "op": "remove",
+          "path": "/depots/branches/experimental-3"
+        },
+        {
+          "before": "843812148907485744",
+          "op": "remove",
+          "path": "/depots/depots/5024541/manifests/experimental-2"
+        },
+        {
+          "before": "2894857955634655728",
+          "op": "remove",
+          "path": "/depots/depots/5024541/manifests/experimental-3"
+        },
+        {
+          "before": "1056664466884063080",
+          "op": "remove",
+          "path": "/depots/depots/5024542/manifests/experimental-2"
+        },
+        {
+          "before": "6053853189503310531",
+          "op": "remove",
+          "path": "/depots/depots/5024542/manifests/experimental-3"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40830346,
+      "change_number": 40833116,
       "data": {
         "appinfo": {
           "common": {
@@ -1175,21 +1229,9 @@
           "branches": {
             "experimental": {
               "buildid": "26504653",
-              "description": "Experimental same version as default",
+              "description": "Experimental Version",
               "timebuildupdated": 1794049475,
               "timeupdated": 1794049970
-            },
-            "experimental-2": {
-              "buildid": "26504653",
-              "description": "Further version experimental",
-              "timebuildupdated": 1794049475,
-              "timeupdated": 1794049541
-            },
-            "experimental-3": {
-              "buildid": "26358976",
-              "description": "8 player coop exp (no zomb.)",
-              "timebuildupdated": 1793529249,
-              "timeupdated": 1793539878
             },
             "pre-version": {
               "buildid": "26419334",
@@ -1210,8 +1252,6 @@
               },
               "manifests": {
                 "experimental": "843812148907485744",
-                "experimental-2": "843812148907485744",
-                "experimental-3": "2894857955634655728",
                 "pre-version": "4049609170153320466",
                 "public": "843812148907485744"
               }
@@ -1222,8 +1262,6 @@
               },
               "manifests": {
                 "experimental": "1056664466884063080",
-                "experimental-2": "1056664466884063080",
-                "experimental-3": "6053853189503310531",
                 "pre-version": "5321687632485172088",
                 "public": "1056664466884063080"
               }
@@ -1231,11 +1269,11 @@
           }
         }
       },
-      "observed_at": "2026-11-11T11:23:26.044Z",
+      "observed_at": "2026-11-11T12:53:20.199Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T11:23:26.044Z"
+  "updated_at": "2026-11-11T12:53:20.199Z"
 }
