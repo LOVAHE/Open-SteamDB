@@ -1,8 +1,8 @@
 {
   "appid": 5365360,
   "source": "steam_pics",
-  "updated_at": "2026-11-11T22:38:28.136Z",
-  "change_number": 40851154,
+  "updated_at": "2026-11-11T22:53:27.889Z",
+  "change_number": 40851712,
   "data": {
     "common": {
       "associations": {
@@ -156,12 +156,31 @@
       "installdir": "ColdBurn"
     },
     "ufs": {
-      "maxnumfiles": "20",
+      "maxnumfiles": "100",
       "quota": "10000000",
       "savefiles": {
         "0": {
-          "path": "ColdBurn\\Saved",
-          "pattern": "*.json",
+          "path": "ColdBurn/Saved/{64BitSteamID}\t",
+          "pattern": "coldburn.slot*.json",
+          "platforms": {
+            "1": "Windows"
+          },
+          "root": "WinAppDataLocal"
+        },
+        "1": {
+          "path": "ColdBurn/Saved/{64BitSteamID}",
+          "pattern": "coldburn.mp*.json",
+          "platforms": {
+            "1": "Windows"
+          },
+          "root": "WinAppDataLocal"
+        },
+        "2": {
+          "path": "ColdBurn/Saved/{64BitSteamID}",
+          "pattern": "coldburn.profile*.json",
+          "platforms": {
+            "1": "Windows"
+          },
           "root": "WinAppDataLocal"
         }
       }
