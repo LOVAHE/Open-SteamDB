@@ -332,11 +332,37 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T06:38:23.528Z",
+      "change_number": 40822553,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "50",
+            "quota": "100000000",
+            "savefiles": {
+              "0": {
+                "path": "CoffeeShopSimulator/Saved/SaveGames",
+                "pattern": "*.sav",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocal"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40764892,
+      "change_number": 40822553,
       "data": {
         "appinfo": {
           "common": {
@@ -518,6 +544,20 @@
           "extended": {
             "developer": "LEX's Games",
             "publisher": "LEX's Games"
+          },
+          "ufs": {
+            "maxnumfiles": "50",
+            "quota": "100000000",
+            "savefiles": {
+              "0": {
+                "path": "CoffeeShopSimulator/Saved/SaveGames",
+                "pattern": "*.sav",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocal"
+              }
+            }
           }
         },
         "depots": {
@@ -556,11 +596,11 @@
           }
         }
       },
-      "observed_at": "2026-11-09T18:34:11.283Z",
+      "observed_at": "2026-11-11T06:38:23.528Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T18:34:11.283Z"
+  "updated_at": "2026-11-11T06:38:23.528Z"
 }
