@@ -289,11 +289,41 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T11:38:35.674Z",
+      "change_number": 40830877,
+      "changes": [
+        {
+          "after": "73",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "6",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "windows"
+            },
+            "depotfromapp": 228980,
+            "manifests": {},
+            "sharedinstall": true
+          },
+          "op": "add",
+          "path": "/depots/depots/228989"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40567886,
+      "change_number": 40830877,
       "data": {
         "appinfo": {
           "common": {
@@ -404,6 +434,8 @@
             "oslist": "windows,macos,linux",
             "parent": "5031210",
             "primary_genre": "28",
+            "review_percentage": "73",
+            "review_score": "6",
             "small_capsule": {
               "english": "31778eaa21b915c8de05308c07bc16338dcb3470/capsule_231x87.jpg",
               "german": "6c7cd0c0a71c975d27b73678c6fe6cddda5b56b7/capsule_231x87_german.jpg"
@@ -490,6 +522,14 @@
             }
           },
           "depots": {
+            "228989": {
+              "config": {
+                "oslist": "windows"
+              },
+              "depotfromapp": 228980,
+              "manifests": {},
+              "sharedinstall": true
+            },
             "5324961": {
               "config": {
                 "oslist": "windows"
@@ -517,11 +557,11 @@
           }
         }
       },
-      "observed_at": "2026-11-09T15:53:28.916Z",
+      "observed_at": "2026-11-11T11:38:35.674Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T15:53:28.916Z"
+  "updated_at": "2026-11-11T11:38:35.674Z"
 }
