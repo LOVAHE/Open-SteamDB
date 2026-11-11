@@ -228,11 +228,48 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T15:23:31.699Z",
+      "change_number": 40837963,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "10",
+            "quota": "536870912",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "The Restoration Studio",
+                "pattern": "save.json",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "The Restoration Studio",
+                "pattern": "save.bak.json",
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40499365,
+      "change_number": 40837963,
       "data": {
         "appinfo": {
           "common": {
@@ -421,6 +458,31 @@
           "extended": {
             "developer": "JJJI STUDIO",
             "publisher": "JJJI STUDIO"
+          },
+          "ufs": {
+            "maxnumfiles": "10",
+            "quota": "536870912",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "The Restoration Studio",
+                "pattern": "save.json",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "The Restoration Studio",
+                "pattern": "save.bak.json",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -440,11 +502,11 @@
           }
         }
       },
-      "observed_at": "2026-11-02T07:37:57.443Z",
+      "observed_at": "2026-11-11T15:23:31.699Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-02T07:37:57.443Z"
+  "updated_at": "2026-11-11T15:23:31.699Z"
 }

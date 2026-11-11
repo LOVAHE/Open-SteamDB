@@ -593,11 +593,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T15:23:31.699Z",
+      "change_number": 40838006,
+      "changes": [
+        {
+          "after": "20",
+          "before": "10",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "30000000",
+          "before": "10000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40836898,
+      "change_number": 40838006,
       "data": {
         "appinfo": {
           "common": {
@@ -874,8 +894,8 @@
             "publisher": "Funday Games"
           },
           "ufs": {
-            "maxnumfiles": "10",
-            "quota": "10000000",
+            "maxnumfiles": "20",
+            "quota": "30000000",
             "rootoverrides": {
               "0": {
                 "addpath": "",
@@ -927,11 +947,11 @@
           }
         }
       },
-      "observed_at": "2026-11-11T14:53:23.655Z",
+      "observed_at": "2026-11-11T15:23:31.699Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T14:53:23.655Z"
+  "updated_at": "2026-11-11T15:23:31.699Z"
 }
