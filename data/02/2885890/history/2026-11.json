@@ -281,11 +281,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T18:12:28.853Z",
+      "change_number": 40843657,
+      "changes": [
+        {
+          "after": "10",
+          "before": "2",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "26580336",
+          "before": "26446626",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794360502,
+          "before": 1793840939,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794420241,
+          "before": 1793840989,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1571572867789681448",
+          "before": "3473111160542111183",
+          "op": "replace",
+          "path": "/depots/depots/2885891/manifests/public"
+        },
+        {
+          "after": "3495492351749587865",
+          "before": "3753530346014671963",
+          "op": "replace",
+          "path": "/depots/depots/2885892/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40816040,
+      "change_number": 40843657,
       "data": {
         "appinfo": {
           "common": {
@@ -430,7 +474,7 @@
             "publisher": "rcab"
           },
           "ufs": {
-            "maxnumfiles": "2",
+            "maxnumfiles": "10",
             "quota": "10000000",
             "rootoverrides": {
               "0": {
@@ -458,9 +502,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26446626",
-              "timebuildupdated": 1793840939,
-              "timeupdated": 1793840989
+              "buildid": "26580336",
+              "timebuildupdated": 1794360502,
+              "timeupdated": 1794420241
             }
           },
           "depots": {
@@ -470,7 +514,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "3473111160542111183"
+                "public": "1571572867789681448"
               }
             },
             "2885892": {
@@ -479,17 +523,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "3753530346014671963"
+                "public": "3495492351749587865"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-11T02:23:31.208Z",
+      "observed_at": "2026-11-11T18:12:28.853Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T02:23:31.208Z"
+  "updated_at": "2026-11-11T18:12:28.853Z"
 }
