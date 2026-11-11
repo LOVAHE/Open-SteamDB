@@ -201,11 +201,31 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T03:23:10.106Z",
+      "change_number": 40817686,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40781995,
+      "change_number": 40817686,
       "data": {
         "appinfo": {
           "common": {
@@ -306,8 +326,8 @@
             },
             "name": "ASCENT: MASKLINGS",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "primary_genre": "1",
             "small_capsule": {
               "english": "0465a634b90e0590a226e180ec824c08b4539d5e/capsule_231x87.jpg"
@@ -393,11 +413,11 @@
           }
         }
       },
-      "observed_at": "2026-11-10T06:53:16.691Z",
+      "observed_at": "2026-11-11T03:23:10.106Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T06:53:16.691Z"
+  "updated_at": "2026-11-11T03:23:10.106Z"
 }
