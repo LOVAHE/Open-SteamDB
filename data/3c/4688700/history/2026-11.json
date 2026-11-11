@@ -862,11 +862,25 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-11T13:38:14.505Z",
+      "change_number": 40834284,
+      "changes": [
+        {
+          "after": "524288000",
+          "before": "104857600",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40758887,
+      "change_number": 40834284,
       "data": {
         "appinfo": {
           "common": {
@@ -1107,7 +1121,7 @@
           },
           "ufs": {
             "maxnumfiles": "100",
-            "quota": "104857600"
+            "quota": "524288000"
           }
         },
         "depots": {
@@ -1127,11 +1141,11 @@
           }
         }
       },
-      "observed_at": "2026-11-09T15:38:22.598Z",
+      "observed_at": "2026-11-11T13:38:14.505Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T15:38:22.598Z"
+  "updated_at": "2026-11-11T13:38:14.505Z"
 }
