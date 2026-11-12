@@ -341,11 +341,68 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T19:53:36.010Z",
+      "change_number": 40887203,
+      "changes": [
+        {
+          "after": "*.json",
+          "before": "*",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/pattern"
+        },
+        {
+          "before": {
+            "1": "Windows"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/0/platforms"
+        },
+        {
+          "after": "26625773",
+          "before": "26581695",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794510654,
+          "before": 1794365244,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794512855,
+          "before": 1794365318,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4092814826751034379",
+          "before": "7201632029436616600",
+          "op": "replace",
+          "path": "/depots/depots/4739501/manifests/public"
+        },
+        {
+          "after": "5229864682605286862",
+          "before": "5829665215196996043",
+          "op": "replace",
+          "path": "/depots/depots/4739502/manifests/public"
+        },
+        {
+          "after": "8497634755283793464",
+          "before": "6548589589067419959",
+          "op": "replace",
+          "path": "/depots/depots/4739504/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40886398,
+      "change_number": 40887203,
       "data": {
         "appinfo": {
           "common": {
@@ -560,10 +617,7 @@
             "savefiles": {
               "0": {
                 "path": "Godot/app_userdata/JOHN GLEEP/saves",
-                "pattern": "*",
-                "platforms": {
-                  "1": "Windows"
-                },
+                "pattern": "*.json",
                 "recursive": "1",
                 "root": "WinAppDataRoaming"
               }
@@ -573,9 +627,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26581695",
-              "timebuildupdated": 1794365244,
-              "timeupdated": 1794365318
+              "buildid": "26625773",
+              "timebuildupdated": 1794510654,
+              "timeupdated": 1794512855
             },
             "public_beta": {
               "buildid": "26581695",
@@ -587,7 +641,7 @@
           "depots": {
             "4739501": {
               "manifests": {
-                "public": "7201632029436616600",
+                "public": "4092814826751034379",
                 "public_beta": "7201632029436616600"
               }
             },
@@ -597,7 +651,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "5829665215196996043",
+                "public": "5229864682605286862",
                 "public_beta": "5829665215196996043"
               }
             },
@@ -616,18 +670,18 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "6548589589067419959",
+                "public": "8497634755283793464",
                 "public_beta": "6548589589067419959"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-12T19:23:36.158Z",
+      "observed_at": "2026-11-12T19:53:36.010Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T19:23:36.158Z"
+  "updated_at": "2026-11-12T19:53:36.010Z"
 }
