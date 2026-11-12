@@ -489,11 +489,47 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T10:08:50.792Z",
+      "change_number": 40867557,
+      "changes": [
+        {
+          "after": "d06942d236067cca0921360366c282e7bbddea1a/header.jpg",
+          "before": "d249c3c38f6b214312cb14a0014e57fb77dcdcdd/header.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/header_image/english"
+        },
+        {
+          "after": "e2d8e70d275af4ca7782cb1c17fd7f2e9d6350ad/header_schinese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/header_image/schinese"
+        },
+        {
+          "after": "02ec2c3ba2f5640f3a25cf723548d0edac6d13a2/capsule_231x87.jpg",
+          "before": "1de165b7109940242d2da6745ee8ddec10008924/capsule_231x87.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/small_capsule/english"
+        },
+        {
+          "after": "b05f6eb0356f0535effda4a6a2f7e673d9ae741e/capsule_231x87_schinese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/small_capsule/schinese"
+        },
+        {
+          "after": "1794477928",
+          "before": "1792649876",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40786616,
+      "change_number": 40867557,
       "data": {
         "appinfo": {
           "common": {
@@ -528,7 +564,8 @@
               "2": "28"
             },
             "header_image": {
-              "english": "d249c3c38f6b214312cb14a0014e57fb77dcdcdd/header.jpg"
+              "english": "d06942d236067cca0921360366c282e7bbddea1a/header.jpg",
+              "schinese": "e2d8e70d275af4ca7782cb1c17fd7f2e9d6350ad/header_schinese.jpg"
             },
             "icon": "9d7642f4f7713fe267d3ddf12c32e8e151f07f1b",
             "library_assets": {
@@ -593,10 +630,11 @@
             "oslist": "windows",
             "primary_genre": "23",
             "small_capsule": {
-              "english": "1de165b7109940242d2da6745ee8ddec10008924/capsule_231x87.jpg"
+              "english": "02ec2c3ba2f5640f3a25cf723548d0edac6d13a2/capsule_231x87.jpg",
+              "schinese": "b05f6eb0356f0535effda4a6a2f7e673d9ae741e/capsule_231x87_schinese.jpg"
             },
             "steam_release_date": "1793992276",
-            "store_asset_mtime": "1792649876",
+            "store_asset_mtime": "1794477928",
             "store_tags": {
               "0": "615955",
               "1": "97376",
@@ -687,11 +725,11 @@
           }
         }
       },
-      "observed_at": "2026-11-10T09:23:19.155Z",
+      "observed_at": "2026-11-12T10:08:50.792Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T09:23:19.155Z"
+  "updated_at": "2026-11-12T10:08:50.792Z"
 }
