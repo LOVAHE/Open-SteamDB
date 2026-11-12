@@ -245,11 +245,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T19:38:22.958Z",
+      "change_number": 40886580,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26625937",
+            "description": "Private pre-release version",
+            "timebuildupdated": 1794511110,
+            "timeupdated": 1794511323
+          },
+          "op": "remove",
+          "path": "/depots/branches/pre-release"
+        },
+        {
+          "after": "26625937",
+          "before": "25968302",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794511110,
+          "before": 1792090748,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794511593,
+          "before": 1792090813,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": "6245350406630309658",
+          "op": "remove",
+          "path": "/depots/depots/4995441/manifests/pre-release"
+        },
+        {
+          "after": "6245350406630309658",
+          "before": "5283157854556863175",
+          "op": "replace",
+          "path": "/depots/depots/4995441/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40886433,
+      "change_number": 40886580,
       "data": {
         "appinfo": {
           "common": {
@@ -430,16 +477,10 @@
         },
         "depots": {
           "branches": {
-            "pre-release": {
-              "buildid": "26625937",
-              "description": "Private pre-release version",
-              "timebuildupdated": 1794511110,
-              "timeupdated": 1794511323
-            },
             "public": {
-              "buildid": "25968302",
-              "timebuildupdated": 1792090748,
-              "timeupdated": 1792090813
+              "buildid": "26625937",
+              "timebuildupdated": 1794511110,
+              "timeupdated": 1794511593
             }
           },
           "depots": {
@@ -458,18 +499,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "pre-release": "6245350406630309658",
-                "public": "5283157854556863175"
+                "public": "6245350406630309658"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-12T19:23:36.158Z",
+      "observed_at": "2026-11-12T19:38:22.958Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T19:23:36.158Z"
+  "updated_at": "2026-11-12T19:38:22.958Z"
 }
