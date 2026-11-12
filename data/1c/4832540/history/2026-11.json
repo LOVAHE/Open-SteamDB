@@ -774,11 +774,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T22:53:27.004Z",
+      "change_number": 40892294,
+      "changes": [
+        {
+          "after": "MultiScopeATC",
+          "before": "save_",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/pathtransforms/0/find"
+        },
+        {
+          "after": "MultiScopeATC",
+          "before": "Library/Application Support/MultiScopeATC",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/pathtransforms/0/replace"
+        },
+        {
+          "after": "MacAppSupport",
+          "before": "MacHome",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/useinstead"
+        },
+        {
+          "after": "MultiScopeATC",
+          "before": "save_",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/1/pathtransforms/0/find"
+        },
+        {
+          "after": "MultiScopeATC",
+          "before": ".local/share/MultiScopeATC",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/1/pathtransforms/0/replace"
+        },
+        {
+          "after": "LinuxXdgDataHome",
+          "before": "LinuxHome",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/1/useinstead"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40872512,
+      "change_number": 40892294,
       "data": {
         "appinfo": {
           "common": {
@@ -949,24 +993,24 @@
                 "oscompare": "=",
                 "pathtransforms": {
                   "0": {
-                    "find": "save_",
-                    "replace": "Library/Application Support/MultiScopeATC"
+                    "find": "MultiScopeATC",
+                    "replace": "MultiScopeATC"
                   }
                 },
                 "root": "WinAppDataRoaming",
-                "useinstead": "MacHome"
+                "useinstead": "MacAppSupport"
               },
               "1": {
                 "os": "Linux",
                 "oscompare": "=",
                 "pathtransforms": {
                   "0": {
-                    "find": "save_",
-                    "replace": ".local/share/MultiScopeATC"
+                    "find": "MultiScopeATC",
+                    "replace": "MultiScopeATC"
                   }
                 },
                 "root": "WinAppDataRoaming",
-                "useinstead": "LinuxHome"
+                "useinstead": "LinuxXdgDataHome"
               }
             },
             "savefiles": {
@@ -1035,11 +1079,11 @@
           }
         }
       },
-      "observed_at": "2026-11-12T12:53:23.431Z",
+      "observed_at": "2026-11-12T22:53:27.004Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T12:53:23.431Z"
+  "updated_at": "2026-11-12T22:53:27.004Z"
 }
