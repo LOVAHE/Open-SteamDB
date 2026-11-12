@@ -1673,11 +1673,54 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T10:23:26.272Z",
+      "change_number": 40867851,
+      "changes": [
+        {
+          "after": "macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26614368",
+          "before": "26611033",
+          "op": "replace",
+          "path": "/depots/branches/test/buildid"
+        },
+        {
+          "after": 1794478279,
+          "before": 1794467034,
+          "op": "replace",
+          "path": "/depots/branches/test/timebuildupdated"
+        },
+        {
+          "after": 1794478279,
+          "before": 1794467244,
+          "op": "replace",
+          "path": "/depots/branches/test/timeupdated"
+        },
+        {
+          "after": "5718362239263612235",
+          "op": "add",
+          "path": "/depots/depots/4809751/manifests/test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40865991,
+      "change_number": 40867851,
       "data": {
         "appinfo": {
           "common": {
@@ -1787,8 +1830,8 @@
               "schinese": " 明末：力挽狂澜"
             },
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macosapplesilicon",
+            "oslist": "windows,macos",
             "primary_genre": "2",
             "review_percentage": "78",
             "review_score": "6",
@@ -1880,10 +1923,10 @@
               "timeupdated": 1794470277
             },
             "test": {
-              "buildid": "26611033",
+              "buildid": "26614368",
               "description": "test",
-              "timebuildupdated": 1794467034,
-              "timeupdated": 1794467244
+              "timebuildupdated": 1794478279,
+              "timeupdated": 1794478279
             }
           },
           "depots": {
@@ -1900,7 +1943,9 @@
                 "osarch": "64",
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "test": "5718362239263612235"
+              }
             },
             "4809753": {
               "config": {
@@ -1916,11 +1961,11 @@
           }
         }
       },
-      "observed_at": "2026-11-12T09:23:20.432Z",
+      "observed_at": "2026-11-12T10:23:26.272Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T09:23:20.432Z"
+  "updated_at": "2026-11-12T10:23:26.272Z"
 }

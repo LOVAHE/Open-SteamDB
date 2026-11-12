@@ -289,11 +289,83 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T10:23:26.272Z",
+      "change_number": 40867760,
+      "changes": [
+        {
+          "after": "b7a0b7106fb98ff8d203ef8a8200d82bcb90c590/header_schinese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/header_image/schinese"
+        },
+        {
+          "after": "en,zh-cn",
+          "before": "en",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets/library_capsule"
+        },
+        {
+          "after": "en,zh-cn",
+          "before": "en",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets/library_header"
+        },
+        {
+          "after": "en,zh-cn",
+          "before": "en",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets/library_logo"
+        },
+        {
+          "after": "86d87426397febebbaf963f1a96b4057d1977429/library_capsule_schinese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_capsule/image/schinese"
+        },
+        {
+          "after": "86d87426397febebbaf963f1a96b4057d1977429/library_capsule_schinese_2x.jpg",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_capsule/image2x/schinese"
+        },
+        {
+          "after": "3071f65825186754b6364e8ff404b6d663176920/library_header_schinese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_header/image/schinese"
+        },
+        {
+          "after": "3071f65825186754b6364e8ff404b6d663176920/library_header_schinese_2x.jpg",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_header/image2x/schinese"
+        },
+        {
+          "after": "cb6bb5488b76963b4e0f46277d71d376e1c7304e/logo_schinese.png",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_logo/image/schinese"
+        },
+        {
+          "after": "cb6bb5488b76963b4e0f46277d71d376e1c7304e/logo_schinese_2x.png",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_logo/image2x/schinese"
+        },
+        {
+          "after": "472d3d7c36ac669e825db33bbdaa3e05d611ba24/capsule_231x87_schinese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/small_capsule/schinese"
+        },
+        {
+          "after": "1794478359",
+          "before": "1792354307",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40865861,
+      "change_number": 40867760,
       "data": {
         "appinfo": {
           "common": {
@@ -327,15 +399,16 @@
               "0": "2"
             },
             "header_image": {
-              "english": "78d6eadaaf57b11b08f36bcf9219a647a67e1a69/header.jpg"
+              "english": "78d6eadaaf57b11b08f36bcf9219a647a67e1a69/header.jpg",
+              "schinese": "b7a0b7106fb98ff8d203ef8a8200d82bcb90c590/header_schinese.jpg"
             },
             "icon": "17062de5034584bc2427c9acab5b213fd7fc7cca",
             "library_assets": {
-              "library_capsule": "en",
-              "library_header": "en",
+              "library_capsule": "en,zh-cn",
+              "library_header": "en,zh-cn",
               "library_hero": "en",
               "library_hero_blur": "en",
-              "library_logo": "en",
+              "library_logo": "en,zh-cn",
               "logo_position": {
                 "height_pct": "47.48995685902004",
                 "pinned_position": "BottomLeft",
@@ -345,18 +418,22 @@
             "library_assets_full": {
               "library_capsule": {
                 "image": {
-                  "english": "a4ab6242dc3579f52d91759c182d7c9dec38b2bb/library_capsule.jpg"
+                  "english": "a4ab6242dc3579f52d91759c182d7c9dec38b2bb/library_capsule.jpg",
+                  "schinese": "86d87426397febebbaf963f1a96b4057d1977429/library_capsule_schinese.jpg"
                 },
                 "image2x": {
-                  "english": "a4ab6242dc3579f52d91759c182d7c9dec38b2bb/library_capsule_2x.jpg"
+                  "english": "a4ab6242dc3579f52d91759c182d7c9dec38b2bb/library_capsule_2x.jpg",
+                  "schinese": "86d87426397febebbaf963f1a96b4057d1977429/library_capsule_schinese_2x.jpg"
                 }
               },
               "library_header": {
                 "image": {
-                  "english": "7583fc396ae2c8d6ecab67a5c251aa6ab13802b2/library_header.jpg"
+                  "english": "7583fc396ae2c8d6ecab67a5c251aa6ab13802b2/library_header.jpg",
+                  "schinese": "3071f65825186754b6364e8ff404b6d663176920/library_header_schinese.jpg"
                 },
                 "image2x": {
-                  "english": "7583fc396ae2c8d6ecab67a5c251aa6ab13802b2/library_header_2x.jpg"
+                  "english": "7583fc396ae2c8d6ecab67a5c251aa6ab13802b2/library_header_2x.jpg",
+                  "schinese": "3071f65825186754b6364e8ff404b6d663176920/library_header_schinese_2x.jpg"
                 }
               },
               "library_hero": {
@@ -374,10 +451,12 @@
               },
               "library_logo": {
                 "image": {
-                  "english": "aadfc097be06c24babcac005e1464601c73ad8b9/logo.png"
+                  "english": "aadfc097be06c24babcac005e1464601c73ad8b9/logo.png",
+                  "schinese": "cb6bb5488b76963b4e0f46277d71d376e1c7304e/logo_schinese.png"
                 },
                 "image2x": {
-                  "english": "aadfc097be06c24babcac005e1464601c73ad8b9/logo_2x.png"
+                  "english": "aadfc097be06c24babcac005e1464601c73ad8b9/logo_2x.png",
+                  "schinese": "cb6bb5488b76963b4e0f46277d71d376e1c7304e/logo_schinese_2x.png"
                 },
                 "logo_position": {
                   "height_pct": "47.48995685902004",
@@ -395,10 +474,11 @@
             "review_percentage": "92",
             "review_score": "7",
             "small_capsule": {
-              "english": "d9fbf5b7879988a1b070bc4cf523200ec749b987/capsule_231x87.jpg"
+              "english": "d9fbf5b7879988a1b070bc4cf523200ec749b987/capsule_231x87.jpg",
+              "schinese": "472d3d7c36ac669e825db33bbdaa3e05d611ba24/capsule_231x87_schinese.jpg"
             },
             "steam_release_date": "1791820801",
-            "store_asset_mtime": "1792354307",
+            "store_asset_mtime": "1794478359",
             "supported_languages": {
               "brazilian": {
                 "supported": "true"
@@ -455,11 +535,11 @@
           }
         }
       },
-      "observed_at": "2026-11-12T09:08:22.633Z",
+      "observed_at": "2026-11-12T10:23:26.272Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T09:08:22.633Z"
+  "updated_at": "2026-11-12T10:23:26.272Z"
 }
