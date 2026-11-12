@@ -633,11 +633,28 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T07:23:25.061Z",
+      "change_number": 40862874,
+      "changes": [
+        {
+          "after": {
+            "path": "studio rabbiko/Usagi Shima",
+            "pattern": "usagi.shima.bak",
+            "root": "WinAppDataLocalLow"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40860577,
+      "change_number": 40862874,
       "data": {
         "appinfo": {
           "common": {
@@ -950,6 +967,11 @@
                 "pattern": "*.jpg",
                 "recursive": "1",
                 "root": "WinAppDataLocalLow"
+              },
+              "2": {
+                "path": "studio rabbiko/Usagi Shima",
+                "pattern": "usagi.shima.bak",
+                "root": "WinAppDataLocalLow"
               }
             }
           }
@@ -990,11 +1012,11 @@
           }
         }
       },
-      "observed_at": "2026-11-12T05:23:19.802Z",
+      "observed_at": "2026-11-12T07:23:25.061Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T05:23:19.802Z"
+  "updated_at": "2026-11-12T07:23:25.061Z"
 }
