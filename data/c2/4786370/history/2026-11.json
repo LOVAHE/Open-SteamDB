@@ -379,11 +379,67 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T04:08:29.761Z",
+      "change_number": 40858840,
+      "changes": [
+        {
+          "after": "64",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osarch"
+        },
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "macos64",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "26608524",
+          "before": "26584365",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794455918,
+          "before": 1794376004,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794455918,
+          "before": 1794376004,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "674481031604855546",
+          "before": "4169776520732269398",
+          "op": "replace",
+          "path": "/depots/depots/4786371/manifests/public"
+        },
+        {
+          "after": "3780282187459418005",
+          "before": "4544704650373718518",
+          "op": "replace",
+          "path": "/depots/depots/4786372/manifests/public"
+        },
+        {
+          "after": "2325405298958816219",
+          "before": "3100502098731901844",
+          "op": "replace",
+          "path": "/depots/depots/4786373/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40821606,
+      "change_number": 40858840,
       "data": {
         "appinfo": {
           "common": {
@@ -473,8 +529,8 @@
               }
             },
             "name": "Yokai Idle",
-            "osarch": "",
-            "osextended": "macos64",
+            "osarch": "64",
+            "osextended": "macos64,macosapplesilicon",
             "oslist": "windows,macos,linux",
             "primary_genre": "3",
             "small_capsule": {
@@ -550,9 +606,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26584365",
-              "timebuildupdated": 1794376004,
-              "timeupdated": 1794376004
+              "buildid": "26608524",
+              "timebuildupdated": 1794455918,
+              "timeupdated": 1794455918
             }
           },
           "depots": {
@@ -561,7 +617,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "4169776520732269398"
+                "public": "674481031604855546"
               }
             },
             "4786372": {
@@ -569,7 +625,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "4544704650373718518"
+                "public": "3780282187459418005"
               }
             },
             "4786373": {
@@ -577,17 +633,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "3100502098731901844"
+                "public": "2325405298958816219"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-11T05:53:15.767Z",
+      "observed_at": "2026-11-12T04:08:29.761Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T05:53:15.767Z"
+  "updated_at": "2026-11-12T04:08:29.761Z"
 }

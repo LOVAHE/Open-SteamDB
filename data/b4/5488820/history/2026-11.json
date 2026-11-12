@@ -239,11 +239,42 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T04:08:29.761Z",
+      "change_number": 40858907,
+      "changes": [
+        {
+          "after": "6cf7cabd3d9de7c004614259580827c7a1740afd/header.jpg",
+          "before": "b42a10ade54a8088a44e8b717f0bff0b715ab099/header.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/header_image/english"
+        },
+        {
+          "after": "ad44422db4f8544b02654a89e212c4d4b2aec8b5/capsule_231x87.jpg",
+          "before": "66aafb0c23aa310abfaacf8959e9169d1a651a41/capsule_231x87.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/small_capsule/english"
+        },
+        {
+          "after": "1794264821",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "1794456084",
+          "before": "1793633239",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40830660,
+      "change_number": 40858907,
       "data": {
         "appinfo": {
           "common": {
@@ -272,7 +303,7 @@
               "2": "28"
             },
             "header_image": {
-              "english": "b42a10ade54a8088a44e8b717f0bff0b715ab099/header.jpg"
+              "english": "6cf7cabd3d9de7c004614259580827c7a1740afd/header.jpg"
             },
             "icon": "3832cd3b2c9be774dd74d8028a1ae7b4759ee00e",
             "languages": {
@@ -343,9 +374,10 @@
             "oslist": "windows",
             "primary_genre": "28",
             "small_capsule": {
-              "english": "66aafb0c23aa310abfaacf8959e9169d1a651a41/capsule_231x87.jpg"
+              "english": "ad44422db4f8544b02654a89e212c4d4b2aec8b5/capsule_231x87.jpg"
             },
-            "store_asset_mtime": "1793633239",
+            "steam_release_date": "1794264821",
+            "store_asset_mtime": "1794456084",
             "store_tags": {
               "0": "597",
               "1": "599",
@@ -417,11 +449,11 @@
           }
         }
       },
-      "observed_at": "2026-11-11T11:38:35.674Z",
+      "observed_at": "2026-11-12T04:08:29.761Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T11:38:35.674Z"
+  "updated_at": "2026-11-12T04:08:29.761Z"
 }
