@@ -364,11 +364,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T06:53:30.250Z",
+      "change_number": 40862398,
+      "changes": [
+        {
+          "after": {
+            "config": {
+              "oslist": "windows"
+            },
+            "depotfromapp": 228980,
+            "manifests": {},
+            "sharedinstall": true
+          },
+          "op": "add",
+          "path": "/depots/depots/228988"
+        },
+        {
+          "before": {
+            "config": {
+              "oslist": "windows"
+            },
+            "depotfromapp": 228980,
+            "manifests": {},
+            "sharedinstall": true
+          },
+          "op": "remove",
+          "path": "/depots/depots/228989"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "windows"
+            },
+            "depotfromapp": 228980,
+            "manifests": {},
+            "sharedinstall": true
+          },
+          "op": "add",
+          "path": "/depots/depots/229006"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40846330,
+      "change_number": 40862398,
       "data": {
         "appinfo": {
           "common": {
@@ -553,7 +597,7 @@
             }
           },
           "depots": {
-            "228989": {
+            "228988": {
               "config": {
                 "oslist": "windows"
               },
@@ -569,6 +613,14 @@
               "manifests": {},
               "sharedinstall": true
             },
+            "229006": {
+              "config": {
+                "oslist": "windows"
+              },
+              "depotfromapp": 228980,
+              "manifests": {},
+              "sharedinstall": true
+            },
             "5282931": {
               "manifests": {
                 "public": "5960942642013666572"
@@ -577,11 +629,11 @@
           }
         }
       },
-      "observed_at": "2026-11-11T19:38:26.832Z",
+      "observed_at": "2026-11-12T06:53:30.250Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T19:38:26.832Z"
+  "updated_at": "2026-11-12T06:53:30.250Z"
 }
