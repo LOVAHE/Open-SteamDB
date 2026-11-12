@@ -739,11 +739,43 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T16:23:28.915Z",
+      "change_number": 40880054,
+      "changes": [
+        {
+          "after": "26622196",
+          "before": "26615722",
+          "op": "replace",
+          "path": "/depots/branches/devbuild_unstable/buildid"
+        },
+        {
+          "after": 1794500312,
+          "before": 1794482448,
+          "op": "replace",
+          "path": "/depots/branches/devbuild_unstable/timebuildupdated"
+        },
+        {
+          "after": 1794500350,
+          "before": 1794482468,
+          "op": "replace",
+          "path": "/depots/branches/devbuild_unstable/timeupdated"
+        },
+        {
+          "after": "3089552776536354624",
+          "before": "59244980693988153",
+          "op": "replace",
+          "path": "/depots/depots/4424421/manifests/devbuild_unstable"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40873572,
+      "change_number": 40880054,
       "data": {
         "appinfo": {
           "common": {
@@ -928,10 +960,10 @@
         "depots": {
           "branches": {
             "devbuild_unstable": {
-              "buildid": "26615722",
+              "buildid": "26622196",
               "description": "Public devbuild with untested systems, possible critical bugs",
-              "timebuildupdated": 1794482448,
-              "timeupdated": 1794482468
+              "timebuildupdated": 1794500312,
+              "timeupdated": 1794500350
             },
             "public": {
               "buildid": "26598292",
@@ -968,7 +1000,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "devbuild_unstable": "59244980693988153",
+                "devbuild_unstable": "3089552776536354624",
                 "public": "3305259922664218926",
                 "stable_build_previous_version": "7544362774400290007"
               }
@@ -976,11 +1008,11 @@
           }
         }
       },
-      "observed_at": "2026-11-12T13:23:24.519Z",
+      "observed_at": "2026-11-12T16:23:28.915Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T13:23:24.519Z"
+  "updated_at": "2026-11-12T16:23:28.915Z"
 }
