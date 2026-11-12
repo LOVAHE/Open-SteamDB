@@ -574,11 +574,136 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T15:53:28.209Z",
+      "change_number": 40879038,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_18"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "before": "1",
+          "op": "remove",
+          "path": "/appinfo/common/category/category_28"
+        },
+        {
+          "before": "1",
+          "op": "remove",
+          "path": "/appinfo/common/category/category_55"
+        },
+        {
+          "before": "1",
+          "op": "remove",
+          "path": "/appinfo/common/category/category_56"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_63"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_64"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_66"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_67"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_68"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_69"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_78"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_82"
+        },
+        {
+          "after": "partial",
+          "before": "full",
+          "op": "replace",
+          "path": "/appinfo/common/controller_support"
+        },
+        {
+          "after": {
+            "maxnumfiles": "256",
+            "quota": "134217728",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              },
+              "1": {
+                "addpath": "",
+                "os": "Linux",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "WotWCityBuilder/saves",
+                "pattern": "mode-vanguard-slot-*.wotwmode",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "WotWCityBuilder/saves",
+                "pattern": "mode-story-slot-*.wotwmode",
+                "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "WotWCityBuilder/saves",
+                "pattern": "slot-*.wotwsave",
+                "root": "WinAppDataRoaming"
+              },
+              "3": {
+                "path": "WotWCityBuilder/saves",
+                "pattern": "profile.json",
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40869442,
+      "change_number": 40879038,
       "data": {
         "appinfo": {
           "common": {
@@ -593,13 +718,20 @@
               }
             },
             "category": {
+              "category_18": "1",
               "category_2": "1",
-              "category_28": "1",
-              "category_55": "1",
-              "category_56": "1"
+              "category_23": "1",
+              "category_63": "1",
+              "category_64": "1",
+              "category_66": "1",
+              "category_67": "1",
+              "category_68": "1",
+              "category_69": "1",
+              "category_78": "1",
+              "category_82": "1"
             },
             "clienticon": "ab8176f759258b8243392ea6339452143a613ae6",
-            "controller_support": "full",
+            "controller_support": "partial",
             "genres": {
               "0": "1",
               "1": "3",
@@ -756,6 +888,48 @@
           "extended": {
             "developer": "Invirtu Labs",
             "publisher": "Invirtu Labs"
+          },
+          "ufs": {
+            "maxnumfiles": "256",
+            "quota": "134217728",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              },
+              "1": {
+                "addpath": "",
+                "os": "Linux",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "WotWCityBuilder/saves",
+                "pattern": "mode-vanguard-slot-*.wotwmode",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "WotWCityBuilder/saves",
+                "pattern": "mode-story-slot-*.wotwmode",
+                "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "WotWCityBuilder/saves",
+                "pattern": "slot-*.wotwsave",
+                "root": "WinAppDataRoaming"
+              },
+              "3": {
+                "path": "WotWCityBuilder/saves",
+                "pattern": "profile.json",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -807,11 +981,11 @@
           }
         }
       },
-      "observed_at": "2026-11-12T11:08:22.673Z",
+      "observed_at": "2026-11-12T15:53:28.209Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T11:08:22.673Z"
+  "updated_at": "2026-11-12T15:53:28.209Z"
 }
