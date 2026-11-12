@@ -403,11 +403,32 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T11:08:22.673Z",
+      "change_number": 40869423,
+      "changes": [
+        {
+          "after": "1792682827",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/indonesian"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40867511,
+      "change_number": 40869423,
       "data": {
         "appinfo": {
           "common": {
@@ -508,6 +529,7 @@
             "small_capsule": {
               "english": "e1fe62631c01da288ab242cf0da852cfb193c52a/capsule_231x87.jpg"
             },
+            "steam_release_date": "1792682827",
             "store_asset_mtime": "1782853443",
             "store_tags": {
               "0": "599",
@@ -545,6 +567,10 @@
                 "supported": "true"
               },
               "german": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "indonesian": {
                 "subtitles": "true",
                 "supported": "true"
               },
@@ -609,11 +635,11 @@
           }
         }
       },
-      "observed_at": "2026-11-12T10:08:50.792Z",
+      "observed_at": "2026-11-12T11:08:22.673Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T10:08:50.792Z"
+  "updated_at": "2026-11-12T11:08:22.673Z"
 }
