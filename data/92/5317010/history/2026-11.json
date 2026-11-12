@@ -979,11 +979,25 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T09:08:22.633Z",
+      "change_number": 40865856,
+      "changes": [
+        {
+          "after": "*",
+          "before": "*.json",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/pattern"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40729034,
+      "change_number": 40865856,
       "data": {
         "appinfo": {
           "common": {
@@ -1402,7 +1416,7 @@
             "savefiles": {
               "0": {
                 "path": "FancyGod Games/Temple oF Glyphs/Saves",
-                "pattern": "*.json",
+                "pattern": "*",
                 "platforms": {
                   "1": "Windows"
                 },
@@ -1441,7 +1455,7 @@
           }
         }
       },
-      "observed_at": "2026-11-08T16:49:50.306Z",
+      "observed_at": "2026-11-12T09:08:22.633Z",
       "tracked": true
     },
     "steam_store": {
@@ -1548,5 +1562,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-08T16:49:50.306Z"
+  "updated_at": "2026-11-12T09:08:22.633Z"
 }
