@@ -649,11 +649,46 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T15:38:23.470Z",
+      "change_number": 40878209,
+      "changes": [
+        {
+          "after": {
+            "path": "IndustryUnbound-CopperMagma-r1/Steam/5063450/{64BitSteamID}/cloud",
+            "pattern": "m0-slot*.json",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/3"
+        },
+        {
+          "after": {
+            "path": "IndustryUnbound-CopperMagma-r1/Steam/5063450/{64BitSteamID}/cloud",
+            "pattern": "m0-slot*.json.bak",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/4"
+        },
+        {
+          "after": {
+            "path": "IndustryUnbound-CopperMagma-r1/Steam/5063450/{64BitSteamID}/cloud",
+            "pattern": "m0-slot*.thumb.png",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/5"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40873937,
+      "change_number": 40878209,
       "data": {
         "appinfo": {
           "common": {
@@ -854,6 +889,21 @@
                 "path": "Godot/app_userdata/Industry Unbound/Steam/5063450/{64BitSteamID}/cloud",
                 "pattern": "m0-slot*.thumb.png",
                 "root": "WinAppDataRoaming"
+              },
+              "3": {
+                "path": "IndustryUnbound-CopperMagma-r1/Steam/5063450/{64BitSteamID}/cloud",
+                "pattern": "m0-slot*.json",
+                "root": "WinAppDataRoaming"
+              },
+              "4": {
+                "path": "IndustryUnbound-CopperMagma-r1/Steam/5063450/{64BitSteamID}/cloud",
+                "pattern": "m0-slot*.json.bak",
+                "root": "WinAppDataRoaming"
+              },
+              "5": {
+                "path": "IndustryUnbound-CopperMagma-r1/Steam/5063450/{64BitSteamID}/cloud",
+                "pattern": "m0-slot*.thumb.png",
+                "root": "WinAppDataRoaming"
               }
             }
           }
@@ -875,11 +925,11 @@
           }
         }
       },
-      "observed_at": "2026-11-12T13:38:26.190Z",
+      "observed_at": "2026-11-12T15:38:23.470Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T13:38:26.190Z"
+  "updated_at": "2026-11-12T15:38:23.470Z"
 }
