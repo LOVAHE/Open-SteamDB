@@ -335,11 +335,34 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T20:08:21.055Z",
+      "change_number": 40887673,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26626734",
+            "description": "A new transparency algorithm that makes the game run smoother, uses less RAM, and supports full transparency animations.",
+            "timebuildupdated": 1794513586,
+            "timeupdated": 1794513813
+          },
+          "op": "add",
+          "path": "/depots/branches/new-overlay-beta"
+        },
+        {
+          "after": "5335633711903147748",
+          "op": "add",
+          "path": "/depots/depots/4681681/manifests/new-overlay-beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40884468,
+      "change_number": 40887673,
       "data": {
         "appinfo": {
           "common": {
@@ -548,6 +571,12 @@
         },
         "depots": {
           "branches": {
+            "new-overlay-beta": {
+              "buildid": "26626734",
+              "description": "A new transparency algorithm that makes the game run smoother, uses less RAM, and supports full transparency animations.",
+              "timebuildupdated": 1794513586,
+              "timeupdated": 1794513813
+            },
             "public": {
               "buildid": "26526349",
               "timebuildupdated": 1794171283,
@@ -557,17 +586,18 @@
           "depots": {
             "4681681": {
               "manifests": {
+                "new-overlay-beta": "5335633711903147748",
                 "public": "7987047044402324895"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-12T18:28:24.476Z",
+      "observed_at": "2026-11-12T20:08:21.055Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T18:28:24.476Z"
+  "updated_at": "2026-11-12T20:08:21.055Z"
 }
