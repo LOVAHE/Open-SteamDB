@@ -232,11 +232,35 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T05:23:19.802Z",
+      "change_number": 40860547,
+      "changes": [
+        {
+          "before": "1",
+          "op": "remove",
+          "path": "/appinfo/common/category/category_18"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_28"
+        },
+        {
+          "after": "full",
+          "before": "partial",
+          "op": "replace",
+          "path": "/appinfo/common/controller_support"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40691090,
+      "change_number": 40860547,
       "data": {
         "appinfo": {
           "common": {
@@ -251,8 +275,8 @@
               }
             },
             "category": {
-              "category_18": "1",
               "category_2": "1",
+              "category_28": "1",
               "category_62": "1",
               "category_69": "1",
               "category_70": "1",
@@ -260,7 +284,7 @@
             },
             "clienticon": "a4df723023bff2ff2e2246768d49c5000ab2cdb7",
             "community_hub_visible": "1",
-            "controller_support": "partial",
+            "controller_support": "full",
             "genres": {
               "0": "1",
               "1": "23"
@@ -435,11 +459,11 @@
           }
         }
       },
-      "observed_at": "2026-11-07T02:51:33.257Z",
+      "observed_at": "2026-11-12T05:23:19.802Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-07T02:51:33.257Z"
+  "updated_at": "2026-11-12T05:23:19.802Z"
 }

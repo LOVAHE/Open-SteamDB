@@ -311,11 +311,84 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T05:23:19.802Z",
+      "change_number": 40860447,
+      "changes": [
+        {
+          "after": "1793206805",
+          "before": "1798704000",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/brazilian"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/french"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/german"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/spanish"
+        },
+        {
+          "after": "26609475",
+          "before": "26462786",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794460032,
+          "before": 1793894906,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794460195,
+          "before": 1794110777,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "760378102767809301",
+          "before": "7122204798580487636",
+          "op": "replace",
+          "path": "/depots/depots/5396181/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40717807,
+      "change_number": 40860447,
       "data": {
         "appinfo": {
           "common": {
@@ -431,7 +504,7 @@
             "small_capsule": {
               "english": "f4d77b825400870c6ca866fc94b991a72f062749/capsule_231x87.jpg"
             },
-            "steam_release_date": "1798704000",
+            "steam_release_date": "1793206805",
             "store_asset_mtime": "1793026599",
             "store_tags": {
               "0": "599",
@@ -444,10 +517,25 @@
               "7": "492"
             },
             "supported_languages": {
+              "brazilian": {
+                "supported": "true"
+              },
               "english": {
                 "supported": "true"
               },
+              "french": {
+                "supported": "true"
+              },
+              "german": {
+                "supported": "true"
+              },
+              "russian": {
+                "supported": "true"
+              },
               "schinese": {
+                "supported": "true"
+              },
+              "spanish": {
                 "supported": "true"
               }
             },
@@ -478,25 +566,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26462786",
-              "timebuildupdated": 1793894906,
-              "timeupdated": 1794110777
+              "buildid": "26609475",
+              "timebuildupdated": 1794460032,
+              "timeupdated": 1794460195
             }
           },
           "depots": {
             "5396181": {
               "manifests": {
-                "public": "7122204798580487636"
+                "public": "760378102767809301"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-08T04:45:12.852Z",
+      "observed_at": "2026-11-12T05:23:19.802Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-08T04:45:12.852Z"
+  "updated_at": "2026-11-12T05:23:19.802Z"
 }
