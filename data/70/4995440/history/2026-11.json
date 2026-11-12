@@ -222,11 +222,34 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T19:23:36.158Z",
+      "change_number": 40886433,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26625937",
+            "description": "Private pre-release version",
+            "timebuildupdated": 1794511110,
+            "timeupdated": 1794511323
+          },
+          "op": "add",
+          "path": "/depots/branches/pre-release"
+        },
+        {
+          "after": "6245350406630309658",
+          "op": "add",
+          "path": "/depots/depots/4995441/manifests/pre-release"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40543464,
+      "change_number": 40886433,
       "data": {
         "appinfo": {
           "common": {
@@ -407,6 +430,12 @@
         },
         "depots": {
           "branches": {
+            "pre-release": {
+              "buildid": "26625937",
+              "description": "Private pre-release version",
+              "timebuildupdated": 1794511110,
+              "timeupdated": 1794511323
+            },
             "public": {
               "buildid": "25968302",
               "timebuildupdated": 1792090748,
@@ -429,17 +458,18 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "pre-release": "6245350406630309658",
                 "public": "5283157854556863175"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-03T10:53:00.270Z",
+      "observed_at": "2026-11-12T19:23:36.158Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-03T10:53:00.270Z"
+  "updated_at": "2026-11-12T19:23:36.158Z"
 }
