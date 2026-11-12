@@ -355,11 +355,53 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T11:38:23.535Z",
+      "change_number": 40870366,
+      "changes": [
+        {
+          "after": "5534520",
+          "op": "add",
+          "path": "/appinfo/extended/listofdlc"
+        },
+        {
+          "after": "26615921",
+          "before": "26588678",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794483042,
+          "before": 1794392518,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794483102,
+          "before": 1794392569,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5151167845753150506",
+          "before": "1378298471812676114",
+          "op": "replace",
+          "path": "/depots/depots/5242521/manifests/public"
+        },
+        {
+          "after": "1196988060586836044",
+          "op": "add",
+          "path": "/depots/depots/5534520/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40828712,
+      "change_number": 40870366,
       "data": {
         "appinfo": {
           "common": {
@@ -516,6 +558,7 @@
           },
           "extended": {
             "developer": "程序员小灰",
+            "listofdlc": "5534520",
             "publisher": "程序员小灰"
           },
           "ufs": {
@@ -544,15 +587,15 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26588678",
-              "timebuildupdated": 1794392518,
-              "timeupdated": 1794392569
+              "buildid": "26615921",
+              "timebuildupdated": 1794483042,
+              "timeupdated": 1794483102
             }
           },
           "depots": {
             "5242521": {
               "manifests": {
-                "public": "1378298471812676114"
+                "public": "5151167845753150506"
               }
             },
             "5534520": {
@@ -561,16 +604,18 @@
                 "oslist": "windows"
               },
               "dlcappid": 5534520,
-              "manifests": {}
+              "manifests": {
+                "public": "1196988060586836044"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-11T10:23:16.494Z",
+      "observed_at": "2026-11-12T11:38:23.535Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T10:23:16.494Z"
+  "updated_at": "2026-11-12T11:38:23.535Z"
 }
