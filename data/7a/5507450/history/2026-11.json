@@ -270,11 +270,39 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T09:38:31.202Z",
+      "change_number": 40866591,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26613234",
+            "description": "v3 testing - awaiting the next demo build. Default remains the submitted review build.",
+            "timebuildupdated": 1794475073,
+            "timeupdated": 1794475967
+          },
+          "op": "add",
+          "path": "/depots/branches/v3test"
+        },
+        {
+          "after": "1467695869887745176",
+          "op": "add",
+          "path": "/depots/depots/5507451/manifests/v3test"
+        },
+        {
+          "after": "3248351916979471745",
+          "op": "add",
+          "path": "/depots/depots/5507452/manifests/v3test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40746273,
+      "change_number": 40866591,
       "data": {
         "appinfo": {
           "common": {
@@ -509,6 +537,12 @@
               "buildid": "26532638",
               "timebuildupdated": 1794201012,
               "timeupdated": 1794201335
+            },
+            "v3test": {
+              "buildid": "26613234",
+              "description": "v3 testing - awaiting the next demo build. Default remains the submitted review build.",
+              "timebuildupdated": 1794475073,
+              "timeupdated": 1794475967
             }
           },
           "depots": {
@@ -517,7 +551,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "5034526116176984592"
+                "public": "5034526116176984592",
+                "v3test": "1467695869887745176"
               }
             },
             "5507452": {
@@ -525,17 +560,18 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "4223443561265215780"
+                "public": "4223443561265215780",
+                "v3test": "3248351916979471745"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-10T02:23:19.569Z",
+      "observed_at": "2026-11-12T09:38:31.202Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T02:23:19.569Z"
+  "updated_at": "2026-11-12T09:38:31.202Z"
 }
