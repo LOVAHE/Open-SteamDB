@@ -961,11 +961,52 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T02:23:14.483Z",
+      "change_number": 40855730,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": "500",
+          "before": "100",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": {
+            "0": {
+              "path": "shijia/Rice & Ink/saves",
+              "pattern": "*.gz",
+              "root": "WinAppDataLocalLow"
+            },
+            "1": {
+              "path": "shijia/Rice & Ink/saves",
+              "pattern": "*.json",
+              "root": "WinAppDataLocalLow"
+            },
+            "2": {
+              "path": "shijia/Rice & Ink/houses",
+              "pattern": "*.json",
+              "recursive": "1",
+              "root": "WinAppDataLocalLow"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40837999,
+      "change_number": 40855730,
       "data": {
         "appinfo": {
           "common": {
@@ -982,6 +1023,7 @@
             "category": {
               "category_1": "1",
               "category_2": "1",
+              "category_23": "1",
               "category_36": "1",
               "category_49": "1",
               "category_62": "1",
@@ -1138,8 +1180,26 @@
             "publisher": "Daniling"
           },
           "ufs": {
-            "maxnumfiles": "100",
-            "quota": "1000000000"
+            "maxnumfiles": "500",
+            "quota": "1000000000",
+            "savefiles": {
+              "0": {
+                "path": "shijia/Rice & Ink/saves",
+                "pattern": "*.gz",
+                "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "shijia/Rice & Ink/saves",
+                "pattern": "*.json",
+                "root": "WinAppDataLocalLow"
+              },
+              "2": {
+                "path": "shijia/Rice & Ink/houses",
+                "pattern": "*.json",
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -1175,11 +1235,11 @@
           }
         }
       },
-      "observed_at": "2026-11-11T15:23:31.699Z",
+      "observed_at": "2026-11-12T02:23:14.483Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T15:23:31.699Z"
+  "updated_at": "2026-11-12T02:23:14.483Z"
 }

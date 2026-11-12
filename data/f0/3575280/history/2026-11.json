@@ -300,11 +300,77 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T02:23:14.483Z",
+      "change_number": 40856236,
+      "changes": [
+        {
+          "after": "26606735",
+          "before": "26499266",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794449604,
+          "before": 1794017066,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794449604,
+          "before": 1794017067,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "language": "english",
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/3575281/config"
+        },
+        {
+          "after": "4570873026638338204",
+          "before": "5222087807525659086",
+          "op": "replace",
+          "path": "/depots/depots/3575281/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "language": "english",
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "1877020163509793837"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/3575283"
+        },
+        {
+          "after": {
+            "config": {
+              "language": "english",
+              "oslist": "linux"
+            },
+            "manifests": {
+              "public": "703425191103626010"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/3575284"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40691924,
+      "change_number": 40856236,
       "data": {
         "appinfo": {
           "common": {
@@ -455,15 +521,19 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26499266",
-              "timebuildupdated": 1794017066,
-              "timeupdated": 1794017067
+              "buildid": "26606735",
+              "timebuildupdated": 1794449604,
+              "timeupdated": 1794449604
             }
           },
           "depots": {
             "3575281": {
+              "config": {
+                "language": "english",
+                "oslist": "windows"
+              },
               "manifests": {
-                "public": "5222087807525659086"
+                "public": "4570873026638338204"
               }
             },
             "3575282": {
@@ -475,15 +545,33 @@
               "manifests": {
                 "public": "9180900855229235281"
               }
+            },
+            "3575283": {
+              "config": {
+                "language": "english",
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "1877020163509793837"
+              }
+            },
+            "3575284": {
+              "config": {
+                "language": "english",
+                "oslist": "linux"
+              },
+              "manifests": {
+                "public": "703425191103626010"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-07T02:51:33.257Z",
+      "observed_at": "2026-11-12T02:23:14.483Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-07T02:51:33.257Z"
+  "updated_at": "2026-11-12T02:23:14.483Z"
 }
