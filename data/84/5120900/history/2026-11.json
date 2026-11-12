@@ -259,11 +259,60 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T20:23:34.887Z",
+      "change_number": 40888094,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26627119",
+          "before": "25868917",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794514660,
+          "before": 1791748131,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794514660,
+          "before": 1791748184,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6555218911628244532",
+          "before": "121525998415449788",
+          "op": "replace",
+          "path": "/depots/depots/5120901/manifests/public"
+        },
+        {
+          "after": "88371371570014769",
+          "op": "add",
+          "path": "/depots/depots/5120902/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40887582,
+      "change_number": 40888094,
       "data": {
         "appinfo": {
           "common": {
@@ -350,8 +399,8 @@
             },
             "name": "TapTrapGrow Demo",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "parent": "5118710",
             "primary_genre": "4",
             "small_capsule": {
@@ -468,9 +517,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25868917",
-              "timebuildupdated": 1791748131,
-              "timeupdated": 1791748184
+              "buildid": "26627119",
+              "timebuildupdated": 1794514660,
+              "timeupdated": 1794514660
             }
           },
           "depots": {
@@ -480,23 +529,25 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "121525998415449788"
+                "public": "6555218911628244532"
               }
             },
             "5120902": {
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "88371371570014769"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-12T20:08:21.055Z",
+      "observed_at": "2026-11-12T20:23:34.887Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T20:08:21.055Z"
+  "updated_at": "2026-11-12T20:23:34.887Z"
 }
