@@ -1855,11 +1855,64 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T22:23:28.441Z",
+      "change_number": 40891760,
+      "changes": [
+        {
+          "after": "88",
+          "before": "89",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "26624771",
+          "before": "26551869",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794507483,
+          "before": 1794264335,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794521563,
+          "before": 1794264422,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "buildid": "26551869",
+            "description": "version 1.10 of the game",
+            "timebuildupdated": 1794264335,
+            "timeupdated": 1794264422
+          },
+          "op": "add",
+          "path": "/depots/branches/v1_10"
+        },
+        {
+          "after": "3291008975189080351",
+          "before": "8191537111688501104",
+          "op": "replace",
+          "path": "/depots/depots/5475961/manifests/public"
+        },
+        {
+          "after": "8191537111688501104",
+          "op": "add",
+          "path": "/depots/depots/5475961/manifests/v1_10"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40884462,
+      "change_number": 40891760,
       "data": {
         "appinfo": {
           "common": {
@@ -2019,7 +2072,7 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "4",
-            "review_percentage": "89",
+            "review_percentage": "88",
             "review_score": "8",
             "small_capsule": {
               "english": "6b12b11d73f60482ffaca89b6020dccac15be2e5/capsule_231x87.jpg",
@@ -2239,9 +2292,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26551869",
-              "timebuildupdated": 1794264335,
-              "timeupdated": 1794264422
+              "buildid": "26624771",
+              "timebuildupdated": 1794507483,
+              "timeupdated": 1794521563
             },
             "release-1-11": {
               "buildid": "26624771",
@@ -2260,6 +2313,12 @@
               "description": "version 1.1 of the game",
               "timebuildupdated": 1793634469,
               "timeupdated": 1793635270
+            },
+            "v1_10": {
+              "buildid": "26551869",
+              "description": "version 1.10 of the game",
+              "timebuildupdated": 1794264335,
+              "timeupdated": 1794264422
             },
             "v1_2": {
               "buildid": "26417478",
@@ -2313,10 +2372,11 @@
           "depots": {
             "5475961": {
               "manifests": {
-                "public": "8191537111688501104",
+                "public": "3291008975189080351",
                 "release-1-11": "3291008975189080351",
                 "v1_0": "1078129727642507309",
                 "v1_1": "6856209444485312461",
+                "v1_10": "8191537111688501104",
                 "v1_2": "4249020936498645144",
                 "v1_3": "8717494428669787138",
                 "v1_4": "6593634433458858942",
@@ -2330,11 +2390,11 @@
           }
         }
       },
-      "observed_at": "2026-11-12T18:28:24.476Z",
+      "observed_at": "2026-11-12T22:23:28.441Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T18:28:24.476Z"
+  "updated_at": "2026-11-12T22:23:28.441Z"
 }

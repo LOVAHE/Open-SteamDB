@@ -181,11 +181,37 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T22:23:28.441Z",
+      "change_number": 40891780,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "3",
+            "quota": "100000",
+            "savefiles": {
+              "0": {
+                "path": "/Merge Conflict Studio/Pelikeeper/",
+                "pattern": "game1.data",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40886234,
+      "change_number": 40891780,
       "data": {
         "appinfo": {
           "common": {
@@ -334,6 +360,20 @@
             "developer": "Merge Conflict Studio",
             "homepage": "https://mergeconflictstudio.com/",
             "publisher": "Merge Conflict Studio"
+          },
+          "ufs": {
+            "maxnumfiles": "3",
+            "quota": "100000",
+            "savefiles": {
+              "0": {
+                "path": "/Merge Conflict Studio/Pelikeeper/",
+                "pattern": "game1.data",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -353,11 +393,11 @@
           }
         }
       },
-      "observed_at": "2026-11-12T19:23:36.158Z",
+      "observed_at": "2026-11-12T22:23:28.441Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T19:23:36.158Z"
+  "updated_at": "2026-11-12T22:23:28.441Z"
 }
