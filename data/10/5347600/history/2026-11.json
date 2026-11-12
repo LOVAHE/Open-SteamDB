@@ -244,11 +244,59 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T11:23:17.582Z",
+      "change_number": 40869771,
+      "changes": [
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/koreana"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        },
+        {
+          "after": "26615555",
+          "before": "26511130",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794481830,
+          "before": 1794082858,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794481974,
+          "before": 1794082971,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8699456790821765956",
+          "before": "9121286884534425732",
+          "op": "replace",
+          "path": "/depots/depots/5347601/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40710816,
+      "change_number": 40869771,
       "data": {
         "appinfo": {
           "common": {
@@ -386,6 +434,14 @@
               "japanese": {
                 "subtitles": "true",
                 "supported": "true"
+              },
+              "koreana": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "schinese": {
+                "subtitles": "true",
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -401,25 +457,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26511130",
-              "timebuildupdated": 1794082858,
-              "timeupdated": 1794082971
+              "buildid": "26615555",
+              "timebuildupdated": 1794481830,
+              "timeupdated": 1794481974
             }
           },
           "depots": {
             "5347601": {
               "manifests": {
-                "public": "9121286884534425732"
+                "public": "8699456790821765956"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-07T21:14:54.464Z",
+      "observed_at": "2026-11-12T11:23:17.582Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-07T21:14:54.464Z"
+  "updated_at": "2026-11-12T11:23:17.582Z"
 }
