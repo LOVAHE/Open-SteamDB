@@ -422,11 +422,31 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-12T13:38:26.190Z",
+      "change_number": 40873936,
+      "changes": [
+        {
+          "after": {
+            "path": "Botclops/Saved/SaveGames/",
+            "pattern": "*.sav",
+            "platforms": {
+              "1": "Windows"
+            },
+            "root": "WinAppDataLocal"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40873535,
+      "change_number": 40873936,
       "data": {
         "appinfo": {
           "common": {
@@ -598,6 +618,14 @@
                 "pattern": "*.cfg",
                 "root": "gameinstall"
               },
+              "2": {
+                "path": "Botclops/Saved/SaveGames/",
+                "pattern": "*.sav",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocal"
+              },
               "copied_from_parent": "1"
             }
           }
@@ -643,11 +671,11 @@
           }
         }
       },
-      "observed_at": "2026-11-12T13:23:24.519Z",
+      "observed_at": "2026-11-12T13:38:26.190Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T13:23:24.519Z"
+  "updated_at": "2026-11-12T13:38:26.190Z"
 }
