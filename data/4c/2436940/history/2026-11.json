@@ -629,11 +629,69 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-13T12:38:55.807Z",
+      "change_number": 40913004,
+      "changes": [
+        {
+          "after": "26644204",
+          "before": "25253592",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794573300,
+          "before": 1789130700,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794573544,
+          "before": 1789130735,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": {
+            "buildid": "26487538",
+            "description": "workshop beta",
+            "timebuildupdated": 1793977196,
+            "timeupdated": 1793977197
+          },
+          "op": "remove",
+          "path": "/depots/branches/workshop-beta"
+        },
+        {
+          "after": "1264805689888057590",
+          "before": "7811884755405591800",
+          "op": "replace",
+          "path": "/depots/depots/2436941/manifests/public"
+        },
+        {
+          "before": "292431911437879696",
+          "op": "remove",
+          "path": "/depots/depots/2436941/manifests/workshop-beta"
+        },
+        {
+          "after": "4813318641733712146",
+          "before": "280745067316842463",
+          "op": "replace",
+          "path": "/depots/depots/2436942/manifests/public"
+        },
+        {
+          "before": "1636184944975809610",
+          "op": "remove",
+          "path": "/depots/depots/2436942/manifests/workshop-beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40912051,
+      "change_number": 40913004,
       "data": {
         "appinfo": {
           "common": {
@@ -921,15 +979,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25253592",
-              "timebuildupdated": 1789130700,
-              "timeupdated": 1789130735
-            },
-            "workshop-beta": {
-              "buildid": "26487538",
-              "description": "workshop beta",
-              "timebuildupdated": 1793977196,
-              "timeupdated": 1793977197
+              "buildid": "26644204",
+              "timebuildupdated": 1794573300,
+              "timeupdated": 1794573544
             },
             "x86-0.10.13": {
               "buildid": "22013627",
@@ -944,8 +996,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "7811884755405591800",
-                "workshop-beta": "292431911437879696",
+                "public": "1264805689888057590",
                 "x86-0.10.13": "1320113521384357902"
               }
             },
@@ -954,15 +1005,14 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "280745067316842463",
-                "workshop-beta": "1636184944975809610",
+                "public": "4813318641733712146",
                 "x86-0.10.13": "5502842212160162385"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T12:08:33.063Z",
+      "observed_at": "2026-11-13T12:38:55.807Z",
       "tracked": true
     },
     "steam_store": {
@@ -1156,5 +1206,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T12:08:33.063Z"
+  "updated_at": "2026-11-13T12:38:55.807Z"
 }
