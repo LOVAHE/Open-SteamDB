@@ -178,11 +178,49 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-13T18:28:29.329Z",
+      "change_number": 40925390,
+      "changes": [
+        {
+          "after": "26652200",
+          "before": "26521981",
+          "op": "replace",
+          "path": "/depots/branches/testing/buildid"
+        },
+        {
+          "after": 1794594587,
+          "before": 1794150982,
+          "op": "replace",
+          "path": "/depots/branches/testing/timebuildupdated"
+        },
+        {
+          "after": 1794594587,
+          "before": 1794150982,
+          "op": "replace",
+          "path": "/depots/branches/testing/timeupdated"
+        },
+        {
+          "after": "2980285110757346990",
+          "before": "8232299189847776381",
+          "op": "replace",
+          "path": "/depots/depots/1605371/manifests/testing"
+        },
+        {
+          "after": "5338328596124478292",
+          "before": "730043479471353175",
+          "op": "replace",
+          "path": "/depots/depots/1605372/manifests/testing"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40789304,
+      "change_number": 40925390,
       "data": {
         "appinfo": {
           "common": {
@@ -320,17 +358,17 @@
               "timeupdated": 1794243143
             },
             "testing": {
-              "buildid": "26521981",
+              "buildid": "26652200",
               "description": "testing branch",
-              "timebuildupdated": 1794150982,
-              "timeupdated": 1794150982
+              "timebuildupdated": 1794594587,
+              "timeupdated": 1794594587
             }
           },
           "depots": {
             "1605371": {
               "manifests": {
                 "public": "8232299189847776381",
-                "testing": "8232299189847776381"
+                "testing": "2980285110757346990"
               }
             },
             "1605372": {
@@ -341,17 +379,17 @@
               },
               "manifests": {
                 "public": "730043479471353175",
-                "testing": "730043479471353175"
+                "testing": "5338328596124478292"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-10T10:53:12.085Z",
+      "observed_at": "2026-11-13T18:28:29.329Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T10:53:12.085Z"
+  "updated_at": "2026-11-13T18:28:29.329Z"
 }
