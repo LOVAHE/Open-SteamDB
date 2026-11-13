@@ -341,11 +341,89 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-13T06:08:24.991Z",
+      "change_number": 40902049,
+      "changes": [
+        {
+          "after": {
+            "os": "Linux",
+            "oscompare": "=",
+            "pathtransforms": {
+              "0": {
+                "find": "LEXPLOIT",
+                "replace": "lexploit"
+              }
+            },
+            "root": "WinAppDataRoaming",
+            "useinstead": "LinuxXdgDataHome"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides/2"
+        },
+        {
+          "after": {
+            "os": "MacOS",
+            "oscompare": "=",
+            "pathtransforms": {
+              "0": {
+                "find": "LEXPLOIT",
+                "replace": "LEXPLOIT"
+              }
+            },
+            "root": "WinAppDataRoaming",
+            "useinstead": "MacAppSupport"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides/3"
+        },
+        {
+          "after": {
+            "path": "LEXPLOIT",
+            "pattern": "save.json",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        },
+        {
+          "after": {
+            "path": "LEXPLOIT",
+            "pattern": "leaderboard.json",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/3"
+        },
+        {
+          "after": {
+            "buildid": "26636891",
+            "description": "LEXPLOIT 2.0.2 (staging)",
+            "timebuildupdated": 1794549187,
+            "timeupdated": 1794549478
+          },
+          "op": "add",
+          "path": "/depots/branches/staging"
+        },
+        {
+          "after": "2399586345335850115",
+          "op": "add",
+          "path": "/depots/depots/4382912/manifests/staging"
+        },
+        {
+          "after": "4358523850261514094",
+          "op": "add",
+          "path": "/depots/depots/4382914/manifests/staging"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40898967,
+      "change_number": 40902049,
       "data": {
         "appinfo": {
           "common": {
@@ -513,6 +591,30 @@
                 },
                 "root": "WindowsHome",
                 "useinstead": "MacAppSupport"
+              },
+              "2": {
+                "os": "Linux",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "LEXPLOIT",
+                    "replace": "lexploit"
+                  }
+                },
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              },
+              "3": {
+                "os": "MacOS",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "LEXPLOIT",
+                    "replace": "LEXPLOIT"
+                  }
+                },
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
               }
             },
             "savefiles": {
@@ -525,6 +627,16 @@
                 "path": ".wordcrack",
                 "pattern": "leaderboard.json",
                 "root": "WindowsHome"
+              },
+              "2": {
+                "path": "LEXPLOIT",
+                "pattern": "save.json",
+                "root": "WinAppDataRoaming"
+              },
+              "3": {
+                "path": "LEXPLOIT",
+                "pattern": "leaderboard.json",
+                "root": "WinAppDataRoaming"
               }
             }
           }
@@ -535,6 +647,12 @@
               "buildid": "25729331",
               "timebuildupdated": 1791210436,
               "timeupdated": 1791210458
+            },
+            "staging": {
+              "buildid": "26636891",
+              "description": "LEXPLOIT 2.0.2 (staging)",
+              "timebuildupdated": 1794549187,
+              "timeupdated": 1794549478
             }
           },
           "depots": {
@@ -544,7 +662,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "2311269894666917350"
+                "public": "2311269894666917350",
+                "staging": "2399586345335850115"
               }
             },
             "4382914": {
@@ -552,17 +671,18 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "6288997198987220076"
+                "public": "6288997198987220076",
+                "staging": "4358523850261514094"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T03:38:27.416Z",
+      "observed_at": "2026-11-13T06:08:24.991Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T03:38:27.416Z"
+  "updated_at": "2026-11-13T06:08:24.991Z"
 }
