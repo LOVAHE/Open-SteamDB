@@ -1164,11 +1164,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-13T16:08:26.934Z",
+      "change_number": 40919809,
+      "changes": [
+        {
+          "after": "26648741",
+          "before": "26620766",
+          "op": "replace",
+          "path": "/depots/branches/unstable/buildid"
+        },
+        {
+          "after": 1794585464,
+          "before": 1794496576,
+          "op": "replace",
+          "path": "/depots/branches/unstable/timebuildupdated"
+        },
+        {
+          "after": 1794585483,
+          "before": 1794496595,
+          "op": "replace",
+          "path": "/depots/branches/unstable/timeupdated"
+        },
+        {
+          "after": "9046812211837954428",
+          "before": "8067048793250120530",
+          "op": "replace",
+          "path": "/depots/depots/4826311/manifests/unstable"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40877873,
+      "change_number": 40919809,
       "data": {
         "appinfo": {
           "common": {
@@ -1299,27 +1331,27 @@
               "timeupdated": 1794496829
             },
             "unstable": {
-              "buildid": "26620766",
+              "buildid": "26648741",
               "description": "Latest updates, but may be less stable than the default branch",
-              "timebuildupdated": 1794496576,
-              "timeupdated": 1794496595
+              "timebuildupdated": 1794585464,
+              "timeupdated": 1794585483
             }
           },
           "depots": {
             "4826311": {
               "manifests": {
                 "public": "8067048793250120530",
-                "unstable": "8067048793250120530"
+                "unstable": "9046812211837954428"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-12T15:23:24.646Z",
+      "observed_at": "2026-11-13T16:08:26.934Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T15:23:24.646Z"
+  "updated_at": "2026-11-13T16:08:26.934Z"
 }
