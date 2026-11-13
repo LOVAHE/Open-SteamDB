@@ -580,11 +580,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-13T11:08:29.780Z",
+      "change_number": 40909991,
+      "changes": [
+        {
+          "after": "26642327",
+          "before": "26642125",
+          "op": "replace",
+          "path": "/depots/branches/internal_testing/buildid"
+        },
+        {
+          "after": 1794567587,
+          "before": 1794567012,
+          "op": "replace",
+          "path": "/depots/branches/internal_testing/timebuildupdated"
+        },
+        {
+          "after": 1794567587,
+          "before": 1794567012,
+          "op": "replace",
+          "path": "/depots/branches/internal_testing/timeupdated"
+        },
+        {
+          "after": "6094541421385971494",
+          "before": "6809040483723056439",
+          "op": "replace",
+          "path": "/depots/depots/4733571/manifests/internal_testing"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40909656,
+      "change_number": 40909991,
       "data": {
         "appinfo": {
           "common": {
@@ -747,10 +779,10 @@
         "depots": {
           "branches": {
             "internal_testing": {
-              "buildid": "26642125",
+              "buildid": "26642327",
               "description": "Internal testing",
-              "timebuildupdated": 1794567012,
-              "timeupdated": 1794567012
+              "timebuildupdated": 1794567587,
+              "timeupdated": 1794567587
             },
             "public": {
               "buildid": "26559645",
@@ -787,7 +819,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "internal_testing": "6809040483723056439",
+                "internal_testing": "6094541421385971494",
                 "public": "4761598944118535171",
                 "release_candidate": "4761598944118535171"
               }
@@ -807,11 +839,11 @@
           }
         }
       },
-      "observed_at": "2026-11-13T10:53:23.452Z",
+      "observed_at": "2026-11-13T11:08:29.780Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T10:53:23.452Z"
+  "updated_at": "2026-11-13T11:08:29.780Z"
 }

@@ -309,11 +309,43 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-13T11:08:29.780Z",
+      "change_number": 40910258,
+      "changes": [
+        {
+          "after": "26642512",
+          "before": "26631377",
+          "op": "replace",
+          "path": "/depots/branches/staging/buildid"
+        },
+        {
+          "after": 1794568140,
+          "before": 1794528491,
+          "op": "replace",
+          "path": "/depots/branches/staging/timebuildupdated"
+        },
+        {
+          "after": 1794568140,
+          "before": 1794528613,
+          "op": "replace",
+          "path": "/depots/branches/staging/timeupdated"
+        },
+        {
+          "after": "4900010865236329197",
+          "before": "4049584875842579164",
+          "op": "replace",
+          "path": "/depots/depots/2450351/manifests/staging"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40909033,
+      "change_number": 40910258,
       "data": {
         "appinfo": {
           "common": {
@@ -520,10 +552,10 @@
               "timeupdated": 1794528601
             },
             "staging": {
-              "buildid": "26631377",
+              "buildid": "26642512",
               "description": "Staging branch.",
-              "timebuildupdated": 1794528491,
-              "timeupdated": 1794528613
+              "timebuildupdated": 1794568140,
+              "timeupdated": 1794568140
             }
           },
           "depots": {
@@ -538,17 +570,17 @@
             "2450351": {
               "manifests": {
                 "public": "4049584875842579164",
-                "staging": "4049584875842579164"
+                "staging": "4900010865236329197"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T10:38:22.390Z",
+      "observed_at": "2026-11-13T11:08:29.780Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T10:38:22.390Z"
+  "updated_at": "2026-11-13T11:08:29.780Z"
 }

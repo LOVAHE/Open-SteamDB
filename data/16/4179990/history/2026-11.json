@@ -317,11 +317,32 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-13T11:08:29.780Z",
+      "change_number": 40910164,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": {
+            "maxnumfiles": "500",
+            "quota": "10000000"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40900350,
+      "change_number": 40910164,
       "data": {
         "appinfo": {
           "common": {
@@ -339,6 +360,7 @@
               "category_18": "1",
               "category_2": "1",
               "category_22": "1",
+              "category_23": "1",
               "category_62": "1"
             },
             "clienticon": "db28759092170d52d007805af59d24e5bc589e05",
@@ -464,6 +486,10 @@
           "extended": {
             "developer": "Gimcraft",
             "publisher": "Gimcraft"
+          },
+          "ufs": {
+            "maxnumfiles": "500",
+            "quota": "10000000"
           }
         },
         "depots": {
@@ -486,11 +512,11 @@
           }
         }
       },
-      "observed_at": "2026-11-13T04:38:16.577Z",
+      "observed_at": "2026-11-13T11:08:29.780Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T04:38:16.577Z"
+  "updated_at": "2026-11-13T11:08:29.780Z"
 }

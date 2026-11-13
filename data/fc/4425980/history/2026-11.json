@@ -457,11 +457,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-13T11:08:29.780Z",
+      "change_number": 40910065,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26135917",
+            "description": "Legacy - before savegame rework",
+            "timebuildupdated": 1792679173,
+            "timeupdated": 1792679709
+          },
+          "op": "add",
+          "path": "/depots/branches/v1.0.2"
+        },
+        {
+          "after": "766080007402044803",
+          "op": "add",
+          "path": "/depots/depots/4425981/manifests/v1.0.2"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40876257,
+      "change_number": 40910065,
       "data": {
         "appinfo": {
           "common": {
@@ -794,6 +817,12 @@
               "buildid": "26619189",
               "timebuildupdated": 1794492279,
               "timeupdated": 1794492825
+            },
+            "v1.0.2": {
+              "buildid": "26135917",
+              "description": "Legacy - before savegame rework",
+              "timebuildupdated": 1792679173,
+              "timeupdated": 1792679709
             }
           },
           "depots": {
@@ -803,17 +832,18 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "7439917999398148350"
+                "public": "7439917999398148350",
+                "v1.0.2": "766080007402044803"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-12T14:38:32.866Z",
+      "observed_at": "2026-11-13T11:08:29.780Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T14:38:32.866Z"
+  "updated_at": "2026-11-13T11:08:29.780Z"
 }
