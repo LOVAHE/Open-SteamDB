@@ -296,11 +296,67 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-13T11:53:25.589Z",
+      "change_number": 40911349,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/brazilian"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/latam"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/russian"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/spanish"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/brazilian"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/latam"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/spanish"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40910239,
+      "change_number": 40911349,
       "data": {
         "appinfo": {
           "common": {
@@ -341,10 +397,14 @@
             },
             "icon": "98bd8ce32b5c2903fb6b9fc54d658b5203265d9e",
             "languages": {
+              "brazilian": "1",
               "english": "1",
               "japanese": "1",
               "koreana": "1",
-              "schinese": "1"
+              "latam": "1",
+              "russian": "1",
+              "schinese": "1",
+              "spanish": "1"
             },
             "library_assets": {
               "library_capsule": "en",
@@ -435,6 +495,9 @@
               "19": "1734"
             },
             "supported_languages": {
+              "brazilian": {
+                "supported": "true"
+              },
               "english": {
                 "supported": "true"
               },
@@ -444,7 +507,16 @@
               "koreana": {
                 "supported": "true"
               },
+              "latam": {
+                "supported": "true"
+              },
+              "russian": {
+                "supported": "true"
+              },
               "schinese": {
+                "supported": "true"
+              },
+              "spanish": {
                 "supported": "true"
               }
             },
@@ -516,11 +588,11 @@
           }
         }
       },
-      "observed_at": "2026-11-13T11:08:29.780Z",
+      "observed_at": "2026-11-13T11:53:25.589Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T11:08:29.780Z"
+  "updated_at": "2026-11-13T11:53:25.589Z"
 }
