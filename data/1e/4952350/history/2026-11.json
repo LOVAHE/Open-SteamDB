@@ -205,11 +205,83 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-13T10:38:22.390Z",
+      "change_number": 40909232,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "10",
+            "quota": "10485760",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/LAST SIGNAL",
+                "pattern": "save.json",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/LAST SIGNAL",
+                "pattern": "records.json",
+                "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "Godot/app_userdata/LAST SIGNAL",
+                "pattern": "settings.cfg",
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26638810",
+          "before": "25965321",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794556995,
+          "before": 1792082188,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794565603,
+          "before": 1792083988,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4579710946224550645",
+          "before": "1882291578028501879",
+          "op": "replace",
+          "path": "/depots/depots/4952351/manifests/public"
+        },
+        {
+          "after": "2920418827443591513",
+          "before": "6173225368824907447",
+          "op": "replace",
+          "path": "/depots/depots/4952352/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40886132,
+      "change_number": 40909232,
       "data": {
         "appinfo": {
           "common": {
@@ -364,14 +436,44 @@
           "extended": {
             "developer": "MaticeCat",
             "publisher": "MaticeCat"
+          },
+          "ufs": {
+            "maxnumfiles": "10",
+            "quota": "10485760",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/LAST SIGNAL",
+                "pattern": "save.json",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/LAST SIGNAL",
+                "pattern": "records.json",
+                "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "Godot/app_userdata/LAST SIGNAL",
+                "pattern": "settings.cfg",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25965321",
-              "timebuildupdated": 1792082188,
-              "timeupdated": 1792083988
+              "buildid": "26638810",
+              "timebuildupdated": 1794556995,
+              "timeupdated": 1794565603
             }
           },
           "depots": {
@@ -380,7 +482,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "1882291578028501879"
+                "public": "4579710946224550645"
               }
             },
             "4952352": {
@@ -388,17 +490,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "6173225368824907447"
+                "public": "2920418827443591513"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-12T19:23:36.158Z",
+      "observed_at": "2026-11-13T10:38:22.390Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T19:23:36.158Z"
+  "updated_at": "2026-11-13T10:38:22.390Z"
 }
