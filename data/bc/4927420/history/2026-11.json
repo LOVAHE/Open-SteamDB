@@ -392,11 +392,139 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-13T14:53:30.068Z",
+      "change_number": 40917489,
+      "changes": [
+        {
+          "after": {
+            "brazilian": "1",
+            "english": "1",
+            "french": "1",
+            "german": "1",
+            "latam": "1",
+            "russian": "1",
+            "schinese": "1",
+            "spanish": "1",
+            "tchinese": "1"
+          },
+          "op": "add",
+          "path": "/appinfo/common/languages"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/brazilian/full_audio"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/brazilian/subtitles"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/english/full_audio"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/english/subtitles"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/french/full_audio"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/french/subtitles"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/german/full_audio"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/german/subtitles"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/japanese"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/latam/full_audio"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/latam/subtitles"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/russian/full_audio"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/russian/subtitles"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/spanish"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/tchinese/full_audio"
+        },
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/tchinese/subtitles"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/thai"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/vietnamese"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40914546,
+      "change_number": 40917489,
       "data": {
         "appinfo": {
           "common": {
@@ -429,6 +557,17 @@
               "english": "84c47f967514de6d97a1a271c9fe4a0cabda297a/header.jpg"
             },
             "icon": "07a3f46f190c88c41e4d6001407c900bdcf5dcf1",
+            "languages": {
+              "brazilian": "1",
+              "english": "1",
+              "french": "1",
+              "german": "1",
+              "latam": "1",
+              "russian": "1",
+              "schinese": "1",
+              "spanish": "1",
+              "tchinese": "1"
+            },
             "library_assets": {
               "library_capsule": "en",
               "library_header": "en",
@@ -521,38 +660,39 @@
             },
             "supported_languages": {
               "brazilian": {
-                "full_audio": "true",
-                "subtitles": "true",
                 "supported": "true"
               },
               "english": {
-                "full_audio": "true",
-                "subtitles": "true",
                 "supported": "true"
               },
               "french": {
-                "full_audio": "true",
-                "subtitles": "true",
                 "supported": "true"
               },
               "german": {
-                "full_audio": "true",
-                "subtitles": "true",
+                "supported": "true"
+              },
+              "japanese": {
                 "supported": "true"
               },
               "latam": {
-                "full_audio": "true",
-                "subtitles": "true",
                 "supported": "true"
               },
               "russian": {
-                "full_audio": "true",
-                "subtitles": "true",
+                "supported": "true"
+              },
+              "schinese": {
+                "supported": "true"
+              },
+              "spanish": {
                 "supported": "true"
               },
               "tchinese": {
-                "full_audio": "true",
-                "subtitles": "true",
+                "supported": "true"
+              },
+              "thai": {
+                "supported": "true"
+              },
+              "vietnamese": {
                 "supported": "true"
               }
             },
@@ -603,11 +743,11 @@
           }
         }
       },
-      "observed_at": "2026-11-13T13:38:27.266Z",
+      "observed_at": "2026-11-13T14:53:30.068Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T13:38:27.266Z"
+  "updated_at": "2026-11-13T14:53:30.068Z"
 }
