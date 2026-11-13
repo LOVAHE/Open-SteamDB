@@ -341,11 +341,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-13T07:08:25.387Z",
+      "change_number": 40903345,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "macosapplesilicon",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "26637860",
+          "before": "26631143",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794553331,
+          "before": 1794527605,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794553331,
+          "before": 1794527606,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1943333441801895168",
+          "before": "120656890001630175",
+          "op": "replace",
+          "path": "/depots/depots/5455561/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40895004,
+      "change_number": 40903345,
       "data": {
         "appinfo": {
           "common": {
@@ -447,7 +485,7 @@
             },
             "name": "Command Base Assault",
             "osarch": "64",
-            "osextended": "macosapplesilicon",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
             "oslist": "windows,macos",
             "primary_genre": "37",
             "small_capsule": {
@@ -496,9 +534,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26631143",
-              "timebuildupdated": 1794527605,
-              "timeupdated": 1794527606
+              "buildid": "26637860",
+              "timebuildupdated": 1794553331,
+              "timeupdated": 1794553331
             }
           },
           "depots": {
@@ -508,7 +546,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "120656890001630175"
+                "public": "1943333441801895168"
               }
             },
             "5455562": {
@@ -522,11 +560,11 @@
           }
         }
       },
-      "observed_at": "2026-11-13T02:38:34.394Z",
+      "observed_at": "2026-11-13T07:08:25.387Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T02:38:34.394Z"
+  "updated_at": "2026-11-13T07:08:25.387Z"
 }
