@@ -1693,11 +1693,65 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-13T02:38:34.394Z",
+      "change_number": 40895098,
+      "changes": [
+        {
+          "after": "proton-experimental",
+          "before": "proton-stable",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/configuration/recommended_runtime"
+        },
+        {
+          "after": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant",
+          "before": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/3/token"
+        },
+        {
+          "before": {
+            "display": "4",
+            "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+          },
+          "op": "remove",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/4"
+        },
+        {
+          "after": "1794530926",
+          "before": "1791401021",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/test_timestamp"
+        },
+        {
+          "after": "26581260",
+          "before": "25719316",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tested_build_id"
+        },
+        {
+          "after": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant",
+          "before": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/4/token"
+        },
+        {
+          "before": {
+            "display": "4",
+            "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+          },
+          "op": "remove",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/5"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40893735,
+      "change_number": 40895098,
       "data": {
         "appinfo": {
           "common": {
@@ -1823,7 +1877,7 @@
                 "hdr_support": "0",
                 "non_deck_display_glyphs": "1",
                 "primary_player_is_controller_slot_0": "0",
-                "recommended_runtime": "proton-stable",
+                "recommended_runtime": "proton-experimental",
                 "requires_h264": "1",
                 "requires_internet_for_setup": "0",
                 "requires_internet_for_singleplayer": "0",
@@ -1850,10 +1904,6 @@
                 },
                 "3": {
                   "display": "4",
-                  "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
-                },
-                "4": {
-                  "display": "4",
                   "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
                 }
               },
@@ -1872,8 +1922,8 @@
                   "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
                 }
               },
-              "test_timestamp": "1791401021",
-              "tested_build_id": "25719316",
+              "test_timestamp": "1794530926",
+              "tested_build_id": "26581260",
               "tests": {
                 "0": {
                   "display": "3",
@@ -1892,10 +1942,6 @@
                   "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
                 },
                 "4": {
-                  "display": "4",
-                  "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
-                },
-                "5": {
                   "display": "4",
                   "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
                 }
@@ -2011,7 +2057,7 @@
           }
         }
       },
-      "observed_at": "2026-11-12T23:53:32.584Z",
+      "observed_at": "2026-11-13T02:38:34.394Z",
       "tracked": true
     },
     "steam_store": {
@@ -2301,5 +2347,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T23:53:32.584Z"
+  "updated_at": "2026-11-13T02:38:34.394Z"
 }

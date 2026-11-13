@@ -404,11 +404,42 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-13T02:38:34.394Z",
+      "change_number": 40894475,
+      "changes": [
+        {
+          "after": "26629256",
+          "before": "26629018",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794521249,
+          "before": 1794520505,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794529397,
+          "before": 1794523850,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4277335428537571220",
+          "op": "add",
+          "path": "/depots/depots/5321543/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40893190,
+      "change_number": 40894475,
       "data": {
         "appinfo": {
           "common": {
@@ -567,9 +598,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26629018",
-              "timebuildupdated": 1794520505,
-              "timeupdated": 1794523850
+              "buildid": "26629256",
+              "timebuildupdated": 1794521249,
+              "timeupdated": 1794529397
             }
           },
           "depots": {
@@ -594,16 +625,18 @@
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "4277335428537571220"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-12T23:23:36.217Z",
+      "observed_at": "2026-11-13T02:38:34.394Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T23:23:36.217Z"
+  "updated_at": "2026-11-13T02:38:34.394Z"
 }

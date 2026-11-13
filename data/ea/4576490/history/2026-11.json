@@ -464,11 +464,65 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-13T02:38:34.394Z",
+      "change_number": 40896023,
+      "changes": [
+        {
+          "after": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant",
+          "before": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/4/token"
+        },
+        {
+          "before": {
+            "display": "4",
+            "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+          },
+          "op": "remove",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/5"
+        },
+        {
+          "after": "1794533248",
+          "before": "1793126530",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/test_timestamp"
+        },
+        {
+          "after": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant",
+          "before": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/5/token"
+        },
+        {
+          "before": {
+            "display": "4",
+            "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+          },
+          "op": "remove",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/6"
+        },
+        {
+          "after": "4182",
+          "before": "1667",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/14"
+        },
+        {
+          "after": "1667",
+          "before": "4182",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/15"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40887610,
+      "change_number": 40896023,
       "data": {
         "appinfo": {
           "common": {
@@ -622,10 +676,6 @@
                 },
                 "4": {
                   "display": "4",
-                  "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
-                },
-                "5": {
-                  "display": "4",
                   "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
                 }
               },
@@ -648,7 +698,7 @@
                   "token": "#SteamOS_TestResult_MultiWindowAppAutomaticallySetsFocus"
                 }
               },
-              "test_timestamp": "1793126530",
+              "test_timestamp": "1794533248",
               "tested_build_id": "26136173",
               "tests": {
                 "0": {
@@ -673,10 +723,6 @@
                 },
                 "5": {
                   "display": "4",
-                  "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
-                },
-                "6": {
-                  "display": "4",
                   "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
                 }
               }
@@ -698,8 +744,8 @@
               "11": "5125",
               "12": "8945",
               "13": "599",
-              "14": "1667",
-              "15": "4182",
+              "14": "4182",
+              "15": "1667",
               "16": "6730",
               "17": "4295",
               "18": "19",
@@ -749,11 +795,11 @@
           }
         }
       },
-      "observed_at": "2026-11-12T20:08:21.055Z",
+      "observed_at": "2026-11-13T02:38:34.394Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T20:08:21.055Z"
+  "updated_at": "2026-11-13T02:38:34.394Z"
 }

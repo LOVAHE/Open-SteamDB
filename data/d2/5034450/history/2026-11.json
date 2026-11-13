@@ -486,11 +486,61 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-13T02:38:34.394Z",
+      "change_number": 40896170,
+      "changes": [
+        {
+          "after": "macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26632543",
+          "before": "26630814",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794532741,
+          "before": 1794526562,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794532806,
+          "before": 1794526681,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "6485995641815616373"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5034452"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40893490,
+      "change_number": 40896170,
       "data": {
         "appinfo": {
           "common": {
@@ -578,8 +628,8 @@
             },
             "name": "Puppetborne",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macosapplesilicon",
+            "oslist": "windows,macos",
             "primary_genre": "1",
             "small_capsule": {
               "english": "362f5bc27e52b97e64b33e25052908a25c021c91/capsule_231x87.jpg"
@@ -673,9 +723,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26630814",
-              "timebuildupdated": 1794526562,
-              "timeupdated": 1794526681
+              "buildid": "26632543",
+              "timebuildupdated": 1794532741,
+              "timeupdated": 1794532806
             }
           },
           "depots": {
@@ -686,15 +736,23 @@
               "manifests": {
                 "public": "1116648496086722106"
               }
+            },
+            "5034452": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "6485995641815616373"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-12T23:38:31.484Z",
+      "observed_at": "2026-11-13T02:38:34.394Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T23:38:31.484Z"
+  "updated_at": "2026-11-13T02:38:34.394Z"
 }

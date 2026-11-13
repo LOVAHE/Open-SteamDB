@@ -1,8 +1,8 @@
 {
   "appid": 5074480,
   "source": "steam_pics",
-  "updated_at": "2026-11-12T19:08:24.795Z",
-  "change_number": 40885833,
+  "updated_at": "2026-11-13T02:38:34.394Z",
+  "change_number": 40897587,
   "data": {
     "common": {
       "associations": {
@@ -146,7 +146,45 @@
     },
     "ufs": {
       "maxnumfiles": "10",
-      "quota": "10485760"
+      "quota": "10485760",
+      "rootoverrides": {
+        "0": {
+          "os": "MacOS",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Flight Sim",
+              "replace": "Flight Sim"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
+        },
+        "1": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Flight Sim",
+              "replace": "Flight Sim"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Flight Sim",
+          "pattern": "save-native.json",
+          "root": "WinAppDataRoaming"
+        },
+        "1": {
+          "path": "Flight Sim",
+          "pattern": "save-destruction.json",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }

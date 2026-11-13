@@ -392,11 +392,65 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-13T02:38:34.394Z",
+      "change_number": 40894659,
+      "changes": [
+        {
+          "after": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice",
+          "before": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/1/token"
+        },
+        {
+          "after": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant",
+          "before": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/2/token"
+        },
+        {
+          "before": {
+            "display": "4",
+            "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+          },
+          "op": "remove",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/3"
+        },
+        {
+          "after": "1794529917",
+          "before": "1790189465",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/test_timestamp"
+        },
+        {
+          "after": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice",
+          "before": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/2/token"
+        },
+        {
+          "after": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant",
+          "before": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/3/token"
+        },
+        {
+          "before": {
+            "display": "4",
+            "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+          },
+          "op": "remove",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/4"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40808245,
+      "change_number": 40894659,
       "data": {
         "appinfo": {
           "common": {
@@ -542,13 +596,9 @@
                 },
                 "1": {
                   "display": "4",
-                  "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
-                },
-                "2": {
-                  "display": "4",
                   "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
                 },
-                "3": {
+                "2": {
                   "display": "4",
                   "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
                 }
@@ -564,7 +614,7 @@
                   "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
                 }
               },
-              "test_timestamp": "1790189465",
+              "test_timestamp": "1794529917",
               "tested_build_id": "25362528",
               "tests": {
                 "0": {
@@ -577,13 +627,9 @@
                 },
                 "2": {
                   "display": "4",
-                  "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
-                },
-                "3": {
-                  "display": "4",
                   "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
                 },
-                "4": {
+                "3": {
                   "display": "4",
                   "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
                 }
@@ -687,11 +733,11 @@
           }
         }
       },
-      "observed_at": "2026-11-10T20:08:27.542Z",
+      "observed_at": "2026-11-13T02:38:34.394Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T20:08:27.542Z"
+  "updated_at": "2026-11-13T02:38:34.394Z"
 }
