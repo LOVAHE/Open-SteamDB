@@ -274,11 +274,80 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T20:38:40.150Z",
+      "change_number": 40945353,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26613611",
+            "description": "private dev",
+            "timebuildupdated": 1794476141,
+            "timeupdated": 1794476261
+          },
+          "op": "remove",
+          "path": "/depots/branches/private"
+        },
+        {
+          "after": "26665167",
+          "before": "26613611",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794652819,
+          "before": 1794476141,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794652970,
+          "before": 1794476261,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": "7934868348554396032",
+          "op": "remove",
+          "path": "/depots/depots/5013742/manifests/private"
+        },
+        {
+          "after": "2540953415947981123",
+          "before": "7934868348554396032",
+          "op": "replace",
+          "path": "/depots/depots/5013742/manifests/public"
+        },
+        {
+          "before": "120861021104637085",
+          "op": "remove",
+          "path": "/depots/depots/5013743/manifests/private"
+        },
+        {
+          "after": "5221796103514760411",
+          "before": "120861021104637085",
+          "op": "replace",
+          "path": "/depots/depots/5013743/manifests/public"
+        },
+        {
+          "before": "3578483111563696059",
+          "op": "remove",
+          "path": "/depots/depots/5013744/manifests/private"
+        },
+        {
+          "after": "6951223950509715198",
+          "before": "3578483111563696059",
+          "op": "replace",
+          "path": "/depots/depots/5013744/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40876144,
+      "change_number": 40945353,
       "data": {
         "appinfo": {
           "common": {
@@ -491,16 +560,10 @@
         },
         "depots": {
           "branches": {
-            "private": {
-              "buildid": "26613611",
-              "description": "private dev",
-              "timebuildupdated": 1794476141,
-              "timeupdated": 1794476261
-            },
             "public": {
-              "buildid": "26613611",
-              "timebuildupdated": 1794476141,
-              "timeupdated": 1794476261
+              "buildid": "26665167",
+              "timebuildupdated": 1794652819,
+              "timeupdated": 1794652970
             }
           },
           "depots": {
@@ -513,8 +576,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "private": "7934868348554396032",
-                "public": "7934868348554396032"
+                "public": "2540953415947981123"
               }
             },
             "5013743": {
@@ -523,8 +585,7 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "private": "120861021104637085",
-                "public": "120861021104637085"
+                "public": "5221796103514760411"
               }
             },
             "5013744": {
@@ -532,18 +593,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "private": "3578483111563696059",
-                "public": "3578483111563696059"
+                "public": "6951223950509715198"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-12T15:08:59.103Z",
+      "observed_at": "2026-11-14T20:38:40.150Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T15:08:59.103Z"
+  "updated_at": "2026-11-14T20:38:40.150Z"
 }

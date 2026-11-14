@@ -327,11 +327,59 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T20:38:40.150Z",
+      "change_number": 40942417,
+      "changes": [
+        {
+          "after": "100",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "26663396",
+          "before": "26578643",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794642983,
+          "before": 1794353779,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794643033,
+          "before": 1794353852,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3133202428950025584",
+          "before": "830002674454910491",
+          "op": "replace",
+          "path": "/depots/depots/5050872/manifests/public"
+        },
+        {
+          "after": "4286585860211520923",
+          "before": "7496350752181397910",
+          "op": "replace",
+          "path": "/depots/depots/5050873/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40813472,
+      "change_number": 40942417,
       "data": {
         "appinfo": {
           "common": {
@@ -433,6 +481,8 @@
             "osextended": "",
             "oslist": "windows,linux",
             "primary_genre": "3",
+            "review_percentage": "100",
+            "review_score": "7",
             "small_capsule": {
               "english": "554747a20b214787cbaeb148db00f2298d3854f6/capsule_231x87.jpg"
             },
@@ -542,9 +592,9 @@
               "timeupdated": 1793314937
             },
             "public": {
-              "buildid": "26578643",
-              "timebuildupdated": 1794353779,
-              "timeupdated": 1794353852
+              "buildid": "26663396",
+              "timebuildupdated": 1794642983,
+              "timeupdated": 1794643033
             }
           },
           "depots": {
@@ -554,7 +604,7 @@
               },
               "manifests": {
                 "jamversion": "1077453084497972558",
-                "public": "830002674454910491"
+                "public": "3133202428950025584"
               }
             },
             "5050873": {
@@ -563,17 +613,17 @@
               },
               "manifests": {
                 "jamversion": "7513470564355116035",
-                "public": "7496350752181397910"
+                "public": "4286585860211520923"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-10T23:53:27.910Z",
+      "observed_at": "2026-11-14T20:38:40.150Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T23:53:27.910Z"
+  "updated_at": "2026-11-14T20:38:40.150Z"
 }
