@@ -773,11 +773,37 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T22:08:24.085Z",
+      "change_number": 40957405,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "81",
+          "before": "82",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40942143,
+      "change_number": 40957405,
       "data": {
         "appinfo": {
           "common": {
@@ -872,10 +898,10 @@
             },
             "name": "DAWN AEROWAR",
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "primary_genre": "23",
-            "review_percentage": "82",
+            "review_percentage": "81",
             "review_score": "8",
             "small_capsule": {
               "english": "59fe1b9266bcedcf9b834186a2bda4272b2c75f7/capsule_231x87.jpg"
@@ -997,11 +1023,11 @@
           }
         }
       },
-      "observed_at": "2026-11-14T17:53:30.329Z",
+      "observed_at": "2026-11-14T22:08:24.085Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-14T17:53:30.329Z"
+  "updated_at": "2026-11-14T22:08:24.085Z"
 }

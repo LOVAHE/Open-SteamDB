@@ -193,11 +193,41 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T22:08:24.085Z",
+      "change_number": 40940263,
+      "changes": [
+        {
+          "after": "Doomers Publishing",
+          "before": "Doomers Entertainment",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/name"
+        },
+        {
+          "after": "90",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "Doomers Publishing",
+          "before": "Doomers Entertainment",
+          "op": "replace",
+          "path": "/appinfo/extended/publisher"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40567886,
+      "change_number": 40940263,
       "data": {
         "appinfo": {
           "common": {
@@ -207,7 +237,7 @@
                 "type": "developer"
               },
               "1": {
-                "name": "Doomers Entertainment",
+                "name": "Doomers Publishing",
                 "type": "publisher"
               },
               "2": {
@@ -293,6 +323,8 @@
             "oslist": "windows",
             "parent": "3244040",
             "primary_genre": "1",
+            "review_percentage": "90",
+            "review_score": "7",
             "small_capsule": {
               "english": "fcdddbdb819bef82b74e6afee7f325a94bf574a4/capsule_231x87.jpg"
             },
@@ -312,7 +344,7 @@
           "extended": {
             "developer": "Doomers Entertainment",
             "homepage": "https://doomerspublishing.com/",
-            "publisher": "Doomers Entertainment"
+            "publisher": "Doomers Publishing"
           }
         },
         "depots": {
@@ -348,11 +380,11 @@
           }
         }
       },
-      "observed_at": "2026-11-09T15:38:22.598Z",
+      "observed_at": "2026-11-14T22:08:24.085Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T15:38:22.598Z"
+  "updated_at": "2026-11-14T22:08:24.085Z"
 }
