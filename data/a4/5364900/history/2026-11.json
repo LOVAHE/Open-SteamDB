@@ -415,11 +415,50 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T23:23:37.220Z",
+      "change_number": 40927616,
+      "changes": [
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        },
+        {
+          "after": "26653591",
+          "before": "26396295",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794599215,
+          "before": 1793675400,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794599437,
+          "before": 1793675588,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "159345898191523705",
+          "before": "7250181144369469236",
+          "op": "replace",
+          "path": "/depots/depots/5364901/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40533624,
+      "change_number": 40927616,
       "data": {
         "appinfo": {
           "common": {
@@ -560,6 +599,9 @@
               "japanese": {
                 "supported": "true"
               },
+              "russian": {
+                "supported": "true"
+              },
               "spanish": {
                 "supported": "true"
               }
@@ -600,9 +642,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26396295",
-              "timebuildupdated": 1793675400,
-              "timeupdated": 1793675588
+              "buildid": "26653591",
+              "timebuildupdated": 1794599215,
+              "timeupdated": 1794599437
             }
           },
           "depots": {
@@ -621,17 +663,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "7250181144369469236"
+                "public": "159345898191523705"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-03T03:22:55.966Z",
+      "observed_at": "2026-11-14T23:23:37.220Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-03T03:22:55.966Z"
+  "updated_at": "2026-11-14T23:23:37.220Z"
 }
