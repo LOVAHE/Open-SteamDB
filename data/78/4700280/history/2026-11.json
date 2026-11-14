@@ -570,11 +570,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T19:08:15.866Z",
+      "change_number": 40926837,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": "26652675",
+          "before": "26650263",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794596149,
+          "before": 1794589213,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794596185,
+          "before": 1794589273,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8420860253629102085",
+          "before": "7594271032374558277",
+          "op": "replace",
+          "path": "/depots/depots/4700281/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40922232,
+      "change_number": 40926837,
       "data": {
         "appinfo": {
           "common": {
@@ -764,7 +801,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "Ironfields"
@@ -799,25 +837,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26650263",
-              "timebuildupdated": 1794589213,
-              "timeupdated": 1794589273
+              "buildid": "26652675",
+              "timebuildupdated": 1794596149,
+              "timeupdated": 1794596185
             }
           },
           "depots": {
             "4700281": {
               "manifests": {
-                "public": "7594271032374558277"
+                "public": "8420860253629102085"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T17:08:28.013Z",
+      "observed_at": "2026-11-14T19:08:15.866Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T17:08:28.013Z"
+  "updated_at": "2026-11-14T19:08:15.866Z"
 }

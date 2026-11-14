@@ -457,11 +457,45 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T19:08:15.866Z",
+      "change_number": 40929642,
+      "changes": [
+        {
+          "after": "LEXPLOIT",
+          "before": "WordCrack",
+          "op": "replace",
+          "path": "/appinfo/config/installdir"
+        },
+        {
+          "before": {
+            "buildid": "26636891",
+            "description": "LEXPLOIT 2.0.2 (staging)",
+            "timebuildupdated": 1794549187,
+            "timeupdated": 1794549478
+          },
+          "op": "remove",
+          "path": "/depots/branches/staging"
+        },
+        {
+          "before": "2399586345335850115",
+          "op": "remove",
+          "path": "/depots/depots/4382912/manifests/staging"
+        },
+        {
+          "before": "4358523850261514094",
+          "op": "remove",
+          "path": "/depots/depots/4382914/manifests/staging"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40915326,
+      "change_number": 40929642,
       "data": {
         "appinfo": {
           "common": {
@@ -596,7 +630,7 @@
             "type": "Game"
           },
           "config": {
-            "installdir": "WordCrack"
+            "installdir": "LEXPLOIT"
           },
           "extended": {
             "developer": "Thread &amp; Signal",
@@ -685,12 +719,6 @@
               "buildid": "26636891",
               "timebuildupdated": 1794549187,
               "timeupdated": 1794577823
-            },
-            "staging": {
-              "buildid": "26636891",
-              "description": "LEXPLOIT 2.0.2 (staging)",
-              "timebuildupdated": 1794549187,
-              "timeupdated": 1794549478
             }
           },
           "depots": {
@@ -700,8 +728,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "2399586345335850115",
-                "staging": "2399586345335850115"
+                "public": "2399586345335850115"
               }
             },
             "4382914": {
@@ -709,18 +736,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "4358523850261514094",
-                "staging": "4358523850261514094"
+                "public": "4358523850261514094"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T13:53:20.663Z",
+      "observed_at": "2026-11-14T19:08:15.866Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T13:53:20.663Z"
+  "updated_at": "2026-11-14T19:08:15.866Z"
 }

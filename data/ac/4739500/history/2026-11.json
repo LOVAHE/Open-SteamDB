@@ -398,11 +398,109 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T19:08:15.866Z",
+      "change_number": 40947636,
+      "changes": [
+        {
+          "after": "99",
+          "before": "100",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "Godot/app_userdata/JOHN GLEEP/saves",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/1/pathtransforms/0/find"
+        },
+        {
+          "after": "WinAppDataRoaming",
+          "before": "gameinstall",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/1/root"
+        },
+        {
+          "after": "26653400",
+          "before": "26625773",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794598560,
+          "before": 1794510654,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794600409,
+          "before": 1794512855,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "26653400",
+          "before": "26581695",
+          "op": "replace",
+          "path": "/depots/branches/public_beta/buildid"
+        },
+        {
+          "after": 1794598560,
+          "before": 1794365244,
+          "op": "replace",
+          "path": "/depots/branches/public_beta/timebuildupdated"
+        },
+        {
+          "after": 1794599891,
+          "before": 1794365304,
+          "op": "replace",
+          "path": "/depots/branches/public_beta/timeupdated"
+        },
+        {
+          "after": "3133110951547232107",
+          "before": "4092814826751034379",
+          "op": "replace",
+          "path": "/depots/depots/4739501/manifests/public"
+        },
+        {
+          "after": "3133110951547232107",
+          "before": "7201632029436616600",
+          "op": "replace",
+          "path": "/depots/depots/4739501/manifests/public_beta"
+        },
+        {
+          "after": "6906630173108741625",
+          "before": "5229864682605286862",
+          "op": "replace",
+          "path": "/depots/depots/4739502/manifests/public"
+        },
+        {
+          "after": "6906630173108741625",
+          "before": "5829665215196996043",
+          "op": "replace",
+          "path": "/depots/depots/4739502/manifests/public_beta"
+        },
+        {
+          "after": "4844505864551271016",
+          "before": "8497634755283793464",
+          "op": "replace",
+          "path": "/depots/depots/4739504/manifests/public"
+        },
+        {
+          "after": "4844505864551271016",
+          "before": "6548589589067419959",
+          "op": "replace",
+          "path": "/depots/depots/4739504/manifests/public_beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40887203,
+      "change_number": 40947636,
       "data": {
         "appinfo": {
           "common": {
@@ -516,7 +614,7 @@
             "osextended": "macos64,macosapplesilicon",
             "oslist": "windows,macos,linux",
             "primary_genre": "2",
-            "review_percentage": "100",
+            "review_percentage": "99",
             "review_score": "8",
             "small_capsule": {
               "english": "e10e6458b4ff88002dcda514bff8e8f44adfaad3/capsule_231x87.jpg"
@@ -606,11 +704,11 @@
                 "oscompare": "=",
                 "pathtransforms": {
                   "0": {
-                    "find": "",
+                    "find": "Godot/app_userdata/JOHN GLEEP/saves",
                     "replace": "godot/app_userdata/JOHN GLEEP/saves"
                   }
                 },
-                "root": "gameinstall",
+                "root": "WinAppDataRoaming",
                 "useinstead": "LinuxXdgDataHome"
               }
             },
@@ -627,22 +725,22 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26625773",
-              "timebuildupdated": 1794510654,
-              "timeupdated": 1794512855
+              "buildid": "26653400",
+              "timebuildupdated": 1794598560,
+              "timeupdated": 1794600409
             },
             "public_beta": {
-              "buildid": "26581695",
+              "buildid": "26653400",
               "description": "Public test branch",
-              "timebuildupdated": 1794365244,
-              "timeupdated": 1794365304
+              "timebuildupdated": 1794598560,
+              "timeupdated": 1794599891
             }
           },
           "depots": {
             "4739501": {
               "manifests": {
-                "public": "4092814826751034379",
-                "public_beta": "7201632029436616600"
+                "public": "3133110951547232107",
+                "public_beta": "3133110951547232107"
               }
             },
             "4739502": {
@@ -651,8 +749,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "5229864682605286862",
-                "public_beta": "5829665215196996043"
+                "public": "6906630173108741625",
+                "public_beta": "6906630173108741625"
               }
             },
             "4739503": {
@@ -670,18 +768,18 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "8497634755283793464",
-                "public_beta": "6548589589067419959"
+                "public": "4844505864551271016",
+                "public_beta": "4844505864551271016"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-12T19:53:36.010Z",
+      "observed_at": "2026-11-14T19:08:15.866Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T19:53:36.010Z"
+  "updated_at": "2026-11-14T19:08:15.866Z"
 }
