@@ -380,11 +380,57 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T17:53:30.329Z",
+      "change_number": 40935121,
+      "changes": [
+        {
+          "after": "95",
+          "before": "94",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": {
+            "maxnumfiles": "100",
+            "quota": "100000000"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26658683",
+          "before": "26630324",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794617399,
+          "before": 1794524776,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794618115,
+          "before": 1794525923,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8726074786386772395",
+          "before": "1629623294120901994",
+          "op": "replace",
+          "path": "/depots/depots/2822741/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40898805,
+      "change_number": 40935121,
       "data": {
         "appinfo": {
           "common": {
@@ -474,7 +520,7 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "3",
-            "review_percentage": "94",
+            "review_percentage": "95",
             "review_score": "7",
             "small_capsule": {
               "english": "875595c1924b31d870d57ce129bb677cfd046e56/capsule_231x87.jpg"
@@ -518,30 +564,34 @@
             "developer": "Regalcraft Games",
             "homepage": "https://regalcraftgames.com",
             "publisher": "Regalcraft Games"
+          },
+          "ufs": {
+            "maxnumfiles": "100",
+            "quota": "100000000"
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26630324",
-              "timebuildupdated": 1794524776,
-              "timeupdated": 1794525923
+              "buildid": "26658683",
+              "timebuildupdated": 1794617399,
+              "timeupdated": 1794618115
             }
           },
           "depots": {
             "2822741": {
               "manifests": {
-                "public": "1629623294120901994"
+                "public": "8726074786386772395"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T03:38:27.416Z",
+      "observed_at": "2026-11-14T17:53:30.329Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T03:38:27.416Z"
+  "updated_at": "2026-11-14T17:53:30.329Z"
 }

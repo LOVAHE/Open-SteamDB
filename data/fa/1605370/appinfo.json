@@ -1,8 +1,8 @@
 {
   "appid": 1605370,
   "source": "steam_pics",
-  "updated_at": "2026-11-13T18:28:29.329Z",
-  "change_number": 40925390,
+  "updated_at": "2026-11-14T17:53:30.329Z",
+  "change_number": 40946803,
   "data": {
     "common": {
       "associations": {
@@ -21,6 +21,7 @@
       },
       "clienticon": "213dbc51072c5370610f51474ceddb267a83b37c",
       "community_hub_visible": "1",
+      "community_visible_stats": "1",
       "genres": {
         "0": "28",
         "1": "18",
@@ -129,6 +130,46 @@
     },
     "config": {
       "installdir": "Boxing Manager"
+    },
+    "ufs": {
+      "maxnumfiles": "500",
+      "quota": "4000000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Godot/app_userdata/Boxing Manager/saves",
+          "pattern": "slot-*.sqlite",
+          "root": "WinAppDataRoaming"
+        },
+        "1": {
+          "path": "Godot/app_userdata/Boxing Manager/careers",
+          "pattern": "slot-*.sqlite",
+          "root": "WinAppDataRoaming"
+        },
+        "2": {
+          "path": "Godot/app_userdata/Boxing Manager/careers",
+          "pattern": "career_archive.json",
+          "root": "WinAppDataRoaming"
+        },
+        "3": {
+          "path": "Godot/app_userdata/Boxing Manager/worlds",
+          "pattern": "*.bmfightworld",
+          "root": "WinAppDataRoaming"
+        },
+        "4": {
+          "path": "Godot/app_userdata/Boxing Manager/worlds",
+          "pattern": "*.bmworld",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }

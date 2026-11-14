@@ -208,11 +208,30 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T17:53:30.329Z",
+      "change_number": 40951619,
+      "changes": [
+        {
+          "after": "shadeySave.json",
+          "before": "*.json",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/pattern"
+        },
+        {
+          "before": "1",
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/0/recursive"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40898067,
+      "change_number": 40951619,
       "data": {
         "appinfo": {
           "common": {
@@ -364,8 +383,7 @@
             "savefiles": {
               "0": {
                 "path": "Cool Shade\\Shadey's Quest",
-                "pattern": "*.json",
-                "recursive": "1",
+                "pattern": "shadeySave.json",
                 "root": "WinAppDataLocalLow"
               }
             }
@@ -391,11 +409,11 @@
           }
         }
       },
-      "observed_at": "2026-11-13T03:08:25.057Z",
+      "observed_at": "2026-11-14T17:53:30.329Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T03:08:25.057Z"
+  "updated_at": "2026-11-14T17:53:30.329Z"
 }

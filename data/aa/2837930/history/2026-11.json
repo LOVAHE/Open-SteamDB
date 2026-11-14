@@ -368,11 +368,71 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T17:53:30.329Z",
+      "change_number": 40941872,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/portuguese"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/spanish"
+        },
+        {
+          "after": "26654463",
+          "before": "26616928",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794602227,
+          "before": 1794486068,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794602407,
+          "before": 1794490918,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6893036008027062591",
+          "before": "14360925692755631",
+          "op": "replace",
+          "path": "/depots/depots/2837931/manifests/public"
+        },
+        {
+          "after": "6715257642478616076",
+          "before": "2206933130232223184",
+          "op": "replace",
+          "path": "/depots/depots/2837932/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40924556,
+      "change_number": 40941872,
       "data": {
         "appinfo": {
           "common": {
@@ -462,7 +522,7 @@
             },
             "name": "Warehouse Bots",
             "osarch": "",
-            "osextended": "",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
             "oslist": "windows,macos",
             "primary_genre": "2",
             "small_capsule": {
@@ -497,6 +557,14 @@
                 "full_audio": "true",
                 "subtitles": "true",
                 "supported": "true"
+              },
+              "portuguese": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "spanish": {
+                "subtitles": "true",
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -517,9 +585,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26616928",
-              "timebuildupdated": 1794486068,
-              "timeupdated": 1794490918
+              "buildid": "26654463",
+              "timebuildupdated": 1794602227,
+              "timeupdated": 1794602407
             }
           },
           "depots": {
@@ -544,7 +612,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "14360925692755631"
+                "public": "6893036008027062591"
               }
             },
             "2837932": {
@@ -552,17 +620,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "2206933130232223184"
+                "public": "6715257642478616076"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T18:12:34.193Z",
+      "observed_at": "2026-11-14T17:53:30.329Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T18:12:34.193Z"
+  "updated_at": "2026-11-14T17:53:30.329Z"
 }

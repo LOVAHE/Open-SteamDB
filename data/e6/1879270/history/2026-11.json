@@ -935,11 +935,40 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T17:53:30.329Z",
+      "change_number": 40951311,
+      "changes": [
+        {
+          "after": "84",
+          "before": "83",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": {
+            "buildid": "26604269",
+            "description": "Beta Testing Into the Crypt",
+            "timebuildupdated": 1794440435,
+            "timeupdated": 1794440779
+          },
+          "op": "add",
+          "path": "/depots/branches/public-beta"
+        },
+        {
+          "after": "2782150997391368278",
+          "op": "add",
+          "path": "/depots/depots/1879271/manifests/public-beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40917455,
+      "change_number": 40951311,
       "data": {
         "appinfo": {
           "common": {
@@ -1054,7 +1083,7 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "1",
-            "review_percentage": "83",
+            "review_percentage": "84",
             "review_score": "8",
             "small_capsule": {
               "english": "c82dbfe769b574f5dd5d01ac15f52040aac38f36/capsule_231x87.jpg"
@@ -1120,6 +1149,12 @@
               "buildid": "26604269",
               "timebuildupdated": 1794440435,
               "timeupdated": 1794440779
+            },
+            "public-beta": {
+              "buildid": "26604269",
+              "description": "Beta Testing Into the Crypt",
+              "timebuildupdated": 1794440435,
+              "timeupdated": 1794440779
             }
           },
           "depots": {
@@ -1128,17 +1163,18 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "2782150997391368278"
+                "public": "2782150997391368278",
+                "public-beta": "2782150997391368278"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T14:53:30.068Z",
+      "observed_at": "2026-11-14T17:53:30.329Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T14:53:30.068Z"
+  "updated_at": "2026-11-14T17:53:30.329Z"
 }

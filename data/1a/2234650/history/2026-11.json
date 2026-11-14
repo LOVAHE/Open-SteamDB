@@ -1071,11 +1071,127 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T17:53:30.329Z",
+      "change_number": 40952496,
+      "changes": [
+        {
+          "after": "windows,macos,linux",
+          "before": "windows,macos",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "89",
+          "before": "88",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "3859",
+          "before": "1685",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/10"
+        },
+        {
+          "after": "1684",
+          "before": "3859",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/11"
+        },
+        {
+          "after": "4057",
+          "before": "1684",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/12"
+        },
+        {
+          "after": "5125",
+          "before": "4057",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/13"
+        },
+        {
+          "after": "4182",
+          "before": "122",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/15"
+        },
+        {
+          "after": "4172",
+          "before": "19",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/16"
+        },
+        {
+          "after": "122",
+          "before": "1697",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/17"
+        },
+        {
+          "after": "19",
+          "before": "4182",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/18"
+        },
+        {
+          "after": "1697",
+          "before": "4191",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/19"
+        },
+        {
+          "after": "1685",
+          "before": "3993",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/9"
+        },
+        {
+          "after": "26668887",
+          "before": "26607548",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794672349,
+          "before": 1794452269,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794673260,
+          "before": 1794469976,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8352807310129726688",
+          "before": "3262609934873386626",
+          "op": "replace",
+          "path": "/depots/depots/2234651/manifests/public"
+        },
+        {
+          "after": "1987755220836718919",
+          "before": "7230013574492985398",
+          "op": "replace",
+          "path": "/depots/depots/2234652/manifests/public"
+        },
+        {
+          "after": "7555565333311998367",
+          "before": "4446971175600215007",
+          "op": "replace",
+          "path": "/depots/depots/2234653/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40887645,
+      "change_number": 40952496,
       "data": {
         "appinfo": {
           "common": {
@@ -1183,9 +1299,9 @@
             "name": "Zotenhold",
             "osarch": "",
             "osextended": "macos64,macosapplesilicon",
-            "oslist": "windows,macos",
+            "oslist": "windows,macos,linux",
             "primary_genre": "23",
-            "review_percentage": "88",
+            "review_percentage": "89",
             "review_score": "7",
             "small_capsule": {
               "english": "7f20a38d005c9cada8b2577021462b77cf2c3e84/capsule_231x87.jpg"
@@ -1202,17 +1318,17 @@
               "6": "6730",
               "7": "4155",
               "8": "4236",
-              "9": "3993",
-              "10": "1685",
-              "11": "3859",
-              "12": "1684",
-              "13": "4057",
+              "9": "1685",
+              "10": "3859",
+              "11": "1684",
+              "12": "4057",
+              "13": "5125",
               "14": "4252",
-              "15": "122",
-              "16": "19",
-              "17": "1697",
-              "18": "4182",
-              "19": "4191"
+              "15": "4182",
+              "16": "4172",
+              "17": "122",
+              "18": "19",
+              "19": "1697"
             },
             "supported_languages": {
               "english": {
@@ -1289,9 +1405,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26607548",
-              "timebuildupdated": 1794452269,
-              "timeupdated": 1794469976
+              "buildid": "26668887",
+              "timebuildupdated": 1794672349,
+              "timeupdated": 1794673260
             }
           },
           "depots": {
@@ -1317,7 +1433,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "3262609934873386626"
+                "public": "8352807310129726688"
               }
             },
             "2234652": {
@@ -1326,7 +1442,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "7230013574492985398"
+                "public": "1987755220836718919"
               }
             },
             "2234653": {
@@ -1335,17 +1451,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "4446971175600215007"
+                "public": "7555565333311998367"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-12T20:08:21.055Z",
+      "observed_at": "2026-11-14T17:53:30.329Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T20:08:21.055Z"
+  "updated_at": "2026-11-14T17:53:30.329Z"
 }

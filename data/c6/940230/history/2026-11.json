@@ -1681,11 +1681,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T17:53:30.329Z",
+      "change_number": 40951329,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26651281",
+            "description": "1.1.3",
+            "timebuildupdated": 1794591967,
+            "timeupdated": 1794591968
+          },
+          "op": "add",
+          "path": "/depots/branches/1.1.3"
+        },
+        {
+          "after": "8236681092122022097",
+          "op": "add",
+          "path": "/depots/depots/940231/manifests/1.1.3"
+        },
+        {
+          "after": "3708153482909392520",
+          "op": "add",
+          "path": "/depots/depots/940232/manifests/1.1.3"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40923801,
+      "change_number": 40951329,
       "data": {
         "appinfo": {
           "common": {
@@ -1994,6 +2022,12 @@
         },
         "depots": {
           "branches": {
+            "1.1.3": {
+              "buildid": "26651281",
+              "description": "1.1.3",
+              "timebuildupdated": 1794591967,
+              "timeupdated": 1794591968
+            },
             "public": {
               "buildid": "26651281",
               "timebuildupdated": 1794591967,
@@ -2022,6 +2056,7 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "1.1.3": "8236681092122022097",
                 "public": "8236681092122022097"
               }
             },
@@ -2030,17 +2065,18 @@
                 "oslist": "macos"
               },
               "manifests": {
+                "1.1.3": "3708153482909392520",
                 "public": "3708153482909392520"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T17:53:46.191Z",
+      "observed_at": "2026-11-14T17:53:30.329Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T17:53:46.191Z"
+  "updated_at": "2026-11-14T17:53:30.329Z"
 }

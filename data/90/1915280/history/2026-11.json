@@ -171,11 +171,67 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T17:53:30.329Z",
+      "change_number": 40931915,
+      "changes": [
+        {
+          "after": "26502046",
+          "before": "26410964",
+          "op": "replace",
+          "path": "/depots/branches/previousbuild/buildid"
+        },
+        {
+          "after": 1794033867,
+          "before": 1793724237,
+          "op": "replace",
+          "path": "/depots/branches/previousbuild/timebuildupdated"
+        },
+        {
+          "after": 1794034171,
+          "before": 1793724422,
+          "op": "replace",
+          "path": "/depots/branches/previousbuild/timeupdated"
+        },
+        {
+          "after": "26656488",
+          "before": "26502046",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794608877,
+          "before": 1794033867,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794609103,
+          "before": 1794034171,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7924652568927824809",
+          "before": "2893761655784823341",
+          "op": "replace",
+          "path": "/depots/depots/1915281/manifests/previousbuild"
+        },
+        {
+          "after": "4230700206766522240",
+          "before": "7924652568927824809",
+          "op": "replace",
+          "path": "/depots/depots/1915281/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40696115,
+      "change_number": 40931915,
       "data": {
         "appinfo": {
           "common": {
@@ -304,15 +360,15 @@
         "depots": {
           "branches": {
             "previousbuild": {
-              "buildid": "26410964",
-              "description": "Build from the previous patch. In case I break the live build.",
-              "timebuildupdated": 1793724237,
-              "timeupdated": 1793724422
-            },
-            "public": {
               "buildid": "26502046",
+              "description": "Build from the previous patch. In case I break the live build.",
               "timebuildupdated": 1794033867,
               "timeupdated": 1794034171
+            },
+            "public": {
+              "buildid": "26656488",
+              "timebuildupdated": 1794608877,
+              "timeupdated": 1794609103
             }
           },
           "depots": {
@@ -326,18 +382,18 @@
             },
             "1915281": {
               "manifests": {
-                "previousbuild": "2893761655784823341",
-                "public": "7924652568927824809"
+                "previousbuild": "7924652568927824809",
+                "public": "4230700206766522240"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-09T21:53:14.886Z",
+      "observed_at": "2026-11-14T17:53:30.329Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T21:53:14.886Z"
+  "updated_at": "2026-11-14T17:53:30.329Z"
 }

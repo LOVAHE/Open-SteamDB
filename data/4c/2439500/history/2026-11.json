@@ -172,11 +172,63 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T17:53:30.329Z",
+      "change_number": 40949784,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": {
+            "maxnumfiles": "10",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "CtrlD Studio\\Overhours\\save\\v2",
+                "pattern": "*.json",
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26667730",
+          "before": "26632205",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794666690,
+          "before": 1794531580,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794667202,
+          "before": 1794531597,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4272873985561301038",
+          "before": "5098529507317039862",
+          "op": "replace",
+          "path": "/depots/depots/2439501/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40898393,
+      "change_number": 40949784,
       "data": {
         "appinfo": {
           "common": {
@@ -193,6 +245,7 @@
             "category": {
               "category_2": "1",
               "category_22": "1",
+              "category_23": "1",
               "category_62": "1"
             },
             "clienticon": "7b61404ee551106acd5db005b2380cfcef284dea",
@@ -300,14 +353,25 @@
           "extended": {
             "developer": "CtrlD Studio",
             "publisher": "CtrlD Studio"
+          },
+          "ufs": {
+            "maxnumfiles": "10",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "CtrlD Studio\\Overhours\\save\\v2",
+                "pattern": "*.json",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26632205",
-              "timebuildupdated": 1794531580,
-              "timeupdated": 1794531597
+              "buildid": "26667730",
+              "timebuildupdated": 1794666690,
+              "timeupdated": 1794667202
             }
           },
           "depots": {
@@ -329,17 +393,17 @@
             },
             "2439501": {
               "manifests": {
-                "public": "5098529507317039862"
+                "public": "4272873985561301038"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T05:23:22.681Z",
+      "observed_at": "2026-11-14T17:53:30.329Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T05:23:22.681Z"
+  "updated_at": "2026-11-14T17:53:30.329Z"
 }
