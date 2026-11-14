@@ -167,11 +167,41 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T18:53:31.420Z",
+      "change_number": 40942548,
+      "changes": [
+        {
+          "after": "100",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "6650",
+          "before": "1742",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/16"
+        },
+        {
+          "after": "1742",
+          "before": "6650",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/17"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40904673,
+      "change_number": 40942548,
       "data": {
         "appinfo": {
           "common": {
@@ -264,6 +294,8 @@
             "osextended": "macos64,macosapplesilicon",
             "oslist": "windows,macos,linux",
             "primary_genre": "23",
+            "review_percentage": "100",
+            "review_score": "7",
             "small_capsule": {
               "english": "a955552d2e50dd9bf73b9eac616ca48e493538a1/capsule_231x87.jpg"
             },
@@ -286,8 +318,8 @@
               "13": "6426",
               "14": "6971",
               "15": "12095",
-              "16": "1742",
-              "17": "6650",
+              "16": "6650",
+              "17": "1742",
               "18": "4182",
               "19": "492"
             },
@@ -325,11 +357,11 @@
           }
         }
       },
-      "observed_at": "2026-11-13T18:12:34.193Z",
+      "observed_at": "2026-11-14T18:53:31.420Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T18:12:34.193Z"
+  "updated_at": "2026-11-14T18:53:31.420Z"
 }

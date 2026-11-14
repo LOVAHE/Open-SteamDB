@@ -1018,11 +1018,52 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T18:53:31.420Z",
+      "change_number": 40955080,
+      "changes": [
+        {
+          "after": "3942",
+          "before": "1667",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/16"
+        },
+        {
+          "after": "1667",
+          "before": "3942",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/17"
+        },
+        {
+          "after": "10000",
+          "before": "40",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "10000000000",
+          "before": "1000000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        },
+        {
+          "after": {
+            "path": "Rafoli/CRACK/",
+            "pattern": "incremental_slot*",
+            "root": "WinAppDataLocalLow"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/4"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40897285,
+      "change_number": 40955080,
       "data": {
         "appinfo": {
           "common": {
@@ -1259,8 +1300,8 @@
               "13": "4191",
               "14": "6869",
               "15": "3843",
-              "16": "1667",
-              "17": "3942",
+              "16": "3942",
+              "17": "1667",
               "18": "5363",
               "19": "5981"
             },
@@ -1342,8 +1383,8 @@
             "publisher": "Rafoli"
           },
           "ufs": {
-            "maxnumfiles": "40",
-            "quota": "1000000000",
+            "maxnumfiles": "10000",
+            "quota": "10000000000",
             "rootoverrides": {
               "0": {
                 "addpath": ".config/unity3d/",
@@ -1379,6 +1420,11 @@
               "3": {
                 "path": "Rafoli/CRACK/world_slot2_timelapse",
                 "pattern": "*",
+                "root": "WinAppDataLocalLow"
+              },
+              "4": {
+                "path": "Rafoli/CRACK/",
+                "pattern": "incremental_slot*",
                 "root": "WinAppDataLocalLow"
               }
             }
@@ -1428,11 +1474,11 @@
           }
         }
       },
-      "observed_at": "2026-11-13T02:38:34.394Z",
+      "observed_at": "2026-11-14T18:53:31.420Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T02:38:34.394Z"
+  "updated_at": "2026-11-14T18:53:31.420Z"
 }

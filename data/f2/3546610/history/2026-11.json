@@ -1894,11 +1894,79 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T18:53:31.420Z",
+      "change_number": 40945252,
+      "changes": [
+        {
+          "after": "26663906",
+          "before": "26562398",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794646075,
+          "before": 1794304882,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794652849,
+          "before": 1794305365,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "26663906",
+          "before": "26638218",
+          "op": "replace",
+          "path": "/depots/branches/public-test-realm/buildid"
+        },
+        {
+          "after": 1794646075,
+          "before": 1794554749,
+          "op": "replace",
+          "path": "/depots/branches/public-test-realm/timebuildupdated"
+        },
+        {
+          "after": 1794652732,
+          "before": 1794554800,
+          "op": "replace",
+          "path": "/depots/branches/public-test-realm/timeupdated"
+        },
+        {
+          "after": "10611619559443382",
+          "before": "3875454711468798607",
+          "op": "replace",
+          "path": "/depots/depots/3546611/manifests/public"
+        },
+        {
+          "after": "10611619559443382",
+          "before": "3813119162575312717",
+          "op": "replace",
+          "path": "/depots/depots/3546611/manifests/public-test-realm"
+        },
+        {
+          "after": "6120686275972348408",
+          "before": "7591218150515818774",
+          "op": "replace",
+          "path": "/depots/depots/3546612/manifests/public"
+        },
+        {
+          "after": "6120686275972348408",
+          "before": "2416172435830882",
+          "op": "replace",
+          "path": "/depots/depots/3546612/manifests/public-test-realm"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40923061,
+      "change_number": 40945252,
       "data": {
         "appinfo": {
           "common": {
@@ -2223,15 +2291,15 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26562398",
-              "timebuildupdated": 1794304882,
-              "timeupdated": 1794305365
+              "buildid": "26663906",
+              "timebuildupdated": 1794646075,
+              "timeupdated": 1794652849
             },
             "public-test-realm": {
-              "buildid": "26638218",
+              "buildid": "26663906",
               "description": "Experimental branch where you can test the next version or patch before it goes live",
-              "timebuildupdated": 1794554749,
-              "timeupdated": 1794554800
+              "timebuildupdated": 1794646075,
+              "timeupdated": 1794652732
             }
           },
           "depots": {
@@ -2240,8 +2308,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "3875454711468798607",
-                "public-test-realm": "3813119162575312717"
+                "public": "10611619559443382",
+                "public-test-realm": "10611619559443382"
               }
             },
             "3546612": {
@@ -2249,8 +2317,8 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "7591218150515818774",
-                "public-test-realm": "2416172435830882"
+                "public": "6120686275972348408",
+                "public-test-realm": "6120686275972348408"
               }
             },
             "3546613": {
@@ -2263,11 +2331,11 @@
           }
         }
       },
-      "observed_at": "2026-11-13T17:23:25.068Z",
+      "observed_at": "2026-11-14T18:53:31.420Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T17:23:25.068Z"
+  "updated_at": "2026-11-14T18:53:31.420Z"
 }

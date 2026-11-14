@@ -335,11 +335,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T18:53:31.420Z",
+      "change_number": 40952194,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/bulgarian"
+        },
+        {
+          "after": "macosapplesilicon",
+          "before": "macos64,macosapplesilicon",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "1794673777",
+          "before": "1792544231",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/bulgarian"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40744277,
+      "change_number": 40952194,
       "data": {
         "appinfo": {
           "common": {
@@ -386,6 +418,7 @@
             "icon": "22f5a9b8108abfbce940a12e0d9f39ff6af40351",
             "languages": {
               "brazilian": "1",
+              "bulgarian": "1",
               "english": "1",
               "french": "1",
               "italian": "1",
@@ -450,7 +483,7 @@
             },
             "name": "Run Giraffe Run",
             "osarch": "",
-            "osextended": "macos64,macosapplesilicon",
+            "osextended": "macosapplesilicon",
             "oslist": "windows,macos,linux",
             "primary_genre": "4",
             "review_percentage": "100",
@@ -459,7 +492,7 @@
               "english": "bed99b9da75d1bd107bf8b0d177e178d0f2f76a4/capsule_231x87.jpg"
             },
             "steam_release_date": "1791471890",
-            "store_asset_mtime": "1792544231",
+            "store_asset_mtime": "1794673777",
             "store_tags": {
               "0": "3859",
               "1": "699",
@@ -484,6 +517,9 @@
             },
             "supported_languages": {
               "brazilian": {
+                "supported": "true"
+              },
+              "bulgarian": {
                 "supported": "true"
               },
               "english": {
@@ -550,11 +586,11 @@
           }
         }
       },
-      "observed_at": "2026-11-09T13:53:16.265Z",
+      "observed_at": "2026-11-14T18:53:31.420Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T13:53:16.265Z"
+  "updated_at": "2026-11-14T18:53:31.420Z"
 }
