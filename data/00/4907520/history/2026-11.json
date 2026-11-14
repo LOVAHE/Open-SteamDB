@@ -163,11 +163,58 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T19:53:13.622Z",
+      "change_number": 40955283,
+      "changes": [
+        {
+          "after": "26667533",
+          "before": "26623427",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794665500,
+          "before": 1794503629,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794683063,
+          "before": 1794503631,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "buildid": "26667533",
+            "description": "testing branch",
+            "timebuildupdated": 1794665500,
+            "timeupdated": 1794665501
+          },
+          "op": "add",
+          "path": "/depots/branches/test"
+        },
+        {
+          "after": "7021814874579009815",
+          "before": "2509255453475936232",
+          "op": "replace",
+          "path": "/depots/depots/4907521/manifests/public"
+        },
+        {
+          "after": "7021814874579009815",
+          "op": "add",
+          "path": "/depots/depots/4907521/manifests/test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40883897,
+      "change_number": 40955283,
       "data": {
         "appinfo": {
           "common": {
@@ -295,9 +342,15 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26623427",
-              "timebuildupdated": 1794503629,
-              "timeupdated": 1794503631
+              "buildid": "26667533",
+              "timebuildupdated": 1794665500,
+              "timeupdated": 1794683063
+            },
+            "test": {
+              "buildid": "26667533",
+              "description": "testing branch",
+              "timebuildupdated": 1794665500,
+              "timeupdated": 1794665501
             }
           },
           "depots": {
@@ -311,17 +364,18 @@
             },
             "4907521": {
               "manifests": {
-                "public": "2509255453475936232"
+                "public": "7021814874579009815",
+                "test": "7021814874579009815"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-12T20:38:53.341Z",
+      "observed_at": "2026-11-14T19:53:13.622Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T20:38:53.341Z"
+  "updated_at": "2026-11-14T19:53:13.622Z"
 }

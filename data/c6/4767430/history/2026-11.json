@@ -643,11 +643,85 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T19:53:13.622Z",
+      "change_number": 40948883,
+      "changes": [
+        {
+          "after": "4947",
+          "before": "9204",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/2"
+        },
+        {
+          "after": "9204",
+          "before": "4947",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/3"
+        },
+        {
+          "after": "18594",
+          "before": "3839",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/4"
+        },
+        {
+          "after": "3839",
+          "before": "18594",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/5"
+        },
+        {
+          "after": "26664842",
+          "before": "26620559",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794651139,
+          "before": 1794496037,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794658698,
+          "before": 1794496184,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "windows"
+            },
+            "depotfromapp": 228980,
+            "manifests": {},
+            "sharedinstall": true
+          },
+          "op": "add",
+          "path": "/depots/depots/228989"
+        },
+        {
+          "after": "6874754065279238448",
+          "before": "2043932963851009163",
+          "op": "replace",
+          "path": "/depots/depots/4767431/manifests/public"
+        },
+        {
+          "after": "2875887538174072315",
+          "before": "3064765724851646946",
+          "op": "replace",
+          "path": "/depots/depots/4767432/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40901158,
+      "change_number": 40948883,
       "data": {
         "appinfo": {
           "common": {
@@ -875,10 +949,10 @@
             "store_tags": {
               "0": "9551",
               "1": "11014",
-              "2": "9204",
-              "3": "4947",
-              "4": "3839",
-              "5": "18594",
+              "2": "4947",
+              "3": "9204",
+              "4": "18594",
+              "5": "3839",
               "6": "599",
               "7": "597",
               "8": "3799",
@@ -986,18 +1060,26 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26620559",
-              "timebuildupdated": 1794496037,
-              "timeupdated": 1794496184
+              "buildid": "26664842",
+              "timebuildupdated": 1794651139,
+              "timeupdated": 1794658698
             }
           },
           "depots": {
+            "228989": {
+              "config": {
+                "oslist": "windows"
+              },
+              "depotfromapp": 228980,
+              "manifests": {},
+              "sharedinstall": true
+            },
             "4767431": {
               "config": {
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "2043932963851009163"
+                "public": "6874754065279238448"
               }
             },
             "4767432": {
@@ -1005,7 +1087,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "3064765724851646946"
+                "public": "2875887538174072315"
               }
             },
             "4767433": {
@@ -1014,11 +1096,11 @@
           }
         }
       },
-      "observed_at": "2026-11-13T05:23:22.681Z",
+      "observed_at": "2026-11-14T19:53:13.622Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T05:23:22.681Z"
+  "updated_at": "2026-11-14T19:53:13.622Z"
 }

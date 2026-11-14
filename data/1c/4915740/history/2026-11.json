@@ -409,11 +409,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T19:53:13.622Z",
+      "change_number": 40944680,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "macos64,macosnotarized",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "26664773",
+          "before": "26593937",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794650711,
+          "before": 1794408258,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794650711,
+          "before": 1794408258,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5293618510043846023",
+          "before": "2051455188564063788",
+          "op": "replace",
+          "path": "/depots/depots/4915742/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40881335,
+      "change_number": 40944680,
       "data": {
         "appinfo": {
           "common": {
@@ -547,7 +585,7 @@
               "english": "Chichi's Desktop Journey"
             },
             "osarch": "",
-            "osextended": "macos64,macosnotarized",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
             "oslist": "windows,macos",
             "primary_genre": "4",
             "small_capsule": {
@@ -741,9 +779,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26593937",
-              "timebuildupdated": 1794408258,
-              "timeupdated": 1794408258
+              "buildid": "26664773",
+              "timebuildupdated": 1794650711,
+              "timeupdated": 1794650711
             }
           },
           "depots": {
@@ -761,17 +799,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "2051455188564063788"
+                "public": "5293618510043846023"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-12T17:08:24.881Z",
+      "observed_at": "2026-11-14T19:53:13.622Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T17:08:24.881Z"
+  "updated_at": "2026-11-14T19:53:13.622Z"
 }

@@ -356,11 +356,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T19:53:13.622Z",
+      "change_number": 40955648,
+      "changes": [
+        {
+          "after": "26671265",
+          "before": "26530849",
+          "op": "replace",
+          "path": "/depots/branches/beta/buildid"
+        },
+        {
+          "after": 1794684228,
+          "before": 1794192601,
+          "op": "replace",
+          "path": "/depots/branches/beta/timebuildupdated"
+        },
+        {
+          "after": 1794684228,
+          "before": 1794192601,
+          "op": "replace",
+          "path": "/depots/branches/beta/timeupdated"
+        },
+        {
+          "after": "4522947443719776479",
+          "before": "274182409532792423",
+          "op": "replace",
+          "path": "/depots/depots/4954191/manifests/beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40740719,
+      "change_number": 40955648,
       "data": {
         "appinfo": {
           "common": {
@@ -522,10 +554,10 @@
         "depots": {
           "branches": {
             "beta": {
-              "buildid": "26530849",
+              "buildid": "26671265",
               "description": "CI staging - every main merge lands here",
-              "timebuildupdated": 1794192601,
-              "timeupdated": 1794192601
+              "timebuildupdated": 1794684228,
+              "timeupdated": 1794684228
             },
             "public": {
               "buildid": "26035326",
@@ -536,18 +568,18 @@
           "depots": {
             "4954191": {
               "manifests": {
-                "beta": "274182409532792423",
+                "beta": "4522947443719776479",
                 "public": "1661132561933643025"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-09T15:08:28.825Z",
+      "observed_at": "2026-11-14T19:53:13.622Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T15:08:28.825Z"
+  "updated_at": "2026-11-14T19:53:13.622Z"
 }

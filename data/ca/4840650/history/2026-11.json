@@ -235,11 +235,55 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T19:53:13.622Z",
+      "change_number": 40955408,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/indonesian"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/indonesian"
+        },
+        {
+          "after": "26670900",
+          "before": "26574569",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794682185,
+          "before": 1794339985,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794682287,
+          "before": 1794340020,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6994682284129069163",
+          "before": "1042625844430389399",
+          "op": "replace",
+          "path": "/depots/depots/4840651/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40843434,
+      "change_number": 40955408,
       "data": {
         "appinfo": {
           "common": {
@@ -291,6 +335,7 @@
               "english": "1",
               "french": "1",
               "german": "1",
+              "indonesian": "1",
               "italian": "1",
               "japanese": "1",
               "portuguese": "1",
@@ -396,6 +441,9 @@
               "german": {
                 "supported": "true"
               },
+              "indonesian": {
+                "supported": "true"
+              },
               "italian": {
                 "supported": "true"
               },
@@ -431,9 +479,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26574569",
-              "timebuildupdated": 1794339985,
-              "timeupdated": 1794340020
+              "buildid": "26670900",
+              "timebuildupdated": 1794682185,
+              "timeupdated": 1794682287
             }
           },
           "depots": {
@@ -455,17 +503,17 @@
             },
             "4840651": {
               "manifests": {
-                "public": "1042625844430389399"
+                "public": "6994682284129069163"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-12T04:53:18.667Z",
+      "observed_at": "2026-11-14T19:53:13.622Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T04:53:18.667Z"
+  "updated_at": "2026-11-14T19:53:13.622Z"
 }

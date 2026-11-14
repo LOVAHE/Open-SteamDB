@@ -1951,11 +1951,71 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T19:53:13.622Z",
+      "change_number": 40947868,
+      "changes": [
+        {
+          "after": "80",
+          "before": "79",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "8",
+          "before": "6",
+          "op": "replace",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "before": {
+            "buildid": "26647086",
+            "description": "test",
+            "timebuildupdated": 1794581189,
+            "timeupdated": 1794581281
+          },
+          "op": "remove",
+          "path": "/depots/branches/test"
+        },
+        {
+          "before": {
+            "buildid": "26645664",
+            "description": "测试2",
+            "timebuildupdated": 1794577410,
+            "timeupdated": 1794578616
+          },
+          "op": "remove",
+          "path": "/depots/branches/test2"
+        },
+        {
+          "before": "2901609347418673064",
+          "op": "remove",
+          "path": "/depots/depots/4809751/manifests/test"
+        },
+        {
+          "before": "3596334604971495176",
+          "op": "remove",
+          "path": "/depots/depots/4809751/manifests/test2"
+        },
+        {
+          "before": "4535603211946490204",
+          "op": "remove",
+          "path": "/depots/depots/4809753/manifests/test"
+        },
+        {
+          "before": "7276243092307282526",
+          "op": "remove",
+          "path": "/depots/depots/4809753/manifests/test2"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40920850,
+      "change_number": 40947868,
       "data": {
         "appinfo": {
           "common": {
@@ -2068,8 +2128,8 @@
             "osextended": "macosapplesilicon",
             "oslist": "windows,macos",
             "primary_genre": "2",
-            "review_percentage": "79",
-            "review_score": "6",
+            "review_percentage": "80",
+            "review_score": "8",
             "small_capsule": {
               "english": "8a0d75c120a19c908b766a689800442fa58ccdfe/capsule_231x87.jpg",
               "schinese": "9c5571d2f33abc0598a6fbbcbdb52aa4ca32a0e9/capsule_231x87_schinese.jpg"
@@ -2156,18 +2216,6 @@
               "buildid": "26647086",
               "timebuildupdated": 1794581189,
               "timeupdated": 1794581834
-            },
-            "test": {
-              "buildid": "26647086",
-              "description": "test",
-              "timebuildupdated": 1794581189,
-              "timeupdated": 1794581281
-            },
-            "test2": {
-              "buildid": "26645664",
-              "description": "测试2",
-              "timebuildupdated": 1794577410,
-              "timeupdated": 1794578616
             }
           },
           "depots": {
@@ -2185,9 +2233,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "2901609347418673064",
-                "test": "2901609347418673064",
-                "test2": "3596334604971495176"
+                "public": "2901609347418673064"
               }
             },
             "4809753": {
@@ -2197,19 +2243,17 @@
               },
               "manifests": {
                 "0.8.5": "4062481344949624422",
-                "public": "4535603211946490204",
-                "test": "4535603211946490204",
-                "test2": "7276243092307282526"
+                "public": "4535603211946490204"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T16:23:31.022Z",
+      "observed_at": "2026-11-14T19:53:13.622Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T16:23:31.022Z"
+  "updated_at": "2026-11-14T19:53:13.622Z"
 }
