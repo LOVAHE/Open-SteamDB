@@ -1,8 +1,8 @@
 {
   "appid": 5394070,
   "source": "steam_pics",
-  "updated_at": "2026-11-13T11:38:49.532Z",
-  "change_number": 40910806,
+  "updated_at": "2026-11-14T23:38:16.316Z",
+  "change_number": 40950057,
   "data": {
     "common": {
       "associations": {
@@ -101,8 +101,8 @@
       },
       "name": "The Usual, Please",
       "osarch": "64",
-      "osextended": "",
-      "oslist": "windows",
+      "osextended": "macosapplesilicon,macosnotarized",
+      "oslist": "windows,macos",
       "primary_genre": "28",
       "review_percentage": "100",
       "review_score": "7",
@@ -147,6 +147,7 @@
     },
     "extended": {
       "developer": "Hadwa Games",
+      "homepage": "https://hadwagames.com",
       "publisher": "Hadwa Games"
     },
     "config": {
@@ -155,6 +156,15 @@
     "ufs": {
       "maxnumfiles": "32",
       "quota": "16777216",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
+        }
+      },
       "savefiles": {
         "0": {
           "path": "Godot/app_userdata/The Usual, Please/saves/{64BitSteamID}",

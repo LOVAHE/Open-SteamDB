@@ -443,11 +443,54 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T23:38:16.316Z",
+      "change_number": 40947648,
+      "changes": [
+        {
+          "after": "83",
+          "before": "81",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": "26661713",
+          "before": "26470383",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794632368,
+          "before": 1793917753,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794638764,
+          "before": 1793917861,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "212232322063817859",
+          "before": "3097720505429452335",
+          "op": "replace",
+          "path": "/depots/depots/5387931/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40907817,
+      "change_number": 40947648,
       "data": {
         "appinfo": {
           "common": {
@@ -569,7 +612,7 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "4",
-            "review_percentage": "81",
+            "review_percentage": "83",
             "review_score": "7",
             "small_capsule": {
               "english": "32bb77d00a5a3d6504936ee7ad2713a29d5d4abb/capsule_231x87.jpg",
@@ -632,7 +675,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "Immortal"
@@ -668,25 +712,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26470383",
-              "timebuildupdated": 1793917753,
-              "timeupdated": 1793917861
+              "buildid": "26661713",
+              "timebuildupdated": 1794632368,
+              "timeupdated": 1794638764
             }
           },
           "depots": {
             "5387931": {
               "manifests": {
-                "public": "3097720505429452335"
+                "public": "212232322063817859"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T09:53:32.379Z",
+      "observed_at": "2026-11-14T23:38:16.316Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T09:53:32.379Z"
+  "updated_at": "2026-11-14T23:38:16.316Z"
 }

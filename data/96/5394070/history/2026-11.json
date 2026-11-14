@@ -214,11 +214,94 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T23:38:16.316Z",
+      "change_number": 40950057,
+      "changes": [
+        {
+          "after": "macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "https://hadwagames.com",
+          "op": "add",
+          "path": "/appinfo/extended/homepage"
+        },
+        {
+          "after": {
+            "0": {
+              "addpath": "",
+              "os": "MacOS",
+              "oscompare": "=",
+              "root": "WinAppDataRoaming",
+              "useinstead": "MacAppSupport"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "after": "26667841",
+          "before": "26624488",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794667324,
+          "before": 1794506660,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794667525,
+          "before": 1794506676,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "osarch": "64",
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/5394071/config"
+        },
+        {
+          "after": "5341075597310365218",
+          "before": "8260931152229192792",
+          "op": "replace",
+          "path": "/depots/depots/5394071/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "6005276109101312578"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5394072"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40910806,
+      "change_number": 40950057,
       "data": {
         "appinfo": {
           "common": {
@@ -318,8 +401,8 @@
             },
             "name": "The Usual, Please",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "primary_genre": "28",
             "review_percentage": "100",
             "review_score": "7",
@@ -367,11 +450,21 @@
           },
           "extended": {
             "developer": "Hadwa Games",
+            "homepage": "https://hadwagames.com",
             "publisher": "Hadwa Games"
           },
           "ufs": {
             "maxnumfiles": "32",
             "quota": "16777216",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
             "savefiles": {
               "0": {
                 "path": "Godot/app_userdata/The Usual, Please/saves/{64BitSteamID}",
@@ -389,25 +482,38 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26624488",
-              "timebuildupdated": 1794506660,
-              "timeupdated": 1794506676
+              "buildid": "26667841",
+              "timebuildupdated": 1794667324,
+              "timeupdated": 1794667525
             }
           },
           "depots": {
             "5394071": {
+              "config": {
+                "osarch": "64",
+                "oslist": "windows"
+              },
               "manifests": {
-                "public": "8260931152229192792"
+                "public": "5341075597310365218"
+              }
+            },
+            "5394072": {
+              "config": {
+                "osarch": "64",
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "6005276109101312578"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T11:38:49.532Z",
+      "observed_at": "2026-11-14T23:38:16.316Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T11:38:49.532Z"
+  "updated_at": "2026-11-14T23:38:16.316Z"
 }

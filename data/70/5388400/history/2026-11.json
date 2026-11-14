@@ -438,11 +438,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T23:38:16.316Z",
+      "change_number": 40939157,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26661344",
+            "description": "0.1.8 FON Release - Beta",
+            "timebuildupdated": 1794629941,
+            "timeupdated": 1794630564
+          },
+          "op": "add",
+          "path": "/depots/branches/beta"
+        },
+        {
+          "after": "885816691263286691",
+          "op": "add",
+          "path": "/depots/depots/5388401/manifests/beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40923250,
+      "change_number": 40939157,
       "data": {
         "appinfo": {
           "common": {
@@ -595,6 +618,12 @@
         },
         "depots": {
           "branches": {
+            "beta": {
+              "buildid": "26661344",
+              "description": "0.1.8 FON Release - Beta",
+              "timebuildupdated": 1794629941,
+              "timeupdated": 1794630564
+            },
             "public": {
               "buildid": "26625727",
               "timebuildupdated": 1794510495,
@@ -607,17 +636,18 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "beta": "885816691263286691",
                 "public": "4461530368892235843"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T17:38:26.859Z",
+      "observed_at": "2026-11-14T23:38:16.316Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T17:38:26.859Z"
+  "updated_at": "2026-11-14T23:38:16.316Z"
 }
