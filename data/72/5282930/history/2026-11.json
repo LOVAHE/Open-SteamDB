@@ -491,11 +491,55 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T22:38:34.282Z",
+      "change_number": 40944796,
+      "changes": [
+        {
+          "before": {
+            "path": "Botclops/Saved/SaveGames/",
+            "pattern": "*.sav",
+            "platforms": {
+              "1": "Windows"
+            },
+            "root": "WinAppDataLocal"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/2"
+        },
+        {
+          "after": "26664826",
+          "before": "26599865",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794651049,
+          "before": 1794425331,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794651343,
+          "before": 1794425667,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7639659173002618898",
+          "before": "5960942642013666572",
+          "op": "replace",
+          "path": "/depots/depots/5282931/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40925061,
+      "change_number": 40944796,
       "data": {
         "appinfo": {
           "common": {
@@ -667,14 +711,6 @@
                 "pattern": "*.cfg",
                 "root": "gameinstall"
               },
-              "2": {
-                "path": "Botclops/Saved/SaveGames/",
-                "pattern": "*.sav",
-                "platforms": {
-                  "1": "Windows"
-                },
-                "root": "WinAppDataLocal"
-              },
               "copied_from_parent": "1"
             }
           }
@@ -682,9 +718,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26599865",
-              "timebuildupdated": 1794425331,
-              "timeupdated": 1794425667
+              "buildid": "26664826",
+              "timebuildupdated": 1794651049,
+              "timeupdated": 1794651343
             }
           },
           "depots": {
@@ -714,17 +750,17 @@
             },
             "5282931": {
               "manifests": {
-                "public": "5960942642013666572"
+                "public": "7639659173002618898"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T18:28:29.329Z",
+      "observed_at": "2026-11-14T22:38:34.282Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T18:28:29.329Z"
+  "updated_at": "2026-11-14T22:38:34.282Z"
 }

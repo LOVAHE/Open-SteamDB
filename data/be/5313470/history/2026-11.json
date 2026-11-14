@@ -780,11 +780,52 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T22:38:34.282Z",
+      "change_number": 40944895,
+      "changes": [
+        {
+          "after": {
+            "path": "Godot/app_userdata/number war/progress/{64BitSteamID}",
+            "pattern": "cloud_progress.sav",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/1"
+        },
+        {
+          "after": "26658560",
+          "before": "26577953",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794616808,
+          "before": 1794351060,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794651645,
+          "before": 1794351180,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8129647706015014851",
+          "before": "3840465737110025669",
+          "op": "replace",
+          "path": "/depots/depots/5313471/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40916781,
+      "change_number": 40944895,
       "data": {
         "appinfo": {
           "common": {
@@ -971,6 +1012,11 @@
                 "path": "Godot/app_userdata/number war",
                 "pattern": "cloud_settings.cfg",
                 "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/number war/progress/{64BitSteamID}",
+                "pattern": "cloud_progress.sav",
+                "root": "WinAppDataRoaming"
               }
             }
           }
@@ -978,25 +1024,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26577953",
-              "timebuildupdated": 1794351060,
-              "timeupdated": 1794351180
+              "buildid": "26658560",
+              "timebuildupdated": 1794616808,
+              "timeupdated": 1794651645
             }
           },
           "depots": {
             "5313471": {
               "manifests": {
-                "public": "3840465737110025669"
+                "public": "8129647706015014851"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T14:38:35.537Z",
+      "observed_at": "2026-11-14T22:38:34.282Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T14:38:35.537Z"
+  "updated_at": "2026-11-14T22:38:34.282Z"
 }

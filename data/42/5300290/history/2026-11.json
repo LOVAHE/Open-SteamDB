@@ -627,11 +627,83 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T22:38:34.282Z",
+      "change_number": 40947423,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26666242",
+          "before": "26600591",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794658707,
+          "before": 1794427609,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794659498,
+          "before": 1794427815,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "osarch": "64",
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/5300291/config"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "3292701841395440968"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5300292"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "linux"
+            },
+            "manifests": {
+              "public": "1440583186785652684"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5300293"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40847585,
+      "change_number": 40947423,
       "data": {
         "appinfo": {
           "common": {
@@ -750,8 +822,8 @@
             },
             "name": "The Dungeons of Vellorath",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos,linux",
             "primary_genre": "3",
             "small_capsule": {
               "english": "0502adbb709afe64f43d5309fa9b58e84fb477b3/capsule_231x87.jpg"
@@ -901,25 +973,47 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26600591",
-              "timebuildupdated": 1794427609,
-              "timeupdated": 1794427815
+              "buildid": "26666242",
+              "timebuildupdated": 1794658707,
+              "timeupdated": 1794659498
             }
           },
           "depots": {
             "5300291": {
+              "config": {
+                "osarch": "64",
+                "oslist": "windows"
+              },
               "manifests": {
                 "public": "4318531064288904261"
+              }
+            },
+            "5300292": {
+              "config": {
+                "osarch": "64",
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "3292701841395440968"
+              }
+            },
+            "5300293": {
+              "config": {
+                "osarch": "64",
+                "oslist": "linux"
+              },
+              "manifests": {
+                "public": "1440583186785652684"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-11T20:58:21.046Z",
+      "observed_at": "2026-11-14T22:38:34.282Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T20:58:21.046Z"
+  "updated_at": "2026-11-14T22:38:34.282Z"
 }
