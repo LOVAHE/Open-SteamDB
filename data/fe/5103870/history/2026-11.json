@@ -561,11 +561,64 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T21:08:28.146Z",
+      "change_number": 40955419,
+      "changes": [
+        {
+          "after": "26671108",
+          "before": "26557354",
+          "op": "replace",
+          "path": "/depots/branches/alpha/buildid"
+        },
+        {
+          "after": "Newest features, not tested as thoroughly; use at your own risk",
+          "before": "newest features, not tested as thoroughly; use at your own risk",
+          "op": "replace",
+          "path": "/depots/branches/alpha/description"
+        },
+        {
+          "after": 1794683460,
+          "before": 1794284839,
+          "op": "replace",
+          "path": "/depots/branches/alpha/timebuildupdated"
+        },
+        {
+          "after": 1794683519,
+          "before": 1794284858,
+          "op": "replace",
+          "path": "/depots/branches/alpha/timeupdated"
+        },
+        {
+          "after": {
+            "buildid": "26557354",
+            "description": "Get new features sooner than default, with less chance of broken saves than Alpha",
+            "timebuildupdated": 1794284839,
+            "timeupdated": 1794629561
+          },
+          "op": "add",
+          "path": "/depots/branches/beta"
+        },
+        {
+          "after": "2227648921923326927",
+          "before": "6935389196467242417",
+          "op": "replace",
+          "path": "/depots/depots/5103871/manifests/alpha"
+        },
+        {
+          "after": "6935389196467242417",
+          "op": "add",
+          "path": "/depots/depots/5103871/manifests/beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40896503,
+      "change_number": 40955419,
       "data": {
         "appinfo": {
           "common": {
@@ -838,10 +891,16 @@
         "depots": {
           "branches": {
             "alpha": {
+              "buildid": "26671108",
+              "description": "Newest features, not tested as thoroughly; use at your own risk",
+              "timebuildupdated": 1794683460,
+              "timeupdated": 1794683519
+            },
+            "beta": {
               "buildid": "26557354",
-              "description": "newest features, not tested as thoroughly; use at your own risk",
+              "description": "Get new features sooner than default, with less chance of broken saves than Alpha",
               "timebuildupdated": 1794284839,
-              "timeupdated": 1794284858
+              "timeupdated": 1794629561
             },
             "older_build": {
               "buildid": "26249571",
@@ -858,7 +917,8 @@
           "depots": {
             "5103871": {
               "manifests": {
-                "alpha": "6935389196467242417",
+                "alpha": "2227648921923326927",
+                "beta": "6935389196467242417",
                 "older_build": "4192092785000779212",
                 "public": "8092224236328746329"
               }
@@ -866,11 +926,11 @@
           }
         }
       },
-      "observed_at": "2026-11-13T02:38:34.394Z",
+      "observed_at": "2026-11-14T21:08:28.146Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T02:38:34.394Z"
+  "updated_at": "2026-11-14T21:08:28.146Z"
 }

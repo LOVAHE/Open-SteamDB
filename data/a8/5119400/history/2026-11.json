@@ -1429,11 +1429,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T21:08:28.146Z",
+      "change_number": 40951560,
+      "changes": [
+        {
+          "after": "26668839",
+          "before": "26603196",
+          "op": "replace",
+          "path": "/depots/branches/experimental/buildid"
+        },
+        {
+          "after": 1794672181,
+          "before": 1794436502,
+          "op": "replace",
+          "path": "/depots/branches/experimental/timebuildupdated"
+        },
+        {
+          "after": 1794672181,
+          "before": 1794436502,
+          "op": "replace",
+          "path": "/depots/branches/experimental/timeupdated"
+        },
+        {
+          "after": "6500265206271059920",
+          "before": "2836490029032439261",
+          "op": "replace",
+          "path": "/depots/depots/5119402/manifests/experimental"
+        },
+        {
+          "after": "8915922246876408595",
+          "before": "8205041115460062813",
+          "op": "replace",
+          "path": "/depots/depots/5119403/manifests/experimental"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40888258,
+      "change_number": 40951560,
       "data": {
         "appinfo": {
           "common": {
@@ -1595,10 +1633,10 @@
         "depots": {
           "branches": {
             "experimental": {
-              "buildid": "26603196",
+              "buildid": "26668839",
               "description": "This will be the first branch to receive updates but it also carries a risk of breaking saves so please back up your saves using the export option. YOU MAY NOT BE ABLE TO PORT YOUR SAVE BACK TO MAIN BRANCH. PLEASE BACKUP FIRST",
-              "timebuildupdated": 1794436502,
-              "timeupdated": 1794436502
+              "timebuildupdated": 1794672181,
+              "timeupdated": 1794672181
             },
             "public": {
               "buildid": "26603196",
@@ -1624,7 +1662,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "experimental": "2836490029032439261",
+                "experimental": "6500265206271059920",
                 "public": "2836490029032439261"
               }
             },
@@ -1634,18 +1672,18 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "experimental": "8205041115460062813",
+                "experimental": "8915922246876408595",
                 "public": "8205041115460062813"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-12T20:23:34.887Z",
+      "observed_at": "2026-11-14T21:08:28.146Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T20:23:34.887Z"
+  "updated_at": "2026-11-14T21:08:28.146Z"
 }

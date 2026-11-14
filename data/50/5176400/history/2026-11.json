@@ -248,11 +248,67 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-14T21:08:28.146Z",
+      "change_number": 40956492,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_22"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/community_visible_stats"
+        },
+        {
+          "after": "1793858145",
+          "before": "1796025600",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": {
+            "maxnumfiles": "200",
+            "quota": "100000000"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26668084",
+          "before": "26636936",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794668518,
+          "before": 1794549400,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794668763,
+          "before": 1794550512,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "493818462050281494",
+          "before": "3197337568773515318",
+          "op": "replace",
+          "path": "/depots/depots/5176401/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40902336,
+      "change_number": 40956492,
       "data": {
         "appinfo": {
           "common": {
@@ -268,10 +324,12 @@
             },
             "category": {
               "category_2": "1",
+              "category_22": "1",
               "category_62": "1"
             },
             "clienticon": "cb6d3aed1374a8aadc070d23f6c387148bab557c",
             "community_hub_visible": "1",
+            "community_visible_stats": "1",
             "genres": {
               "0": "4",
               "1": "23",
@@ -346,7 +404,7 @@
             "small_capsule": {
               "english": "29c146f5eb0de80a82a2418f667c2eeaa950e169/capsule_231x87.jpg"
             },
-            "steam_release_date": "1796025600",
+            "steam_release_date": "1793858145",
             "store_asset_mtime": "1792225837",
             "store_tags": {
               "0": "599",
@@ -375,14 +433,18 @@
           "extended": {
             "developer": "Daishi11",
             "publisher": "Daishi11"
+          },
+          "ufs": {
+            "maxnumfiles": "200",
+            "quota": "100000000"
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26636936",
-              "timebuildupdated": 1794549400,
-              "timeupdated": 1794550512
+              "buildid": "26668084",
+              "timebuildupdated": 1794668518,
+              "timeupdated": 1794668763
             }
           },
           "depots": {
@@ -392,17 +454,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "3197337568773515318"
+                "public": "493818462050281494"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T06:23:29.495Z",
+      "observed_at": "2026-11-14T21:08:28.146Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T06:23:29.495Z"
+  "updated_at": "2026-11-14T21:08:28.146Z"
 }
