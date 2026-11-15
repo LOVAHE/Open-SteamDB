@@ -428,11 +428,44 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-15T12:08:15.523Z",
+      "change_number": 40971214,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "5",
+            "quota": "50000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": " Swarmbreaker/cloud",
+                "pattern": "save.json",
+                "root": "WinAppDataRoaming"
+              },
+              "copied_from_parent": "1"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40944607,
+      "change_number": 40971214,
       "data": {
         "appinfo": {
           "common": {
@@ -583,6 +616,27 @@
           "extended": {
             "developer": "Paracorn",
             "publisher": "Paracorn"
+          },
+          "ufs": {
+            "maxnumfiles": "5",
+            "quota": "50000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": " Swarmbreaker/cloud",
+                "pattern": "save.json",
+                "root": "WinAppDataRoaming"
+              },
+              "copied_from_parent": "1"
+            }
           }
         },
         "depots": {
@@ -615,7 +669,7 @@
           }
         }
       },
-      "observed_at": "2026-11-14T22:08:24.085Z",
+      "observed_at": "2026-11-15T12:08:15.523Z",
       "tracked": true
     },
     "steam_store": {
@@ -744,5 +798,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-14T22:08:24.085Z"
+  "updated_at": "2026-11-15T12:08:15.523Z"
 }
