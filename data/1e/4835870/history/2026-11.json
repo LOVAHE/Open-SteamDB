@@ -242,11 +242,46 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-15T21:08:42.716Z",
+      "change_number": 40982476,
+      "changes": [
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/4835871/config"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "linux"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/4835872"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/4835873"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40699771,
+      "change_number": 40982476,
       "data": {
         "appinfo": {
           "common": {
@@ -468,18 +503,33 @@
           },
           "depots": {
             "4835871": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
                 "public": "4412710991353886380"
               }
+            },
+            "4835872": {
+              "config": {
+                "oslist": "linux"
+              },
+              "manifests": {}
+            },
+            "4835873": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-07T11:45:38.872Z",
+      "observed_at": "2026-11-15T21:08:42.716Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-07T11:45:38.872Z"
+  "updated_at": "2026-11-15T21:08:42.716Z"
 }
