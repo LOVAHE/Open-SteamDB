@@ -401,11 +401,31 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-15T14:08:36.491Z",
+      "change_number": 40973447,
+      "changes": [
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "windows"
+            },
+            "dlcappid": 5629550,
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5629551"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40973127,
+      "change_number": 40973447,
       "data": {
         "appinfo": {
           "common": {
@@ -637,15 +657,23 @@
               "manifests": {
                 "public": "5476673459326257086"
               }
+            },
+            "5629551": {
+              "config": {
+                "osarch": "64",
+                "oslist": "windows"
+              },
+              "dlcappid": 5629550,
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-15T13:53:25.312Z",
+      "observed_at": "2026-11-15T14:08:36.491Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-15T13:53:25.312Z"
+  "updated_at": "2026-11-15T14:08:36.491Z"
 }
