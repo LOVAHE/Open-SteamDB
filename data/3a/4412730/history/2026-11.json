@@ -422,11 +422,51 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-15T08:08:31.250Z",
+      "change_number": 40967277,
+      "changes": [
+        {
+          "after": "MyRT1",
+          "before": "*.png",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/1/pattern"
+        },
+        {
+          "after": {
+            "path": "XingQiongHuanXiang/Saved",
+            "pattern": "MyRT2",
+            "platforms": {
+              "1": "Windows"
+            },
+            "recursive": "1",
+            "root": "WinAppDataLocal"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        },
+        {
+          "after": {
+            "path": "XingQiongHuanXiang/Saved",
+            "pattern": "MyRT3",
+            "platforms": {
+              "1": "Windows"
+            },
+            "recursive": "1",
+            "root": "WinAppDataLocal"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/3"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40967113,
+      "change_number": 40967277,
       "data": {
         "appinfo": {
           "common": {
@@ -733,7 +773,25 @@
               },
               "1": {
                 "path": "XingQiongHuanXiang/Saved",
-                "pattern": "*.png",
+                "pattern": "MyRT1",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "recursive": "1",
+                "root": "WinAppDataLocal"
+              },
+              "2": {
+                "path": "XingQiongHuanXiang/Saved",
+                "pattern": "MyRT2",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "recursive": "1",
+                "root": "WinAppDataLocal"
+              },
+              "3": {
+                "path": "XingQiongHuanXiang/Saved",
+                "pattern": "MyRT3",
                 "platforms": {
                   "1": "Windows"
                 },
@@ -784,11 +842,11 @@
           }
         }
       },
-      "observed_at": "2026-11-15T07:53:18.634Z",
+      "observed_at": "2026-11-15T08:08:31.250Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-15T07:53:18.634Z"
+  "updated_at": "2026-11-15T08:08:31.250Z"
 }
