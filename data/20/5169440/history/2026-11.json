@@ -364,11 +364,25 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-15T02:53:22.674Z",
+      "change_number": 40963118,
+      "changes": [
+        {
+          "after": "save_*.json",
+          "before": "save_*.json\t",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/6/pattern"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40894954,
+      "change_number": 40963118,
       "data": {
         "appinfo": {
           "common": {
@@ -585,7 +599,7 @@
               },
               "6": {
                 "path": "7heads studio/TidyUpTheRoyalArmory",
-                "pattern": "save_*.json\t",
+                "pattern": "save_*.json",
                 "root": "WinAppDataLocalLow"
               }
             }
@@ -648,11 +662,11 @@
           }
         }
       },
-      "observed_at": "2026-11-13T02:38:34.394Z",
+      "observed_at": "2026-11-15T02:53:22.674Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T02:38:34.394Z"
+  "updated_at": "2026-11-15T02:53:22.674Z"
 }
