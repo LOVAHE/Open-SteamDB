@@ -208,11 +208,33 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-15T19:53:25.575Z",
+      "change_number": 40980520,
+      "changes": [
+        {
+          "after": "1793700428",
+          "before": "1798704000",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40556451,
+      "change_number": 40980520,
       "data": {
         "appinfo": {
           "common": {
@@ -328,7 +350,7 @@
               "english": "5d9a0c7aee4623aaaf517c0e3cee130bfe0d0357/capsule_231x87.jpg",
               "koreana": "e5ffc71796cca29da45606f3e0222944c0f37ebe/capsule_231x87_koreana.jpg"
             },
-            "steam_release_date": "1798704000",
+            "steam_release_date": "1793700428",
             "store_asset_mtime": "1793065684",
             "store_tags": {
               "0": "1667",
@@ -358,6 +380,10 @@
                 "supported": "true"
               },
               "koreana": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "schinese": {
                 "subtitles": "true",
                 "supported": "true"
               }
@@ -400,11 +426,11 @@
           }
         }
       },
-      "observed_at": "2026-11-03T16:53:17.415Z",
+      "observed_at": "2026-11-15T19:53:25.575Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-03T16:53:17.415Z"
+  "updated_at": "2026-11-15T19:53:25.575Z"
 }
