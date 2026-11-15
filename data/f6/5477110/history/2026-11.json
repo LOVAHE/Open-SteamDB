@@ -207,11 +207,66 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-15T01:23:14.359Z",
+      "change_number": 40949195,
+      "changes": [
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/tchinese"
+        },
+        {
+          "before": {
+            "buildid": "26182185",
+            "description": "beta",
+            "timebuildupdated": 1792846551,
+            "timeupdated": 1792847215
+          },
+          "op": "remove",
+          "path": "/depots/branches/beta"
+        },
+        {
+          "after": "26658434",
+          "before": "26642133",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794616228,
+          "before": 1794567041,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794616430,
+          "before": 1794567230,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": "5144339149057975888",
+          "op": "remove",
+          "path": "/depots/depots/5477111/manifests/beta"
+        },
+        {
+          "after": "7661850523010777920",
+          "before": "612981060386340490",
+          "op": "replace",
+          "path": "/depots/depots/5477111/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40909788,
+      "change_number": 40949195,
       "data": {
         "appinfo": {
           "common": {
@@ -362,6 +417,10 @@
                 "full_audio": "true",
                 "subtitles": "true",
                 "supported": "true"
+              },
+              "tchinese": {
+                "subtitles": "true",
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -380,16 +439,10 @@
         },
         "depots": {
           "branches": {
-            "beta": {
-              "buildid": "26182185",
-              "description": "beta",
-              "timebuildupdated": 1792846551,
-              "timeupdated": 1792847215
-            },
             "public": {
-              "buildid": "26642133",
-              "timebuildupdated": 1794567041,
-              "timeupdated": 1794567230
+              "buildid": "26658434",
+              "timebuildupdated": 1794616228,
+              "timeupdated": 1794616430
             }
           },
           "depots": {
@@ -398,18 +451,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "beta": "5144339149057975888",
-                "public": "612981060386340490"
+                "public": "7661850523010777920"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T13:38:27.266Z",
+      "observed_at": "2026-11-15T01:23:14.359Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T13:38:27.266Z"
+  "updated_at": "2026-11-15T01:23:14.359Z"
 }

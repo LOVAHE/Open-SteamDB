@@ -206,11 +206,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-15T01:23:14.359Z",
+      "change_number": 40952781,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": "26669063",
+          "before": "26647485",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794673192,
+          "before": 1794582187,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794673224,
+          "before": 1794582263,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1917033922704956756",
+          "before": "7607348012443104393",
+          "op": "replace",
+          "path": "/depots/depots/5495281/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40917913,
+      "change_number": 40952781,
       "data": {
         "appinfo": {
           "common": {
@@ -312,7 +349,8 @@
                 "full_audio": "true"
               }
             },
-            "type": "Demo"
+            "type": "Demo",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "Sanity Shooter Demo"
@@ -325,25 +363,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26647485",
-              "timebuildupdated": 1794582187,
-              "timeupdated": 1794582263
+              "buildid": "26669063",
+              "timebuildupdated": 1794673192,
+              "timeupdated": 1794673224
             }
           },
           "depots": {
             "5495281": {
               "manifests": {
-                "public": "7607348012443104393"
+                "public": "1917033922704956756"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T15:08:28.008Z",
+      "observed_at": "2026-11-15T01:23:14.359Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T15:08:28.008Z"
+  "updated_at": "2026-11-15T01:23:14.359Z"
 }
