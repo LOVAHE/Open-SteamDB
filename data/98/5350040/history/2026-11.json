@@ -179,21 +179,58 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-15T21:23:30.229Z",
+      "change_number": 40982611,
+      "changes": [
+        {
+          "after": "Last Life Labs",
+          "before": "Last Life Games",
+          "op": "replace",
+          "path": "/appinfo/common/associations/0/name"
+        },
+        {
+          "after": "Last Life Labs",
+          "before": "Last Life Games",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/name"
+        },
+        {
+          "after": "1794701311",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "Last Life Labs",
+          "before": "Last Life Games",
+          "op": "replace",
+          "path": "/appinfo/extended/developer"
+        },
+        {
+          "after": "Last Life Labs",
+          "before": "Last Life Games",
+          "op": "replace",
+          "path": "/appinfo/extended/publisher"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40960924,
+      "change_number": 40982611,
       "data": {
         "appinfo": {
           "common": {
             "associations": {
               "0": {
-                "name": "Last Life Games",
+                "name": "Last Life Labs",
                 "type": "developer"
               },
               "1": {
-                "name": "Last Life Games",
+                "name": "Last Life Labs",
                 "type": "publisher"
               }
             },
@@ -283,6 +320,7 @@
             "small_capsule": {
               "english": "b081074163f557b39577eeb28302369d790b37f1/capsule_231x87.jpg"
             },
+            "steam_release_date": "1794701311",
             "store_asset_mtime": "1792695851",
             "store_tags": {
               "0": "9",
@@ -317,8 +355,8 @@
             "installdir": "Manafest"
           },
           "extended": {
-            "developer": "Last Life Games",
-            "publisher": "Last Life Games"
+            "developer": "Last Life Labs",
+            "publisher": "Last Life Labs"
           }
         },
         "depots": {
@@ -349,11 +387,11 @@
           }
         }
       },
-      "observed_at": "2026-11-15T02:53:22.674Z",
+      "observed_at": "2026-11-15T21:23:30.229Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-15T02:53:22.674Z"
+  "updated_at": "2026-11-15T21:23:30.229Z"
 }
