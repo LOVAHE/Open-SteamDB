@@ -472,11 +472,27 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-15T12:38:29.249Z",
+      "change_number": 40971579,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "50",
+            "quota": "10000000"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40959464,
+      "change_number": 40971579,
       "data": {
         "appinfo": {
           "common": {
@@ -610,6 +626,10 @@
           "extended": {
             "developer": "Homeowner Association",
             "publisher": "Homeowner Association"
+          },
+          "ufs": {
+            "maxnumfiles": "50",
+            "quota": "10000000"
           }
         },
         "depots": {
@@ -642,7 +662,7 @@
           }
         }
       },
-      "observed_at": "2026-11-14T23:38:16.316Z",
+      "observed_at": "2026-11-15T12:38:29.249Z",
       "tracked": true
     },
     "steam_store": {
@@ -771,5 +791,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-14T23:38:16.316Z"
+  "updated_at": "2026-11-15T12:38:29.249Z"
 }

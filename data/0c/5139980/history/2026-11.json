@@ -283,11 +283,73 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-15T12:38:29.249Z",
+      "change_number": 40971621,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/community_visible_stats"
+        },
+        {
+          "after": {
+            "arabic": "1",
+            "brazilian": "1",
+            "english": "1",
+            "french": "1",
+            "german": "1",
+            "indonesian": "1",
+            "italian": "1",
+            "japanese": "1",
+            "portuguese": "1",
+            "russian": "1",
+            "schinese": "1",
+            "spanish": "1",
+            "turkish": "1"
+          },
+          "op": "add",
+          "path": "/appinfo/common/languages"
+        },
+        {
+          "after": "26681684",
+          "before": "26537212",
+          "op": "replace",
+          "path": "/depots/branches/linux-test/buildid"
+        },
+        {
+          "after": 1794745744,
+          "before": 1794220239,
+          "op": "replace",
+          "path": "/depots/branches/linux-test/timebuildupdated"
+        },
+        {
+          "after": 1794745766,
+          "before": 1794220239,
+          "op": "replace",
+          "path": "/depots/branches/linux-test/timeupdated"
+        },
+        {
+          "after": "7872690038827728342",
+          "before": "4936395799382862627",
+          "op": "replace",
+          "path": "/depots/depots/5139981/manifests/linux-test"
+        },
+        {
+          "after": "5271993282325837762",
+          "before": "3767062085642518175",
+          "op": "replace",
+          "path": "/depots/depots/5139982/manifests/linux-test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40756273,
+      "change_number": 40971621,
       "data": {
         "appinfo": {
           "common": {
@@ -307,6 +369,7 @@
             },
             "clienticon": "68cb97c97ab97e1afd75f55404903dbe734a3da1",
             "community_hub_visible": "1",
+            "community_visible_stats": "1",
             "genres": {
               "0": "23",
               "1": "28",
@@ -317,6 +380,21 @@
               "russian": "a9e701c655f7dce67e1205600c495ee10f3eb230/header_russian.jpg"
             },
             "icon": "1c7f2184128725b4886d1f3c67ff24988297d24f",
+            "languages": {
+              "arabic": "1",
+              "brazilian": "1",
+              "english": "1",
+              "french": "1",
+              "german": "1",
+              "indonesian": "1",
+              "italian": "1",
+              "japanese": "1",
+              "portuguese": "1",
+              "russian": "1",
+              "schinese": "1",
+              "spanish": "1",
+              "turkish": "1"
+            },
             "library_assets": {
               "library_capsule": "en,ru",
               "library_header": "ru,en",
@@ -464,10 +542,10 @@
         "depots": {
           "branches": {
             "linux-test": {
-              "buildid": "26537212",
+              "buildid": "26681684",
               "description": "Linux testing branch",
-              "timebuildupdated": 1794220239,
-              "timeupdated": 1794220239
+              "timebuildupdated": 1794745744,
+              "timeupdated": 1794745766
             },
             "public": {
               "buildid": "26537212",
@@ -478,7 +556,7 @@
           "depots": {
             "5139981": {
               "manifests": {
-                "linux-test": "4936395799382862627",
+                "linux-test": "7872690038827728342",
                 "public": "4936395799382862627"
               }
             },
@@ -487,18 +565,18 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "linux-test": "3767062085642518175",
+                "linux-test": "5271993282325837762",
                 "public": "3767062085642518175"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-09T15:23:25.939Z",
+      "observed_at": "2026-11-15T12:38:29.249Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T15:23:25.939Z"
+  "updated_at": "2026-11-15T12:38:29.249Z"
 }

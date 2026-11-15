@@ -254,11 +254,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-15T12:38:29.249Z",
+      "change_number": 40971523,
+      "changes": [
+        {
+          "after": "26681641",
+          "before": "26679533",
+          "op": "replace",
+          "path": "/depots/branches/test-branch/buildid"
+        },
+        {
+          "after": 1794745485,
+          "before": 1794733043,
+          "op": "replace",
+          "path": "/depots/branches/test-branch/timebuildupdated"
+        },
+        {
+          "after": 1794745485,
+          "before": 1794733095,
+          "op": "replace",
+          "path": "/depots/branches/test-branch/timeupdated"
+        },
+        {
+          "after": "968046619640576197",
+          "before": "4981271516064711755",
+          "op": "replace",
+          "path": "/depots/depots/5360031/manifests/test-branch"
+        },
+        {
+          "before": {
+            "config": {
+              "oslist": "linux"
+            },
+            "manifests": {
+              "test-branch": "3469394543363501854"
+            }
+          },
+          "op": "remove",
+          "path": "/depots/depots/5360032"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40968080,
+      "change_number": 40971523,
       "data": {
         "appinfo": {
           "common": {
@@ -406,10 +450,10 @@
               "timeupdated": 1793258477
             },
             "test-branch": {
-              "buildid": "26679533",
+              "buildid": "26681641",
               "description": "for testing only",
-              "timebuildupdated": 1794733043,
-              "timeupdated": 1794733095
+              "timebuildupdated": 1794745485,
+              "timeupdated": 1794745485
             }
           },
           "depots": {
@@ -419,25 +463,17 @@
               },
               "manifests": {
                 "public": "943826164975014388",
-                "test-branch": "4981271516064711755"
-              }
-            },
-            "5360032": {
-              "config": {
-                "oslist": "linux"
-              },
-              "manifests": {
-                "test-branch": "3469394543363501854"
+                "test-branch": "968046619640576197"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-15T09:08:34.574Z",
+      "observed_at": "2026-11-15T12:38:29.249Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-15T09:08:34.574Z"
+  "updated_at": "2026-11-15T12:38:29.249Z"
 }
