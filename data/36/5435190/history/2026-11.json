@@ -286,21 +286,97 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-15T17:23:28.592Z",
+      "change_number": 40977449,
+      "changes": [
+        {
+          "after": "victoirea",
+          "before": "victoriea",
+          "op": "replace",
+          "path": "/appinfo/common/associations/0/name"
+        },
+        {
+          "after": "victoirea",
+          "before": "victoriea",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/name"
+        },
+        {
+          "after": "1794061609",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "victoirea",
+          "before": "victoriea",
+          "op": "replace",
+          "path": "/appinfo/extended/developer"
+        },
+        {
+          "after": "victoirea",
+          "before": "victoriea",
+          "op": "replace",
+          "path": "/appinfo/extended/publisher"
+        },
+        {
+          "after": {
+            "buildid": "26685102",
+            "description": "Beta branch for improved functionalities",
+            "timebuildupdated": 1794762262,
+            "timeupdated": 1794762912
+          },
+          "op": "add",
+          "path": "/depots/branches/beta"
+        },
+        {
+          "after": "26685102",
+          "before": "25924960",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794762262,
+          "before": 1791950839,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794763188,
+          "before": 1791951111,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "9196046274105668237",
+          "op": "add",
+          "path": "/depots/depots/5435191/manifests/beta"
+        },
+        {
+          "after": "9196046274105668237",
+          "before": "652247791880777407",
+          "op": "replace",
+          "path": "/depots/depots/5435191/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40704004,
+      "change_number": 40977449,
       "data": {
         "appinfo": {
           "common": {
             "associations": {
               "0": {
-                "name": "victoriea",
+                "name": "victoirea",
                 "type": "developer"
               },
               "1": {
-                "name": "victoriea",
+                "name": "victoirea",
                 "type": "publisher"
               }
             },
@@ -474,6 +550,7 @@
               "schinese": "3f116dc29f769b60d50552748623857593b456fc/capsule_231x87_schinese.jpg",
               "spanish": "87c0cfee68b7509707bcdebc6dae9aa3312bda74/capsule_231x87_spanish.jpg"
             },
+            "steam_release_date": "1794061609",
             "store_asset_mtime": "1792704293",
             "store_tags": {
               "0": "701",
@@ -519,8 +596,8 @@
             "installdir": "GomokuZero"
           },
           "extended": {
-            "developer": "victoriea",
-            "publisher": "victoriea"
+            "developer": "victoirea",
+            "publisher": "victoirea"
           },
           "ufs": {
             "maxnumfiles": "64",
@@ -536,10 +613,16 @@
         },
         "depots": {
           "branches": {
+            "beta": {
+              "buildid": "26685102",
+              "description": "Beta branch for improved functionalities",
+              "timebuildupdated": 1794762262,
+              "timeupdated": 1794762912
+            },
             "public": {
-              "buildid": "25924960",
-              "timebuildupdated": 1791950839,
-              "timeupdated": 1791951111
+              "buildid": "26685102",
+              "timebuildupdated": 1794762262,
+              "timeupdated": 1794763188
             }
           },
           "depots": {
@@ -557,17 +640,18 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "652247791880777407"
+                "beta": "9196046274105668237",
+                "public": "9196046274105668237"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-08T14:59:05.350Z",
+      "observed_at": "2026-11-15T17:23:28.592Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-08T14:59:05.350Z"
+  "updated_at": "2026-11-15T17:23:28.592Z"
 }
