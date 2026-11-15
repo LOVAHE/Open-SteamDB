@@ -372,11 +372,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-15T14:23:27.036Z",
+      "change_number": 40973816,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26682971",
+            "description": "Testing Server Solution in China",
+            "timebuildupdated": 1794752280,
+            "timeupdated": 1794752589
+          },
+          "op": "add",
+          "path": "/depots/branches/china_servertests"
+        },
+        {
+          "after": "3462216601634842837",
+          "op": "add",
+          "path": "/depots/depots/4563592/manifests/china_servertests"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40952526,
+      "change_number": 40973816,
       "data": {
         "appinfo": {
           "common": {
@@ -589,6 +612,12 @@
         },
         "depots": {
           "branches": {
+            "china_servertests": {
+              "buildid": "26682971",
+              "description": "Testing Server Solution in China",
+              "timebuildupdated": 1794752280,
+              "timeupdated": 1794752589
+            },
             "public": {
               "buildid": "26628656",
               "timebuildupdated": 1794519321,
@@ -601,17 +630,18 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "china_servertests": "3462216601634842837",
                 "public": "702438722282971865"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-14T19:08:15.866Z",
+      "observed_at": "2026-11-15T14:23:27.036Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-14T19:08:15.866Z"
+  "updated_at": "2026-11-15T14:23:27.036Z"
 }
