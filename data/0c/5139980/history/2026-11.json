@@ -383,11 +383,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-15T13:08:30.444Z",
+      "change_number": 40972247,
+      "changes": [
+        {
+          "after": "26682080",
+          "before": "26681961",
+          "op": "replace",
+          "path": "/depots/branches/linux-test/buildid"
+        },
+        {
+          "after": 1794747841,
+          "before": 1794747195,
+          "op": "replace",
+          "path": "/depots/branches/linux-test/timebuildupdated"
+        },
+        {
+          "after": 1794747861,
+          "before": 1794747202,
+          "op": "replace",
+          "path": "/depots/branches/linux-test/timeupdated"
+        },
+        {
+          "after": "3434305431885914541",
+          "before": "2923628173587023445",
+          "op": "replace",
+          "path": "/depots/depots/5139981/manifests/linux-test"
+        },
+        {
+          "after": "4873090410295368849",
+          "before": "7289483707090793459",
+          "op": "replace",
+          "path": "/depots/depots/5139982/manifests/linux-test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40972059,
+      "change_number": 40972247,
       "data": {
         "appinfo": {
           "common": {
@@ -580,10 +618,10 @@
         "depots": {
           "branches": {
             "linux-test": {
-              "buildid": "26681961",
+              "buildid": "26682080",
               "description": "Linux testing branch",
-              "timebuildupdated": 1794747195,
-              "timeupdated": 1794747202
+              "timebuildupdated": 1794747841,
+              "timeupdated": 1794747861
             },
             "public": {
               "buildid": "26537212",
@@ -594,7 +632,7 @@
           "depots": {
             "5139981": {
               "manifests": {
-                "linux-test": "2923628173587023445",
+                "linux-test": "3434305431885914541",
                 "public": "4936395799382862627"
               }
             },
@@ -603,18 +641,18 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "linux-test": "7289483707090793459",
+                "linux-test": "4873090410295368849",
                 "public": "3767062085642518175"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-15T12:53:18.311Z",
+      "observed_at": "2026-11-15T13:08:30.444Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-15T12:53:18.311Z"
+  "updated_at": "2026-11-15T13:08:30.444Z"
 }
