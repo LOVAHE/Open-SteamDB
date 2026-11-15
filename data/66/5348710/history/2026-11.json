@@ -310,11 +310,49 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-11-15T11:38:24.468Z",
+      "change_number": 40970665,
+      "changes": [
+        {
+          "after": "26681133",
+          "before": "25802047",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794742482,
+          "before": 1791458037,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794742655,
+          "before": 1791458249,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3132844617096482895",
+          "before": "3089380843774656053",
+          "op": "replace",
+          "path": "/depots/depots/5348711/manifests/public"
+        },
+        {
+          "after": "426635716836614209",
+          "before": "6885409623766273242",
+          "op": "replace",
+          "path": "/depots/depots/5348713/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 39613969,
+      "change_number": 40970665,
       "data": {
         "appinfo": {
           "common": {
@@ -472,9 +510,9 @@
               "timeupdated": 1791374025
             },
             "public": {
-              "buildid": "25802047",
-              "timebuildupdated": 1791458037,
-              "timeupdated": 1791458249
+              "buildid": "26681133",
+              "timebuildupdated": 1794742482,
+              "timeupdated": 1794742655
             }
           },
           "depots": {
@@ -484,7 +522,7 @@
               },
               "manifests": {
                 "macbranch": "3018753490182386755",
-                "public": "3089380843774656053"
+                "public": "3132844617096482895"
               }
             },
             "5348713": {
@@ -493,13 +531,13 @@
               },
               "manifests": {
                 "macbranch": "5486274785328493184",
-                "public": "6885409623766273242"
+                "public": "426635716836614209"
               }
             }
           }
         }
       },
-      "observed_at": "2026-10-08T11:22:19.954Z",
+      "observed_at": "2026-11-15T11:38:24.468Z",
       "tracked": true
     },
     "steam_store": {
@@ -616,5 +654,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T06:08:33.708Z"
+  "updated_at": "2026-11-15T11:38:24.468Z"
 }
