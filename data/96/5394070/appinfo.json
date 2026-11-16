@@ -1,8 +1,8 @@
 {
   "appid": 5394070,
   "source": "steam_pics",
-  "updated_at": "2026-11-14T23:38:16.316Z",
-  "change_number": 40950057,
+  "updated_at": "2026-11-16T10:53:22.328Z",
+  "change_number": 41000339,
   "data": {
     "common": {
       "associations": {
@@ -163,6 +163,18 @@
           "oscompare": "=",
           "root": "WinAppDataRoaming",
           "useinstead": "MacAppSupport"
+        },
+        "1": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Godot/app_userdata/The Usual, Please/saves/{64BitSteamID}",
+              "replace": "godot/app_userdata/The Usual, Please/saves/{64BitSteamID}"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
         }
       },
       "savefiles": {
