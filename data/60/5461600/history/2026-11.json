@@ -167,21 +167,58 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T11:08:28.796Z",
+      "change_number": 41000939,
+      "changes": [
+        {
+          "after": "DIG Games",
+          "before": "Pixelabor",
+          "op": "replace",
+          "path": "/appinfo/common/associations/0/name"
+        },
+        {
+          "after": "DIG Games",
+          "before": "Pixelabor",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/name"
+        },
+        {
+          "after": "DIG Games",
+          "before": "Pixelabor",
+          "op": "replace",
+          "path": "/appinfo/extended/developer"
+        },
+        {
+          "before": "https://www.pixelabor.com/",
+          "op": "remove",
+          "path": "/appinfo/extended/homepage"
+        },
+        {
+          "after": "DIG Games",
+          "before": "Pixelabor",
+          "op": "replace",
+          "path": "/appinfo/extended/publisher"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40550581,
+      "change_number": 41000939,
       "data": {
         "appinfo": {
           "common": {
             "associations": {
               "0": {
-                "name": "Pixelabor",
+                "name": "DIG Games",
                 "type": "developer"
               },
               "1": {
-                "name": "Pixelabor",
+                "name": "DIG Games",
                 "type": "publisher"
               }
             },
@@ -303,9 +340,8 @@
             "installdir": "Knight Survivor"
           },
           "extended": {
-            "developer": "Pixelabor",
-            "homepage": "https://www.pixelabor.com/",
-            "publisher": "Pixelabor"
+            "developer": "DIG Games",
+            "publisher": "DIG Games"
           }
         },
         "depots": {
@@ -325,11 +361,11 @@
           }
         }
       },
-      "observed_at": "2026-11-04T15:53:03.640Z",
+      "observed_at": "2026-11-16T11:08:28.796Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-04T15:53:03.640Z"
+  "updated_at": "2026-11-16T11:08:28.796Z"
 }
