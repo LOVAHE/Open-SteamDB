@@ -337,11 +337,41 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T09:09:05.973Z",
+      "change_number": 40997104,
+      "changes": [
+        {
+          "before": "1",
+          "op": "remove",
+          "path": "/appinfo/common/category/category_18"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_28"
+        },
+        {
+          "after": "full",
+          "before": "partial",
+          "op": "replace",
+          "path": "/appinfo/common/controller_support"
+        },
+        {
+          "after": "1794591645",
+          "before": "1796025600",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40945850,
+      "change_number": 40997104,
       "data": {
         "appinfo": {
           "common": {
@@ -356,11 +386,11 @@
               }
             },
             "category": {
-              "category_18": "1",
               "category_2": "1",
               "category_22": "1",
               "category_23": "1",
               "category_25": "1",
+              "category_28": "1",
               "category_45": "1",
               "category_46": "1",
               "category_62": "1",
@@ -372,7 +402,7 @@
             "clienttga": "f574195f9e464bcffca4c47c921145ecec57b49d",
             "community_hub_visible": "1",
             "community_visible_stats": "1",
-            "controller_support": "partial",
+            "controller_support": "full",
             "genres": {
               "0": "4",
               "1": "23",
@@ -485,7 +515,7 @@
               "japanese": "5972246bde17e43a5eef3adc50d8102696644a8d/capsule_231x87_japanese.jpg",
               "schinese": "76ff0bcc36827d4372b6f74a415721c0dc79f3c2/capsule_231x87_schinese.jpg"
             },
-            "steam_release_date": "1796025600",
+            "steam_release_date": "1794591645",
             "store_asset_mtime": "1794590470",
             "store_tags": {
               "0": "615955",
@@ -665,11 +695,11 @@
           }
         }
       },
-      "observed_at": "2026-11-14T17:53:30.329Z",
+      "observed_at": "2026-11-16T09:09:05.973Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-14T17:53:30.329Z"
+  "updated_at": "2026-11-16T09:09:05.973Z"
 }
