@@ -591,11 +591,71 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T03:38:36.541Z",
+      "change_number": 40990263,
+      "changes": [
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26693610",
+          "before": "26693258",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794799905,
+          "before": 1794798306,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794800252,
+          "before": 1794798592,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "linux"
+            },
+            "manifests": {
+              "public": "9123151672172384770"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5412002"
+        },
+        {
+          "before": "windows",
+          "op": "remove",
+          "path": "/depots/depots/5481280/config/oslist"
+        },
+        {
+          "before": "windows",
+          "op": "remove",
+          "path": "/depots/depots/5493840/config/oslist"
+        },
+        {
+          "before": "windows",
+          "op": "remove",
+          "path": "/depots/depots/5493850/config/oslist"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40989723,
+      "change_number": 40990263,
       "data": {
         "appinfo": {
           "common": {
@@ -689,7 +749,7 @@
             "name": "Jibtik - جبتك",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,linux",
             "primary_genre": "4",
             "small_capsule": {
               "english": "d3afa0fc5e5f8f0eb3b8c887b993e88ba17df63f/capsule_231x87.jpg"
@@ -741,9 +801,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26693258",
-              "timebuildupdated": 1794798306,
-              "timeupdated": 1794798592
+              "buildid": "26693610",
+              "timebuildupdated": 1794799905,
+              "timeupdated": 1794800252
             }
           },
           "depots": {
@@ -756,10 +816,18 @@
                 "public": "3068418541649083670"
               }
             },
-            "5481280": {
+            "5412002": {
               "config": {
                 "osarch": "64",
-                "oslist": "windows"
+                "oslist": "linux"
+              },
+              "manifests": {
+                "public": "9123151672172384770"
+              }
+            },
+            "5481280": {
+              "config": {
+                "osarch": "64"
               },
               "dlcappid": 5481280,
               "manifests": {
@@ -768,8 +836,7 @@
             },
             "5493840": {
               "config": {
-                "osarch": "64",
-                "oslist": "windows"
+                "osarch": "64"
               },
               "dlcappid": 5493840,
               "manifests": {
@@ -778,8 +845,7 @@
             },
             "5493850": {
               "config": {
-                "osarch": "64",
-                "oslist": "windows"
+                "osarch": "64"
               },
               "dlcappid": 5493850,
               "manifests": {
@@ -789,11 +855,11 @@
           }
         }
       },
-      "observed_at": "2026-11-16T03:23:36.090Z",
+      "observed_at": "2026-11-16T03:38:36.541Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T03:23:36.090Z"
+  "updated_at": "2026-11-16T03:38:36.541Z"
 }
