@@ -281,11 +281,35 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T02:53:27.438Z",
+      "change_number": 40989297,
+      "changes": [
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5291863"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40894631,
+      "change_number": 40989297,
       "data": {
         "appinfo": {
           "common": {
@@ -381,7 +405,7 @@
             "name": "Become Blackhole Demo",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,linux",
             "parent": "4994890",
             "primary_genre": "0",
             "small_capsule": {
@@ -533,15 +557,21 @@
                 "oslist": "linux"
               },
               "manifests": {}
+            },
+            "5291863": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-13T02:38:34.394Z",
+      "observed_at": "2026-11-16T02:53:27.438Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T02:38:34.394Z"
+  "updated_at": "2026-11-16T02:53:27.438Z"
 }

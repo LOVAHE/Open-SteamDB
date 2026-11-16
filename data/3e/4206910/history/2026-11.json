@@ -625,11 +625,41 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T02:53:27.438Z",
+      "change_number": 40986714,
+      "changes": [
+        {
+          "after": "2000",
+          "before": "50",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": {
+            "os": "MacOS",
+            "oscompare": "=",
+            "pathtransforms": {
+              "0": {
+                "find": "Saves",
+                "replace": "com.JoyfulJo.KimbapHeaven"
+              }
+            },
+            "root": "gameinstall",
+            "useinstead": "MacAppSupport"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides/1"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40975476,
+      "change_number": 40986714,
       "data": {
         "appinfo": {
           "common": {
@@ -849,7 +879,7 @@
             "publisher": "Joyful Jo"
           },
           "ufs": {
-            "maxnumfiles": "50",
+            "maxnumfiles": "2000",
             "quota": "200000000",
             "rootoverrides": {
               "0": {
@@ -863,6 +893,18 @@
                 },
                 "root": "gameinstall",
                 "useinstead": "WinAppDataLocalLow"
+              },
+              "1": {
+                "os": "MacOS",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Saves",
+                    "replace": "com.JoyfulJo.KimbapHeaven"
+                  }
+                },
+                "root": "gameinstall",
+                "useinstead": "MacAppSupport"
               }
             },
             "savefiles": {
@@ -920,11 +962,11 @@
           }
         }
       },
-      "observed_at": "2026-11-15T15:53:31.541Z",
+      "observed_at": "2026-11-16T02:53:27.438Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-15T15:53:31.541Z"
+  "updated_at": "2026-11-16T02:53:27.438Z"
 }
