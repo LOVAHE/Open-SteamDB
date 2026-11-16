@@ -1,8 +1,8 @@
 {
   "appid": 4475970,
   "source": "steam_pics",
-  "updated_at": "2026-11-14T19:08:15.866Z",
-  "change_number": 40933978,
+  "updated_at": "2026-11-16T03:53:32.310Z",
+  "change_number": 40990500,
   "data": {
     "common": {
       "associations": {
@@ -98,8 +98,8 @@
       },
       "name": "Prerolled",
       "osarch": "",
-      "osextended": "",
-      "oslist": "windows,linux",
+      "osextended": "macos64,macosapplesilicon",
+      "oslist": "windows,macos,linux",
       "primary_genre": "2",
       "review_percentage": "100",
       "review_score": "7",
@@ -160,6 +160,18 @@
           },
           "root": "WinAppDataRoaming",
           "useinstead": "LinuxXdgDataHome"
+        },
+        "1": {
+          "os": "MacOS",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Godot/app_userdata/Prerolled/steam_save_full_release",
+              "replace": "/Library/Application Support/godot/app_userdata/Prerolled/steam_save_full_release"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacHome"
         }
       },
       "savefiles": {

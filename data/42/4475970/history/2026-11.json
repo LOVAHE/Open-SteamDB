@@ -260,11 +260,57 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T03:53:32.310Z",
+      "change_number": 40990500,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos,linux",
+          "before": "windows,linux",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "os": "MacOS",
+            "oscompare": "=",
+            "pathtransforms": {
+              "0": {
+                "find": "Godot/app_userdata/Prerolled/steam_save_full_release",
+                "replace": "/Library/Application Support/godot/app_userdata/Prerolled/steam_save_full_release"
+              }
+            },
+            "root": "WinAppDataRoaming",
+            "useinstead": "MacHome"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides/1"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/4475973"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40933978,
+      "change_number": 40990500,
       "data": {
         "appinfo": {
           "common": {
@@ -361,8 +407,8 @@
             },
             "name": "Prerolled",
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows,linux",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos,linux",
             "primary_genre": "2",
             "review_percentage": "100",
             "review_score": "7",
@@ -423,6 +469,18 @@
                 },
                 "root": "WinAppDataRoaming",
                 "useinstead": "LinuxXdgDataHome"
+              },
+              "1": {
+                "os": "MacOS",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Godot/app_userdata/Prerolled/steam_save_full_release",
+                    "replace": "/Library/Application Support/godot/app_userdata/Prerolled/steam_save_full_release"
+                  }
+                },
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacHome"
               }
             },
             "savefiles": {
@@ -459,15 +517,21 @@
               "manifests": {
                 "public": "1891296181617241806"
               }
+            },
+            "4475973": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-14T19:08:15.866Z",
+      "observed_at": "2026-11-16T03:53:32.310Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-14T19:08:15.866Z"
+  "updated_at": "2026-11-16T03:53:32.310Z"
 }
