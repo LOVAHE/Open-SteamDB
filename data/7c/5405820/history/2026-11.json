@@ -774,11 +774,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T06:08:26.553Z",
+      "change_number": 40992912,
+      "changes": [
+        {
+          "after": "20",
+          "before": "10",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "save*.json",
+          "before": "save.json",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/pattern"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40977962,
+      "change_number": 40992912,
       "data": {
         "appinfo": {
           "common": {
@@ -957,7 +977,7 @@
             "publisher": "Byte &amp; Sprite"
           },
           "ufs": {
-            "maxnumfiles": "10",
+            "maxnumfiles": "20",
             "quota": "10000000",
             "rootoverrides": {
               "0": {
@@ -976,7 +996,7 @@
             "savefiles": {
               "0": {
                 "path": "MoonbowIdle",
-                "pattern": "save.json",
+                "pattern": "save*.json",
                 "platforms": {
                   "1": "Windows"
                 },
@@ -1013,11 +1033,11 @@
           }
         }
       },
-      "observed_at": "2026-11-15T17:53:24.262Z",
+      "observed_at": "2026-11-16T06:08:26.553Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-15T17:53:24.262Z"
+  "updated_at": "2026-11-16T06:08:26.553Z"
 }

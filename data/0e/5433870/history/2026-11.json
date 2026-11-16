@@ -398,11 +398,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T06:08:26.553Z",
+      "change_number": 40992871,
+      "changes": [
+        {
+          "after": "PoHun Games",
+          "before": "Mirage Interactive",
+          "op": "replace",
+          "path": "/appinfo/common/associations/2/name"
+        },
+        {
+          "after": {
+            "name": "Mirage Interactive",
+            "type": "publisher"
+          },
+          "op": "add",
+          "path": "/appinfo/common/associations/3"
+        },
+        {
+          "after": "PoHun Games",
+          "before": "Mirage Interactive",
+          "op": "replace",
+          "path": "/appinfo/extended/publisher"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40948707,
+      "change_number": 40992871,
       "data": {
         "appinfo": {
           "common": {
@@ -416,6 +444,10 @@
                 "type": "developer"
               },
               "2": {
+                "name": "PoHun Games",
+                "type": "publisher"
+              },
+              "3": {
                 "name": "Mirage Interactive",
                 "type": "publisher"
               }
@@ -577,7 +609,7 @@
           },
           "extended": {
             "developer": "PoHun Games",
-            "publisher": "Mirage Interactive"
+            "publisher": "PoHun Games"
           },
           "ufs": {
             "maxnumfiles": "10",
@@ -637,11 +669,11 @@
           }
         }
       },
-      "observed_at": "2026-11-14T23:38:16.316Z",
+      "observed_at": "2026-11-16T06:08:26.553Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-14T23:38:16.316Z"
+  "updated_at": "2026-11-16T06:08:26.553Z"
 }
