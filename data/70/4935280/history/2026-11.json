@@ -346,11 +346,84 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T06:38:41.716Z",
+      "change_number": 40993552,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": "26695894",
+          "before": "26694739",
+          "op": "replace",
+          "path": "/depots/branches/beta/buildid"
+        },
+        {
+          "after": 1794810910,
+          "before": 1794805067,
+          "op": "replace",
+          "path": "/depots/branches/beta/timebuildupdated"
+        },
+        {
+          "after": 1794810910,
+          "before": 1794805067,
+          "op": "replace",
+          "path": "/depots/branches/beta/timeupdated"
+        },
+        {
+          "after": "26695894",
+          "before": "26694739",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794810910,
+          "before": 1794805067,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794811056,
+          "before": 1794808789,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4601037081120165630",
+          "before": "411320323342686810",
+          "op": "replace",
+          "path": "/depots/depots/4935282/manifests/beta"
+        },
+        {
+          "after": "4601037081120165630",
+          "before": "411320323342686810",
+          "op": "replace",
+          "path": "/depots/depots/4935282/manifests/public"
+        },
+        {
+          "after": "7836203473151036015",
+          "before": "8507662823770049766",
+          "op": "replace",
+          "path": "/depots/depots/4935283/manifests/beta"
+        },
+        {
+          "after": "7836203473151036015",
+          "before": "8507662823770049766",
+          "op": "replace",
+          "path": "/depots/depots/4935283/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40993242,
+      "change_number": 40993552,
       "data": {
         "appinfo": {
           "common": {
@@ -471,7 +544,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "vim racer"
@@ -500,15 +574,15 @@
         "depots": {
           "branches": {
             "beta": {
-              "buildid": "26694739",
+              "buildid": "26695894",
               "description": "Beta testing branch",
-              "timebuildupdated": 1794805067,
-              "timeupdated": 1794805067
+              "timebuildupdated": 1794810910,
+              "timeupdated": 1794810910
             },
             "public": {
-              "buildid": "26694739",
-              "timebuildupdated": 1794805067,
-              "timeupdated": 1794808789
+              "buildid": "26695894",
+              "timebuildupdated": 1794810910,
+              "timeupdated": 1794811056
             }
           },
           "depots": {
@@ -519,8 +593,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "beta": "411320323342686810",
-                "public": "411320323342686810"
+                "beta": "4601037081120165630",
+                "public": "4601037081120165630"
               }
             },
             "4935283": {
@@ -530,18 +604,18 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "beta": "8507662823770049766",
-                "public": "8507662823770049766"
+                "beta": "7836203473151036015",
+                "public": "7836203473151036015"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-16T06:23:57.193Z",
+      "observed_at": "2026-11-16T06:38:41.716Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T06:23:57.193Z"
+  "updated_at": "2026-11-16T06:38:41.716Z"
 }
