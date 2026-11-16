@@ -693,11 +693,27 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T12:38:57.122Z",
+      "change_number": 41003426,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "1000",
+            "quota": "100000000"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41002866,
+      "change_number": 41003426,
       "data": {
         "appinfo": {
           "common": {
@@ -828,6 +844,10 @@
           "extended": {
             "developer": "Szymon",
             "publisher": "Szymon Entertainment"
+          },
+          "ufs": {
+            "maxnumfiles": "1000",
+            "quota": "100000000"
           }
         },
         "depots": {
@@ -854,11 +874,11 @@
           }
         }
       },
-      "observed_at": "2026-11-16T12:23:23.640Z",
+      "observed_at": "2026-11-16T12:38:57.122Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T12:23:23.640Z"
+  "updated_at": "2026-11-16T12:38:57.122Z"
 }
