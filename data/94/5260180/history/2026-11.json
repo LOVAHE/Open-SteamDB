@@ -233,11 +233,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T17:53:33.480Z",
+      "change_number": 41015036,
+      "changes": [
+        {
+          "after": "windows,macos,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26709119",
+          "before": "26698232",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794850737,
+          "before": 1794820296,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794850797,
+          "before": 1794820348,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4264390059327446188",
+          "before": "9058709423697349774",
+          "op": "replace",
+          "path": "/depots/depots/5260181/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40997324,
+      "change_number": 41015036,
       "data": {
         "appinfo": {
           "common": {
@@ -326,7 +364,7 @@
             "name": "Army Factory Demo",
             "osarch": "",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,macos,linux",
             "parent": "5094230",
             "primary_genre": "1",
             "small_capsule": {
@@ -354,25 +392,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26698232",
-              "timebuildupdated": 1794820296,
-              "timeupdated": 1794820348
+              "buildid": "26709119",
+              "timebuildupdated": 1794850737,
+              "timeupdated": 1794850797
             }
           },
           "depots": {
             "5260181": {
               "manifests": {
-                "public": "9058709423697349774"
+                "public": "4264390059327446188"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-16T09:23:38.365Z",
+      "observed_at": "2026-11-16T17:53:33.480Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T09:23:38.365Z"
+  "updated_at": "2026-11-16T17:53:33.480Z"
 }
