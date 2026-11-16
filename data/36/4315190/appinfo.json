@@ -1,8 +1,8 @@
 {
   "appid": 4315190,
   "source": "steam_pics",
-  "updated_at": "2026-11-11T08:23:24.425Z",
-  "change_number": 40824998,
+  "updated_at": "2026-11-16T13:08:56.693Z",
+  "change_number": 41004393,
   "data": {
     "common": {
       "associations": {
@@ -224,6 +224,20 @@
           },
           "root": "WinMyDocuments",
           "useinstead": "LinuxXdgDataHome"
+        },
+        "2": {
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataLocalLow",
+          "useinstead": "MacAppSupport"
+        },
+        "3": {
+          "addpath": "unity3d/",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "WinAppDataLocalLow",
+          "useinstead": "LinuxXdgConfigHome"
         }
       },
       "savefiles": {
@@ -231,6 +245,11 @@
           "path": "Stellar Broadcast/{64BitSteamID}",
           "pattern": "*.hive",
           "root": "WinMyDocuments"
+        },
+        "1": {
+          "path": "QuickApps Unity Steam Full Candidate/Stellar Broadcast Unity Candidate/stellar-port-workbench/steam-full-candidate/steam-accounts/{64BitSteamID}",
+          "pattern": "*.json",
+          "root": "WinAppDataLocalLow"
         }
       }
     }
