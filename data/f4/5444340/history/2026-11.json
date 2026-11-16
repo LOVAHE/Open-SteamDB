@@ -337,11 +337,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T08:08:30.181Z",
+      "change_number": 40995454,
+      "changes": [
+        {
+          "after": "18ee5f63c6818d53fe8384f4ff641b5b20b107ed/header_japanese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/header_image/japanese"
+        },
+        {
+          "after": "6b3745d7fc47271e3c6e0b87641cec65c46bef11/header_koreana.jpg",
+          "op": "add",
+          "path": "/appinfo/common/header_image/koreana"
+        },
+        {
+          "after": "966a8309b7078e0b2ebf36ffa7c59182497ec7e3/header_schinese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/header_image/schinese"
+        },
+        {
+          "after": "7d06057ee0c0780609b2586c4235cb8a7ca8cc26/capsule_231x87_japanese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/small_capsule/japanese"
+        },
+        {
+          "after": "0453f05757d973c4309d32419ac1351598632ac6/capsule_231x87_koreana.jpg",
+          "op": "add",
+          "path": "/appinfo/common/small_capsule/koreana"
+        },
+        {
+          "after": "90fa06ce1439c9e1d337ffd307e9e5c9ac1ed17e/capsule_231x87_schinese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/small_capsule/schinese"
+        },
+        {
+          "after": "1794810625",
+          "before": "1792390600",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40984701,
+      "change_number": 40995454,
       "data": {
         "appinfo": {
           "common": {
@@ -370,7 +414,10 @@
               "1": "2"
             },
             "header_image": {
-              "english": "171552d1139486735be54729323c77a6b07fcde4/header.jpg"
+              "english": "171552d1139486735be54729323c77a6b07fcde4/header.jpg",
+              "japanese": "18ee5f63c6818d53fe8384f4ff641b5b20b107ed/header_japanese.jpg",
+              "koreana": "6b3745d7fc47271e3c6e0b87641cec65c46bef11/header_koreana.jpg",
+              "schinese": "966a8309b7078e0b2ebf36ffa7c59182497ec7e3/header_schinese.jpg"
             },
             "icon": "8a7909aca859cd4972dd33df9aeafbb498c8c505",
             "library_assets": {
@@ -441,10 +488,13 @@
             "parent": "4290080",
             "primary_genre": "2",
             "small_capsule": {
-              "english": "6e3db3539971c4991e8693d6f1b882331619756d/capsule_231x87.jpg"
+              "english": "6e3db3539971c4991e8693d6f1b882331619756d/capsule_231x87.jpg",
+              "japanese": "7d06057ee0c0780609b2586c4235cb8a7ca8cc26/capsule_231x87_japanese.jpg",
+              "koreana": "0453f05757d973c4309d32419ac1351598632ac6/capsule_231x87_koreana.jpg",
+              "schinese": "90fa06ce1439c9e1d337ffd307e9e5c9ac1ed17e/capsule_231x87_schinese.jpg"
             },
             "steam_release_date": "1794351464",
-            "store_asset_mtime": "1792390600",
+            "store_asset_mtime": "1794810625",
             "supported_languages": {
               "brazilian": {
                 "supported": "true"
@@ -505,11 +555,11 @@
           }
         }
       },
-      "observed_at": "2026-11-15T22:53:23.573Z",
+      "observed_at": "2026-11-16T08:08:30.181Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-15T22:53:23.573Z"
+  "updated_at": "2026-11-16T08:08:30.181Z"
 }
