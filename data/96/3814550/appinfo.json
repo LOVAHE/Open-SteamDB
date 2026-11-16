@@ -1,8 +1,8 @@
 {
   "appid": 3814550,
   "source": "steam_pics",
-  "updated_at": "2026-11-16T07:53:29.831Z",
-  "change_number": 40995091,
+  "updated_at": "2026-11-16T08:38:32.933Z",
+  "change_number": 40996363,
   "data": {
     "common": {
       "associations": {
@@ -129,26 +129,29 @@
       "installdir": "BrothelHotel"
     },
     "ufs": {
-      "maxnumfiles": "3",
+      "maxnumfiles": "50",
       "quota": "10000000",
-      "savefiles": {
+      "rootoverrides": {
         "0": {
-          "path": "Brothel Hotel/Local Storage/leveldb",
-          "pattern": "*",
-          "platforms": {
-            "1": "MacOS"
-          },
-          "recursive": "1",
-          "root": "MacAppSupport"
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
         },
         "1": {
-          "path": "Brothel Hotel/Local Storage/leveldb",
-          "pattern": "*",
-          "platforms": {
-            "1": "Windows"
-          },
-          "recursive": "1",
-          "root": "WinAppDataLocal"
+          "addpath": "",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgConfigHome"
+        }
+      },
+      "savefiles": {
+        "1": {
+          "path": "BrothelHotel/saves",
+          "pattern": "*.json",
+          "root": "WinAppDataRoaming"
         }
       }
     }

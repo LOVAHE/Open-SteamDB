@@ -726,11 +726,50 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T08:38:32.933Z",
+      "change_number": 40996373,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": {
+            "maxnumfiles": "500",
+            "quota": "52428800",
+            "savefiles": {
+              "0": {
+                "path": "AceOfJianghu",
+                "pattern": "achievements.json",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "AceOfJianghu/progression",
+                "pattern": "profile-*.json",
+                "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "AceOfJianghu/runs",
+                "pattern": "checkpoint-*.json",
+                "recursive": "1",
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40996076,
+      "change_number": 40996373,
       "data": {
         "appinfo": {
           "common": {
@@ -747,6 +786,7 @@
             "category": {
               "category_2": "1",
               "category_22": "1",
+              "category_23": "1",
               "category_62": "1"
             },
             "clienticon": "bbc7dbd250a38542a6f53a5431de87669e47ffe4",
@@ -908,6 +948,28 @@
           "extended": {
             "developer": "墨劍 Ink Blade",
             "publisher": "墨劍 Ink Blade"
+          },
+          "ufs": {
+            "maxnumfiles": "500",
+            "quota": "52428800",
+            "savefiles": {
+              "0": {
+                "path": "AceOfJianghu",
+                "pattern": "achievements.json",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "AceOfJianghu/progression",
+                "pattern": "profile-*.json",
+                "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "AceOfJianghu/runs",
+                "pattern": "checkpoint-*.json",
+                "recursive": "1",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -934,11 +996,11 @@
           }
         }
       },
-      "observed_at": "2026-11-16T08:23:26.464Z",
+      "observed_at": "2026-11-16T08:38:32.933Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T08:23:26.464Z"
+  "updated_at": "2026-11-16T08:38:32.933Z"
 }
