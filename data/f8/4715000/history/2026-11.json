@@ -357,11 +357,54 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T23:23:22.216Z",
+      "change_number": 41058234,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26715109",
+          "before": "26710640",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794868983,
+          "before": 1794855102,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794870655,
+          "before": 1794855131,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1605020266311575416",
+          "op": "add",
+          "path": "/depots/depots/4715002/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41052859,
+      "change_number": 41058234,
       "data": {
         "appinfo": {
           "common": {
@@ -501,8 +544,8 @@
             },
             "name": "Patience Balls",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "primary_genre": "23",
             "small_capsule": {
               "english": "816ea86050e8fc4cbf6ea88086f1a0f6e3016555/capsule_231x87.jpg"
@@ -587,9 +630,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26710640",
-              "timebuildupdated": 1794855102,
-              "timeupdated": 1794855131
+              "buildid": "26715109",
+              "timebuildupdated": 1794868983,
+              "timeupdated": 1794870655
             }
           },
           "depots": {
@@ -610,16 +653,18 @@
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "1605020266311575416"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-16T22:53:31.939Z",
+      "observed_at": "2026-11-16T23:23:22.216Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T22:53:31.939Z"
+  "updated_at": "2026-11-16T23:23:22.216Z"
 }
