@@ -358,11 +358,37 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T21:08:32.247Z",
+      "change_number": 41034091,
+      "changes": [
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/4681681/config"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "linux"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/4681682"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40887673,
+      "change_number": 41034091,
       "data": {
         "appinfo": {
           "common": {
@@ -585,19 +611,29 @@
           },
           "depots": {
             "4681681": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
                 "new-overlay-beta": "5335633711903147748",
                 "public": "7987047044402324895"
               }
+            },
+            "4681682": {
+              "config": {
+                "osarch": "64",
+                "oslist": "linux"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-12T20:08:21.055Z",
+      "observed_at": "2026-11-16T21:08:32.247Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T20:08:21.055Z"
+  "updated_at": "2026-11-16T21:08:32.247Z"
 }
