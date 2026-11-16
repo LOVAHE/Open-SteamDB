@@ -1,8 +1,8 @@
 {
   "appid": 5268450,
   "source": "steam_pics",
-  "updated_at": "2026-10-29T08:37:46.063Z",
-  "change_number": 40304237,
+  "updated_at": "2026-11-16T17:23:31.002Z",
+  "change_number": 41013914,
   "data": {
     "common": {
       "associations": {
@@ -126,6 +126,39 @@
     },
     "config": {
       "installdir": "Cranked Demo"
+    },
+    "ufs": {
+      "maxnumfiles": "20",
+      "quota": "10000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataLocalLow",
+          "useinstead": "MacAppSupport"
+        },
+        "1": {
+          "addpath": "unity3d/",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "WinAppDataLocalLow",
+          "useinstead": "LinuxXdgConfigHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Session Syndicate/Cranked",
+          "pattern": "career_save.json",
+          "root": "WinAppDataLocalLow"
+        },
+        "1": {
+          "path": "Session Syndicate/Cranked",
+          "pattern": "player_stats_*.json",
+          "root": "WinAppDataLocalLow"
+        },
+        "copied_from_parent": "1"
+      }
     }
   }
 }
