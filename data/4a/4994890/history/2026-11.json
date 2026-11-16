@@ -859,11 +859,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T07:53:29.831Z",
+      "change_number": 40994857,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos,linux",
+          "before": "windows,linux",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40994813,
+      "change_number": 40994857,
       "data": {
         "appinfo": {
           "common": {
@@ -988,8 +1008,8 @@
               "ukrainian": "Стань чорною дірою"
             },
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows,linux",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos,linux",
             "primary_genre": "4",
             "review_percentage": "72",
             "review_score": "6",
@@ -1187,11 +1207,11 @@
           }
         }
       },
-      "observed_at": "2026-11-16T07:42:07.205Z",
+      "observed_at": "2026-11-16T07:53:29.831Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T07:42:07.205Z"
+  "updated_at": "2026-11-16T07:53:29.831Z"
 }
