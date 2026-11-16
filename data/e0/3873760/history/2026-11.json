@@ -908,11 +908,25 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T11:38:43.615Z",
+      "change_number": 41001713,
+      "changes": [
+        {
+          "after": "100",
+          "before": "20",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40966217,
+      "change_number": 41001713,
       "data": {
         "appinfo": {
           "common": {
@@ -1129,7 +1143,7 @@
             "publisher": "Shuffle Play Games"
           },
           "ufs": {
-            "maxnumfiles": "20",
+            "maxnumfiles": "100",
             "quota": "100000000",
             "savefiles": {
               "0": {
@@ -1181,11 +1195,11 @@
           }
         }
       },
-      "observed_at": "2026-11-15T06:38:26.405Z",
+      "observed_at": "2026-11-16T11:38:43.615Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-15T06:38:26.405Z"
+  "updated_at": "2026-11-16T11:38:43.615Z"
 }
