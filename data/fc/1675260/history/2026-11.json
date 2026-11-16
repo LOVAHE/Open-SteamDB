@@ -547,11 +547,39 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T17:08:38.852Z",
+      "change_number": 41013521,
+      "changes": [
+        {
+          "after": "505 Pulse",
+          "before": "505 Games",
+          "op": "replace",
+          "path": "/appinfo/common/associations/2/name"
+        },
+        {
+          "after": "franchise",
+          "before": "publisher",
+          "op": "replace",
+          "path": "/appinfo/common/associations/2/type"
+        },
+        {
+          "before": {
+            "name": "505 Pulse",
+            "type": "franchise"
+          },
+          "op": "remove",
+          "path": "/appinfo/common/associations/3"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40998117,
+      "change_number": 41013521,
       "data": {
         "appinfo": {
           "common": {
@@ -565,10 +593,6 @@
                 "type": "publisher"
               },
               "2": {
-                "name": "505 Games",
-                "type": "publisher"
-              },
-              "3": {
                 "name": "505 Pulse",
                 "type": "franchise"
               }
@@ -829,11 +853,11 @@
           }
         }
       },
-      "observed_at": "2026-11-16T09:53:33.174Z",
+      "observed_at": "2026-11-16T17:08:38.852Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T09:53:33.174Z"
+  "updated_at": "2026-11-16T17:08:38.852Z"
 }
