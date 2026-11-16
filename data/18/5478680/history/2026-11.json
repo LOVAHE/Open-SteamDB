@@ -326,11 +326,42 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T21:23:38.464Z",
+      "change_number": 41037059,
+      "changes": [
+        {
+          "after": "26713205",
+          "before": "26709257",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794863186,
+          "before": 1794851197,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794863878,
+          "before": 1794851847,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4617091929187326246",
+          "op": "add",
+          "path": "/depots/depots/5478682/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41034859,
+      "change_number": 41037059,
       "data": {
         "appinfo": {
           "common": {
@@ -532,9 +563,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26709257",
-              "timebuildupdated": 1794851197,
-              "timeupdated": 1794851847
+              "buildid": "26713205",
+              "timebuildupdated": 1794863186,
+              "timeupdated": 1794863878
             }
           },
           "depots": {
@@ -550,16 +581,18 @@
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "4617091929187326246"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-16T21:08:32.247Z",
+      "observed_at": "2026-11-16T21:23:38.464Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T21:08:32.247Z"
+  "updated_at": "2026-11-16T21:23:38.464Z"
 }
