@@ -724,11 +724,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T16:08:35.239Z",
+      "change_number": 41011298,
+      "changes": [
+        {
+          "after": "26705317",
+          "before": "26689589",
+          "op": "replace",
+          "path": "/depots/branches/beta/buildid"
+        },
+        {
+          "after": 1794840999,
+          "before": 1794781859,
+          "op": "replace",
+          "path": "/depots/branches/beta/timebuildupdated"
+        },
+        {
+          "after": 1794845053,
+          "before": 1794839681,
+          "op": "replace",
+          "path": "/depots/branches/beta/timeupdated"
+        },
+        {
+          "after": "9202161555360801924",
+          "before": "399518168921411311",
+          "op": "replace",
+          "path": "/depots/depots/5103871/manifests/beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41008628,
+      "change_number": 41011298,
       "data": {
         "appinfo": {
           "common": {
@@ -1007,10 +1039,10 @@
               "timeupdated": 1794841017
             },
             "beta": {
-              "buildid": "26689589",
+              "buildid": "26705317",
               "description": "Get new features sooner than default, with less chance of broken saves than Alpha",
-              "timebuildupdated": 1794781859,
-              "timeupdated": 1794839681
+              "timebuildupdated": 1794840999,
+              "timeupdated": 1794845053
             },
             "older_build": {
               "buildid": "26249571",
@@ -1028,7 +1060,7 @@
             "5103871": {
               "manifests": {
                 "alpha": "9202161555360801924",
-                "beta": "399518168921411311",
+                "beta": "9202161555360801924",
                 "older_build": "4192092785000779212",
                 "public": "8092224236328746329"
               }
@@ -1036,11 +1068,11 @@
           }
         }
       },
-      "observed_at": "2026-11-16T15:08:40.879Z",
+      "observed_at": "2026-11-16T16:08:35.239Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T15:08:40.879Z"
+  "updated_at": "2026-11-16T16:08:35.239Z"
 }

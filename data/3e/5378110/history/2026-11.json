@@ -632,11 +632,57 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T16:08:35.239Z",
+      "change_number": 41011310,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "path": "One More Lawn/cloud",
+              "pattern": "*.omls",
+              "platforms": {
+                "1": "Windows"
+              },
+              "root": "WinAppDataRoaming"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles"
+        },
+        {
+          "after": "26706783",
+          "before": "26649508",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794844973,
+          "before": 1794587258,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794845049,
+          "before": 1794588343,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1777307435944385732",
+          "before": "8132998930328395097",
+          "op": "replace",
+          "path": "/depots/depots/5378111/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41010543,
+      "change_number": 41011310,
       "data": {
         "appinfo": {
           "common": {
@@ -870,31 +916,41 @@
           },
           "ufs": {
             "maxnumfiles": "100",
-            "quota": "100000000"
+            "quota": "100000000",
+            "savefiles": {
+              "0": {
+                "path": "One More Lawn/cloud",
+                "pattern": "*.omls",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26649508",
-              "timebuildupdated": 1794587258,
-              "timeupdated": 1794588343
+              "buildid": "26706783",
+              "timebuildupdated": 1794844973,
+              "timeupdated": 1794845049
             }
           },
           "depots": {
             "5378111": {
               "manifests": {
-                "public": "8132998930328395097"
+                "public": "1777307435944385732"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-16T15:53:29.374Z",
+      "observed_at": "2026-11-16T16:08:35.239Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T15:53:29.374Z"
+  "updated_at": "2026-11-16T16:08:35.239Z"
 }

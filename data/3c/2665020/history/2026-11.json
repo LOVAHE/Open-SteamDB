@@ -1391,11 +1391,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T16:08:35.239Z",
+      "change_number": 41011341,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26683609",
+            "description": "For building custom maps etc.",
+            "timebuildupdated": 1794755339,
+            "timeupdated": 1794757091
+          },
+          "op": "remove",
+          "path": "/depots/branches/milocreatorkit"
+        },
+        {
+          "after": "26706706",
+          "before": "26690758",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794844769,
+          "before": 1794787015,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794845108,
+          "before": 1794787750,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": "3550584852808158247",
+          "op": "remove",
+          "path": "/depots/depots/2665021/manifests/milocreatorkit"
+        },
+        {
+          "after": "4592506712074142947",
+          "before": "6223723148130048833",
+          "op": "replace",
+          "path": "/depots/depots/2665021/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41010850,
+      "change_number": 41011341,
       "data": {
         "appinfo": {
           "common": {
@@ -1637,16 +1684,10 @@
         },
         "depots": {
           "branches": {
-            "milocreatorkit": {
-              "buildid": "26683609",
-              "description": "For building custom maps etc.",
-              "timebuildupdated": 1794755339,
-              "timeupdated": 1794757091
-            },
             "public": {
-              "buildid": "26690758",
-              "timebuildupdated": 1794787015,
-              "timeupdated": 1794787750
+              "buildid": "26706706",
+              "timebuildupdated": 1794844769,
+              "timeupdated": 1794845108
             }
           },
           "depots": {
@@ -1672,18 +1713,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "milocreatorkit": "3550584852808158247",
-                "public": "6223723148130048833"
+                "public": "4592506712074142947"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-16T15:53:29.374Z",
+      "observed_at": "2026-11-16T16:08:35.239Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T15:53:29.374Z"
+  "updated_at": "2026-11-16T16:08:35.239Z"
 }
