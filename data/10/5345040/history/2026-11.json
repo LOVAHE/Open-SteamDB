@@ -612,11 +612,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T05:23:36.162Z",
+      "change_number": 40992045,
+      "changes": [
+        {
+          "after": "5588410",
+          "op": "add",
+          "path": "/appinfo/extended/listofdlc"
+        },
+        {
+          "after": "26694875",
+          "before": "26533933",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794805777,
+          "before": 1794208048,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794805777,
+          "before": 1794208488,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2876546699268683484",
+          "before": "3032776260103975381",
+          "op": "replace",
+          "path": "/depots/depots/5345041/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40745581,
+      "change_number": 40992045,
       "data": {
         "appinfo": {
           "common": {
@@ -840,6 +877,7 @@
           },
           "extended": {
             "developer": "Flowdot",
+            "listofdlc": "5588410",
             "publisher": "Flowdot"
           },
           "ufs": {
@@ -866,15 +904,15 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26533933",
-              "timebuildupdated": 1794208048,
-              "timeupdated": 1794208488
+              "buildid": "26694875",
+              "timebuildupdated": 1794805777,
+              "timeupdated": 1794805777
             }
           },
           "depots": {
             "5345041": {
               "manifests": {
-                "public": "3032776260103975381"
+                "public": "2876546699268683484"
               }
             },
             "5345042": {
@@ -895,11 +933,11 @@
           }
         }
       },
-      "observed_at": "2026-11-09T16:23:31.713Z",
+      "observed_at": "2026-11-16T05:23:36.162Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-09T16:23:31.713Z"
+  "updated_at": "2026-11-16T05:23:36.162Z"
 }
