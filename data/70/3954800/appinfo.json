@@ -1,8 +1,8 @@
 {
   "appid": 3954800,
   "source": "steam_pics",
-  "updated_at": "2026-11-09T17:38:22.049Z",
-  "change_number": 40678237,
+  "updated_at": "2026-11-16T20:53:23.015Z",
+  "change_number": 41032329,
   "data": {
     "common": {
       "associations": {
@@ -189,13 +189,36 @@
     "ufs": {
       "maxnumfiles": "10",
       "quota": "1048576",
+      "rootoverrides": {
+        "0": {
+          "os": "MacOS",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Anton Weissberg/Campfire Harmony",
+              "replace": "Anton Weissberg/Campfire Harmony"
+            }
+          },
+          "root": "WinAppDataLocalLow",
+          "useinstead": "MacAppSupport"
+        },
+        "1": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Anton Weissberg/Campfire Harmony",
+              "replace": ".config/unity3d/Anton Weissberg/Campfire Harmony"
+            }
+          },
+          "root": "WinAppDataLocalLow",
+          "useinstead": "LinuxHome"
+        }
+      },
       "savefiles": {
         "0": {
           "path": "Anton Weissberg/Campfire Harmony",
           "pattern": "cloud_save.json",
-          "platforms": {
-            "1": "Windows"
-          },
           "root": "WinAppDataLocalLow"
         }
       }
