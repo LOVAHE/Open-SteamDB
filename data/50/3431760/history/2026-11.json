@@ -382,11 +382,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T20:08:26.604Z",
+      "change_number": 41023603,
+      "changes": [
+        {
+          "after": "26712012",
+          "before": "26711512",
+          "op": "replace",
+          "path": "/depots/branches/nightly/buildid"
+        },
+        {
+          "after": 1794859386,
+          "before": 1794857778,
+          "op": "replace",
+          "path": "/depots/branches/nightly/timebuildupdated"
+        },
+        {
+          "after": 1794859386,
+          "before": 1794857779,
+          "op": "replace",
+          "path": "/depots/branches/nightly/timeupdated"
+        },
+        {
+          "after": "7081292973159275278",
+          "before": "4318424882928497355",
+          "op": "replace",
+          "path": "/depots/depots/3431761/manifests/nightly"
+        },
+        {
+          "after": "834429648343553945",
+          "op": "add",
+          "path": "/depots/depots/5639290/manifests/nightly"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41022042,
+      "change_number": 41023603,
       "data": {
         "appinfo": {
           "common": {
@@ -545,10 +582,10 @@
         "depots": {
           "branches": {
             "nightly": {
-              "buildid": "26711512",
+              "buildid": "26712012",
               "description": "testing branch",
-              "timebuildupdated": 1794857778,
-              "timeupdated": 1794857779
+              "timebuildupdated": 1794859386,
+              "timeupdated": 1794859386
             },
             "public": {
               "buildid": "26338709",
@@ -562,7 +599,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "nightly": "4318424882928497355",
+                "nightly": "7081292973159275278",
                 "public": "2591561801354213935"
               }
             },
@@ -578,16 +615,18 @@
                 "oslist": "windows"
               },
               "dlcappid": 5639290,
-              "manifests": {}
+              "manifests": {
+                "nightly": "834429648343553945"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-16T19:53:36.978Z",
+      "observed_at": "2026-11-16T20:08:26.604Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T19:53:36.978Z"
+  "updated_at": "2026-11-16T20:08:26.604Z"
 }

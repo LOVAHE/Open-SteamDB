@@ -609,11 +609,67 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T20:08:26.604Z",
+      "change_number": 41023929,
+      "changes": [
+        {
+          "after": "3",
+          "before": "2",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/category"
+        },
+        {
+          "after": "0",
+          "before": "1",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/configuration/small_text"
+        },
+        {
+          "after": "1794859331",
+          "before": "1793991541",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/test_timestamp"
+        },
+        {
+          "after": "26653160",
+          "before": "26301728",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tested_build_id"
+        },
+        {
+          "after": "4",
+          "before": "3",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/0/display"
+        },
+        {
+          "after": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional",
+          "before": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/0/token"
+        },
+        {
+          "after": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice",
+          "before": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/1/token"
+        },
+        {
+          "after": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible",
+          "before": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/2/token"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41015183,
+      "change_number": 41023929,
       "data": {
         "appinfo": {
           "common": {
@@ -734,7 +790,7 @@
               "english": "b0a88d4c232487e8f6c2ff795b2ca801ef928a18/capsule_231x87.jpg"
             },
             "steam_deck_compatibility": {
-              "category": "2",
+              "category": "3",
               "configuration": {
                 "gamescope_frame_limiter_not_supported": "0",
                 "hdr_support": "0",
@@ -748,7 +804,7 @@
                 "requires_non_controller_launcher_nav": "0",
                 "requires_proton_soundfonts": "0",
                 "requires_voice_files": "0",
-                "small_text": "1",
+                "small_text": "0",
                 "supported_input": "other"
               },
               "steam_machine_compatibility": "3",
@@ -773,20 +829,20 @@
                   "token": "#SteamOS_TestResult_GameStartupFunctional"
                 }
               },
-              "test_timestamp": "1793991541",
-              "tested_build_id": "26301728",
+              "test_timestamp": "1794859331",
+              "tested_build_id": "26653160",
               "tests": {
                 "0": {
-                  "display": "3",
-                  "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
-                },
-                "1": {
                   "display": "4",
                   "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
                 },
-                "2": {
+                "1": {
                   "display": "4",
                   "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+                },
+                "2": {
+                  "display": "4",
+                  "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
                 },
                 "3": {
                   "display": "4",
@@ -873,11 +929,11 @@
           }
         }
       },
-      "observed_at": "2026-11-16T17:53:33.480Z",
+      "observed_at": "2026-11-16T20:08:26.604Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T17:53:33.480Z"
+  "updated_at": "2026-11-16T20:08:26.604Z"
 }
