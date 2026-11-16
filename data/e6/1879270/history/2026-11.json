@@ -985,11 +985,34 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-16T03:08:32.627Z",
+      "change_number": 40989634,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26604269",
+            "description": "Beta Testing Into the Crypt",
+            "timebuildupdated": 1794440435,
+            "timeupdated": 1794440779
+          },
+          "op": "remove",
+          "path": "/depots/branches/public-beta"
+        },
+        {
+          "before": "2782150997391368278",
+          "op": "remove",
+          "path": "/depots/depots/1879271/manifests/public-beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40989339,
+      "change_number": 40989634,
       "data": {
         "appinfo": {
           "common": {
@@ -1170,12 +1193,6 @@
               "buildid": "26604269",
               "timebuildupdated": 1794440435,
               "timeupdated": 1794440779
-            },
-            "public-beta": {
-              "buildid": "26604269",
-              "description": "Beta Testing Into the Crypt",
-              "timebuildupdated": 1794440435,
-              "timeupdated": 1794440779
             }
           },
           "depots": {
@@ -1184,18 +1201,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "2782150997391368278",
-                "public-beta": "2782150997391368278"
+                "public": "2782150997391368278"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-16T02:53:27.438Z",
+      "observed_at": "2026-11-16T03:08:32.627Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T02:53:27.438Z"
+  "updated_at": "2026-11-16T03:08:32.627Z"
 }
