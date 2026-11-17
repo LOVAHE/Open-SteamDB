@@ -393,11 +393,73 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T14:53:59.361Z",
+      "change_number": 41118272,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "macosapplesilicon",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "26733083",
+          "before": "26732643",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794926416,
+          "before": 1794925215,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794926446,
+          "before": 1794925528,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "26733083",
+          "before": "26732643",
+          "op": "replace",
+          "path": "/depots/branches/public-beta/buildid"
+        },
+        {
+          "after": 1794926416,
+          "before": 1794925215,
+          "op": "replace",
+          "path": "/depots/branches/public-beta/timebuildupdated"
+        },
+        {
+          "after": 1794926428,
+          "before": 1794925528,
+          "op": "replace",
+          "path": "/depots/branches/public-beta/timeupdated"
+        },
+        {
+          "after": "4954212705467564752",
+          "before": "1713300518358632157",
+          "op": "replace",
+          "path": "/depots/depots/4612762/manifests/public"
+        },
+        {
+          "after": "4954212705467564752",
+          "before": "1713300518358632157",
+          "op": "replace",
+          "path": "/depots/depots/4612762/manifests/public-beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41117556,
+      "change_number": 41118272,
       "data": {
         "appinfo": {
           "common": {
@@ -511,7 +573,7 @@
             },
             "name": "GET RAMMED",
             "osarch": "64",
-            "osextended": "macosapplesilicon",
+            "osextended": "macos64,macosapplesilicon",
             "oslist": "windows,macos",
             "primary_genre": "23",
             "small_capsule": {
@@ -597,15 +659,15 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26732643",
-              "timebuildupdated": 1794925215,
-              "timeupdated": 1794925528
+              "buildid": "26733083",
+              "timebuildupdated": 1794926416,
+              "timeupdated": 1794926446
             },
             "public-beta": {
-              "buildid": "26732643",
+              "buildid": "26733083",
               "description": "Test early new stuff!",
-              "timebuildupdated": 1794925215,
-              "timeupdated": 1794925528
+              "timebuildupdated": 1794926416,
+              "timeupdated": 1794926428
             }
           },
           "depots": {
@@ -625,18 +687,18 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "1713300518358632157",
-                "public-beta": "1713300518358632157"
+                "public": "4954212705467564752",
+                "public-beta": "4954212705467564752"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-17T14:38:38.245Z",
+      "observed_at": "2026-11-17T14:53:59.361Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T14:38:38.245Z"
+  "updated_at": "2026-11-17T14:53:59.361Z"
 }
