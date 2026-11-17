@@ -696,11 +696,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T23:53:27.204Z",
+      "change_number": 41202877,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": "1794959183",
+          "before": "1794535784",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": {
+            "maxnumfiles": "20",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "Dungeons of Chesslore",
+                "pattern": "*.json",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41065348,
+      "change_number": 41202877,
       "data": {
         "appinfo": {
           "common": {
@@ -718,6 +755,7 @@
               "category_1": "1",
               "category_2": "1",
               "category_22": "1",
+              "category_23": "1",
               "category_25": "1",
               "category_36": "1",
               "category_38": "1",
@@ -833,7 +871,7 @@
               "english": "af67e400602e6a118b68ac268d97fd2df65c37a7/capsule_231x87.jpg"
             },
             "steam_release_date": "1794354713",
-            "store_asset_mtime": "1794535784",
+            "store_asset_mtime": "1794959183",
             "store_tags": {
               "0": "597",
               "1": "9",
@@ -942,6 +980,20 @@
           "extended": {
             "developer": "ZaxtorGameS",
             "publisher": "ZaxtorGameS"
+          },
+          "ufs": {
+            "maxnumfiles": "20",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "Dungeons of Chesslore",
+                "pattern": "*.json",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -993,11 +1045,11 @@
           }
         }
       },
-      "observed_at": "2026-11-16T23:53:28.202Z",
+      "observed_at": "2026-11-17T23:53:27.204Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T23:53:28.202Z"
+  "updated_at": "2026-11-17T23:53:27.204Z"
 }

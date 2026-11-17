@@ -1068,11 +1068,51 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T23:53:27.204Z",
+      "change_number": 41202807,
+      "changes": [
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        },
+        {
+          "after": "26744225",
+          "before": "26711372",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794958741,
+          "before": 1794857362,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794959008,
+          "before": 1794857398,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "256980890137235042",
+          "before": "7558800131044063452",
+          "op": "replace",
+          "path": "/depots/depots/1879271/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41120405,
+      "change_number": 41202807,
       "data": {
         "appinfo": {
           "common": {
@@ -1220,6 +1260,10 @@
               "english": {
                 "full_audio": "true",
                 "supported": "true"
+              },
+              "schinese": {
+                "subtitles": "true",
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -1250,9 +1294,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26711372",
-              "timebuildupdated": 1794857362,
-              "timeupdated": 1794857398
+              "buildid": "26744225",
+              "timebuildupdated": 1794958741,
+              "timeupdated": 1794959008
             }
           },
           "depots": {
@@ -1261,17 +1305,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "7558800131044063452"
+                "public": "256980890137235042"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-17T15:23:47.038Z",
+      "observed_at": "2026-11-17T23:53:27.204Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T15:23:47.038Z"
+  "updated_at": "2026-11-17T23:53:27.204Z"
 }
