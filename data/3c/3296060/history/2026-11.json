@@ -883,11 +883,34 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T22:53:27.221Z",
+      "change_number": 41199177,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26743446",
+            "description": "this is a temporary development branch to try and help players who haven't been able to connect, by testing a tcp fallback",
+            "timebuildupdated": 1794955509,
+            "timeupdated": 1794955509
+          },
+          "op": "add",
+          "path": "/depots/branches/testing_tcpfallback"
+        },
+        {
+          "after": "3956737289814210927",
+          "op": "add",
+          "path": "/depots/depots/3296061/manifests/testing_tcpfallback"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41197724,
+      "change_number": 41199177,
       "data": {
         "appinfo": {
           "common": {
@@ -1180,6 +1203,12 @@
               "description": "This is the build that the game released with, the official 1.0",
               "timebuildupdated": 1793823777,
               "timeupdated": 1793824754
+            },
+            "testing_tcpfallback": {
+              "buildid": "26743446",
+              "description": "this is a temporary development branch to try and help players who haven't been able to connect, by testing a tcp fallback",
+              "timebuildupdated": 1794955509,
+              "timeupdated": 1794955509
             }
           },
           "depots": {
@@ -1187,17 +1216,18 @@
               "manifests": {
                 "previous_build": "2697573429002562772",
                 "public": "6036372899751437340",
-                "releasebuild": "7106069775036966276"
+                "releasebuild": "7106069775036966276",
+                "testing_tcpfallback": "3956737289814210927"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-17T22:38:48.317Z",
+      "observed_at": "2026-11-17T22:53:27.221Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T22:38:48.317Z"
+  "updated_at": "2026-11-17T22:53:27.221Z"
 }
