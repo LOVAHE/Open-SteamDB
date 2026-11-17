@@ -1,8 +1,8 @@
 {
   "appid": 4463520,
   "source": "steam_pics",
-  "updated_at": "2026-11-17T08:38:33.555Z",
-  "change_number": 41104099,
+  "updated_at": "2026-11-17T11:53:30.245Z",
+  "change_number": 41111648,
   "data": {
     "common": {
       "associations": {
@@ -228,6 +228,43 @@
     },
     "config": {
       "installdir": "Summer"
+    },
+    "ufs": {
+      "maxnumfiles": "100",
+      "quota": "100000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": "Crossbridge Game Studios/Moomin/saves",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "gameinstall",
+          "useinstead": "LinuxHome"
+        },
+        "1": {
+          "os": "MacOS",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Crossbridge Game Studios/Moomin/saves",
+              "replace": "Crossbridge Game Studios/Moomin/saves"
+            }
+          },
+          "root": "WinAppDataLocalLow",
+          "useinstead": "MacAppSupport"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Crossbridge Game Studios/Moomin/saves",
+          "pattern": "*.sav",
+          "root": "WinAppDataLocalLow"
+        },
+        "1": {
+          "path": "Crossbridge Game Studios/Moomin/saves",
+          "pattern": "*.jpg",
+          "root": "WinAppDataLocalLow"
+        }
+      }
     }
   }
 }

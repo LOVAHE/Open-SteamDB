@@ -298,11 +298,60 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T11:53:30.245Z",
+      "change_number": 41111648,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "100",
+            "quota": "100000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "Crossbridge Game Studios/Moomin/saves",
+                "os": "Linux",
+                "oscompare": "=",
+                "root": "gameinstall",
+                "useinstead": "LinuxHome"
+              },
+              "1": {
+                "os": "MacOS",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Crossbridge Game Studios/Moomin/saves",
+                    "replace": "Crossbridge Game Studios/Moomin/saves"
+                  }
+                },
+                "root": "WinAppDataLocalLow",
+                "useinstead": "MacAppSupport"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Crossbridge Game Studios/Moomin/saves",
+                "pattern": "*.sav",
+                "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "Crossbridge Game Studios/Moomin/saves",
+                "pattern": "*.jpg",
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41104099,
+      "change_number": 41111648,
       "data": {
         "appinfo": {
           "common": {
@@ -529,6 +578,43 @@
             "developer": "Crossbridge Game Studios",
             "homepage": "https://game.shochiku.co.jp/lp/moomin-mm/",
             "publisher": "Shochiku"
+          },
+          "ufs": {
+            "maxnumfiles": "100",
+            "quota": "100000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "Crossbridge Game Studios/Moomin/saves",
+                "os": "Linux",
+                "oscompare": "=",
+                "root": "gameinstall",
+                "useinstead": "LinuxHome"
+              },
+              "1": {
+                "os": "MacOS",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Crossbridge Game Studios/Moomin/saves",
+                    "replace": "Crossbridge Game Studios/Moomin/saves"
+                  }
+                },
+                "root": "WinAppDataLocalLow",
+                "useinstead": "MacAppSupport"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Crossbridge Game Studios/Moomin/saves",
+                "pattern": "*.sav",
+                "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "Crossbridge Game Studios/Moomin/saves",
+                "pattern": "*.jpg",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -552,11 +638,11 @@
           }
         }
       },
-      "observed_at": "2026-11-17T08:38:33.555Z",
+      "observed_at": "2026-11-17T11:53:30.245Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T08:38:33.555Z"
+  "updated_at": "2026-11-17T11:53:30.245Z"
 }

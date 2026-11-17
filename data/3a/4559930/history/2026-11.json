@@ -633,11 +633,48 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T11:53:30.245Z",
+      "change_number": 41111670,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": "26728938",
+          "before": "26639318",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794914461,
+          "before": 1794558723,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794914461,
+          "before": 1794558723,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5226316362862246632",
+          "before": "5693875204896939200",
+          "op": "replace",
+          "path": "/depots/depots/4559931/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40973582,
+      "change_number": 41111670,
       "data": {
         "appinfo": {
           "common": {
@@ -889,7 +926,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "Oboro no Ichi"
@@ -924,9 +962,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26639318",
-              "timebuildupdated": 1794558723,
-              "timeupdated": 1794558723
+              "buildid": "26728938",
+              "timebuildupdated": 1794914461,
+              "timeupdated": 1794914461
             }
           },
           "depots": {
@@ -935,7 +973,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "5693875204896939200"
+                "public": "5226316362862246632"
               }
             },
             "4559932": {
@@ -949,11 +987,11 @@
           }
         }
       },
-      "observed_at": "2026-11-15T14:23:27.036Z",
+      "observed_at": "2026-11-17T11:53:30.245Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-15T14:23:27.036Z"
+  "updated_at": "2026-11-17T11:53:30.245Z"
 }
