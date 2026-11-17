@@ -409,11 +409,52 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T06:53:53.346Z",
+      "change_number": 41080893,
+      "changes": [
+        {
+          "after": {
+            "path": "ShadingBox/PocketLegend/Save",
+            "pattern": "CollectionData.json",
+            "root": "WinAppDataLocalLow"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        },
+        {
+          "after": "26721178",
+          "before": "26703903",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794886537,
+          "before": 1794836998,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794886556,
+          "before": 1794837017,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1087708540731424458",
+          "before": "6167099338206539592",
+          "op": "replace",
+          "path": "/depots/depots/3129791/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41006210,
+      "change_number": 41080893,
       "data": {
         "appinfo": {
           "common": {
@@ -661,6 +702,11 @@
                 "path": "ShadingBox/PocketLegend/Save",
                 "pattern": "GameData.json",
                 "root": "WinAppDataLocalLow"
+              },
+              "2": {
+                "path": "ShadingBox/PocketLegend/Save",
+                "pattern": "CollectionData.json",
+                "root": "WinAppDataLocalLow"
               }
             }
           }
@@ -668,9 +714,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26703903",
-              "timebuildupdated": 1794836998,
-              "timeupdated": 1794837017
+              "buildid": "26721178",
+              "timebuildupdated": 1794886537,
+              "timeupdated": 1794886556
             }
           },
           "depots": {
@@ -679,17 +725,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "6167099338206539592"
+                "public": "1087708540731424458"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-16T13:54:04.458Z",
+      "observed_at": "2026-11-17T06:53:53.346Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T13:54:04.458Z"
+  "updated_at": "2026-11-17T06:53:53.346Z"
 }
