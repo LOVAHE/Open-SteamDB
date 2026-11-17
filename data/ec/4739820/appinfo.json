@@ -1,8 +1,8 @@
 {
   "appid": 4739820,
   "source": "steam_pics",
-  "updated_at": "2026-11-16T15:38:37.203Z",
-  "change_number": 41010254,
+  "updated_at": "2026-11-17T16:53:33.403Z",
+  "change_number": 41138888,
   "data": {
     "common": {
       "associations": {
@@ -155,7 +155,41 @@
     },
     "ufs": {
       "maxnumfiles": "40",
-      "quota": "5000000"
+      "quota": "5000000",
+      "rootoverrides": {
+        "0": {
+          "os": "MacOS",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Godot/app_userdata/JOHN GLEEP/saves",
+              "replace": "Godot/app_userdata/JOHN GLEEP/saves"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
+        },
+        "1": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Godot/app_userdata/JOHN GLEEP/saves",
+              "replace": "godot/app_userdata/JOHN GLEEP/saves"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Godot/app_userdata/JOHN GLEEP/saves",
+          "pattern": "*.json",
+          "recursive": "1",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }
