@@ -1788,11 +1788,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T23:38:42.679Z",
+      "change_number": 41202629,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26738316",
+            "description": "An older version of the game, to compare with the current one if there are issues.",
+            "timebuildupdated": 1794939970,
+            "timeupdated": 1794958649
+          },
+          "op": "add",
+          "path": "/depots/branches/oldversiontest"
+        },
+        {
+          "after": "4791729429997145305",
+          "op": "add",
+          "path": "/depots/depots/263201/manifests/oldversiontest"
+        },
+        {
+          "after": "1753579844292698121",
+          "op": "add",
+          "path": "/depots/depots/263203/manifests/oldversiontest"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41159443,
+      "change_number": 41202629,
       "data": {
         "appinfo": {
           "common": {
@@ -1967,6 +1995,12 @@
               "timebuildupdated": 1794941660,
               "timeupdated": 1794941682
             },
+            "oldversiontest": {
+              "buildid": "26738316",
+              "description": "An older version of the game, to compare with the current one if there are issues.",
+              "timebuildupdated": 1794939970,
+              "timeupdated": 1794958649
+            },
             "public": {
               "buildid": "26738941",
               "timebuildupdated": 1794941660,
@@ -2004,6 +2038,7 @@
               },
               "manifests": {
                 "beta": "7717955726527504870",
+                "oldversiontest": "4791729429997145305",
                 "public": "7717955726527504870"
               }
             },
@@ -2013,17 +2048,18 @@
               },
               "manifests": {
                 "beta": "3872766921988475139",
+                "oldversiontest": "1753579844292698121",
                 "public": "3872766921988475139"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-17T19:04:35.178Z",
+      "observed_at": "2026-11-17T23:38:42.679Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T19:04:35.178Z"
+  "updated_at": "2026-11-17T23:38:42.679Z"
 }
