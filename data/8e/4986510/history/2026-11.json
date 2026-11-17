@@ -226,11 +226,79 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T09:08:41.008Z",
+      "change_number": 41103771,
+      "changes": [
+        {
+          "after": "26723818",
+          "before": "26710375",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794897532,
+          "before": 1794854335,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794897532,
+          "before": 1794854335,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": {
+            "buildid": "26707243",
+            "description": "Supporter pack DLC",
+            "timebuildupdated": 1794846104,
+            "timeupdated": 1794846104
+          },
+          "op": "remove",
+          "path": "/depots/branches/supporter_pack"
+        },
+        {
+          "after": "1397675635116279745",
+          "before": "7347987307339204566",
+          "op": "replace",
+          "path": "/depots/depots/4986512/manifests/public"
+        },
+        {
+          "before": "4938686011092035090",
+          "op": "remove",
+          "path": "/depots/depots/4986512/manifests/supporter_pack"
+        },
+        {
+          "after": "3539993836902947871",
+          "before": "2020001817896797485",
+          "op": "replace",
+          "path": "/depots/depots/4986513/manifests/public"
+        },
+        {
+          "before": "867480789453552936",
+          "op": "remove",
+          "path": "/depots/depots/4986513/manifests/supporter_pack"
+        },
+        {
+          "before": "5350407371371571104",
+          "op": "remove",
+          "path": "/depots/depots/5573311/manifests/supporter_pack"
+        },
+        {
+          "before": "6231623686255537101",
+          "op": "remove",
+          "path": "/depots/depots/5573312/manifests/supporter_pack"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41017358,
+      "change_number": 41103771,
       "data": {
         "appinfo": {
           "common": {
@@ -382,15 +450,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26710375",
-              "timebuildupdated": 1794854335,
-              "timeupdated": 1794854335
-            },
-            "supporter_pack": {
-              "buildid": "26707243",
-              "description": "Supporter pack DLC",
-              "timebuildupdated": 1794846104,
-              "timeupdated": 1794846104
+              "buildid": "26723818",
+              "timebuildupdated": 1794897532,
+              "timeupdated": 1794897532
             }
           },
           "depots": {
@@ -407,8 +469,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "7347987307339204566",
-                "supporter_pack": "4938686011092035090"
+                "public": "1397675635116279745"
               }
             },
             "4986513": {
@@ -416,8 +477,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "2020001817896797485",
-                "supporter_pack": "867480789453552936"
+                "public": "3539993836902947871"
               }
             },
             "5573311": {
@@ -426,8 +486,7 @@
               },
               "dlcappid": 5573310,
               "manifests": {
-                "public": "5350407371371571104",
-                "supporter_pack": "5350407371371571104"
+                "public": "5350407371371571104"
               }
             },
             "5573312": {
@@ -436,18 +495,17 @@
               },
               "dlcappid": 5573310,
               "manifests": {
-                "public": "6231623686255537101",
-                "supporter_pack": "6231623686255537101"
+                "public": "6231623686255537101"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-16T23:23:22.216Z",
+      "observed_at": "2026-11-17T09:08:41.008Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T23:23:22.216Z"
+  "updated_at": "2026-11-17T09:08:41.008Z"
 }

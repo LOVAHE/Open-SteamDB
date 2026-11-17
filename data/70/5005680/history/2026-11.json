@@ -245,11 +245,66 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T09:08:41.008Z",
+      "change_number": 41107170,
+      "changes": [
+        {
+          "after": "96",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "8",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": {
+            "maxnumfiles": "1000",
+            "quota": "104857600"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26725843",
+          "before": "26195586",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794905265,
+          "before": 1792923148,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794905518,
+          "before": 1792923656,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7102879527111594496",
+          "before": "3588228401561060512",
+          "op": "replace",
+          "path": "/depots/depots/5005681/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40930370,
+      "change_number": 41107170,
       "data": {
         "appinfo": {
           "common": {
@@ -351,6 +406,8 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "23",
+            "review_percentage": "96",
+            "review_score": "8",
             "small_capsule": {
               "english": "e7b7819070a93427221477f81038a68f0c787484/capsule_231x87.jpg"
             },
@@ -404,7 +461,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "猫扑克CatPoker"
@@ -413,30 +471,34 @@
             "developer": "HotpotGames",
             "listofdlc": "5303420,5448330",
             "publisher": "HotpotGames"
+          },
+          "ufs": {
+            "maxnumfiles": "1000",
+            "quota": "104857600"
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26195586",
-              "timebuildupdated": 1792923148,
-              "timeupdated": 1792923656
+              "buildid": "26725843",
+              "timebuildupdated": 1794905265,
+              "timeupdated": 1794905518
             }
           },
           "depots": {
             "5005681": {
               "manifests": {
-                "public": "3588228401561060512"
+                "public": "7102879527111594496"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-14T20:38:40.150Z",
+      "observed_at": "2026-11-17T09:08:41.008Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-14T20:38:40.150Z"
+  "updated_at": "2026-11-17T09:08:41.008Z"
 }

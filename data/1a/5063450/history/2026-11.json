@@ -1060,11 +1060,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T09:08:41.008Z",
+      "change_number": 41096363,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": "26722354",
+          "before": "26708750",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794890981,
+          "before": 1794849814,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794891693,
+          "before": 1794850028,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6391709441658363219",
+          "before": "5801592482680176084",
+          "op": "replace",
+          "path": "/depots/depots/5063451/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41014554,
+      "change_number": 41096363,
       "data": {
         "appinfo": {
           "common": {
@@ -1238,7 +1275,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "Industry Unbound：无界工业"
@@ -1287,25 +1325,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26708750",
-              "timebuildupdated": 1794849814,
-              "timeupdated": 1794850028
+              "buildid": "26722354",
+              "timebuildupdated": 1794890981,
+              "timeupdated": 1794891693
             }
           },
           "depots": {
             "5063451": {
               "manifests": {
-                "public": "5801592482680176084"
+                "public": "6391709441658363219"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-16T17:38:31.772Z",
+      "observed_at": "2026-11-17T09:08:41.008Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T17:38:31.772Z"
+  "updated_at": "2026-11-17T09:08:41.008Z"
 }
