@@ -269,11 +269,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T12:53:33.618Z",
+      "change_number": 41114261,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26730666",
+            "description": "Public Test Realm",
+            "timebuildupdated": 1794919802,
+            "timeupdated": 1794919802
+          },
+          "op": "add",
+          "path": "/depots/branches/publictestrealm"
+        },
+        {
+          "after": "2052993846256497624",
+          "op": "add",
+          "path": "/depots/depots/5245371/manifests/publictestrealm"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41097919,
+      "change_number": 41114261,
       "data": {
         "appinfo": {
           "common": {
@@ -438,6 +461,12 @@
               "buildid": "26674537",
               "timebuildupdated": 1794700523,
               "timeupdated": 1794704947
+            },
+            "publictestrealm": {
+              "buildid": "26730666",
+              "description": "Public Test Realm",
+              "timebuildupdated": 1794919802,
+              "timeupdated": 1794919802
             }
           },
           "depots": {
@@ -463,7 +492,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "1936110309363568458"
+                "public": "1936110309363568458",
+                "publictestrealm": "2052993846256497624"
               }
             },
             "5245372": {
@@ -476,11 +506,11 @@
           }
         }
       },
-      "observed_at": "2026-11-17T09:53:38.539Z",
+      "observed_at": "2026-11-17T12:53:33.618Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T09:53:38.539Z"
+  "updated_at": "2026-11-17T12:53:33.618Z"
 }

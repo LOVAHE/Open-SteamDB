@@ -393,11 +393,57 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T12:53:33.618Z",
+      "change_number": 41114248,
+      "changes": [
+        {
+          "after": {
+            "english": "1",
+            "russian": "1"
+          },
+          "op": "add",
+          "path": "/appinfo/common/languages"
+        },
+        {
+          "after": "26730511",
+          "before": "26700520",
+          "op": "replace",
+          "path": "/depots/branches/develop/buildid"
+        },
+        {
+          "after": 1794919354,
+          "before": 1794827321,
+          "op": "replace",
+          "path": "/depots/branches/develop/timebuildupdated"
+        },
+        {
+          "after": 1794919757,
+          "before": 1794827406,
+          "op": "replace",
+          "path": "/depots/branches/develop/timeupdated"
+        },
+        {
+          "after": "4483278669342983691",
+          "before": "6435059938832465863",
+          "op": "replace",
+          "path": "/depots/depots/5065502/manifests/develop"
+        },
+        {
+          "after": "1566235698993192612",
+          "before": "7101039652870012756",
+          "op": "replace",
+          "path": "/depots/depots/5065503/manifests/develop"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41000978,
+      "change_number": 41114248,
       "data": {
         "appinfo": {
           "common": {
@@ -439,6 +485,10 @@
               "english": "ccf421815abb76cab57c4148db8486370276bbc9/header.jpg"
             },
             "icon": "cacf9e8aa5510268cbec4fb479db4347fb11de80",
+            "languages": {
+              "english": "1",
+              "russian": "1"
+            },
             "library_assets": {
               "library_capsule": "en",
               "library_header": "en",
@@ -583,10 +633,10 @@
         "depots": {
           "branches": {
             "develop": {
-              "buildid": "26700520",
+              "buildid": "26730511",
               "description": "Private testing branch",
-              "timebuildupdated": 1794827321,
-              "timeupdated": 1794827406
+              "timebuildupdated": 1794919354,
+              "timeupdated": 1794919757
             },
             "public": {
               "buildid": "26518209",
@@ -601,7 +651,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "develop": "6435059938832465863",
+                "develop": "4483278669342983691",
                 "public": "1869192527908089470"
               }
             },
@@ -611,18 +661,18 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "develop": "7101039652870012756",
+                "develop": "1566235698993192612",
                 "public": "5065600341399640113"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-16T11:23:43.017Z",
+      "observed_at": "2026-11-17T12:53:33.618Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T11:23:43.017Z"
+  "updated_at": "2026-11-17T12:53:33.618Z"
 }

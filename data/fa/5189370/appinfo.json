@@ -1,8 +1,8 @@
 {
   "appid": 5189370,
   "source": "steam_pics",
-  "updated_at": "2026-11-17T12:08:35.333Z",
-  "change_number": 41112944,
+  "updated_at": "2026-11-17T12:53:33.618Z",
+  "change_number": 41114309,
   "data": {
     "common": {
       "associations": {
@@ -156,6 +156,63 @@
     },
     "config": {
       "installdir": "Trapoint"
+    },
+    "ufs": {
+      "maxnumfiles": "6",
+      "quota": "1000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
+        },
+        "1": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Godot/app_userdata/Trapoint",
+              "replace": "godot/app_userdata/Trapoint"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Godot/app_userdata/Trapoint",
+          "pattern": "campaign_1.json",
+          "root": "WinAppDataRoaming"
+        },
+        "1": {
+          "path": "Godot/app_userdata/Trapoint",
+          "pattern": "campaign_2.json",
+          "root": "WinAppDataRoaming"
+        },
+        "2": {
+          "path": "Godot/app_userdata/Trapoint",
+          "pattern": "campaign_3.json",
+          "root": "WinAppDataRoaming"
+        },
+        "3": {
+          "path": "Godot/app_userdata/Trapoint",
+          "pattern": "codex_1.json",
+          "root": "WinAppDataRoaming"
+        },
+        "4": {
+          "path": "Godot/app_userdata/Trapoint",
+          "pattern": "codex_2.json",
+          "root": "WinAppDataRoaming"
+        },
+        "5": {
+          "path": "Godot/app_userdata/Trapoint",
+          "pattern": "codex_3.json",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }
