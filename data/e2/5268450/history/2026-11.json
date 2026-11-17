@@ -431,11 +431,25 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T10:08:19.963Z",
+      "change_number": 41077659,
+      "changes": [
+        {
+          "after": "player_stats_steam_*.json",
+          "before": "player_stats_*.json",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/1/pattern"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41013914,
+      "change_number": 41077659,
       "data": {
         "appinfo": {
           "common": {
@@ -588,7 +602,7 @@
               },
               "1": {
                 "path": "Session Syndicate/Cranked",
-                "pattern": "player_stats_*.json",
+                "pattern": "player_stats_steam_*.json",
                 "root": "WinAppDataLocalLow"
               },
               "copied_from_parent": "1"
@@ -643,7 +657,7 @@
           }
         }
       },
-      "observed_at": "2026-11-16T17:23:31.002Z",
+      "observed_at": "2026-11-17T10:08:19.963Z",
       "tracked": true
     },
     "steam_store": {
@@ -854,5 +868,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T17:23:31.002Z"
+  "updated_at": "2026-11-17T10:08:19.963Z"
 }

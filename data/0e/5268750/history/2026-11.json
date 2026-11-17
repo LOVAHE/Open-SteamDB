@@ -248,11 +248,61 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T10:08:19.963Z",
+      "change_number": 41089346,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "26721958",
+          "before": "26077947",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794889364,
+          "before": 1792496871,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794889400,
+          "before": 1792496935,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1781400344514235223",
+          "before": "5246413754693759751",
+          "op": "replace",
+          "path": "/depots/depots/5268751/manifests/public"
+        },
+        {
+          "after": "595848227193148344",
+          "before": "2504828617017524076",
+          "op": "replace",
+          "path": "/depots/depots/5268752/manifests/public"
+        },
+        {
+          "after": "1468255316466797071",
+          "before": "4720966555906530372",
+          "op": "replace",
+          "path": "/depots/depots/5268753/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40042286,
+      "change_number": 41089346,
       "data": {
         "appinfo": {
           "common": {
@@ -343,7 +393,7 @@
             },
             "name": "Progress98 Demo",
             "osarch": "64",
-            "osextended": "",
+            "osextended": "macos64,macosapplesilicon",
             "oslist": "windows,macos,linux",
             "parent": "4863540",
             "primary_genre": "0",
@@ -455,15 +505,15 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26077947",
-              "timebuildupdated": 1792496871,
-              "timeupdated": 1792496935
+              "buildid": "26721958",
+              "timebuildupdated": 1794889364,
+              "timeupdated": 1794889400
             }
           },
           "depots": {
             "5268751": {
               "manifests": {
-                "public": "5246413754693759751"
+                "public": "1781400344514235223"
               }
             },
             "5268752": {
@@ -472,7 +522,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "2504828617017524076"
+                "public": "595848227193148344"
               }
             },
             "5268753": {
@@ -481,17 +531,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "4720966555906530372"
+                "public": "1468255316466797071"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-10T06:23:10.945Z",
+      "observed_at": "2026-11-17T10:08:19.963Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T06:23:10.945Z"
+  "updated_at": "2026-11-17T10:08:19.963Z"
 }

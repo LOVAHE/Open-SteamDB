@@ -1,8 +1,8 @@
 {
   "appid": 5289950,
   "source": "steam_pics",
-  "updated_at": "2026-11-16T16:08:35.239Z",
-  "change_number": 41011193,
+  "updated_at": "2026-11-17T10:08:19.963Z",
+  "change_number": 41077981,
   "data": {
     "common": {
       "associations": {
@@ -22,6 +22,7 @@
       "category": {
         "category_2": "1",
         "category_22": "1",
+        "category_23": "1",
         "category_28": "1",
         "category_55": "1",
         "category_56": "1",
@@ -208,12 +209,33 @@
       "installdir": "Keep Farming Aura"
     },
     "ufs": {
-      "maxnumfiles": "20",
-      "quota": "100000",
+      "maxnumfiles": "1000",
+      "quota": "100000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataLocalLow",
+          "useinstead": "MacAppSupport"
+        },
+        "1": {
+          "addpath": "unity3d",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "WinAppDataLocalLow",
+          "useinstead": "LinuxXdgConfigHome"
+        }
+      },
       "savefiles": {
         "0": {
           "path": "GiantWarriorStudio/KeepFarmingAura/{64BitSteamID}",
-          "pattern": "*",
+          "pattern": "v1_*.json",
+          "root": "WinAppDataLocalLow"
+        },
+        "1": {
+          "path": "GiantWarriorStudio/KeepFarmingAura/{64BitSteamID}",
+          "pattern": "v1_*.json.bak",
           "root": "WinAppDataLocalLow"
         }
       }
