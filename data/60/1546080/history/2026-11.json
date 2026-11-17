@@ -650,11 +650,34 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T19:53:26.114Z",
+      "change_number": 41168321,
+      "changes": [
+        {
+          "after": "150",
+          "before": "100",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": {
+            "path": "Fuji/Saved/SaveGames/",
+            "pattern": "GlobalSaveData.dat",
+            "root": "WinAppDataLocal"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/1"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41085623,
+      "change_number": 41168321,
       "data": {
         "appinfo": {
           "common": {
@@ -962,12 +985,17 @@
             "publisher": "Wild Hog Games"
           },
           "ufs": {
-            "maxnumfiles": "100",
+            "maxnumfiles": "150",
             "quota": "2000000000",
             "savefiles": {
               "0": {
                 "path": "Fuji/Saved/SaveGames/",
                 "pattern": "*.sav",
+                "root": "WinAppDataLocal"
+              },
+              "1": {
+                "path": "Fuji/Saved/SaveGames/",
+                "pattern": "GlobalSaveData.dat",
                 "root": "WinAppDataLocal"
               }
             }
@@ -1125,11 +1153,11 @@
           }
         }
       },
-      "observed_at": "2026-11-17T06:53:53.346Z",
+      "observed_at": "2026-11-17T19:53:26.114Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T06:53:53.346Z"
+  "updated_at": "2026-11-17T19:53:26.114Z"
 }
