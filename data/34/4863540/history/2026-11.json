@@ -310,11 +310,81 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T08:53:34.020Z",
+      "change_number": 41102051,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26722417",
+          "before": "26560851",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794891181,
+          "before": 1794300259,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794891225,
+          "before": 1794300724,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8614641164876490454",
+          "before": "1482370877621914792",
+          "op": "replace",
+          "path": "/depots/depots/4863541/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "language": "english",
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "4990116861776084529"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/4863542"
+        },
+        {
+          "after": {
+            "config": {
+              "language": "english",
+              "oslist": "linux"
+            },
+            "manifests": {
+              "public": "3507203670571707291"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/4863543"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40984559,
+      "change_number": 41102051,
       "data": {
         "appinfo": {
           "common": {
@@ -413,8 +483,8 @@
             },
             "name": "Progress98",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos,linux",
             "primary_genre": "28",
             "review_percentage": "96",
             "review_score": "7",
@@ -547,9 +617,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26560851",
-              "timebuildupdated": 1794300259,
-              "timeupdated": 1794300724
+              "buildid": "26722417",
+              "timebuildupdated": 1794891181,
+              "timeupdated": 1794891225
             }
           },
           "depots": {
@@ -559,17 +629,35 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "1482370877621914792"
+                "public": "8614641164876490454"
+              }
+            },
+            "4863542": {
+              "config": {
+                "language": "english",
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "4990116861776084529"
+              }
+            },
+            "4863543": {
+              "config": {
+                "language": "english",
+                "oslist": "linux"
+              },
+              "manifests": {
+                "public": "3507203670571707291"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-15T22:53:23.573Z",
+      "observed_at": "2026-11-17T08:53:34.020Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-15T22:53:23.573Z"
+  "updated_at": "2026-11-17T08:53:34.020Z"
 }
