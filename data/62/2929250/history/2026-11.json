@@ -773,11 +773,87 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T17:38:38.061Z",
+      "change_number": 41147441,
+      "changes": [
+        {
+          "after": {
+            "addpath": "",
+            "os": "Linux",
+            "oscompare": "=",
+            "root": "WinAppDataLocalLow",
+            "useinstead": "gameinstall"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides/2"
+        },
+        {
+          "after": {
+            "path": "Funselektor/over the hill/Steam/{Steam3AccountID}/Saves",
+            "pattern": "*.json",
+            "root": "WinAppDataLocalLow"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/3"
+        },
+        {
+          "after": {
+            "path": "Funselektor/over the hill/Steam/{Steam3AccountID}/Saves/Animals",
+            "pattern": "*.png",
+            "root": "WinAppDataLocalLow"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/4"
+        },
+        {
+          "after": {
+            "path": "Funselektor/over the hill/Steam/{Steam3AccountID}/Saves/FogOfWar",
+            "pattern": "*.fow",
+            "root": "WinAppDataLocalLow"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/5"
+        },
+        {
+          "after": "26737095",
+          "before": "26489201",
+          "op": "replace",
+          "path": "/depots/branches/public-beta/buildid"
+        },
+        {
+          "after": 1794936430,
+          "before": 1793981763,
+          "op": "replace",
+          "path": "/depots/branches/public-beta/timebuildupdated"
+        },
+        {
+          "after": 1794936430,
+          "before": 1793982149,
+          "op": "replace",
+          "path": "/depots/branches/public-beta/timeupdated"
+        },
+        {
+          "after": "955998407746575577",
+          "before": "349154354192562690",
+          "op": "replace",
+          "path": "/depots/depots/2929251/manifests/public-beta"
+        },
+        {
+          "after": "6528496029959895382",
+          "before": "6048147954632616014",
+          "op": "replace",
+          "path": "/depots/depots/2929252/manifests/public-beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41116918,
+      "change_number": 41147441,
       "data": {
         "appinfo": {
           "common": {
@@ -1087,6 +1163,13 @@
                 "oscompare": "=",
                 "root": "WinMyDocuments",
                 "useinstead": "LinuxHome"
+              },
+              "2": {
+                "addpath": "",
+                "os": "Linux",
+                "oscompare": "=",
+                "root": "WinAppDataLocalLow",
+                "useinstead": "gameinstall"
               }
             },
             "savefiles": {
@@ -1104,6 +1187,21 @@
                 "path": "My Games/over the hill/Saves/Animals",
                 "pattern": "*.png",
                 "root": "WinMyDocuments"
+              },
+              "3": {
+                "path": "Funselektor/over the hill/Steam/{Steam3AccountID}/Saves",
+                "pattern": "*.json",
+                "root": "WinAppDataLocalLow"
+              },
+              "4": {
+                "path": "Funselektor/over the hill/Steam/{Steam3AccountID}/Saves/Animals",
+                "pattern": "*.png",
+                "root": "WinAppDataLocalLow"
+              },
+              "5": {
+                "path": "Funselektor/over the hill/Steam/{Steam3AccountID}/Saves/FogOfWar",
+                "pattern": "*.fow",
+                "root": "WinAppDataLocalLow"
               }
             }
           }
@@ -1116,10 +1214,10 @@
               "timeupdated": 1794584539
             },
             "public-beta": {
-              "buildid": "26489201",
+              "buildid": "26737095",
               "description": "Preview of upcoming updates. May be unstable.",
-              "timebuildupdated": 1793981763,
-              "timeupdated": 1793982149
+              "timebuildupdated": 1794936430,
+              "timeupdated": 1794936430
             }
           },
           "depots": {
@@ -1137,7 +1235,7 @@
               },
               "manifests": {
                 "public": "349154354192562690",
-                "public-beta": "349154354192562690"
+                "public-beta": "955998407746575577"
               }
             },
             "2929252": {
@@ -1146,7 +1244,7 @@
               },
               "manifests": {
                 "public": "6048147954632616014",
-                "public-beta": "6048147954632616014"
+                "public-beta": "6528496029959895382"
               }
             },
             "2929253": {
@@ -1168,11 +1266,11 @@
           }
         }
       },
-      "observed_at": "2026-11-17T14:08:35.573Z",
+      "observed_at": "2026-11-17T17:38:38.061Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T14:08:35.573Z"
+  "updated_at": "2026-11-17T17:38:38.061Z"
 }
