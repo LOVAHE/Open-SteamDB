@@ -316,11 +316,69 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T11:08:41.058Z",
+      "change_number": 41076585,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos,linux",
+          "before": "windows,linux",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "com.sapphicore.possessedbyfate",
+          "before": "unity.Sapphicore.Possessed By Fate",
+          "op": "replace",
+          "path": "/appinfo/ufs/rootoverrides/0/pathtransforms/0/replace"
+        },
+        {
+          "after": "26719650",
+          "before": "26633054",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794881317,
+          "before": 1794534477,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794881317,
+          "before": 1794534508,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "config": {
+              "language": "english",
+              "osarch": "64",
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "4190396943817780086"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5380392"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40896530,
+      "change_number": 41076585,
       "data": {
         "appinfo": {
           "common": {
@@ -424,8 +482,8 @@
             },
             "name": "Possessed By Fate",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows,linux",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos,linux",
             "primary_genre": "3",
             "small_capsule": {
               "english": "4c15dde0c11401f02912f5e34bde1b2d051c96eb/capsule_231x87.jpg"
@@ -472,7 +530,7 @@
                 "pathtransforms": {
                   "0": {
                     "find": "Sapphicore/Possessed By Fate/Saves",
-                    "replace": "unity.Sapphicore.Possessed By Fate"
+                    "replace": "com.sapphicore.possessedbyfate"
                   }
                 },
                 "root": "WinAppDataLocalLow",
@@ -504,9 +562,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26633054",
-              "timebuildupdated": 1794534477,
-              "timeupdated": 1794534508
+              "buildid": "26719650",
+              "timebuildupdated": 1794881317,
+              "timeupdated": 1794881317
             }
           },
           "depots": {
@@ -518,6 +576,16 @@
               },
               "manifests": {
                 "public": "859638720707408142"
+              }
+            },
+            "5380392": {
+              "config": {
+                "language": "english",
+                "osarch": "64",
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "4190396943817780086"
               }
             },
             "5380394": {
@@ -533,11 +601,11 @@
           }
         }
       },
-      "observed_at": "2026-11-13T02:38:34.394Z",
+      "observed_at": "2026-11-17T11:08:41.058Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T02:38:34.394Z"
+  "updated_at": "2026-11-17T11:08:41.058Z"
 }

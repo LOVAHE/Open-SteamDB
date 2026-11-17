@@ -376,11 +376,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-17T11:08:41.058Z",
+      "change_number": 41109593,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26727576",
+            "description": "VR version",
+            "timebuildupdated": 1794910446,
+            "timeupdated": 1794910446
+          },
+          "op": "add",
+          "path": "/depots/branches/summagrandevr"
+        },
+        {
+          "after": "8390277252302212098",
+          "op": "add",
+          "path": "/depots/depots/4374701/manifests/summagrandevr"
+        },
+        {
+          "after": "8351059656168718137",
+          "op": "add",
+          "path": "/depots/depots/4374702/manifests/summagrandevr"
+        },
+        {
+          "after": "8162675430856198575",
+          "op": "add",
+          "path": "/depots/depots/4374703/manifests/summagrandevr"
+        },
+        {
+          "after": "4912651416815154851",
+          "op": "add",
+          "path": "/depots/depots/4374704/manifests/summagrandevr"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41107683,
+      "change_number": 41109593,
       "data": {
         "appinfo": {
           "common": {
@@ -520,6 +558,12 @@
               "buildid": "26637418",
               "timebuildupdated": 1794551419,
               "timeupdated": 1794551419
+            },
+            "summagrandevr": {
+              "buildid": "26727576",
+              "description": "VR version",
+              "timebuildupdated": 1794910446,
+              "timeupdated": 1794910446
             }
           },
           "depots": {
@@ -545,7 +589,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "8390277252302212098"
+                "public": "8390277252302212098",
+                "summagrandevr": "8390277252302212098"
               }
             },
             "4374702": {
@@ -554,7 +599,8 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "8351059656168718137"
+                "public": "8351059656168718137",
+                "summagrandevr": "8351059656168718137"
               }
             },
             "4374703": {
@@ -563,20 +609,23 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "8162675430856198575"
+                "public": "8162675430856198575",
+                "summagrandevr": "8162675430856198575"
               }
             },
             "4374704": {
-              "manifests": {}
+              "manifests": {
+                "summagrandevr": "4912651416815154851"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-17T09:53:38.539Z",
+      "observed_at": "2026-11-17T11:08:41.058Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T09:53:38.539Z"
+  "updated_at": "2026-11-17T11:08:41.058Z"
 }
