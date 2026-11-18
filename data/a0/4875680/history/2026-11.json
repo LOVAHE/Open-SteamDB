@@ -297,11 +297,66 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T22:53:38.018Z",
+      "change_number": 41242809,
+      "changes": [
+        {
+          "after": "シールバウンド：クトゥルフ・ライジング",
+          "op": "add",
+          "path": "/appinfo/common/name_localized/japanese"
+        },
+        {
+          "after": "封印者：克苏鲁崛起",
+          "op": "add",
+          "path": "/appinfo/common/name_localized/schinese"
+        },
+        {
+          "after": "26770879",
+          "before": "26769864",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795042217,
+          "before": 1795038947,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795042249,
+          "before": 1795039113,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/4875681/config"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "5519221680145324779"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/4875682"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41241443,
+      "change_number": 41242809,
       "data": {
         "appinfo": {
           "common": {
@@ -404,7 +459,9 @@
             },
             "name": "Sealbound: Cthulhu Rising",
             "name_localized": {
-              "koreana": "실바운드: 크툴루 라이징"
+              "japanese": "シールバウンド：クトゥルフ・ライジング",
+              "koreana": "실바운드: 크툴루 라이징",
+              "schinese": "封印者：克苏鲁崛起"
             },
             "osarch": "64",
             "osextended": "",
@@ -507,25 +564,36 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26769864",
-              "timebuildupdated": 1795038947,
-              "timeupdated": 1795039113
+              "buildid": "26770879",
+              "timebuildupdated": 1795042217,
+              "timeupdated": 1795042249
             }
           },
           "depots": {
             "4875681": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
                 "public": "615550760092291871"
+              }
+            },
+            "4875682": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "5519221680145324779"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-18T22:08:43.297Z",
+      "observed_at": "2026-11-18T22:53:38.018Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T22:08:43.297Z"
+  "updated_at": "2026-11-18T22:53:38.018Z"
 }

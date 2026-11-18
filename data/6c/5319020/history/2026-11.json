@@ -406,11 +406,28 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T22:53:38.018Z",
+      "change_number": 41242823,
+      "changes": [
+        {
+          "after": {
+            "path": "Bad Habit Games/Art Shop Tidy Up!/save",
+            "pattern": "slot*.sav.bak",
+            "root": "WinAppDataLocalLow"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/1"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41196470,
+      "change_number": 41242823,
       "data": {
         "appinfo": {
           "common": {
@@ -664,6 +681,11 @@
                 "path": "Bad Habit Games/Art Shop Tidy Up!/save",
                 "pattern": "slot*.sav",
                 "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "Bad Habit Games/Art Shop Tidy Up!/save",
+                "pattern": "slot*.sav.bak",
+                "root": "WinAppDataLocalLow"
               }
             }
           }
@@ -704,11 +726,11 @@
           }
         }
       },
-      "observed_at": "2026-11-17T22:38:48.317Z",
+      "observed_at": "2026-11-18T22:53:38.018Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T22:38:48.317Z"
+  "updated_at": "2026-11-18T22:53:38.018Z"
 }
