@@ -407,11 +407,78 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T07:08:40.875Z",
+      "change_number": 41206736,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "97",
+          "before": "100",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "250",
+          "before": "100",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "500000000",
+          "before": "100000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        },
+        {
+          "after": "26734391",
+          "before": "26355427",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794929654,
+          "before": 1793502554,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794967382,
+          "before": 1793502692,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5631864438934004332",
+          "before": "5209053138090660751",
+          "op": "replace",
+          "path": "/depots/depots/4463521/manifests/public"
+        },
+        {
+          "after": "6987382206577570148",
+          "op": "add",
+          "path": "/depots/depots/4463522/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41124818,
+      "change_number": 41206736,
       "data": {
         "appinfo": {
           "common": {
@@ -547,10 +614,10 @@
               "tchinese": "姆明：瘋狂夏日"
             },
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos",
             "primary_genre": "25",
-            "review_percentage": "100",
+            "review_percentage": "97",
             "review_score": "7",
             "small_capsule": {
               "english": "829ef13abef4aa5cd6e3d25fb03d9007c8af9735/capsule_231x87.jpg",
@@ -640,8 +707,8 @@
             "publisher": "Shochiku"
           },
           "ufs": {
-            "maxnumfiles": "100",
-            "quota": "100000000",
+            "maxnumfiles": "250",
+            "quota": "500000000",
             "rootoverrides": {
               "0": {
                 "addpath": "Crossbridge Game Studios/Moomin/saves",
@@ -680,9 +747,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26355427",
-              "timebuildupdated": 1793502554,
-              "timeupdated": 1793502692
+              "buildid": "26734391",
+              "timebuildupdated": 1794929654,
+              "timeupdated": 1794967382
             }
           },
           "depots": {
@@ -692,23 +759,25 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "5209053138090660751"
+                "public": "5631864438934004332"
               }
             },
             "4463522": {
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "6987382206577570148"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-17T15:38:41.617Z",
+      "observed_at": "2026-11-18T07:08:40.875Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T15:38:41.617Z"
+  "updated_at": "2026-11-18T07:08:40.875Z"
 }
