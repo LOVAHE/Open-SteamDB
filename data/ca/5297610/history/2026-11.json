@@ -269,11 +269,80 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T11:23:29.664Z",
+      "change_number": 41216637,
+      "changes": [
+        {
+          "before": "1",
+          "op": "remove",
+          "path": "/appinfo/common/category/category_18"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_28"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_57"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_58"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_59"
+        },
+        {
+          "after": "full",
+          "before": "partial",
+          "op": "replace",
+          "path": "/appinfo/common/controller_support"
+        },
+        {
+          "after": "26753326",
+          "before": "26738971",
+          "op": "replace",
+          "path": "/depots/branches/beta/buildid"
+        },
+        {
+          "after": 1794993130,
+          "before": 1794941719,
+          "op": "replace",
+          "path": "/depots/branches/beta/timebuildupdated"
+        },
+        {
+          "after": 1794993130,
+          "before": 1794941719,
+          "op": "replace",
+          "path": "/depots/branches/beta/timeupdated"
+        },
+        {
+          "after": "2174448218591532856",
+          "before": "6440636097705113479",
+          "op": "replace",
+          "path": "/depots/depots/5297611/manifests/beta"
+        },
+        {
+          "after": "8438047513291018556",
+          "before": "2833494063276036728",
+          "op": "replace",
+          "path": "/depots/depots/5297612/manifests/beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41161719,
+      "change_number": 41216637,
       "data": {
         "appinfo": {
           "common": {
@@ -288,16 +357,19 @@
               }
             },
             "category": {
-              "category_18": "1",
               "category_2": "1",
               "category_22": "1",
               "category_23": "1",
+              "category_28": "1",
+              "category_57": "1",
+              "category_58": "1",
+              "category_59": "1",
               "category_62": "1"
             },
             "clienticon": "edea2a8a0dab744246bfc57c65c8f1d50c09363a",
             "community_hub_visible": "1",
             "community_visible_stats": "1",
-            "controller_support": "partial",
+            "controller_support": "full",
             "genres": {
               "0": "23",
               "1": "2",
@@ -496,10 +568,10 @@
         "depots": {
           "branches": {
             "beta": {
-              "buildid": "26738971",
+              "buildid": "26753326",
               "description": "A testing branch",
-              "timebuildupdated": 1794941719,
-              "timeupdated": 1794941719
+              "timebuildupdated": 1794993130,
+              "timeupdated": 1794993130
             },
             "public": {
               "buildid": "26738971",
@@ -513,7 +585,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "beta": "6440636097705113479",
+                "beta": "2174448218591532856",
                 "public": "6440636097705113479"
               }
             },
@@ -522,18 +594,18 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "beta": "2833494063276036728",
+                "beta": "8438047513291018556",
                 "public": "2833494063276036728"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-18T04:38:33.208Z",
+      "observed_at": "2026-11-18T11:23:29.664Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T04:38:33.208Z"
+  "updated_at": "2026-11-18T11:23:29.664Z"
 }

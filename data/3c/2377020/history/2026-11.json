@@ -330,11 +330,40 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T11:23:29.664Z",
+      "change_number": 41220046,
+      "changes": [
+        {
+          "after": "不屈之人：觉醒",
+          "before": "不屈之人",
+          "op": "replace",
+          "path": "/appinfo/common/name_localized/schinese"
+        },
+        {
+          "after": {
+            "buildid": "26755057",
+            "description": "简体中文（测试版） - Simplified Chinese (Beta)",
+            "timebuildupdated": 1794998120,
+            "timeupdated": 1794999159
+          },
+          "op": "add",
+          "path": "/depots/branches/simplifiedchinesebeta"
+        },
+        {
+          "after": "3674388658847645422",
+          "op": "add",
+          "path": "/depots/depots/2377021/manifests/simplifiedchinesebeta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41148785,
+      "change_number": 41220046,
       "data": {
         "appinfo": {
           "common": {
@@ -436,7 +465,7 @@
             },
             "name": "Unbroken The Awakening",
             "name_localized": {
-              "schinese": "不屈之人"
+              "schinese": "不屈之人：觉醒"
             },
             "osarch": "64",
             "osextended": "",
@@ -518,6 +547,12 @@
               "buildid": "26542795",
               "timebuildupdated": 1794237623,
               "timeupdated": 1794238771
+            },
+            "simplifiedchinesebeta": {
+              "buildid": "26755057",
+              "description": "简体中文（测试版） - Simplified Chinese (Beta)",
+              "timebuildupdated": 1794998120,
+              "timeupdated": 1794999159
             }
           },
           "depots": {
@@ -525,17 +560,18 @@
               "manifests": {
                 "headstart": "6235725130461556673",
                 "homerunopenbeta": "5103359413914644079",
-                "public": "8036102943459049689"
+                "public": "8036102943459049689",
+                "simplifiedchinesebeta": "3674388658847645422"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-17T17:53:39.675Z",
+      "observed_at": "2026-11-18T11:23:29.664Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T17:53:39.675Z"
+  "updated_at": "2026-11-18T11:23:29.664Z"
 }

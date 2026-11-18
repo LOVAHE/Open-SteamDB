@@ -626,11 +626,110 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T11:23:29.664Z",
+      "change_number": 41220823,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_22"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/community_visible_stats"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/french"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/italian"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/spanish"
+        },
+        {
+          "after": "26754496",
+          "before": "25707206",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794996502,
+          "before": 1791100876,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794998748,
+          "before": 1791101124,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3902094301352445432",
+          "before": "5035740719125318563",
+          "op": "replace",
+          "path": "/depots/depots/3814551/manifests/public"
+        },
+        {
+          "after": "8535239786111044792",
+          "before": "6694138060339871131",
+          "op": "replace",
+          "path": "/depots/depots/3814552/manifests/public"
+        },
+        {
+          "after": "9002145183336510250",
+          "before": "294366230163168427",
+          "op": "replace",
+          "path": "/depots/depots/3814553/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41205839,
+      "change_number": 41220823,
       "data": {
         "appinfo": {
           "common": {
@@ -646,10 +745,13 @@
             },
             "category": {
               "category_2": "1",
+              "category_22": "1",
+              "category_23": "1",
               "category_62": "1"
             },
             "clienticon": "7f789601b6522fbc8f0744a0d796c1e47604222c",
             "community_hub_visible": "1",
+            "community_visible_stats": "1",
             "genres": {
               "0": "2"
             },
@@ -745,6 +847,26 @@
                 "full_audio": "true",
                 "subtitles": "true",
                 "supported": "true"
+              },
+              "french": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "italian": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "russian": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "schinese": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "spanish": {
+                "subtitles": "true",
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -788,9 +910,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25707206",
-              "timebuildupdated": 1791100876,
-              "timeupdated": 1791101124
+              "buildid": "26754496",
+              "timebuildupdated": 1794996502,
+              "timeupdated": 1794998748
             }
           },
           "depots": {
@@ -799,7 +921,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "5035740719125318563"
+                "public": "3902094301352445432"
               }
             },
             "3814552": {
@@ -807,7 +929,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "6694138060339871131"
+                "public": "8535239786111044792"
               }
             },
             "3814553": {
@@ -815,17 +937,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "294366230163168427"
+                "public": "9002145183336510250"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-18T05:38:34.516Z",
+      "observed_at": "2026-11-18T11:23:29.664Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T05:38:34.516Z"
+  "updated_at": "2026-11-18T11:23:29.664Z"
 }

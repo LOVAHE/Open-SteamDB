@@ -932,11 +932,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T11:23:29.664Z",
+      "change_number": 41214861,
+      "changes": [
+        {
+          "after": "10000",
+          "before": "500",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "1000000000",
+          "before": "52428800",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        },
+        {
+          "after": "26752239",
+          "before": "26742946",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794989240,
+          "before": 1794953866,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794989273,
+          "before": 1794953915,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5002415662137444844",
+          "before": "3660765887320839750",
+          "op": "replace",
+          "path": "/depots/depots/5308961/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41194722,
+      "change_number": 41214861,
       "data": {
         "appinfo": {
           "common": {
@@ -1117,8 +1161,8 @@
             "publisher": "墨劍 Ink Blade"
           },
           "ufs": {
-            "maxnumfiles": "500",
-            "quota": "52428800",
+            "maxnumfiles": "10000",
+            "quota": "1000000000",
             "savefiles": {
               "0": {
                 "path": "AceOfJianghu",
@@ -1148,26 +1192,26 @@
               "timeupdated": 1794566495
             },
             "public": {
-              "buildid": "26742946",
-              "timebuildupdated": 1794953866,
-              "timeupdated": 1794953915
+              "buildid": "26752239",
+              "timebuildupdated": 1794989240,
+              "timeupdated": 1794989273
             }
           },
           "depots": {
             "5308961": {
               "manifests": {
                 "preview": "2160587262791245353",
-                "public": "3660765887320839750"
+                "public": "5002415662137444844"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-17T22:23:28.787Z",
+      "observed_at": "2026-11-18T11:23:29.664Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T22:23:28.787Z"
+  "updated_at": "2026-11-18T11:23:29.664Z"
 }
