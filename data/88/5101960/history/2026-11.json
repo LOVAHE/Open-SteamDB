@@ -1355,11 +1355,30 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T19:23:53.736Z",
+      "change_number": 41236853,
+      "changes": [
+        {
+          "after": {
+            "addpath": "",
+            "os": "MacOS",
+            "oscompare": "=",
+            "root": "WinAppDataRoaming",
+            "useinstead": "MacAppSupport"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides/1"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41114104,
+      "change_number": 41236853,
       "data": {
         "appinfo": {
           "common": {
@@ -1588,6 +1607,13 @@
                 "oscompare": "=",
                 "root": "WinAppDataRoaming",
                 "useinstead": "LinuxXdgDataHome"
+              },
+              "1": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
               }
             },
             "savefiles": {
@@ -1636,11 +1662,11 @@
           }
         }
       },
-      "observed_at": "2026-11-17T12:53:33.618Z",
+      "observed_at": "2026-11-18T19:23:53.736Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T12:53:33.618Z"
+  "updated_at": "2026-11-18T19:23:53.736Z"
 }
