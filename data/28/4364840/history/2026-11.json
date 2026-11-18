@@ -413,11 +413,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T15:08:59.565Z",
+      "change_number": 41227937,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41223474,
+      "change_number": 41227937,
       "data": {
         "appinfo": {
           "common": {
@@ -512,8 +532,8 @@
             },
             "name": "Sinesperia Demo",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "parent": "4296610",
             "primary_genre": "25",
             "review_percentage": "100",
@@ -582,11 +602,11 @@
           }
         }
       },
-      "observed_at": "2026-11-18T13:08:44.126Z",
+      "observed_at": "2026-11-18T15:08:59.565Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T13:08:44.126Z"
+  "updated_at": "2026-11-18T15:08:59.565Z"
 }
