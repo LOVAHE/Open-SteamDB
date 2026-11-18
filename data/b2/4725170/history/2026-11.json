@@ -1177,11 +1177,25 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T07:38:43.367Z",
+      "change_number": 41211327,
+      "changes": [
+        {
+          "after": "Saves\\Current",
+          "before": "Saves",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/path"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41002520,
+      "change_number": 41211327,
       "data": {
         "appinfo": {
           "common": {
@@ -1360,7 +1374,7 @@
             "quota": "100000000",
             "savefiles": {
               "0": {
-                "path": "Saves",
+                "path": "Saves\\Current",
                 "pattern": "*",
                 "recursive": "1",
                 "root": "gameinstall"
@@ -1400,11 +1414,11 @@
           }
         }
       },
-      "observed_at": "2026-11-16T12:08:30.137Z",
+      "observed_at": "2026-11-18T07:38:43.367Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T12:08:30.137Z"
+  "updated_at": "2026-11-18T07:38:43.367Z"
 }
