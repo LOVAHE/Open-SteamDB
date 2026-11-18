@@ -225,11 +225,44 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T13:08:44.126Z",
+      "change_number": 41220665,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "300",
+            "quota": "100000000",
+            "savefiles": {
+              "0": {
+                "path": "U+N/TRIANGLE：几何禁区/SteamDemo-5566480/Steam/{64BitSteamID}",
+                "pattern": "*.sav",
+                "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "U+N/TRIANGLE：几何禁区/SteamDemo-5566480/Steam/{64BitSteamID}",
+                "pattern": "*.sav.bak",
+                "root": "WinAppDataLocalLow"
+              },
+              "2": {
+                "path": "U+N/TRIANGLE：几何禁区/SteamDemo-5566480/Steam/{64BitSteamID}",
+                "pattern": "*.sav.commit",
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41106904,
+      "change_number": 41220665,
       "data": {
         "appinfo": {
           "common": {
@@ -422,6 +455,27 @@
           "extended": {
             "developer": "liyunxia",
             "publisher": "liyunxia"
+          },
+          "ufs": {
+            "maxnumfiles": "300",
+            "quota": "100000000",
+            "savefiles": {
+              "0": {
+                "path": "U+N/TRIANGLE：几何禁区/SteamDemo-5566480/Steam/{64BitSteamID}",
+                "pattern": "*.sav",
+                "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "U+N/TRIANGLE：几何禁区/SteamDemo-5566480/Steam/{64BitSteamID}",
+                "pattern": "*.sav.bak",
+                "root": "WinAppDataLocalLow"
+              },
+              "2": {
+                "path": "U+N/TRIANGLE：几何禁区/SteamDemo-5566480/Steam/{64BitSteamID}",
+                "pattern": "*.sav.commit",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -441,11 +495,11 @@
           }
         }
       },
-      "observed_at": "2026-11-17T11:53:30.245Z",
+      "observed_at": "2026-11-18T13:08:44.126Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T11:53:30.245Z"
+  "updated_at": "2026-11-18T13:08:44.126Z"
 }

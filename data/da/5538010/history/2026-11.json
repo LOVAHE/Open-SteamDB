@@ -145,11 +145,48 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T13:08:44.126Z",
+      "change_number": 41204961,
+      "changes": [
+        {
+          "after": "true",
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/english/subtitles"
+        },
+        {
+          "after": "26744542",
+          "before": "26694859",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794959808,
+          "before": 1794805716,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794959881,
+          "before": 1794805751,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6897567866072622853",
+          "before": "246145711307707801",
+          "op": "replace",
+          "path": "/depots/depots/5538011/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40992254,
+      "change_number": 41204961,
       "data": {
         "appinfo": {
           "common": {
@@ -248,6 +285,7 @@
             "store_asset_mtime": "1794804868",
             "supported_languages": {
               "english": {
+                "subtitles": "true",
                 "supported": "true"
               },
               "koreana": {
@@ -267,25 +305,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26694859",
-              "timebuildupdated": 1794805716,
-              "timeupdated": 1794805751
+              "buildid": "26744542",
+              "timebuildupdated": 1794959808,
+              "timeupdated": 1794959881
             }
           },
           "depots": {
             "5538011": {
               "manifests": {
-                "public": "246145711307707801"
+                "public": "6897567866072622853"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-16T06:08:26.553Z",
+      "observed_at": "2026-11-18T13:08:44.126Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T06:08:26.553Z"
+  "updated_at": "2026-11-18T13:08:44.126Z"
 }

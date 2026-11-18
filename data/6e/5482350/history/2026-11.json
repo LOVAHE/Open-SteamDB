@@ -335,11 +335,82 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T13:08:44.126Z",
+      "change_number": 41224139,
+      "changes": [
+        {
+          "after": "月影工房",
+          "before": "Grandmaster Cirno",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/name"
+        },
+        {
+          "after": "79",
+          "before": "82",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "6",
+          "before": "8",
+          "op": "replace",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "月影工房",
+          "before": "Grandmaster Cirno",
+          "op": "replace",
+          "path": "/appinfo/extended/publisher"
+        },
+        {
+          "after": "26757667",
+          "before": "26357292",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795005449,
+          "before": 1793516824,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795007364,
+          "before": 1793516885,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "buildid": "26757667",
+            "description": "test",
+            "timebuildupdated": 1795005449,
+            "timeupdated": 1795005449
+          },
+          "op": "add",
+          "path": "/depots/branches/test"
+        },
+        {
+          "after": "361953708333994829",
+          "before": "3699320881391877209",
+          "op": "replace",
+          "path": "/depots/depots/5482351/manifests/public"
+        },
+        {
+          "after": "361953708333994829",
+          "op": "add",
+          "path": "/depots/depots/5482351/manifests/test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41199105,
+      "change_number": 41224139,
       "data": {
         "appinfo": {
           "common": {
@@ -349,7 +420,7 @@
                 "type": "developer"
               },
               "1": {
-                "name": "Grandmaster Cirno",
+                "name": "月影工房",
                 "type": "publisher"
               }
             },
@@ -470,8 +541,8 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "2",
-            "review_percentage": "82",
-            "review_score": "8",
+            "review_percentage": "79",
+            "review_score": "6",
             "small_capsule": {
               "english": "ade9ef3f8e713749aa1f4805fb799edecd9568a6/capsule_231x87.jpg",
               "japanese": "09004ebc96ce277810cfbbab0263da1ac32e8db8/capsule_231x87_japanese.jpg",
@@ -523,7 +594,7 @@
           },
           "extended": {
             "developer": "Grandmaster Cirno",
-            "publisher": "Grandmaster Cirno"
+            "publisher": "月影工房"
           },
           "ufs": {
             "maxnumfiles": "10",
@@ -540,9 +611,15 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26357292",
-              "timebuildupdated": 1793516824,
-              "timeupdated": 1793516885
+              "buildid": "26757667",
+              "timebuildupdated": 1795005449,
+              "timeupdated": 1795007364
+            },
+            "test": {
+              "buildid": "26757667",
+              "description": "test",
+              "timebuildupdated": 1795005449,
+              "timeupdated": 1795005449
             }
           },
           "depots": {
@@ -551,17 +628,18 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "3699320881391877209"
+                "public": "361953708333994829",
+                "test": "361953708333994829"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-17T22:53:27.221Z",
+      "observed_at": "2026-11-18T13:08:44.126Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T22:53:27.221Z"
+  "updated_at": "2026-11-18T13:08:44.126Z"
 }

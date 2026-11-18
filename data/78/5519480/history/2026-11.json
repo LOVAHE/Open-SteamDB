@@ -192,11 +192,68 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T13:08:44.126Z",
+      "change_number": 41207489,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26747190",
+          "before": "26736424",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794969190,
+          "before": 1794934657,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794969484,
+          "before": 1794934800,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3850328110137662375",
+          "before": "3852299543179568914",
+          "op": "replace",
+          "path": "/depots/depots/5519481/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "1314051370452283854"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5519482"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41154955,
+      "change_number": 41207489,
       "data": {
         "appinfo": {
           "common": {
@@ -295,8 +352,8 @@
             },
             "name": "Wreck and Repeat",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos",
             "primary_genre": "1",
             "small_capsule": {
               "english": "fe36e4f2d17072ab40ee0a41313dc68e57bb3c2b/capsule_231x87.jpg"
@@ -357,9 +414,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26736424",
-              "timebuildupdated": 1794934657,
-              "timeupdated": 1794934800
+              "buildid": "26747190",
+              "timebuildupdated": 1794969190,
+              "timeupdated": 1794969484
             }
           },
           "depots": {
@@ -369,17 +426,26 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "3852299543179568914"
+                "public": "3850328110137662375"
+              }
+            },
+            "5519482": {
+              "config": {
+                "osarch": "64",
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "1314051370452283854"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-17T21:08:44.890Z",
+      "observed_at": "2026-11-18T13:08:44.126Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T21:08:44.890Z"
+  "updated_at": "2026-11-18T13:08:44.126Z"
 }

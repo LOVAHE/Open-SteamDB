@@ -184,11 +184,48 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T13:08:44.126Z",
+      "change_number": 41222220,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/0/recursive"
+        },
+        {
+          "after": "26756831",
+          "before": "26734880",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795003006,
+          "before": 1794930802,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795003307,
+          "before": 1794930805,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2937356178741281676",
+          "before": "3733061476853116019",
+          "op": "replace",
+          "path": "/depots/depots/3174462/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41218817,
+      "change_number": 41222220,
       "data": {
         "appinfo": {
           "common": {
@@ -326,6 +363,7 @@
                 "platforms": {
                   "1": "Windows"
                 },
+                "recursive": "1",
                 "root": "gameinstall"
               }
             }
@@ -334,9 +372,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26734880",
-              "timebuildupdated": 1794930802,
-              "timeupdated": 1794930805
+              "buildid": "26756831",
+              "timebuildupdated": 1795003006,
+              "timeupdated": 1795003307
             }
           },
           "depots": {
@@ -346,17 +384,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "3733061476853116019"
+                "public": "2937356178741281676"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-18T11:23:29.664Z",
+      "observed_at": "2026-11-18T13:08:44.126Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T11:23:29.664Z"
+  "updated_at": "2026-11-18T13:08:44.126Z"
 }
