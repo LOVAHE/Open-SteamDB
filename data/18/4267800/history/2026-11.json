@@ -1537,11 +1537,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T05:38:34.516Z",
+      "change_number": 41206920,
+      "changes": [
+        {
+          "after": "26746309",
+          "before": "26692339",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794965936,
+          "before": 1794794339,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794965936,
+          "before": 1794794339,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": {
+            "buildid": "26692416",
+            "description": "Crash or Windows 11 Compatible",
+            "timebuildupdated": 1794794749,
+            "timeupdated": 1794794750
+          },
+          "op": "remove",
+          "path": "/depots/branches/win11stable"
+        },
+        {
+          "after": "2902288966512281432",
+          "before": "8202574367302479280",
+          "op": "replace",
+          "path": "/depots/depots/4267801/manifests/public"
+        },
+        {
+          "before": "8251202229062249118",
+          "op": "remove",
+          "path": "/depots/depots/4267801/manifests/win11stable"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41076636,
+      "change_number": 41206920,
       "data": {
         "appinfo": {
           "common": {
@@ -1791,21 +1838,15 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26692339",
-              "timebuildupdated": 1794794339,
-              "timeupdated": 1794794339
+              "buildid": "26746309",
+              "timebuildupdated": 1794965936,
+              "timeupdated": 1794965936
             },
             "test": {
               "buildid": "26719689",
               "description": "测试专用分支for test",
               "timebuildupdated": 1794881448,
               "timeupdated": 1794881461
-            },
-            "win11stable": {
-              "buildid": "26692416",
-              "description": "Crash or Windows 11 Compatible",
-              "timebuildupdated": 1794794749,
-              "timeupdated": 1794794750
             },
             "win7compat": {
               "buildid": "26661466",
@@ -1821,9 +1862,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "8202574367302479280",
+                "public": "2902288966512281432",
                 "test": "2902288966512281432",
-                "win11stable": "8251202229062249118",
                 "win7compat": "1306885168005450671"
               }
             },
@@ -1840,11 +1880,11 @@
           }
         }
       },
-      "observed_at": "2026-11-17T02:53:33.334Z",
+      "observed_at": "2026-11-18T05:38:34.516Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T02:53:33.334Z"
+  "updated_at": "2026-11-18T05:38:34.516Z"
 }
