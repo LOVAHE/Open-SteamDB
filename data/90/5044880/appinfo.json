@@ -1,8 +1,8 @@
 {
   "appid": 5044880,
   "source": "steam_pics",
-  "updated_at": "2026-11-13T07:08:25.387Z",
-  "change_number": 40894272,
+  "updated_at": "2026-11-18T13:53:32.863Z",
+  "change_number": 41225150,
   "data": {
     "common": {
       "associations": {
@@ -17,6 +17,7 @@
       },
       "category": {
         "category_2": "1",
+        "category_23": "1",
         "category_62": "1"
       },
       "clienticon": "307c831a568e0d0692358772e0a099a03f1609d7",
@@ -93,7 +94,7 @@
       "small_capsule": {
         "english": "f2b023318b23d9135e2607a9b256ec907265c435/capsule_231x87.jpg"
       },
-      "steam_release_date": "1796025600",
+      "steam_release_date": "1794528863",
       "store_asset_mtime": "1785899176",
       "store_tags": {
         "0": "599",
@@ -132,6 +133,31 @@
     },
     "config": {
       "installdir": "SPINDLEDRIFT"
+    },
+    "ufs": {
+      "maxnumfiles": "20",
+      "quota": "50000000",
+      "rootoverrides": {
+        "0": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Godot/app_userdata/SpindleDrift",
+              "replace": "godot/app_userdata/SpindleDrift"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Godot/app_userdata/SpindleDrift",
+          "pattern": "save.json",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }
