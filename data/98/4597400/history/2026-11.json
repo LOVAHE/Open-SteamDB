@@ -443,11 +443,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T21:53:36.826Z",
+      "change_number": 41241155,
+      "changes": [
+        {
+          "after": "Shadowstone デモ",
+          "op": "add",
+          "path": "/appinfo/common/name_localized/japanese"
+        },
+        {
+          "after": "《Shadowstone》試玩版",
+          "op": "add",
+          "path": "/appinfo/common/name_localized/tchinese"
+        },
+        {
+          "after": {
+            "depotfromapp": 4180840,
+            "manifests": {
+              "public": "6695063953984258858"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/4180841"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41221271,
+      "change_number": 41241155,
       "data": {
         "appinfo": {
           "common": {
@@ -546,11 +574,13 @@
               "french": "Démo de Shadowstone",
               "german": "Shadowstone Demo",
               "italian": "Shadowstone Demo",
+              "japanese": "Shadowstone デモ",
               "koreana": "Shadowstone 체험판",
               "polish": "Shadowstone Demo",
               "russian": "Shadowstone Demo",
               "schinese": "《影之石》体验版",
-              "spanish": "Demo de Shadowstone"
+              "spanish": "Demo de Shadowstone",
+              "tchinese": "《Shadowstone》試玩版"
             },
             "osarch": "64",
             "osextended": "",
@@ -633,6 +663,12 @@
               "manifests": {},
               "sharedinstall": true
             },
+            "4180841": {
+              "depotfromapp": 4180840,
+              "manifests": {
+                "public": "6695063953984258858"
+              }
+            },
             "4597401": {
               "manifests": {
                 "public": "9117664532304975976"
@@ -647,11 +683,11 @@
           }
         }
       },
-      "observed_at": "2026-11-18T11:38:37.081Z",
+      "observed_at": "2026-11-18T21:53:36.826Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T11:38:37.081Z"
+  "updated_at": "2026-11-18T21:53:36.826Z"
 }
