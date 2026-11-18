@@ -537,11 +537,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T09:23:41.478Z",
+      "change_number": 41213614,
+      "changes": [
+        {
+          "after": "Swarmbreaker/cloud",
+          "before": " Swarmbreaker/cloud",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/path"
+        },
+        {
+          "after": "26751102",
+          "before": "26709051",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794984686,
+          "before": 1794850581,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794984756,
+          "before": 1794850698,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6649204530793616892",
+          "before": "1586320380602908829",
+          "op": "replace",
+          "path": "/depots/depots/5207451/manifests/public"
+        },
+        {
+          "after": "4276830927280838841",
+          "before": "902952198865123905",
+          "op": "replace",
+          "path": "/depots/depots/5207452/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41014967,
+      "change_number": 41213614,
       "data": {
         "appinfo": {
           "common": {
@@ -707,7 +751,7 @@
             },
             "savefiles": {
               "0": {
-                "path": " Swarmbreaker/cloud",
+                "path": "Swarmbreaker/cloud",
                 "pattern": "save.json",
                 "root": "WinAppDataRoaming"
               },
@@ -718,9 +762,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26709051",
-              "timebuildupdated": 1794850581,
-              "timeupdated": 1794850698
+              "buildid": "26751102",
+              "timebuildupdated": 1794984686,
+              "timeupdated": 1794984756
             }
           },
           "depots": {
@@ -730,7 +774,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "1586320380602908829"
+                "public": "6649204530793616892"
               }
             },
             "5207452": {
@@ -739,13 +783,13 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "902952198865123905"
+                "public": "4276830927280838841"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-16T17:38:31.772Z",
+      "observed_at": "2026-11-18T09:23:41.478Z",
       "tracked": true
     },
     "steam_store": {
@@ -874,5 +918,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T17:38:31.772Z"
+  "updated_at": "2026-11-18T09:23:41.478Z"
 }
