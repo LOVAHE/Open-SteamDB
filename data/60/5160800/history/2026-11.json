@@ -1778,11 +1778,46 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T20:23:54.981Z",
+      "change_number": 41238549,
+      "changes": [
+        {
+          "after": "beta v18.1",
+          "before": "beta v18",
+          "op": "replace",
+          "path": "/depots/branches/beta-v18/description"
+        },
+        {
+          "after": 1795032815,
+          "before": 1795032516,
+          "op": "replace",
+          "path": "/depots/branches/beta-v18/timeupdated"
+        },
+        {
+          "after": {
+            "buildid": "26767639",
+            "description": "Beta-V18.1",
+            "timebuildupdated": 1795032047,
+            "timeupdated": 1795032925
+          },
+          "op": "add",
+          "path": "/depots/branches/beta-v18.1"
+        },
+        {
+          "after": "1973463970080561632",
+          "op": "add",
+          "path": "/depots/depots/5160801/manifests/beta-v18.1"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41238302,
+      "change_number": 41238549,
       "data": {
         "appinfo": {
           "common": {
@@ -2062,9 +2097,15 @@
             },
             "beta-v18": {
               "buildid": "26767639",
-              "description": "beta v18",
+              "description": "beta v18.1",
               "timebuildupdated": 1795032047,
-              "timeupdated": 1795032516
+              "timeupdated": 1795032815
+            },
+            "beta-v18.1": {
+              "buildid": "26767639",
+              "description": "Beta-V18.1",
+              "timebuildupdated": 1795032047,
+              "timeupdated": 1795032925
             },
             "betav17": {
               "buildid": "26667874",
@@ -2083,6 +2124,7 @@
               "manifests": {
                 "beta-v17": "4845516937473185260",
                 "beta-v18": "1973463970080561632",
+                "beta-v18.1": "1973463970080561632",
                 "betav17": "4845516937473185260",
                 "public": "182743112098615065"
               }
@@ -2090,11 +2132,11 @@
           }
         }
       },
-      "observed_at": "2026-11-18T20:08:43.975Z",
+      "observed_at": "2026-11-18T20:23:54.981Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T20:08:43.975Z"
+  "updated_at": "2026-11-18T20:23:54.981Z"
 }
