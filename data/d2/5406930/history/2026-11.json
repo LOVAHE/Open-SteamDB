@@ -322,11 +322,79 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T12:38:36.340Z",
+      "change_number": 41210134,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": "1794971555",
+          "before": "1794906240",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "100",
+          "before": "20",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "104857600",
+          "before": "10000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        },
+        {
+          "after": {
+            "1": "Windows"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/0/platforms"
+        },
+        {
+          "after": "26744823",
+          "before": "26250297",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794960755,
+          "before": 1793122997,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1794961141,
+          "before": 1793123179,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5519787995983358583",
+          "before": "7235243758956449335",
+          "op": "replace",
+          "path": "/depots/depots/5406933/manifests/public"
+        },
+        {
+          "after": "4184854890466265224",
+          "before": "5902267290103359806",
+          "op": "replace",
+          "path": "/depots/depots/5406936/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41107639,
+      "change_number": 41210134,
       "data": {
         "appinfo": {
           "common": {
@@ -343,6 +411,7 @@
             "category": {
               "category_2": "1",
               "category_22": "1",
+              "category_23": "1",
               "category_62": "1",
               "category_66": "1",
               "category_68": "1",
@@ -429,7 +498,7 @@
               "english": "43702b534b4c141caff34e2ce5e2a577dc1ecd81/capsule_231x87.jpg"
             },
             "steam_release_date": "1794573893",
-            "store_asset_mtime": "1794906240",
+            "store_asset_mtime": "1794971555",
             "store_tags": {
               "0": "599",
               "1": "701",
@@ -459,8 +528,8 @@
             "publisher": "Soft Rot"
           },
           "ufs": {
-            "maxnumfiles": "20",
-            "quota": "10000000",
+            "maxnumfiles": "100",
+            "quota": "104857600",
             "rootoverrides": {
               "0": {
                 "addpath": "",
@@ -474,6 +543,9 @@
               "0": {
                 "path": "GuildOfChampions",
                 "pattern": "*.json",
+                "platforms": {
+                  "1": "Windows"
+                },
                 "root": "WinAppDataRoaming"
               }
             }
@@ -482,9 +554,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26250297",
-              "timebuildupdated": 1793122997,
-              "timeupdated": 1793123179
+              "buildid": "26744823",
+              "timebuildupdated": 1794960755,
+              "timeupdated": 1794961141
             }
           },
           "depots": {
@@ -493,7 +565,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "7235243758956449335"
+                "public": "5519787995983358583"
               }
             },
             "5406936": {
@@ -501,17 +573,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "5902267290103359806"
+                "public": "4184854890466265224"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-17T11:08:41.058Z",
+      "observed_at": "2026-11-18T12:38:36.340Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T11:08:41.058Z"
+  "updated_at": "2026-11-18T12:38:36.340Z"
 }
