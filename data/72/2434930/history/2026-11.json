@@ -426,11 +426,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-18T04:38:33.208Z",
+      "change_number": 41205308,
+      "changes": [
+        {
+          "after": "49",
+          "before": "48",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "JadeCompany/BlueRidgeHunting",
+          "before": "Jade Meadows/BlueRidgeHunting",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/path"
+        },
+        {
+          "after": "JadeCompany/BlueRidgeHunting",
+          "before": "Jade Meadows/BlueRidgeHunting",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/2/path"
+        },
+        {
+          "after": "*.jpg",
+          "before": "*.png",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/2/pattern"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40964843,
+      "change_number": 41205308,
       "data": {
         "appinfo": {
           "common": {
@@ -522,7 +554,7 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "23",
-            "review_percentage": "48",
+            "review_percentage": "49",
             "review_score": "5",
             "small_capsule": {
               "english": "1c027df56a0db97a46d6593f0db48abd52ddbe6d/capsule_231x87.jpg"
@@ -582,14 +614,14 @@
             },
             "savefiles": {
               "0": {
-                "path": "Jade Meadows/BlueRidgeHunting",
+                "path": "JadeCompany/BlueRidgeHunting",
                 "pattern": "*.dat",
                 "recursive": "1",
                 "root": "WinAppDataLocalLow"
               },
               "2": {
-                "path": "Jade Meadows/BlueRidgeHunting",
-                "pattern": "*.png",
+                "path": "JadeCompany/BlueRidgeHunting",
+                "pattern": "*.jpg",
                 "recursive": "1",
                 "root": "WinAppDataLocalLow"
               }
@@ -632,11 +664,11 @@
           }
         }
       },
-      "observed_at": "2026-11-15T04:53:21.080Z",
+      "observed_at": "2026-11-18T04:38:33.208Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-15T04:53:21.080Z"
+  "updated_at": "2026-11-18T04:38:33.208Z"
 }
