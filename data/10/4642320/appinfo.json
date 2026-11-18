@@ -1,8 +1,8 @@
 {
   "appid": 4642320,
   "source": "steam_pics",
-  "updated_at": "2026-11-18T13:08:44.126Z",
-  "change_number": 41222080,
+  "updated_at": "2026-11-18T17:23:35.109Z",
+  "change_number": 41232996,
   "data": {
     "common": {
       "associations": {
@@ -21,6 +21,7 @@
       },
       "category": {
         "category_2": "1",
+        "category_23": "1",
         "category_28": "1",
         "category_60": "1",
         "category_62": "1",
@@ -141,6 +142,43 @@
     },
     "config": {
       "installdir": "Dig! Dig! Dino!"
+    },
+    "ufs": {
+      "maxnumfiles": "10",
+      "quota": "1000000",
+      "rootoverrides": {
+        "0": {
+          "os": "MacOS",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Godot/app_userdata/DDDPort",
+              "replace": "Godot/app_userdata/DDDPort"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
+        },
+        "1": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Godot/app_userdata/DDDPort",
+              "replace": "godot/app_userdata/DDDPort"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Godot/app_userdata/DDDPort",
+          "pattern": "gameData.json",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }
