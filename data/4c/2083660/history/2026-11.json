@@ -295,11 +295,40 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-19T11:38:40.422Z",
+      "change_number": 41259728,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "80",
+            "quota": "5000000000",
+            "savefiles": {
+              "0": {
+                "path": "HyperMegaPixel/Littlelands/Savegames",
+                "pattern": "manual-slots-*.txt",
+                "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "HyperMegaPixel/Littlelands/Savegames",
+                "pattern": "*.hmp",
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41246373,
+      "change_number": 41259728,
       "data": {
         "appinfo": {
           "common": {
@@ -440,6 +469,23 @@
           "extended": {
             "developer": "Rafael Martín",
             "publisher": "Apogee Entertainment"
+          },
+          "ufs": {
+            "maxnumfiles": "80",
+            "quota": "5000000000",
+            "savefiles": {
+              "0": {
+                "path": "HyperMegaPixel/Littlelands/Savegames",
+                "pattern": "manual-slots-*.txt",
+                "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": "HyperMegaPixel/Littlelands/Savegames",
+                "pattern": "*.hmp",
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -470,11 +516,11 @@
           }
         }
       },
-      "observed_at": "2026-11-19T04:08:44.779Z",
+      "observed_at": "2026-11-19T11:38:40.422Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-19T04:08:44.779Z"
+  "updated_at": "2026-11-19T11:38:40.422Z"
 }
