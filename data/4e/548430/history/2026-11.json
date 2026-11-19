@@ -1832,11 +1832,34 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-19T13:08:47.197Z",
+      "change_number": 41263279,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26759463",
+            "description": "Latest dev build - enter at own risk",
+            "timebuildupdated": 1795010507,
+            "timeupdated": 1795089652
+          },
+          "op": "add",
+          "path": "/depots/branches/experimental"
+        },
+        {
+          "after": "5901644150542712818",
+          "op": "add",
+          "path": "/depots/depots/548431/manifests/experimental"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41260626,
+      "change_number": 41263279,
       "data": {
         "appinfo": {
           "common": {
@@ -2193,6 +2216,12 @@
               "timebuildupdated": 1761653137,
               "timeupdated": 1761653137
             },
+            "experimental": {
+              "buildid": "26759463",
+              "description": "Latest dev build - enter at own risk",
+              "timebuildupdated": 1795010507,
+              "timeupdated": 1795089652
+            },
             "public": {
               "buildid": "26107973",
               "timebuildupdated": 1792590220,
@@ -2223,13 +2252,14 @@
               },
               "manifests": {
                 "drg_legacy": "7123581921588622483",
+                "experimental": "5901644150542712818",
                 "public": "2329711483481111034"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-19T11:38:40.422Z",
+      "observed_at": "2026-11-19T13:08:47.197Z",
       "tracked": true
     },
     "steam_store": {
@@ -2673,5 +2703,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-19T11:38:40.422Z"
+  "updated_at": "2026-11-19T13:08:47.197Z"
 }
