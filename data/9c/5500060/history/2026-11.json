@@ -523,11 +523,32 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-19T14:08:40.392Z",
+      "change_number": 41248549,
+      "changes": [
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/english"
+        },
+        {
+          "after": "true",
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese/subtitles"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41230678,
+      "change_number": 41248549,
       "data": {
         "appinfo": {
           "common": {
@@ -628,7 +649,12 @@
             "steam_release_date": "1793926898",
             "store_asset_mtime": "1795017588",
             "supported_languages": {
+              "english": {
+                "subtitles": "true",
+                "supported": "true"
+              },
               "schinese": {
+                "subtitles": "true",
                 "supported": "true"
               }
             },
@@ -671,11 +697,11 @@
           }
         }
       },
-      "observed_at": "2026-11-18T16:23:36.646Z",
+      "observed_at": "2026-11-19T14:08:40.392Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T16:23:36.646Z"
+  "updated_at": "2026-11-19T14:08:40.392Z"
 }

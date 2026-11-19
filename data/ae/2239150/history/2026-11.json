@@ -1116,11 +1116,54 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-19T14:08:40.392Z",
+      "change_number": 41265283,
+      "changes": [
+        {
+          "after": "26487600",
+          "before": "25306299",
+          "op": "replace",
+          "path": "/depots/branches/previousversionrollback/buildid"
+        },
+        {
+          "after": 1793977337,
+          "before": 1789410004,
+          "op": "replace",
+          "path": "/depots/branches/previousversionrollback/timebuildupdated"
+        },
+        {
+          "after": 1794405217,
+          "before": 1790253528,
+          "op": "replace",
+          "path": "/depots/branches/previousversionrollback/timeupdated"
+        },
+        {
+          "after": "4406826798245363643",
+          "before": "132065699055713075",
+          "op": "replace",
+          "path": "/depots/depots/2239151/manifests/previousversionrollback"
+        },
+        {
+          "after": "6534339979206415105",
+          "before": "8856992457311851910",
+          "op": "replace",
+          "path": "/depots/depots/2239152/manifests/previousversionrollback"
+        },
+        {
+          "after": "793202963824475621",
+          "op": "add",
+          "path": "/depots/depots/4822240/manifests/previousversionrollback"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41263818,
+      "change_number": 41265283,
       "data": {
         "appinfo": {
           "common": {
@@ -1431,10 +1474,10 @@
         "depots": {
           "branches": {
             "previousversionrollback": {
-              "buildid": "25306299",
+              "buildid": "26487600",
               "description": "Roll back to the previous version of Thronefall.",
-              "timebuildupdated": 1789410004,
-              "timeupdated": 1790253528
+              "timebuildupdated": 1793977337,
+              "timeupdated": 1794405217
             },
             "public": {
               "buildid": "26487600",
@@ -1457,7 +1500,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "previousversionrollback": "132065699055713075",
+                "previousversionrollback": "4406826798245363643",
                 "public": "4406826798245363643"
               }
             },
@@ -1467,7 +1510,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "previousversionrollback": "8856992457311851910",
+                "previousversionrollback": "6534339979206415105",
                 "public": "6534339979206415105"
               }
             },
@@ -1478,6 +1521,7 @@
               },
               "dlcappid": 4822240,
               "manifests": {
+                "previousversionrollback": "793202963824475621",
                 "public": "793202963824475621"
               }
             },
@@ -1492,7 +1536,7 @@
           }
         }
       },
-      "observed_at": "2026-11-19T13:38:41.814Z",
+      "observed_at": "2026-11-19T14:08:40.392Z",
       "tracked": true
     },
     "steam_store": {
@@ -1689,5 +1733,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-19T13:38:41.814Z"
+  "updated_at": "2026-11-19T14:08:40.392Z"
 }
