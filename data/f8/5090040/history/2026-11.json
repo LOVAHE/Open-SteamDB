@@ -244,11 +244,59 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-19T23:53:38.870Z",
+      "change_number": 41282938,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": "F(r)ictions Ludiques/Space Catnips/ES3",
+          "before": "F(r)ictions Ludiques/Space Catnips",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/path"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/0/recursive"
+        },
+        {
+          "after": "26798610",
+          "before": "26731753",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795131779,
+          "before": 1794922851,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795131884,
+          "before": 1794922917,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4850433778016579357",
+          "before": "5910057012609270000",
+          "op": "replace",
+          "path": "/depots/depots/5090041/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41115995,
+      "change_number": 41282938,
       "data": {
         "appinfo": {
           "common": {
@@ -265,6 +313,7 @@
             "category": {
               "category_2": "1",
               "category_22": "1",
+              "category_23": "1",
               "category_62": "1",
               "category_68": "1",
               "category_74": "1",
@@ -391,8 +440,9 @@
             "quota": "400000000",
             "savefiles": {
               "0": {
-                "path": "F(r)ictions Ludiques/Space Catnips",
+                "path": "F(r)ictions Ludiques/Space Catnips/ES3",
                 "pattern": "*.es3",
+                "recursive": "1",
                 "root": "WinAppDataLocalLow"
               }
             }
@@ -401,25 +451,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26731753",
-              "timebuildupdated": 1794922851,
-              "timeupdated": 1794922917
+              "buildid": "26798610",
+              "timebuildupdated": 1795131779,
+              "timeupdated": 1795131884
             }
           },
           "depots": {
             "5090041": {
               "manifests": {
-                "public": "5910057012609270000"
+                "public": "4850433778016579357"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-17T13:53:27.890Z",
+      "observed_at": "2026-11-19T23:53:38.870Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T13:53:27.890Z"
+  "updated_at": "2026-11-19T23:53:38.870Z"
 }
