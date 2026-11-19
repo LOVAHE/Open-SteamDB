@@ -624,11 +624,87 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-19T07:08:40.676Z",
+      "change_number": 41252810,
+      "changes": [
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/brazilian"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/french"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/indonesian"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/ukrainian"
+        },
+        {
+          "after": "4786460,4817460,4817500,4817520,4817540,4817550,4817640,4817650,4817660,4817670,4817680,4817690,4817770,4817780,4817790,4817800,4817810,4817820,4817880,4817890,4817900,4817910,4817920,4817930,4817980,4817990,4818000,4818010,4818020,4818030",
+          "before": "4786460,4817460,4817500,4817550,4817660,4817670,4817680,4817690,4817790,4817800,4817810,4817820,4817900,4817910,4817920,4817930,4818000,4818010,4818020,4818030",
+          "op": "replace",
+          "path": "/appinfo/extended/listofdlc"
+        },
+        {
+          "after": "26753146",
+          "before": "26708098",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794992545,
+          "before": 1794848171,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795070471,
+          "before": 1794848171,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6320584232202133152",
+          "before": "9164742455905000321",
+          "op": "replace",
+          "path": "/depots/depots/3232691/manifests/public"
+        },
+        {
+          "after": "7603055453396036964",
+          "before": "7015713778156905190",
+          "op": "replace",
+          "path": "/depots/depots/3232692/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41245579,
+      "change_number": 41252810,
       "data": {
         "appinfo": {
           "common": {
@@ -761,11 +837,23 @@
               "19": "4182"
             },
             "supported_languages": {
+              "brazilian": {
+                "subtitles": "true",
+                "supported": "true"
+              },
               "english": {
                 "subtitles": "true",
                 "supported": "true"
               },
+              "french": {
+                "subtitles": "true",
+                "supported": "true"
+              },
               "german": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "indonesian": {
                 "subtitles": "true",
                 "supported": "true"
               },
@@ -793,6 +881,10 @@
               "tchinese": {
                 "subtitles": "true",
                 "supported": "true"
+              },
+              "ukrainian": {
+                "subtitles": "true",
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -803,7 +895,7 @@
           "extended": {
             "developer": "Accelix",
             "homepage": "https://accelixgames.com/",
-            "listofdlc": "4786460,4817460,4817500,4817550,4817660,4817670,4817680,4817690,4817790,4817800,4817810,4817820,4817900,4817910,4817920,4817930,4818000,4818010,4818020,4818030",
+            "listofdlc": "4786460,4817460,4817500,4817520,4817540,4817550,4817640,4817650,4817660,4817670,4817680,4817690,4817770,4817780,4817790,4817800,4817810,4817820,4817880,4817890,4817900,4817910,4817920,4817930,4817980,4817990,4818000,4818010,4818020,4818030",
             "publisher": "Accelix"
           },
           "ufs": {
@@ -835,9 +927,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26708098",
-              "timebuildupdated": 1794848171,
-              "timeupdated": 1794848171
+              "buildid": "26753146",
+              "timebuildupdated": 1794992545,
+              "timeupdated": 1795070471
             }
           },
           "depots": {
@@ -846,7 +938,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "9164742455905000321"
+                "public": "6320584232202133152"
               }
             },
             "3232692": {
@@ -854,7 +946,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "7015713778156905190"
+                "public": "7603055453396036964"
               }
             },
             "3232693": {
@@ -866,11 +958,11 @@
           }
         }
       },
-      "observed_at": "2026-11-19T04:08:44.779Z",
+      "observed_at": "2026-11-19T07:08:40.676Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-19T04:08:44.779Z"
+  "updated_at": "2026-11-19T07:08:40.676Z"
 }
