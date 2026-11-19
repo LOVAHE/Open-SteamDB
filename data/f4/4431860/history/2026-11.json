@@ -359,11 +359,35 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-19T13:38:41.814Z",
+      "change_number": 41263005,
+      "changes": [
+        {
+          "after": "90",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "5340700,5340710,5340720,5340730",
+          "before": "5340700,5340710,5340730",
+          "op": "replace",
+          "path": "/appinfo/extended/listofdlc"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41202128,
+      "change_number": 41263005,
       "data": {
         "appinfo": {
           "common": {
@@ -456,6 +480,8 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "3",
+            "review_percentage": "90",
+            "review_score": "7",
             "small_capsule": {
               "english": "b79e4df6c171dba46925f2aeab35c2ac2248ea64/capsule_231x87.jpg"
             },
@@ -512,7 +538,7 @@
           },
           "extended": {
             "developer": "Crit42 Studio",
-            "listofdlc": "5340700,5340710,5340730",
+            "listofdlc": "5340700,5340710,5340720,5340730",
             "publisher": "Crit42 Studio"
           },
           "ufs": {
@@ -545,11 +571,11 @@
           }
         }
       },
-      "observed_at": "2026-11-18T07:08:40.875Z",
+      "observed_at": "2026-11-19T13:38:41.814Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T07:08:40.875Z"
+  "updated_at": "2026-11-19T13:38:41.814Z"
 }
