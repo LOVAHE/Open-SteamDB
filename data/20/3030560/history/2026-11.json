@@ -285,11 +285,27 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-19T14:23:32.759Z",
+      "change_number": 41265996,
+      "changes": [
+        {
+          "before": {
+            "osarch": "64",
+            "oslist": "windows"
+          },
+          "op": "remove",
+          "path": "/depots/depots/3030561/config"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41183913,
+      "change_number": 41265996,
       "data": {
         "appinfo": {
           "common": {
@@ -488,10 +504,6 @@
               "sharedinstall": true
             },
             "3030561": {
-              "config": {
-                "osarch": "64",
-                "oslist": "windows"
-              },
               "manifests": {
                 "pre-release": "8094104720111588958",
                 "public": "8094104720111588958"
@@ -500,11 +512,11 @@
           }
         }
       },
-      "observed_at": "2026-11-17T21:24:01.864Z",
+      "observed_at": "2026-11-19T14:23:32.759Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T21:24:01.864Z"
+  "updated_at": "2026-11-19T14:23:32.759Z"
 }
