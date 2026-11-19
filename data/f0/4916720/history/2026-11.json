@@ -239,11 +239,127 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-19T22:38:46.736Z",
+      "change_number": 41281099,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/french"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/german"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/koreana"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/russian"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/schinese"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/languages/spanish"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/french"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/german"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/koreana"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/spanish"
+        },
+        {
+          "after": "26784183",
+          "before": "25867312",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795090240,
+          "before": 1791740840,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795127723,
+          "before": 1791742457,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3567692781811187710",
+          "before": "4742091816522509749",
+          "op": "replace",
+          "path": "/depots/depots/4916722/manifests/public"
+        },
+        {
+          "after": "112014419005784857",
+          "before": "7948084912400031878",
+          "op": "replace",
+          "path": "/depots/depots/4916723/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41261592,
+      "change_number": 41281099,
       "data": {
         "appinfo": {
           "common": {
@@ -286,7 +402,13 @@
             "icon": "7e95cca4edd73d7f8625436ee7afca6df5930853",
             "languages": {
               "english": "1",
-              "japanese": "1"
+              "french": "1",
+              "german": "1",
+              "japanese": "1",
+              "koreana": "1",
+              "russian": "1",
+              "schinese": "1",
+              "spanish": "1"
             },
             "library_assets": {
               "library_capsule": "en",
@@ -381,7 +503,31 @@
                 "full_audio": "true",
                 "supported": "true"
               },
+              "french": {
+                "full_audio": "true",
+                "supported": "true"
+              },
+              "german": {
+                "full_audio": "true",
+                "supported": "true"
+              },
               "japanese": {
+                "full_audio": "true",
+                "supported": "true"
+              },
+              "koreana": {
+                "full_audio": "true",
+                "supported": "true"
+              },
+              "russian": {
+                "full_audio": "true",
+                "supported": "true"
+              },
+              "schinese": {
+                "full_audio": "true",
+                "supported": "true"
+              },
+              "spanish": {
                 "full_audio": "true",
                 "supported": "true"
               }
@@ -404,9 +550,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "25867312",
-              "timebuildupdated": 1791740840,
-              "timeupdated": 1791742457
+              "buildid": "26784183",
+              "timebuildupdated": 1795090240,
+              "timeupdated": 1795127723
             }
           },
           "depots": {
@@ -419,7 +565,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "4742091816522509749"
+                "public": "3567692781811187710"
               }
             },
             "4916723": {
@@ -428,17 +574,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "7948084912400031878"
+                "public": "112014419005784857"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-19T13:38:41.814Z",
+      "observed_at": "2026-11-19T22:38:46.736Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-19T13:38:41.814Z"
+  "updated_at": "2026-11-19T22:38:46.736Z"
 }
