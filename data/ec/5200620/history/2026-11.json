@@ -760,11 +760,54 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-19T10:38:47.268Z",
+      "change_number": 41258288,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": "26779204",
+          "before": "26760638",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795075979,
+          "before": 1795013528,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795078602,
+          "before": 1795013637,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1656472469614016389",
+          "before": "3117394212363451549",
+          "op": "replace",
+          "path": "/depots/depots/5200621/manifests/public"
+        },
+        {
+          "after": "4034772824397314267",
+          "before": "5473997738026071108",
+          "op": "replace",
+          "path": "/depots/depots/5200622/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41227727,
+      "change_number": 41258288,
       "data": {
         "appinfo": {
           "common": {
@@ -1021,7 +1064,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "Dungeonbound"
@@ -1045,9 +1089,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26760638",
-              "timebuildupdated": 1795013528,
-              "timeupdated": 1795013637
+              "buildid": "26779204",
+              "timebuildupdated": 1795075979,
+              "timeupdated": 1795078602
             }
           },
           "depots": {
@@ -1056,7 +1100,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "3117394212363451549"
+                "public": "1656472469614016389"
               }
             },
             "5200622": {
@@ -1064,17 +1108,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "5473997738026071108"
+                "public": "4034772824397314267"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-18T15:08:59.565Z",
+      "observed_at": "2026-11-19T10:38:47.268Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T15:08:59.565Z"
+  "updated_at": "2026-11-19T10:38:47.268Z"
 }

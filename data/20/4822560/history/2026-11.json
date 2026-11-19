@@ -778,11 +778,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-19T10:38:47.268Z",
+      "change_number": 41256095,
+      "changes": [
+        {
+          "after": "72",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "6",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": {
+            "maxnumfiles": "256",
+            "quota": "104857600",
+            "savefiles": {
+              "0": {
+                "path": "\tcatsintheshell/Saved/SaveGames",
+                "pattern": "*.sav",
+                "root": "WinAppDataLocal"
+              },
+              "1": {
+                "path": "\tcatsintheshell/Saved/OfflinePvpProfile",
+                "pattern": "offline_pvp_profile_*.json",
+                "root": "WinAppDataLocal"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41202128,
+      "change_number": 41256095,
       "data": {
         "appinfo": {
           "common": {
@@ -890,6 +928,8 @@
             "oslist": "windows",
             "parent": "4688400",
             "primary_genre": "1",
+            "review_percentage": "72",
+            "review_score": "6",
             "small_capsule": {
               "english": "69fc8165db415322f5a907bc3fc0a5cb6055a8bf/capsule_231x87.jpg",
               "schinese": "2e19045c36205cb57eb25de9e2947db899f21365/capsule_231x87_schinese.jpg"
@@ -950,6 +990,22 @@
           "extended": {
             "developer": "Raven Studio",
             "publisher": "Infini Fun"
+          },
+          "ufs": {
+            "maxnumfiles": "256",
+            "quota": "104857600",
+            "savefiles": {
+              "0": {
+                "path": "\tcatsintheshell/Saved/SaveGames",
+                "pattern": "*.sav",
+                "root": "WinAppDataLocal"
+              },
+              "1": {
+                "path": "\tcatsintheshell/Saved/OfflinePvpProfile",
+                "pattern": "offline_pvp_profile_*.json",
+                "root": "WinAppDataLocal"
+              }
+            }
           }
         },
         "depots": {
@@ -985,7 +1041,7 @@
           }
         }
       },
-      "observed_at": "2026-11-18T07:38:43.367Z",
+      "observed_at": "2026-11-19T10:38:47.268Z",
       "tracked": true
     },
     "steam_store": {
@@ -1194,5 +1250,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T07:38:43.367Z"
+  "updated_at": "2026-11-19T10:38:47.268Z"
 }
