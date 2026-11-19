@@ -422,11 +422,32 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-19T21:38:39.197Z",
+      "change_number": 41279415,
+      "changes": [
+        {
+          "after": "5576590",
+          "op": "add",
+          "path": "/appinfo/extended/listofdlc"
+        },
+        {
+          "after": {
+            "dlcappid": 5576590,
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5576590"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40833666,
+      "change_number": 41279415,
       "data": {
         "appinfo": {
           "common": {
@@ -624,6 +645,7 @@
           "extended": {
             "developer": "autotroph games",
             "homepage": "https://www.autotrophgames.com/",
+            "listofdlc": "5576590",
             "publisher": "autotroph games"
           },
           "ufs": {
@@ -671,15 +693,19 @@
               "manifests": {
                 "public": "3730898852212676396"
               }
+            },
+            "5576590": {
+              "dlcappid": 5576590,
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-11T13:23:20.664Z",
+      "observed_at": "2026-11-19T21:38:39.197Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T13:23:20.664Z"
+  "updated_at": "2026-11-19T21:38:39.197Z"
 }
