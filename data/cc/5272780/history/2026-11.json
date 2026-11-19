@@ -338,11 +338,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-19T20:38:42.221Z",
+      "change_number": 41277744,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26794687",
+            "description": "EA 0.1 - Private Release Testing",
+            "timebuildupdated": 1795119202,
+            "timeupdated": 1795119647
+          },
+          "op": "remove",
+          "path": "/depots/branches/ea01testing"
+        },
+        {
+          "after": "26794687",
+          "before": "25468962",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795119202,
+          "before": 1790113065,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795120298,
+          "before": 1790113175,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": "6621124277752312317",
+          "op": "remove",
+          "path": "/depots/depots/5272781/manifests/ea01testing"
+        },
+        {
+          "after": "6621124277752312317",
+          "before": "7025084146522082192",
+          "op": "replace",
+          "path": "/depots/depots/5272781/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41277437,
+      "change_number": 41277744,
       "data": {
         "appinfo": {
           "common": {
@@ -476,33 +523,26 @@
         },
         "depots": {
           "branches": {
-            "ea01testing": {
-              "buildid": "26794687",
-              "description": "EA 0.1 - Private Release Testing",
-              "timebuildupdated": 1795119202,
-              "timeupdated": 1795119647
-            },
             "public": {
-              "buildid": "25468962",
-              "timebuildupdated": 1790113065,
-              "timeupdated": 1790113175
+              "buildid": "26794687",
+              "timebuildupdated": 1795119202,
+              "timeupdated": 1795120298
             }
           },
           "depots": {
             "5272781": {
               "manifests": {
-                "ea01testing": "6621124277752312317",
-                "public": "7025084146522082192"
+                "public": "6621124277752312317"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-19T20:23:26.342Z",
+      "observed_at": "2026-11-19T20:38:42.221Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-19T20:23:26.342Z"
+  "updated_at": "2026-11-19T20:38:42.221Z"
 }
