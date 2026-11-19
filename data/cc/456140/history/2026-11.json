@@ -466,11 +466,43 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-19T19:53:25.787Z",
+      "change_number": 41276689,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "3",
+            "quota": "50000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "Windows",
+                "oscompare": "=",
+                "root": "gameinstall",
+                "useinstead": "gameinstall"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "SavesDir",
+                "pattern": "*.sav",
+                "root": "gameinstall"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41027071,
+      "change_number": 41276689,
       "data": {
         "appinfo": {
           "common": {
@@ -660,6 +692,26 @@
             "developer": "Polycast Labs",
             "homepage": "https://polycastlabs.com/presskit/bobo/",
             "publisher": "Polycast Labs"
+          },
+          "ufs": {
+            "maxnumfiles": "3",
+            "quota": "50000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "Windows",
+                "oscompare": "=",
+                "root": "gameinstall",
+                "useinstead": "gameinstall"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "SavesDir",
+                "pattern": "*.sav",
+                "root": "gameinstall"
+              }
+            }
           }
         },
         "depots": {
@@ -683,11 +735,11 @@
           }
         }
       },
-      "observed_at": "2026-11-16T20:23:30.373Z",
+      "observed_at": "2026-11-19T19:53:25.787Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T20:23:30.373Z"
+  "updated_at": "2026-11-19T19:53:25.787Z"
 }
