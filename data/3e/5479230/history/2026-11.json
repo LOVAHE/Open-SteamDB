@@ -239,11 +239,34 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T05:53:36.725Z",
+      "change_number": 41290106,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26803607",
+            "description": "V38 修复版（修复巴黎主线卡死、画质降级、室内黑屏、手机维修、摆摊火候条等）",
+            "timebuildupdated": 1795151128,
+            "timeupdated": 1795153340
+          },
+          "op": "add",
+          "path": "/depots/branches/hotfix"
+        },
+        {
+          "after": "1755613656119959132",
+          "op": "add",
+          "path": "/depots/depots/5479231/manifests/hotfix"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41112703,
+      "change_number": 41290106,
       "data": {
         "appinfo": {
           "common": {
@@ -407,6 +430,12 @@
         },
         "depots": {
           "branches": {
+            "hotfix": {
+              "buildid": "26803607",
+              "description": "V38 修复版（修复巴黎主线卡死、画质降级、室内黑屏、手机维修、摆摊火候条等）",
+              "timebuildupdated": 1795151128,
+              "timeupdated": 1795153340
+            },
             "public": {
               "buildid": "26605854",
               "timebuildupdated": 1794446388,
@@ -424,17 +453,18 @@
             },
             "5479231": {
               "manifests": {
+                "hotfix": "1755613656119959132",
                 "public": "4225801712828468120"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-17T12:08:35.333Z",
+      "observed_at": "2026-11-20T05:53:36.725Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T12:08:35.333Z"
+  "updated_at": "2026-11-20T05:53:36.725Z"
 }
