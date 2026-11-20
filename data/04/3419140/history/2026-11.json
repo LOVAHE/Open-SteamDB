@@ -617,11 +617,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T16:23:44.951Z",
+      "change_number": 41308197,
+      "changes": [
+        {
+          "after": "26816156",
+          "before": "26744120",
+          "op": "replace",
+          "path": "/depots/branches/beta-testing/buildid"
+        },
+        {
+          "after": 1795191431,
+          "before": 1794958414,
+          "op": "replace",
+          "path": "/depots/branches/beta-testing/timebuildupdated"
+        },
+        {
+          "after": 1795191524,
+          "before": 1794958487,
+          "op": "replace",
+          "path": "/depots/branches/beta-testing/timeupdated"
+        },
+        {
+          "after": "3493187589976703227",
+          "before": "5560918290731368067",
+          "op": "replace",
+          "path": "/depots/depots/3419141/manifests/beta-testing"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41202561,
+      "change_number": 41308197,
       "data": {
         "appinfo": {
           "common": {
@@ -894,10 +926,10 @@
               "timeupdated": 1792531076
             },
             "beta-testing": {
-              "buildid": "26744120",
+              "buildid": "26816156",
               "description": "Unstable (might contain save-breaking issues) version of the game",
-              "timebuildupdated": 1794958414,
-              "timeupdated": 1794958487
+              "timebuildupdated": 1795191431,
+              "timeupdated": 1795191524
             },
             "public": {
               "buildid": "26228636",
@@ -909,14 +941,14 @@
             "3419141": {
               "manifests": {
                 "backup": "8778810873106383590",
-                "beta-testing": "5560918290731368067",
+                "beta-testing": "3493187589976703227",
                 "public": "3207727173309303286"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-17T23:38:42.679Z",
+      "observed_at": "2026-11-20T16:23:44.951Z",
       "tracked": true
     },
     "steam_store": {
@@ -1124,5 +1156,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T23:38:42.679Z"
+  "updated_at": "2026-11-20T16:23:44.951Z"
 }
