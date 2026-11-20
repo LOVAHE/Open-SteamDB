@@ -683,11 +683,54 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T17:23:30.387Z",
+      "change_number": 41310094,
+      "changes": [
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26817008",
+          "before": "26291155",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795193930,
+          "before": 1793258290,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795195078,
+          "before": 1793258477,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6921380016599267688",
+          "before": "943826164975014388",
+          "op": "replace",
+          "path": "/depots/depots/5360031/manifests/public"
+        },
+        {
+          "after": "1171906450133920549",
+          "op": "add",
+          "path": "/depots/depots/5360032/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41309599,
+      "change_number": 41310094,
       "data": {
         "appinfo": {
           "common": {
@@ -783,7 +826,7 @@
             "name": "Holy Panties in Another World Demo",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,linux",
             "parent": "5150780",
             "primary_genre": "1",
             "small_capsule": {
@@ -830,9 +873,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26291155",
-              "timebuildupdated": 1793258290,
-              "timeupdated": 1793258477
+              "buildid": "26817008",
+              "timebuildupdated": 1795193930,
+              "timeupdated": 1795195078
             },
             "test-branch": {
               "buildid": "26817008",
@@ -847,7 +890,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "943826164975014388",
+                "public": "6921380016599267688",
                 "test-branch": "6921380016599267688"
               }
             },
@@ -856,17 +899,18 @@
                 "oslist": "linux"
               },
               "manifests": {
+                "public": "1171906450133920549",
                 "test-branch": "1171906450133920549"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-20T17:08:35.477Z",
+      "observed_at": "2026-11-20T17:23:30.387Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T17:08:35.477Z"
+  "updated_at": "2026-11-20T17:23:30.387Z"
 }
