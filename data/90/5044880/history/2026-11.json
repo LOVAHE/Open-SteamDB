@@ -332,11 +332,28 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T06:08:44.570Z",
+      "change_number": 41290434,
+      "changes": [
+        {
+          "after": {
+            "path": "Godot/app_userdata/SpindleDrift",
+            "pattern": "slot_*.json",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/1"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41275802,
+      "change_number": 41290434,
       "data": {
         "appinfo": {
           "common": {
@@ -491,6 +508,11 @@
                 "path": "Godot/app_userdata/SpindleDrift",
                 "pattern": "save.json",
                 "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/SpindleDrift",
+                "pattern": "slot_*.json",
+                "root": "WinAppDataRoaming"
               }
             }
           }
@@ -512,11 +534,11 @@
           }
         }
       },
-      "observed_at": "2026-11-19T19:24:01.264Z",
+      "observed_at": "2026-11-20T06:08:44.570Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-19T19:24:01.264Z"
+  "updated_at": "2026-11-20T06:08:44.570Z"
 }
