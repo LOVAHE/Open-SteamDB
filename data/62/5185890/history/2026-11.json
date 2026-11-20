@@ -412,11 +412,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T03:08:41.557Z",
+      "change_number": 41283713,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26799228",
+            "description": "May be buggy - Update 2 - Preview",
+            "timebuildupdated": 1795134100,
+            "timeupdated": 1795134138
+          },
+          "op": "add",
+          "path": "/depots/branches/beta-v0.44.0"
+        },
+        {
+          "after": "8325144546298665731",
+          "op": "add",
+          "path": "/depots/depots/5185891/manifests/beta-v0.44.0"
+        },
+        {
+          "after": "3305353588419870318",
+          "op": "add",
+          "path": "/depots/depots/5185892/manifests/beta-v0.44.0"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41250894,
+      "change_number": 41283713,
       "data": {
         "appinfo": {
           "common": {
@@ -620,6 +648,12 @@
         },
         "depots": {
           "branches": {
+            "beta-v0.44.0": {
+              "buildid": "26799228",
+              "description": "May be buggy - Update 2 - Preview",
+              "timebuildupdated": 1795134100,
+              "timeupdated": 1795134138
+            },
             "old-version-launch": {
               "buildid": "26647378",
               "description": "Old Version - launch day",
@@ -641,6 +675,7 @@
           "depots": {
             "5185891": {
               "manifests": {
+                "beta-v0.44.0": "8325144546298665731",
                 "old-version-launch": "8046531890728940811",
                 "public": "5786402641882236394",
                 "test-mac-version": "1412627750589258986"
@@ -651,17 +686,18 @@
                 "oslist": "macos"
               },
               "manifests": {
+                "beta-v0.44.0": "3305353588419870318",
                 "test-mac-version": "8625706329593101781"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-19T10:38:47.268Z",
+      "observed_at": "2026-11-20T03:08:41.557Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-19T10:38:47.268Z"
+  "updated_at": "2026-11-20T03:08:41.557Z"
 }
