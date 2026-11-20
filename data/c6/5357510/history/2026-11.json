@@ -309,11 +309,44 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T22:38:51.053Z",
+      "change_number": 41318633,
+      "changes": [
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "osarch": "64",
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/5357511/config"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "linux"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5357512"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41023534,
+      "change_number": 41318633,
       "data": {
         "appinfo": {
           "common": {
@@ -413,7 +446,7 @@
             "name": "Stellar Ascendancy",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,linux",
             "primary_genre": "2",
             "small_capsule": {
               "english": "68ab539167d35d696997d722c5eb789d35c9f32a/capsule_231x87.jpg"
@@ -474,19 +507,30 @@
           },
           "depots": {
             "5357511": {
+              "config": {
+                "osarch": "64",
+                "oslist": "windows"
+              },
               "manifests": {
                 "candidate-0.9.2": "3273465499681894929",
                 "public": "216351309622093172"
               }
+            },
+            "5357512": {
+              "config": {
+                "osarch": "64",
+                "oslist": "linux"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-16T20:08:26.604Z",
+      "observed_at": "2026-11-20T22:38:51.053Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T20:08:26.604Z"
+  "updated_at": "2026-11-20T22:38:51.053Z"
 }
