@@ -1,8 +1,8 @@
 {
   "appid": 2591160,
   "source": "steam_pics",
-  "updated_at": "2026-11-20T14:23:49.664Z",
-  "change_number": 41303716,
+  "updated_at": "2026-11-20T23:23:43.711Z",
+  "change_number": 41319651,
   "data": {
     "common": {
       "associations": {
@@ -136,6 +136,41 @@
     },
     "config": {
       "installdir": "Idle Rocket Miner"
+    },
+    "ufs": {
+      "maxnumfiles": "1000",
+      "quota": "100000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "Windows",
+          "oscompare": "=",
+          "root": "gameinstall",
+          "useinstead": "WinAppDataLocalLow"
+        },
+        "1": {
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "gameinstall",
+          "useinstead": "MacAppSupport"
+        },
+        "2": {
+          "addpath": "unity3d/",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "gameinstall",
+          "useinstead": "LinuxXdgConfigHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Ogress Tech/Idle Rocket Miner/cloud",
+          "pattern": "*",
+          "recursive": "1",
+          "root": "gameinstall"
+        }
+      }
     }
   }
 }
