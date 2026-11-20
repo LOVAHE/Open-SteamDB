@@ -342,11 +342,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T22:53:38.743Z",
+      "change_number": 41318827,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26823352",
+            "description": "v1.1.0 localization and native Linux beta",
+            "timebuildupdated": 1795214129,
+            "timeupdated": 1795214533
+          },
+          "op": "add",
+          "path": "/depots/branches/localization-beta"
+        },
+        {
+          "after": "4651385635465279566",
+          "op": "add",
+          "path": "/depots/depots/5357511/manifests/localization-beta"
+        },
+        {
+          "after": "1024243850660216460",
+          "op": "add",
+          "path": "/depots/depots/5357512/manifests/localization-beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41318633,
+      "change_number": 41318827,
       "data": {
         "appinfo": {
           "common": {
@@ -499,6 +527,12 @@
               "timebuildupdated": 1792767795,
               "timeupdated": 1792768114
             },
+            "localization-beta": {
+              "buildid": "26823352",
+              "description": "v1.1.0 localization and native Linux beta",
+              "timebuildupdated": 1795214129,
+              "timeupdated": 1795214533
+            },
             "public": {
               "buildid": "26706696",
               "timebuildupdated": 1794844740,
@@ -513,6 +547,7 @@
               },
               "manifests": {
                 "candidate-0.9.2": "3273465499681894929",
+                "localization-beta": "4651385635465279566",
                 "public": "216351309622093172"
               }
             },
@@ -521,16 +556,18 @@
                 "osarch": "64",
                 "oslist": "linux"
               },
-              "manifests": {}
+              "manifests": {
+                "localization-beta": "1024243850660216460"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-20T22:38:51.053Z",
+      "observed_at": "2026-11-20T22:53:38.743Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T22:38:51.053Z"
+  "updated_at": "2026-11-20T22:53:38.743Z"
 }
