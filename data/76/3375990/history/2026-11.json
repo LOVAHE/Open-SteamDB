@@ -2751,11 +2751,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T03:38:42.897Z",
+      "change_number": 41287511,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26698516",
+            "description": "0.1.20 version",
+            "timebuildupdated": 1794821250,
+            "timeupdated": 1794822828
+          },
+          "op": "add",
+          "path": "/depots/branches/0.1.20"
+        },
+        {
+          "after": "26707289",
+          "before": "26698516",
+          "op": "replace",
+          "path": "/depots/branches/previous/buildid"
+        },
+        {
+          "after": 1794846224,
+          "before": 1794821250,
+          "op": "replace",
+          "path": "/depots/branches/previous/timebuildupdated"
+        },
+        {
+          "after": 1794847248,
+          "before": 1794822828,
+          "op": "replace",
+          "path": "/depots/branches/previous/timeupdated"
+        },
+        {
+          "after": "457777720022009400",
+          "op": "add",
+          "path": "/depots/depots/3375991/manifests/0.1.20"
+        },
+        {
+          "after": "3454498970460109952",
+          "before": "457777720022009400",
+          "op": "replace",
+          "path": "/depots/depots/3375991/manifests/previous"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41260329,
+      "change_number": 41287511,
       "data": {
         "appinfo": {
           "common": {
@@ -3032,6 +3079,12 @@
               "timebuildupdated": 1794736152,
               "timeupdated": 1794737729
             },
+            "0.1.20": {
+              "buildid": "26698516",
+              "description": "0.1.20 version",
+              "timebuildupdated": 1794821250,
+              "timeupdated": 1794822828
+            },
             "0.1.8": {
               "buildid": "26361481",
               "description": "0.1.8 version",
@@ -3045,10 +3098,10 @@
               "timeupdated": 1795087202
             },
             "previous": {
-              "buildid": "26698516",
+              "buildid": "26707289",
               "description": "Previous version - 이전 버전",
-              "timebuildupdated": 1794821250,
-              "timeupdated": 1794822828
+              "timebuildupdated": 1794846224,
+              "timeupdated": 1794847248
             },
             "public": {
               "buildid": "26783031",
@@ -3085,20 +3138,21 @@
                 "0.1.17": "6350081818690306084",
                 "0.1.18": "8811419081216428009",
                 "0.1.19": "4362112974976232120",
+                "0.1.20": "457777720022009400",
                 "0.1.8": "98091194238391071",
                 "preview": "6365158818739854825",
-                "previous": "457777720022009400",
+                "previous": "3454498970460109952",
                 "public": "6365158818739854825"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-19T12:08:38.087Z",
+      "observed_at": "2026-11-20T03:38:42.897Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-19T12:08:38.087Z"
+  "updated_at": "2026-11-20T03:38:42.897Z"
 }
