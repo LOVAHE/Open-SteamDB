@@ -238,11 +238,48 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T15:24:32.123Z",
+      "change_number": 41306174,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/community_visible_stats"
+        },
+        {
+          "after": "26814858",
+          "before": "26803893",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795187955,
+          "before": 1795152405,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795188086,
+          "before": 1795152434,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "947813335664194808",
+          "before": "3255544938797331697",
+          "op": "replace",
+          "path": "/depots/depots/5359811/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41292946,
+      "change_number": 41306174,
       "data": {
         "appinfo": {
           "common": {
@@ -269,6 +306,7 @@
             },
             "clienticon": "451ffcac5e0bed99683b85cac15f7f96b1f3b5e8",
             "community_hub_visible": "1",
+            "community_visible_stats": "1",
             "genres": {
               "0": "23",
               "1": "2"
@@ -437,9 +475,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26803893",
-              "timebuildupdated": 1795152405,
-              "timeupdated": 1795152434
+              "buildid": "26814858",
+              "timebuildupdated": 1795187955,
+              "timeupdated": 1795188086
             }
           },
           "depots": {
@@ -461,17 +499,17 @@
             },
             "5359811": {
               "manifests": {
-                "public": "3255544938797331697"
+                "public": "947813335664194808"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-20T08:23:29.166Z",
+      "observed_at": "2026-11-20T15:24:32.123Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T08:23:29.166Z"
+  "updated_at": "2026-11-20T15:24:32.123Z"
 }

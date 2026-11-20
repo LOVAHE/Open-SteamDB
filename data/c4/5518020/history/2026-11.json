@@ -280,11 +280,60 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T15:24:32.123Z",
+      "change_number": 41305836,
+      "changes": [
+        {
+          "after": "windows,macos,linux",
+          "before": "windows,macos",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26814487",
+          "before": "26796594",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795186982,
+          "before": 1795125510,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795187394,
+          "before": 1795184661,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1954481348431743737",
+          "before": "7424702329156969659",
+          "op": "replace",
+          "path": "/depots/depots/5518021/manifests/public"
+        },
+        {
+          "after": "2473806093168094420",
+          "before": "5961861564080820529",
+          "op": "replace",
+          "path": "/depots/depots/5518022/manifests/public"
+        },
+        {
+          "after": "6901463824540894785",
+          "op": "add",
+          "path": "/depots/depots/5518023/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41304240,
+      "change_number": 41305836,
       "data": {
         "appinfo": {
           "common": {
@@ -374,7 +423,7 @@
             "name": "Red Eye Empire",
             "osarch": "",
             "osextended": "macos64,macosapplesilicon",
-            "oslist": "windows,macos",
+            "oslist": "windows,macos,linux",
             "primary_genre": "37",
             "small_capsule": {
               "english": "b1c350c4379d7ff6768c86406c466957e733de03/capsule_231x87.jpg"
@@ -478,9 +527,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26796594",
-              "timebuildupdated": 1795125510,
-              "timeupdated": 1795184661
+              "buildid": "26814487",
+              "timebuildupdated": 1795186982,
+              "timeupdated": 1795187394
             }
           },
           "depots": {
@@ -489,7 +538,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "7424702329156969659"
+                "public": "1954481348431743737"
               }
             },
             "5518022": {
@@ -497,7 +546,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "5961861564080820529"
+                "public": "2473806093168094420"
               }
             },
             "5518023": {
@@ -505,16 +554,18 @@
                 "osarch": "64",
                 "oslist": "linux"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "6901463824540894785"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-20T14:38:57.083Z",
+      "observed_at": "2026-11-20T15:24:32.123Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T14:38:57.083Z"
+  "updated_at": "2026-11-20T15:24:32.123Z"
 }
