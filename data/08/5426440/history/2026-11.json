@@ -369,11 +369,44 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T20:38:34.156Z",
+      "change_number": 41315388,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26819688",
+            "description": "3.0.17 test",
+            "timebuildupdated": 1795201804,
+            "timeupdated": 1795202221
+          },
+          "op": "remove",
+          "path": "/depots/branches/test3017"
+        },
+        {
+          "before": "5942350066160785115",
+          "op": "remove",
+          "path": "/depots/depots/5426441/manifests/test3017"
+        },
+        {
+          "before": "8009522955506652353",
+          "op": "remove",
+          "path": "/depots/depots/5426442/manifests/test3017"
+        },
+        {
+          "before": "4390704832007280701",
+          "op": "remove",
+          "path": "/depots/depots/5426443/manifests/test3017"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41315351,
+      "change_number": 41315388,
       "data": {
         "appinfo": {
           "common": {
@@ -495,12 +528,6 @@
               "buildid": "26819688",
               "timebuildupdated": 1795201804,
               "timeupdated": 1795206212
-            },
-            "test3017": {
-              "buildid": "26819688",
-              "description": "3.0.17 test",
-              "timebuildupdated": 1795201804,
-              "timeupdated": 1795202221
             }
           },
           "depots": {
@@ -509,8 +536,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "5942350066160785115",
-                "test3017": "5942350066160785115"
+                "public": "5942350066160785115"
               }
             },
             "5426442": {
@@ -518,8 +544,7 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "8009522955506652353",
-                "test3017": "8009522955506652353"
+                "public": "8009522955506652353"
               }
             },
             "5426443": {
@@ -527,18 +552,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "4390704832007280701",
-                "test3017": "4390704832007280701"
+                "public": "4390704832007280701"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-20T20:23:36.918Z",
+      "observed_at": "2026-11-20T20:38:34.156Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T20:23:36.918Z"
+  "updated_at": "2026-11-20T20:38:34.156Z"
 }
