@@ -225,11 +225,59 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T14:23:49.664Z",
+      "change_number": 41304224,
+      "changes": [
+        {
+          "after": {
+            "addpath": "",
+            "os": "Linux",
+            "oscompare": "=",
+            "root": "WinAppDataRoaming",
+            "useinstead": "LinuxXdgConfigHome"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides/1"
+        },
+        {
+          "after": "26796594",
+          "before": "26745148",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795125510,
+          "before": 1794961933,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795184661,
+          "before": 1794962378,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "linux"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5518023"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41227342,
+      "change_number": 41304224,
       "data": {
         "appinfo": {
           "common": {
@@ -392,6 +440,13 @@
                 "oscompare": "=",
                 "root": "WinAppDataRoaming",
                 "useinstead": "MacAppSupport"
+              },
+              "1": {
+                "addpath": "",
+                "os": "Linux",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgConfigHome"
               }
             },
             "savefiles": {
@@ -416,9 +471,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26745148",
-              "timebuildupdated": 1794961933,
-              "timeupdated": 1794962378
+              "buildid": "26796594",
+              "timebuildupdated": 1795125510,
+              "timeupdated": 1795184661
             }
           },
           "depots": {
@@ -437,15 +492,22 @@
               "manifests": {
                 "public": "5961861564080820529"
               }
+            },
+            "5518023": {
+              "config": {
+                "osarch": "64",
+                "oslist": "linux"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-19T17:08:41.688Z",
+      "observed_at": "2026-11-20T14:23:49.664Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-19T17:08:41.688Z"
+  "updated_at": "2026-11-20T14:23:49.664Z"
 }
