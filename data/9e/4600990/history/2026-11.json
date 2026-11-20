@@ -1130,11 +1130,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T12:53:58.246Z",
+      "change_number": 41300816,
+      "changes": [
+        {
+          "after": "26811070",
+          "before": "26758812",
+          "op": "replace",
+          "path": "/depots/branches/staging/buildid"
+        },
+        {
+          "after": 1795177607,
+          "before": 1795008610,
+          "op": "replace",
+          "path": "/depots/branches/staging/timebuildupdated"
+        },
+        {
+          "after": 1795178421,
+          "before": 1795008781,
+          "op": "replace",
+          "path": "/depots/branches/staging/timeupdated"
+        },
+        {
+          "after": "5824750044394046326",
+          "before": "2996570314558062011",
+          "op": "replace",
+          "path": "/depots/depots/4600991/manifests/staging"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41225013,
+      "change_number": 41300816,
       "data": {
         "appinfo": {
           "common": {
@@ -1388,10 +1420,10 @@
               "timeupdated": 1789378808
             },
             "staging": {
-              "buildid": "26758812",
+              "buildid": "26811070",
               "description": "Used for Staging",
-              "timebuildupdated": 1795008610,
-              "timeupdated": 1795008781
+              "timebuildupdated": 1795177607,
+              "timeupdated": 1795178421
             }
           },
           "depots": {
@@ -1399,13 +1431,13 @@
               "manifests": {
                 "public": "2996570314558062011",
                 "release": "662377765304854488",
-                "staging": "2996570314558062011"
+                "staging": "5824750044394046326"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-18T13:38:37.118Z",
+      "observed_at": "2026-11-20T12:53:58.246Z",
       "tracked": true
     },
     "steam_store": {
@@ -1682,5 +1714,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T13:38:37.118Z"
+  "updated_at": "2026-11-20T12:53:58.246Z"
 }
