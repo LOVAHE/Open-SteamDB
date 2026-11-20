@@ -282,11 +282,30 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T06:38:37.697Z",
+      "change_number": 41291048,
+      "changes": [
+        {
+          "after": "Godot/app_userdata/AdventuresGuild/guild_save/",
+          "before": "Godot/app_userdata/AdventuresGuild/guild_data/",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/path"
+        },
+        {
+          "before": "1",
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/copied_from_parent"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40863279,
+      "change_number": 41291048,
       "data": {
         "appinfo": {
           "common": {
@@ -424,11 +443,10 @@
             "quota": "100000000",
             "savefiles": {
               "0": {
-                "path": "Godot/app_userdata/AdventuresGuild/guild_data/",
+                "path": "Godot/app_userdata/AdventuresGuild/guild_save/",
                 "pattern": "*.dat",
                 "root": "WinAppDataRoaming"
-              },
-              "copied_from_parent": "1"
+              }
             }
           }
         },
@@ -457,11 +475,11 @@
           }
         }
       },
-      "observed_at": "2026-11-12T07:38:19.918Z",
+      "observed_at": "2026-11-20T06:38:37.697Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-12T07:38:19.918Z"
+  "updated_at": "2026-11-20T06:38:37.697Z"
 }
