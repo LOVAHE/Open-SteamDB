@@ -1012,11 +1012,45 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T17:08:35.477Z",
+      "change_number": 41309811,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": {
+            "maxnumfiles": "2000",
+            "quota": "500000000",
+            "savefiles": {
+              "0": {
+                "path": "CarFlipping/Saved/SaveGames",
+                "pattern": "*.sav",
+                "root": "WinAppDataLocal"
+              },
+              "1": {
+                "path": "CarFlipping/Saved/SaveGames",
+                "pattern": "*.jpg",
+                "recursive": "1",
+                "root": "WinAppDataLocal"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41285251,
+      "change_number": 41309811,
       "data": {
         "appinfo": {
           "common": {
@@ -1034,6 +1068,7 @@
               "category_1": "1",
               "category_2": "1",
               "category_22": "1",
+              "category_23": "1",
               "category_28": "1",
               "category_38": "1",
               "category_55": "1",
@@ -1285,6 +1320,23 @@
             "homepage": "https://dynyxinteractive.com",
             "listofdlc": "5527310",
             "publisher": "Dynyx Interactive Inc"
+          },
+          "ufs": {
+            "maxnumfiles": "2000",
+            "quota": "500000000",
+            "savefiles": {
+              "0": {
+                "path": "CarFlipping/Saved/SaveGames",
+                "pattern": "*.sav",
+                "root": "WinAppDataLocal"
+              },
+              "1": {
+                "path": "CarFlipping/Saved/SaveGames",
+                "pattern": "*.jpg",
+                "recursive": "1",
+                "root": "WinAppDataLocal"
+              }
+            }
           }
         },
         "depots": {
@@ -1320,11 +1372,11 @@
           }
         }
       },
-      "observed_at": "2026-11-20T03:08:41.557Z",
+      "observed_at": "2026-11-20T17:08:35.477Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T03:08:41.557Z"
+  "updated_at": "2026-11-20T17:08:35.477Z"
 }
