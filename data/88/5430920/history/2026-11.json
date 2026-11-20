@@ -890,11 +890,66 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T06:53:38.173Z",
+      "change_number": 41291455,
+      "changes": [
+        {
+          "after": "5618780",
+          "op": "add",
+          "path": "/appinfo/extended/listofdlc"
+        },
+        {
+          "after": "26804250",
+          "before": "26803495",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795154386,
+          "before": 1795150632,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795157122,
+          "before": 1795150678,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4405568689708341050",
+          "before": "6120022213754808330",
+          "op": "replace",
+          "path": "/depots/depots/5430921/manifests/public"
+        },
+        {
+          "after": "5248696159129543491",
+          "before": "7925001391616014217",
+          "op": "replace",
+          "path": "/depots/depots/5430922/manifests/public"
+        },
+        {
+          "after": "1631524255252820438",
+          "before": "8369662759906139520",
+          "op": "replace",
+          "path": "/depots/depots/5430923/manifests/public"
+        },
+        {
+          "after": "2647201155337968996",
+          "before": "1562541275022395624",
+          "op": "replace",
+          "path": "/depots/depots/5618780/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41289295,
+      "change_number": 41291455,
       "data": {
         "appinfo": {
           "common": {
@@ -1102,6 +1157,7 @@
           },
           "extended": {
             "developer": "Kingdom Labs",
+            "listofdlc": "5618780",
             "publisher": "Kingdom Labs"
           },
           "ufs": {
@@ -1154,9 +1210,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26803495",
-              "timebuildupdated": 1795150632,
-              "timeupdated": 1795150678
+              "buildid": "26804250",
+              "timebuildupdated": 1795154386,
+              "timeupdated": 1795157122
             }
           },
           "depots": {
@@ -1189,7 +1245,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "6120022213754808330"
+                "public": "4405568689708341050"
               }
             },
             "5430922": {
@@ -1197,7 +1253,7 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "7925001391616014217"
+                "public": "5248696159129543491"
               }
             },
             "5430923": {
@@ -1205,23 +1261,23 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "8369662759906139520"
+                "public": "1631524255252820438"
               }
             },
             "5618780": {
               "dlcappid": 5618780,
               "manifests": {
-                "public": "1562541275022395624"
+                "public": "2647201155337968996"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-20T05:08:26.780Z",
+      "observed_at": "2026-11-20T06:53:38.173Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T05:08:26.780Z"
+  "updated_at": "2026-11-20T06:53:38.173Z"
 }
