@@ -370,11 +370,40 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T23:08:49.509Z",
+      "change_number": 41319194,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26163461",
+            "description": "0.9.2 internal candidate",
+            "timebuildupdated": 1792767795,
+            "timeupdated": 1792768114
+          },
+          "op": "remove",
+          "path": "/depots/branches/candidate-0.9.2"
+        },
+        {
+          "after": "Windows v1.1.0 localization beta",
+          "before": "v1.1.0 localization and native Linux beta",
+          "op": "replace",
+          "path": "/depots/branches/localization-beta/description"
+        },
+        {
+          "before": "3273465499681894929",
+          "op": "remove",
+          "path": "/depots/depots/5357511/manifests/candidate-0.9.2"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41318827,
+      "change_number": 41319194,
       "data": {
         "appinfo": {
           "common": {
@@ -521,15 +550,9 @@
         },
         "depots": {
           "branches": {
-            "candidate-0.9.2": {
-              "buildid": "26163461",
-              "description": "0.9.2 internal candidate",
-              "timebuildupdated": 1792767795,
-              "timeupdated": 1792768114
-            },
             "localization-beta": {
               "buildid": "26823352",
-              "description": "v1.1.0 localization and native Linux beta",
+              "description": "Windows v1.1.0 localization beta",
               "timebuildupdated": 1795214129,
               "timeupdated": 1795214533
             },
@@ -546,7 +569,6 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "candidate-0.9.2": "3273465499681894929",
                 "localization-beta": "4651385635465279566",
                 "public": "216351309622093172"
               }
@@ -563,11 +585,11 @@
           }
         }
       },
-      "observed_at": "2026-11-20T22:53:38.743Z",
+      "observed_at": "2026-11-20T23:08:49.509Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T22:53:38.743Z"
+  "updated_at": "2026-11-20T23:08:49.509Z"
 }
