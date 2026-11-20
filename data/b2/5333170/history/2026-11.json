@@ -803,11 +803,89 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T19:38:49.390Z",
+      "change_number": 41313897,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26566699",
+            "description": "Demo 2.1.21",
+            "timebuildupdated": 1794317909,
+            "timeupdated": 1794317957
+          },
+          "op": "add",
+          "path": "/depots/branches/demo_2.1.21"
+        },
+        {
+          "after": "26819840",
+          "before": "26566699",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795202251,
+          "before": 1794317909,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795202751,
+          "before": 1794317957,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": {
+            "buildid": "26819840",
+            "description": "Branch to test new demo versions",
+            "timebuildupdated": 1795202251,
+            "timeupdated": 1795202290
+          },
+          "op": "remove",
+          "path": "/depots/branches/test_demo"
+        },
+        {
+          "after": "6428374156381429698",
+          "op": "add",
+          "path": "/depots/depots/5333171/manifests/demo_2.1.21"
+        },
+        {
+          "after": "4301549765144710861",
+          "before": "6428374156381429698",
+          "op": "replace",
+          "path": "/depots/depots/5333171/manifests/public"
+        },
+        {
+          "before": "4301549765144710861",
+          "op": "remove",
+          "path": "/depots/depots/5333171/manifests/test_demo"
+        },
+        {
+          "after": "1272178413097013049",
+          "op": "add",
+          "path": "/depots/depots/5333172/manifests/demo_2.1.21"
+        },
+        {
+          "after": "2689420124838727662",
+          "before": "1272178413097013049",
+          "op": "replace",
+          "path": "/depots/depots/5333172/manifests/public"
+        },
+        {
+          "before": "2689420124838727662",
+          "op": "remove",
+          "path": "/depots/depots/5333172/manifests/test_demo"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41313673,
+      "change_number": 41313897,
       "data": {
         "appinfo": {
           "common": {
@@ -949,16 +1027,16 @@
         },
         "depots": {
           "branches": {
-            "public": {
+            "demo_2.1.21": {
               "buildid": "26566699",
+              "description": "Demo 2.1.21",
               "timebuildupdated": 1794317909,
               "timeupdated": 1794317957
             },
-            "test_demo": {
+            "public": {
               "buildid": "26819840",
-              "description": "Branch to test new demo versions",
               "timebuildupdated": 1795202251,
-              "timeupdated": 1795202290
+              "timeupdated": 1795202751
             }
           },
           "depots": {
@@ -967,8 +1045,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "6428374156381429698",
-                "test_demo": "4301549765144710861"
+                "demo_2.1.21": "6428374156381429698",
+                "public": "4301549765144710861"
               }
             },
             "5333172": {
@@ -976,18 +1054,18 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "1272178413097013049",
-                "test_demo": "2689420124838727662"
+                "demo_2.1.21": "1272178413097013049",
+                "public": "2689420124838727662"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-20T19:23:35.412Z",
+      "observed_at": "2026-11-20T19:38:49.390Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T19:23:35.412Z"
+  "updated_at": "2026-11-20T19:38:49.390Z"
 }
