@@ -811,11 +811,28 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T10:38:47.493Z",
+      "change_number": 41297202,
+      "changes": [
+        {
+          "after": {
+            "path": "ch.novalex.project-zero/full",
+            "pattern": "car_looks.json",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/3"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41286159,
+      "change_number": 41297202,
       "data": {
         "appinfo": {
           "common": {
@@ -1056,6 +1073,11 @@
                 "path": "ch.novalex.project-zero/full/named_saves",
                 "pattern": "*.json",
                 "root": "WinAppDataRoaming"
+              },
+              "3": {
+                "path": "ch.novalex.project-zero/full",
+                "pattern": "car_looks.json",
+                "root": "WinAppDataRoaming"
               }
             }
           }
@@ -1125,11 +1147,11 @@
           }
         }
       },
-      "observed_at": "2026-11-20T03:08:41.557Z",
+      "observed_at": "2026-11-20T10:38:47.493Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T03:08:41.557Z"
+  "updated_at": "2026-11-20T10:38:47.493Z"
 }
