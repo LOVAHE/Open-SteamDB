@@ -1164,11 +1164,65 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T18:12:44.827Z",
+      "change_number": 41311590,
+      "changes": [
+        {
+          "after": {
+            "name": "FIVE DUCK GAMES",
+            "type": "publisher"
+          },
+          "op": "add",
+          "path": "/appinfo/common/associations/2"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/norwegian"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        },
+        {
+          "after": "26818396",
+          "before": "26818148",
+          "op": "replace",
+          "path": "/depots/branches/test/buildid"
+        },
+        {
+          "after": 1795197864,
+          "before": 1795197042,
+          "op": "replace",
+          "path": "/depots/branches/test/timebuildupdated"
+        },
+        {
+          "after": 1795197864,
+          "before": 1795197042,
+          "op": "replace",
+          "path": "/depots/branches/test/timeupdated"
+        },
+        {
+          "after": "9062916430535736440",
+          "before": "8707560469459158185",
+          "op": "replace",
+          "path": "/depots/depots/5482351/manifests/test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41311142,
+      "change_number": 41311590,
       "data": {
         "appinfo": {
           "common": {
@@ -1179,6 +1233,10 @@
               },
               "1": {
                 "name": "月影工房",
+                "type": "publisher"
+              },
+              "2": {
+                "name": "FIVE DUCK GAMES",
                 "type": "publisher"
               }
             },
@@ -1347,6 +1405,12 @@
               "koreana": {
                 "supported": "true"
               },
+              "norwegian": {
+                "supported": "true"
+              },
+              "russian": {
+                "supported": "true"
+              },
               "schinese": {
                 "supported": "true"
               }
@@ -1380,10 +1444,10 @@
               "timeupdated": 1795063734
             },
             "test": {
-              "buildid": "26818148",
+              "buildid": "26818396",
               "description": "test",
-              "timebuildupdated": 1795197042,
-              "timeupdated": 1795197042
+              "timebuildupdated": 1795197864,
+              "timeupdated": 1795197864
             }
           },
           "depots": {
@@ -1393,17 +1457,17 @@
               },
               "manifests": {
                 "public": "5891808112944200674",
-                "test": "8707560469459158185"
+                "test": "9062916430535736440"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-20T17:53:49.825Z",
+      "observed_at": "2026-11-20T18:12:44.827Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T17:53:49.825Z"
+  "updated_at": "2026-11-20T18:12:44.827Z"
 }
