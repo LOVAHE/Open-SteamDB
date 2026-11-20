@@ -913,11 +913,79 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T21:23:47.403Z",
+      "change_number": 41316620,
+      "changes": [
+        {
+          "after": "proton-11.0-3RC",
+          "before": "proton-11.0-beta",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/configuration/recommended_runtime"
+        },
+        {
+          "after": "0",
+          "before": "1",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/configuration/small_text"
+        },
+        {
+          "after": "other",
+          "before": "gamepad",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/configuration/supported_input"
+        },
+        {
+          "after": "2",
+          "before": "0",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_compatibility"
+        },
+        {
+          "after": {
+            "display": "3",
+            "token": "#SteamMachine_TestResult_DefaultConfigurationIsNotPerformant"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/0"
+        },
+        {
+          "after": {
+            "display": "4",
+            "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/1"
+        },
+        {
+          "after": {
+            "display": "4",
+            "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/2"
+        },
+        {
+          "after": "1794600745",
+          "before": "1778716800",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/test_timestamp"
+        },
+        {
+          "after": "26523710",
+          "before": "23102107",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tested_build_id"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41174977,
+      "change_number": 41316620,
       "data": {
         "appinfo": {
           "common": {
@@ -1031,7 +1099,7 @@
                 "hdr_support": "0",
                 "non_deck_display_glyphs": "0",
                 "primary_player_is_controller_slot_0": "1",
-                "recommended_runtime": "proton-11.0-beta",
+                "recommended_runtime": "proton-11.0-3RC",
                 "requires_h264": "0",
                 "requires_internet_for_setup": "0",
                 "requires_internet_for_singleplayer": "0",
@@ -1039,11 +1107,24 @@
                 "requires_non_controller_launcher_nav": "0",
                 "requires_proton_soundfonts": "0",
                 "requires_voice_files": "0",
-                "small_text": "1",
-                "supported_input": "gamepad"
+                "small_text": "0",
+                "supported_input": "other"
               },
-              "steam_machine_compatibility": "0",
-              "steam_machine_tests": {},
+              "steam_machine_compatibility": "2",
+              "steam_machine_tests": {
+                "0": {
+                  "display": "3",
+                  "token": "#SteamMachine_TestResult_DefaultConfigurationIsNotPerformant"
+                },
+                "1": {
+                  "display": "4",
+                  "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+                },
+                "2": {
+                  "display": "4",
+                  "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+                }
+              },
               "steamos_compatibility": "2",
               "steamos_tests": {
                 "0": {
@@ -1055,8 +1136,8 @@
                   "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
                 }
               },
-              "test_timestamp": "1778716800",
-              "tested_build_id": "23102107",
+              "test_timestamp": "1794600745",
+              "tested_build_id": "26523710",
               "tests": {
                 "0": {
                   "display": "2",
@@ -1175,11 +1256,11 @@
           }
         }
       },
-      "observed_at": "2026-11-17T20:38:33.843Z",
+      "observed_at": "2026-11-20T21:23:47.403Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T20:38:33.843Z"
+  "updated_at": "2026-11-20T21:23:47.403Z"
 }
