@@ -437,11 +437,69 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-20T21:08:47.149Z",
+      "change_number": 41316482,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26106574",
+            "description": "Windows alpha.47 testing",
+            "timebuildupdated": 1792586296,
+            "timeupdated": 1792586296
+          },
+          "op": "remove",
+          "path": "/depots/branches/internal-test"
+        },
+        {
+          "after": "26821654",
+          "before": "26756620",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795208192,
+          "before": 1795002459,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795208630,
+          "before": 1795002661,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": "8823765544581112795",
+          "op": "remove",
+          "path": "/depots/depots/5451231/manifests/internal-test"
+        },
+        {
+          "after": "6844413816628086545",
+          "before": "5541399833970564414",
+          "op": "replace",
+          "path": "/depots/depots/5451231/manifests/public"
+        },
+        {
+          "before": "8929704861736604863",
+          "op": "remove",
+          "path": "/depots/depots/5451232/manifests/internal-test"
+        },
+        {
+          "after": "720585529204439606",
+          "before": "6236629007875512155",
+          "op": "replace",
+          "path": "/depots/depots/5451232/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41221709,
+      "change_number": 41316482,
       "data": {
         "appinfo": {
           "common": {
@@ -613,16 +671,10 @@
         },
         "depots": {
           "branches": {
-            "internal-test": {
-              "buildid": "26106574",
-              "description": "Windows alpha.47 testing",
-              "timebuildupdated": 1792586296,
-              "timeupdated": 1792586296
-            },
             "public": {
-              "buildid": "26756620",
-              "timebuildupdated": 1795002459,
-              "timeupdated": 1795002661
+              "buildid": "26821654",
+              "timebuildupdated": 1795208192,
+              "timeupdated": 1795208630
             }
           },
           "depots": {
@@ -639,8 +691,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "internal-test": "8823765544581112795",
-                "public": "5541399833970564414"
+                "public": "6844413816628086545"
               }
             },
             "5451232": {
@@ -648,18 +699,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "internal-test": "8929704861736604863",
-                "public": "6236629007875512155"
+                "public": "720585529204439606"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-18T13:08:44.126Z",
+      "observed_at": "2026-11-20T21:08:47.149Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T13:08:44.126Z"
+  "updated_at": "2026-11-20T21:08:47.149Z"
 }
