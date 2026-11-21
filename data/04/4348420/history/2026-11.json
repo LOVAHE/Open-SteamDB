@@ -1019,11 +1019,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-21T15:38:44.901Z",
+      "change_number": 41336593,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26834954",
+            "description": "確認用バージョン ※このバージョンは非常に不安定です",
+            "timebuildupdated": 1795274926,
+            "timeupdated": 1795274956
+          },
+          "op": "add",
+          "path": "/depots/branches/preview"
+        },
+        {
+          "after": "3295985517103372317",
+          "op": "add",
+          "path": "/depots/depots/4348421/manifests/preview"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41332994,
+      "change_number": 41336593,
       "data": {
         "appinfo": {
           "common": {
@@ -1243,6 +1266,12 @@
               "timebuildupdated": 1794930768,
               "timeupdated": 1794930952
             },
+            "preview": {
+              "buildid": "26834954",
+              "description": "確認用バージョン ※このバージョンは非常に不安定です",
+              "timebuildupdated": 1795274926,
+              "timeupdated": 1795274956
+            },
             "public": {
               "buildid": "26832918",
               "timebuildupdated": 1795264479,
@@ -1253,17 +1282,18 @@
             "4348421": {
               "manifests": {
                 "old_version": "4141868034595368825",
+                "preview": "3295985517103372317",
                 "public": "1315230575267940060"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-21T12:53:38.620Z",
+      "observed_at": "2026-11-21T15:38:44.901Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T12:53:38.620Z"
+  "updated_at": "2026-11-21T15:38:44.901Z"
 }

@@ -257,11 +257,30 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-21T15:38:44.901Z",
+      "change_number": 41336594,
+      "changes": [
+        {
+          "after": {
+            "config": {
+              "oslist": "windows"
+            },
+            "dlcappid": 5657160,
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5657160"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41239549,
+      "change_number": 41336594,
       "data": {
         "appinfo": {
           "common": {
@@ -426,15 +445,22 @@
               "manifests": {
                 "public": "2900701615957653529"
               }
+            },
+            "5657160": {
+              "config": {
+                "oslist": "windows"
+              },
+              "dlcappid": 5657160,
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-18T20:54:09.660Z",
+      "observed_at": "2026-11-21T15:38:44.901Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T20:54:09.660Z"
+  "updated_at": "2026-11-21T15:38:44.901Z"
 }
