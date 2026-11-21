@@ -1,8 +1,8 @@
 {
   "appid": 5507290,
   "source": "steam_pics",
-  "updated_at": "2026-11-21T07:23:39.175Z",
-  "change_number": 41327794,
+  "updated_at": "2026-11-21T16:38:38.304Z",
+  "change_number": 41337969,
   "data": {
     "common": {
       "associations": {
@@ -278,16 +278,20 @@
     "ufs": {
       "maxnumfiles": "40",
       "quota": "19999999",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
       "savefiles": {
         "0": {
           "path": "OceansEmpire",
           "pattern": "oceans_empire_save_*.json",
           "root": "WinAppDataRoaming"
-        },
-        "1": {
-          "path": "OceansEmpire",
-          "pattern": "oceans_empire_save_*.json",
-          "root": "LinuxXdgDataHome"
         }
       }
     }
