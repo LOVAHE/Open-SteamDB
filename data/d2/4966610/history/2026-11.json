@@ -2073,11 +2073,102 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-21T18:53:44.721Z",
+      "change_number": 41340556,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "20",
+            "quota": "10485760",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              },
+              "1": {
+                "os": "Linux",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Godot/app_userdata/PRIEST",
+                    "replace": "godot/app_userdata/PRIEST"
+                  }
+                },
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              }
+            },
+            "savefiles": {
+              "2": {
+                "path": "Godot/app_userdata/PRIEST",
+                "pattern": "save1.json",
+                "root": "WinAppDataRoaming"
+              },
+              "3": {
+                "path": "Godot/app_userdata/PRIEST",
+                "pattern": "save2.json",
+                "root": "WinAppDataRoaming"
+              },
+              "4": {
+                "path": "Godot/app_userdata/PRIEST",
+                "pattern": "save3.json",
+                "root": "WinAppDataRoaming"
+              },
+              "copied_from_parent": "1"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26836747",
+          "before": "26827488",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795283733,
+          "before": 1795232318,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795286569,
+          "before": 1795233468,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "526740177245207853",
+          "before": "5249770137677518821",
+          "op": "replace",
+          "path": "/depots/depots/4966611/manifests/public"
+        },
+        {
+          "after": "4050389623531106106",
+          "before": "8811630172406498276",
+          "op": "replace",
+          "path": "/depots/depots/4966612/manifests/public"
+        },
+        {
+          "after": "5065038339789046918",
+          "before": "8968999724432570992",
+          "op": "replace",
+          "path": "/depots/depots/4966613/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41324677,
+      "change_number": 41340556,
       "data": {
         "appinfo": {
           "common": {
@@ -2345,14 +2436,57 @@
           "extended": {
             "developer": "Nyevatar Games",
             "publisher": "Nyevatar Games"
+          },
+          "ufs": {
+            "maxnumfiles": "20",
+            "quota": "10485760",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              },
+              "1": {
+                "os": "Linux",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Godot/app_userdata/PRIEST",
+                    "replace": "godot/app_userdata/PRIEST"
+                  }
+                },
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              }
+            },
+            "savefiles": {
+              "2": {
+                "path": "Godot/app_userdata/PRIEST",
+                "pattern": "save1.json",
+                "root": "WinAppDataRoaming"
+              },
+              "3": {
+                "path": "Godot/app_userdata/PRIEST",
+                "pattern": "save2.json",
+                "root": "WinAppDataRoaming"
+              },
+              "4": {
+                "path": "Godot/app_userdata/PRIEST",
+                "pattern": "save3.json",
+                "root": "WinAppDataRoaming"
+              },
+              "copied_from_parent": "1"
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26827488",
-              "timebuildupdated": 1795232318,
-              "timeupdated": 1795233468
+              "buildid": "26836747",
+              "timebuildupdated": 1795283733,
+              "timeupdated": 1795286569
             }
           },
           "depots": {
@@ -2361,7 +2495,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "5249770137677518821"
+                "public": "526740177245207853"
               }
             },
             "4966612": {
@@ -2369,7 +2503,7 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "8811630172406498276"
+                "public": "4050389623531106106"
               }
             },
             "4966613": {
@@ -2378,17 +2512,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "8968999724432570992"
+                "public": "5065038339789046918"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-21T04:08:42.654Z",
+      "observed_at": "2026-11-21T18:53:44.721Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T04:08:42.654Z"
+  "updated_at": "2026-11-21T18:53:44.721Z"
 }

@@ -1,8 +1,8 @@
 {
   "appid": 4966610,
   "source": "steam_pics",
-  "updated_at": "2026-11-21T04:08:42.654Z",
-  "change_number": 41324677,
+  "updated_at": "2026-11-21T18:53:44.721Z",
+  "change_number": 41340556,
   "data": {
     "common": {
       "associations": {
@@ -269,6 +269,49 @@
     },
     "config": {
       "installdir": "PRIEST Demo"
+    },
+    "ufs": {
+      "maxnumfiles": "20",
+      "quota": "10485760",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
+        },
+        "1": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Godot/app_userdata/PRIEST",
+              "replace": "godot/app_userdata/PRIEST"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
+      "savefiles": {
+        "2": {
+          "path": "Godot/app_userdata/PRIEST",
+          "pattern": "save1.json",
+          "root": "WinAppDataRoaming"
+        },
+        "3": {
+          "path": "Godot/app_userdata/PRIEST",
+          "pattern": "save2.json",
+          "root": "WinAppDataRoaming"
+        },
+        "4": {
+          "path": "Godot/app_userdata/PRIEST",
+          "pattern": "save3.json",
+          "root": "WinAppDataRoaming"
+        },
+        "copied_from_parent": "1"
+      }
     }
   }
 }
