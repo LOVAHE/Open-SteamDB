@@ -613,11 +613,54 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-21T03:38:42.275Z",
+      "change_number": 41324119,
+      "changes": [
+        {
+          "after": "5056530,5639290",
+          "before": "5056530",
+          "op": "replace",
+          "path": "/appinfo/extended/listofdlc"
+        },
+        {
+          "after": "26720328",
+          "before": "26338709",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794883565,
+          "before": 1793411492,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795231449,
+          "before": 1793415811,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5894998455922731073",
+          "before": "2591561801354213935",
+          "op": "replace",
+          "path": "/depots/depots/3431761/manifests/public"
+        },
+        {
+          "after": "5052563736802220627",
+          "op": "add",
+          "path": "/depots/depots/5639290/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41077482,
+      "change_number": 41324119,
       "data": {
         "appinfo": {
           "common": {
@@ -747,7 +790,7 @@
           },
           "extended": {
             "developer": "partyhard.io",
-            "listofdlc": "5056530",
+            "listofdlc": "5056530,5639290",
             "publisher": "partyhard.io"
           },
           "ufs": {
@@ -786,9 +829,9 @@
               "timeupdated": 1794883565
             },
             "public": {
-              "buildid": "26338709",
-              "timebuildupdated": 1793411492,
-              "timeupdated": 1793415811
+              "buildid": "26720328",
+              "timebuildupdated": 1794883565,
+              "timeupdated": 1795231449
             }
           },
           "depots": {
@@ -798,7 +841,7 @@
               },
               "manifests": {
                 "nightly": "5894998455922731073",
-                "public": "2591561801354213935"
+                "public": "5894998455922731073"
               }
             },
             "5056530": {
@@ -814,17 +857,18 @@
               },
               "dlcappid": 5639290,
               "manifests": {
-                "nightly": "5052563736802220627"
+                "nightly": "5052563736802220627",
+                "public": "5052563736802220627"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-17T06:08:45.393Z",
+      "observed_at": "2026-11-21T03:38:42.275Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T06:08:45.393Z"
+  "updated_at": "2026-11-21T03:38:42.275Z"
 }
