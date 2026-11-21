@@ -679,11 +679,79 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-21T06:08:44.460Z",
+      "change_number": 41326764,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26430881",
+            "description": "内网正式服",
+            "timebuildupdated": 1793794314,
+            "timeupdated": 1793794806
+          },
+          "op": "remove",
+          "path": "/depots/branches/inter-official"
+        },
+        {
+          "before": {
+            "buildid": "26649923",
+            "description": "外网测试服",
+            "timebuildupdated": 1794588305,
+            "timeupdated": 1794588899
+          },
+          "op": "remove",
+          "path": "/depots/branches/inter-test"
+        },
+        {
+          "before": {
+            "buildid": "25719330",
+            "description": "给审核人员用的",
+            "timebuildupdated": 1791168375,
+            "timeupdated": 1791170771
+          },
+          "op": "remove",
+          "path": "/depots/branches/review-version"
+        },
+        {
+          "before": {
+            "buildid": "26782408",
+            "description": "EA版本",
+            "timebuildupdated": 1795085400,
+            "timeupdated": 1795085400
+          },
+          "op": "remove",
+          "path": "/depots/branches/sandbox-test"
+        },
+        {
+          "before": "1654101286104391412",
+          "op": "remove",
+          "path": "/depots/depots/4604011/manifests/inter-official"
+        },
+        {
+          "before": "2444981572193036340",
+          "op": "remove",
+          "path": "/depots/depots/4604011/manifests/inter-test"
+        },
+        {
+          "before": "955046692180858534",
+          "op": "remove",
+          "path": "/depots/depots/4604011/manifests/review-version"
+        },
+        {
+          "before": "6307897890840147892",
+          "op": "remove",
+          "path": "/depots/depots/4604011/manifests/sandbox-test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41323119,
+      "change_number": 41326764,
       "data": {
         "appinfo": {
           "common": {
@@ -815,54 +883,26 @@
         },
         "depots": {
           "branches": {
-            "inter-official": {
-              "buildid": "26430881",
-              "description": "内网正式服",
-              "timebuildupdated": 1793794314,
-              "timeupdated": 1793794806
-            },
-            "inter-test": {
-              "buildid": "26649923",
-              "description": "外网测试服",
-              "timebuildupdated": 1794588305,
-              "timeupdated": 1794588899
-            },
             "public": {
               "buildid": "26759616",
               "timebuildupdated": 1795010863,
               "timeupdated": 1795159263
-            },
-            "review-version": {
-              "buildid": "25719330",
-              "description": "给审核人员用的",
-              "timebuildupdated": 1791168375,
-              "timeupdated": 1791170771
-            },
-            "sandbox-test": {
-              "buildid": "26782408",
-              "description": "EA版本",
-              "timebuildupdated": 1795085400,
-              "timeupdated": 1795085400
             }
           },
           "depots": {
             "4604011": {
               "manifests": {
-                "inter-official": "1654101286104391412",
-                "inter-test": "2444981572193036340",
-                "public": "4353645651320445787",
-                "review-version": "955046692180858534",
-                "sandbox-test": "6307897890840147892"
+                "public": "4353645651320445787"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-21T03:38:42.275Z",
+      "observed_at": "2026-11-21T06:08:44.460Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T03:38:42.275Z"
+  "updated_at": "2026-11-21T06:08:44.460Z"
 }
