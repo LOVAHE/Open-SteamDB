@@ -437,11 +437,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-21T15:23:34.824Z",
+      "change_number": 41336242,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26626734",
+            "description": "A new transparency algorithm that makes the game run smoother, uses less RAM, and supports full transparency animations.",
+            "timebuildupdated": 1794513586,
+            "timeupdated": 1794513813
+          },
+          "op": "remove",
+          "path": "/depots/branches/new-overlay-beta"
+        },
+        {
+          "before": "5335633711903147748",
+          "op": "remove",
+          "path": "/depots/depots/4681681/manifests/new-overlay-beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41336158,
+      "change_number": 41336242,
       "data": {
         "appinfo": {
           "common": {
@@ -650,12 +673,6 @@
         },
         "depots": {
           "branches": {
-            "new-overlay-beta": {
-              "buildid": "26626734",
-              "description": "A new transparency algorithm that makes the game run smoother, uses less RAM, and supports full transparency animations.",
-              "timebuildupdated": 1794513586,
-              "timeupdated": 1794513813
-            },
             "public": {
               "buildid": "26834634",
               "timebuildupdated": 1795273420,
@@ -668,7 +685,6 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "new-overlay-beta": "5335633711903147748",
                 "public": "2549775919853233763"
               }
             },
@@ -682,11 +698,11 @@
           }
         }
       },
-      "observed_at": "2026-11-21T15:08:33.347Z",
+      "observed_at": "2026-11-21T15:23:34.824Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T15:08:33.347Z"
+  "updated_at": "2026-11-21T15:23:34.824Z"
 }
