@@ -415,11 +415,44 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-21T17:23:32.328Z",
+      "change_number": 41338783,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26829724",
+            "description": "macOS test build",
+            "timebuildupdated": 1795246255,
+            "timeupdated": 1795246780
+          },
+          "op": "remove",
+          "path": "/depots/branches/mactest"
+        },
+        {
+          "before": "7357483439325748042",
+          "op": "remove",
+          "path": "/depots/depots/4981071/manifests/mactest"
+        },
+        {
+          "before": "4192554400165861644",
+          "op": "remove",
+          "path": "/depots/depots/4981072/manifests/mactest"
+        },
+        {
+          "before": "4032804551164898923",
+          "op": "remove",
+          "path": "/depots/depots/4981073/manifests/mactest"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41338575,
+      "change_number": 41338783,
       "data": {
         "appinfo": {
           "common": {
@@ -598,12 +631,6 @@
         },
         "depots": {
           "branches": {
-            "mactest": {
-              "buildid": "26829724",
-              "description": "macOS test build",
-              "timebuildupdated": 1795246255,
-              "timeupdated": 1795246780
-            },
             "public": {
               "buildid": "26836132",
               "timebuildupdated": 1795280705,
@@ -617,7 +644,6 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "mactest": "7357483439325748042",
                 "public": "6590725502914539736"
               }
             },
@@ -627,7 +653,6 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "mactest": "4192554400165861644",
                 "public": "6361749623065681381"
               }
             },
@@ -637,18 +662,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "mactest": "4032804551164898923",
                 "public": "9143730900946263973"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-21T17:08:52.739Z",
+      "observed_at": "2026-11-21T17:23:32.328Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T17:08:52.739Z"
+  "updated_at": "2026-11-21T17:23:32.328Z"
 }
