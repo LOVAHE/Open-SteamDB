@@ -747,11 +747,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-21T08:38:49.005Z",
+      "change_number": 41328822,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26830302",
+            "description": "玩家测试服",
+            "timebuildupdated": 1795249811,
+            "timeupdated": 1795250013
+          },
+          "op": "add",
+          "path": "/depots/branches/testserver"
+        },
+        {
+          "after": "4120883905946633227",
+          "op": "add",
+          "path": "/depots/depots/4604011/manifests/testserver"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41326764,
+      "change_number": 41328822,
       "data": {
         "appinfo": {
           "common": {
@@ -887,22 +910,29 @@
               "buildid": "26759616",
               "timebuildupdated": 1795010863,
               "timeupdated": 1795159263
+            },
+            "testserver": {
+              "buildid": "26830302",
+              "description": "玩家测试服",
+              "timebuildupdated": 1795249811,
+              "timeupdated": 1795250013
             }
           },
           "depots": {
             "4604011": {
               "manifests": {
-                "public": "4353645651320445787"
+                "public": "4353645651320445787",
+                "testserver": "4120883905946633227"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-21T06:08:44.460Z",
+      "observed_at": "2026-11-21T08:38:49.005Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T06:08:44.460Z"
+  "updated_at": "2026-11-21T08:38:49.005Z"
 }
