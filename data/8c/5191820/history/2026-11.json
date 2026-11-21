@@ -685,11 +685,25 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-21T14:38:48.062Z",
+      "change_number": 41335527,
+      "changes": [
+        {
+          "after": "5000000000",
+          "before": "2000000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41023542,
+      "change_number": 41335527,
       "data": {
         "appinfo": {
           "common": {
@@ -847,7 +861,7 @@
           },
           "ufs": {
             "maxnumfiles": "5000",
-            "quota": "2000000000",
+            "quota": "5000000000",
             "savefiles": {
               "0": {
                 "path": "Character_Save",
@@ -919,11 +933,11 @@
           }
         }
       },
-      "observed_at": "2026-11-16T20:08:26.604Z",
+      "observed_at": "2026-11-21T14:38:48.062Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T20:08:26.604Z"
+  "updated_at": "2026-11-21T14:38:48.062Z"
 }
