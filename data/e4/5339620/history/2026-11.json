@@ -474,11 +474,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-21T17:38:44.305Z",
+      "change_number": 41339148,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26692399",
+            "description": "Pre-release test branch: builds tested here before default (D-STAGINGFIRST)",
+            "timebuildupdated": 1794794692,
+            "timeupdated": 1794799474
+          },
+          "op": "remove",
+          "path": "/depots/branches/staging"
+        },
+        {
+          "before": "9031628843061671443",
+          "op": "remove",
+          "path": "/depots/depots/5339621/manifests/staging"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41332651,
+      "change_number": 41339148,
       "data": {
         "appinfo": {
           "common": {
@@ -617,12 +640,6 @@
               "buildid": "26831048",
               "timebuildupdated": 1795253984,
               "timeupdated": 1795264117
-            },
-            "staging": {
-              "buildid": "26692399",
-              "description": "Pre-release test branch: builds tested here before default (D-STAGINGFIRST)",
-              "timebuildupdated": 1794794692,
-              "timeupdated": 1794799474
             }
           },
           "depots": {
@@ -644,18 +661,17 @@
             },
             "5339621": {
               "manifests": {
-                "public": "7472267057271885644",
-                "staging": "9031628843061671443"
+                "public": "7472267057271885644"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-21T12:38:43.760Z",
+      "observed_at": "2026-11-21T17:38:44.305Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T12:38:43.760Z"
+  "updated_at": "2026-11-21T17:38:44.305Z"
 }
