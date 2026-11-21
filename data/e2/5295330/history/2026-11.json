@@ -918,11 +918,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-21T20:23:47.732Z",
+      "change_number": 41342637,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": "26838475",
+          "before": "26764747",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795292015,
+          "before": 1795024147,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795292072,
+          "before": 1795024400,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7732549870044449273",
+          "before": "653260957765967951",
+          "op": "replace",
+          "path": "/depots/depots/5295331/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41342082,
+      "change_number": 41342637,
       "data": {
         "appinfo": {
           "common": {
@@ -1158,7 +1195,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "Water TD"
@@ -1201,25 +1239,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26764747",
-              "timebuildupdated": 1795024147,
-              "timeupdated": 1795024400
+              "buildid": "26838475",
+              "timebuildupdated": 1795292015,
+              "timeupdated": 1795292072
             }
           },
           "depots": {
             "5295331": {
               "manifests": {
-                "public": "653260957765967951"
+                "public": "7732549870044449273"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-21T20:08:44.071Z",
+      "observed_at": "2026-11-21T20:23:47.732Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T20:08:44.071Z"
+  "updated_at": "2026-11-21T20:23:47.732Z"
 }

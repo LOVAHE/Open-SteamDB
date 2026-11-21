@@ -1,8 +1,8 @@
 {
   "appid": 4866860,
   "source": "steam_pics",
-  "updated_at": "2026-11-19T21:08:46.906Z",
-  "change_number": 41278661,
+  "updated_at": "2026-11-21T20:23:47.732Z",
+  "change_number": 41342312,
   "data": {
     "common": {
       "associations": {
@@ -129,6 +129,38 @@
     },
     "config": {
       "installdir": "Curatio"
+    },
+    "ufs": {
+      "maxnumfiles": "1000",
+      "quota": "5120",
+      "savefiles": {
+        "0": {
+          "path": "Curatio/Local Storage",
+          "pattern": "*",
+          "recursive": "1",
+          "root": "WinAppDataRoaming"
+        },
+        "1": {
+          "path": "Curatio/Network",
+          "pattern": "*",
+          "root": "WinAppDataRoaming"
+        },
+        "2": {
+          "path": "Curatio/Session Storage",
+          "pattern": "*",
+          "root": "WinAppDataRoaming"
+        },
+        "3": {
+          "path": "Curatio/",
+          "pattern": "DIPS",
+          "root": "WinAppDataRoaming"
+        },
+        "4": {
+          "path": "Curatio/",
+          "pattern": "Preferences",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }
