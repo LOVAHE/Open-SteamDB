@@ -262,11 +262,42 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-21T06:53:50.587Z",
+      "change_number": 41327377,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "macos"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5140153"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41326983,
+      "change_number": 41327377,
       "data": {
         "appinfo": {
           "common": {
@@ -376,8 +407,8 @@
               "schinese": "流火"
             },
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos",
             "primary_genre": "23",
             "review_percentage": "97",
             "review_score": "7",
@@ -495,15 +526,22 @@
               "manifests": {
                 "public": "1012829753995158229"
               }
+            },
+            "5140153": {
+              "config": {
+                "osarch": "64",
+                "oslist": "macos"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-21T06:23:30.111Z",
+      "observed_at": "2026-11-21T06:53:50.587Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T06:23:30.111Z"
+  "updated_at": "2026-11-21T06:53:50.587Z"
 }
