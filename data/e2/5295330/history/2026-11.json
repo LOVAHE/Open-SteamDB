@@ -898,11 +898,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-21T20:08:44.071Z",
+      "change_number": 41342082,
+      "changes": [
+        {
+          "after": "1000",
+          "before": "3",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "100000000",
+          "before": "1000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41336899,
+      "change_number": 41342082,
       "data": {
         "appinfo": {
           "common": {
@@ -1148,8 +1168,8 @@
             "publisher": "Managagrau"
           },
           "ufs": {
-            "maxnumfiles": "3",
-            "quota": "1000000",
+            "maxnumfiles": "1000",
+            "quota": "100000000",
             "savefiles": {
               "0": {
                 "path": "Managagrau/WaterTD",
@@ -1195,11 +1215,11 @@
           }
         }
       },
-      "observed_at": "2026-11-21T15:53:45.497Z",
+      "observed_at": "2026-11-21T20:08:44.071Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T15:53:45.497Z"
+  "updated_at": "2026-11-21T20:08:44.071Z"
 }
