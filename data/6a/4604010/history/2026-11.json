@@ -770,11 +770,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-21T09:53:34.145Z",
+      "change_number": 41329868,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26831055",
+            "description": "EA版本",
+            "timebuildupdated": 1795254039,
+            "timeupdated": 1795254039
+          },
+          "op": "add",
+          "path": "/depots/branches/sandbox-test"
+        },
+        {
+          "after": "8378053299187647008",
+          "op": "add",
+          "path": "/depots/depots/4604011/manifests/sandbox-test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41328822,
+      "change_number": 41329868,
       "data": {
         "appinfo": {
           "common": {
@@ -911,6 +934,12 @@
               "timebuildupdated": 1795010863,
               "timeupdated": 1795159263
             },
+            "sandbox-test": {
+              "buildid": "26831055",
+              "description": "EA版本",
+              "timebuildupdated": 1795254039,
+              "timeupdated": 1795254039
+            },
             "testserver": {
               "buildid": "26830302",
               "description": "玩家测试服",
@@ -922,17 +951,18 @@
             "4604011": {
               "manifests": {
                 "public": "4353645651320445787",
+                "sandbox-test": "8378053299187647008",
                 "testserver": "4120883905946633227"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-21T08:38:49.005Z",
+      "observed_at": "2026-11-21T09:53:34.145Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T08:38:49.005Z"
+  "updated_at": "2026-11-21T09:53:34.145Z"
 }
