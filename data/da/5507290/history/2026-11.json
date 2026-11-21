@@ -435,11 +435,28 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-21T07:23:39.175Z",
+      "change_number": 41327794,
+      "changes": [
+        {
+          "after": {
+            "path": "OceansEmpire",
+            "pattern": "oceans_empire_save_*.json",
+            "root": "LinuxXdgDataHome"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/1"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41327379,
+      "change_number": 41327794,
       "data": {
         "appinfo": {
           "common": {
@@ -721,6 +738,11 @@
                 "path": "OceansEmpire",
                 "pattern": "oceans_empire_save_*.json",
                 "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "OceansEmpire",
+                "pattern": "oceans_empire_save_*.json",
+                "root": "LinuxXdgDataHome"
               }
             }
           }
@@ -763,11 +785,11 @@
           }
         }
       },
-      "observed_at": "2026-11-21T06:53:50.587Z",
+      "observed_at": "2026-11-21T07:23:39.175Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T06:53:50.587Z"
+  "updated_at": "2026-11-21T07:23:39.175Z"
 }
