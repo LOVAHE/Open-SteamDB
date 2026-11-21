@@ -854,11 +854,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-21T11:38:45.232Z",
+      "change_number": 41331850,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26832291",
+            "description": "EA版本",
+            "timebuildupdated": 1795261025,
+            "timeupdated": 1795261025
+          },
+          "op": "add",
+          "path": "/depots/branches/sandbox-test"
+        },
+        {
+          "after": "26832291",
+          "before": "26830302",
+          "op": "replace",
+          "path": "/depots/branches/testserver/buildid"
+        },
+        {
+          "after": 1795261025,
+          "before": 1795249811,
+          "op": "replace",
+          "path": "/depots/branches/testserver/timebuildupdated"
+        },
+        {
+          "after": 1795261095,
+          "before": 1795250013,
+          "op": "replace",
+          "path": "/depots/branches/testserver/timeupdated"
+        },
+        {
+          "after": "3645508431129494557",
+          "op": "add",
+          "path": "/depots/depots/4604011/manifests/sandbox-test"
+        },
+        {
+          "after": "3645508431129494557",
+          "before": "4120883905946633227",
+          "op": "replace",
+          "path": "/depots/depots/4604011/manifests/testserver"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41330609,
+      "change_number": 41331850,
       "data": {
         "appinfo": {
           "common": {
@@ -995,28 +1042,35 @@
               "timebuildupdated": 1795254927,
               "timeupdated": 1795255044
             },
+            "sandbox-test": {
+              "buildid": "26832291",
+              "description": "EA版本",
+              "timebuildupdated": 1795261025,
+              "timeupdated": 1795261025
+            },
             "testserver": {
-              "buildid": "26830302",
+              "buildid": "26832291",
               "description": "玩家测试服",
-              "timebuildupdated": 1795249811,
-              "timeupdated": 1795250013
+              "timebuildupdated": 1795261025,
+              "timeupdated": 1795261095
             }
           },
           "depots": {
             "4604011": {
               "manifests": {
                 "public": "2752850003403185566",
-                "testserver": "4120883905946633227"
+                "sandbox-test": "3645508431129494557",
+                "testserver": "3645508431129494557"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-21T10:23:48.811Z",
+      "observed_at": "2026-11-21T11:38:45.232Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T10:23:48.811Z"
+  "updated_at": "2026-11-21T11:38:45.232Z"
 }
