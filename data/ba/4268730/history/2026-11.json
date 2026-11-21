@@ -1041,11 +1041,127 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-21T10:38:46.710Z",
+      "change_number": 41330855,
+      "changes": [
+        {
+          "after": "26831390",
+          "before": "26698399",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795255585,
+          "before": 1794820889,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795257304,
+          "before": 1794821123,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "26698399",
+          "before": "26446471",
+          "op": "replace",
+          "path": "/depots/branches/stable/buildid"
+        },
+        {
+          "after": 1794820889,
+          "before": 1793840300,
+          "op": "replace",
+          "path": "/depots/branches/stable/timebuildupdated"
+        },
+        {
+          "after": 1794821123,
+          "before": 1793875219,
+          "op": "replace",
+          "path": "/depots/branches/stable/timeupdated"
+        },
+        {
+          "after": "26831390",
+          "before": "26796533",
+          "op": "replace",
+          "path": "/depots/branches/staging/buildid"
+        },
+        {
+          "after": 1795255585,
+          "before": 1795125275,
+          "op": "replace",
+          "path": "/depots/branches/staging/timebuildupdated"
+        },
+        {
+          "after": 1795257268,
+          "before": 1795125744,
+          "op": "replace",
+          "path": "/depots/branches/staging/timeupdated"
+        },
+        {
+          "after": "4166324109520666300",
+          "before": "1139242031959687878",
+          "op": "replace",
+          "path": "/depots/depots/4268732/manifests/public"
+        },
+        {
+          "after": "1139242031959687878",
+          "before": "8110051476223541384",
+          "op": "replace",
+          "path": "/depots/depots/4268732/manifests/stable"
+        },
+        {
+          "after": "4166324109520666300",
+          "before": "1314059861120631694",
+          "op": "replace",
+          "path": "/depots/depots/4268732/manifests/staging"
+        },
+        {
+          "after": "6022114653512580603",
+          "before": "624926295289209624",
+          "op": "replace",
+          "path": "/depots/depots/4268733/manifests/public"
+        },
+        {
+          "after": "624926295289209624",
+          "before": "9146107426672330951",
+          "op": "replace",
+          "path": "/depots/depots/4268733/manifests/stable"
+        },
+        {
+          "after": "6022114653512580603",
+          "before": "2509402125060887997",
+          "op": "replace",
+          "path": "/depots/depots/4268733/manifests/staging"
+        },
+        {
+          "after": "1941829274973116163",
+          "before": "5969170586743979460",
+          "op": "replace",
+          "path": "/depots/depots/4268734/manifests/public"
+        },
+        {
+          "after": "5969170586743979460",
+          "before": "6870705212835064947",
+          "op": "replace",
+          "path": "/depots/depots/4268734/manifests/stable"
+        },
+        {
+          "after": "1941829274973116163",
+          "before": "2217433072265868428",
+          "op": "replace",
+          "path": "/depots/depots/4268734/manifests/staging"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41330353,
+      "change_number": 41330855,
       "data": {
         "appinfo": {
           "common": {
@@ -1228,21 +1344,21 @@
               "timeupdated": 1793055817
             },
             "public": {
+              "buildid": "26831390",
+              "timebuildupdated": 1795255585,
+              "timeupdated": 1795257304
+            },
+            "stable": {
               "buildid": "26698399",
+              "description": "Old stable game release",
               "timebuildupdated": 1794820889,
               "timeupdated": 1794821123
             },
-            "stable": {
-              "buildid": "26446471",
-              "description": "Old stable game release",
-              "timebuildupdated": 1793840300,
-              "timeupdated": 1793875219
-            },
             "staging": {
-              "buildid": "26796533",
+              "buildid": "26831390",
               "description": "staging branch for game releases",
-              "timebuildupdated": 1795125275,
-              "timeupdated": 1795125744
+              "timebuildupdated": 1795255585,
+              "timeupdated": 1795257268
             }
           },
           "depots": {
@@ -1260,9 +1376,9 @@
               },
               "manifests": {
                 "previousstable": "1545684681600902003",
-                "public": "1139242031959687878",
-                "stable": "8110051476223541384",
-                "staging": "1314059861120631694"
+                "public": "4166324109520666300",
+                "stable": "1139242031959687878",
+                "staging": "4166324109520666300"
               }
             },
             "4268733": {
@@ -1271,9 +1387,9 @@
               },
               "manifests": {
                 "previousstable": "6524376273329179520",
-                "public": "624926295289209624",
-                "stable": "9146107426672330951",
-                "staging": "2509402125060887997"
+                "public": "6022114653512580603",
+                "stable": "624926295289209624",
+                "staging": "6022114653512580603"
               }
             },
             "4268734": {
@@ -1282,19 +1398,19 @@
               },
               "manifests": {
                 "previousstable": "6415292157628652420",
-                "public": "5969170586743979460",
-                "stable": "6870705212835064947",
-                "staging": "2217433072265868428"
+                "public": "1941829274973116163",
+                "stable": "5969170586743979460",
+                "staging": "1941829274973116163"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-21T10:08:57.076Z",
+      "observed_at": "2026-11-21T10:38:46.710Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T10:08:57.076Z"
+  "updated_at": "2026-11-21T10:38:46.710Z"
 }
