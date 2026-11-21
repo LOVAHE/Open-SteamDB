@@ -371,11 +371,61 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-21T05:53:50.158Z",
+      "change_number": 41326587,
+      "changes": [
+        {
+          "before": {
+            "config": {
+              "language": "",
+              "osarch": "32",
+              "oslist": "windows"
+            },
+            "manifests": {
+              "public": "6301140160103406095"
+            }
+          },
+          "op": "remove",
+          "path": "/depots/depots/440311"
+        },
+        {
+          "before": "",
+          "op": "remove",
+          "path": "/depots/depots/440312/config/language"
+        },
+        {
+          "before": {
+            "config": {
+              "language": "",
+              "osarch": "64",
+              "oslist": "windows"
+            },
+            "manifests": {}
+          },
+          "op": "remove",
+          "path": "/depots/depots/440313"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "windows"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/440314"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41326398,
+      "change_number": 41326587,
       "data": {
         "appinfo": {
           "common": {
@@ -688,19 +738,8 @@
             }
           },
           "depots": {
-            "440311": {
-              "config": {
-                "language": "",
-                "osarch": "32",
-                "oslist": "windows"
-              },
-              "manifests": {
-                "public": "6301140160103406095"
-              }
-            },
             "440312": {
               "config": {
-                "language": "",
                 "osarch": "64",
                 "oslist": "windows"
               },
@@ -708,9 +747,8 @@
                 "public": "1702937112853359940"
               }
             },
-            "440313": {
+            "440314": {
               "config": {
-                "language": "",
                 "osarch": "64",
                 "oslist": "windows"
               },
@@ -719,11 +757,11 @@
           }
         }
       },
-      "observed_at": "2026-11-21T05:38:41.152Z",
+      "observed_at": "2026-11-21T05:53:50.158Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T05:38:41.152Z"
+  "updated_at": "2026-11-21T05:53:50.158Z"
 }
