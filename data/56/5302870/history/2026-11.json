@@ -1117,11 +1117,37 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T18:38:37.149Z",
+      "change_number": 41363819,
+      "changes": [
+        {
+          "after": {
+            "path": "Beardroid Games/TheCoinKeeperTidyUp/Steam/{64BitSteamID}/Saves/FantasyCoinCollectionCompact",
+            "pattern": "slot-*.json",
+            "root": "WinAppDataLocalLow"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/6"
+        },
+        {
+          "after": {
+            "path": "Beardroid Games/TheCoinKeeperTidyUp/Steam/{64BitSteamID}/Saves/FantasyCoinCollectionCompact",
+            "pattern": "slot-*.json.bak",
+            "root": "WinAppDataLocalLow"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/7"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41358761,
+      "change_number": 41363819,
       "data": {
         "appinfo": {
           "common": {
@@ -1421,6 +1447,16 @@
                 "path": "Beardroid Games/TheCoinsKeeperTidyUp/Steam/{64BitSteamID}/Saves/FantasyCoinCollectionCompact",
                 "pattern": "slot-3.json.bak",
                 "root": "WinAppDataLocalLow"
+              },
+              "6": {
+                "path": "Beardroid Games/TheCoinKeeperTidyUp/Steam/{64BitSteamID}/Saves/FantasyCoinCollectionCompact",
+                "pattern": "slot-*.json",
+                "root": "WinAppDataLocalLow"
+              },
+              "7": {
+                "path": "Beardroid Games/TheCoinKeeperTidyUp/Steam/{64BitSteamID}/Saves/FantasyCoinCollectionCompact",
+                "pattern": "slot-*.json.bak",
+                "root": "WinAppDataLocalLow"
               }
             }
           }
@@ -1442,11 +1478,11 @@
           }
         }
       },
-      "observed_at": "2026-11-22T14:23:51.415Z",
+      "observed_at": "2026-11-22T18:38:37.149Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-22T14:23:51.415Z"
+  "updated_at": "2026-11-22T18:38:37.149Z"
 }

@@ -1026,11 +1026,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T18:38:37.149Z",
+      "change_number": 41363898,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26852854",
+            "description": "Macbook",
+            "timebuildupdated": 1795372757,
+            "timeupdated": 1795372757
+          },
+          "op": "add",
+          "path": "/depots/branches/macbook"
+        },
+        {
+          "after": "203533418052015965",
+          "op": "add",
+          "path": "/depots/depots/5484411/manifests/macbook"
+        },
+        {
+          "after": "624578227032465684",
+          "op": "add",
+          "path": "/depots/depots/5484412/manifests/macbook"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41362557,
+      "change_number": 41363898,
       "data": {
         "appinfo": {
           "common": {
@@ -1344,6 +1372,12 @@
               "timebuildupdated": 1795368882,
               "timeupdated": 1795368882
             },
+            "macbook": {
+              "buildid": "26852854",
+              "description": "Macbook",
+              "timebuildupdated": 1795372757,
+              "timeupdated": 1795372757
+            },
             "public": {
               "buildid": "26847711",
               "timebuildupdated": 1795347769,
@@ -1370,20 +1404,23 @@
             "5484411": {
               "manifests": {
                 "beta": "7780446101889591848",
+                "macbook": "203533418052015965",
                 "public": "203533418052015965"
               }
             },
             "5484412": {
-              "manifests": {}
+              "manifests": {
+                "macbook": "624578227032465684"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-22T17:38:48.630Z",
+      "observed_at": "2026-11-22T18:38:37.149Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-22T17:38:48.630Z"
+  "updated_at": "2026-11-22T18:38:37.149Z"
 }
