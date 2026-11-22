@@ -649,11 +649,24 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T14:53:49.904Z",
+      "change_number": 41359071,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41357804,
+      "change_number": 41359071,
       "data": {
         "appinfo": {
           "common": {
@@ -1216,7 +1229,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "Save the Sandcastle"
@@ -1289,11 +1303,11 @@
           }
         }
       },
-      "observed_at": "2026-11-22T13:53:39.187Z",
+      "observed_at": "2026-11-22T14:53:49.904Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-22T13:53:39.187Z"
+  "updated_at": "2026-11-22T14:53:49.904Z"
 }

@@ -1326,11 +1326,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T14:53:49.904Z",
+      "change_number": 41359290,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26824076",
+            "description": "Used for Staging",
+            "timebuildupdated": 1795216605,
+            "timeupdated": 1795216949
+          },
+          "op": "remove",
+          "path": "/depots/branches/staging"
+        },
+        {
+          "before": "4022287066892844420",
+          "op": "remove",
+          "path": "/depots/depots/4600991/manifests/staging"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41337729,
+      "change_number": 41359290,
       "data": {
         "appinfo": {
           "common": {
@@ -1582,26 +1605,19 @@
               "description": "Used for releasing the product",
               "timebuildupdated": 1788401317,
               "timeupdated": 1789378808
-            },
-            "staging": {
-              "buildid": "26824076",
-              "description": "Used for Staging",
-              "timebuildupdated": 1795216605,
-              "timeupdated": 1795216949
             }
           },
           "depots": {
             "4600991": {
               "manifests": {
                 "public": "5774977338412723503",
-                "release": "662377765304854488",
-                "staging": "4022287066892844420"
+                "release": "662377765304854488"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-21T16:23:39.735Z",
+      "observed_at": "2026-11-22T14:53:49.904Z",
       "tracked": true
     },
     "steam_store": {
@@ -1878,5 +1894,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T16:23:39.735Z"
+  "updated_at": "2026-11-22T14:53:49.904Z"
 }
