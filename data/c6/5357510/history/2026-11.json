@@ -472,11 +472,69 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T22:53:45.279Z",
+      "change_number": 41368522,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26823352",
+            "description": "Windows v1.1.0 localization beta",
+            "timebuildupdated": 1795214129,
+            "timeupdated": 1795214533
+          },
+          "op": "remove",
+          "path": "/depots/branches/localization-beta"
+        },
+        {
+          "after": "26856090",
+          "before": "26823966",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795387338,
+          "before": 1795216253,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795387415,
+          "before": 1795216253,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": "4651385635465279566",
+          "op": "remove",
+          "path": "/depots/depots/5357511/manifests/localization-beta"
+        },
+        {
+          "after": "7002210858060370139",
+          "before": "216351309622093172",
+          "op": "replace",
+          "path": "/depots/depots/5357511/manifests/public"
+        },
+        {
+          "before": "1024243850660216460",
+          "op": "remove",
+          "path": "/depots/depots/5357512/manifests/localization-beta"
+        },
+        {
+          "after": "4355572399862258708",
+          "before": "7550830281235834360",
+          "op": "replace",
+          "path": "/depots/depots/5357512/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41319573,
+      "change_number": 41368522,
       "data": {
         "appinfo": {
           "common": {
@@ -641,16 +699,10 @@
         },
         "depots": {
           "branches": {
-            "localization-beta": {
-              "buildid": "26823352",
-              "description": "Windows v1.1.0 localization beta",
-              "timebuildupdated": 1795214129,
-              "timeupdated": 1795214533
-            },
             "public": {
-              "buildid": "26823966",
-              "timebuildupdated": 1795216253,
-              "timeupdated": 1795216253
+              "buildid": "26856090",
+              "timebuildupdated": 1795387338,
+              "timeupdated": 1795387415
             }
           },
           "depots": {
@@ -660,8 +712,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "localization-beta": "4651385635465279566",
-                "public": "216351309622093172"
+                "public": "7002210858060370139"
               }
             },
             "5357512": {
@@ -670,18 +721,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "localization-beta": "1024243850660216460",
-                "public": "7550830281235834360"
+                "public": "4355572399862258708"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-20T23:23:43.711Z",
+      "observed_at": "2026-11-22T22:53:45.279Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T23:23:43.711Z"
+  "updated_at": "2026-11-22T22:53:45.279Z"
 }
