@@ -286,11 +286,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T18:23:39.784Z",
+      "change_number": 41363546,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26852588",
+            "description": "The lastest version that is not officially out",
+            "timebuildupdated": 1795371679,
+            "timeupdated": 1795371706
+          },
+          "op": "add",
+          "path": "/depots/branches/unstable"
+        },
+        {
+          "after": "2613608326055727406",
+          "op": "add",
+          "path": "/depots/depots/4258681/manifests/unstable"
+        },
+        {
+          "after": "7527153678526178722",
+          "op": "add",
+          "path": "/depots/depots/4258682/manifests/unstable"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41353120,
+      "change_number": 41363546,
       "data": {
         "appinfo": {
           "common": {
@@ -462,6 +490,12 @@
               "buildid": "26750557",
               "timebuildupdated": 1794982373,
               "timeupdated": 1794982512
+            },
+            "unstable": {
+              "buildid": "26852588",
+              "description": "The lastest version that is not officially out",
+              "timebuildupdated": 1795371679,
+              "timeupdated": 1795371706
             }
           },
           "depots": {
@@ -470,7 +504,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "3846655833368586364"
+                "public": "3846655833368586364",
+                "unstable": "2613608326055727406"
               }
             },
             "4258682": {
@@ -478,17 +513,18 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "2811022013774358443"
+                "public": "2811022013774358443",
+                "unstable": "7527153678526178722"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-22T08:53:34.882Z",
+      "observed_at": "2026-11-22T18:23:39.784Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-22T08:53:34.882Z"
+  "updated_at": "2026-11-22T18:23:39.784Z"
 }
