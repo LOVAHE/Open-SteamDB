@@ -496,11 +496,80 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T17:08:33.268Z",
+      "change_number": 41362017,
+      "changes": [
+        {
+          "after": "26850912",
+          "before": "26822349",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795364400,
+          "before": 1795210514,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795367123,
+          "before": 1795210543,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "buildid": "26850912",
+            "description": "Update: Normal no longer speeds up, the old pace is now Speedy mode",
+            "timebuildupdated": 1795364400,
+            "timeupdated": 1795367123
+          },
+          "op": "add",
+          "path": "/depots/branches/v1.3"
+        },
+        {
+          "after": "8813788549025504920",
+          "before": "7595330198203857220",
+          "op": "replace",
+          "path": "/depots/depots/5510961/manifests/public"
+        },
+        {
+          "after": "8813788549025504920",
+          "op": "add",
+          "path": "/depots/depots/5510961/manifests/v1.3"
+        },
+        {
+          "after": "6208105939121155271",
+          "before": "6046851784130643730",
+          "op": "replace",
+          "path": "/depots/depots/5510962/manifests/public"
+        },
+        {
+          "after": "6208105939121155271",
+          "op": "add",
+          "path": "/depots/depots/5510962/manifests/v1.3"
+        },
+        {
+          "after": "5445746425847963208",
+          "before": "1291888694300793645",
+          "op": "replace",
+          "path": "/depots/depots/5510963/manifests/public"
+        },
+        {
+          "after": "5445746425847963208",
+          "op": "add",
+          "path": "/depots/depots/5510963/manifests/v1.3"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41358592,
+      "change_number": 41362017,
       "data": {
         "appinfo": {
           "common": {
@@ -839,9 +908,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26822349",
-              "timebuildupdated": 1795210514,
-              "timeupdated": 1795210543
+              "buildid": "26850912",
+              "timebuildupdated": 1795364400,
+              "timeupdated": 1795367123
             },
             "release": {
               "buildid": "26788461",
@@ -866,6 +935,12 @@
               "description": "Update: Breathing pulse removed from the smith's music tab",
               "timebuildupdated": 1795210514,
               "timeupdated": 1795210543
+            },
+            "v1.3": {
+              "buildid": "26850912",
+              "description": "Update: Normal no longer speeds up, the old pace is now Speedy mode",
+              "timebuildupdated": 1795364400,
+              "timeupdated": 1795367123
             }
           },
           "depots": {
@@ -874,11 +949,12 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "7595330198203857220",
+                "public": "8813788549025504920",
                 "release": "4459819928965928981",
                 "v1.0": "4459819928965928981",
                 "v1.1": "4247200318863134513",
-                "v1.2": "7595330198203857220"
+                "v1.2": "7595330198203857220",
+                "v1.3": "8813788549025504920"
               }
             },
             "5510962": {
@@ -886,11 +962,12 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "6046851784130643730",
+                "public": "6208105939121155271",
                 "release": "4477084099238883902",
                 "v1.0": "4477084099238883902",
                 "v1.1": "1083890135807858010",
-                "v1.2": "6046851784130643730"
+                "v1.2": "6046851784130643730",
+                "v1.3": "6208105939121155271"
               }
             },
             "5510963": {
@@ -898,21 +975,22 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "1291888694300793645",
+                "public": "5445746425847963208",
                 "release": "2246940868557224766",
                 "v1.0": "2246940868557224766",
                 "v1.1": "5041476228107446040",
-                "v1.2": "1291888694300793645"
+                "v1.2": "1291888694300793645",
+                "v1.3": "5445746425847963208"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-22T14:23:51.415Z",
+      "observed_at": "2026-11-22T17:08:33.268Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-22T14:23:51.415Z"
+  "updated_at": "2026-11-22T17:08:33.268Z"
 }
