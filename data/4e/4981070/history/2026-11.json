@@ -448,11 +448,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T07:29:44.222Z",
+      "change_number": 41351840,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos,linux",
+          "before": "windows,linux",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41338783,
+      "change_number": 41351840,
       "data": {
         "appinfo": {
           "common": {
@@ -565,8 +585,8 @@
             },
             "name": "Syncline",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows,linux",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos,linux",
             "primary_genre": "4",
             "small_capsule": {
               "english": "5d92721685486f7d7aa4d67fef844f69cfadbc7e/capsule_231x87.jpg"
@@ -668,11 +688,11 @@
           }
         }
       },
-      "observed_at": "2026-11-21T17:23:32.328Z",
+      "observed_at": "2026-11-22T07:29:44.222Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T17:23:32.328Z"
+  "updated_at": "2026-11-22T07:29:44.222Z"
 }
