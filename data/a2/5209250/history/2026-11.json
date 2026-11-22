@@ -289,11 +289,59 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T12:53:45.709Z",
+      "change_number": 41356991,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": {
+            "0": {
+              "path": "Stelex Software/KING 4 A DAY",
+              "pattern": "k4ad_cloud_save.json",
+              "root": "WinAppDataLocalLow"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles"
+        },
+        {
+          "after": "26848429",
+          "before": "26813203",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795351705,
+          "before": 1795183481,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795351736,
+          "before": 1795183515,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5748098685948109203",
+          "before": "544342194424370870",
+          "op": "replace",
+          "path": "/depots/depots/5209251/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41303520,
+      "change_number": 41356991,
       "data": {
         "appinfo": {
           "common": {
@@ -314,6 +362,7 @@
             "category": {
               "category_2": "1",
               "category_22": "1",
+              "category_23": "1",
               "category_62": "1",
               "category_68": "1",
               "category_74": "1",
@@ -443,15 +492,22 @@
           },
           "ufs": {
             "maxnumfiles": "10",
-            "quota": "1048576"
+            "quota": "1048576",
+            "savefiles": {
+              "0": {
+                "path": "Stelex Software/KING 4 A DAY",
+                "pattern": "k4ad_cloud_save.json",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26813203",
-              "timebuildupdated": 1795183481,
-              "timeupdated": 1795183515
+              "buildid": "26848429",
+              "timebuildupdated": 1795351705,
+              "timeupdated": 1795351736
             }
           },
           "depots": {
@@ -460,17 +516,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "544342194424370870"
+                "public": "5748098685948109203"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-20T14:08:33.993Z",
+      "observed_at": "2026-11-22T12:53:45.709Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T14:08:33.993Z"
+  "updated_at": "2026-11-22T12:53:45.709Z"
 }
