@@ -297,11 +297,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T21:23:44.674Z",
+      "change_number": 41366929,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": {
+            "maxnumfiles": "10",
+            "quota": "1000000",
+            "savefiles": {
+              "0": {
+                "path": "Ironleaf Studio/VOXHELL Demo/Save",
+                "pattern": "progress.json",
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41366662,
+      "change_number": 41366929,
       "data": {
         "appinfo": {
           "common": {
@@ -317,6 +345,7 @@
             },
             "category": {
               "category_2": "1",
+              "category_23": "1",
               "category_68": "1",
               "category_69": "1",
               "category_74": "1",
@@ -494,6 +523,17 @@
           "extended": {
             "developer": "Ironleaf Studio",
             "publisher": "Ironleaf Studio"
+          },
+          "ufs": {
+            "maxnumfiles": "10",
+            "quota": "1000000",
+            "savefiles": {
+              "0": {
+                "path": "Ironleaf Studio/VOXHELL Demo/Save",
+                "pattern": "progress.json",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -521,11 +561,11 @@
           }
         }
       },
-      "observed_at": "2026-11-22T21:08:36.759Z",
+      "observed_at": "2026-11-22T21:23:44.674Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-22T21:08:36.759Z"
+  "updated_at": "2026-11-22T21:23:44.674Z"
 }
