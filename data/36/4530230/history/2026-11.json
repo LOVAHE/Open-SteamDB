@@ -593,11 +593,35 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T07:39:49.037Z",
+      "change_number": 41352139,
+      "changes": [
+        {
+          "after": "windows,android",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "android"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/4530232"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41004384,
+      "change_number": 41352139,
       "data": {
         "appinfo": {
           "common": {
@@ -700,7 +724,7 @@
             "name": "Loop One: Done",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,android",
             "primary_genre": "28",
             "review_percentage": "100",
             "review_score": "7",
@@ -813,11 +837,17 @@
                 "prev-release": "4633998793307175730",
                 "public": "7389467277685339570"
               }
+            },
+            "4530232": {
+              "config": {
+                "oslist": "android"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-16T13:08:56.693Z",
+      "observed_at": "2026-11-22T07:39:49.037Z",
       "tracked": true
     },
     "steam_store": {
@@ -1008,5 +1038,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T13:08:56.693Z"
+  "updated_at": "2026-11-22T07:39:49.037Z"
 }
