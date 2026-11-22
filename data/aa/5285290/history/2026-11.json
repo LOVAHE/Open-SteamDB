@@ -291,11 +291,32 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T19:08:45.690Z",
+      "change_number": 41364423,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": {
+            "maxnumfiles": "100",
+            "quota": "1500000"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41363778,
+      "change_number": 41364423,
       "data": {
         "appinfo": {
           "common": {
@@ -434,7 +455,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "Planet Forge"
@@ -442,6 +464,10 @@
           "extended": {
             "developer": "Mr. BLender",
             "publisher": "Mr. BLender"
+          },
+          "ufs": {
+            "maxnumfiles": "100",
+            "quota": "1500000"
           }
         },
         "depots": {
@@ -461,11 +487,11 @@
           }
         }
       },
-      "observed_at": "2026-11-22T18:38:37.149Z",
+      "observed_at": "2026-11-22T19:08:45.690Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-22T18:38:37.149Z"
+  "updated_at": "2026-11-22T19:08:45.690Z"
 }

@@ -1049,11 +1049,59 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T19:08:45.690Z",
+      "change_number": 41364393,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26853193",
+            "description": "Trying to fix the pb",
+            "timebuildupdated": 1795374276,
+            "timeupdated": 1795374277
+          },
+          "op": "add",
+          "path": "/depots/branches/testing2"
+        },
+        {
+          "after": "6416362656591610960",
+          "op": "add",
+          "path": "/depots/depots/1652581/manifests/testing2"
+        },
+        {
+          "after": "1727999444483054899",
+          "op": "add",
+          "path": "/depots/depots/1652582/manifests/testing2"
+        },
+        {
+          "after": "3337132274445621422",
+          "op": "add",
+          "path": "/depots/depots/5355230/manifests/testing2"
+        },
+        {
+          "after": "340809303485002838",
+          "op": "add",
+          "path": "/depots/depots/5355231/manifests/testing2"
+        },
+        {
+          "after": "2028186997641845472",
+          "op": "add",
+          "path": "/depots/depots/5434161/manifests/testing2"
+        },
+        {
+          "after": "4930192458858869494",
+          "op": "add",
+          "path": "/depots/depots/5434181/manifests/testing2"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41363934,
+      "change_number": 41364393,
       "data": {
         "appinfo": {
           "common": {
@@ -1286,6 +1334,12 @@
               "buildid": "26852870",
               "timebuildupdated": 1795372842,
               "timeupdated": 1795372842
+            },
+            "testing2": {
+              "buildid": "26853193",
+              "description": "Trying to fix the pb",
+              "timebuildupdated": 1795374276,
+              "timeupdated": 1795374277
             }
           },
           "depots": {
@@ -1294,7 +1348,8 @@
                 "oslist": "windows,linux"
               },
               "manifests": {
-                "public": "5460227338167401707"
+                "public": "5460227338167401707",
+                "testing2": "6416362656591610960"
               }
             },
             "1652582": {
@@ -1302,7 +1357,8 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "7871476286325132254"
+                "public": "7871476286325132254",
+                "testing2": "1727999444483054899"
               }
             },
             "5355230": {
@@ -1311,7 +1367,8 @@
               },
               "dlcappid": 5355230,
               "manifests": {
-                "public": "3337132274445621422"
+                "public": "3337132274445621422",
+                "testing2": "3337132274445621422"
               }
             },
             "5355231": {
@@ -1320,29 +1377,32 @@
               },
               "dlcappid": 5355230,
               "manifests": {
-                "public": "340809303485002838"
+                "public": "340809303485002838",
+                "testing2": "340809303485002838"
               }
             },
             "5434161": {
               "dlcappid": 5434160,
               "manifests": {
-                "public": "2028186997641845472"
+                "public": "2028186997641845472",
+                "testing2": "2028186997641845472"
               }
             },
             "5434181": {
               "dlcappid": 5434180,
               "manifests": {
-                "public": "4930192458858869494"
+                "public": "4930192458858869494",
+                "testing2": "4930192458858869494"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-22T18:53:41.361Z",
+      "observed_at": "2026-11-22T19:08:45.690Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-22T18:53:41.361Z"
+  "updated_at": "2026-11-22T19:08:45.690Z"
 }
