@@ -733,11 +733,43 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-11-22T23:08:44.107Z",
+      "change_number": 41368705,
+      "changes": [
+        {
+          "after": "26856320",
+          "before": "26842361",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795388410,
+          "before": 1795312853,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795388410,
+          "before": 1795312853,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7320826656061937958",
+          "before": "5080703357442115933",
+          "op": "replace",
+          "path": "/depots/depots/5300461/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41347997,
+      "change_number": 41368705,
       "data": {
         "appinfo": {
           "common": {
@@ -874,9 +906,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26842361",
-              "timebuildupdated": 1795312853,
-              "timeupdated": 1795312853
+              "buildid": "26856320",
+              "timebuildupdated": 1795388410,
+              "timeupdated": 1795388410
             }
           },
           "depots": {
@@ -885,7 +917,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "5080703357442115933"
+                "public": "7320826656061937958"
               }
             },
             "5300462": {
@@ -899,7 +931,7 @@
           }
         }
       },
-      "observed_at": "2026-11-22T03:53:38.297Z",
+      "observed_at": "2026-11-22T23:08:44.107Z",
       "tracked": true
     },
     "steam_store": {
@@ -1105,5 +1137,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-22T16:08:37.460Z"
+  "updated_at": "2026-11-22T23:08:44.107Z"
 }
