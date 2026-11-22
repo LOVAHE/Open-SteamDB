@@ -307,11 +307,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T16:53:49.445Z",
+      "change_number": 41361564,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26851273",
+            "description": "Build using the OpenGL compatability renderer",
+            "timebuildupdated": 1795365889,
+            "timeupdated": 1795366071
+          },
+          "op": "add",
+          "path": "/depots/branches/compatibility"
+        },
+        {
+          "after": "7466489773875988571",
+          "op": "add",
+          "path": "/depots/depots/5118551/manifests/compatibility"
+        },
+        {
+          "after": "3188950923894657480",
+          "op": "add",
+          "path": "/depots/depots/5118552/manifests/compatibility"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41339387,
+      "change_number": 41361564,
       "data": {
         "appinfo": {
           "common": {
@@ -497,6 +525,12 @@
         },
         "depots": {
           "branches": {
+            "compatibility": {
+              "buildid": "26851273",
+              "description": "Build using the OpenGL compatability renderer",
+              "timebuildupdated": 1795365889,
+              "timeupdated": 1795366071
+            },
             "public": {
               "buildid": "26836499",
               "timebuildupdated": 1795282531,
@@ -515,6 +549,7 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "compatibility": "7466489773875988571",
                 "public": "5820609086913370126",
                 "staging": "5820609086913370126"
               }
@@ -524,6 +559,7 @@
                 "oslist": "linux"
               },
               "manifests": {
+                "compatibility": "3188950923894657480",
                 "public": "2590573872404374675",
                 "staging": "2590573872404374675"
               }
@@ -531,11 +567,11 @@
           }
         }
       },
-      "observed_at": "2026-11-21T17:53:44.868Z",
+      "observed_at": "2026-11-22T16:53:49.445Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T17:53:44.868Z"
+  "updated_at": "2026-11-22T16:53:49.445Z"
 }
