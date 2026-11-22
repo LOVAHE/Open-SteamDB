@@ -181,11 +181,55 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T15:38:47.143Z",
+      "change_number": 41360137,
+      "changes": [
+        {
+          "after": "1793850021",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        },
+        {
+          "after": "26850282",
+          "before": "26425672",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795361400,
+          "before": 1793777079,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795361555,
+          "before": 1793777109,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4628492886880939471",
+          "before": "2927398442350401877",
+          "op": "replace",
+          "path": "/depots/depots/5441361/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40615185,
+      "change_number": 41360137,
       "data": {
         "appinfo": {
           "common": {
@@ -281,6 +325,7 @@
             "small_capsule": {
               "english": "2e991a521923d400f6b49237b5969d03fa3e17f1/capsule_231x87.jpg"
             },
+            "steam_release_date": "1793850021",
             "store_asset_mtime": "1791913213",
             "store_tags": {
               "0": "5432",
@@ -307,6 +352,9 @@
               },
               "koreana": {
                 "supported": "true"
+              },
+              "schinese": {
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -322,9 +370,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26425672",
-              "timebuildupdated": 1793777079,
-              "timeupdated": 1793777109
+              "buildid": "26850282",
+              "timebuildupdated": 1795361400,
+              "timeupdated": 1795361555
             }
           },
           "depots": {
@@ -341,7 +389,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "2927398442350401877"
+                "public": "4628492886880939471"
               }
             },
             "5441362": {
@@ -353,11 +401,11 @@
           }
         }
       },
-      "observed_at": "2026-11-06T20:10:43.819Z",
+      "observed_at": "2026-11-22T15:38:47.143Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T20:10:43.819Z"
+  "updated_at": "2026-11-22T15:38:47.143Z"
 }

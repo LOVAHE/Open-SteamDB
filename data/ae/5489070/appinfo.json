@@ -1,8 +1,8 @@
 {
   "appid": 5489070,
   "source": "steam_pics",
-  "updated_at": "2026-11-22T06:08:44.016Z",
-  "change_number": 41351063,
+  "updated_at": "2026-11-22T15:38:47.143Z",
+  "change_number": 41360165,
   "data": {
     "common": {
       "associations": {
@@ -200,6 +200,31 @@
     },
     "config": {
       "installdir": "The Nine Oaths"
+    },
+    "ufs": {
+      "maxnumfiles": "200",
+      "quota": "100000000",
+      "rootoverrides": {
+        "0": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Godot/app_userdata/The Nine Oaths/saves",
+              "replace": "godot/app_userdata/The Nine Oaths/saves"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Godot/app_userdata/The Nine Oaths/saves",
+          "pattern": "*",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }
