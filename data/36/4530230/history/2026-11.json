@@ -624,11 +624,35 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T08:38:46.409Z",
+      "change_number": 41353013,
+      "changes": [
+        {
+          "after": {
+            "os": "Android",
+            "oscompare": "=",
+            "pathtransforms": {
+              "0": {
+                "find": "Ojsan Studio/Loop One Done",
+                "replace": "Android/data/com.ojsan.LoopOneDone/files"
+              }
+            },
+            "root": "WinAppDataLocalLow",
+            "useinstead": "AndroidExternalData"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides/1"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41352192,
+      "change_number": 41353013,
       "data": {
         "appinfo": {
           "common": {
@@ -799,6 +823,18 @@
                 },
                 "root": "WinAppDataLocalLow",
                 "useinstead": "LinuxHome"
+              },
+              "1": {
+                "os": "Android",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Ojsan Studio/Loop One Done",
+                    "replace": "Android/data/com.ojsan.LoopOneDone/files"
+                  }
+                },
+                "root": "WinAppDataLocalLow",
+                "useinstead": "AndroidExternalData"
               }
             },
             "savefiles": {
@@ -854,7 +890,7 @@
           }
         }
       },
-      "observed_at": "2026-11-22T07:53:34.943Z",
+      "observed_at": "2026-11-22T08:38:46.409Z",
       "tracked": true
     },
     "steam_store": {
@@ -1045,5 +1081,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-22T07:53:34.943Z"
+  "updated_at": "2026-11-22T08:38:46.409Z"
 }
