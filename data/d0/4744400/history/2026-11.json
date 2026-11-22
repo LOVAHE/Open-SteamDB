@@ -941,11 +941,65 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T09:08:49.022Z",
+      "change_number": 41353472,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "path": "Save",
+              "pattern": "*.sav",
+              "root": "gameinstall"
+            },
+            "1": {
+              "path": "environment",
+              "pattern": "*.evs",
+              "root": "gameinstall"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles"
+        },
+        {
+          "after": "26846161",
+          "before": "26674083",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795338189,
+          "before": 1794697983,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795338275,
+          "before": 1794698289,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1219084716718975662",
+          "before": "7529877849099302961",
+          "op": "replace",
+          "path": "/depots/depots/4744401/manifests/public"
+        },
+        {
+          "after": "8138636158560636786",
+          "before": "7479558207196760640",
+          "op": "replace",
+          "path": "/depots/depots/4744402/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41324069,
+      "change_number": 41353472,
       "data": {
         "appinfo": {
           "common": {
@@ -1112,15 +1166,27 @@
           },
           "ufs": {
             "maxnumfiles": "60",
-            "quota": "12000000"
+            "quota": "12000000",
+            "savefiles": {
+              "0": {
+                "path": "Save",
+                "pattern": "*.sav",
+                "root": "gameinstall"
+              },
+              "1": {
+                "path": "environment",
+                "pattern": "*.evs",
+                "root": "gameinstall"
+              }
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26674083",
-              "timebuildupdated": 1794697983,
-              "timeupdated": 1794698289
+              "buildid": "26846161",
+              "timebuildupdated": 1795338189,
+              "timeupdated": 1795338275
             }
           },
           "depots": {
@@ -1130,7 +1196,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "7529877849099302961"
+                "public": "1219084716718975662"
               }
             },
             "4744402": {
@@ -1138,17 +1204,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "7479558207196760640"
+                "public": "8138636158560636786"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-21T03:38:42.275Z",
+      "observed_at": "2026-11-22T09:08:49.022Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T03:38:42.275Z"
+  "updated_at": "2026-11-22T09:08:49.022Z"
 }
