@@ -195,11 +195,48 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T05:23:34.093Z",
+      "change_number": 41350549,
+      "changes": [
+        {
+          "after": "1795189548",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "26844242",
+          "before": "26146432",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795324471,
+          "before": 1792709990,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795324790,
+          "before": 1792710837,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8840360420865258843",
+          "before": "9202067012571347845",
+          "op": "replace",
+          "path": "/depots/depots/5480111/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41307010,
+      "change_number": 41350549,
       "data": {
         "appinfo": {
           "common": {
@@ -300,6 +337,7 @@
             "small_capsule": {
               "english": "120cb7e467a8438aca80ce3e9792eeec5c748b2e/capsule_231x87.jpg"
             },
+            "steam_release_date": "1795189548",
             "store_asset_mtime": "1792706865",
             "store_tags": {
               "0": "9",
@@ -367,25 +405,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26146432",
-              "timebuildupdated": 1792709990,
-              "timeupdated": 1792710837
+              "buildid": "26844242",
+              "timebuildupdated": 1795324471,
+              "timeupdated": 1795324790
             }
           },
           "depots": {
             "5480111": {
               "manifests": {
-                "public": "9202067012571347845"
+                "public": "8840360420865258843"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-20T16:08:48.194Z",
+      "observed_at": "2026-11-22T05:23:34.093Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T16:08:48.194Z"
+  "updated_at": "2026-11-22T05:23:34.093Z"
 }
