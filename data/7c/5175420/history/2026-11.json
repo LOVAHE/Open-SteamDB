@@ -200,11 +200,55 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T12:23:46.566Z",
+      "change_number": 41356471,
+      "changes": [
+        {
+          "after": "word-realms-v1/profiles/{64BitSteamID}",
+          "before": "LOVE\\word-realms-v1",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/path"
+        },
+        {
+          "after": "word-realms-v1/profiles/{64BitSteamID}",
+          "before": "LOVE\\word-realms-v1",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/1/path"
+        },
+        {
+          "after": "26848024",
+          "before": "26792502",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795349460,
+          "before": 1795112233,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795349978,
+          "before": 1795112701,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4190354956467214834",
+          "before": "1468038583707534207",
+          "op": "replace",
+          "path": "/depots/depots/5175421/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41274347,
+      "change_number": 41356471,
       "data": {
         "appinfo": {
           "common": {
@@ -354,12 +398,12 @@
             "quota": "104857600",
             "savefiles": {
               "0": {
-                "path": "LOVE\\word-realms-v1",
+                "path": "word-realms-v1/profiles/{64BitSteamID}",
                 "pattern": "progress.json",
                 "root": "WinAppDataRoaming"
               },
               "1": {
-                "path": "LOVE\\word-realms-v1",
+                "path": "word-realms-v1/profiles/{64BitSteamID}",
                 "pattern": "progress.json.bak",
                 "root": "WinAppDataRoaming"
               }
@@ -369,9 +413,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26792502",
-              "timebuildupdated": 1795112233,
-              "timeupdated": 1795112701
+              "buildid": "26848024",
+              "timebuildupdated": 1795349460,
+              "timeupdated": 1795349978
             }
           },
           "depots": {
@@ -385,17 +429,17 @@
             },
             "5175421": {
               "manifests": {
-                "public": "1468038583707534207"
+                "public": "4190354956467214834"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-19T20:23:26.342Z",
+      "observed_at": "2026-11-22T12:23:46.566Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-19T20:23:26.342Z"
+  "updated_at": "2026-11-22T12:23:46.566Z"
 }
