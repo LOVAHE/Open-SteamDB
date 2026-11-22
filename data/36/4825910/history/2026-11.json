@@ -321,11 +321,30 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T13:38:42.864Z",
+      "change_number": 41357937,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "path": "Revolt Games/Weed Lord Simulator",
+              "pattern": "Save*.json",
+              "root": "WinAppDataLocalLow"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41332552,
+      "change_number": 41357937,
       "data": {
         "appinfo": {
           "common": {
@@ -516,7 +535,14 @@
           },
           "ufs": {
             "maxnumfiles": "100",
-            "quota": "104857600"
+            "quota": "104857600",
+            "savefiles": {
+              "0": {
+                "path": "Revolt Games/Weed Lord Simulator",
+                "pattern": "Save*.json",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -540,11 +566,11 @@
           }
         }
       },
-      "observed_at": "2026-11-21T12:23:45.823Z",
+      "observed_at": "2026-11-22T13:38:42.864Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T12:23:45.823Z"
+  "updated_at": "2026-11-22T13:38:42.864Z"
 }

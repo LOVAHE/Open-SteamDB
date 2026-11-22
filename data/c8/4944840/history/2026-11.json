@@ -440,11 +440,54 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T13:38:42.864Z",
+      "change_number": 41357956,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": "26765856",
+          "before": "26651536",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795027101,
+          "before": 1794592646,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795354607,
+          "before": 1794592646,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4795234407187317415",
+          "before": "1970029399182331996",
+          "op": "replace",
+          "path": "/depots/depots/4944841/manifests/public"
+        },
+        {
+          "after": "8994551730974160323",
+          "before": "390604572418386049",
+          "op": "replace",
+          "path": "/depots/depots/4944842/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41246285,
+      "change_number": 41357956,
       "data": {
         "appinfo": {
           "common": {
@@ -590,7 +633,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "What Have My Cats Done"
@@ -631,9 +675,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26651536",
-              "timebuildupdated": 1794592646,
-              "timeupdated": 1794592646
+              "buildid": "26765856",
+              "timebuildupdated": 1795027101,
+              "timeupdated": 1795354607
             }
           },
           "depots": {
@@ -642,7 +686,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "1970029399182331996"
+                "public": "4795234407187317415"
               }
             },
             "4944842": {
@@ -650,17 +694,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "390604572418386049"
+                "public": "8994551730974160323"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-19T07:08:40.676Z",
+      "observed_at": "2026-11-22T13:38:42.864Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-19T07:08:40.676Z"
+  "updated_at": "2026-11-22T13:38:42.864Z"
 }
