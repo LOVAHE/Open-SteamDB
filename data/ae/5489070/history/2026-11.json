@@ -369,11 +369,73 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T04:38:46.111Z",
+      "change_number": 41349957,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/community_visible_stats"
+        },
+        {
+          "after": {
+            "brazilian": "1",
+            "english": "1",
+            "french": "1",
+            "german": "1",
+            "italian": "1",
+            "japanese": "1",
+            "koreana": "1",
+            "latam": "1",
+            "polish": "1",
+            "russian": "1",
+            "schinese": "1",
+            "spanish": "1",
+            "tchinese": "1"
+          },
+          "op": "add",
+          "path": "/appinfo/common/languages"
+        },
+        {
+          "after": "26843852",
+          "before": "26828304",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795321920,
+          "before": 1795236959,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795322033,
+          "before": 1795237241,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3353109759002512734",
+          "before": "6825330374609493122",
+          "op": "replace",
+          "path": "/depots/depots/5489071/manifests/public"
+        },
+        {
+          "after": "1503712466046809454",
+          "before": "6148118033624254418",
+          "op": "replace",
+          "path": "/depots/depots/5489072/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41349818,
+      "change_number": 41349957,
       "data": {
         "appinfo": {
           "common": {
@@ -401,6 +463,7 @@
             },
             "clienticon": "220038c72be155ca17815c07e4ba8ae74ef17a91",
             "community_hub_visible": "1",
+            "community_visible_stats": "1",
             "controller_support": "full",
             "genres": {
               "0": "25",
@@ -411,6 +474,21 @@
               "english": "a15034b5fda2df4bf6be0f2c61757dbbedd367aa/header.jpg"
             },
             "icon": "03be2ac29584b010e5965c8ac39092bd082829cc",
+            "languages": {
+              "brazilian": "1",
+              "english": "1",
+              "french": "1",
+              "german": "1",
+              "italian": "1",
+              "japanese": "1",
+              "koreana": "1",
+              "latam": "1",
+              "polish": "1",
+              "russian": "1",
+              "schinese": "1",
+              "spanish": "1",
+              "tchinese": "1"
+            },
             "library_assets": {
               "library_capsule": "en",
               "library_header": "en",
@@ -561,9 +639,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26828304",
-              "timebuildupdated": 1795236959,
-              "timeupdated": 1795237241
+              "buildid": "26843852",
+              "timebuildupdated": 1795321920,
+              "timeupdated": 1795322033
             }
           },
           "depots": {
@@ -572,7 +650,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "6825330374609493122"
+                "public": "3353109759002512734"
               }
             },
             "5489072": {
@@ -580,17 +658,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "6148118033624254418"
+                "public": "1503712466046809454"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-22T04:23:43.927Z",
+      "observed_at": "2026-11-22T04:38:46.111Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-22T04:23:43.927Z"
+  "updated_at": "2026-11-22T04:38:46.111Z"
 }
