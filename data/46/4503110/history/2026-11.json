@@ -737,11 +737,47 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T17:53:59.664Z",
+      "change_number": 41362736,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos,linux",
+          "before": "windows,linux",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "os": "MacOS",
+            "oscompare": "=",
+            "pathtransforms": {
+              "0": {
+                "find": "Circuit Pulse/saves",
+                "replace": "Circuit Pulse/saves"
+              }
+            },
+            "root": "WinAppDataRoaming",
+            "useinstead": "MacAppSupport"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides/1"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41362551,
+      "change_number": 41362736,
       "data": {
         "appinfo": {
           "common": {
@@ -879,8 +915,8 @@
             },
             "name": "Circuit Pulse",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows,linux",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos,linux",
             "primary_genre": "23",
             "small_capsule": {
               "english": "45c1d8b243257cb2c2218344e37345fb771d56e7/capsule_231x87.jpg",
@@ -988,6 +1024,18 @@
                 },
                 "root": "WinAppDataRoaming",
                 "useinstead": "LinuxXdgDataHome"
+              },
+              "1": {
+                "os": "MacOS",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Circuit Pulse/saves",
+                    "replace": "Circuit Pulse/saves"
+                  }
+                },
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
               }
             },
             "savefiles": {
@@ -1035,11 +1083,11 @@
           }
         }
       },
-      "observed_at": "2026-11-22T17:38:48.630Z",
+      "observed_at": "2026-11-22T17:53:59.664Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-22T17:38:48.630Z"
+  "updated_at": "2026-11-22T17:53:59.664Z"
 }

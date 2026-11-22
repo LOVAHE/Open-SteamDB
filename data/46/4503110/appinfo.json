@@ -1,8 +1,8 @@
 {
   "appid": 4503110,
   "source": "steam_pics",
-  "updated_at": "2026-11-22T17:38:48.630Z",
-  "change_number": 41362551,
+  "updated_at": "2026-11-22T17:53:59.664Z",
+  "change_number": 41362736,
   "data": {
     "common": {
       "associations": {
@@ -139,8 +139,8 @@
       },
       "name": "Circuit Pulse",
       "osarch": "64",
-      "osextended": "",
-      "oslist": "windows,linux",
+      "osextended": "macos64,macosapplesilicon",
+      "oslist": "windows,macos,linux",
       "primary_genre": "23",
       "small_capsule": {
         "english": "45c1d8b243257cb2c2218344e37345fb771d56e7/capsule_231x87.jpg",
@@ -248,6 +248,18 @@
           },
           "root": "WinAppDataRoaming",
           "useinstead": "LinuxXdgDataHome"
+        },
+        "1": {
+          "os": "MacOS",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Circuit Pulse/saves",
+              "replace": "Circuit Pulse/saves"
+            }
+          },
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
         }
       },
       "savefiles": {
