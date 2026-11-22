@@ -391,29 +391,80 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T05:53:48.827Z",
+      "change_number": 41350952,
+      "changes": [
+        {
+          "after": "Lost Pixels Game",
+          "before": "Emre Kama",
+          "op": "replace",
+          "path": "/appinfo/common/associations/0/name"
+        },
+        {
+          "after": "Lost Pixels Game",
+          "before": "Furkan Ozsoy",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/name"
+        },
+        {
+          "after": "publisher",
+          "before": "developer",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/type"
+        },
+        {
+          "before": {
+            "name": "Emre Kama",
+            "type": "publisher"
+          },
+          "op": "remove",
+          "path": "/appinfo/common/associations/2"
+        },
+        {
+          "before": {
+            "name": "Furkan Ozsoy",
+            "type": "publisher"
+          },
+          "op": "remove",
+          "path": "/appinfo/common/associations/3"
+        },
+        {
+          "after": "Lost Pixels Game",
+          "before": "Emre Kama",
+          "op": "replace",
+          "path": "/appinfo/extended/developer"
+        },
+        {
+          "after": "https://lostpixelsgame.com/",
+          "op": "add",
+          "path": "/appinfo/extended/homepage"
+        },
+        {
+          "after": "Lost Pixels Game",
+          "before": "Emre Kama",
+          "op": "replace",
+          "path": "/appinfo/extended/publisher"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41265926,
+      "change_number": 41350952,
       "data": {
         "appinfo": {
           "common": {
             "associations": {
               "0": {
-                "name": "Emre Kama",
+                "name": "Lost Pixels Game",
                 "type": "developer"
               },
               "1": {
-                "name": "Furkan Ozsoy",
-                "type": "developer"
-              },
-              "2": {
-                "name": "Emre Kama",
-                "type": "publisher"
-              },
-              "3": {
-                "name": "Furkan Ozsoy",
+                "name": "Lost Pixels Game",
                 "type": "publisher"
               }
             },
@@ -637,8 +688,9 @@
             "installdir": "Tavern Tidy Up Demo"
           },
           "extended": {
-            "developer": "Emre Kama",
-            "publisher": "Emre Kama"
+            "developer": "Lost Pixels Game",
+            "homepage": "https://lostpixelsgame.com/",
+            "publisher": "Lost Pixels Game"
           }
         },
         "depots": {
@@ -658,11 +710,11 @@
           }
         }
       },
-      "observed_at": "2026-11-19T14:23:32.759Z",
+      "observed_at": "2026-11-22T05:53:48.827Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-19T14:23:32.759Z"
+  "updated_at": "2026-11-22T05:53:48.827Z"
 }
