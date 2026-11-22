@@ -669,11 +669,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T20:38:52.766Z",
+      "change_number": 41366075,
+      "changes": [
+        {
+          "before": "1",
+          "op": "remove",
+          "path": "/appinfo/common/category/category_18"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_28"
+        },
+        {
+          "after": "full",
+          "before": "partial",
+          "op": "replace",
+          "path": "/appinfo/common/controller_support"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/turkish"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41334449,
+      "change_number": 41366075,
       "data": {
         "appinfo": {
           "common": {
@@ -697,10 +729,10 @@
             },
             "category": {
               "category_1": "1",
-              "category_18": "1",
               "category_2": "1",
               "category_22": "1",
               "category_23": "1",
+              "category_28": "1",
               "category_38": "1",
               "category_55": "1",
               "category_56": "1",
@@ -717,7 +749,7 @@
             "clienttga": "8dc6e6d8b9fb230291318563c98e80842d7190d9",
             "community_hub_visible": "1",
             "community_visible_stats": "1",
-            "controller_support": "partial",
+            "controller_support": "full",
             "genres": {
               "0": "1",
               "1": "25",
@@ -874,6 +906,10 @@
               "tchinese": {
                 "subtitles": "true",
                 "supported": "true"
+              },
+              "turkish": {
+                "subtitles": "true",
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -966,11 +1002,11 @@
           }
         }
       },
-      "observed_at": "2026-11-21T13:53:50.122Z",
+      "observed_at": "2026-11-22T20:38:52.766Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T13:53:50.122Z"
+  "updated_at": "2026-11-22T20:38:52.766Z"
 }

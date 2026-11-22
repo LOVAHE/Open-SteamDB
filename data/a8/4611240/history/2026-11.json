@@ -1042,11 +1042,25 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T20:38:52.766Z",
+      "change_number": 41366082,
+      "changes": [
+        {
+          "after": "Godot/app_userdata/MusicManager/steam_cloud_saves/{64BitSteamID}",
+          "before": "Godot/app_userdata/MusicManager/saves",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/path"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41365646,
+      "change_number": 41366082,
       "data": {
         "appinfo": {
           "common": {
@@ -1279,7 +1293,7 @@
             "quota": "9999999999",
             "savefiles": {
               "0": {
-                "path": "Godot/app_userdata/MusicManager/saves",
+                "path": "Godot/app_userdata/MusicManager/steam_cloud_saves/{64BitSteamID}",
                 "pattern": "*.save",
                 "recursive": "1",
                 "root": "WinAppDataRoaming"
@@ -1304,11 +1318,11 @@
           }
         }
       },
-      "observed_at": "2026-11-22T20:23:50.808Z",
+      "observed_at": "2026-11-22T20:38:52.766Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-22T20:23:50.808Z"
+  "updated_at": "2026-11-22T20:38:52.766Z"
 }
