@@ -196,11 +196,58 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T03:53:38.297Z",
+      "change_number": 41348403,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26842468",
+            "description": "test before live",
+            "timebuildupdated": 1795313424,
+            "timeupdated": 1795313536
+          },
+          "op": "add",
+          "path": "/depots/branches/devprelive"
+        },
+        {
+          "after": "26842468",
+          "before": "26121702",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795313424,
+          "before": 1792631088,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795314806,
+          "before": 1792631091,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3502410207687962502",
+          "op": "add",
+          "path": "/depots/depots/4102831/manifests/devprelive"
+        },
+        {
+          "after": "3502410207687962502",
+          "before": "5085792204962911653",
+          "op": "replace",
+          "path": "/depots/depots/4102831/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41001792,
+      "change_number": 41348403,
       "data": {
         "appinfo": {
           "common": {
@@ -365,10 +412,16 @@
         },
         "depots": {
           "branches": {
+            "devprelive": {
+              "buildid": "26842468",
+              "description": "test before live",
+              "timebuildupdated": 1795313424,
+              "timeupdated": 1795313536
+            },
             "public": {
-              "buildid": "26121702",
-              "timebuildupdated": 1792631088,
-              "timeupdated": 1792631091
+              "buildid": "26842468",
+              "timebuildupdated": 1795313424,
+              "timeupdated": 1795314806
             }
           },
           "depots": {
@@ -377,17 +430,18 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "5085792204962911653"
+                "devprelive": "3502410207687962502",
+                "public": "3502410207687962502"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-16T14:53:51.490Z",
+      "observed_at": "2026-11-22T03:53:38.297Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-16T14:53:51.490Z"
+  "updated_at": "2026-11-22T03:53:38.297Z"
 }

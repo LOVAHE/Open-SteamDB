@@ -811,11 +811,50 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-22T03:53:38.297Z",
+      "change_number": 41346997,
+      "changes": [
+        {
+          "after": {
+            "japanese": "勇者ローグ"
+          },
+          "op": "add",
+          "path": "/appinfo/common/name_localized"
+        },
+        {
+          "after": "26841600",
+          "before": "26805641",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795308234,
+          "before": 1795160538,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795308282,
+          "before": 1795160598,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4172128580308170566",
+          "before": "3583382399283446822",
+          "op": "replace",
+          "path": "/depots/depots/3208461/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41292499,
+      "change_number": 41346997,
       "data": {
         "appinfo": {
           "common": {
@@ -907,6 +946,9 @@
               }
             },
             "name": "Rogue Braver",
+            "name_localized": {
+              "japanese": "勇者ローグ"
+            },
             "osarch": "64",
             "osextended": "",
             "oslist": "windows",
@@ -954,25 +996,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26805641",
-              "timebuildupdated": 1795160538,
-              "timeupdated": 1795160598
+              "buildid": "26841600",
+              "timebuildupdated": 1795308234,
+              "timeupdated": 1795308282
             }
           },
           "depots": {
             "3208461": {
               "manifests": {
-                "public": "3583382399283446822"
+                "public": "4172128580308170566"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-20T07:53:33.367Z",
+      "observed_at": "2026-11-22T03:53:38.297Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T07:53:33.367Z"
+  "updated_at": "2026-11-22T03:53:38.297Z"
 }
