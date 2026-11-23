@@ -186,11 +186,49 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-23T03:38:34.727Z",
+      "change_number": 41372378,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "500",
+            "quota": "1073741824",
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/ChemLab/saves",
+                "pattern": "slot_*.json",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/ChemLab/saves",
+                "pattern": "slots_meta.json",
+                "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "SavesDir",
+                "pattern": "*.sav",
+                "root": "gameinstall"
+              },
+              "3": {
+                "path": "Godot/app_userdata/ChemLab",
+                "pattern": "profile_v1.json",
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41289268,
+      "change_number": 41372378,
       "data": {
         "appinfo": {
           "common": {
@@ -341,6 +379,32 @@
           "extended": {
             "developer": "ChemLab Studio",
             "publisher": "ChemLab Studio"
+          },
+          "ufs": {
+            "maxnumfiles": "500",
+            "quota": "1073741824",
+            "savefiles": {
+              "0": {
+                "path": "Godot/app_userdata/ChemLab/saves",
+                "pattern": "slot_*.json",
+                "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "Godot/app_userdata/ChemLab/saves",
+                "pattern": "slots_meta.json",
+                "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "SavesDir",
+                "pattern": "*.sav",
+                "root": "gameinstall"
+              },
+              "3": {
+                "path": "Godot/app_userdata/ChemLab",
+                "pattern": "profile_v1.json",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -363,11 +427,11 @@
           }
         }
       },
-      "observed_at": "2026-11-20T05:53:36.725Z",
+      "observed_at": "2026-11-23T03:38:34.727Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T05:53:36.725Z"
+  "updated_at": "2026-11-23T03:38:34.727Z"
 }

@@ -1,8 +1,8 @@
 {
   "appid": 5526130,
   "source": "steam_pics",
-  "updated_at": "2026-11-20T05:53:36.725Z",
-  "change_number": 41289268,
+  "updated_at": "2026-11-23T03:38:34.727Z",
+  "change_number": 41372378,
   "data": {
     "common": {
       "associations": {
@@ -152,6 +152,32 @@
     },
     "config": {
       "installdir": "ChemLab"
+    },
+    "ufs": {
+      "maxnumfiles": "500",
+      "quota": "1073741824",
+      "savefiles": {
+        "0": {
+          "path": "Godot/app_userdata/ChemLab/saves",
+          "pattern": "slot_*.json",
+          "root": "WinAppDataRoaming"
+        },
+        "1": {
+          "path": "Godot/app_userdata/ChemLab/saves",
+          "pattern": "slots_meta.json",
+          "root": "WinAppDataRoaming"
+        },
+        "2": {
+          "path": "SavesDir",
+          "pattern": "*.sav",
+          "root": "gameinstall"
+        },
+        "3": {
+          "path": "Godot/app_userdata/ChemLab",
+          "pattern": "profile_v1.json",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }
