@@ -1421,11 +1421,63 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-23T11:39:12.526Z",
+      "change_number": 41383280,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26760591",
+            "description": "1.1.2 — previous version, if Windows blocks the update",
+            "timebuildupdated": 1795013441,
+            "timeupdated": 1795014068
+          },
+          "op": "add",
+          "path": "/depots/branches/1.1.2"
+        },
+        {
+          "after": "26865713",
+          "before": "26760591",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795431510,
+          "before": 1795013441,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795433234,
+          "before": 1795014068,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "644033356202960153",
+          "op": "add",
+          "path": "/depots/depots/5028051/manifests/1.1.2"
+        },
+        {
+          "after": "5339425783378436579",
+          "before": "644033356202960153",
+          "op": "replace",
+          "path": "/depots/depots/5028051/manifests/public"
+        },
+        {
+          "after": "7209656461181868166",
+          "op": "add",
+          "path": "/depots/depots/5028052/manifests/1.1.2"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41365126,
+      "change_number": 41383280,
       "data": {
         "appinfo": {
           "common": {
@@ -1723,10 +1775,16 @@
               "timebuildupdated": 1794236425,
               "timeupdated": 1794237008
             },
-            "public": {
+            "1.1.2": {
               "buildid": "26760591",
+              "description": "1.1.2 — previous version, if Windows blocks the update",
               "timebuildupdated": 1795013441,
               "timeupdated": 1795014068
+            },
+            "public": {
+              "buildid": "26865713",
+              "timebuildupdated": 1795431510,
+              "timeupdated": 1795433234
             }
           },
           "depots": {
@@ -1744,7 +1802,8 @@
               },
               "manifests": {
                 "1.1.1": "5802948197271508315",
-                "public": "644033356202960153"
+                "1.1.2": "644033356202960153",
+                "public": "5339425783378436579"
               }
             },
             "5028052": {
@@ -1753,17 +1812,18 @@
               },
               "manifests": {
                 "1.1.1": "3334329877606243719",
+                "1.1.2": "7209656461181868166",
                 "public": "7209656461181868166"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-22T19:53:43.710Z",
+      "observed_at": "2026-11-23T11:39:12.526Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-22T19:53:43.710Z"
+  "updated_at": "2026-11-23T11:39:12.526Z"
 }

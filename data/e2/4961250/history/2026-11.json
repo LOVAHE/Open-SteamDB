@@ -239,11 +239,93 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-23T11:39:12.526Z",
+      "change_number": 41383263,
+      "changes": [
+        {
+          "after": "en,ja,ko,zh-tw",
+          "before": "en,ja",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets/library_capsule"
+        },
+        {
+          "after": "en,ja,ko,zh-tw",
+          "before": "en,ja",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets/library_logo"
+        },
+        {
+          "after": "269939554aa1c0bc3b47e26057eaa94cb16230b9/library_capsule_koreana.jpg",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_capsule/image/koreana"
+        },
+        {
+          "after": "6b4ab678d2dc5d397890df9eb5d262438373db91/library_capsule_tchinese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_capsule/image/tchinese"
+        },
+        {
+          "after": "269939554aa1c0bc3b47e26057eaa94cb16230b9/library_capsule_koreana_2x.jpg",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_capsule/image2x/koreana"
+        },
+        {
+          "after": "6b4ab678d2dc5d397890df9eb5d262438373db91/library_capsule_tchinese_2x.jpg",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_capsule/image2x/tchinese"
+        },
+        {
+          "after": "7df273afde0fdd08ff9c6d3ff56f92937e5d5c10/logo_koreana.png",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_logo/image/koreana"
+        },
+        {
+          "after": "9903c294bf3a64db5851c2b341c698bbbde452cc/logo_tchinese.png",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_logo/image/tchinese"
+        },
+        {
+          "after": "7df273afde0fdd08ff9c6d3ff56f92937e5d5c10/logo_koreana_2x.png",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_logo/image2x/koreana"
+        },
+        {
+          "after": "9903c294bf3a64db5851c2b341c698bbbde452cc/logo_tchinese_2x.png",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_logo/image2x/tchinese"
+        },
+        {
+          "after": "1795433113",
+          "before": "1792059666",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/koreana"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/tchinese"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41358011,
+      "change_number": 41383263,
       "data": {
         "appinfo": {
           "common": {
@@ -290,11 +372,11 @@
             },
             "icon": "e8f40435966b59f84a4063d168c2d9830640b5ec",
             "library_assets": {
-              "library_capsule": "en,ja",
+              "library_capsule": "en,ja,ko,zh-tw",
               "library_header": "en,ja",
               "library_hero": "en",
               "library_hero_blur": "en",
-              "library_logo": "en,ja",
+              "library_logo": "en,ja,ko,zh-tw",
               "logo_position": {
                 "height_pct": "46.18055555555555",
                 "pinned_position": "BottomLeft",
@@ -305,11 +387,15 @@
               "library_capsule": {
                 "image": {
                   "english": "6b1e2f70783120cce0a84832a43a5b66146d55f4/library_capsule.jpg",
-                  "japanese": "51c6b5b4f0cbec61e79979a1f046b555e8883abb/library_capsule_japanese.jpg"
+                  "japanese": "51c6b5b4f0cbec61e79979a1f046b555e8883abb/library_capsule_japanese.jpg",
+                  "koreana": "269939554aa1c0bc3b47e26057eaa94cb16230b9/library_capsule_koreana.jpg",
+                  "tchinese": "6b4ab678d2dc5d397890df9eb5d262438373db91/library_capsule_tchinese.jpg"
                 },
                 "image2x": {
                   "english": "6b1e2f70783120cce0a84832a43a5b66146d55f4/library_capsule_2x.jpg",
-                  "japanese": "51c6b5b4f0cbec61e79979a1f046b555e8883abb/library_capsule_japanese_2x.jpg"
+                  "japanese": "51c6b5b4f0cbec61e79979a1f046b555e8883abb/library_capsule_japanese_2x.jpg",
+                  "koreana": "269939554aa1c0bc3b47e26057eaa94cb16230b9/library_capsule_koreana_2x.jpg",
+                  "tchinese": "6b4ab678d2dc5d397890df9eb5d262438373db91/library_capsule_tchinese_2x.jpg"
                 }
               },
               "library_header": {
@@ -338,11 +424,15 @@
               "library_logo": {
                 "image": {
                   "english": "0729a4640afae609ffba06c6896a23555b439750/logo.png",
-                  "japanese": "8acecb91f96e949d59482b000f6be79c2d8bec57/logo_japanese.png"
+                  "japanese": "8acecb91f96e949d59482b000f6be79c2d8bec57/logo_japanese.png",
+                  "koreana": "7df273afde0fdd08ff9c6d3ff56f92937e5d5c10/logo_koreana.png",
+                  "tchinese": "9903c294bf3a64db5851c2b341c698bbbde452cc/logo_tchinese.png"
                 },
                 "image2x": {
                   "english": "0729a4640afae609ffba06c6896a23555b439750/logo_2x.png",
-                  "japanese": "8acecb91f96e949d59482b000f6be79c2d8bec57/logo_japanese_2x.png"
+                  "japanese": "8acecb91f96e949d59482b000f6be79c2d8bec57/logo_japanese_2x.png",
+                  "koreana": "7df273afde0fdd08ff9c6d3ff56f92937e5d5c10/logo_koreana_2x.png",
+                  "tchinese": "9903c294bf3a64db5851c2b341c698bbbde452cc/logo_tchinese_2x.png"
                 },
                 "logo_position": {
                   "height_pct": "46.18055555555555",
@@ -364,7 +454,7 @@
               "japanese": "5eeb67e25472e279ab6475e2a0a138610d9e1c56/capsule_231x87_japanese.jpg"
             },
             "steam_release_date": "1794151329",
-            "store_asset_mtime": "1792059666",
+            "store_asset_mtime": "1795433113",
             "store_tags": {
               "0": "597",
               "1": "599",
@@ -387,6 +477,14 @@
               },
               "japanese": {
                 "full_audio": "true",
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "koreana": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "tchinese": {
                 "subtitles": "true",
                 "supported": "true"
               }
@@ -437,11 +535,11 @@
           }
         }
       },
-      "observed_at": "2026-11-22T13:38:42.864Z",
+      "observed_at": "2026-11-23T11:39:12.526Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-22T13:38:42.864Z"
+  "updated_at": "2026-11-23T11:39:12.526Z"
 }

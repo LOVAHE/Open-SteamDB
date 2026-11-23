@@ -310,11 +310,39 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-23T11:39:12.526Z",
+      "change_number": 41383562,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26866419",
+            "description": "Test Steam Controller",
+            "timebuildupdated": 1795433908,
+            "timeupdated": 1795433910
+          },
+          "op": "add",
+          "path": "/depots/branches/test_version_23_11_26"
+        },
+        {
+          "after": "5904717638549874787",
+          "op": "add",
+          "path": "/depots/depots/3976631/manifests/test_version_23_11_26"
+        },
+        {
+          "after": "2076185959988544006",
+          "op": "add",
+          "path": "/depots/depots/3976632/manifests/test_version_23_11_26"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41329780,
+      "change_number": 41383562,
       "data": {
         "appinfo": {
           "common": {
@@ -462,6 +490,12 @@
               "buildid": "26684006",
               "timebuildupdated": 1794757214,
               "timeupdated": 1794759980
+            },
+            "test_version_23_11_26": {
+              "buildid": "26866419",
+              "description": "Test Steam Controller",
+              "timebuildupdated": 1795433908,
+              "timeupdated": 1795433910
             }
           },
           "depots": {
@@ -486,7 +520,8 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "512438803152670201"
+                "public": "512438803152670201",
+                "test_version_23_11_26": "5904717638549874787"
               }
             },
             "3976632": {
@@ -494,17 +529,18 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "2256548814771582978"
+                "public": "2256548814771582978",
+                "test_version_23_11_26": "2076185959988544006"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-21T09:38:34.923Z",
+      "observed_at": "2026-11-23T11:39:12.526Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T09:38:34.923Z"
+  "updated_at": "2026-11-23T11:39:12.526Z"
 }
