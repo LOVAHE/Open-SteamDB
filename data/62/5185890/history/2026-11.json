@@ -749,11 +749,74 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-23T15:38:56.496Z",
+      "change_number": 41390479,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26799228",
+            "description": "May be buggy - Update 2 - Preview",
+            "timebuildupdated": 1795134100,
+            "timeupdated": 1795134138
+          },
+          "op": "remove",
+          "path": "/depots/branches/beta-v0.44.0"
+        },
+        {
+          "before": {
+            "buildid": "26647378",
+            "description": "Old Version - launch day",
+            "timebuildupdated": 1794581932,
+            "timeupdated": 1794581942
+          },
+          "op": "remove",
+          "path": "/depots/branches/old-version-launch"
+        },
+        {
+          "before": {
+            "buildid": "26712450",
+            "description": "Contains the first build of the Mac OS version",
+            "timebuildupdated": 1794860842,
+            "timeupdated": 1794864223
+          },
+          "op": "remove",
+          "path": "/depots/branches/test-mac-version"
+        },
+        {
+          "before": "8325144546298665731",
+          "op": "remove",
+          "path": "/depots/depots/5185891/manifests/beta-v0.44.0"
+        },
+        {
+          "before": "8046531890728940811",
+          "op": "remove",
+          "path": "/depots/depots/5185891/manifests/old-version-launch"
+        },
+        {
+          "before": "1412627750589258986",
+          "op": "remove",
+          "path": "/depots/depots/5185891/manifests/test-mac-version"
+        },
+        {
+          "before": "3305353588419870318",
+          "op": "remove",
+          "path": "/depots/depots/5185892/manifests/beta-v0.44.0"
+        },
+        {
+          "before": "8625706329593101781",
+          "op": "remove",
+          "path": "/depots/depots/5185892/manifests/test-mac-version"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41389699,
+      "change_number": 41390479,
       "data": {
         "appinfo": {
           "common": {
@@ -963,37 +1026,16 @@
         },
         "depots": {
           "branches": {
-            "beta-v0.44.0": {
-              "buildid": "26799228",
-              "description": "May be buggy - Update 2 - Preview",
-              "timebuildupdated": 1795134100,
-              "timeupdated": 1795134138
-            },
-            "old-version-launch": {
-              "buildid": "26647378",
-              "description": "Old Version - launch day",
-              "timebuildupdated": 1794581932,
-              "timeupdated": 1794581942
-            },
             "public": {
               "buildid": "26799228",
               "timebuildupdated": 1795134100,
               "timeupdated": 1795445738
-            },
-            "test-mac-version": {
-              "buildid": "26712450",
-              "description": "Contains the first build of the Mac OS version",
-              "timebuildupdated": 1794860842,
-              "timeupdated": 1794864223
             }
           },
           "depots": {
             "5185891": {
               "manifests": {
-                "beta-v0.44.0": "8325144546298665731",
-                "old-version-launch": "8046531890728940811",
-                "public": "8325144546298665731",
-                "test-mac-version": "1412627750589258986"
+                "public": "8325144546298665731"
               }
             },
             "5185892": {
@@ -1001,19 +1043,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "beta-v0.44.0": "3305353588419870318",
-                "public": "3305353588419870318",
-                "test-mac-version": "8625706329593101781"
+                "public": "3305353588419870318"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-23T15:08:48.192Z",
+      "observed_at": "2026-11-23T15:38:56.496Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-23T15:08:48.192Z"
+  "updated_at": "2026-11-23T15:38:56.496Z"
 }
