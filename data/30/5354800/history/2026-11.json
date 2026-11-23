@@ -265,11 +265,76 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-23T13:08:49.053Z",
+      "change_number": 41386031,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_22"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/community_visible_stats"
+        },
+        {
+          "after": {
+            "brazilian": "1",
+            "english": "1",
+            "french": "1",
+            "german": "1",
+            "italian": "1",
+            "japanese": "1",
+            "koreana": "1",
+            "polish": "1",
+            "russian": "1",
+            "schinese": "1",
+            "spanish": "1",
+            "tchinese": "1"
+          },
+          "op": "add",
+          "path": "/appinfo/common/languages"
+        },
+        {
+          "after": "26867661",
+          "before": "26344333",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795438011,
+          "before": 1793444469,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795438851,
+          "before": 1793578214,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "9018508570038347664",
+          "before": "913975115793861673",
+          "op": "replace",
+          "path": "/depots/depots/5354801/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40837963,
+      "change_number": 41386031,
       "data": {
         "appinfo": {
           "common": {
@@ -285,10 +350,13 @@
             },
             "category": {
               "category_2": "1",
+              "category_22": "1",
+              "category_23": "1",
               "category_62": "1"
             },
             "clienticon": "0376c3793aadb3fd4b2ff18e4a021b12a3f0b5fc",
             "community_hub_visible": "1",
+            "community_visible_stats": "1",
             "genres": {
               "0": "4",
               "1": "23"
@@ -301,6 +369,20 @@
               "tchinese": "df3f90089f0d725f45276e0bf42589c454b83a82/header_tchinese.jpg"
             },
             "icon": "4fc2241beca90debeca8405f67c240942db065de",
+            "languages": {
+              "brazilian": "1",
+              "english": "1",
+              "french": "1",
+              "german": "1",
+              "italian": "1",
+              "japanese": "1",
+              "koreana": "1",
+              "polish": "1",
+              "russian": "1",
+              "schinese": "1",
+              "spanish": "1",
+              "tchinese": "1"
+            },
             "library_assets": {
               "library_capsule": "en,zh-cn,ja,ko,zh-tw",
               "library_header": "ko,zh-cn,en,ja,zh-tw",
@@ -488,25 +570,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26344333",
-              "timebuildupdated": 1793444469,
-              "timeupdated": 1793578214
+              "buildid": "26867661",
+              "timebuildupdated": 1795438011,
+              "timeupdated": 1795438851
             }
           },
           "depots": {
             "5354801": {
               "manifests": {
-                "public": "913975115793861673"
+                "public": "9018508570038347664"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-11T15:23:31.699Z",
+      "observed_at": "2026-11-23T13:08:49.053Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-11T15:23:31.699Z"
+  "updated_at": "2026-11-23T13:08:49.053Z"
 }
