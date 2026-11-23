@@ -1140,11 +1140,28 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-23T13:24:04.857Z",
+      "change_number": 41386260,
+      "changes": [
+        {
+          "after": {
+            "path": "SpeciesUnknown/Saved/SaveGames",
+            "pattern": "V*_SaveGame_Progress_BACKUP.sav",
+            "root": "WinAppDataLocal"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41382106,
+      "change_number": 41386260,
       "data": {
         "appinfo": {
           "common": {
@@ -1393,6 +1410,11 @@
                 "path": "SpeciesUnknown/Saved/SaveGames",
                 "pattern": "SideQuests.sav",
                 "root": "WinAppDataLocal"
+              },
+              "2": {
+                "path": "SpeciesUnknown/Saved/SaveGames",
+                "pattern": "V*_SaveGame_Progress_BACKUP.sav",
+                "root": "WinAppDataLocal"
               }
             }
           }
@@ -1444,7 +1466,7 @@
           }
         }
       },
-      "observed_at": "2026-11-23T10:53:57.892Z",
+      "observed_at": "2026-11-23T13:24:04.857Z",
       "tracked": true
     },
     "steam_store": {
@@ -1652,5 +1674,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-23T10:53:57.892Z"
+  "updated_at": "2026-11-23T13:24:04.857Z"
 }
