@@ -413,11 +413,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-23T19:23:47.066Z",
+      "change_number": 41398182,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26874364",
+            "description": "hotfix_test",
+            "timebuildupdated": 1795457373,
+            "timeupdated": 1795458604
+          },
+          "op": "remove",
+          "path": "/depots/branches/hotfix_test"
+        },
+        {
+          "after": "26875611",
+          "before": "26874364",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795461449,
+          "before": 1795457373,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795461594,
+          "before": 1795459936,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": "6892985928164358803",
+          "op": "remove",
+          "path": "/depots/depots/4761731/manifests/hotfix_test"
+        },
+        {
+          "after": "7087587367402132521",
+          "before": "6892985928164358803",
+          "op": "replace",
+          "path": "/depots/depots/4761731/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41397333,
+      "change_number": 41398182,
       "data": {
         "appinfo": {
           "common": {
@@ -634,33 +681,26 @@
         },
         "depots": {
           "branches": {
-            "hotfix_test": {
-              "buildid": "26874364",
-              "description": "hotfix_test",
-              "timebuildupdated": 1795457373,
-              "timeupdated": 1795458604
-            },
             "public": {
-              "buildid": "26874364",
-              "timebuildupdated": 1795457373,
-              "timeupdated": 1795459936
+              "buildid": "26875611",
+              "timebuildupdated": 1795461449,
+              "timeupdated": 1795461594
             }
           },
           "depots": {
             "4761731": {
               "manifests": {
-                "hotfix_test": "6892985928164358803",
-                "public": "6892985928164358803"
+                "public": "7087587367402132521"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-23T18:53:45.767Z",
+      "observed_at": "2026-11-23T19:23:47.066Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-23T18:53:45.767Z"
+  "updated_at": "2026-11-23T19:23:47.066Z"
 }
