@@ -1,8 +1,8 @@
 {
   "appid": 5473520,
   "source": "steam_pics",
-  "updated_at": "2026-11-23T07:23:47.612Z",
-  "change_number": 41376898,
+  "updated_at": "2026-11-23T09:39:08.469Z",
+  "change_number": 41380199,
   "data": {
     "common": {
       "associations": {
@@ -176,6 +176,26 @@
     },
     "config": {
       "installdir": "Lilloville"
+    },
+    "ufs": {
+      "maxnumfiles": "50",
+      "quota": "200000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "MacAppSupport"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Godot/app_userdata/Mochiwick/saves",
+          "pattern": "*.json",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }
