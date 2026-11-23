@@ -249,11 +249,57 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-23T16:08:56.604Z",
+      "change_number": 41391509,
+      "changes": [
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/japanese"
+        },
+        {
+          "after": "26849132",
+          "before": "26813162",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795355450,
+          "before": 1795183369,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795449334,
+          "before": 1795183369,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3091713218135475787",
+          "before": "5455115414056263159",
+          "op": "replace",
+          "path": "/depots/depots/5482021/manifests/public"
+        },
+        {
+          "after": "2724533730606303169",
+          "before": "1394931169695341802",
+          "op": "replace",
+          "path": "/depots/depots/5482022/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41358320,
+      "change_number": 41391509,
       "data": {
         "appinfo": {
           "common": {
@@ -380,6 +426,10 @@
                 "subtitles": "true",
                 "supported": "true"
               },
+              "japanese": {
+                "subtitles": "true",
+                "supported": "true"
+              },
               "latam": {
                 "subtitles": "true",
                 "supported": "true"
@@ -412,9 +462,9 @@
               "timeupdated": 1793803782
             },
             "public": {
-              "buildid": "26813162",
-              "timebuildupdated": 1795183369,
-              "timeupdated": 1795183369
+              "buildid": "26849132",
+              "timebuildupdated": 1795355450,
+              "timeupdated": 1795449334
             }
           },
           "depots": {
@@ -432,7 +482,7 @@
               },
               "manifests": {
                 "deck-test": "7251184183554942179",
-                "public": "5455115414056263159"
+                "public": "3091713218135475787"
               }
             },
             "5482022": {
@@ -441,17 +491,17 @@
               },
               "manifests": {
                 "deck-test": "5384428086636649969",
-                "public": "1394931169695341802"
+                "public": "2724533730606303169"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-22T14:08:49.472Z",
+      "observed_at": "2026-11-23T16:08:56.604Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-22T14:08:49.472Z"
+  "updated_at": "2026-11-23T16:08:56.604Z"
 }
