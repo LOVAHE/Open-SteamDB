@@ -453,11 +453,42 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-23T15:08:48.192Z",
+      "change_number": 41389873,
+      "changes": [
+        {
+          "after": "37",
+          "before": "70",
+          "op": "replace",
+          "path": "/appinfo/common/genres/2"
+        },
+        {
+          "after": "70",
+          "op": "add",
+          "path": "/appinfo/common/genres/3"
+        },
+        {
+          "after": "37",
+          "before": "4",
+          "op": "replace",
+          "path": "/appinfo/common/primary_genre"
+        },
+        {
+          "after": "1791358020",
+          "before": "1791358056",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41302013,
+      "change_number": 41389873,
       "data": {
         "appinfo": {
           "common": {
@@ -491,7 +522,8 @@
             "genres": {
               "0": "4",
               "1": "23",
-              "2": "70"
+              "2": "37",
+              "3": "70"
             },
             "header_image": {
               "english": "48a5329423f94124677f26dcff188aa9b2618fd3/header.jpg"
@@ -577,11 +609,11 @@
             "osarch": "",
             "osextended": "",
             "oslist": "windows",
-            "primary_genre": "4",
+            "primary_genre": "37",
             "small_capsule": {
               "english": "f4c3ae678bcdf2d4c67980f7d388d2c81ed2d29f/capsule_231x87.jpg"
             },
-            "steam_release_date": "1791358056",
+            "steam_release_date": "1791358020",
             "store_asset_mtime": "1789803015",
             "store_tags": {
               "0": "597",
@@ -731,7 +763,7 @@
           }
         }
       },
-      "observed_at": "2026-11-20T13:23:49.030Z",
+      "observed_at": "2026-11-23T15:08:48.192Z",
       "tracked": true
     },
     "steam_store": {
@@ -870,5 +902,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T13:23:49.030Z"
+  "updated_at": "2026-11-23T15:08:48.192Z"
 }

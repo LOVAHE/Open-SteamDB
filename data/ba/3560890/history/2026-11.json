@@ -465,11 +465,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-23T15:08:48.192Z",
+      "change_number": 41389952,
+      "changes": [
+        {
+          "after": "1795438540",
+          "before": "1794862250",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41389070,
+      "change_number": 41389952,
       "data": {
         "appinfo": {
           "common": {
@@ -578,7 +606,7 @@
               "english": "c8214f2249de8fa7f33a56efc6983762ea7ea24f/capsule_231x87.jpg"
             },
             "steam_release_date": "1793120398",
-            "store_asset_mtime": "1794862250",
+            "store_asset_mtime": "1795438540",
             "store_tags": {
               "0": "3877",
               "1": "19",
@@ -603,6 +631,12 @@
             },
             "supported_languages": {
               "english": {
+                "supported": "true"
+              },
+              "russian": {
+                "supported": "true"
+              },
+              "schinese": {
                 "supported": "true"
               },
               "spanish": {
@@ -652,11 +686,11 @@
           }
         }
       },
-      "observed_at": "2026-11-23T14:53:50.016Z",
+      "observed_at": "2026-11-23T15:08:48.192Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-23T14:53:50.016Z"
+  "updated_at": "2026-11-23T15:08:48.192Z"
 }
