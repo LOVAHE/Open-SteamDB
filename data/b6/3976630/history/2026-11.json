@@ -338,11 +338,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-23T18:24:51.984Z",
+      "change_number": 41396301,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26866419",
+            "description": "Test Steam Controller",
+            "timebuildupdated": 1795433908,
+            "timeupdated": 1795433910
+          },
+          "op": "remove",
+          "path": "/depots/branches/test_version_23_11_26"
+        },
+        {
+          "before": "5904717638549874787",
+          "op": "remove",
+          "path": "/depots/depots/3976631/manifests/test_version_23_11_26"
+        },
+        {
+          "before": "2076185959988544006",
+          "op": "remove",
+          "path": "/depots/depots/3976632/manifests/test_version_23_11_26"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41383562,
+      "change_number": 41396301,
       "data": {
         "appinfo": {
           "common": {
@@ -490,12 +518,6 @@
               "buildid": "26684006",
               "timebuildupdated": 1794757214,
               "timeupdated": 1794759980
-            },
-            "test_version_23_11_26": {
-              "buildid": "26866419",
-              "description": "Test Steam Controller",
-              "timebuildupdated": 1795433908,
-              "timeupdated": 1795433910
             }
           },
           "depots": {
@@ -520,8 +542,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "512438803152670201",
-                "test_version_23_11_26": "5904717638549874787"
+                "public": "512438803152670201"
               }
             },
             "3976632": {
@@ -529,18 +550,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "2256548814771582978",
-                "test_version_23_11_26": "2076185959988544006"
+                "public": "2256548814771582978"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-23T11:39:12.526Z",
+      "observed_at": "2026-11-23T18:24:51.984Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-23T11:39:12.526Z"
+  "updated_at": "2026-11-23T18:24:51.984Z"
 }
