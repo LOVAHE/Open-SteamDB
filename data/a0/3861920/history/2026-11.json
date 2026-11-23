@@ -388,11 +388,43 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-11-23T10:38:37.606Z",
+      "change_number": 41381646,
+      "changes": [
+        {
+          "after": "26865071",
+          "before": "26266746",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795429488,
+          "before": 1793180314,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795429682,
+          "before": 1793180632,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2790036443501467640",
+          "before": "8813405848867456880",
+          "op": "replace",
+          "path": "/depots/depots/3861921/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40469185,
+      "change_number": 41381646,
       "data": {
         "appinfo": {
           "common": {
@@ -541,9 +573,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26266746",
-              "timebuildupdated": 1793180314,
-              "timeupdated": 1793180632
+              "buildid": "26865071",
+              "timebuildupdated": 1795429488,
+              "timeupdated": 1795429682
             }
           },
           "depots": {
@@ -568,13 +600,13 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "8813405848867456880"
+                "public": "2790036443501467640"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-01T01:52:49.139Z",
+      "observed_at": "2026-11-23T10:38:37.606Z",
       "tracked": true
     },
     "steam_store": {
@@ -758,5 +790,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-06T11:53:34.919Z"
+  "updated_at": "2026-11-23T10:38:37.606Z"
 }
