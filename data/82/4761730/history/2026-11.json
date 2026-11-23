@@ -358,11 +358,34 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-23T18:38:51.398Z",
+      "change_number": 41396519,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26874364",
+            "description": "hotfix_test",
+            "timebuildupdated": 1795457373,
+            "timeupdated": 1795458604
+          },
+          "op": "add",
+          "path": "/depots/branches/hotfix_test"
+        },
+        {
+          "after": "6892985928164358803",
+          "op": "add",
+          "path": "/depots/depots/4761731/manifests/hotfix_test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41395058,
+      "change_number": 41396519,
       "data": {
         "appinfo": {
           "common": {
@@ -579,6 +602,12 @@
         },
         "depots": {
           "branches": {
+            "hotfix_test": {
+              "buildid": "26874364",
+              "description": "hotfix_test",
+              "timebuildupdated": 1795457373,
+              "timeupdated": 1795458604
+            },
             "public": {
               "buildid": "26851590",
               "timebuildupdated": 1795367349,
@@ -588,17 +617,18 @@
           "depots": {
             "4761731": {
               "manifests": {
+                "hotfix_test": "6892985928164358803",
                 "public": "5917885422896434890"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-23T17:54:08.532Z",
+      "observed_at": "2026-11-23T18:38:51.398Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-23T17:54:08.532Z"
+  "updated_at": "2026-11-23T18:38:51.398Z"
 }
