@@ -845,11 +845,52 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-23T14:53:50.016Z",
+      "change_number": 41389245,
+      "changes": [
+        {
+          "before": "true",
+          "op": "remove",
+          "path": "/appinfo/common/supported_languages/english/subtitles"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/german"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/polish"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41387688,
+      "change_number": 41389245,
       "data": {
         "appinfo": {
           "common": {
@@ -975,7 +1016,18 @@
             },
             "supported_languages": {
               "english": {
-                "subtitles": "true",
+                "supported": "true"
+              },
+              "german": {
+                "supported": "true"
+              },
+              "polish": {
+                "supported": "true"
+              },
+              "russian": {
+                "supported": "true"
+              },
+              "schinese": {
                 "supported": "true"
               }
             },
@@ -1045,11 +1097,11 @@
           }
         }
       },
-      "observed_at": "2026-11-23T14:08:59.322Z",
+      "observed_at": "2026-11-23T14:53:50.016Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-23T14:08:59.322Z"
+  "updated_at": "2026-11-23T14:53:50.016Z"
 }

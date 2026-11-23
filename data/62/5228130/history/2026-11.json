@@ -351,11 +351,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-23T14:53:50.016Z",
+      "change_number": 41389061,
+      "changes": [
+        {
+          "after": "",
+          "before": "macosapplesilicon",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows",
+          "before": "windows,macos,linux",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26869882",
+          "before": "26816146",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795444564,
+          "before": 1795191402,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795444856,
+          "before": 1795191722,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7084252016469884596",
+          "before": "4346545228998740720",
+          "op": "replace",
+          "path": "/depots/depots/5228131/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41381144,
+      "change_number": 41389061,
       "data": {
         "appinfo": {
           "common": {
@@ -470,8 +514,8 @@
               "english": "Power Grid Tycoon"
             },
             "osarch": "64",
-            "osextended": "macosapplesilicon",
-            "oslist": "windows,macos,linux",
+            "osextended": "",
+            "oslist": "windows",
             "primary_genre": "28",
             "small_capsule": {
               "english": "eda530dcd88c157e9cb0dd0b2b78f669b3bef8be/capsule_231x87.jpg",
@@ -539,25 +583,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26816146",
-              "timebuildupdated": 1795191402,
-              "timeupdated": 1795191722
+              "buildid": "26869882",
+              "timebuildupdated": 1795444564,
+              "timeupdated": 1795444856
             }
           },
           "depots": {
             "5228131": {
               "manifests": {
-                "public": "4346545228998740720"
+                "public": "7084252016469884596"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-23T10:23:34.031Z",
+      "observed_at": "2026-11-23T14:53:50.016Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-23T10:23:34.031Z"
+  "updated_at": "2026-11-23T14:53:50.016Z"
 }
