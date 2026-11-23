@@ -433,11 +433,199 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-23T18:13:55.045Z",
+      "change_number": 41395560,
+      "changes": [
+        {
+          "after": "2",
+          "before": "1",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/category"
+        },
+        {
+          "after": "proton-11.0-3RC",
+          "before": "proton-7.0-5",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/configuration/recommended_runtime"
+        },
+        {
+          "after": "0",
+          "before": "1",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/configuration/requires_h264"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/configuration/requires_internet_for_singleplayer"
+        },
+        {
+          "after": "2",
+          "before": "1",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_compatibility"
+        },
+        {
+          "after": "3",
+          "before": "2",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/0/display"
+        },
+        {
+          "after": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional",
+          "before": "#SteamMachine_TestResult_SteamOSDoesNotSupport",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/0/token"
+        },
+        {
+          "after": {
+            "display": "3",
+            "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/1"
+        },
+        {
+          "after": {
+            "display": "3",
+            "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/2"
+        },
+        {
+          "after": {
+            "display": "4",
+            "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/3"
+        },
+        {
+          "after": {
+            "display": "1",
+            "token": "#SteamMachine_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/steam_machine_tests/4"
+        },
+        {
+          "after": "2",
+          "before": "1",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steamos_compatibility"
+        },
+        {
+          "after": "3",
+          "before": "2",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steamos_tests/0/display"
+        },
+        {
+          "after": "#SteamOS_TestResult_GameStartupFunctional",
+          "before": "#SteamOS_TestResult_SteamOSDoesNotSupport",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/steamos_tests/0/token"
+        },
+        {
+          "after": {
+            "display": "1",
+            "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/steamos_tests/1"
+        },
+        {
+          "after": {
+            "display": "1",
+            "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/steamos_tests/2"
+        },
+        {
+          "after": {
+            "display": "1",
+            "token": "#SteamOS_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/steamos_tests/3"
+        },
+        {
+          "after": "1794850923",
+          "before": "1680307200",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/test_timestamp"
+        },
+        {
+          "after": "26419243",
+          "before": "9493912",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tested_build_id"
+        },
+        {
+          "after": "3",
+          "before": "2",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/0/display"
+        },
+        {
+          "after": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional",
+          "before": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/0/token"
+        },
+        {
+          "after": {
+            "display": "3",
+            "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/1"
+        },
+        {
+          "after": {
+            "display": "3",
+            "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/2"
+        },
+        {
+          "after": {
+            "display": "3",
+            "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/3"
+        },
+        {
+          "after": {
+            "display": "4",
+            "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/4"
+        },
+        {
+          "after": {
+            "display": "1",
+            "token": "#SteamDeckVerified_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility/tests/5"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41321763,
+      "change_number": 41395560,
       "data": {
         "appinfo": {
           "common": {
@@ -548,16 +736,16 @@
               "english": "78dd5ef5a56e1fa56845b5b90e0f2aba69a3efa2/capsule_231x87.jpg"
             },
             "steam_deck_compatibility": {
-              "category": "1",
+              "category": "2",
               "configuration": {
                 "gamescope_frame_limiter_not_supported": "0",
                 "hdr_support": "0",
                 "non_deck_display_glyphs": "1",
                 "primary_player_is_controller_slot_0": "0",
-                "recommended_runtime": "proton-7.0-5",
-                "requires_h264": "1",
+                "recommended_runtime": "proton-11.0-3RC",
+                "requires_h264": "0",
                 "requires_internet_for_setup": "0",
-                "requires_internet_for_singleplayer": "0",
+                "requires_internet_for_singleplayer": "1",
                 "requires_manual_keyboard_invoke": "1",
                 "requires_non_controller_launcher_nav": "0",
                 "requires_proton_soundfonts": "0",
@@ -565,26 +753,74 @@
                 "small_text": "1",
                 "supported_input": "other"
               },
-              "steam_machine_compatibility": "1",
+              "steam_machine_compatibility": "2",
               "steam_machine_tests": {
                 "0": {
-                  "display": "2",
-                  "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+                  "display": "3",
+                  "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+                },
+                "1": {
+                  "display": "3",
+                  "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+                },
+                "2": {
+                  "display": "3",
+                  "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+                },
+                "3": {
+                  "display": "4",
+                  "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+                },
+                "4": {
+                  "display": "1",
+                  "token": "#SteamMachine_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
                 }
               },
-              "steamos_compatibility": "1",
+              "steamos_compatibility": "2",
               "steamos_tests": {
                 "0": {
-                  "display": "2",
-                  "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+                  "display": "3",
+                  "token": "#SteamOS_TestResult_GameStartupFunctional"
+                },
+                "1": {
+                  "display": "1",
+                  "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+                },
+                "2": {
+                  "display": "1",
+                  "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+                },
+                "3": {
+                  "display": "1",
+                  "token": "#SteamOS_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
                 }
               },
-              "test_timestamp": "1680307200",
-              "tested_build_id": "9493912",
+              "test_timestamp": "1794850923",
+              "tested_build_id": "26419243",
               "tests": {
                 "0": {
-                  "display": "2",
-                  "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+                  "display": "3",
+                  "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+                },
+                "1": {
+                  "display": "3",
+                  "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+                },
+                "2": {
+                  "display": "3",
+                  "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+                },
+                "3": {
+                  "display": "3",
+                  "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+                },
+                "4": {
+                  "display": "4",
+                  "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+                },
+                "5": {
+                  "display": "1",
+                  "token": "#SteamDeckVerified_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
                 }
               }
             },
@@ -667,11 +903,11 @@
           }
         }
       },
-      "observed_at": "2026-11-21T03:38:42.275Z",
+      "observed_at": "2026-11-23T18:13:55.045Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T03:38:42.275Z"
+  "updated_at": "2026-11-23T18:13:55.045Z"
 }
