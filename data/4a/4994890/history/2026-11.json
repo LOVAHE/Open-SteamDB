@@ -1095,11 +1095,62 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T19:38:55.994Z",
+      "change_number": 41438956,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "addpath": "",
+              "os": "MacOS",
+              "oscompare": "=",
+              "root": "WinAppDataRoaming",
+              "useinstead": "MacAppSupport"
+            },
+            "1": {
+              "os": "Linux",
+              "oscompare": "=",
+              "pathtransforms": {
+                "0": {
+                  "find": "Godot/app_userdata/Become Blackhole/editions/full",
+                  "replace": "godot/app_userdata/Become Blackhole/editions/full"
+                }
+              },
+              "root": "WinAppDataRoaming",
+              "useinstead": "LinuxXdgDataHome"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "after": {
+            "path": "Godot/app_userdata/Become Blackhole/editions/full",
+            "pattern": "rogue_proto.json",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        },
+        {
+          "after": {
+            "path": "Godot/app_userdata/Become Blackhole/editions/full",
+            "pattern": "rogue_proto.bak",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/3"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41426588,
+      "change_number": 41438956,
       "data": {
         "appinfo": {
           "common": {
@@ -1373,6 +1424,27 @@
           "ufs": {
             "maxnumfiles": "10",
             "quota": "20971520",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              },
+              "1": {
+                "os": "Linux",
+                "oscompare": "=",
+                "pathtransforms": {
+                  "0": {
+                    "find": "Godot/app_userdata/Become Blackhole/editions/full",
+                    "replace": "godot/app_userdata/Become Blackhole/editions/full"
+                  }
+                },
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              }
+            },
             "savefiles": {
               "0": {
                 "path": "Godot/app_userdata/Become Blackhole/editions/full",
@@ -1382,6 +1454,16 @@
               "1": {
                 "path": "Godot/app_userdata/Become Blackhole/editions/full",
                 "pattern": "save.bak",
+                "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "Godot/app_userdata/Become Blackhole/editions/full",
+                "pattern": "rogue_proto.json",
+                "root": "WinAppDataRoaming"
+              },
+              "3": {
+                "path": "Godot/app_userdata/Become Blackhole/editions/full",
+                "pattern": "rogue_proto.bak",
                 "root": "WinAppDataRoaming"
               }
             }
@@ -1423,11 +1505,11 @@
           }
         }
       },
-      "observed_at": "2026-11-24T13:53:59.517Z",
+      "observed_at": "2026-11-24T19:38:55.994Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T13:53:59.517Z"
+  "updated_at": "2026-11-24T19:38:55.994Z"
 }
