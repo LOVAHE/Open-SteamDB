@@ -407,11 +407,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T15:53:59.706Z",
+      "change_number": 41430891,
+      "changes": [
+        {
+          "after": "resources/app/save",
+          "before": "Curatio/Local Storage",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/path"
+        },
+        {
+          "after": "gameinstall",
+          "before": "WinAppDataRoaming",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/root"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41360082,
+      "change_number": 41430891,
       "data": {
         "appinfo": {
           "common": {
@@ -545,10 +565,10 @@
             "quota": "5120",
             "savefiles": {
               "0": {
-                "path": "Curatio/Local Storage",
+                "path": "resources/app/save",
                 "pattern": "*",
                 "recursive": "1",
-                "root": "WinAppDataRoaming"
+                "root": "gameinstall"
               }
             }
           }
@@ -570,11 +590,11 @@
           }
         }
       },
-      "observed_at": "2026-11-22T15:38:47.143Z",
+      "observed_at": "2026-11-24T15:53:59.706Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-22T15:38:47.143Z"
+  "updated_at": "2026-11-24T15:53:59.706Z"
 }
