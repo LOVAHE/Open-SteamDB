@@ -1265,11 +1265,67 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T14:23:57.344Z",
+      "change_number": 41427845,
+      "changes": [
+        {
+          "after": "26895417",
+          "before": "26894769",
+          "op": "replace",
+          "path": "/depots/branches/sandbox-test/buildid"
+        },
+        {
+          "after": 1795530106,
+          "before": 1795528304,
+          "op": "replace",
+          "path": "/depots/branches/sandbox-test/timebuildupdated"
+        },
+        {
+          "after": 1795530106,
+          "before": 1795528304,
+          "op": "replace",
+          "path": "/depots/branches/sandbox-test/timeupdated"
+        },
+        {
+          "after": "26895417",
+          "before": "26832291",
+          "op": "replace",
+          "path": "/depots/branches/testserver/buildid"
+        },
+        {
+          "after": 1795530106,
+          "before": 1795261025,
+          "op": "replace",
+          "path": "/depots/branches/testserver/timebuildupdated"
+        },
+        {
+          "after": 1795530158,
+          "before": 1795261095,
+          "op": "replace",
+          "path": "/depots/branches/testserver/timeupdated"
+        },
+        {
+          "after": "6000610062328207822",
+          "before": "5519145687952880556",
+          "op": "replace",
+          "path": "/depots/depots/4604011/manifests/sandbox-test"
+        },
+        {
+          "after": "6000610062328207822",
+          "before": "3645508431129494557",
+          "op": "replace",
+          "path": "/depots/depots/4604011/manifests/testserver"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41426819,
+      "change_number": 41427845,
       "data": {
         "appinfo": {
           "common": {
@@ -1407,34 +1463,34 @@
               "timeupdated": 1795509987
             },
             "sandbox-test": {
-              "buildid": "26894769",
+              "buildid": "26895417",
               "description": "EA版本",
-              "timebuildupdated": 1795528304,
-              "timeupdated": 1795528304
+              "timebuildupdated": 1795530106,
+              "timeupdated": 1795530106
             },
             "testserver": {
-              "buildid": "26832291",
+              "buildid": "26895417",
               "description": "玩家测试服",
-              "timebuildupdated": 1795261025,
-              "timeupdated": 1795261095
+              "timebuildupdated": 1795530106,
+              "timeupdated": 1795530158
             }
           },
           "depots": {
             "4604011": {
               "manifests": {
                 "public": "2099793276116857707",
-                "sandbox-test": "5519145687952880556",
-                "testserver": "3645508431129494557"
+                "sandbox-test": "6000610062328207822",
+                "testserver": "6000610062328207822"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-24T13:53:59.517Z",
+      "observed_at": "2026-11-24T14:23:57.344Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T13:53:59.517Z"
+  "updated_at": "2026-11-24T14:23:57.344Z"
 }
