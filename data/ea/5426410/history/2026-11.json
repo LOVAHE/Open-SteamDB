@@ -251,11 +251,80 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T20:54:01.814Z",
+      "change_number": 41441399,
+      "changes": [
+        {
+          "after": "26903395",
+          "before": "26847976",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795551127,
+          "before": 1795349203,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795553175,
+          "before": 1795349375,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": {
+            "buildid": "26903395",
+            "description": "Test of v3.0.23 before release",
+            "timebuildupdated": 1795551127,
+            "timeupdated": 1795552252
+          },
+          "op": "remove",
+          "path": "/depots/branches/test3023"
+        },
+        {
+          "after": "8964176029339327681",
+          "before": "8376753047302317969",
+          "op": "replace",
+          "path": "/depots/depots/5426411/manifests/public"
+        },
+        {
+          "before": "8964176029339327681",
+          "op": "remove",
+          "path": "/depots/depots/5426411/manifests/test3023"
+        },
+        {
+          "after": "4713361416331779479",
+          "before": "414469774742757924",
+          "op": "replace",
+          "path": "/depots/depots/5426412/manifests/public"
+        },
+        {
+          "before": "4713361416331779479",
+          "op": "remove",
+          "path": "/depots/depots/5426412/manifests/test3023"
+        },
+        {
+          "after": "5104001922128459816",
+          "before": "3574555392825744422",
+          "op": "replace",
+          "path": "/depots/depots/5426413/manifests/public"
+        },
+        {
+          "before": "5104001922128459816",
+          "op": "remove",
+          "path": "/depots/depots/5426413/manifests/test3023"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41440745,
+      "change_number": 41441399,
       "data": {
         "appinfo": {
           "common": {
@@ -427,15 +496,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26847976",
-              "timebuildupdated": 1795349203,
-              "timeupdated": 1795349375
-            },
-            "test3023": {
               "buildid": "26903395",
-              "description": "Test of v3.0.23 before release",
               "timebuildupdated": 1795551127,
-              "timeupdated": 1795552252
+              "timeupdated": 1795553175
             }
           },
           "depots": {
@@ -444,8 +507,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "8376753047302317969",
-                "test3023": "8964176029339327681"
+                "public": "8964176029339327681"
               }
             },
             "5426412": {
@@ -453,8 +515,7 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "414469774742757924",
-                "test3023": "4713361416331779479"
+                "public": "4713361416331779479"
               }
             },
             "5426413": {
@@ -462,18 +523,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "3574555392825744422",
-                "test3023": "5104001922128459816"
+                "public": "5104001922128459816"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-24T20:38:52.064Z",
+      "observed_at": "2026-11-24T20:54:01.814Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T20:38:52.064Z"
+  "updated_at": "2026-11-24T20:54:01.814Z"
 }
