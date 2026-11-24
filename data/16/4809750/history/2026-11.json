@@ -2361,11 +2361,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T16:08:58.557Z",
+      "change_number": 41431367,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26745865",
+            "description": "测试版",
+            "timebuildupdated": 1794964385,
+            "timeupdated": 1794964443
+          },
+          "op": "remove",
+          "path": "/depots/branches/0.8.5.13"
+        },
+        {
+          "before": "9212430886707426228",
+          "op": "remove",
+          "path": "/depots/depots/4809751/manifests/0.8.5.13"
+        },
+        {
+          "before": "3888257765459490840",
+          "op": "remove",
+          "path": "/depots/depots/4809753/manifests/0.8.5.13"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41429624,
+      "change_number": 41431367,
       "data": {
         "appinfo": {
           "common": {
@@ -2562,12 +2590,6 @@
               "timebuildupdated": 1794307044,
               "timeupdated": 1794308117
             },
-            "0.8.5.13": {
-              "buildid": "26745865",
-              "description": "测试版",
-              "timebuildupdated": 1794964385,
-              "timeupdated": 1794964443
-            },
             "0.9.0": {
               "buildid": "26896669",
               "description": "测试中",
@@ -2595,7 +2617,6 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "0.8.5.13": "9212430886707426228",
                 "0.9.0": "9212430886707426228",
                 "public": "9212430886707426228"
               }
@@ -2607,7 +2628,6 @@
               },
               "manifests": {
                 "0.8.5": "4062481344949624422",
-                "0.8.5.13": "3888257765459490840",
                 "0.9.0": "7208842921018917039",
                 "public": "3888257765459490840"
               }
@@ -2615,11 +2635,11 @@
           }
         }
       },
-      "observed_at": "2026-11-24T15:24:00.915Z",
+      "observed_at": "2026-11-24T16:08:58.557Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T15:24:00.915Z"
+  "updated_at": "2026-11-24T16:08:58.557Z"
 }
