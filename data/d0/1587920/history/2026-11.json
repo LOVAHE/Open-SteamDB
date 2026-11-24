@@ -489,11 +489,91 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T07:23:50.505Z",
+      "change_number": 41415427,
+      "changes": [
+        {
+          "after": "26881227",
+          "before": "26654950",
+          "op": "replace",
+          "path": "/depots/branches/betabranch/buildid"
+        },
+        {
+          "after": 1795480527,
+          "before": 1794603767,
+          "op": "replace",
+          "path": "/depots/branches/betabranch/timebuildupdated"
+        },
+        {
+          "after": 1795502748,
+          "before": 1794603857,
+          "op": "replace",
+          "path": "/depots/branches/betabranch/timeupdated"
+        },
+        {
+          "after": "26654950",
+          "before": "26497758",
+          "op": "replace",
+          "path": "/depots/branches/previouspatch/buildid"
+        },
+        {
+          "after": 1794603767,
+          "before": 1794010195,
+          "op": "replace",
+          "path": "/depots/branches/previouspatch/timebuildupdated"
+        },
+        {
+          "after": 1794609067,
+          "before": 1794010263,
+          "op": "replace",
+          "path": "/depots/branches/previouspatch/timeupdated"
+        },
+        {
+          "after": "26881227",
+          "before": "26654950",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795480527,
+          "before": 1794603767,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795502748,
+          "before": 1794609067,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7029503193614892331",
+          "before": "9114828489666340868",
+          "op": "replace",
+          "path": "/depots/depots/1587921/manifests/betabranch"
+        },
+        {
+          "after": "9114828489666340868",
+          "before": "3996899930217872662",
+          "op": "replace",
+          "path": "/depots/depots/1587921/manifests/previouspatch"
+        },
+        {
+          "after": "7029503193614892331",
+          "before": "9114828489666340868",
+          "op": "replace",
+          "path": "/depots/depots/1587921/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41406684,
+      "change_number": 41415427,
       "data": {
         "appinfo": {
           "common": {
@@ -698,21 +778,21 @@
         "depots": {
           "branches": {
             "betabranch": {
-              "buildid": "26654950",
+              "buildid": "26881227",
               "description": "Some future updates may first arrive here for testing.",
-              "timebuildupdated": 1794603767,
-              "timeupdated": 1794603857
+              "timebuildupdated": 1795480527,
+              "timeupdated": 1795502748
             },
             "previouspatch": {
-              "buildid": "26497758",
-              "description": "Build from the previous patch. In case I break the live build.",
-              "timebuildupdated": 1794010195,
-              "timeupdated": 1794010263
-            },
-            "public": {
               "buildid": "26654950",
+              "description": "Build from the previous patch. In case I break the live build.",
               "timebuildupdated": 1794603767,
               "timeupdated": 1794609067
+            },
+            "public": {
+              "buildid": "26881227",
+              "timebuildupdated": 1795480527,
+              "timeupdated": 1795502748
             }
           },
           "depots": {
@@ -726,19 +806,19 @@
             },
             "1587921": {
               "manifests": {
-                "betabranch": "9114828489666340868",
-                "previouspatch": "3996899930217872662",
-                "public": "9114828489666340868"
+                "betabranch": "7029503193614892331",
+                "previouspatch": "9114828489666340868",
+                "public": "7029503193614892331"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-24T04:23:48.392Z",
+      "observed_at": "2026-11-24T07:23:50.505Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T04:23:48.392Z"
+  "updated_at": "2026-11-24T07:23:50.505Z"
 }

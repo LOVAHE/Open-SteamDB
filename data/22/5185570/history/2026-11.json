@@ -287,11 +287,25 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T07:23:50.505Z",
+      "change_number": 41415454,
+      "changes": [
+        {
+          "after": "100000000",
+          "before": "10000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41395978,
+      "change_number": 41415454,
       "data": {
         "appinfo": {
           "common": {
@@ -432,7 +446,7 @@
           },
           "ufs": {
             "maxnumfiles": "100",
-            "quota": "10000000",
+            "quota": "100000000",
             "savefiles": {
               "0": {
                 "path": "AlchemyTales",
@@ -470,11 +484,11 @@
           }
         }
       },
-      "observed_at": "2026-11-23T18:13:55.045Z",
+      "observed_at": "2026-11-24T07:23:50.505Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-23T18:13:55.045Z"
+  "updated_at": "2026-11-24T07:23:50.505Z"
 }
