@@ -501,11 +501,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T21:24:22.517Z",
+      "change_number": 41442177,
+      "changes": [
+        {
+          "after": "macos64",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "26904745",
+          "before": "26904318",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795555189,
+          "before": 1795553960,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795555257,
+          "before": 1795554086,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7983744129611103853",
+          "before": "42869798506967971",
+          "op": "replace",
+          "path": "/depots/depots/5043864/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41441615,
+      "change_number": 41442177,
       "data": {
         "appinfo": {
           "common": {
@@ -627,7 +665,7 @@
             },
             "name": "Aether.Garden",
             "osarch": "",
-            "osextended": "",
+            "osextended": "macos64",
             "oslist": "windows,macos,linux",
             "primary_genre": "37",
             "small_capsule": {
@@ -681,9 +719,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26904318",
-              "timebuildupdated": 1795553960,
-              "timeupdated": 1795554086
+              "buildid": "26904745",
+              "timebuildupdated": 1795555189,
+              "timeupdated": 1795555257
             }
           },
           "depots": {
@@ -707,17 +745,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "42869798506967971"
+                "public": "7983744129611103853"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-24T21:08:45.419Z",
+      "observed_at": "2026-11-24T21:24:22.517Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T21:08:45.419Z"
+  "updated_at": "2026-11-24T21:24:22.517Z"
 }
