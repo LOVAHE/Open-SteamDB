@@ -286,11 +286,66 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T16:45:53.861Z",
+      "change_number": 41432890,
+      "changes": [
+        {
+          "after": "64",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osarch"
+        },
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26862179",
+          "before": "26829025",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795418753,
+          "before": 1795241553,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795538759,
+          "before": 1795241654,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8519187911220861778",
+          "before": "332471269975095344",
+          "op": "replace",
+          "path": "/depots/depots/5461731/manifests/public"
+        },
+        {
+          "after": "7246813572496258729",
+          "op": "add",
+          "path": "/depots/depots/5461732/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41377241,
+      "change_number": 41432890,
       "data": {
         "appinfo": {
           "common": {
@@ -392,9 +447,9 @@
               }
             },
             "name": "Claws of Destiny: Complete Edition",
-            "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osarch": "64",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "primary_genre": "28",
             "small_capsule": {
               "english": "fd0d554bdbe9121789954980b03675e5b327fb2f/capsule_231x87.jpg"
@@ -477,9 +532,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26829025",
-              "timebuildupdated": 1795241553,
-              "timeupdated": 1795241654
+              "buildid": "26862179",
+              "timebuildupdated": 1795418753,
+              "timeupdated": 1795538759
             }
           },
           "depots": {
@@ -488,23 +543,25 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "332471269975095344"
+                "public": "8519187911220861778"
               }
             },
             "5461732": {
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "7246813572496258729"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-23T07:38:47.351Z",
+      "observed_at": "2026-11-24T16:45:53.861Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-23T07:38:47.351Z"
+  "updated_at": "2026-11-24T16:45:53.861Z"
 }
