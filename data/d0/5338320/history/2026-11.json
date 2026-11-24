@@ -366,11 +366,51 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T14:39:09.010Z",
+      "change_number": 41428383,
+      "changes": [
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/brazilian"
+        },
+        {
+          "after": "26895738",
+          "before": "26686509",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795530926,
+          "before": 1794768791,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795530959,
+          "before": 1794768814,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5743678060118189588",
+          "before": "4033476468249819022",
+          "op": "replace",
+          "path": "/depots/depots/5338321/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41400539,
+      "change_number": 41428383,
       "data": {
         "appinfo": {
           "common": {
@@ -502,6 +542,10 @@
                 "subtitles": "true",
                 "supported": "true"
               },
+              "brazilian": {
+                "subtitles": "true",
+                "supported": "true"
+              },
               "english": {
                 "subtitles": "true",
                 "supported": "true"
@@ -556,25 +600,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26686509",
-              "timebuildupdated": 1794768791,
-              "timeupdated": 1794768814
+              "buildid": "26895738",
+              "timebuildupdated": 1795530926,
+              "timeupdated": 1795530959
             }
           },
           "depots": {
             "5338321": {
               "manifests": {
-                "public": "4033476468249819022"
+                "public": "5743678060118189588"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-23T20:54:16.761Z",
+      "observed_at": "2026-11-24T14:39:09.010Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-23T20:54:16.761Z"
+  "updated_at": "2026-11-24T14:39:09.010Z"
 }
