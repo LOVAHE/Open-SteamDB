@@ -440,11 +440,34 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T19:23:44.552Z",
+      "change_number": 41438261,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "1",
+            "quota": "1048576",
+            "savefiles": {
+              "0": {
+                "path": "FleaMadness/Saved/Profiles/{64BitSteamID}",
+                "pattern": "LocalProfile.json",
+                "root": "WinAppDataLocal"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41434945,
+      "change_number": 41438261,
       "data": {
         "appinfo": {
           "common": {
@@ -595,6 +618,17 @@
             "gamedir": "fleamadness",
             "publisher": "Missset",
             "serverbrowsername": "fleamadness"
+          },
+          "ufs": {
+            "maxnumfiles": "1",
+            "quota": "1048576",
+            "savefiles": {
+              "0": {
+                "path": "FleaMadness/Saved/Profiles/{64BitSteamID}",
+                "pattern": "LocalProfile.json",
+                "root": "WinAppDataLocal"
+              }
+            }
           }
         },
         "depots": {
@@ -649,11 +683,11 @@
           }
         }
       },
-      "observed_at": "2026-11-24T17:38:56.288Z",
+      "observed_at": "2026-11-24T19:23:44.552Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T17:38:56.288Z"
+  "updated_at": "2026-11-24T19:23:44.552Z"
 }
