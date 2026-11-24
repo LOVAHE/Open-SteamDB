@@ -300,11 +300,42 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T22:38:46.647Z",
+      "change_number": 41443815,
+      "changes": [
+        {
+          "after": "26905951",
+          "before": "26863187",
+          "op": "replace",
+          "path": "/depots/branches/beta-testing/buildid"
+        },
+        {
+          "after": 1795559094,
+          "before": 1795422945,
+          "op": "replace",
+          "path": "/depots/branches/beta-testing/timebuildupdated"
+        },
+        {
+          "after": 1795559094,
+          "before": 1795422947,
+          "op": "replace",
+          "path": "/depots/branches/beta-testing/timeupdated"
+        },
+        {
+          "after": "4227440171354968313",
+          "op": "add",
+          "path": "/depots/depots/4611712/manifests/beta-testing"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41378950,
+      "change_number": 41443815,
       "data": {
         "appinfo": {
           "common": {
@@ -433,10 +464,10 @@
         "depots": {
           "branches": {
             "beta-testing": {
-              "buildid": "26863187",
+              "buildid": "26905951",
               "description": "Testing",
-              "timebuildupdated": 1795422945,
-              "timeupdated": 1795422947
+              "timebuildupdated": 1795559094,
+              "timeupdated": 1795559094
             },
             "public": {
               "buildid": "26863187",
@@ -455,16 +486,18 @@
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "beta-testing": "4227440171354968313"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-23T08:53:54.736Z",
+      "observed_at": "2026-11-24T22:38:46.647Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-23T08:53:54.736Z"
+  "updated_at": "2026-11-24T22:38:46.647Z"
 }
