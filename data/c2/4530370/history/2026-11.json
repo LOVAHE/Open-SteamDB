@@ -918,11 +918,54 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T14:08:47.629Z",
+      "change_number": 41427309,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        },
+        {
+          "after": "26797085",
+          "before": "26620374",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795127036,
+          "before": 1794495562,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795528739,
+          "before": 1794924070,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7950836655761563683",
+          "before": "957775974696034630",
+          "op": "replace",
+          "path": "/depots/depots/4530372/manifests/public"
+        },
+        {
+          "after": "2035111667504084235",
+          "before": "2172924661514683589",
+          "op": "replace",
+          "path": "/depots/depots/4530373/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41426840,
+      "change_number": 41427309,
       "data": {
         "appinfo": {
           "common": {
@@ -1154,7 +1197,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "Football Manager 27"
@@ -1195,9 +1239,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26620374",
-              "timebuildupdated": 1794495562,
-              "timeupdated": 1794924070
+              "buildid": "26797085",
+              "timebuildupdated": 1795127036,
+              "timeupdated": 1795528739
             }
           },
           "depots": {
@@ -1211,7 +1255,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "957775974696034630"
+                "public": "7950836655761563683"
               }
             },
             "4530373": {
@@ -1219,17 +1263,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "2172924661514683589"
+                "public": "2035111667504084235"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-24T13:53:59.517Z",
+      "observed_at": "2026-11-24T14:08:47.629Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T13:53:59.517Z"
+  "updated_at": "2026-11-24T14:08:47.629Z"
 }
