@@ -476,11 +476,47 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T15:38:59.347Z",
+      "change_number": 41429979,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_22"
+        },
+        {
+          "after": "25",
+          "before": "4",
+          "op": "replace",
+          "path": "/appinfo/common/genres/0"
+        },
+        {
+          "after": "4",
+          "before": "23",
+          "op": "replace",
+          "path": "/appinfo/common/genres/1"
+        },
+        {
+          "after": "23",
+          "op": "add",
+          "path": "/appinfo/common/genres/2"
+        },
+        {
+          "after": "25",
+          "before": "23",
+          "op": "replace",
+          "path": "/appinfo/common/primary_genre"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41418024,
+      "change_number": 41429979,
       "data": {
         "appinfo": {
           "common": {
@@ -498,6 +534,7 @@
               "category_1": "1",
               "category_18": "1",
               "category_2": "1",
+              "category_22": "1",
               "category_38": "1",
               "category_62": "1",
               "category_64": "1",
@@ -515,8 +552,9 @@
             "community_visible_stats": "1",
             "controller_support": "partial",
             "genres": {
-              "0": "4",
-              "1": "23"
+              "0": "25",
+              "1": "4",
+              "2": "23"
             },
             "header_image": {
               "english": "e9d9b72e448ccdaaa527b9e3a858b46e755e8c11/header.jpg"
@@ -582,7 +620,7 @@
             "osarch": "",
             "osextended": "",
             "oslist": "windows",
-            "primary_genre": "23",
+            "primary_genre": "25",
             "small_capsule": {
               "english": "26f9b5ea1ce5446de6d3f987482d0c59d6913e91/capsule_231x87.jpg"
             },
@@ -733,11 +771,11 @@
           }
         }
       },
-      "observed_at": "2026-11-24T09:24:19.754Z",
+      "observed_at": "2026-11-24T15:38:59.347Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T09:24:19.754Z"
+  "updated_at": "2026-11-24T15:38:59.347Z"
 }
