@@ -389,11 +389,36 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T09:08:54.514Z",
+      "change_number": 41417822,
+      "changes": [
+        {
+          "after": "windows,macos,linux",
+          "before": "windows,linux",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "macos"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5043864"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40894018,
+      "change_number": 41417822,
       "data": {
         "appinfo": {
           "common": {
@@ -516,7 +541,7 @@
             "name": "Aether.Garden",
             "osarch": "",
             "osextended": "",
-            "oslist": "windows,linux",
+            "oslist": "windows,macos,linux",
             "primary_genre": "37",
             "small_capsule": {
               "english": "ce3204347638e24c9b44b72aa3ae68456dfa771a/capsule_231x87.jpg"
@@ -588,15 +613,22 @@
               "manifests": {
                 "public": "3325022695325813742"
               }
+            },
+            "5043864": {
+              "config": {
+                "osarch": "64",
+                "oslist": "macos"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-13T02:38:34.394Z",
+      "observed_at": "2026-11-24T09:08:54.514Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T02:38:34.394Z"
+  "updated_at": "2026-11-24T09:08:54.514Z"
 }
