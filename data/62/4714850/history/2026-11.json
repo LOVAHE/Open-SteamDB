@@ -461,11 +461,37 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T11:53:41.463Z",
+      "change_number": 41422872,
+      "changes": [
+        {
+          "after": {
+            "path": "LemurTango/Sheepscape",
+            "pattern": "savegame_2.json",
+            "root": "WinAppDataLocalLow"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        },
+        {
+          "after": {
+            "path": "LemurTango/Sheepscape",
+            "pattern": "savegame_3.json",
+            "root": "WinAppDataLocalLow"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/3"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41258700,
+      "change_number": 41422872,
       "data": {
         "appinfo": {
           "common": {
@@ -662,6 +688,16 @@
                 "path": "LemurTango/Sheepscape",
                 "pattern": "stats.json",
                 "root": "WinAppDataLocalLow"
+              },
+              "2": {
+                "path": "LemurTango/Sheepscape",
+                "pattern": "savegame_2.json",
+                "root": "WinAppDataLocalLow"
+              },
+              "3": {
+                "path": "LemurTango/Sheepscape",
+                "pattern": "savegame_3.json",
+                "root": "WinAppDataLocalLow"
               }
             }
           }
@@ -695,11 +731,11 @@
           }
         }
       },
-      "observed_at": "2026-11-19T11:38:40.422Z",
+      "observed_at": "2026-11-24T11:53:41.463Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-19T11:38:40.422Z"
+  "updated_at": "2026-11-24T11:53:41.463Z"
 }
