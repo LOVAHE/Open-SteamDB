@@ -622,21 +622,81 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T06:39:03.426Z",
+      "change_number": 41411578,
+      "changes": [
+        {
+          "after": "Nichicoma Games",
+          "before": "Nichicoma LLC",
+          "op": "replace",
+          "path": "/appinfo/common/associations/0/name"
+        },
+        {
+          "after": "Nichicoma Games",
+          "before": "Nichicoma LLC",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/name"
+        },
+        {
+          "after": "1d55d3b4865c5fb35e3808b8ae7ae8aaa641c212/header.jpg",
+          "before": "2cf2d586b699d02fe7643912ffce77baaab713ea/header.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/header_image/english"
+        },
+        {
+          "after": "fb81578151282c376e9da805ae10a509252871a2/header_japanese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/header_image/japanese"
+        },
+        {
+          "after": "8ca50af9f2bbe11778d1a8c7b556ab2037718f56/capsule_231x87.jpg",
+          "before": "88e5bccb089f77e9851052600d2ebca94a046767/capsule_231x87.jpg",
+          "op": "replace",
+          "path": "/appinfo/common/small_capsule/english"
+        },
+        {
+          "after": "761c802edf54ace1705057d6546c691e98cea30d/capsule_231x87_japanese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/small_capsule/japanese"
+        },
+        {
+          "after": "1795482408",
+          "before": "1792987959",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "Nichicoma Games",
+          "before": "Nichicoma LLC",
+          "op": "replace",
+          "path": "/appinfo/extended/developer"
+        },
+        {
+          "after": "Nichicoma Games",
+          "before": "Nichicoma LLC",
+          "op": "replace",
+          "path": "/appinfo/extended/publisher"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41376977,
+      "change_number": 41411578,
       "data": {
         "appinfo": {
           "common": {
             "associations": {
               "0": {
-                "name": "Nichicoma LLC",
+                "name": "Nichicoma Games",
                 "type": "developer"
               },
               "1": {
-                "name": "Nichicoma LLC",
+                "name": "Nichicoma Games",
                 "type": "publisher"
               }
             },
@@ -660,7 +720,8 @@
               "1": "23"
             },
             "header_image": {
-              "english": "2cf2d586b699d02fe7643912ffce77baaab713ea/header.jpg"
+              "english": "1d55d3b4865c5fb35e3808b8ae7ae8aaa641c212/header.jpg",
+              "japanese": "fb81578151282c376e9da805ae10a509252871a2/header_japanese.jpg"
             },
             "icon": "b9f7b87723f25543e3ecff23f6518f11037b46cc",
             "languages": {
@@ -743,10 +804,11 @@
             "oslist": "windows,macos",
             "primary_genre": "4",
             "small_capsule": {
-              "english": "88e5bccb089f77e9851052600d2ebca94a046767/capsule_231x87.jpg"
+              "english": "8ca50af9f2bbe11778d1a8c7b556ab2037718f56/capsule_231x87.jpg",
+              "japanese": "761c802edf54ace1705057d6546c691e98cea30d/capsule_231x87_japanese.jpg"
             },
             "steam_release_date": "1793322020",
-            "store_asset_mtime": "1792987959",
+            "store_asset_mtime": "1795482408",
             "store_tags": {
               "0": "745697",
               "1": "4136",
@@ -812,9 +874,9 @@
             "installdir": "WAZATO"
           },
           "extended": {
-            "developer": "Nichicoma LLC",
+            "developer": "Nichicoma Games",
             "homepage": "https://games.nichicoma.co.jp/wazato/",
-            "publisher": "Nichicoma LLC"
+            "publisher": "Nichicoma Games"
           },
           "ufs": {
             "maxnumfiles": "20",
@@ -892,11 +954,11 @@
           }
         }
       },
-      "observed_at": "2026-11-23T07:23:47.612Z",
+      "observed_at": "2026-11-24T06:39:03.426Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-23T07:23:47.612Z"
+  "updated_at": "2026-11-24T06:39:03.426Z"
 }
