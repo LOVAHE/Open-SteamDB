@@ -466,11 +466,50 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T10:38:49.745Z",
+      "change_number": 41420537,
+      "changes": [
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/french"
+        },
+        {
+          "after": "26886067",
+          "before": "26764149",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795499680,
+          "before": 1795022404,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795515247,
+          "before": 1795023229,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7344543474075812667",
+          "before": "6765244876502561331",
+          "op": "replace",
+          "path": "/depots/depots/4815941/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41233334,
+      "change_number": 41420537,
       "data": {
         "appinfo": {
           "common": {
@@ -594,6 +633,9 @@
             "supported_languages": {
               "english": {
                 "supported": "true"
+              },
+              "french": {
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -609,25 +651,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26764149",
-              "timebuildupdated": 1795022404,
-              "timeupdated": 1795023229
+              "buildid": "26886067",
+              "timebuildupdated": 1795499680,
+              "timeupdated": 1795515247
             }
           },
           "depots": {
             "4815941": {
               "manifests": {
-                "public": "6765244876502561331"
+                "public": "7344543474075812667"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-18T17:38:29.358Z",
+      "observed_at": "2026-11-24T10:38:49.745Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T17:38:29.358Z"
+  "updated_at": "2026-11-24T10:38:49.745Z"
 }

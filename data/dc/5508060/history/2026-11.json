@@ -221,11 +221,35 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T10:38:49.745Z",
+      "change_number": 41415878,
+      "changes": [
+        {
+          "after": "100",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "1795505425",
+          "before": "1795491544",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41410914,
+      "change_number": 41415878,
       "data": {
         "appinfo": {
           "common": {
@@ -345,6 +369,8 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "4",
+            "review_percentage": "100",
+            "review_score": "7",
             "small_capsule": {
               "english": "c0e8d717de48b90ece1d0d28cc3428c23bd2d729/capsule_231x87.jpg",
               "japanese": "d60aa925413726a728bc8bccf068f226732676b3/capsule_231x87_japanese.jpg",
@@ -354,7 +380,7 @@
               "tchinese": "e5d12112e4829397d888b51fc261f54e12e4cf40/capsule_231x87_tchinese.jpg"
             },
             "steam_release_date": "1795489282",
-            "store_asset_mtime": "1795491544",
+            "store_asset_mtime": "1795505425",
             "store_tags": {
               "0": "15564",
               "1": "597",
@@ -433,11 +459,11 @@
           }
         }
       },
-      "observed_at": "2026-11-24T04:23:48.392Z",
+      "observed_at": "2026-11-24T10:38:49.745Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T04:23:48.392Z"
+  "updated_at": "2026-11-24T10:38:49.745Z"
 }

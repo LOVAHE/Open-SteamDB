@@ -297,11 +297,63 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T10:38:49.745Z",
+      "change_number": 41406863,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26464528",
+            "description": "Mac Version for Demo",
+            "timebuildupdated": 1793899515,
+            "timeupdated": 1793899880
+          },
+          "op": "remove",
+          "path": "/depots/branches/macbuild"
+        },
+        {
+          "after": "26881315",
+          "before": "26440121",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795480928,
+          "before": 1793819818,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795481005,
+          "before": 1793820095,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": "2741865969669356481",
+          "op": "remove",
+          "path": "/depots/depots/5501661/manifests/macbuild"
+        },
+        {
+          "after": "2235874913570536618",
+          "before": "705962312850765708",
+          "op": "replace",
+          "path": "/depots/depots/5501661/manifests/public"
+        },
+        {
+          "before": "3129864903642000604",
+          "op": "remove",
+          "path": "/depots/depots/5501662/manifests/macbuild"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41271921,
+      "change_number": 41406863,
       "data": {
         "appinfo": {
           "common": {
@@ -417,16 +469,10 @@
         },
         "depots": {
           "branches": {
-            "macbuild": {
-              "buildid": "26464528",
-              "description": "Mac Version for Demo",
-              "timebuildupdated": 1793899515,
-              "timeupdated": 1793899880
-            },
             "public": {
-              "buildid": "26440121",
-              "timebuildupdated": 1793819818,
-              "timeupdated": 1793820095
+              "buildid": "26881315",
+              "timebuildupdated": 1795480928,
+              "timeupdated": 1795481005
             }
           },
           "depots": {
@@ -435,26 +481,23 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "macbuild": "2741865969669356481",
-                "public": "705962312850765708"
+                "public": "2235874913570536618"
               }
             },
             "5501662": {
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {
-                "macbuild": "3129864903642000604"
-              }
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-19T17:23:57.730Z",
+      "observed_at": "2026-11-24T10:38:49.745Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-19T17:23:57.730Z"
+  "updated_at": "2026-11-24T10:38:49.745Z"
 }
