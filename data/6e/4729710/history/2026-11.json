@@ -490,11 +490,60 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T06:08:41.936Z",
+      "change_number": 41413018,
+      "changes": [
+        {
+          "after": "86",
+          "before": "90",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "5189040,5189470",
+          "op": "add",
+          "path": "/appinfo/extended/listofdlc"
+        },
+        {
+          "after": "26885852",
+          "before": "26859494",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795498645,
+          "before": 1795404251,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795498645,
+          "before": 1795404251,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1976873545535337257",
+          "before": "8938591619874748893",
+          "op": "replace",
+          "path": "/depots/depots/4729711/manifests/public"
+        },
+        {
+          "after": "7981109180788169637",
+          "before": "5206997373503878881",
+          "op": "replace",
+          "path": "/depots/depots/4729712/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41373364,
+      "change_number": 41413018,
       "data": {
         "appinfo": {
           "common": {
@@ -601,7 +650,7 @@
             "osextended": "macos64,macosapplesilicon,macosnotarized",
             "oslist": "windows,macos",
             "primary_genre": "4",
-            "review_percentage": "90",
+            "review_percentage": "86",
             "review_score": "7",
             "small_capsule": {
               "english": "19b5b88e45a4b348c1e536b249f1256db7873210/capsule_231x87.jpg"
@@ -696,15 +745,16 @@
           "extended": {
             "developer": "BPMG Inc.",
             "homepage": "https://game.bpmg.biz/",
+            "listofdlc": "5189040,5189470",
             "publisher": "BPMG Inc."
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26859494",
-              "timebuildupdated": 1795404251,
-              "timeupdated": 1795404251
+              "buildid": "26885852",
+              "timebuildupdated": 1795498645,
+              "timeupdated": 1795498645
             }
           },
           "depots": {
@@ -713,7 +763,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "8938591619874748893"
+                "public": "1976873545535337257"
               }
             },
             "4729712": {
@@ -721,17 +771,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "5206997373503878881"
+                "public": "7981109180788169637"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-23T03:38:34.727Z",
+      "observed_at": "2026-11-24T06:08:41.936Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-23T03:38:34.727Z"
+  "updated_at": "2026-11-24T06:08:41.936Z"
 }
