@@ -410,11 +410,73 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T10:23:50.840Z",
+      "change_number": 41414787,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos,linux",
+          "before": "windows,linux",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26886824",
+          "before": "26863151",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795503157,
+          "before": 1795422810,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795503229,
+          "before": 1795433344,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3499991950185747297",
+          "before": "1171075760700780137",
+          "op": "replace",
+          "path": "/depots/depots/5430931/manifests/public"
+        },
+        {
+          "after": "3413114645299359459",
+          "before": "6329399756901733743",
+          "op": "replace",
+          "path": "/depots/depots/5430932/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "3501605711779740967"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5430933"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41383323,
+      "change_number": 41414787,
       "data": {
         "appinfo": {
           "common": {
@@ -504,8 +566,8 @@
             },
             "name": "Kingdom.py Demo",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows,linux",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos,linux",
             "parent": "5430920",
             "primary_genre": "28",
             "small_capsule": {
@@ -614,9 +676,9 @@
               "timeupdated": 1793148041
             },
             "public": {
-              "buildid": "26863151",
-              "timebuildupdated": 1795422810,
-              "timeupdated": 1795433344
+              "buildid": "26886824",
+              "timebuildupdated": 1795503157,
+              "timeupdated": 1795503229
             }
           },
           "depots": {
@@ -650,7 +712,7 @@
               },
               "manifests": {
                 "beta": "1818995776513517024",
-                "public": "1171075760700780137"
+                "public": "3499991950185747297"
               }
             },
             "5430932": {
@@ -658,17 +720,25 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "6329399756901733743"
+                "public": "3413114645299359459"
+              }
+            },
+            "5430933": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "3501605711779740967"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-23T11:39:12.526Z",
+      "observed_at": "2026-11-24T10:23:50.840Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-23T11:39:12.526Z"
+  "updated_at": "2026-11-24T10:23:50.840Z"
 }
