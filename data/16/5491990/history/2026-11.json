@@ -163,11 +163,89 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T13:53:59.517Z",
+      "change_number": 41426769,
+      "changes": [
+        {
+          "after": "1794994186",
+          "before": "1796025600",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/french"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/german"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/japanese"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/koreana"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/spanish"
+        },
+        {
+          "after": "26894657",
+          "before": "26199342",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795528042,
+          "before": 1792944129,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795528191,
+          "before": 1792944363,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5770066025876952183",
+          "before": "2644888323402695102",
+          "op": "replace",
+          "path": "/depots/depots/5491991/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41217199,
+      "change_number": 41426769,
       "data": {
         "appinfo": {
           "common": {
@@ -260,7 +338,7 @@
             "small_capsule": {
               "english": "ac63adf8c0ad7641e1ee708368899b7c0fb9e80e/capsule_231x87.jpg"
             },
-            "steam_release_date": "1796025600",
+            "steam_release_date": "1794994186",
             "store_asset_mtime": "1793259133",
             "store_tags": {
               "0": "597",
@@ -288,6 +366,26 @@
               "english": {
                 "full_audio": "true",
                 "supported": "true"
+              },
+              "french": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "german": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "japanese": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "koreana": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "spanish": {
+                "subtitles": "true",
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -303,25 +401,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26199342",
-              "timebuildupdated": 1792944129,
-              "timeupdated": 1792944363
+              "buildid": "26894657",
+              "timebuildupdated": 1795528042,
+              "timeupdated": 1795528191
             }
           },
           "depots": {
             "5491991": {
               "manifests": {
-                "public": "2644888323402695102"
+                "public": "5770066025876952183"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-18T13:38:37.118Z",
+      "observed_at": "2026-11-24T13:53:59.517Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T13:38:37.118Z"
+  "updated_at": "2026-11-24T13:53:59.517Z"
 }

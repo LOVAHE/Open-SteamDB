@@ -262,11 +262,43 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T13:53:59.517Z",
+      "change_number": 41426558,
+      "changes": [
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "windows"
+            },
+            "dlcappid": 5696350,
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5696351"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "macos"
+            },
+            "dlcappid": 5696350,
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5696352"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41425906,
+      "change_number": 41426558,
       "data": {
         "appinfo": {
           "common": {
@@ -488,15 +520,31 @@
               "manifests": {
                 "public": "5059178274101571522"
               }
+            },
+            "5696351": {
+              "config": {
+                "osarch": "64",
+                "oslist": "windows"
+              },
+              "dlcappid": 5696350,
+              "manifests": {}
+            },
+            "5696352": {
+              "config": {
+                "osarch": "64",
+                "oslist": "macos"
+              },
+              "dlcappid": 5696350,
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-24T13:38:39.628Z",
+      "observed_at": "2026-11-24T13:53:59.517Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T13:38:39.628Z"
+  "updated_at": "2026-11-24T13:53:59.517Z"
 }
