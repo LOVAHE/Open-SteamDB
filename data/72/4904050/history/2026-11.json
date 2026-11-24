@@ -353,11 +353,69 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-24T22:53:50.165Z",
+      "change_number": 41444577,
+      "changes": [
+        {
+          "before": {
+            "buildid": "26846201",
+            "description": "Engine Switch to Godot",
+            "timebuildupdated": 1795338512,
+            "timeupdated": 1795338512
+          },
+          "op": "remove",
+          "path": "/depots/branches/godot-beta"
+        },
+        {
+          "after": "26906283",
+          "before": "26477745",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795560284,
+          "before": 1793946632,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795560340,
+          "before": 1793946697,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": "3417962937451737728",
+          "op": "remove",
+          "path": "/depots/depots/4904051/manifests/godot-beta"
+        },
+        {
+          "after": "1650392649276772153",
+          "before": "1620566697424629844",
+          "op": "replace",
+          "path": "/depots/depots/4904051/manifests/public"
+        },
+        {
+          "before": "1980858416628092654",
+          "op": "remove",
+          "path": "/depots/depots/4904052/manifests/godot-beta"
+        },
+        {
+          "after": "6184936300608637446",
+          "before": "1760596061013491659",
+          "op": "replace",
+          "path": "/depots/depots/4904052/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41358277,
+      "change_number": 41444577,
       "data": {
         "appinfo": {
           "common": {
@@ -551,16 +609,10 @@
         },
         "depots": {
           "branches": {
-            "godot-beta": {
-              "buildid": "26846201",
-              "description": "Engine Switch to Godot",
-              "timebuildupdated": 1795338512,
-              "timeupdated": 1795338512
-            },
             "public": {
-              "buildid": "26477745",
-              "timebuildupdated": 1793946632,
-              "timeupdated": 1793946697
+              "buildid": "26906283",
+              "timebuildupdated": 1795560284,
+              "timeupdated": 1795560340
             }
           },
           "depots": {
@@ -569,8 +621,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "godot-beta": "3417962937451737728",
-                "public": "1620566697424629844"
+                "public": "1650392649276772153"
               }
             },
             "4904052": {
@@ -578,18 +629,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "godot-beta": "1980858416628092654",
-                "public": "1760596061013491659"
+                "public": "6184936300608637446"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-22T14:08:49.472Z",
+      "observed_at": "2026-11-24T22:53:50.165Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-22T14:08:49.472Z"
+  "updated_at": "2026-11-24T22:53:50.165Z"
 }
