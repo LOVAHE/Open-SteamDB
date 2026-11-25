@@ -307,11 +307,70 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T07:23:51.029Z",
+      "change_number": 41455453,
+      "changes": [
+        {
+          "after": "1791398240",
+          "before": "1798704000",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "1795588284",
+          "before": "1790997242",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": {
+            "buildid": "26452115",
+            "description": "Previous Stable Release v1.1.3a",
+            "timebuildupdated": 1793863417,
+            "timeupdated": 1793863498
+          },
+          "op": "add",
+          "path": "/depots/branches/legacy_v1_1_3a"
+        },
+        {
+          "after": "26912761",
+          "before": "26452115",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795585007,
+          "before": 1793863417,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795585630,
+          "before": 1793863498,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2438431644490430457",
+          "op": "add",
+          "path": "/depots/depots/4875231/manifests/legacy_v1_1_3a"
+        },
+        {
+          "after": "1246500134748243227",
+          "before": "2438431644490430457",
+          "op": "replace",
+          "path": "/depots/depots/4875231/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40899759,
+      "change_number": 41455453,
       "data": {
         "appinfo": {
           "common": {
@@ -402,8 +461,8 @@
             "small_capsule": {
               "english": "efc5acdd76c06089c375c6c07b61d5825f1e30d6/capsule_231x87.jpg"
             },
-            "steam_release_date": "1798704000",
-            "store_asset_mtime": "1790997242",
+            "steam_release_date": "1791398240",
+            "store_asset_mtime": "1795588284",
             "store_tags": {
               "0": "599",
               "1": "3810",
@@ -451,10 +510,16 @@
               "timebuildupdated": 1793335575,
               "timeupdated": 1793336604
             },
-            "public": {
+            "legacy_v1_1_3a": {
               "buildid": "26452115",
+              "description": "Previous Stable Release v1.1.3a",
               "timebuildupdated": 1793863417,
               "timeupdated": 1793863498
+            },
+            "public": {
+              "buildid": "26912761",
+              "timebuildupdated": 1795585007,
+              "timeupdated": 1795585630
             }
           },
           "depots": {
@@ -463,17 +528,18 @@
                 "beta": "5077034068293013657",
                 "legacy_v1_1": "5136762491927443992",
                 "legacy_v1_1_1": "1120070580963430112",
-                "public": "2438431644490430457"
+                "legacy_v1_1_3a": "2438431644490430457",
+                "public": "1246500134748243227"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-13T04:08:25.841Z",
+      "observed_at": "2026-11-25T07:23:51.029Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T04:08:25.841Z"
+  "updated_at": "2026-11-25T07:23:51.029Z"
 }
