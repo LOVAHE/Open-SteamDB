@@ -1105,11 +1105,28 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T16:39:58.595Z",
+      "change_number": 41476005,
+      "changes": [
+        {
+          "after": {
+            "path": "Funselektor/over the hill/Steam/{Steam3AccountID}/Saves/ProfileThumbnails",
+            "pattern": "*.png",
+            "root": "WinAppDataLocalLow"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/6"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41475026,
+      "change_number": 41476005,
       "data": {
         "appinfo": {
           "common": {
@@ -1458,6 +1475,11 @@
                 "path": "Funselektor/over the hill/Steam/{Steam3AccountID}/Saves/FogOfWar",
                 "pattern": "*.fow",
                 "root": "WinAppDataLocalLow"
+              },
+              "6": {
+                "path": "Funselektor/over the hill/Steam/{Steam3AccountID}/Saves/ProfileThumbnails",
+                "pattern": "*.png",
+                "root": "WinAppDataLocalLow"
               }
             }
           }
@@ -1522,11 +1544,11 @@
           }
         }
       },
-      "observed_at": "2026-11-25T16:08:45.994Z",
+      "observed_at": "2026-11-25T16:39:58.595Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-25T16:08:45.994Z"
+  "updated_at": "2026-11-25T16:39:58.595Z"
 }
