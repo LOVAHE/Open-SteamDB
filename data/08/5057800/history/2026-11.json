@@ -451,11 +451,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T22:09:04.636Z",
+      "change_number": 41487417,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": {
+            "maxnumfiles": "10",
+            "quota": "10000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataLocalLow",
+                "useinstead": "MacAppSupport"
+              },
+              "1": {
+                "addpath": "unity3d/",
+                "os": "Linux",
+                "oscompare": "=",
+                "root": "WinAppDataLocalLow",
+                "useinstead": "LinuxXdgConfigHome"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "DefaultCompany/When Chests Rain Tons of Loot/Cloud",
+                "pattern": "save.json",
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41486117,
+      "change_number": 41487417,
       "data": {
         "appinfo": {
           "common": {
@@ -472,6 +516,7 @@
             "category": {
               "category_2": "1",
               "category_22": "1",
+              "category_23": "1",
               "category_62": "1"
             },
             "clienticon": "d0cade7a69c5ea8bde838c4d9b764d388d79aa9e",
@@ -724,6 +769,33 @@
             "developer": "LeenGameDev",
             "listofdlc": "5583500",
             "publisher": "LeenGameDev"
+          },
+          "ufs": {
+            "maxnumfiles": "10",
+            "quota": "10000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataLocalLow",
+                "useinstead": "MacAppSupport"
+              },
+              "1": {
+                "addpath": "unity3d/",
+                "os": "Linux",
+                "oscompare": "=",
+                "root": "WinAppDataLocalLow",
+                "useinstead": "LinuxXdgConfigHome"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "DefaultCompany/When Chests Rain Tons of Loot/Cloud",
+                "pattern": "save.json",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -762,11 +834,11 @@
           }
         }
       },
-      "observed_at": "2026-11-25T21:24:03.457Z",
+      "observed_at": "2026-11-25T22:09:04.636Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-25T21:24:03.457Z"
+  "updated_at": "2026-11-25T22:09:04.636Z"
 }

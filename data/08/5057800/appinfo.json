@@ -1,8 +1,8 @@
 {
   "appid": 5057800,
   "source": "steam_pics",
-  "updated_at": "2026-11-25T21:24:03.457Z",
-  "change_number": 41486117,
+  "updated_at": "2026-11-25T22:09:04.636Z",
+  "change_number": 41487417,
   "data": {
     "common": {
       "associations": {
@@ -18,6 +18,7 @@
       "category": {
         "category_2": "1",
         "category_22": "1",
+        "category_23": "1",
         "category_62": "1"
       },
       "clienticon": "d0cade7a69c5ea8bde838c4d9b764d388d79aa9e",
@@ -270,6 +271,33 @@
     },
     "config": {
       "installdir": "When Chests Rain Tons of Loot"
+    },
+    "ufs": {
+      "maxnumfiles": "10",
+      "quota": "10000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "MacOS",
+          "oscompare": "=",
+          "root": "WinAppDataLocalLow",
+          "useinstead": "MacAppSupport"
+        },
+        "1": {
+          "addpath": "unity3d/",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "WinAppDataLocalLow",
+          "useinstead": "LinuxXdgConfigHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "DefaultCompany/When Chests Rain Tons of Loot/Cloud",
+          "pattern": "save.json",
+          "root": "WinAppDataLocalLow"
+        }
+      }
     }
   }
 }
