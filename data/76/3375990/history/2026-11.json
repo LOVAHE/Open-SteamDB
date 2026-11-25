@@ -3034,11 +3034,106 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T09:55:47.382Z",
+      "change_number": 41460813,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26842221",
+            "description": "0.1.23 version",
+            "timebuildupdated": 1795312039,
+            "timeupdated": 1795318487
+          },
+          "op": "add",
+          "path": "/depots/branches/0.1.23"
+        },
+        {
+          "after": "26916552",
+          "before": "26892180",
+          "op": "replace",
+          "path": "/depots/branches/preview/buildid"
+        },
+        {
+          "after": 1795599502,
+          "before": 1795521360,
+          "op": "replace",
+          "path": "/depots/branches/preview/timebuildupdated"
+        },
+        {
+          "after": 1795599682,
+          "before": 1795521380,
+          "op": "replace",
+          "path": "/depots/branches/preview/timeupdated"
+        },
+        {
+          "after": "26892180",
+          "before": "26842221",
+          "op": "replace",
+          "path": "/depots/branches/previous/buildid"
+        },
+        {
+          "after": 1795521360,
+          "before": 1795312039,
+          "op": "replace",
+          "path": "/depots/branches/previous/timebuildupdated"
+        },
+        {
+          "after": 1795521401,
+          "before": 1795318487,
+          "op": "replace",
+          "path": "/depots/branches/previous/timeupdated"
+        },
+        {
+          "after": "26916552",
+          "before": "26892180",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795599502,
+          "before": 1795521360,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795599741,
+          "before": 1795521401,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3574994731309044909",
+          "op": "add",
+          "path": "/depots/depots/3375991/manifests/0.1.23"
+        },
+        {
+          "after": "6055556575729517025",
+          "before": "8151477047820652875",
+          "op": "replace",
+          "path": "/depots/depots/3375991/manifests/preview"
+        },
+        {
+          "after": "8151477047820652875",
+          "before": "3574994731309044909",
+          "op": "replace",
+          "path": "/depots/depots/3375991/manifests/previous"
+        },
+        {
+          "after": "6055556575729517025",
+          "before": "8151477047820652875",
+          "op": "replace",
+          "path": "/depots/depots/3375991/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41423086,
+      "change_number": 41460813,
       "data": {
         "appinfo": {
           "common": {
@@ -3333,6 +3428,12 @@
               "timebuildupdated": 1795086986,
               "timeupdated": 1795087643
             },
+            "0.1.23": {
+              "buildid": "26842221",
+              "description": "0.1.23 version",
+              "timebuildupdated": 1795312039,
+              "timeupdated": 1795318487
+            },
             "0.1.8": {
               "buildid": "26361481",
               "description": "0.1.8 version",
@@ -3340,21 +3441,21 @@
               "timeupdated": 1793544177
             },
             "preview": {
-              "buildid": "26892180",
+              "buildid": "26916552",
               "description": "Preview upcoming updates - 업데이트 미리 체험",
-              "timebuildupdated": 1795521360,
-              "timeupdated": 1795521380
+              "timebuildupdated": 1795599502,
+              "timeupdated": 1795599682
             },
             "previous": {
-              "buildid": "26842221",
-              "description": "Previous version - 이전 버전",
-              "timebuildupdated": 1795312039,
-              "timeupdated": 1795318487
-            },
-            "public": {
               "buildid": "26892180",
+              "description": "Previous version - 이전 버전",
               "timebuildupdated": 1795521360,
               "timeupdated": 1795521401
+            },
+            "public": {
+              "buildid": "26916552",
+              "timebuildupdated": 1795599502,
+              "timeupdated": 1795599741
             }
           },
           "depots": {
@@ -3389,20 +3490,21 @@
                 "0.1.20": "457777720022009400",
                 "0.1.21": "3454498970460109952",
                 "0.1.22": "6365158818739854825",
+                "0.1.23": "3574994731309044909",
                 "0.1.8": "98091194238391071",
-                "preview": "8151477047820652875",
-                "previous": "3574994731309044909",
-                "public": "8151477047820652875"
+                "preview": "6055556575729517025",
+                "previous": "8151477047820652875",
+                "public": "6055556575729517025"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-24T12:08:51.632Z",
+      "observed_at": "2026-11-25T09:55:47.382Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T12:08:51.632Z"
+  "updated_at": "2026-11-25T09:55:47.382Z"
 }
