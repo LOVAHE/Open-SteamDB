@@ -567,11 +567,51 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T17:38:41.367Z",
+      "change_number": 41478559,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "100",
+            "quota": "100000000"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26927030",
+          "before": "26913964",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795627825,
+          "before": 1795590127,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795627858,
+          "before": 1795590169,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6648932892249873991",
+          "before": "1573066216770578986",
+          "op": "replace",
+          "path": "/depots/depots/5080411/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41455967,
+      "change_number": 41478559,
       "data": {
         "appinfo": {
           "common": {
@@ -782,30 +822,34 @@
           "extended": {
             "developer": "Bingonotblue",
             "publisher": "Tycoon Managers"
+          },
+          "ufs": {
+            "maxnumfiles": "100",
+            "quota": "100000000"
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26913964",
-              "timebuildupdated": 1795590127,
-              "timeupdated": 1795590169
+              "buildid": "26927030",
+              "timebuildupdated": 1795627825,
+              "timeupdated": 1795627858
             }
           },
           "depots": {
             "5080411": {
               "manifests": {
-                "public": "1573066216770578986"
+                "public": "6648932892249873991"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-25T08:54:19.228Z",
+      "observed_at": "2026-11-25T17:38:41.367Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-25T08:54:19.228Z"
+  "updated_at": "2026-11-25T17:38:41.367Z"
 }

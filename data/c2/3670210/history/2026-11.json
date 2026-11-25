@@ -401,11 +401,38 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T17:38:41.367Z",
+      "change_number": 41478322,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/community_visible_stats"
+        },
+        {
+          "after": {
+            "english": "1",
+            "spanish": "1"
+          },
+          "op": "add",
+          "path": "/appinfo/common/languages"
+        },
+        {
+          "after": "Julio's Adventure",
+          "before": "Julio's Adventure 3",
+          "op": "replace",
+          "path": "/appinfo/common/name"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40800929,
+      "change_number": 41478322,
       "data": {
         "appinfo": {
           "common": {
@@ -426,6 +453,7 @@
             "clienticon": "30c59d71cd8185754350ce0c5aff9268665de67b",
             "clienttga": "eb9dbabf24a6cbf3337e5ea2cbe7eb984baa82bb",
             "community_hub_visible": "1",
+            "community_visible_stats": "1",
             "genres": {
               "0": "1",
               "1": "25",
@@ -436,6 +464,10 @@
               "spanish": "4fbfa4311a5a5a4809c8128d6a5b6b1b65388652/header_spanish.jpg"
             },
             "icon": "27738a94800615214243f9297814d3ff5b58a16c",
+            "languages": {
+              "english": "1",
+              "spanish": "1"
+            },
             "library_assets": {
               "library_capsule": "en",
               "library_header": "en",
@@ -492,7 +524,7 @@
                 }
               }
             },
-            "name": "Julio's Adventure 3",
+            "name": "Julio's Adventure",
             "osarch": "",
             "osextended": "",
             "oslist": "windows,macos",
@@ -574,11 +606,11 @@
           }
         }
       },
-      "observed_at": "2026-11-10T16:23:41.623Z",
+      "observed_at": "2026-11-25T17:38:41.367Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-10T16:23:41.623Z"
+  "updated_at": "2026-11-25T17:38:41.367Z"
 }
