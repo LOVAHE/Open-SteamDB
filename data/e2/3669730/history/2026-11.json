@@ -287,11 +287,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T13:53:56.507Z",
+      "change_number": 41468879,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "50",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "IV Productions/AUDIOSPEED",
+                "pattern": "salvataggio.json*",
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41269116,
+      "change_number": 41468879,
       "data": {
         "appinfo": {
           "common": {
@@ -482,6 +505,17 @@
           "extended": {
             "developer": "IV Productions",
             "publisher": "IV Productions"
+          },
+          "ufs": {
+            "maxnumfiles": "50",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "IV Productions/AUDIOSPEED",
+                "pattern": "salvataggio.json*",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -501,11 +535,11 @@
           }
         }
       },
-      "observed_at": "2026-11-19T15:53:48.069Z",
+      "observed_at": "2026-11-25T13:53:56.507Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-19T15:53:48.069Z"
+  "updated_at": "2026-11-25T13:53:56.507Z"
 }

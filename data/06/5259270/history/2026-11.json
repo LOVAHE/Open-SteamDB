@@ -576,11 +576,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T13:53:56.507Z",
+      "change_number": 41468666,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26921563",
+            "description": "SimplifiedChinese",
+            "timebuildupdated": 1795614061,
+            "timeupdated": 1795614147
+          },
+          "op": "add",
+          "path": "/depots/branches/simplifiedchinese"
+        },
+        {
+          "after": "8929257294171727680",
+          "op": "add",
+          "path": "/depots/depots/5259271/manifests/simplifiedchinese"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41468244,
+      "change_number": 41468666,
       "data": {
         "appinfo": {
           "common": {
@@ -725,22 +748,29 @@
               "buildid": "26826662",
               "timebuildupdated": 1795228210,
               "timeupdated": 1795228346
+            },
+            "simplifiedchinese": {
+              "buildid": "26921563",
+              "description": "SimplifiedChinese",
+              "timebuildupdated": 1795614061,
+              "timeupdated": 1795614147
             }
           },
           "depots": {
             "5259271": {
               "manifests": {
-                "public": "2743764853365269370"
+                "public": "2743764853365269370",
+                "simplifiedchinese": "8929257294171727680"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-25T13:38:49.868Z",
+      "observed_at": "2026-11-25T13:53:56.507Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-25T13:38:49.868Z"
+  "updated_at": "2026-11-25T13:53:56.507Z"
 }
