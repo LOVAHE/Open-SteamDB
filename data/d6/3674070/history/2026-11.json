@@ -264,11 +264,69 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T06:23:51.613Z",
+      "change_number": 41453921,
+      "changes": [
+        {
+          "after": "macos64",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26910752",
+          "before": "26820797",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795576467,
+          "before": 1795205423,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795577561,
+          "before": 1795205520,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/3674071/config"
+        },
+        {
+          "after": {
+            "config": {
+              "language": "english",
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "8953775327914406491"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/3674072"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41315066,
+      "change_number": 41453921,
       "data": {
         "appinfo": {
           "common": {
@@ -363,8 +421,8 @@
             },
             "name": "Iona's Island",
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64",
+            "oslist": "windows,macos",
             "primary_genre": "4",
             "small_capsule": {
               "english": "e4e7c44984b64004f430a4c3558b3817cacec99b/capsule_231x87.jpg"
@@ -425,9 +483,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26820797",
-              "timebuildupdated": 1795205423,
-              "timeupdated": 1795205520
+              "buildid": "26910752",
+              "timebuildupdated": 1795576467,
+              "timeupdated": 1795577561
             }
           },
           "depots": {
@@ -448,18 +506,30 @@
               "sharedinstall": true
             },
             "3674071": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
                 "public": "5147608663649652277"
+              }
+            },
+            "3674072": {
+              "config": {
+                "language": "english",
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "8953775327914406491"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-20T20:23:36.918Z",
+      "observed_at": "2026-11-25T06:23:51.613Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T20:23:36.918Z"
+  "updated_at": "2026-11-25T06:23:51.613Z"
 }
