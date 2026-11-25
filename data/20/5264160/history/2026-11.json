@@ -342,11 +342,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T09:45:02.785Z",
+      "change_number": 41448831,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "100",
+            "quota": "1073741824",
+            "savefiles": {
+              "0": {
+                "path": "BloodlinesAndBanners/campaigns",
+                "pattern": "*.db",
+                "root": "WinAppDataLocal"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": "26887586",
+          "before": "26824020",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795506485,
+          "before": 1795216444,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795568094,
+          "before": 1795261941,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2551041500943226132",
+          "before": "7324991664195698739",
+          "op": "replace",
+          "path": "/depots/depots/5264161/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41332058,
+      "change_number": 41448831,
       "data": {
         "appinfo": {
           "common": {
@@ -481,14 +528,25 @@
             "developer": "Synprax Labs",
             "homepage": "https://bloodlinesandbanners.com/press",
             "publisher": "Synprax Labs"
+          },
+          "ufs": {
+            "maxnumfiles": "100",
+            "quota": "1073741824",
+            "savefiles": {
+              "0": {
+                "path": "BloodlinesAndBanners/campaigns",
+                "pattern": "*.db",
+                "root": "WinAppDataLocal"
+              }
+            }
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26824020",
-              "timebuildupdated": 1795216444,
-              "timeupdated": 1795261941
+              "buildid": "26887586",
+              "timebuildupdated": 1795506485,
+              "timeupdated": 1795568094
             }
           },
           "depots": {
@@ -502,17 +560,17 @@
             },
             "5264161": {
               "manifests": {
-                "public": "7324991664195698739"
+                "public": "2551041500943226132"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-21T11:53:34.791Z",
+      "observed_at": "2026-11-25T09:45:02.785Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T11:53:34.791Z"
+  "updated_at": "2026-11-25T09:45:02.785Z"
 }
