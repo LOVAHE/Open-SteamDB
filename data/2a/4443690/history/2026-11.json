@@ -326,11 +326,67 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T19:53:47.702Z",
+      "change_number": 41483277,
+      "changes": [
+        {
+          "after": "26930059",
+          "before": "26906541",
+          "op": "replace",
+          "path": "/depots/branches/linux-fix/buildid"
+        },
+        {
+          "after": 1795636260,
+          "before": 1795561031,
+          "op": "replace",
+          "path": "/depots/branches/linux-fix/timebuildupdated"
+        },
+        {
+          "after": 1795636292,
+          "before": 1795561033,
+          "op": "replace",
+          "path": "/depots/branches/linux-fix/timeupdated"
+        },
+        {
+          "after": "26930059",
+          "before": "26906541",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795636260,
+          "before": 1795561031,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795636292,
+          "before": 1795561259,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3197058991524317717",
+          "before": "8551421061729613110",
+          "op": "replace",
+          "path": "/depots/depots/4443691/manifests/linux-fix"
+        },
+        {
+          "after": "3197058991524317717",
+          "before": "8551421061729613110",
+          "op": "replace",
+          "path": "/depots/depots/4443691/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41478114,
+      "change_number": 41483277,
       "data": {
         "appinfo": {
           "common": {
@@ -537,15 +593,15 @@
         "depots": {
           "branches": {
             "linux-fix": {
-              "buildid": "26906541",
+              "buildid": "26930059",
               "description": "specific fixes aimed at linux",
-              "timebuildupdated": 1795561031,
-              "timeupdated": 1795561033
+              "timebuildupdated": 1795636260,
+              "timeupdated": 1795636292
             },
             "public": {
-              "buildid": "26906541",
-              "timebuildupdated": 1795561031,
-              "timeupdated": 1795561259
+              "buildid": "26930059",
+              "timebuildupdated": 1795636260,
+              "timeupdated": 1795636292
             }
           },
           "depots": {
@@ -554,18 +610,18 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "linux-fix": "8551421061729613110",
-                "public": "8551421061729613110"
+                "linux-fix": "3197058991524317717",
+                "public": "3197058991524317717"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-25T17:24:01.548Z",
+      "observed_at": "2026-11-25T19:53:47.702Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-25T17:24:01.548Z"
+  "updated_at": "2026-11-25T19:53:47.702Z"
 }
