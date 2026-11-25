@@ -230,11 +230,105 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T21:49:57.165Z",
+      "change_number": 41486966,
+      "changes": [
+        {
+          "after": "",
+          "before": "macosapplesilicon,macosnotarized",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,linux",
+          "before": "windows,macos,linux",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "0",
+          "before": "10",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "0",
+          "before": "1000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        },
+        {
+          "before": {
+            "0": {
+              "addpath": "Epic/",
+              "os": "MacOS",
+              "oscompare": "=",
+              "root": "WinAppDataLocal",
+              "useinstead": "MacAppSupport"
+            },
+            "1": {
+              "addpath": "Epic/",
+              "os": "Linux",
+              "oscompare": "=",
+              "root": "WinAppDataLocal",
+              "useinstead": "LinuxXdgConfigHome"
+            }
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "before": {
+            "0": {
+              "path": "KeepItOnHer/Saved/SaveGames",
+              "pattern": "Records.sav",
+              "root": "WinAppDataLocal"
+            },
+            "copied_from_parent": "1"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles"
+        },
+        {
+          "after": "26932254",
+          "before": "26039699",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795643195,
+          "before": 1792383811,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795643234,
+          "before": 1792759219,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3867992912621948160",
+          "before": "8631821190068605311",
+          "op": "replace",
+          "path": "/depots/depots/5335191/manifests/public"
+        },
+        {
+          "after": "9016059464236019251",
+          "before": "5735661370928396569",
+          "op": "replace",
+          "path": "/depots/depots/5335193/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41414767,
+      "change_number": 41486966,
       "data": {
         "appinfo": {
           "common": {
@@ -322,8 +416,8 @@
             },
             "name": "KEEP IT ON HER Demo",
             "osarch": "64",
-            "osextended": "macosapplesilicon,macosnotarized",
-            "oslist": "windows,macos,linux",
+            "osextended": "",
+            "oslist": "windows,linux",
             "parent": "5300960",
             "primary_genre": "0",
             "small_capsule": {
@@ -371,40 +465,16 @@
             "publisher": "Just2Dudes Studios"
           },
           "ufs": {
-            "maxnumfiles": "10",
-            "quota": "1000000",
-            "rootoverrides": {
-              "0": {
-                "addpath": "Epic/",
-                "os": "MacOS",
-                "oscompare": "=",
-                "root": "WinAppDataLocal",
-                "useinstead": "MacAppSupport"
-              },
-              "1": {
-                "addpath": "Epic/",
-                "os": "Linux",
-                "oscompare": "=",
-                "root": "WinAppDataLocal",
-                "useinstead": "LinuxXdgConfigHome"
-              }
-            },
-            "savefiles": {
-              "0": {
-                "path": "KeepItOnHer/Saved/SaveGames",
-                "pattern": "Records.sav",
-                "root": "WinAppDataLocal"
-              },
-              "copied_from_parent": "1"
-            }
+            "maxnumfiles": "0",
+            "quota": "0"
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26039699",
-              "timebuildupdated": 1792383811,
-              "timeupdated": 1792759219
+              "buildid": "26932254",
+              "timebuildupdated": 1795643195,
+              "timeupdated": 1795643234
             }
           },
           "depots": {
@@ -429,7 +499,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "8631821190068605311"
+                "public": "3867992912621948160"
               }
             },
             "5335192": {
@@ -445,17 +515,17 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "5735661370928396569"
+                "public": "9016059464236019251"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-24T09:08:54.514Z",
+      "observed_at": "2026-11-25T21:49:57.165Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T09:08:54.514Z"
+  "updated_at": "2026-11-25T21:49:57.165Z"
 }
