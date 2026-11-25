@@ -2791,11 +2791,43 @@
       ],
       "kind": "initial",
       "source": "steam_store"
+    },
+    {
+      "at": "2026-11-25T11:54:00.077Z",
+      "change_number": 41462635,
+      "changes": [
+        {
+          "after": "26917843",
+          "before": "26909611",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795603208,
+          "before": 1795572093,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795603208,
+          "before": 1795572093,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2344493483340535799",
+          "before": "8941838719061017699",
+          "op": "replace",
+          "path": "/depots/depots/4448061/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41449214,
+      "change_number": 41462635,
       "data": {
         "appinfo": {
           "common": {
@@ -3059,9 +3091,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26909611",
-              "timebuildupdated": 1795572093,
-              "timeupdated": 1795572093
+              "buildid": "26917843",
+              "timebuildupdated": 1795603208,
+              "timeupdated": 1795603208
             }
           },
           "depots": {
@@ -3087,7 +3119,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "8941838719061017699"
+                "public": "2344493483340535799"
               }
             },
             "4448062": {
@@ -3101,7 +3133,7 @@
           }
         }
       },
-      "observed_at": "2026-11-25T06:39:00.074Z",
+      "observed_at": "2026-11-25T11:54:00.077Z",
       "tracked": true
     },
     "steam_store": {
@@ -3310,5 +3342,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-25T09:55:47.382Z"
+  "updated_at": "2026-11-25T11:54:00.077Z"
 }

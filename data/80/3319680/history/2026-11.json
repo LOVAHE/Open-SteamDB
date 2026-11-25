@@ -871,11 +871,56 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T11:54:00.077Z",
+      "change_number": 41464243,
+      "changes": [
+        {
+          "after": "1000",
+          "before": "0",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "100000000",
+          "before": "0",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        },
+        {
+          "after": {
+            "0": {
+              "addpath": "",
+              "os": "MacOS",
+              "oscompare": "=",
+              "root": "WinAppDataLocalLow",
+              "useinstead": "MacAppSupport"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "after": {
+            "0": {
+              "path": "iDiOSLAB/DelveSurvivors/savedata/release",
+              "pattern": "*.save",
+              "recursive": "1",
+              "root": "WinAppDataLocalLow"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41449763,
+      "change_number": 41464243,
       "data": {
         "appinfo": {
           "common": {
@@ -1071,8 +1116,25 @@
             "publisher": "iDiOSLAB"
           },
           "ufs": {
-            "maxnumfiles": "0",
-            "quota": "0"
+            "maxnumfiles": "1000",
+            "quota": "100000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataLocalLow",
+                "useinstead": "MacAppSupport"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "iDiOSLAB/DelveSurvivors/savedata/release",
+                "pattern": "*.save",
+                "recursive": "1",
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -1111,11 +1173,11 @@
           }
         }
       },
-      "observed_at": "2026-11-25T05:23:51.703Z",
+      "observed_at": "2026-11-25T11:54:00.077Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-25T05:23:51.703Z"
+  "updated_at": "2026-11-25T11:54:00.077Z"
 }
