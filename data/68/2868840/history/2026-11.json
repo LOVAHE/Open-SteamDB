@@ -838,11 +838,55 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T05:23:51.703Z",
+      "change_number": 41448603,
+      "changes": [
+        {
+          "after": "26909018",
+          "before": "26660232",
+          "op": "replace",
+          "path": "/depots/branches/public-beta/buildid"
+        },
+        {
+          "after": 1795570000,
+          "before": 1794624691,
+          "op": "replace",
+          "path": "/depots/branches/public-beta/timebuildupdated"
+        },
+        {
+          "after": 1795570484,
+          "before": 1794689668,
+          "op": "replace",
+          "path": "/depots/branches/public-beta/timeupdated"
+        },
+        {
+          "after": "4050608647829094730",
+          "before": "8445808044584180628",
+          "op": "replace",
+          "path": "/depots/depots/2868841/manifests/public-beta"
+        },
+        {
+          "after": "2305978130846092196",
+          "before": "44163249761777073",
+          "op": "replace",
+          "path": "/depots/depots/2868842/manifests/public-beta"
+        },
+        {
+          "after": "8280688722660718052",
+          "before": "8759203533253978453",
+          "op": "replace",
+          "path": "/depots/depots/2868843/manifests/public-beta"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41436338,
+      "change_number": 41448603,
       "data": {
         "appinfo": {
           "common": {
@@ -1108,10 +1152,10 @@
               "timeupdated": 1794877497
             },
             "public-beta": {
-              "buildid": "26660232",
+              "buildid": "26909018",
               "description": "The sts2 public beta branch",
-              "timebuildupdated": 1794624691,
-              "timeupdated": 1794689668
+              "timebuildupdated": 1795570000,
+              "timeupdated": 1795570484
             }
           },
           "depots": {
@@ -1122,7 +1166,7 @@
               },
               "manifests": {
                 "public": "5729339753299691508",
-                "public-beta": "8445808044584180628"
+                "public-beta": "4050608647829094730"
               }
             },
             "2868842": {
@@ -1131,7 +1175,7 @@
               },
               "manifests": {
                 "public": "3031240324680610875",
-                "public-beta": "44163249761777073"
+                "public-beta": "2305978130846092196"
               }
             },
             "2868843": {
@@ -1141,13 +1185,13 @@
               },
               "manifests": {
                 "public": "3083600280412951530",
-                "public-beta": "8759203533253978453"
+                "public-beta": "8280688722660718052"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-24T18:12:57.698Z",
+      "observed_at": "2026-11-25T05:23:51.703Z",
       "tracked": true
     },
     "steam_store": {
@@ -1333,5 +1377,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T18:12:57.698Z"
+  "updated_at": "2026-11-25T05:23:51.703Z"
 }

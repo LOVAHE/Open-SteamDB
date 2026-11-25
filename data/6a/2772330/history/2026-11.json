@@ -1134,11 +1134,53 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T05:23:51.703Z",
+      "change_number": 41452390,
+      "changes": [
+        {
+          "after": "91",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "26909798",
+          "before": "26907384",
+          "op": "replace",
+          "path": "/depots/branches/online/buildid"
+        },
+        {
+          "after": 1795572725,
+          "before": 1795563965,
+          "op": "replace",
+          "path": "/depots/branches/online/timebuildupdated"
+        },
+        {
+          "after": 1795572725,
+          "before": 1795563965,
+          "op": "replace",
+          "path": "/depots/branches/online/timeupdated"
+        },
+        {
+          "after": "716737172050772843",
+          "before": "5575447245712569872",
+          "op": "replace",
+          "path": "/depots/depots/2772331/manifests/online"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41445902,
+      "change_number": 41452390,
       "data": {
         "appinfo": {
           "common": {
@@ -1240,6 +1282,8 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "23",
+            "review_percentage": "91",
+            "review_score": "7",
             "small_capsule": {
               "english": "0d72f66f3d95742552989be58c46771fea11cfec/capsule_231x87.jpg"
             },
@@ -1302,10 +1346,10 @@
         "depots": {
           "branches": {
             "online": {
-              "buildid": "26907384",
+              "buildid": "26909798",
               "description": "Online-Test (intern)",
-              "timebuildupdated": 1795563965,
-              "timeupdated": 1795563965
+              "timebuildupdated": 1795572725,
+              "timeupdated": 1795572725
             },
             "public": {
               "buildid": "26907293",
@@ -1316,18 +1360,18 @@
           "depots": {
             "2772331": {
               "manifests": {
-                "online": "5575447245712569872",
+                "online": "716737172050772843",
                 "public": "8216669110933178653"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-24T23:54:03.037Z",
+      "observed_at": "2026-11-25T05:23:51.703Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T23:54:03.037Z"
+  "updated_at": "2026-11-25T05:23:51.703Z"
 }
