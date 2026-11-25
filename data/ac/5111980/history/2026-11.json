@@ -511,11 +511,60 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T14:39:15.053Z",
+      "change_number": 41471126,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26922703",
+          "before": "26836082",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795616709,
+          "before": 1795280515,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795616946,
+          "before": 1795280647,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5039479627958219649",
+          "before": "3019929737593784588",
+          "op": "replace",
+          "path": "/depots/depots/5111981/manifests/public"
+        },
+        {
+          "after": "741698307161546414",
+          "op": "add",
+          "path": "/depots/depots/5111982/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41470045,
+      "change_number": 41471126,
       "data": {
         "appinfo": {
           "common": {
@@ -603,8 +652,8 @@
             },
             "name": "Highschool J",
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "primary_genre": "25",
             "review_percentage": "94",
             "review_score": "8",
@@ -679,31 +728,33 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26836082",
-              "timebuildupdated": 1795280515,
-              "timeupdated": 1795280647
+              "buildid": "26922703",
+              "timebuildupdated": 1795616709,
+              "timeupdated": 1795616946
             }
           },
           "depots": {
             "5111981": {
               "manifests": {
-                "public": "3019929737593784588"
+                "public": "5039479627958219649"
               }
             },
             "5111982": {
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "741698307161546414"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-25T14:24:00.547Z",
+      "observed_at": "2026-11-25T14:39:15.053Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-25T14:24:00.547Z"
+  "updated_at": "2026-11-25T14:39:15.053Z"
 }
