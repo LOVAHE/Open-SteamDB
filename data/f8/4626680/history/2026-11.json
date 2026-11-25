@@ -1142,11 +1142,61 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T06:53:50.449Z",
+      "change_number": 41451247,
+      "changes": [
+        {
+          "after": {
+            "path": "Godot/app_userdata/STEEL GULLET/saves",
+            "pattern": "*.sav",
+            "platforms": {
+              "1": "Windows"
+            },
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        },
+        {
+          "after": "26906991",
+          "before": "26897436",
+          "op": "replace",
+          "path": "/depots/branches/prerelease/buildid"
+        },
+        {
+          "after": 1795562648,
+          "before": 1795535177,
+          "op": "replace",
+          "path": "/depots/branches/prerelease/timebuildupdated"
+        },
+        {
+          "after": 1795562648,
+          "before": 1795535177,
+          "op": "replace",
+          "path": "/depots/branches/prerelease/timeupdated"
+        },
+        {
+          "after": "3064248231282052240",
+          "before": "2056540423415507245",
+          "op": "replace",
+          "path": "/depots/depots/4626682/manifests/prerelease"
+        },
+        {
+          "after": "6001857948331861891",
+          "before": "1258810552510054864",
+          "op": "replace",
+          "path": "/depots/depots/4626683/manifests/prerelease"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41431433,
+      "change_number": 41451247,
       "data": {
         "appinfo": {
           "common": {
@@ -1433,6 +1483,14 @@
                   "1": "Windows"
                 },
                 "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "Godot/app_userdata/STEEL GULLET/saves",
+                "pattern": "*.sav",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataRoaming"
               }
             }
           }
@@ -1440,10 +1498,10 @@
         "depots": {
           "branches": {
             "prerelease": {
-              "buildid": "26897436",
+              "buildid": "26906991",
               "description": "prerelease",
-              "timebuildupdated": 1795535177,
-              "timeupdated": 1795535177
+              "timebuildupdated": 1795562648,
+              "timeupdated": 1795562648
             },
             "public": {
               "buildid": "26897436",
@@ -1474,7 +1532,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "prerelease": "2056540423415507245",
+                "prerelease": "3064248231282052240",
                 "public": "2056540423415507245"
               }
             },
@@ -1484,18 +1542,18 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "prerelease": "1258810552510054864",
+                "prerelease": "6001857948331861891",
                 "public": "1258810552510054864"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-24T16:08:58.557Z",
+      "observed_at": "2026-11-25T06:53:50.449Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T16:08:58.557Z"
+  "updated_at": "2026-11-25T06:53:50.449Z"
 }
