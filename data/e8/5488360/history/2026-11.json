@@ -720,11 +720,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T11:38:51.485Z",
+      "change_number": 41453401,
+      "changes": [
+        {
+          "after": "10",
+          "before": "8",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "26912349",
+          "before": "26843819",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795583236,
+          "before": 1795321739,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795583271,
+          "before": 1795321802,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2192914619438675329",
+          "before": "3211496023700355242",
+          "op": "replace",
+          "path": "/depots/depots/5488361/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41441661,
+      "change_number": 41453401,
       "data": {
         "appinfo": {
           "common": {
@@ -1005,7 +1043,7 @@
             "publisher": "KIB Games"
           },
           "ufs": {
-            "maxnumfiles": "8",
+            "maxnumfiles": "10",
             "quota": "42000000",
             "savefiles": {
               "0": {
@@ -1019,9 +1057,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26843819",
-              "timebuildupdated": 1795321739,
-              "timeupdated": 1795321802
+              "buildid": "26912349",
+              "timebuildupdated": 1795583236,
+              "timeupdated": 1795583271
             }
           },
           "depots": {
@@ -1031,17 +1069,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "3211496023700355242"
+                "public": "2192914619438675329"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-24T21:08:45.419Z",
+      "observed_at": "2026-11-25T11:38:51.485Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T21:08:45.419Z"
+  "updated_at": "2026-11-25T11:38:51.485Z"
 }

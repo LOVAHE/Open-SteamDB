@@ -2381,11 +2381,40 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T11:38:51.485Z",
+      "change_number": 41464234,
+      "changes": [
+        {
+          "after": "84",
+          "before": "83",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": {
+            "buildid": "26917470",
+            "description": "beta-v19.3",
+            "timebuildupdated": 1795602031,
+            "timeupdated": 1795605935
+          },
+          "op": "add",
+          "path": "/depots/branches/beta-v19.3"
+        },
+        {
+          "after": "525167758042118163",
+          "op": "add",
+          "path": "/depots/depots/5160801/manifests/beta-v19.3"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41459477,
+      "change_number": 41464234,
       "data": {
         "appinfo": {
           "common": {
@@ -2498,7 +2527,7 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "28",
-            "review_percentage": "83",
+            "review_percentage": "84",
             "review_score": "8",
             "small_capsule": {
               "english": "3dec380fa3c66a40ffc1d36be2ac518cf9dcda05/capsule_231x87.jpg"
@@ -2686,6 +2715,12 @@
               "timebuildupdated": 1795526076,
               "timeupdated": 1795526136
             },
+            "beta-v19.3": {
+              "buildid": "26917470",
+              "description": "beta-v19.3",
+              "timebuildupdated": 1795602031,
+              "timeupdated": 1795605935
+            },
             "public": {
               "buildid": "26825799",
               "timebuildupdated": 1795223848,
@@ -2697,17 +2732,18 @@
               "manifests": {
                 "beta-v19": "7385697578312622309",
                 "beta-v19.2": "3922033259141420710",
+                "beta-v19.3": "525167758042118163",
                 "public": "8282738253364410816"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-25T09:08:42.095Z",
+      "observed_at": "2026-11-25T11:38:51.485Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-25T09:08:42.095Z"
+  "updated_at": "2026-11-25T11:38:51.485Z"
 }

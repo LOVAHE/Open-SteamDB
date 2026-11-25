@@ -376,11 +376,76 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T11:38:51.485Z",
+      "change_number": 41455277,
+      "changes": [
+        {
+          "after": "1000",
+          "before": "10",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "500000000",
+          "before": "100000000",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        },
+        {
+          "after": {
+            "path": "Motherloader/saves",
+            "pattern": "*",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        },
+        {
+          "after": "26913517",
+          "before": "26857004",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795588180,
+          "before": 1795391635,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795588375,
+          "before": 1795391875,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1568645339898724878",
+          "before": "4327534878020574316",
+          "op": "replace",
+          "path": "/depots/depots/5534461/manifests/public"
+        },
+        {
+          "after": "8534881974702127930",
+          "before": "5190546727105180204",
+          "op": "replace",
+          "path": "/depots/depots/5534462/manifests/public"
+        },
+        {
+          "after": "1306579300960744950",
+          "before": "4407817112920533847",
+          "op": "replace",
+          "path": "/depots/depots/5534463/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41369725,
+      "change_number": 41455277,
       "data": {
         "appinfo": {
           "common": {
@@ -543,8 +608,8 @@
             "publisher": "Lycorp"
           },
           "ufs": {
-            "maxnumfiles": "10",
-            "quota": "100000000",
+            "maxnumfiles": "1000",
+            "quota": "500000000",
             "rootoverrides": {
               "0": {
                 "addpath": "",
@@ -571,6 +636,11 @@
                 "path": "Motherloader",
                 "pattern": "contract.sav",
                 "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "Motherloader/saves",
+                "pattern": "*",
+                "root": "WinAppDataRoaming"
               }
             }
           }
@@ -578,9 +648,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26857004",
-              "timebuildupdated": 1795391635,
-              "timeupdated": 1795391875
+              "buildid": "26913517",
+              "timebuildupdated": 1795588180,
+              "timeupdated": 1795588375
             }
           },
           "depots": {
@@ -589,7 +659,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "4327534878020574316"
+                "public": "1568645339898724878"
               }
             },
             "5534462": {
@@ -597,7 +667,7 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "5190546727105180204"
+                "public": "8534881974702127930"
               }
             },
             "5534463": {
@@ -605,17 +675,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "4407817112920533847"
+                "public": "1306579300960744950"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-23T00:08:45.902Z",
+      "observed_at": "2026-11-25T11:38:51.485Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-23T00:08:45.902Z"
+  "updated_at": "2026-11-25T11:38:51.485Z"
 }
