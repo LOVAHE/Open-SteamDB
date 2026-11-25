@@ -1531,11 +1531,65 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T14:53:49.395Z",
+      "change_number": 41471934,
+      "changes": [
+        {
+          "after": "100",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "26923253",
+          "before": "26872468",
+          "op": "replace",
+          "path": "/depots/branches/prerelease/buildid"
+        },
+        {
+          "after": 1795617803,
+          "before": 1795451695,
+          "op": "replace",
+          "path": "/depots/branches/prerelease/timebuildupdated"
+        },
+        {
+          "after": 1795617887,
+          "before": 1795451716,
+          "op": "replace",
+          "path": "/depots/branches/prerelease/timeupdated"
+        },
+        {
+          "after": "726409461874181741",
+          "before": "3366253389853920861",
+          "op": "replace",
+          "path": "/depots/depots/5038622/manifests/prerelease"
+        },
+        {
+          "after": "3569534075511458469",
+          "before": "7039624632416571352",
+          "op": "replace",
+          "path": "/depots/depots/5038623/manifests/prerelease"
+        },
+        {
+          "after": "373651365618212943",
+          "before": "6633421127747644372",
+          "op": "replace",
+          "path": "/depots/depots/5038624/manifests/prerelease"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41444896,
+      "change_number": 41471934,
       "data": {
         "appinfo": {
           "common": {
@@ -1630,6 +1684,8 @@
             "osextended": "macos64,macosapplesilicon,macosnotarized",
             "oslist": "windows,macos,linux",
             "primary_genre": "37",
+            "review_percentage": "100",
+            "review_score": "7",
             "small_capsule": {
               "english": "9bd7562accdd4fdbc93d4239b32f5220bb1f7870/capsule_231x87.jpg"
             },
@@ -1703,10 +1759,10 @@
         "depots": {
           "branches": {
             "prerelease": {
-              "buildid": "26872468",
+              "buildid": "26923253",
               "description": "Dedicated branch for pre-release testing",
-              "timebuildupdated": 1795451695,
-              "timeupdated": 1795451716
+              "timebuildupdated": 1795617803,
+              "timeupdated": 1795617887
             },
             "public": {
               "buildid": "26872468",
@@ -1720,7 +1776,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "prerelease": "3366253389853920861",
+                "prerelease": "726409461874181741",
                 "public": "3366253389853920861"
               }
             },
@@ -1729,7 +1785,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "prerelease": "7039624632416571352",
+                "prerelease": "3569534075511458469",
                 "public": "7039624632416571352"
               }
             },
@@ -1738,18 +1794,18 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "prerelease": "6633421127747644372",
+                "prerelease": "373651365618212943",
                 "public": "6633421127747644372"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-25T08:54:19.228Z",
+      "observed_at": "2026-11-25T14:53:49.395Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-25T08:54:19.228Z"
+  "updated_at": "2026-11-25T14:53:49.395Z"
 }
