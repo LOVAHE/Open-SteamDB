@@ -1934,11 +1934,59 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T17:08:48.472Z",
+      "change_number": 41477288,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26736723",
+            "description": "A stable version of the 0.3.6 branch",
+            "timebuildupdated": 1794935430,
+            "timeupdated": 1795083544
+          },
+          "op": "add",
+          "path": "/depots/branches/0.3.6"
+        },
+        {
+          "after": {
+            "buildid": "26783526",
+            "description": "A stable version of the 0.3.7 branch",
+            "timebuildupdated": 1795088300,
+            "timeupdated": 1795626104
+          },
+          "op": "add",
+          "path": "/depots/branches/0.3.7"
+        },
+        {
+          "after": "5697189233140251297",
+          "op": "add",
+          "path": "/depots/depots/5119402/manifests/0.3.6"
+        },
+        {
+          "after": "7534688740486816748",
+          "op": "add",
+          "path": "/depots/depots/5119402/manifests/0.3.7"
+        },
+        {
+          "after": "7128509500681019938",
+          "op": "add",
+          "path": "/depots/depots/5119403/manifests/0.3.6"
+        },
+        {
+          "after": "500908273117372676",
+          "op": "add",
+          "path": "/depots/depots/5119403/manifests/0.3.7"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41443099,
+      "change_number": 41477288,
       "data": {
         "appinfo": {
           "common": {
@@ -2099,6 +2147,18 @@
         },
         "depots": {
           "branches": {
+            "0.3.6": {
+              "buildid": "26736723",
+              "description": "A stable version of the 0.3.6 branch",
+              "timebuildupdated": 1794935430,
+              "timeupdated": 1795083544
+            },
+            "0.3.7": {
+              "buildid": "26783526",
+              "description": "A stable version of the 0.3.7 branch",
+              "timebuildupdated": 1795088300,
+              "timeupdated": 1795626104
+            },
             "experimental": {
               "buildid": "26877709",
               "description": "This will be the first branch to receive updates but it also carries a risk of breaking saves so please back up your saves using the export option. YOU MAY NOT BE ABLE TO PORT YOUR SAVE BACK TO MAIN BRANCH. PLEASE BACKUP FIRST",
@@ -2129,6 +2189,8 @@
                 "oslist": "macos"
               },
               "manifests": {
+                "0.3.6": "5697189233140251297",
+                "0.3.7": "7534688740486816748",
                 "experimental": "4463477297766374206",
                 "public": "4463477297766374206"
               }
@@ -2139,6 +2201,8 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "0.3.6": "7128509500681019938",
+                "0.3.7": "500908273117372676",
                 "experimental": "5808485933100036690",
                 "public": "5808485933100036690"
               }
@@ -2146,11 +2210,11 @@
           }
         }
       },
-      "observed_at": "2026-11-24T22:08:50.821Z",
+      "observed_at": "2026-11-25T17:08:48.472Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T22:08:50.821Z"
+  "updated_at": "2026-11-25T17:08:48.472Z"
 }
