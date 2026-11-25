@@ -1022,11 +1022,48 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T13:08:44.017Z",
+      "change_number": 41467222,
+      "changes": [
+        {
+          "after": {
+            "path": "gold-miner-party-rush/cloud-mac/{64BitSteamID}",
+            "pattern": "*.json",
+            "platforms": {
+              "1": "MacOS"
+            },
+            "root": "MacAppSupport"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/1"
+        },
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/4815321/config"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/4815322"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41461853,
+      "change_number": 41467222,
       "data": {
         "appinfo": {
           "common": {
@@ -1257,6 +1294,14 @@
                   "1": "Windows"
                 },
                 "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "gold-miner-party-rush/cloud-mac/{64BitSteamID}",
+                "pattern": "*.json",
+                "platforms": {
+                  "1": "MacOS"
+                },
+                "root": "MacAppSupport"
               }
             }
           }
@@ -1279,9 +1324,18 @@
               "sharedinstall": true
             },
             "4815321": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
                 "public": "3768137606450914479"
               }
+            },
+            "4815322": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {}
             },
             "5219710": {
               "dlcappid": 5219710,
@@ -1292,11 +1346,11 @@
           }
         }
       },
-      "observed_at": "2026-11-25T11:38:51.485Z",
+      "observed_at": "2026-11-25T13:08:44.017Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-25T11:38:51.485Z"
+  "updated_at": "2026-11-25T13:08:44.017Z"
 }
