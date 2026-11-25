@@ -472,11 +472,65 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T10:09:19.480Z",
+      "change_number": 41458772,
+      "changes": [
+        {
+          "after": "5543710,5601290,5642920",
+          "before": "5543710,5601290",
+          "op": "replace",
+          "path": "/appinfo/extended/listofdlc"
+        },
+        {
+          "after": "26915444",
+          "before": "26663749",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795595878,
+          "before": 1794645080,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795596014,
+          "before": 1794645128,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8499355088604950353",
+          "before": "5197164542209397940",
+          "op": "replace",
+          "path": "/depots/depots/5402861/manifests/public"
+        },
+        {
+          "after": "1379567158645684894",
+          "before": "6463773258078315701",
+          "op": "replace",
+          "path": "/depots/depots/5543710/manifests/public"
+        },
+        {
+          "after": {
+            "dlcappid": 5642920,
+            "manifests": {
+              "public": "6193166319334358170"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5642920"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41419869,
+      "change_number": 41458772,
       "data": {
         "appinfo": {
           "common": {
@@ -623,7 +677,7 @@
           "extended": {
             "developer": "DNAXCAT CO., LTD.",
             "homepage": "https://www.dnaxcat.net/Meowbound_Legends/",
-            "listofdlc": "5543710,5601290",
+            "listofdlc": "5543710,5601290,5642920",
             "publisher": "DNAXCAT CO., LTD."
           },
           "ufs": {
@@ -655,21 +709,21 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26663749",
-              "timebuildupdated": 1794645080,
-              "timeupdated": 1794645128
+              "buildid": "26915444",
+              "timebuildupdated": 1795595878,
+              "timeupdated": 1795596014
             }
           },
           "depots": {
             "5402861": {
               "manifests": {
-                "public": "5197164542209397940"
+                "public": "8499355088604950353"
               }
             },
             "5543710": {
               "dlcappid": 5543710,
               "manifests": {
-                "public": "6463773258078315701"
+                "public": "1379567158645684894"
               }
             },
             "5601290": {
@@ -677,15 +731,21 @@
               "manifests": {
                 "public": "3999567614229052976"
               }
+            },
+            "5642920": {
+              "dlcappid": 5642920,
+              "manifests": {
+                "public": "6193166319334358170"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-24T10:38:49.745Z",
+      "observed_at": "2026-11-25T10:09:19.480Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T10:38:49.745Z"
+  "updated_at": "2026-11-25T10:09:19.480Z"
 }
