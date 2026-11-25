@@ -463,11 +463,55 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-25T16:08:45.994Z",
+      "change_number": 41474969,
+      "changes": [
+        {
+          "after": "10",
+          "before": "1",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "10000000",
+          "before": "1048576",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        },
+        {
+          "after": "26925030",
+          "before": "26752571",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795622235,
+          "before": 1794990555,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795622235,
+          "before": 1794991415,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5026723886813764331",
+          "before": "4352412594232708433",
+          "op": "replace",
+          "path": "/depots/depots/1025562/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41438261,
+      "change_number": 41474969,
       "data": {
         "appinfo": {
           "common": {
@@ -620,8 +664,8 @@
             "serverbrowsername": "fleamadness"
           },
           "ufs": {
-            "maxnumfiles": "1",
-            "quota": "1048576",
+            "maxnumfiles": "10",
+            "quota": "10000000",
             "savefiles": {
               "0": {
                 "path": "FleaMadness/Saved/Profiles/{64BitSteamID}",
@@ -634,9 +678,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26752571",
-              "timebuildupdated": 1794990555,
-              "timeupdated": 1794991415
+              "buildid": "26925030",
+              "timebuildupdated": 1795622235,
+              "timeupdated": 1795622235
             }
           },
           "depots": {
@@ -669,7 +713,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "4352412594232708433"
+                "public": "5026723886813764331"
               }
             },
             "1025563": {
@@ -683,11 +727,11 @@
           }
         }
       },
-      "observed_at": "2026-11-24T19:23:44.552Z",
+      "observed_at": "2026-11-25T16:08:45.994Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T19:23:44.552Z"
+  "updated_at": "2026-11-25T16:08:45.994Z"
 }
