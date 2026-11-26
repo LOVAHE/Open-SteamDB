@@ -157,11 +157,36 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T20:09:01.259Z",
+      "change_number": 41530862,
+      "changes": [
+        {
+          "after": "324176",
+          "before": "493",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/1"
+        },
+        {
+          "after": "21978",
+          "before": "324176",
+          "op": "replace",
+          "path": "/appinfo/common/store_tags/2"
+        },
+        {
+          "before": "21978",
+          "op": "remove",
+          "path": "/appinfo/common/store_tags/3"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41520956,
+      "change_number": 41530862,
       "data": {
         "appinfo": {
           "common": {
@@ -264,9 +289,8 @@
             "store_asset_mtime": "1795611215",
             "store_tags": {
               "0": "701",
-              "1": "493",
-              "2": "324176",
-              "3": "21978"
+              "1": "324176",
+              "2": "21978"
             },
             "supported_languages": {
               "english": {
@@ -305,11 +329,11 @@
           }
         }
       },
-      "observed_at": "2026-11-26T18:13:56.659Z",
+      "observed_at": "2026-11-26T20:09:01.259Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-26T18:13:56.659Z"
+  "updated_at": "2026-11-26T20:09:01.259Z"
 }

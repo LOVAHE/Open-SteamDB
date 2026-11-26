@@ -315,11 +315,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T20:09:01.259Z",
+      "change_number": 41530647,
+      "changes": [
+        {
+          "after": "macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41529979,
+      "change_number": 41530647,
       "data": {
         "appinfo": {
           "common": {
@@ -410,8 +430,8 @@
             },
             "name": "Quack Hunters Demo",
             "osarch": "",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "parent": "4252280",
             "primary_genre": "1",
             "review_percentage": "80",
@@ -514,11 +534,11 @@
           }
         }
       },
-      "observed_at": "2026-11-26T19:53:43.762Z",
+      "observed_at": "2026-11-26T20:09:01.259Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-26T19:53:43.762Z"
+  "updated_at": "2026-11-26T20:09:01.259Z"
 }
