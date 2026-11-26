@@ -206,11 +206,102 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T11:38:50.867Z",
+      "change_number": 41511374,
+      "changes": [
+        {
+          "after": "1795597934",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/brazilian"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/dutch"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/german"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/italian"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/polish"
+        },
+        {
+          "after": {
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/spanish"
+        },
+        {
+          "after": "26946039",
+          "before": "26578082",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795692180,
+          "before": 1794351511,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795692985,
+          "before": 1794351691,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "263810717248902243",
+          "before": "257592500997055097",
+          "op": "replace",
+          "path": "/depots/depots/1895831/manifests/public"
+        },
+        {
+          "after": "4163959139632703318",
+          "before": "8931365925365272271",
+          "op": "replace",
+          "path": "/depots/depots/1895832/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41501485,
+      "change_number": 41511374,
       "data": {
         "appinfo": {
           "common": {
@@ -323,6 +414,7 @@
               "english": "be13ca695f700dd36d3551c3dd39032379c2129a/capsule_231x87.jpg",
               "french": "be13ca695f700dd36d3551c3dd39032379c2129a/capsule_231x87_french.jpg"
             },
+            "steam_release_date": "1795597934",
             "store_asset_mtime": "1793970385",
             "store_tags": {
               "0": "699",
@@ -347,11 +439,35 @@
               "19": "492"
             },
             "supported_languages": {
+              "brazilian": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "dutch": {
+                "subtitles": "true",
+                "supported": "true"
+              },
               "english": {
                 "subtitles": "true",
                 "supported": "true"
               },
               "french": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "german": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "italian": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "polish": {
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "spanish": {
                 "subtitles": "true",
                 "supported": "true"
               }
@@ -370,9 +486,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26578082",
-              "timebuildupdated": 1794351511,
-              "timeupdated": 1794351691
+              "buildid": "26946039",
+              "timebuildupdated": 1795692180,
+              "timeupdated": 1795692985
             }
           },
           "depots": {
@@ -382,7 +498,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "257592500997055097"
+                "public": "263810717248902243"
               }
             },
             "1895832": {
@@ -390,17 +506,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "8931365925365272271"
+                "public": "4163959139632703318"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-26T09:23:49.982Z",
+      "observed_at": "2026-11-26T11:38:50.867Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-26T09:23:49.982Z"
+  "updated_at": "2026-11-26T11:38:50.867Z"
 }

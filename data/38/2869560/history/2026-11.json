@@ -360,11 +360,43 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T11:38:50.867Z",
+      "change_number": 41511080,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "1000",
+            "quota": "600000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "Windows",
+                "oscompare": "=",
+                "root": "gameinstall",
+                "useinstead": "gameinstall"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "SavesDir",
+                "pattern": "*.sav",
+                "root": "gameinstall"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41291138,
+      "change_number": 41511080,
       "data": {
         "appinfo": {
           "common": {
@@ -529,6 +561,26 @@
             "developer": "TomoToro",
             "homepage": "https://vk.com/tomotoro",
             "publisher": "TomoToro"
+          },
+          "ufs": {
+            "maxnumfiles": "1000",
+            "quota": "600000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "Windows",
+                "oscompare": "=",
+                "root": "gameinstall",
+                "useinstead": "gameinstall"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "SavesDir",
+                "pattern": "*.sav",
+                "root": "gameinstall"
+              }
+            }
           }
         },
         "depots": {
@@ -548,11 +600,11 @@
           }
         }
       },
-      "observed_at": "2026-11-20T06:38:37.697Z",
+      "observed_at": "2026-11-26T11:38:50.867Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T06:38:37.697Z"
+  "updated_at": "2026-11-26T11:38:50.867Z"
 }
