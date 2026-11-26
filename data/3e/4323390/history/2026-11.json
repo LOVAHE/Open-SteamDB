@@ -307,11 +307,41 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T16:23:45.812Z",
+      "change_number": 41521035,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "addpath": "",
+              "os": "Linux",
+              "oscompare": "=",
+              "root": "WinMyDocuments",
+              "useinstead": "LinuxXdgDataHome"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "after": {
+            "path": "Swept Under/saves/{64BitSteamID}",
+            "pattern": "*.json",
+            "root": "WinMyDocuments"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41515345,
+      "change_number": 41521035,
       "data": {
         "appinfo": {
           "common": {
@@ -553,6 +583,15 @@
           "ufs": {
             "maxnumfiles": "500",
             "quota": "104857600",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "Linux",
+                "oscompare": "=",
+                "root": "WinMyDocuments",
+                "useinstead": "LinuxXdgDataHome"
+              }
+            },
             "savefiles": {
               "0": {
                 "path": "Swept Under/EBWebView/Default/IndexedDB/https_app.localhost_0.indexeddb.leveldb",
@@ -565,6 +604,11 @@
                 "pattern": "*",
                 "recursive": "1",
                 "root": "WinAppDataLocal"
+              },
+              "2": {
+                "path": "Swept Under/saves/{64BitSteamID}",
+                "pattern": "*.json",
+                "root": "WinMyDocuments"
               }
             }
           }
@@ -605,11 +649,11 @@
           }
         }
       },
-      "observed_at": "2026-11-26T14:38:58.241Z",
+      "observed_at": "2026-11-26T16:23:45.812Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-26T14:38:58.241Z"
+  "updated_at": "2026-11-26T16:23:45.812Z"
 }

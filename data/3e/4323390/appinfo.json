@@ -1,8 +1,8 @@
 {
   "appid": 4323390,
   "source": "steam_pics",
-  "updated_at": "2026-11-26T14:38:58.241Z",
-  "change_number": 41515345,
+  "updated_at": "2026-11-26T16:23:45.812Z",
+  "change_number": 41521035,
   "data": {
     "common": {
       "associations": {
@@ -243,6 +243,15 @@
     "ufs": {
       "maxnumfiles": "500",
       "quota": "104857600",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "WinMyDocuments",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
       "savefiles": {
         "0": {
           "path": "Swept Under/EBWebView/Default/IndexedDB/https_app.localhost_0.indexeddb.leveldb",
@@ -255,6 +264,11 @@
           "pattern": "*",
           "recursive": "1",
           "root": "WinAppDataLocal"
+        },
+        "2": {
+          "path": "Swept Under/saves/{64BitSteamID}",
+          "pattern": "*.json",
+          "root": "WinMyDocuments"
         }
       }
     }
