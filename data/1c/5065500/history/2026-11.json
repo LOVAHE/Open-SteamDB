@@ -1097,11 +1097,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T16:53:52.429Z",
+      "change_number": 41522006,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26952236",
+            "description": "unstable beta branch",
+            "timebuildupdated": 1795709009,
+            "timeupdated": 1795711857
+          },
+          "op": "add",
+          "path": "/depots/branches/beta-branch"
+        },
+        {
+          "after": "2366306459971137895",
+          "op": "add",
+          "path": "/depots/depots/5065502/manifests/beta-branch"
+        },
+        {
+          "after": "3525715235713205918",
+          "op": "add",
+          "path": "/depots/depots/5065503/manifests/beta-branch"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41520383,
+      "change_number": 41522006,
       "data": {
         "appinfo": {
           "common": {
@@ -1291,6 +1319,12 @@
         },
         "depots": {
           "branches": {
+            "beta-branch": {
+              "buildid": "26952236",
+              "description": "unstable beta branch",
+              "timebuildupdated": 1795709009,
+              "timeupdated": 1795711857
+            },
             "develop": {
               "buildid": "26952236",
               "description": "Private testing branch",
@@ -1310,6 +1344,7 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "beta-branch": "2366306459971137895",
                 "develop": "2366306459971137895",
                 "public": "9128735404733646037"
               }
@@ -1320,6 +1355,7 @@
                 "oslist": "linux"
               },
               "manifests": {
+                "beta-branch": "3525715235713205918",
                 "develop": "3525715235713205918",
                 "public": "4432086315958131762"
               }
@@ -1327,11 +1363,11 @@
           }
         }
       },
-      "observed_at": "2026-11-26T16:08:59.331Z",
+      "observed_at": "2026-11-26T16:53:52.429Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-26T16:08:59.331Z"
+  "updated_at": "2026-11-26T16:53:52.429Z"
 }
