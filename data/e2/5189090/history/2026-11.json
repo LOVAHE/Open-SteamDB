@@ -595,11 +595,25 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T08:24:11.176Z",
+      "change_number": 41491651,
+      "changes": [
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41327644,
+      "change_number": 41491651,
       "data": {
         "appinfo": {
           "common": {
@@ -696,7 +710,7 @@
             "name": "Fork Bomb",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,linux",
             "primary_genre": "28",
             "review_percentage": "100",
             "review_score": "7",
@@ -800,7 +814,7 @@
           }
         }
       },
-      "observed_at": "2026-11-21T07:23:39.175Z",
+      "observed_at": "2026-11-26T08:24:11.176Z",
       "tracked": true
     },
     "steam_store": {
@@ -946,5 +960,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T07:23:39.175Z"
+  "updated_at": "2026-11-26T08:24:11.176Z"
 }
