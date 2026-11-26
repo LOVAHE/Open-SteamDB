@@ -249,11 +249,70 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T09:23:49.982Z",
+      "change_number": 41499040,
+      "changes": [
+        {
+          "after": "https://steamcommunity.com/app/5293350",
+          "op": "add",
+          "path": "/appinfo/extended/homepage"
+        },
+        {
+          "after": {
+            "0": {
+              "addpath": "",
+              "os": "MacOS",
+              "oscompare": "=",
+              "root": "WinAppDataRoaming",
+              "useinstead": "MacAppSupport"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "after": {
+            "path": "Hockey Coach Dynasty/saves",
+            "pattern": "coach-profile.json",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        },
+        {
+          "after": "26940371",
+          "before": "26751900",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795673356,
+          "before": 1794987963,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795674112,
+          "before": 1794995640,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6768266694426987445",
+          "before": "5407682062340397054",
+          "op": "replace",
+          "path": "/depots/depots/5293351/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41217905,
+      "change_number": 41499040,
       "data": {
         "appinfo": {
           "common": {
@@ -415,11 +474,21 @@
           },
           "extended": {
             "developer": "Chuck Chestnuts",
+            "homepage": "https://steamcommunity.com/app/5293350",
             "publisher": "Chuck Chestnuts"
           },
           "ufs": {
             "maxnumfiles": "200",
             "quota": "200000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
             "savefiles": {
               "0": {
                 "path": "Hockey Coach Dynasty/saves",
@@ -436,6 +505,11 @@
                   "1": "Windows"
                 },
                 "root": "WinAppDataRoaming"
+              },
+              "2": {
+                "path": "Hockey Coach Dynasty/saves",
+                "pattern": "coach-profile.json",
+                "root": "WinAppDataRoaming"
               }
             }
           }
@@ -443,25 +517,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26751900",
-              "timebuildupdated": 1794987963,
-              "timeupdated": 1794995640
+              "buildid": "26940371",
+              "timebuildupdated": 1795673356,
+              "timeupdated": 1795674112
             }
           },
           "depots": {
             "5293351": {
               "manifests": {
-                "public": "5407682062340397054"
+                "public": "6768266694426987445"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-18T11:23:29.664Z",
+      "observed_at": "2026-11-26T09:23:49.982Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T11:23:29.664Z"
+  "updated_at": "2026-11-26T09:23:49.982Z"
 }

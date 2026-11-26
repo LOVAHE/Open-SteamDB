@@ -1219,11 +1219,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T09:23:49.982Z",
+      "change_number": 41501084,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41500997,
+      "change_number": 41501084,
       "data": {
         "appinfo": {
           "common": {
@@ -1358,8 +1378,8 @@
               "tchinese": "黃金礦工：派對狂歡"
             },
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos",
             "primary_genre": "4",
             "review_percentage": "87",
             "review_score": "8",
@@ -1508,11 +1528,11 @@
           }
         }
       },
-      "observed_at": "2026-11-26T07:39:14.531Z",
+      "observed_at": "2026-11-26T09:23:49.982Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-26T07:39:14.531Z"
+  "updated_at": "2026-11-26T09:23:49.982Z"
 }
