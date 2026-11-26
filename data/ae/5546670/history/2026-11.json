@@ -211,11 +211,73 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T11:23:48.725Z",
+      "change_number": 41498430,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "1795396332",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "26937512",
+          "before": "26722515",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795661425,
+          "before": 1794891568,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795662018,
+          "before": 1794892019,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/5546671/config"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "6312659584576022274"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5546672"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41371057,
+      "change_number": 41498430,
       "data": {
         "appinfo": {
           "common": {
@@ -318,12 +380,13 @@
               "tchinese": "堆疊興邦"
             },
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "primary_genre": "2",
             "small_capsule": {
               "english": "c4a9e76f26a46ca29cd0ade78f0b6c6dcff8b117/capsule_231x87.jpg"
             },
+            "steam_release_date": "1795396332",
             "store_asset_mtime": "1793608620",
             "store_tags": {
               "0": "16689",
@@ -399,25 +462,36 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26722515",
-              "timebuildupdated": 1794891568,
-              "timeupdated": 1794892019
+              "buildid": "26937512",
+              "timebuildupdated": 1795661425,
+              "timeupdated": 1795662018
             }
           },
           "depots": {
             "5546671": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
                 "public": "8013628614538829277"
+              }
+            },
+            "5546672": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "6312659584576022274"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-23T03:38:34.727Z",
+      "observed_at": "2026-11-26T11:23:48.725Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-23T03:38:34.727Z"
+  "updated_at": "2026-11-26T11:23:48.725Z"
 }

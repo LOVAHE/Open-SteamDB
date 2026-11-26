@@ -224,11 +224,69 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T11:23:48.725Z",
+      "change_number": 41497689,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/community_visible_stats"
+        },
+        {
+          "after": {
+            "brazilian": "1",
+            "english": "1",
+            "french": "1",
+            "german": "1",
+            "japanese": "1",
+            "koreana": "1",
+            "russian": "1",
+            "schinese": "1",
+            "spanish": "1",
+            "tchinese": "1"
+          },
+          "op": "add",
+          "path": "/appinfo/common/languages"
+        },
+        {
+          "after": "1795143583",
+          "op": "add",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": "26939852",
+          "before": "26803479",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795670895,
+          "before": 1795150559,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795670958,
+          "before": 1795150623,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1461203416598268926",
+          "before": "7088522664786678928",
+          "op": "replace",
+          "path": "/depots/depots/5526131/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41372378,
+      "change_number": 41497689,
       "data": {
         "appinfo": {
           "common": {
@@ -248,6 +306,7 @@
             },
             "clienticon": "b41a156b3558dcaa6420f996589684582e486e27",
             "community_hub_visible": "1",
+            "community_visible_stats": "1",
             "genres": {
               "0": "23",
               "1": "28",
@@ -257,6 +316,18 @@
               "english": "d45792caf32c2aa0b1fe6160f9bc7a66cf177c96/header.jpg"
             },
             "icon": "b41a156b3558dcaa6420f996589684582e486e27",
+            "languages": {
+              "brazilian": "1",
+              "english": "1",
+              "french": "1",
+              "german": "1",
+              "japanese": "1",
+              "koreana": "1",
+              "russian": "1",
+              "schinese": "1",
+              "spanish": "1",
+              "tchinese": "1"
+            },
             "library_assets": {
               "library_capsule": "en",
               "library_header": "en",
@@ -321,6 +392,7 @@
             "small_capsule": {
               "english": "45018251242fb28bee727ee307ef73d20f84443a/capsule_231x87.jpg"
             },
+            "steam_release_date": "1795143583",
             "store_asset_mtime": "1793244693",
             "store_tags": {
               "0": "599",
@@ -410,15 +482,15 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26803479",
-              "timebuildupdated": 1795150559,
-              "timeupdated": 1795150623
+              "buildid": "26939852",
+              "timebuildupdated": 1795670895,
+              "timeupdated": 1795670958
             }
           },
           "depots": {
             "5526131": {
               "manifests": {
-                "public": "7088522664786678928"
+                "public": "1461203416598268926"
               }
             },
             "5526132": {
@@ -427,11 +499,11 @@
           }
         }
       },
-      "observed_at": "2026-11-23T03:38:34.727Z",
+      "observed_at": "2026-11-26T11:23:48.725Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-23T03:38:34.727Z"
+  "updated_at": "2026-11-26T11:23:48.725Z"
 }

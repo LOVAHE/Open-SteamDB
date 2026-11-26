@@ -1099,11 +1099,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T11:23:48.725Z",
+      "change_number": 41510458,
+      "changes": [
+        {
+          "before": {
+            "buildid": "17629573",
+            "description": "测试",
+            "timebuildupdated": 1741318321,
+            "timeupdated": 1741320284
+          },
+          "op": "remove",
+          "path": "/depots/branches/alpha"
+        },
+        {
+          "before": "7450627109469895918",
+          "op": "remove",
+          "path": "/depots/depots/3540611/manifests/alpha"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41486076,
+      "change_number": 41510458,
       "data": {
         "appinfo": {
           "common": {
@@ -1430,12 +1453,6 @@
         },
         "depots": {
           "branches": {
-            "alpha": {
-              "buildid": "17629573",
-              "description": "测试",
-              "timebuildupdated": 1741318321,
-              "timeupdated": 1741320284
-            },
             "public": {
               "buildid": "26863072",
               "timebuildupdated": 1795422519,
@@ -1464,18 +1481,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "alpha": "7450627109469895918",
                 "public": "6362039160705474955"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-25T21:24:03.457Z",
+      "observed_at": "2026-11-26T11:23:48.725Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-25T21:24:03.457Z"
+  "updated_at": "2026-11-26T11:23:48.725Z"
 }
