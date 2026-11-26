@@ -625,11 +625,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T19:53:43.762Z",
+      "change_number": 41530206,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "10",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "Old Money/cloud",
+                "pattern": "slot?.json",
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41317147,
+      "change_number": 41530206,
       "data": {
         "appinfo": {
           "common": {
@@ -791,6 +814,17 @@
             "developer": "DeltaGames",
             "homepage": "https://delta-games.de/old-money.html",
             "publisher": "DeltaGames"
+          },
+          "ufs": {
+            "maxnumfiles": "10",
+            "quota": "10000000",
+            "savefiles": {
+              "0": {
+                "path": "Old Money/cloud",
+                "pattern": "slot?.json",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -810,11 +844,11 @@
           }
         }
       },
-      "observed_at": "2026-11-20T21:38:42.911Z",
+      "observed_at": "2026-11-26T19:53:43.762Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T21:38:42.911Z"
+  "updated_at": "2026-11-26T19:53:43.762Z"
 }
