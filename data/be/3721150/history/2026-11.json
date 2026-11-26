@@ -309,11 +309,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T16:39:03.375Z",
+      "change_number": 41521457,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26952854",
+            "description": "Sudoku Defense 0.3.30 settings beta for Steam Deck",
+            "timebuildupdated": 1795710728,
+            "timeupdated": 1795710867
+          },
+          "op": "add",
+          "path": "/depots/branches/deck-settings"
+        },
+        {
+          "after": "6802959071375120195",
+          "op": "add",
+          "path": "/depots/depots/3721151/manifests/deck-settings"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41316312,
+      "change_number": 41521457,
       "data": {
         "appinfo": {
           "common": {
@@ -498,6 +521,12 @@
         },
         "depots": {
           "branches": {
+            "deck-settings": {
+              "buildid": "26952854",
+              "description": "Sudoku Defense 0.3.30 settings beta for Steam Deck",
+              "timebuildupdated": 1795710728,
+              "timeupdated": 1795710867
+            },
             "public": {
               "buildid": "26821063",
               "timebuildupdated": 1795206241,
@@ -507,17 +536,18 @@
           "depots": {
             "3721151": {
               "manifests": {
+                "deck-settings": "6802959071375120195",
                 "public": "3721933458667198906"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-20T21:08:47.149Z",
+      "observed_at": "2026-11-26T16:39:03.375Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T21:08:47.149Z"
+  "updated_at": "2026-11-26T16:39:03.375Z"
 }
