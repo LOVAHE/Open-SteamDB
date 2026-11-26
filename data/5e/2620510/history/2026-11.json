@@ -530,11 +530,53 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T10:38:56.379Z",
+      "change_number": 41506237,
+      "changes": [
+        {
+          "after": "94",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "8",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "26943821",
+          "before": "26537608",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795686038,
+          "before": 1794221430,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795686122,
+          "before": 1794221735,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8449020623881054628",
+          "before": "1631210183282691469",
+          "op": "replace",
+          "path": "/depots/depots/2620511/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41444896,
+      "change_number": 41506237,
       "data": {
         "appinfo": {
           "common": {
@@ -641,6 +683,8 @@
             "oslist": "windows",
             "parent": "2483660",
             "primary_genre": "2",
+            "review_percentage": "94",
+            "review_score": "8",
             "small_capsule": {
               "english": "9d3a49114b422bb4910e12bee7eb3caf296bb371/capsule_231x87.jpg",
               "schinese": "ead3c6eff0beb5994eb79b796702806b83164074/capsule_231x87_schinese.jpg",
@@ -691,25 +735,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26537608",
-              "timebuildupdated": 1794221430,
-              "timeupdated": 1794221735
+              "buildid": "26943821",
+              "timebuildupdated": 1795686038,
+              "timeupdated": 1795686122
             }
           },
           "depots": {
             "2620511": {
               "manifests": {
-                "public": "1631210183282691469"
+                "public": "8449020623881054628"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-25T05:23:51.703Z",
+      "observed_at": "2026-11-26T10:38:56.379Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-25T05:23:51.703Z"
+  "updated_at": "2026-11-26T10:38:56.379Z"
 }
