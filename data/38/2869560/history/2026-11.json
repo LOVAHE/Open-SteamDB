@@ -392,11 +392,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T12:23:56.278Z",
+      "change_number": 41513045,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "before": {
+            "0": {
+              "addpath": "",
+              "os": "Windows",
+              "oscompare": "=",
+              "root": "gameinstall",
+              "useinstead": "gameinstall"
+            }
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/rootoverrides"
+        },
+        {
+          "after": "RenPy/Amnea28R-28R",
+          "before": "SavesDir",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/path"
+        },
+        {
+          "after": "WinAppDataRoaming",
+          "before": "gameinstall",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/root"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41511080,
+      "change_number": 41513045,
       "data": {
         "appinfo": {
           "common": {
@@ -417,6 +455,7 @@
             "category": {
               "category_2": "1",
               "category_22": "1",
+              "category_23": "1",
               "category_62": "1",
               "category_68": "1",
               "category_74": "1",
@@ -565,20 +604,11 @@
           "ufs": {
             "maxnumfiles": "1000",
             "quota": "600000000",
-            "rootoverrides": {
-              "0": {
-                "addpath": "",
-                "os": "Windows",
-                "oscompare": "=",
-                "root": "gameinstall",
-                "useinstead": "gameinstall"
-              }
-            },
             "savefiles": {
               "0": {
-                "path": "SavesDir",
+                "path": "RenPy/Amnea28R-28R",
                 "pattern": "*.sav",
-                "root": "gameinstall"
+                "root": "WinAppDataRoaming"
               }
             }
           }
@@ -600,11 +630,11 @@
           }
         }
       },
-      "observed_at": "2026-11-26T11:38:50.867Z",
+      "observed_at": "2026-11-26T12:23:56.278Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-26T11:38:50.867Z"
+  "updated_at": "2026-11-26T12:23:56.278Z"
 }

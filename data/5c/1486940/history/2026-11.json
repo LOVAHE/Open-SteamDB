@@ -438,11 +438,89 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T12:23:56.278Z",
+      "change_number": 41512764,
+      "changes": [
+        {
+          "after": "26689010",
+          "before": "26091535",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1794779339,
+          "before": 1792534411,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795695147,
+          "before": 1792535104,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "buildid": "26102283",
+            "description": "Game Version",
+            "timebuildupdated": 1792574484,
+            "timeupdated": 1795695330
+          },
+          "op": "add",
+          "path": "/depots/branches/v37.22"
+        },
+        {
+          "after": {
+            "buildid": "26689010",
+            "description": "Game Version",
+            "timebuildupdated": 1794779339,
+            "timeupdated": 1795695147
+          },
+          "op": "add",
+          "path": "/depots/branches/v37.23"
+        },
+        {
+          "after": "2024421559236102832",
+          "before": "3972091879268579448",
+          "op": "replace",
+          "path": "/depots/depots/1486948/manifests/public"
+        },
+        {
+          "after": "6366935551668467732",
+          "op": "add",
+          "path": "/depots/depots/1486948/manifests/v37.22"
+        },
+        {
+          "after": "2024421559236102832",
+          "op": "add",
+          "path": "/depots/depots/1486948/manifests/v37.23"
+        },
+        {
+          "after": "8893445426682229637",
+          "before": "9202723587533177665",
+          "op": "replace",
+          "path": "/depots/depots/1486949/manifests/public"
+        },
+        {
+          "after": "6074230740489324965",
+          "op": "add",
+          "path": "/depots/depots/1486949/manifests/v37.22"
+        },
+        {
+          "after": "8893445426682229637",
+          "op": "add",
+          "path": "/depots/depots/1486949/manifests/v37.23"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41486028,
+      "change_number": 41512764,
       "data": {
         "appinfo": {
           "common": {
@@ -683,9 +761,21 @@
               "timeupdated": 1794781898
             },
             "public": {
-              "buildid": "26091535",
-              "timebuildupdated": 1792534411,
-              "timeupdated": 1792535104
+              "buildid": "26689010",
+              "timebuildupdated": 1794779339,
+              "timeupdated": 1795695147
+            },
+            "v37.22": {
+              "buildid": "26102283",
+              "description": "Game Version",
+              "timebuildupdated": 1792574484,
+              "timeupdated": 1795695330
+            },
+            "v37.23": {
+              "buildid": "26689010",
+              "description": "Game Version",
+              "timebuildupdated": 1794779339,
+              "timeupdated": 1795695147
             }
           },
           "depots": {
@@ -702,7 +792,9 @@
               },
               "manifests": {
                 "pre-release": "2024421559236102832",
-                "public": "3972091879268579448"
+                "public": "2024421559236102832",
+                "v37.22": "6366935551668467732",
+                "v37.23": "2024421559236102832"
               }
             },
             "1486949": {
@@ -711,17 +803,19 @@
               },
               "manifests": {
                 "pre-release": "8893445426682229637",
-                "public": "9202723587533177665"
+                "public": "8893445426682229637",
+                "v37.22": "6074230740489324965",
+                "v37.23": "8893445426682229637"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-25T21:24:03.457Z",
+      "observed_at": "2026-11-26T12:23:56.278Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-25T21:24:03.457Z"
+  "updated_at": "2026-11-26T12:23:56.278Z"
 }
