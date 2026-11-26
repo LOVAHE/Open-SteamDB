@@ -244,11 +244,56 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T18:39:01.373Z",
+      "change_number": 41527337,
+      "changes": [
+        {
+          "before": {
+            "config": {
+              "osarch": "64",
+              "oslist": "windows"
+            },
+            "manifests": {
+              "public": "2067781239913220728"
+            }
+          },
+          "op": "remove",
+          "path": "/depots/depots/5658251"
+        },
+        {
+          "before": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "2353414542395443251"
+            }
+          },
+          "op": "remove",
+          "path": "/depots/depots/5658252"
+        },
+        {
+          "before": {
+            "config": {
+              "oslist": "linux"
+            },
+            "manifests": {
+              "public": "7885316183274954027"
+            }
+          },
+          "op": "remove",
+          "path": "/depots/depots/5658253"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41527297,
+      "change_number": 41527337,
       "data": {
         "appinfo": {
           "common": {
@@ -377,31 +422,6 @@
             }
           },
           "depots": {
-            "5658251": {
-              "config": {
-                "osarch": "64",
-                "oslist": "windows"
-              },
-              "manifests": {
-                "public": "2067781239913220728"
-              }
-            },
-            "5658252": {
-              "config": {
-                "oslist": "macos"
-              },
-              "manifests": {
-                "public": "2353414542395443251"
-              }
-            },
-            "5658253": {
-              "config": {
-                "oslist": "linux"
-              },
-              "manifests": {
-                "public": "7885316183274954027"
-              }
-            },
             "5658254": {
               "config": {
                 "oslist": "windows"
@@ -429,11 +449,11 @@
           }
         }
       },
-      "observed_at": "2026-11-26T18:24:50.261Z",
+      "observed_at": "2026-11-26T18:39:01.373Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-26T18:24:50.261Z"
+  "updated_at": "2026-11-26T18:39:01.373Z"
 }
