@@ -205,11 +205,38 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T13:09:24.242Z",
+      "change_number": 41514185,
+      "changes": [
+        {
+          "after": {
+            "osarch": "64",
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/4605411/config"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "linux"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/4605412"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41306090,
+      "change_number": 41514185,
       "data": {
         "appinfo": {
           "common": {
@@ -394,18 +421,29 @@
               "sharedinstall": true
             },
             "4605411": {
+              "config": {
+                "osarch": "64",
+                "oslist": "windows"
+              },
               "manifests": {
                 "public": "3286219081918203349"
               }
+            },
+            "4605412": {
+              "config": {
+                "osarch": "64",
+                "oslist": "linux"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-20T15:38:50.208Z",
+      "observed_at": "2026-11-26T13:09:24.242Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-20T15:38:50.208Z"
+  "updated_at": "2026-11-26T13:09:24.242Z"
 }
