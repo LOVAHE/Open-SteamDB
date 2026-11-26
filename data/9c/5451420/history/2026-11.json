@@ -606,11 +606,85 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T20:24:06.827Z",
+      "change_number": 41530995,
+      "changes": [
+        {
+          "after": {
+            "full_audio": "true",
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/english"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/japanese"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/tchinese"
+        },
+        {
+          "after": "26956413",
+          "before": "26914156",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795721566,
+          "before": 1795590907,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795723903,
+          "before": 1795591013,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "892008995143296906",
+          "before": "8118700338418939926",
+          "op": "replace",
+          "path": "/depots/depots/5451421/manifests/public"
+        },
+        {
+          "after": "2536790056953203717",
+          "before": "7575294910659183158",
+          "op": "replace",
+          "path": "/depots/depots/5451422/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41528231,
+      "change_number": 41530995,
       "data": {
         "appinfo": {
           "common": {
@@ -736,7 +810,27 @@
               "19": "4175"
             },
             "supported_languages": {
+              "english": {
+                "full_audio": "true",
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "japanese": {
+                "full_audio": "true",
+                "subtitles": "true",
+                "supported": "true"
+              },
               "koreana": {
+                "full_audio": "true",
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "schinese": {
+                "full_audio": "true",
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "tchinese": {
                 "full_audio": "true",
                 "subtitles": "true",
                 "supported": "true"
@@ -757,9 +851,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26914156",
-              "timebuildupdated": 1795590907,
-              "timeupdated": 1795591013
+              "buildid": "26956413",
+              "timebuildupdated": 1795721566,
+              "timeupdated": 1795723903
             }
           },
           "depots": {
@@ -776,7 +870,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "8118700338418939926"
+                "public": "892008995143296906"
               }
             },
             "5451422": {
@@ -784,17 +878,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "7575294910659183158"
+                "public": "2536790056953203717"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-26T19:08:42.829Z",
+      "observed_at": "2026-11-26T20:24:06.827Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-26T19:08:42.829Z"
+  "updated_at": "2026-11-26T20:24:06.827Z"
 }

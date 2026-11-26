@@ -886,11 +886,31 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T20:24:06.827Z",
+      "change_number": 41531314,
+      "changes": [
+        {
+          "after": {
+            "0": {
+              "path": "saves/modded",
+              "pattern": "*.sav",
+              "recursive": "1",
+              "root": "gameinstall"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41530541,
+      "change_number": 41531314,
       "data": {
         "appinfo": {
           "common": {
@@ -1064,7 +1084,15 @@
           },
           "ufs": {
             "maxnumfiles": "512",
-            "quota": "536870912"
+            "quota": "536870912",
+            "savefiles": {
+              "0": {
+                "path": "saves/modded",
+                "pattern": "*.sav",
+                "recursive": "1",
+                "root": "gameinstall"
+              }
+            }
           }
         },
         "depots": {
@@ -1106,11 +1134,11 @@
           }
         }
       },
-      "observed_at": "2026-11-26T20:09:01.259Z",
+      "observed_at": "2026-11-26T20:24:06.827Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-26T20:09:01.259Z"
+  "updated_at": "2026-11-26T20:24:06.827Z"
 }
