@@ -1459,11 +1459,50 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T09:39:17.871Z",
+      "change_number": 41504140,
+      "changes": [
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        },
+        {
+          "after": "26941433",
+          "before": "26831186",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795678043,
+          "before": 1795254544,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795683646,
+          "before": 1795263577,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3120109112384770422",
+          "before": "2687908583689884255",
+          "op": "replace",
+          "path": "/depots/depots/4968641/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41500758,
+      "change_number": 41504140,
       "data": {
         "appinfo": {
           "common": {
@@ -1710,6 +1749,9 @@
               "koreana": {
                 "supported": "true"
               },
+              "russian": {
+                "supported": "true"
+              },
               "schinese": {
                 "supported": "true"
               },
@@ -1755,9 +1797,9 @@
               "timeupdated": 1794300963
             },
             "public": {
-              "buildid": "26831186",
-              "timebuildupdated": 1795254544,
-              "timeupdated": 1795263577
+              "buildid": "26941433",
+              "timebuildupdated": 1795678043,
+              "timeupdated": 1795683646
             }
           },
           "depots": {
@@ -1780,17 +1822,17 @@
             "4968641": {
               "manifests": {
                 "experimental": "2809046750020318159",
-                "public": "2687908583689884255"
+                "public": "3120109112384770422"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-26T08:24:11.176Z",
+      "observed_at": "2026-11-26T09:39:17.871Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-26T08:24:11.176Z"
+  "updated_at": "2026-11-26T09:39:17.871Z"
 }

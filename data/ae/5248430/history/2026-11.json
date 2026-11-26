@@ -432,11 +432,73 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T09:39:17.871Z",
+      "change_number": 41504155,
+      "changes": [
+        {
+          "after": "26942887",
+          "before": "26941938",
+          "op": "replace",
+          "path": "/depots/branches/mac-test/buildid"
+        },
+        {
+          "after": 1795683343,
+          "before": 1795680016,
+          "op": "replace",
+          "path": "/depots/branches/mac-test/timebuildupdated"
+        },
+        {
+          "after": 1795683343,
+          "before": 1795680016,
+          "op": "replace",
+          "path": "/depots/branches/mac-test/timeupdated"
+        },
+        {
+          "after": "26942887",
+          "before": "26453497",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795683343,
+          "before": 1793868375,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795683660,
+          "before": 1793868851,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3802233499784225000",
+          "before": "733040668297446347",
+          "op": "replace",
+          "path": "/depots/depots/5248431/manifests/public"
+        },
+        {
+          "after": "1364229838283933300",
+          "before": "1163853536135307414",
+          "op": "replace",
+          "path": "/depots/depots/5248432/manifests/mac-test"
+        },
+        {
+          "after": "1364229838283933300",
+          "before": "1163853536135307414",
+          "op": "replace",
+          "path": "/depots/depots/5248432/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41501541,
+      "change_number": 41504155,
       "data": {
         "appinfo": {
           "common": {
@@ -613,15 +675,15 @@
         "depots": {
           "branches": {
             "mac-test": {
-              "buildid": "26941938",
+              "buildid": "26942887",
               "description": "Mac test branch",
-              "timebuildupdated": 1795680016,
-              "timeupdated": 1795680016
+              "timebuildupdated": 1795683343,
+              "timeupdated": 1795683343
             },
             "public": {
-              "buildid": "26453497",
-              "timebuildupdated": 1793868375,
-              "timeupdated": 1793868851
+              "buildid": "26942887",
+              "timebuildupdated": 1795683343,
+              "timeupdated": 1795683660
             }
           },
           "depots": {
@@ -647,7 +709,7 @@
               },
               "manifests": {
                 "mac-test": "3802233499784225000",
-                "public": "733040668297446347"
+                "public": "3802233499784225000"
               }
             },
             "5248432": {
@@ -655,18 +717,18 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "mac-test": "1163853536135307414",
-                "public": "1163853536135307414"
+                "mac-test": "1364229838283933300",
+                "public": "1364229838283933300"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-26T08:24:11.176Z",
+      "observed_at": "2026-11-26T09:39:17.871Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-26T08:24:11.176Z"
+  "updated_at": "2026-11-26T09:39:17.871Z"
 }

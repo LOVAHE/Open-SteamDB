@@ -825,11 +825,75 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T09:39:17.871Z",
+      "change_number": 41505819,
+      "changes": [
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26940009",
+          "before": "25796022",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795671564,
+          "before": 1791436922,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795683715,
+          "before": 1791437333,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8877407783734759598",
+          "before": "5819048000483348193",
+          "op": "replace",
+          "path": "/depots/depots/4080861/manifests/public"
+        },
+        {
+          "after": "8376291434611569955",
+          "op": "add",
+          "path": "/depots/depots/4080862/manifests/public"
+        },
+        {
+          "after": "2387307135916887424",
+          "before": "6651212888566090237",
+          "op": "replace",
+          "path": "/depots/depots/4978650/manifests/public"
+        },
+        {
+          "after": "6415452130884380656",
+          "op": "add",
+          "path": "/depots/depots/4978651/manifests/public"
+        },
+        {
+          "after": "1085619524443432559",
+          "op": "add",
+          "path": "/depots/depots/5071060/manifests/public"
+        },
+        {
+          "after": "1562025828063310562",
+          "op": "add",
+          "path": "/depots/depots/5071061/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41498007,
+      "change_number": 41505819,
       "data": {
         "appinfo": {
           "common": {
@@ -926,7 +990,7 @@
             },
             "osarch": "",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,macos",
             "primary_genre": "25",
             "small_capsule": {
               "english": "951371935bdcc0f68783b5dbcff8c007402e609d/capsule_231x87.jpg"
@@ -989,9 +1053,9 @@
               "timeupdated": 1795671903
             },
             "public": {
-              "buildid": "25796022",
-              "timebuildupdated": 1791436922,
-              "timeupdated": 1791437333
+              "buildid": "26940009",
+              "timebuildupdated": 1795671564,
+              "timeupdated": 1795683715
             }
           },
           "depots": {
@@ -1001,7 +1065,7 @@
               },
               "manifests": {
                 "prototype-multiplayer": "8877407783734759598",
-                "public": "5819048000483348193"
+                "public": "8877407783734759598"
               }
             },
             "4080862": {
@@ -1009,7 +1073,8 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "prototype-multiplayer": "8376291434611569955"
+                "prototype-multiplayer": "8376291434611569955",
+                "public": "8376291434611569955"
               }
             },
             "4978650": {
@@ -1019,7 +1084,7 @@
               "dlcappid": 4978650,
               "manifests": {
                 "prototype-multiplayer": "2387307135916887424",
-                "public": "6651212888566090237"
+                "public": "2387307135916887424"
               }
             },
             "4978651": {
@@ -1028,7 +1093,8 @@
               },
               "dlcappid": 4978650,
               "manifests": {
-                "prototype-multiplayer": "6415452130884380656"
+                "prototype-multiplayer": "6415452130884380656",
+                "public": "6415452130884380656"
               }
             },
             "5071060": {
@@ -1037,7 +1103,8 @@
               },
               "dlcappid": 5071060,
               "manifests": {
-                "prototype-multiplayer": "1085619524443432559"
+                "prototype-multiplayer": "1085619524443432559",
+                "public": "1085619524443432559"
               }
             },
             "5071061": {
@@ -1046,17 +1113,18 @@
               },
               "dlcappid": 5071060,
               "manifests": {
-                "prototype-multiplayer": "1562025828063310562"
+                "prototype-multiplayer": "1562025828063310562",
+                "public": "1562025828063310562"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-26T07:08:47.600Z",
+      "observed_at": "2026-11-26T09:39:17.871Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-26T07:08:47.600Z"
+  "updated_at": "2026-11-26T09:39:17.871Z"
 }
