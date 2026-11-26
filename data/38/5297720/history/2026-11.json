@@ -1555,11 +1555,41 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T20:38:51.356Z",
+      "change_number": 41531722,
+      "changes": [
+        {
+          "after": {
+            "addpath": "",
+            "os": "MacOS",
+            "oscompare": "=",
+            "root": "WinAppDataRoaming",
+            "useinstead": "MacAppSupport"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides/1"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "macos"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5297723"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41341571,
+      "change_number": 41531722,
       "data": {
         "appinfo": {
           "common": {
@@ -1713,6 +1743,13 @@
                 "oscompare": "=",
                 "root": "WinAppDataRoaming",
                 "useinstead": "LinuxXdgDataHome"
+              },
+              "1": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
               }
             },
             "savefiles": {
@@ -1763,15 +1800,22 @@
                 "open_beta": "932589992164005951",
                 "public": "932589992164005951"
               }
+            },
+            "5297723": {
+              "config": {
+                "osarch": "64",
+                "oslist": "macos"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-21T19:53:45.216Z",
+      "observed_at": "2026-11-26T20:38:51.356Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-21T19:53:45.216Z"
+  "updated_at": "2026-11-26T20:38:51.356Z"
 }
