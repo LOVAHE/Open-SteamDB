@@ -1,8 +1,8 @@
 {
   "appid": 5349740,
   "source": "steam_pics",
-  "updated_at": "2026-11-24T22:53:50.165Z",
-  "change_number": 41444510,
+  "updated_at": "2026-11-26T09:54:02.582Z",
+  "change_number": 41503824,
   "data": {
     "common": {
       "associations": {
@@ -121,8 +121,8 @@
       },
       "name": "Hellwake",
       "osarch": "64",
-      "osextended": "",
-      "oslist": "windows",
+      "osextended": "macos64,macosapplesilicon",
+      "oslist": "windows,macos,linux",
       "primary_genre": "3",
       "small_capsule": {
         "english": "e0aba9d43a2862d8c406a38f26db14114de95ebd/capsule_231x87.jpg"
@@ -228,6 +228,24 @@
           },
           "recursive": "1",
           "root": "WinAppDataRoaming"
+        },
+        "1": {
+          "path": "godot/app_userdata/Hellwake/saves",
+          "pattern": "*",
+          "platforms": {
+            "1": "Linux"
+          },
+          "recursive": "1",
+          "root": "LinuxXdgDataHome"
+        },
+        "2": {
+          "path": "Godot/app_userdata/Hellwake/saves",
+          "pattern": "*",
+          "platforms": {
+            "1": "MacOS"
+          },
+          "recursive": "1",
+          "root": "MacAppSupport"
         }
       }
     }

@@ -293,11 +293,105 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T09:54:02.582Z",
+      "change_number": 41503824,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "path": "godot/app_userdata/Hellwake/saves",
+            "pattern": "*",
+            "platforms": {
+              "1": "Linux"
+            },
+            "recursive": "1",
+            "root": "LinuxXdgDataHome"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/1"
+        },
+        {
+          "after": {
+            "path": "Godot/app_userdata/Hellwake/saves",
+            "pattern": "*",
+            "platforms": {
+              "1": "MacOS"
+            },
+            "recursive": "1",
+            "root": "MacAppSupport"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        },
+        {
+          "after": "26942255",
+          "before": "26905759",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795681091,
+          "before": 1795558509,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795683258,
+          "before": 1795560510,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "5101655935835647106",
+          "before": "8085962797568560514",
+          "op": "replace",
+          "path": "/depots/depots/5349741/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "linux"
+            },
+            "manifests": {
+              "public": "6957503809443375636"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5349742"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "macos"
+            },
+            "manifests": {
+              "public": "514549560332710632"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/5349743"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41444510,
+      "change_number": 41503824,
       "data": {
         "appinfo": {
           "common": {
@@ -417,8 +511,8 @@
             },
             "name": "Hellwake",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon",
+            "oslist": "windows,macos,linux",
             "primary_genre": "3",
             "small_capsule": {
               "english": "e0aba9d43a2862d8c406a38f26db14114de95ebd/capsule_231x87.jpg"
@@ -524,6 +618,24 @@
                 },
                 "recursive": "1",
                 "root": "WinAppDataRoaming"
+              },
+              "1": {
+                "path": "godot/app_userdata/Hellwake/saves",
+                "pattern": "*",
+                "platforms": {
+                  "1": "Linux"
+                },
+                "recursive": "1",
+                "root": "LinuxXdgDataHome"
+              },
+              "2": {
+                "path": "Godot/app_userdata/Hellwake/saves",
+                "pattern": "*",
+                "platforms": {
+                  "1": "MacOS"
+                },
+                "recursive": "1",
+                "root": "MacAppSupport"
               }
             }
           }
@@ -531,25 +643,41 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26905759",
-              "timebuildupdated": 1795558509,
-              "timeupdated": 1795560510
+              "buildid": "26942255",
+              "timebuildupdated": 1795681091,
+              "timeupdated": 1795683258
             }
           },
           "depots": {
             "5349741": {
               "manifests": {
-                "public": "8085962797568560514"
+                "public": "5101655935835647106"
+              }
+            },
+            "5349742": {
+              "config": {
+                "oslist": "linux"
+              },
+              "manifests": {
+                "public": "6957503809443375636"
+              }
+            },
+            "5349743": {
+              "config": {
+                "oslist": "macos"
+              },
+              "manifests": {
+                "public": "514549560332710632"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-24T22:53:50.165Z",
+      "observed_at": "2026-11-26T09:54:02.582Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T22:53:50.165Z"
+  "updated_at": "2026-11-26T09:54:02.582Z"
 }
