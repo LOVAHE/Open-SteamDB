@@ -467,11 +467,57 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T11:08:56.601Z",
+      "change_number": 41499605,
+      "changes": [
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/italian"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/polish"
+        },
+        {
+          "after": "26940791",
+          "before": "26770765",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795675264,
+          "before": 1795041823,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795675301,
+          "before": 1795041852,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1346350880376752823",
+          "before": "2292556549286782223",
+          "op": "replace",
+          "path": "/depots/depots/5495421/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41242626,
+      "change_number": 41499605,
       "data": {
         "appinfo": {
           "common": {
@@ -601,7 +647,13 @@
               "hindi": {
                 "supported": "true"
               },
+              "italian": {
+                "supported": "true"
+              },
               "latam": {
+                "supported": "true"
+              },
+              "polish": {
                 "supported": "true"
               },
               "russian": {
@@ -633,25 +685,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26770765",
-              "timebuildupdated": 1795041823,
-              "timeupdated": 1795041852
+              "buildid": "26940791",
+              "timebuildupdated": 1795675264,
+              "timeupdated": 1795675301
             }
           },
           "depots": {
             "5495421": {
               "manifests": {
-                "public": "2292556549286782223"
+                "public": "1346350880376752823"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-18T22:53:38.018Z",
+      "observed_at": "2026-11-26T11:08:56.601Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T22:53:38.018Z"
+  "updated_at": "2026-11-26T11:08:56.601Z"
 }

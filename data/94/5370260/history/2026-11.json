@@ -221,11 +221,31 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T11:08:56.601Z",
+      "change_number": 41507946,
+      "changes": [
+        {
+          "after": "1000",
+          "before": "0",
+          "op": "replace",
+          "path": "/appinfo/ufs/maxnumfiles"
+        },
+        {
+          "after": "1073741824",
+          "before": "0",
+          "op": "replace",
+          "path": "/appinfo/ufs/quota"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41488968,
+      "change_number": 41507946,
       "data": {
         "appinfo": {
           "common": {
@@ -412,8 +432,8 @@
             "publisher": "NipoBox Publishing"
           },
           "ufs": {
-            "maxnumfiles": "0",
-            "quota": "0"
+            "maxnumfiles": "1000",
+            "quota": "1073741824"
           }
         },
         "depots": {
@@ -433,11 +453,11 @@
           }
         }
       },
-      "observed_at": "2026-11-26T03:23:44.044Z",
+      "observed_at": "2026-11-26T11:08:56.601Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-26T03:23:44.044Z"
+  "updated_at": "2026-11-26T11:08:56.601Z"
 }

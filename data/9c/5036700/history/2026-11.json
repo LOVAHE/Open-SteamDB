@@ -716,11 +716,52 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T11:08:56.601Z",
+      "change_number": 41509947,
+      "changes": [
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "88",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/5036701/config"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "linux"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5036702"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41444896,
+      "change_number": 41509947,
       "data": {
         "appinfo": {
           "common": {
@@ -825,8 +866,10 @@
             "name": "Pixel Coloring World",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,linux",
             "primary_genre": "4",
+            "review_percentage": "88",
+            "review_score": "7",
             "small_capsule": {
               "english": "b684ed9541683bf20a969c2fa32a5e15477aaa9d/capsule_231x87.jpg"
             },
@@ -1192,18 +1235,27 @@
           },
           "depots": {
             "5036701": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
                 "public": "2022698242365508362"
               }
+            },
+            "5036702": {
+              "config": {
+                "oslist": "linux"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-25T08:54:19.228Z",
+      "observed_at": "2026-11-26T11:08:56.601Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-25T08:54:19.228Z"
+  "updated_at": "2026-11-26T11:08:56.601Z"
 }

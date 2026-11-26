@@ -1323,11 +1323,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-26T11:08:56.601Z",
+      "change_number": 41508546,
+      "changes": [
+        {
+          "after": "神经传达室",
+          "before": "Cosmic Train",
+          "op": "replace",
+          "path": "/appinfo/common/associations/2/name"
+        },
+        {
+          "before": {
+            "name": "宇宙列车",
+            "type": "franchise"
+          },
+          "op": "remove",
+          "path": "/appinfo/common/associations/3"
+        },
+        {
+          "after": "神经传达室",
+          "before": "Cosmic Train",
+          "op": "replace",
+          "path": "/appinfo/extended/publisher"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41497392,
+      "change_number": 41508546,
       "data": {
         "appinfo": {
           "common": {
@@ -1341,12 +1369,8 @@
                 "type": "developer"
               },
               "2": {
-                "name": "Cosmic Train",
+                "name": "神经传达室",
                 "type": "publisher"
-              },
-              "3": {
-                "name": "宇宙列车",
-                "type": "franchise"
               }
             },
             "category": {
@@ -1469,7 +1493,7 @@
           },
           "extended": {
             "developer": "神经传达室",
-            "publisher": "Cosmic Train"
+            "publisher": "神经传达室"
           },
           "ufs": {
             "maxnumfiles": "2000",
@@ -1503,11 +1527,11 @@
           }
         }
       },
-      "observed_at": "2026-11-26T07:08:47.600Z",
+      "observed_at": "2026-11-26T11:08:56.601Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-26T07:08:47.600Z"
+  "updated_at": "2026-11-26T11:08:56.601Z"
 }
