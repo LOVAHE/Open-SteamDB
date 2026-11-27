@@ -255,11 +255,54 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T21:08:59.824Z",
+      "change_number": 41579388,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26982031",
+          "before": "26496985",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795809822,
+          "before": 1794006896,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795813151,
+          "before": 1794007877,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6558291758080635533",
+          "op": "add",
+          "path": "/depots/depots/5073992/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41577864,
+      "change_number": 41579388,
       "data": {
         "appinfo": {
           "common": {
@@ -352,8 +395,8 @@
             },
             "name": "Backrooms Insane",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "primary_genre": "1",
             "small_capsule": {
               "english": "614a398b5d1058b79b3b8bf136cec69c228958f3/capsule_231x87.jpg"
@@ -402,9 +445,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26496985",
-              "timebuildupdated": 1794006896,
-              "timeupdated": 1794007877
+              "buildid": "26982031",
+              "timebuildupdated": 1795809822,
+              "timeupdated": 1795813151
             }
           },
           "depots": {
@@ -420,16 +463,18 @@
               "config": {
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "6558291758080635533"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-27T20:08:52.417Z",
+      "observed_at": "2026-11-27T21:08:59.824Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-27T20:08:52.417Z"
+  "updated_at": "2026-11-27T21:08:59.824Z"
 }

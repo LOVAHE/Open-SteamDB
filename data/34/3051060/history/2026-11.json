@@ -1183,11 +1183,30 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T21:08:59.824Z",
+      "change_number": 41579383,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": "ArchiveList.json",
+          "before": "*.json",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/1/pattern"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41578342,
+      "change_number": 41579383,
       "data": {
         "appinfo": {
           "common": {
@@ -1203,6 +1222,7 @@
             },
             "category": {
               "category_2": "1",
+              "category_23": "1",
               "category_62": "1"
             },
             "clienticon": "e065e5f64344fe3da3c83bc8a7e455c36b98f8fe",
@@ -1381,7 +1401,7 @@
               },
               "1": {
                 "path": "Xyy/Saved",
-                "pattern": "*.json",
+                "pattern": "ArchiveList.json",
                 "root": "gameinstall"
               }
             }
@@ -1420,11 +1440,11 @@
           }
         }
       },
-      "observed_at": "2026-11-27T20:38:49.528Z",
+      "observed_at": "2026-11-27T21:08:59.824Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-27T20:38:49.528Z"
+  "updated_at": "2026-11-27T21:08:59.824Z"
 }
