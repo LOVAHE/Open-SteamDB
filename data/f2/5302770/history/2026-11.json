@@ -219,11 +219,59 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T05:53:49.725Z",
+      "change_number": 41543424,
+      "changes": [
+        {
+          "before": "山海绘卷 Demo",
+          "op": "remove",
+          "path": "/appinfo/common/name_localized/english"
+        },
+        {
+          "after": "山海绘卷 Demo",
+          "op": "add",
+          "path": "/appinfo/common/name_localized/schinese"
+        },
+        {
+          "after": "HearthFable",
+          "before": "HearthsOfShanhai",
+          "op": "replace",
+          "path": "/appinfo/config/installdir"
+        },
+        {
+          "after": "26964262",
+          "before": "26183833",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795751573,
+          "before": 1792854846,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795758401,
+          "before": 1792854982,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6029675428576677646",
+          "before": "8197239673842102271",
+          "op": "replace",
+          "path": "/depots/depots/5302771/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41541171,
+      "change_number": 41543424,
       "data": {
         "appinfo": {
           "common": {
@@ -314,7 +362,7 @@
             },
             "name": "Hearth Fable Demo",
             "name_localized": {
-              "english": "山海绘卷 Demo"
+              "schinese": "山海绘卷 Demo"
             },
             "osarch": "",
             "osextended": "",
@@ -365,7 +413,7 @@
             "type": "Demo"
           },
           "config": {
-            "installdir": "HearthsOfShanhai"
+            "installdir": "HearthFable"
           },
           "extended": {
             "developer": "Silverdew Games",
@@ -381,9 +429,9 @@
               "timeupdated": 1795751733
             },
             "public": {
-              "buildid": "26183833",
-              "timebuildupdated": 1792854846,
-              "timeupdated": 1792854982
+              "buildid": "26964262",
+              "timebuildupdated": 1795751573,
+              "timeupdated": 1795758401
             }
           },
           "depots": {
@@ -398,17 +446,17 @@
             "5302771": {
               "manifests": {
                 "beta": "6029675428576677646",
-                "public": "8197239673842102271"
+                "public": "6029675428576677646"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-27T04:08:48.455Z",
+      "observed_at": "2026-11-27T05:53:49.725Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-27T04:08:48.455Z"
+  "updated_at": "2026-11-27T05:53:49.725Z"
 }
