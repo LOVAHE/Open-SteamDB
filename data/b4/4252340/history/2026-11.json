@@ -1059,11 +1059,64 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T15:38:54.554Z",
+      "change_number": 41566702,
+      "changes": [
+        {
+          "after": {
+            "category": "1",
+            "configuration": {
+              "gamescope_frame_limiter_not_supported": "0",
+              "hdr_support": "0",
+              "non_deck_display_glyphs": "0",
+              "primary_player_is_controller_slot_0": "0",
+              "recommended_runtime": "proton-11.0-3RC",
+              "requires_h264": "0",
+              "requires_internet_for_setup": "0",
+              "requires_internet_for_singleplayer": "0",
+              "requires_manual_keyboard_invoke": "0",
+              "requires_non_controller_launcher_nav": "0",
+              "requires_proton_soundfonts": "0",
+              "requires_voice_files": "0",
+              "small_text": "0",
+              "supported_input": "other"
+            },
+            "steam_machine_compatibility": "1",
+            "steam_machine_tests": {
+              "0": {
+                "display": "2",
+                "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+              }
+            },
+            "steamos_compatibility": "1",
+            "steamos_tests": {
+              "0": {
+                "display": "2",
+                "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+              }
+            },
+            "test_timestamp": "1795187898",
+            "tested_build_id": "26596207",
+            "tests": {
+              "0": {
+                "display": "2",
+                "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41564501,
+      "change_number": 41566702,
       "data": {
         "appinfo": {
           "common": {
@@ -1178,6 +1231,47 @@
             "review_score": "8",
             "small_capsule": {
               "english": "9230bd8ca0d7b18b6cce2c763ffb009449c1b06f/capsule_231x87.jpg"
+            },
+            "steam_deck_compatibility": {
+              "category": "1",
+              "configuration": {
+                "gamescope_frame_limiter_not_supported": "0",
+                "hdr_support": "0",
+                "non_deck_display_glyphs": "0",
+                "primary_player_is_controller_slot_0": "0",
+                "recommended_runtime": "proton-11.0-3RC",
+                "requires_h264": "0",
+                "requires_internet_for_setup": "0",
+                "requires_internet_for_singleplayer": "0",
+                "requires_manual_keyboard_invoke": "0",
+                "requires_non_controller_launcher_nav": "0",
+                "requires_proton_soundfonts": "0",
+                "requires_voice_files": "0",
+                "small_text": "0",
+                "supported_input": "other"
+              },
+              "steam_machine_compatibility": "1",
+              "steam_machine_tests": {
+                "0": {
+                  "display": "2",
+                  "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+                }
+              },
+              "steamos_compatibility": "1",
+              "steamos_tests": {
+                "0": {
+                  "display": "2",
+                  "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+                }
+              },
+              "test_timestamp": "1795187898",
+              "tested_build_id": "26596207",
+              "tests": {
+                "0": {
+                  "display": "2",
+                  "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+                }
+              }
             },
             "steam_release_date": "1791467226",
             "store_asset_mtime": "1795772917",
@@ -1294,11 +1388,11 @@
           }
         }
       },
-      "observed_at": "2026-11-27T14:38:52.049Z",
+      "observed_at": "2026-11-27T15:38:54.554Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-27T14:38:52.049Z"
+  "updated_at": "2026-11-27T15:38:54.554Z"
 }
