@@ -399,11 +399,85 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T06:24:18.475Z",
+      "change_number": 41544035,
+      "changes": [
+        {
+          "after": "王国棋境Demo",
+          "op": "add",
+          "path": "/appinfo/common/name_localized/sc_schinese"
+        },
+        {
+          "after": "88",
+          "before": "94",
+          "op": "replace",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "8",
+          "before": "7",
+          "op": "replace",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "1795597315",
+          "before": "1794933394",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": "26951531",
+          "before": "26762358",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795707169,
+          "before": 1795017924,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795707388,
+          "before": 1795018241,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "realm": "steamglobal"
+          },
+          "op": "add",
+          "path": "/depots/depots/4907361/config"
+        },
+        {
+          "after": "6986166178641527646",
+          "before": "1078065996831785670",
+          "op": "replace",
+          "path": "/depots/depots/4907361/manifests/public"
+        },
+        {
+          "after": {
+            "config": {
+              "realm": "steamchina"
+            },
+            "manifests": {
+              "public": "6911138561682320843"
+            }
+          },
+          "op": "add",
+          "path": "/depots/depots/4907362"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41230276,
+      "change_number": 41544035,
       "data": {
         "appinfo": {
           "common": {
@@ -503,6 +577,7 @@
             },
             "name": "Kingdoms Assemble Demo",
             "name_localized": {
+              "sc_schinese": "王国棋境Demo",
               "schinese": "王国棋境 Demo",
               "tchinese": "王國棋境 Demo"
             },
@@ -511,15 +586,15 @@
             "oslist": "windows",
             "parent": "4831140",
             "primary_genre": "2",
-            "review_percentage": "94",
-            "review_score": "7",
+            "review_percentage": "88",
+            "review_score": "8",
             "small_capsule": {
               "english": "2ff6f18e1680de04e76b99a877ca250a86fea24d/capsule_231x87.jpg",
               "sc_schinese": "62e41335261ee19d1d184fd1976b8a9005eda200/capsule_231x87_sc_schinese.jpg",
               "schinese": "62e41335261ee19d1d184fd1976b8a9005eda200/capsule_231x87_schinese.jpg"
             },
             "steam_release_date": "1794853558",
-            "store_asset_mtime": "1794933394",
+            "store_asset_mtime": "1795597315",
             "supported_languages": {
               "brazilian": {
                 "full_audio": "true",
@@ -597,25 +672,36 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26762358",
-              "timebuildupdated": 1795017924,
-              "timeupdated": 1795018241
+              "buildid": "26951531",
+              "timebuildupdated": 1795707169,
+              "timeupdated": 1795707388
             }
           },
           "depots": {
             "4907361": {
+              "config": {
+                "realm": "steamglobal"
+              },
               "manifests": {
-                "public": "1078065996831785670"
+                "public": "6986166178641527646"
+              }
+            },
+            "4907362": {
+              "config": {
+                "realm": "steamchina"
+              },
+              "manifests": {
+                "public": "6911138561682320843"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-18T16:23:36.646Z",
+      "observed_at": "2026-11-27T06:24:18.475Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T16:23:36.646Z"
+  "updated_at": "2026-11-27T06:24:18.475Z"
 }

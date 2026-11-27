@@ -265,11 +265,41 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T06:24:18.475Z",
+      "change_number": 41544011,
+      "changes": [
+        {
+          "after": "64",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osarch"
+        },
+        {
+          "after": "macos64,macosapplesilicon",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "64",
+          "op": "add",
+          "path": "/depots/depots/5044751/config/osarch"
+        },
+        {
+          "after": "64",
+          "op": "add",
+          "path": "/depots/depots/5044752/config/osarch"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41543691,
+      "change_number": 41544011,
       "data": {
         "appinfo": {
           "common": {
@@ -385,8 +415,8 @@
               "japanese": "モグラと鉱石",
               "schinese": "鼹鼠与矿石"
             },
-            "osarch": "",
-            "osextended": "",
+            "osarch": "64",
+            "osextended": "macos64,macosapplesilicon",
             "oslist": "windows,macos",
             "primary_genre": "1",
             "small_capsule": {
@@ -464,6 +494,7 @@
           "depots": {
             "5044751": {
               "config": {
+                "osarch": "64",
                 "oslist": "windows,linux"
               },
               "manifests": {
@@ -472,6 +503,7 @@
             },
             "5044752": {
               "config": {
+                "osarch": "64",
                 "oslist": "macos"
               },
               "manifests": {
@@ -481,11 +513,11 @@
           }
         }
       },
-      "observed_at": "2026-11-27T06:08:55.762Z",
+      "observed_at": "2026-11-27T06:24:18.475Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-27T06:08:55.762Z"
+  "updated_at": "2026-11-27T06:24:18.475Z"
 }
