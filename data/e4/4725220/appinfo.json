@@ -1,8 +1,8 @@
 {
   "appid": 4725220,
   "source": "steam_pics",
-  "updated_at": "2026-11-27T07:39:02.777Z",
-  "change_number": 41545754,
+  "updated_at": "2026-11-27T10:38:59.947Z",
+  "change_number": 41552829,
   "data": {
     "common": {
       "associations": {
@@ -173,6 +173,26 @@
     },
     "config": {
       "installdir": "Slice of Fortune"
+    },
+    "ufs": {
+      "maxnumfiles": "10",
+      "quota": "10000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": ".config/unity3d/",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "WinAppDataLocalLow",
+          "useinstead": "LinuxHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "BitByBitGames/Slice of fortune",
+          "pattern": "SaveFile_Full.es3",
+          "root": "WinAppDataLocalLow"
+        }
+      }
     }
   }
 }
