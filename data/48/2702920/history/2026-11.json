@@ -580,11 +580,34 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T12:23:58.606Z",
+      "change_number": 41557882,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26972537",
+            "description": "Interner Test - bitte nicht benutzen",
+            "timebuildupdated": 1795781879,
+            "timeupdated": 1795781879
+          },
+          "op": "add",
+          "path": "/depots/branches/test105"
+        },
+        {
+          "after": "23507365379185976",
+          "op": "add",
+          "path": "/depots/depots/2702921/manifests/test105"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41433568,
+      "change_number": 41557882,
       "data": {
         "appinfo": {
           "common": {
@@ -827,23 +850,30 @@
               "buildid": "26843706",
               "timebuildupdated": 1795320971,
               "timeupdated": 1795406515
+            },
+            "test105": {
+              "buildid": "26972537",
+              "description": "Interner Test - bitte nicht benutzen",
+              "timebuildupdated": 1795781879,
+              "timeupdated": 1795781879
             }
           },
           "depots": {
             "2702921": {
               "manifests": {
                 "beta": "1478411607361105685",
-                "public": "2958880598728824353"
+                "public": "2958880598728824353",
+                "test105": "23507365379185976"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-24T17:09:13.228Z",
+      "observed_at": "2026-11-27T12:23:58.606Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-24T17:09:13.228Z"
+  "updated_at": "2026-11-27T12:23:58.606Z"
 }
