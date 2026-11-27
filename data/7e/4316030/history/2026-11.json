@@ -214,11 +214,35 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T13:39:10.678Z",
+      "change_number": 41561366,
+      "changes": [
+        {
+          "before": "english",
+          "op": "remove",
+          "path": "/depots/depots/4316031/config/language"
+        },
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "linux"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/4316032"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41551661,
+      "change_number": 41561366,
       "data": {
         "appinfo": {
           "common": {
@@ -377,21 +401,27 @@
           "depots": {
             "4316031": {
               "config": {
-                "language": "english",
                 "oslist": "windows"
               },
               "manifests": {
                 "public": "3801525753674193505"
               }
+            },
+            "4316032": {
+              "config": {
+                "osarch": "64",
+                "oslist": "linux"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-27T10:09:03.484Z",
+      "observed_at": "2026-11-27T13:39:10.678Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-27T10:09:03.484Z"
+  "updated_at": "2026-11-27T13:39:10.678Z"
 }
