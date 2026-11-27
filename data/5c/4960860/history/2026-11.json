@@ -336,11 +336,34 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T12:08:59.765Z",
+      "change_number": 41556598,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26971340",
+            "description": "テスト機能のリリースのためのブランチ",
+            "timebuildupdated": 1795778341,
+            "timeupdated": 1795780999
+          },
+          "op": "add",
+          "path": "/depots/branches/test"
+        },
+        {
+          "after": "7380224036149087899",
+          "op": "add",
+          "path": "/depots/depots/4960861/manifests/test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41222547,
+      "change_number": 41556598,
       "data": {
         "appinfo": {
           "common": {
@@ -500,6 +523,12 @@
               "buildid": "26613518",
               "timebuildupdated": 1794475849,
               "timeupdated": 1794482408
+            },
+            "test": {
+              "buildid": "26971340",
+              "description": "テスト機能のリリースのためのブランチ",
+              "timebuildupdated": 1795778341,
+              "timeupdated": 1795780999
             }
           },
           "depots": {
@@ -521,17 +550,18 @@
             },
             "4960861": {
               "manifests": {
-                "public": "3056318653060588577"
+                "public": "3056318653060588577",
+                "test": "7380224036149087899"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-18T13:08:44.126Z",
+      "observed_at": "2026-11-27T12:08:59.765Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-18T13:08:44.126Z"
+  "updated_at": "2026-11-27T12:08:59.765Z"
 }
