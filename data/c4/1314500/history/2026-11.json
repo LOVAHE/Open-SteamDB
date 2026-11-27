@@ -234,11 +234,37 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T23:24:00.419Z",
+      "change_number": 41582810,
+      "changes": [
+        {
+          "after": "windows,linux",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "path": ".config/unity3d/CyberLab Studios/Improbable Soccer",
+            "pattern": "*.dat",
+            "platforms": {
+              "1": "Linux"
+            },
+            "root": "LinuxHome"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/1"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41515034,
+      "change_number": 41582810,
       "data": {
         "appinfo": {
           "common": {
@@ -341,7 +367,7 @@
             "name": "Improbable Soccer",
             "osarch": "64",
             "osextended": "",
-            "oslist": "windows",
+            "oslist": "windows,linux",
             "primary_genre": "18",
             "small_capsule": {
               "english": "capsule_231x87.jpg"
@@ -435,6 +461,14 @@
                   "1": "Windows"
                 },
                 "root": "WinAppDataLocalLow"
+              },
+              "1": {
+                "path": ".config/unity3d/CyberLab Studios/Improbable Soccer",
+                "pattern": "*.dat",
+                "platforms": {
+                  "1": "Linux"
+                },
+                "root": "LinuxHome"
               }
             }
           }
@@ -459,11 +493,11 @@
           }
         }
       },
-      "observed_at": "2026-11-26T13:53:44.824Z",
+      "observed_at": "2026-11-27T23:24:00.419Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-26T13:53:44.824Z"
+  "updated_at": "2026-11-27T23:24:00.419Z"
 }
