@@ -939,11 +939,37 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T20:38:49.528Z",
+      "change_number": 41578695,
+      "changes": [
+        {
+          "after": "proton-experimental",
+          "before": "proton-11.0-3RC",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/configuration/recommended_runtime"
+        },
+        {
+          "after": "1795206313",
+          "before": "1793644840",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/test_timestamp"
+        },
+        {
+          "after": "26697251",
+          "before": "26269368",
+          "op": "replace",
+          "path": "/appinfo/common/steam_deck_compatibility/tested_build_id"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41541758,
+      "change_number": 41578695,
       "data": {
         "appinfo": {
           "common": {
@@ -1055,7 +1081,7 @@
                 "hdr_support": "0",
                 "non_deck_display_glyphs": "0",
                 "primary_player_is_controller_slot_0": "1",
-                "recommended_runtime": "proton-11.0-3RC",
+                "recommended_runtime": "proton-experimental",
                 "requires_h264": "0",
                 "requires_internet_for_setup": "0",
                 "requires_internet_for_singleplayer": "0",
@@ -1080,8 +1106,8 @@
                   "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
                 }
               },
-              "test_timestamp": "1793644840",
-              "tested_build_id": "26269368",
+              "test_timestamp": "1795206313",
+              "tested_build_id": "26697251",
               "tests": {
                 "0": {
                   "display": "2",
@@ -1198,11 +1224,11 @@
           }
         }
       },
-      "observed_at": "2026-11-27T04:38:52.843Z",
+      "observed_at": "2026-11-27T20:38:49.528Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-27T04:38:52.843Z"
+  "updated_at": "2026-11-27T20:38:49.528Z"
 }

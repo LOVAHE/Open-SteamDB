@@ -694,11 +694,65 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T20:38:49.528Z",
+      "change_number": 41578355,
+      "changes": [
+        {
+          "after": "96",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "8",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "26982092",
+          "before": "26883557",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795810041,
+          "before": 1795489428,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795810877,
+          "before": 1795490157,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "2296582485812477178",
+          "before": "2164376200921443019",
+          "op": "replace",
+          "path": "/depots/depots/5346201/manifests/public"
+        },
+        {
+          "after": "14035864141295871",
+          "before": "1392067937967699486",
+          "op": "replace",
+          "path": "/depots/depots/5346202/manifests/public"
+        },
+        {
+          "after": "7260134955706832539",
+          "before": "3467811815122651863",
+          "op": "replace",
+          "path": "/depots/depots/5346203/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41444896,
+      "change_number": 41578355,
       "data": {
         "appinfo": {
           "common": {
@@ -792,6 +846,8 @@
             "oslist": "windows,macos,linux",
             "parent": "4984400",
             "primary_genre": "2",
+            "review_percentage": "96",
+            "review_score": "8",
             "small_capsule": {
               "english": "cbe795c357ed6c47e1826585a57279e52e390f58/capsule_231x87.jpg"
             },
@@ -862,9 +918,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26883557",
-              "timebuildupdated": 1795489428,
-              "timeupdated": 1795490157
+              "buildid": "26982092",
+              "timebuildupdated": 1795810041,
+              "timeupdated": 1795810877
             }
           },
           "depots": {
@@ -873,7 +929,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "2164376200921443019"
+                "public": "2296582485812477178"
               }
             },
             "5346202": {
@@ -881,7 +937,7 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "1392067937967699486"
+                "public": "14035864141295871"
               }
             },
             "5346203": {
@@ -889,13 +945,13 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "3467811815122651863"
+                "public": "7260134955706832539"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-25T09:55:47.382Z",
+      "observed_at": "2026-11-27T20:38:49.528Z",
       "tracked": true
     },
     "steam_store": {
@@ -1034,5 +1090,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-25T09:55:47.382Z"
+  "updated_at": "2026-11-27T20:38:49.528Z"
 }
