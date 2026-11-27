@@ -558,11 +558,61 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T09:08:53.817Z",
+      "change_number": 41548902,
+      "changes": [
+        {
+          "after": "64",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osarch"
+        },
+        {
+          "after": "26968496",
+          "before": "26942444",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795769639,
+          "before": 1795681757,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795770124,
+          "before": 1795681808,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3545385451170118893",
+          "before": "7799710812505658027",
+          "op": "replace",
+          "path": "/depots/depots/5464571/manifests/public"
+        },
+        {
+          "after": "5279637952918907036",
+          "before": "918852734336284476",
+          "op": "replace",
+          "path": "/depots/depots/5464572/manifests/public"
+        },
+        {
+          "after": "596537740211840071",
+          "before": "4942833472275007034",
+          "op": "replace",
+          "path": "/depots/depots/5464573/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41502727,
+      "change_number": 41548902,
       "data": {
         "appinfo": {
           "common": {
@@ -658,7 +708,7 @@
               }
             },
             "name": "Roborumble: Noodle's Adventure",
-            "osarch": "",
+            "osarch": "64",
             "osextended": "macos64,macosapplesilicon,macosnotarized",
             "oslist": "windows,macos,linux",
             "primary_genre": "4",
@@ -740,9 +790,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26942444",
-              "timebuildupdated": 1795681757,
-              "timeupdated": 1795681808
+              "buildid": "26968496",
+              "timebuildupdated": 1795769639,
+              "timeupdated": 1795770124
             }
           },
           "depots": {
@@ -751,7 +801,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "7799710812505658027"
+                "public": "3545385451170118893"
               }
             },
             "5464572": {
@@ -759,7 +809,7 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "public": "918852734336284476"
+                "public": "5279637952918907036"
               }
             },
             "5464573": {
@@ -767,17 +817,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "4942833472275007034"
+                "public": "596537740211840071"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-26T11:08:56.601Z",
+      "observed_at": "2026-11-27T09:08:53.817Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-26T11:08:56.601Z"
+  "updated_at": "2026-11-27T09:08:53.817Z"
 }
