@@ -653,11 +653,80 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T13:24:17.404Z",
+      "change_number": 41560920,
+      "changes": [
+        {
+          "after": "勇者ニャン伝説",
+          "op": "add",
+          "path": "/appinfo/common/name_localized/japanese"
+        },
+        {
+          "after": "勇者喵传说",
+          "op": "add",
+          "path": "/appinfo/common/name_localized/schinese"
+        },
+        {
+          "before": {
+            "path": "MeowboundLegends",
+            "pattern": "demo_v2.dat",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles/1"
+        },
+        {
+          "after": {
+            "path": "MeowboundLegends",
+            "pattern": "save_v2_backup1.dat",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/2"
+        },
+        {
+          "after": {
+            "path": "MeowboundLegends",
+            "pattern": "save_v2_backup2.dat",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/3"
+        },
+        {
+          "after": "26973941",
+          "before": "26967022",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795785718,
+          "before": 1795764109,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795785718,
+          "before": 1795764109,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3016127466907915962",
+          "before": "6729979614922799667",
+          "op": "replace",
+          "path": "/depots/depots/5402861/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41545310,
+      "change_number": 41560920,
       "data": {
         "appinfo": {
           "common": {
@@ -751,7 +820,9 @@
             },
             "name": "勇者喵傳說",
             "name_localized": {
-              "english": "MEOWBOUND LEGENDS"
+              "english": "MEOWBOUND LEGENDS",
+              "japanese": "勇者ニャン伝説",
+              "schinese": "勇者喵传说"
             },
             "osarch": "64",
             "osextended": "",
@@ -825,9 +896,14 @@
                 "pattern": "save_v2.dat",
                 "root": "WinAppDataRoaming"
               },
-              "1": {
+              "2": {
                 "path": "MeowboundLegends",
-                "pattern": "demo_v2.dat",
+                "pattern": "save_v2_backup1.dat",
+                "root": "WinAppDataRoaming"
+              },
+              "3": {
+                "path": "MeowboundLegends",
+                "pattern": "save_v2_backup2.dat",
                 "root": "WinAppDataRoaming"
               }
             }
@@ -836,15 +912,15 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26967022",
-              "timebuildupdated": 1795764109,
-              "timeupdated": 1795764109
+              "buildid": "26973941",
+              "timebuildupdated": 1795785718,
+              "timeupdated": 1795785718
             }
           },
           "depots": {
             "5402861": {
               "manifests": {
-                "public": "6729979614922799667"
+                "public": "3016127466907915962"
               }
             },
             "5543710": {
@@ -868,11 +944,11 @@
           }
         }
       },
-      "observed_at": "2026-11-27T07:24:22.311Z",
+      "observed_at": "2026-11-27T13:24:17.404Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-27T07:24:22.311Z"
+  "updated_at": "2026-11-27T13:24:17.404Z"
 }
