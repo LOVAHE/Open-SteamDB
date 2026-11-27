@@ -2074,11 +2074,67 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T11:09:11.730Z",
+      "change_number": 41553722,
+      "changes": [
+        {
+          "after": "26970839",
+          "before": "26874351",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795776883,
+          "before": 1795457315,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795777285,
+          "before": 1795457432,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "windows"
+            },
+            "depotfromapp": 228980,
+            "manifests": {},
+            "sharedinstall": true
+          },
+          "op": "add",
+          "path": "/depots/depots/228989"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "windows"
+            },
+            "depotfromapp": 228980,
+            "manifests": {},
+            "sharedinstall": true
+          },
+          "op": "add",
+          "path": "/depots/depots/228990"
+        },
+        {
+          "after": "761281165618443685",
+          "before": "6293027230304832737",
+          "op": "replace",
+          "path": "/depots/depots/4890771/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41553499,
+      "change_number": 41553722,
       "data": {
         "appinfo": {
           "common": {
@@ -2346,9 +2402,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26874351",
-              "timebuildupdated": 1795457315,
-              "timeupdated": 1795457432
+              "buildid": "26970839",
+              "timebuildupdated": 1795776883,
+              "timeupdated": 1795777285
             },
             "test": {
               "buildid": "26970839",
@@ -2358,16 +2414,32 @@
             }
           },
           "depots": {
+            "228989": {
+              "config": {
+                "oslist": "windows"
+              },
+              "depotfromapp": 228980,
+              "manifests": {},
+              "sharedinstall": true
+            },
+            "228990": {
+              "config": {
+                "oslist": "windows"
+              },
+              "depotfromapp": 228980,
+              "manifests": {},
+              "sharedinstall": true
+            },
             "4890771": {
               "manifests": {
-                "public": "6293027230304832737",
+                "public": "761281165618443685",
                 "test": "761281165618443685"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-27T10:53:57.457Z",
+      "observed_at": "2026-11-27T11:09:11.730Z",
       "tracked": true
     },
     "steam_store": {
@@ -2533,5 +2605,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-27T10:53:57.457Z"
+  "updated_at": "2026-11-27T11:09:11.730Z"
 }
