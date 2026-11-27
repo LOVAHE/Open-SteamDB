@@ -570,11 +570,64 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T16:38:59.871Z",
+      "change_number": 41570652,
+      "changes": [
+        {
+          "after": {
+            "category": "1",
+            "configuration": {
+              "gamescope_frame_limiter_not_supported": "0",
+              "hdr_support": "0",
+              "non_deck_display_glyphs": "0",
+              "primary_player_is_controller_slot_0": "0",
+              "recommended_runtime": "proton-11.0-3RC",
+              "requires_h264": "0",
+              "requires_internet_for_setup": "0",
+              "requires_internet_for_singleplayer": "0",
+              "requires_manual_keyboard_invoke": "0",
+              "requires_non_controller_launcher_nav": "0",
+              "requires_proton_soundfonts": "0",
+              "requires_voice_files": "0",
+              "small_text": "0",
+              "supported_input": "other"
+            },
+            "steam_machine_compatibility": "1",
+            "steam_machine_tests": {
+              "0": {
+                "display": "2",
+                "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+              }
+            },
+            "steamos_compatibility": "1",
+            "steamos_tests": {
+              "0": {
+                "display": "2",
+                "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+              }
+            },
+            "test_timestamp": "1795190215",
+            "tested_build_id": "26558682",
+            "tests": {
+              "0": {
+                "display": "2",
+                "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/common/steam_deck_compatibility"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41561375,
+      "change_number": 41570652,
       "data": {
         "appinfo": {
           "common": {
@@ -781,6 +834,47 @@
               "tchinese": "e56541b80d792ce6147163e31786438f63df1649/capsule_231x87_tchinese.jpg",
               "thai": "8fc4c38f231d0822fec183f84cbcf2c9d4a1e819/capsule_231x87_thai.jpg"
             },
+            "steam_deck_compatibility": {
+              "category": "1",
+              "configuration": {
+                "gamescope_frame_limiter_not_supported": "0",
+                "hdr_support": "0",
+                "non_deck_display_glyphs": "0",
+                "primary_player_is_controller_slot_0": "0",
+                "recommended_runtime": "proton-11.0-3RC",
+                "requires_h264": "0",
+                "requires_internet_for_setup": "0",
+                "requires_internet_for_singleplayer": "0",
+                "requires_manual_keyboard_invoke": "0",
+                "requires_non_controller_launcher_nav": "0",
+                "requires_proton_soundfonts": "0",
+                "requires_voice_files": "0",
+                "small_text": "0",
+                "supported_input": "other"
+              },
+              "steam_machine_compatibility": "1",
+              "steam_machine_tests": {
+                "0": {
+                  "display": "2",
+                  "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+                }
+              },
+              "steamos_compatibility": "1",
+              "steamos_tests": {
+                "0": {
+                  "display": "2",
+                  "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+                }
+              },
+              "test_timestamp": "1795190215",
+              "tested_build_id": "26558682",
+              "tests": {
+                "0": {
+                  "display": "2",
+                  "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+                }
+              }
+            },
             "steam_release_date": "1791479397",
             "store_asset_mtime": "1791795736",
             "store_tags": {
@@ -976,11 +1070,11 @@
           }
         }
       },
-      "observed_at": "2026-11-27T13:39:10.678Z",
+      "observed_at": "2026-11-27T16:38:59.871Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-27T13:39:10.678Z"
+  "updated_at": "2026-11-27T16:38:59.871Z"
 }
