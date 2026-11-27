@@ -303,11 +303,30 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T16:09:34.043Z",
+      "change_number": 41569665,
+      "changes": [
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "windows"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5136272"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40912628,
+      "change_number": 41569665,
       "data": {
         "appinfo": {
           "common": {
@@ -462,11 +481,18 @@
               "manifests": {
                 "public": "1545160089896440512"
               }
+            },
+            "5136272": {
+              "config": {
+                "osarch": "64",
+                "oslist": "windows"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-13T12:38:55.807Z",
+      "observed_at": "2026-11-27T16:09:34.043Z",
       "tracked": true
     },
     "steam_store": {
@@ -596,5 +622,5 @@
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-13T12:38:55.807Z"
+  "updated_at": "2026-11-27T16:09:34.043Z"
 }
