@@ -238,11 +238,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T13:54:07.153Z",
+      "change_number": 41561707,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26974345",
+            "description": "Experimental native Linux support",
+            "timebuildupdated": 1795786860,
+            "timeupdated": 1795787288
+          },
+          "op": "add",
+          "path": "/depots/branches/experimental-linux"
+        },
+        {
+          "after": "3801525753674193505",
+          "op": "add",
+          "path": "/depots/depots/4316031/manifests/experimental-linux"
+        },
+        {
+          "after": "9021294034350380236",
+          "op": "add",
+          "path": "/depots/depots/4316032/manifests/experimental-linux"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41561366,
+      "change_number": 41561707,
       "data": {
         "appinfo": {
           "common": {
@@ -392,6 +420,12 @@
         },
         "depots": {
           "branches": {
+            "experimental-linux": {
+              "buildid": "26974345",
+              "description": "Experimental native Linux support",
+              "timebuildupdated": 1795786860,
+              "timeupdated": 1795787288
+            },
             "public": {
               "buildid": "26969764",
               "timebuildupdated": 1795773410,
@@ -404,6 +438,7 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "experimental-linux": "3801525753674193505",
                 "public": "3801525753674193505"
               }
             },
@@ -412,16 +447,18 @@
                 "osarch": "64",
                 "oslist": "linux"
               },
-              "manifests": {}
+              "manifests": {
+                "experimental-linux": "9021294034350380236"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-27T13:39:10.678Z",
+      "observed_at": "2026-11-27T13:54:07.153Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-27T13:39:10.678Z"
+  "updated_at": "2026-11-27T13:54:07.153Z"
 }
