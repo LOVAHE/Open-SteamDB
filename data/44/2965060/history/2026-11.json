@@ -223,11 +223,57 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T11:38:54.026Z",
+      "change_number": 41554465,
+      "changes": [
+        {
+          "before": {
+            "0": {
+              "path": "wanfa_canpoxiuxianjie",
+              "pattern": "*.json",
+              "platforms": {
+                "1": "Windows"
+              },
+              "root": "WinAppDataLocal"
+            }
+          },
+          "op": "remove",
+          "path": "/appinfo/ufs/savefiles"
+        },
+        {
+          "after": "26971497",
+          "before": "26970887",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795778791,
+          "before": 1795777033,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795778878,
+          "before": 1795777281,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1517369195562613158",
+          "before": "6861735737443434021",
+          "op": "replace",
+          "path": "/depots/depots/2965062/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41553672,
+      "change_number": 41554465,
       "data": {
         "appinfo": {
           "common": {
@@ -372,25 +418,15 @@
           },
           "ufs": {
             "maxnumfiles": "10000",
-            "quota": "10000000000",
-            "savefiles": {
-              "0": {
-                "path": "wanfa_canpoxiuxianjie",
-                "pattern": "*.json",
-                "platforms": {
-                  "1": "Windows"
-                },
-                "root": "WinAppDataLocal"
-              }
-            }
+            "quota": "10000000000"
           }
         },
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26970887",
-              "timebuildupdated": 1795777033,
-              "timeupdated": 1795777281
+              "buildid": "26971497",
+              "timebuildupdated": 1795778791,
+              "timeupdated": 1795778878
             }
           },
           "depots": {
@@ -399,17 +435,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "6861735737443434021"
+                "public": "1517369195562613158"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-27T11:09:11.730Z",
+      "observed_at": "2026-11-27T11:38:54.026Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-27T11:09:11.730Z"
+  "updated_at": "2026-11-27T11:38:54.026Z"
 }

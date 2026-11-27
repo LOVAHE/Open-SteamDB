@@ -305,11 +305,37 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T11:38:54.026Z",
+      "change_number": 41554540,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "20",
+            "quota": "50000000",
+            "savefiles": {
+              "0": {
+                "path": "Roost Games/CatCafe2",
+                "pattern": "ccm2_save_slot_*",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41544207,
+      "change_number": 41554540,
       "data": {
         "appinfo": {
           "common": {
@@ -452,6 +478,20 @@
             "developer": "Roost Games",
             "homepage": "https://catcafemanager.com/",
             "publisher": "Roost Games"
+          },
+          "ufs": {
+            "maxnumfiles": "20",
+            "quota": "50000000",
+            "savefiles": {
+              "0": {
+                "path": "Roost Games/CatCafe2",
+                "pattern": "ccm2_save_slot_*",
+                "platforms": {
+                  "1": "Windows"
+                },
+                "root": "WinAppDataLocalLow"
+              }
+            }
           }
         },
         "depots": {
@@ -474,11 +514,11 @@
           }
         }
       },
-      "observed_at": "2026-11-27T06:39:07.119Z",
+      "observed_at": "2026-11-27T11:38:54.026Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-27T06:39:07.119Z"
+  "updated_at": "2026-11-27T11:38:54.026Z"
 }
