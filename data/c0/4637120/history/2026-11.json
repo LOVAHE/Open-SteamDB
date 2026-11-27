@@ -424,11 +424,130 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-27T03:38:56.272Z",
+      "change_number": 41538292,
+      "changes": [
+        {
+          "after": "1795740842",
+          "before": "1795736768",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/french"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/german"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/japanese"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/portuguese"
+        },
+        {
+          "after": {
+            "full_audio": "true",
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/spanish"
+        },
+        {
+          "after": "26962184",
+          "before": "26841344",
+          "op": "replace",
+          "path": "/depots/branches/beta/buildid"
+        },
+        {
+          "after": 1795743351,
+          "before": 1795306673,
+          "op": "replace",
+          "path": "/depots/branches/beta/timebuildupdated"
+        },
+        {
+          "after": 1795743351,
+          "before": 1795306673,
+          "op": "replace",
+          "path": "/depots/branches/beta/timeupdated"
+        },
+        {
+          "after": "26962184",
+          "before": "26841344",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795743351,
+          "before": 1795306673,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795743601,
+          "before": 1795474596,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6879565480334338360",
+          "before": "3698626610553675021",
+          "op": "replace",
+          "path": "/depots/depots/4637121/manifests/beta"
+        },
+        {
+          "after": "6879565480334338360",
+          "before": "3698626610553675021",
+          "op": "replace",
+          "path": "/depots/depots/4637121/manifests/public"
+        },
+        {
+          "after": "54902158923037348",
+          "before": "4810737941524632175",
+          "op": "replace",
+          "path": "/depots/depots/4637122/manifests/beta"
+        },
+        {
+          "after": "54902158923037348",
+          "before": "4810737941524632175",
+          "op": "replace",
+          "path": "/depots/depots/4637122/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41535991,
+      "change_number": 41538292,
       "data": {
         "appinfo": {
           "common": {
@@ -535,7 +654,7 @@
               "english": "d39fd73261fd991358abaf2ece1f70d51b9a9c15/capsule_231x87.jpg"
             },
             "steam_release_date": "1794512669",
-            "store_asset_mtime": "1795736768",
+            "store_asset_mtime": "1795740842",
             "store_tags": {
               "0": "21",
               "1": "4994",
@@ -569,7 +688,32 @@
                 "subtitles": "true",
                 "supported": "true"
               },
+              "french": {
+                "full_audio": "true",
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "german": {
+                "full_audio": "true",
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "japanese": {
+                "full_audio": "true",
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "portuguese": {
+                "full_audio": "true",
+                "subtitles": "true",
+                "supported": "true"
+              },
               "schinese": {
+                "full_audio": "true",
+                "subtitles": "true",
+                "supported": "true"
+              },
+              "spanish": {
                 "full_audio": "true",
                 "subtitles": "true",
                 "supported": "true"
@@ -592,15 +736,15 @@
         "depots": {
           "branches": {
             "beta": {
-              "buildid": "26841344",
+              "buildid": "26962184",
               "description": "beta branch for testing",
-              "timebuildupdated": 1795306673,
-              "timeupdated": 1795306673
+              "timebuildupdated": 1795743351,
+              "timeupdated": 1795743351
             },
             "public": {
-              "buildid": "26841344",
-              "timebuildupdated": 1795306673,
-              "timeupdated": 1795474596
+              "buildid": "26962184",
+              "timebuildupdated": 1795743351,
+              "timeupdated": 1795743601
             }
           },
           "depots": {
@@ -625,8 +769,8 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "beta": "3698626610553675021",
-                "public": "3698626610553675021"
+                "beta": "6879565480334338360",
+                "public": "6879565480334338360"
               }
             },
             "4637122": {
@@ -634,18 +778,18 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "beta": "4810737941524632175",
-                "public": "4810737941524632175"
+                "beta": "54902158923037348",
+                "public": "54902158923037348"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-26T23:53:46.997Z",
+      "observed_at": "2026-11-27T03:38:56.272Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-26T23:53:46.997Z"
+  "updated_at": "2026-11-27T03:38:56.272Z"
 }
