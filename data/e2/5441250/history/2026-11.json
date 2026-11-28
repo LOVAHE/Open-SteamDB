@@ -185,11 +185,54 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T15:23:19.913Z",
+      "change_number": 41598909,
+      "changes": [
+        {
+          "after": "macos64",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26994193",
+          "before": "26431014",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795871240,
+          "before": 1793794719,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795879055,
+          "before": 1793794922,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "6524473947490177606",
+          "op": "add",
+          "path": "/depots/depots/5441252/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41596290,
+      "change_number": 41598909,
       "data": {
         "appinfo": {
           "common": {
@@ -273,8 +316,8 @@
             },
             "name": "SAMOPAL Protocol Demo",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64",
+            "oslist": "windows,macos",
             "parent": "4498270",
             "primary_genre": "1",
             "small_capsule": {
@@ -301,9 +344,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26431014",
-              "timebuildupdated": 1793794719,
-              "timeupdated": 1793794922
+              "buildid": "26994193",
+              "timebuildupdated": 1795871240,
+              "timeupdated": 1795879055
             }
           },
           "depots": {
@@ -337,16 +380,18 @@
                 "osarch": "64",
                 "oslist": "macos"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "6524473947490177606"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-28T13:22:59.258Z",
+      "observed_at": "2026-11-28T15:23:19.913Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-28T13:22:59.258Z"
+  "updated_at": "2026-11-28T15:23:19.913Z"
 }
