@@ -359,11 +359,67 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T20:23:14.109Z",
+      "change_number": 41605098,
+      "changes": [
+        {
+          "after": "c6c303dcf2dae0883b417dc8a05250dcc744b6f6/header_schinese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/header_image/schinese"
+        },
+        {
+          "after": "en,zh-cn",
+          "before": "en",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets/library_capsule"
+        },
+        {
+          "after": "en,zh-cn",
+          "before": "en",
+          "op": "replace",
+          "path": "/appinfo/common/library_assets/library_header"
+        },
+        {
+          "after": "7cc099109cb995ee273729ef0014ede26a0d357b/library_capsule_schinese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_capsule/image/schinese"
+        },
+        {
+          "after": "7cc099109cb995ee273729ef0014ede26a0d357b/library_capsule_schinese_2x.jpg",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_capsule/image2x/schinese"
+        },
+        {
+          "after": "e5ab8f7036a9968a33b582c4b43d8ab0da5e5681/library_header_schinese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_header/image/schinese"
+        },
+        {
+          "after": "e5ab8f7036a9968a33b582c4b43d8ab0da5e5681/library_header_schinese_2x.jpg",
+          "op": "add",
+          "path": "/appinfo/common/library_assets_full/library_header/image2x/schinese"
+        },
+        {
+          "after": "70efbea98af6cfa9c27438d7d1a9080aabc39421/capsule_231x87_schinese.jpg",
+          "op": "add",
+          "path": "/appinfo/common/small_capsule/schinese"
+        },
+        {
+          "after": "1795897026",
+          "before": "1794666162",
+          "op": "replace",
+          "path": "/appinfo/common/store_asset_mtime"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 40949508,
+      "change_number": 41605098,
       "data": {
         "appinfo": {
           "common": {
@@ -407,12 +463,13 @@
               "3": "3"
             },
             "header_image": {
-              "english": "7973232c91921c95f120b8e0251dc5cd18deebf2/header.jpg"
+              "english": "7973232c91921c95f120b8e0251dc5cd18deebf2/header.jpg",
+              "schinese": "c6c303dcf2dae0883b417dc8a05250dcc744b6f6/header_schinese.jpg"
             },
             "icon": "587e37eca9e034b08018ad3e4037b4d803fe5cc3",
             "library_assets": {
-              "library_capsule": "en",
-              "library_header": "en",
+              "library_capsule": "en,zh-cn",
+              "library_header": "en,zh-cn",
               "library_hero": "en",
               "library_hero_blur": "en",
               "library_logo": "en",
@@ -425,18 +482,22 @@
             "library_assets_full": {
               "library_capsule": {
                 "image": {
-                  "english": "29852095be3c052c14f29aca52c6387f97fd6a3a/library_capsule.jpg"
+                  "english": "29852095be3c052c14f29aca52c6387f97fd6a3a/library_capsule.jpg",
+                  "schinese": "7cc099109cb995ee273729ef0014ede26a0d357b/library_capsule_schinese.jpg"
                 },
                 "image2x": {
-                  "english": "29852095be3c052c14f29aca52c6387f97fd6a3a/library_capsule_2x.jpg"
+                  "english": "29852095be3c052c14f29aca52c6387f97fd6a3a/library_capsule_2x.jpg",
+                  "schinese": "7cc099109cb995ee273729ef0014ede26a0d357b/library_capsule_schinese_2x.jpg"
                 }
               },
               "library_header": {
                 "image": {
-                  "english": "8b9d52273d750121cb12832efab4b0fc6b83eb68/library_header.jpg"
+                  "english": "8b9d52273d750121cb12832efab4b0fc6b83eb68/library_header.jpg",
+                  "schinese": "e5ab8f7036a9968a33b582c4b43d8ab0da5e5681/library_header_schinese.jpg"
                 },
                 "image2x": {
-                  "english": "8b9d52273d750121cb12832efab4b0fc6b83eb68/library_header_2x.jpg"
+                  "english": "8b9d52273d750121cb12832efab4b0fc6b83eb68/library_header_2x.jpg",
+                  "schinese": "e5ab8f7036a9968a33b582c4b43d8ab0da5e5681/library_header_schinese_2x.jpg"
                 }
               },
               "library_hero": {
@@ -474,10 +535,11 @@
             "oslist": "windows",
             "primary_genre": "23",
             "small_capsule": {
-              "english": "f04c2802cc25b3c9f240c2be6acbfd827ea90b89/capsule_231x87.jpg"
+              "english": "f04c2802cc25b3c9f240c2be6acbfd827ea90b89/capsule_231x87.jpg",
+              "schinese": "70efbea98af6cfa9c27438d7d1a9080aabc39421/capsule_231x87_schinese.jpg"
             },
             "steam_release_date": "1793705726",
-            "store_asset_mtime": "1794666162",
+            "store_asset_mtime": "1795897026",
             "store_tags": {
               "0": "42804",
               "1": "122",
@@ -607,11 +669,11 @@
           }
         }
       },
-      "observed_at": "2026-11-14T17:53:30.329Z",
+      "observed_at": "2026-11-28T20:23:14.109Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-14T17:53:30.329Z"
+  "updated_at": "2026-11-28T20:23:14.109Z"
 }
