@@ -2699,11 +2699,39 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T04:23:55.177Z",
+      "change_number": 41587911,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26978892",
+            "description": "==0.9.0，部分steam不推送",
+            "timebuildupdated": 1795799538,
+            "timeupdated": 1795839038
+          },
+          "op": "add",
+          "path": "/depots/branches/test_11_28"
+        },
+        {
+          "after": "2694754492926044580",
+          "op": "add",
+          "path": "/depots/depots/4809751/manifests/test_11_28"
+        },
+        {
+          "after": "2549061491302513459",
+          "op": "add",
+          "path": "/depots/depots/4809753/manifests/test_11_28"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41586865,
+      "change_number": 41587911,
       "data": {
         "appinfo": {
           "common": {
@@ -2910,6 +2938,12 @@
               "buildid": "26745865",
               "timebuildupdated": 1794964385,
               "timeupdated": 1794964491
+            },
+            "test_11_28": {
+              "buildid": "26978892",
+              "description": "==0.9.0，部分steam不推送",
+              "timebuildupdated": 1795799538,
+              "timeupdated": 1795839038
             }
           },
           "depots": {
@@ -2928,7 +2962,8 @@
               },
               "manifests": {
                 "0.9.0": "2694754492926044580",
-                "public": "9212430886707426228"
+                "public": "9212430886707426228",
+                "test_11_28": "2694754492926044580"
               }
             },
             "4809753": {
@@ -2939,17 +2974,18 @@
               "manifests": {
                 "0.8.5": "4062481344949624422",
                 "0.9.0": "2549061491302513459",
-                "public": "3888257765459490840"
+                "public": "3888257765459490840",
+                "test_11_28": "2549061491302513459"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-28T03:38:58.578Z",
+      "observed_at": "2026-11-28T04:23:55.177Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-28T03:38:58.578Z"
+  "updated_at": "2026-11-28T04:23:55.177Z"
 }
