@@ -161,11 +161,46 @@
       ],
       "kind": "initial",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T08:38:52.361Z",
+      "change_number": 41591406,
+      "changes": [
+        {
+          "after": "1795809560",
+          "before": "1796025600",
+          "op": "replace",
+          "path": "/appinfo/common/steam_release_date"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/brazilian"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41577738,
+      "change_number": 41591406,
       "data": {
         "appinfo": {
           "common": {
@@ -263,7 +298,7 @@
             "small_capsule": {
               "english": "637f454c7262b0e486bc56a74d61c43732383f4e/capsule_231x87.jpg"
             },
-            "steam_release_date": "1796025600",
+            "steam_release_date": "1795809560",
             "store_asset_mtime": "1794748969",
             "store_tags": {
               "0": "597",
@@ -277,12 +312,21 @@
               "8": "4182"
             },
             "supported_languages": {
+              "brazilian": {
+                "supported": "true"
+              },
               "english": {
                 "full_audio": "true",
                 "subtitles": "true",
                 "supported": "true"
               },
               "hindi": {
+                "supported": "true"
+              },
+              "russian": {
+                "supported": "true"
+              },
+              "schinese": {
                 "supported": "true"
               }
             },
@@ -313,11 +357,11 @@
           }
         }
       },
-      "observed_at": "2026-11-27T21:38:53.058Z",
+      "observed_at": "2026-11-28T08:38:52.361Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-27T21:38:53.058Z"
+  "updated_at": "2026-11-28T08:38:52.361Z"
 }
