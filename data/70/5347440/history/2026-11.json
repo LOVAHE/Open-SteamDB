@@ -220,11 +220,52 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T21:52:59.251Z",
+      "change_number": 41606881,
+      "changes": [
+        {
+          "after": {
+            "full_audio": "true",
+            "subtitles": "true",
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        },
+        {
+          "after": "27000828",
+          "before": "26995576",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795901672,
+          "before": 1795877813,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795902525,
+          "before": 1795878608,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7970848178770999238",
+          "before": "1808717480927330694",
+          "op": "replace",
+          "path": "/depots/depots/5347441/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41598610,
+      "change_number": 41606881,
       "data": {
         "appinfo": {
           "common": {
@@ -363,6 +404,11 @@
                 "subtitles": "true",
                 "supported": "true"
               },
+              "russian": {
+                "full_audio": "true",
+                "subtitles": "true",
+                "supported": "true"
+              },
               "spanish": {
                 "full_audio": "true",
                 "subtitles": "true",
@@ -382,9 +428,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26995576",
-              "timebuildupdated": 1795877813,
-              "timeupdated": 1795878608
+              "buildid": "27000828",
+              "timebuildupdated": 1795901672,
+              "timeupdated": 1795902525
             }
           },
           "depots": {
@@ -393,17 +439,17 @@
                 "oslist": "windows,linux"
               },
               "manifests": {
-                "public": "1808717480927330694"
+                "public": "7970848178770999238"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-28T15:23:19.913Z",
+      "observed_at": "2026-11-28T21:52:59.251Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-28T15:23:19.913Z"
+  "updated_at": "2026-11-28T21:52:59.251Z"
 }
