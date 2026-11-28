@@ -338,11 +338,44 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T09:39:16.557Z",
+      "change_number": 41592266,
+      "changes": [
+        {
+          "after": "MaxSmeagol",
+          "before": "Homelander Games",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/name"
+        },
+        {
+          "after": "developer",
+          "before": "publisher",
+          "op": "replace",
+          "path": "/appinfo/common/associations/1/type"
+        },
+        {
+          "after": {
+            "name": "Homelander Games",
+            "type": "publisher"
+          },
+          "op": "add",
+          "path": "/appinfo/common/associations/2"
+        },
+        {
+          "after": "https://www.patreon.com/maxsmeagol",
+          "op": "add",
+          "path": "/appinfo/extended/homepage"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41591572,
+      "change_number": 41592266,
       "data": {
         "appinfo": {
           "common": {
@@ -352,6 +385,10 @@
                 "type": "developer"
               },
               "1": {
+                "name": "MaxSmeagol",
+                "type": "developer"
+              },
+              "2": {
                 "name": "Homelander Games",
                 "type": "publisher"
               }
@@ -543,6 +580,7 @@
           },
           "extended": {
             "developer": "Homelander Games",
+            "homepage": "https://www.patreon.com/maxsmeagol",
             "publisher": "Homelander Games"
           }
         },
@@ -574,11 +612,11 @@
           }
         }
       },
-      "observed_at": "2026-11-28T08:54:14.040Z",
+      "observed_at": "2026-11-28T09:39:16.557Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-28T08:54:14.040Z"
+  "updated_at": "2026-11-28T09:39:16.557Z"
 }
