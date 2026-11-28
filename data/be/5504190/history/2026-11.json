@@ -1281,11 +1281,49 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T19:23:18.866Z",
+      "change_number": 41603956,
+      "changes": [
+        {
+          "after": 1795893516,
+          "before": 1795800481,
+          "op": "replace",
+          "path": "/depots/branches/pre-release-test/timeupdated"
+        },
+        {
+          "after": "26999006",
+          "before": "26978896",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795893305,
+          "before": 1795799543,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795893537,
+          "before": 1795800502,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "3103064137955033785",
+          "before": "7107365423747114285",
+          "op": "replace",
+          "path": "/depots/depots/5504191/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41601966,
+      "change_number": 41603956,
       "data": {
         "appinfo": {
           "common": {
@@ -1472,29 +1510,29 @@
               "buildid": "26958506",
               "description": "Testing branch before the new releases",
               "timebuildupdated": 1795728755,
-              "timeupdated": 1795800481
+              "timeupdated": 1795893516
             },
             "public": {
-              "buildid": "26978896",
-              "timebuildupdated": 1795799543,
-              "timeupdated": 1795800502
+              "buildid": "26999006",
+              "timebuildupdated": 1795893305,
+              "timeupdated": 1795893537
             }
           },
           "depots": {
             "5504191": {
               "manifests": {
                 "pre-release-test": "6956173313560651024",
-                "public": "7107365423747114285"
+                "public": "3103064137955033785"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-28T17:53:21.678Z",
+      "observed_at": "2026-11-28T19:23:18.866Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-28T17:53:21.678Z"
+  "updated_at": "2026-11-28T19:23:18.866Z"
 }
