@@ -327,11 +327,70 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T07:38:50.835Z",
+      "change_number": 41590614,
+      "changes": [
+        {
+          "after": {
+            "path": "MeowboundLegends",
+            "pattern": "demo_v2.dat",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/4"
+        },
+        {
+          "after": {
+            "path": "MeowboundLegends",
+            "pattern": "demo_v2_backup1.dat",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/5"
+        },
+        {
+          "after": {
+            "path": "MeowboundLegends",
+            "pattern": "demo_v2_backup2.dat",
+            "root": "WinAppDataRoaming"
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/savefiles/6"
+        },
+        {
+          "after": "26990746",
+          "before": "26917346",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795851334,
+          "before": 1795601702,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795851365,
+          "before": 1795601731,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "8157219106701137982",
+          "before": "5136795784493996446",
+          "op": "replace",
+          "path": "/depots/depots/5410111/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41560562,
+      "change_number": 41590614,
       "data": {
         "appinfo": {
           "common": {
@@ -490,6 +549,21 @@
                 "pattern": "save_v2_backup2.dat",
                 "root": "WinAppDataRoaming"
               },
+              "4": {
+                "path": "MeowboundLegends",
+                "pattern": "demo_v2.dat",
+                "root": "WinAppDataRoaming"
+              },
+              "5": {
+                "path": "MeowboundLegends",
+                "pattern": "demo_v2_backup1.dat",
+                "root": "WinAppDataRoaming"
+              },
+              "6": {
+                "path": "MeowboundLegends",
+                "pattern": "demo_v2_backup2.dat",
+                "root": "WinAppDataRoaming"
+              },
               "copied_from_parent": "1"
             }
           }
@@ -497,25 +571,25 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26917346",
-              "timebuildupdated": 1795601702,
-              "timeupdated": 1795601731
+              "buildid": "26990746",
+              "timebuildupdated": 1795851334,
+              "timeupdated": 1795851365
             }
           },
           "depots": {
             "5410111": {
               "manifests": {
-                "public": "5136795784493996446"
+                "public": "8157219106701137982"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-27T13:24:17.404Z",
+      "observed_at": "2026-11-28T07:38:50.835Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-27T13:24:17.404Z"
+  "updated_at": "2026-11-28T07:38:50.835Z"
 }
