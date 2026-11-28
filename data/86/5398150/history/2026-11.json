@@ -945,11 +945,42 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T07:24:01.287Z",
+      "change_number": 41590398,
+      "changes": [
+        {
+          "after": "26990608",
+          "before": "26895464",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795850424,
+          "before": 1795530206,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795850424,
+          "before": 1795530206,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "463796026767655871",
+          "op": "add",
+          "path": "/depots/depots/5628381/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41589984,
+      "change_number": 41590398,
       "data": {
         "appinfo": {
           "common": {
@@ -1153,9 +1184,9 @@
               "timeupdated": 1793191932
             },
             "public": {
-              "buildid": "26895464",
-              "timebuildupdated": 1795530206,
-              "timeupdated": 1795530206
+              "buildid": "26990608",
+              "timebuildupdated": 1795850424,
+              "timeupdated": 1795850424
             }
           },
           "depots": {
@@ -1224,16 +1255,18 @@
                 "oslist": "linux"
               },
               "dlcappid": 5628380,
-              "manifests": {}
+              "manifests": {
+                "public": "463796026767655871"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-28T06:54:09.628Z",
+      "observed_at": "2026-11-28T07:24:01.287Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-28T06:54:09.628Z"
+  "updated_at": "2026-11-28T07:24:01.287Z"
 }
