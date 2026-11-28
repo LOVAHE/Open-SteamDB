@@ -282,11 +282,58 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T21:38:04.652Z",
+      "change_number": 41606683,
+      "changes": [
+        {
+          "after": "27000844",
+          "before": "26999470",
+          "op": "replace",
+          "path": "/depots/branches/beta/buildid"
+        },
+        {
+          "after": 1795901740,
+          "before": 1795895472,
+          "op": "replace",
+          "path": "/depots/branches/beta/timebuildupdated"
+        },
+        {
+          "after": 1795901866,
+          "before": 1795898396,
+          "op": "replace",
+          "path": "/depots/branches/beta/timeupdated"
+        },
+        {
+          "before": {
+            "buildid": "26999470",
+            "description": "Grave Orbit Internal test",
+            "timebuildupdated": 1795895472,
+            "timeupdated": 1795895723
+          },
+          "op": "remove",
+          "path": "/depots/branches/internal-test"
+        },
+        {
+          "after": "957533024801054288",
+          "before": "3931817537074542878",
+          "op": "replace",
+          "path": "/depots/depots/5028181/manifests/beta"
+        },
+        {
+          "before": "3931817537074542878",
+          "op": "remove",
+          "path": "/depots/depots/5028181/manifests/internal-test"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41605507,
+      "change_number": 41606683,
       "data": {
         "appinfo": {
           "common": {
@@ -427,16 +474,10 @@
         "depots": {
           "branches": {
             "beta": {
-              "buildid": "26999470",
+              "buildid": "27000844",
               "description": "Public beta test",
-              "timebuildupdated": 1795895472,
-              "timeupdated": 1795898396
-            },
-            "internal-test": {
-              "buildid": "26999470",
-              "description": "Grave Orbit Internal test",
-              "timebuildupdated": 1795895472,
-              "timeupdated": 1795895723
+              "timebuildupdated": 1795901740,
+              "timeupdated": 1795901866
             },
             "public": {
               "buildid": "26322236",
@@ -447,19 +488,18 @@
           "depots": {
             "5028181": {
               "manifests": {
-                "beta": "3931817537074542878",
-                "internal-test": "3931817537074542878",
+                "beta": "957533024801054288",
                 "public": "1623631698586390934"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-28T20:53:16.638Z",
+      "observed_at": "2026-11-28T21:38:04.652Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-28T20:53:16.638Z"
+  "updated_at": "2026-11-28T21:38:04.652Z"
 }
