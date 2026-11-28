@@ -1232,11 +1232,77 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T14:08:06.905Z",
+      "change_number": 41597061,
+      "changes": [
+        {
+          "after": "83",
+          "op": "add",
+          "path": "/appinfo/common/review_percentage"
+        },
+        {
+          "after": "7",
+          "op": "add",
+          "path": "/appinfo/common/review_score"
+        },
+        {
+          "after": "26994809",
+          "before": "26852604",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795874103,
+          "before": 1795371740,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795874215,
+          "before": 1795371805,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "26994809",
+          "before": "26852604",
+          "op": "replace",
+          "path": "/depots/branches/staging/buildid"
+        },
+        {
+          "after": 1795874103,
+          "before": 1795371740,
+          "op": "replace",
+          "path": "/depots/branches/staging/timebuildupdated"
+        },
+        {
+          "after": 1795874103,
+          "before": 1795371740,
+          "op": "replace",
+          "path": "/depots/branches/staging/timeupdated"
+        },
+        {
+          "after": "5259709712251555944",
+          "before": "9038247117386685956",
+          "op": "replace",
+          "path": "/depots/depots/2213581/manifests/public"
+        },
+        {
+          "after": "5259709712251555944",
+          "before": "9038247117386685956",
+          "op": "replace",
+          "path": "/depots/depots/2213581/manifests/staging"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41444896,
+      "change_number": 41597061,
       "data": {
         "appinfo": {
           "common": {
@@ -1349,6 +1415,8 @@
             "osextended": "",
             "oslist": "windows",
             "primary_genre": "29",
+            "review_percentage": "83",
+            "review_score": "7",
             "small_capsule": {
               "english": "4401a0cc1909a5110a4d32af0add9b72fbbfcbe9/capsule_231x87.jpg"
             },
@@ -1422,32 +1490,32 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26852604",
-              "timebuildupdated": 1795371740,
-              "timeupdated": 1795371805
+              "buildid": "26994809",
+              "timebuildupdated": 1795874103,
+              "timeupdated": 1795874215
             },
             "staging": {
-              "buildid": "26852604",
+              "buildid": "26994809",
               "description": "Windows testing branch (owner)",
-              "timebuildupdated": 1795371740,
-              "timeupdated": 1795371740
+              "timebuildupdated": 1795874103,
+              "timeupdated": 1795874103
             }
           },
           "depots": {
             "2213581": {
               "manifests": {
-                "public": "9038247117386685956",
-                "staging": "9038247117386685956"
+                "public": "5259709712251555944",
+                "staging": "5259709712251555944"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-25T05:23:51.703Z",
+      "observed_at": "2026-11-28T14:08:06.905Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-25T05:23:51.703Z"
+  "updated_at": "2026-11-28T14:08:06.905Z"
 }

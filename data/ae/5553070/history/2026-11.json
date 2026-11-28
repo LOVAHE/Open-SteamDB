@@ -393,11 +393,64 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T14:08:06.905Z",
+      "change_number": 41597285,
+      "changes": [
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/german"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/russian"
+        },
+        {
+          "after": {
+            "supported": "true"
+          },
+          "op": "add",
+          "path": "/appinfo/common/supported_languages/schinese"
+        },
+        {
+          "after": "26994882",
+          "before": "26944940",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795874432,
+          "before": 1795689146,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795874520,
+          "before": 1795689293,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "7348586029677294648",
+          "before": "490893642962521091",
+          "op": "replace",
+          "path": "/depots/depots/5553071/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41583712,
+      "change_number": 41597285,
       "data": {
         "appinfo": {
           "common": {
@@ -524,6 +577,15 @@
             "supported_languages": {
               "english": {
                 "supported": "true"
+              },
+              "german": {
+                "supported": "true"
+              },
+              "russian": {
+                "supported": "true"
+              },
+              "schinese": {
+                "supported": "true"
               }
             },
             "type": "Game"
@@ -553,9 +615,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26944940",
-              "timebuildupdated": 1795689146,
-              "timeupdated": 1795689293
+              "buildid": "26994882",
+              "timebuildupdated": 1795874432,
+              "timeupdated": 1795874520
             }
           },
           "depots": {
@@ -565,17 +627,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "490893642962521091"
+                "public": "7348586029677294648"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-28T03:38:58.578Z",
+      "observed_at": "2026-11-28T14:08:06.905Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-28T03:38:58.578Z"
+  "updated_at": "2026-11-28T14:08:06.905Z"
 }
