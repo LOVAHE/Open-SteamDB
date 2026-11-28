@@ -222,11 +222,89 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T14:38:01.545Z",
+      "change_number": 41597783,
+      "changes": [
+        {
+          "before": {
+            "buildid": "25724248",
+            "description": "Linux QA 0.0.57 — installation and Steam sign-in testing",
+            "timebuildupdated": 1791193596,
+            "timeupdated": 1791193596
+          },
+          "op": "remove",
+          "path": "/depots/branches/linux-qa"
+        },
+        {
+          "after": "26995172",
+          "before": "25724248",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795875880,
+          "before": 1791193596,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795876097,
+          "before": 1791897996,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "before": {
+            "buildid": "25700971",
+            "description": "Windows QA 0.0.57 - installation and Steam sign-in testing",
+            "timebuildupdated": 1791057788,
+            "timeupdated": 1791058525
+          },
+          "op": "remove",
+          "path": "/depots/branches/windows-qa"
+        },
+        {
+          "before": "2003559957071627456",
+          "op": "remove",
+          "path": "/depots/depots/1936111/manifests/linux-qa"
+        },
+        {
+          "after": "2263840045722384656",
+          "before": "2003559957071627456",
+          "op": "replace",
+          "path": "/depots/depots/1936111/manifests/public"
+        },
+        {
+          "before": "4749405055279966694",
+          "op": "remove",
+          "path": "/depots/depots/1936111/manifests/windows-qa"
+        },
+        {
+          "before": "5125129106557785015",
+          "op": "remove",
+          "path": "/depots/depots/1936113/manifests/linux-qa"
+        },
+        {
+          "after": "449711138436917029",
+          "before": "5125129106557785015",
+          "op": "replace",
+          "path": "/depots/depots/1936113/manifests/public"
+        },
+        {
+          "before": "5125129106557785015",
+          "op": "remove",
+          "path": "/depots/depots/1936113/manifests/windows-qa"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41123825,
+      "change_number": 41597783,
       "data": {
         "appinfo": {
           "common": {
@@ -372,22 +450,10 @@
         },
         "depots": {
           "branches": {
-            "linux-qa": {
-              "buildid": "25724248",
-              "description": "Linux QA 0.0.57 — installation and Steam sign-in testing",
-              "timebuildupdated": 1791193596,
-              "timeupdated": 1791193596
-            },
             "public": {
-              "buildid": "25724248",
-              "timebuildupdated": 1791193596,
-              "timeupdated": 1791897996
-            },
-            "windows-qa": {
-              "buildid": "25700971",
-              "description": "Windows QA 0.0.57 - installation and Steam sign-in testing",
-              "timebuildupdated": 1791057788,
-              "timeupdated": 1791058525
+              "buildid": "26995172",
+              "timebuildupdated": 1795875880,
+              "timeupdated": 1795876097
             }
           },
           "depots": {
@@ -405,9 +471,7 @@
                 "oslist": "linux"
               },
               "manifests": {
-                "linux-qa": "2003559957071627456",
-                "public": "2003559957071627456",
-                "windows-qa": "4749405055279966694"
+                "public": "2263840045722384656"
               }
             },
             "1936113": {
@@ -415,19 +479,17 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "linux-qa": "5125129106557785015",
-                "public": "5125129106557785015",
-                "windows-qa": "5125129106557785015"
+                "public": "449711138436917029"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-17T15:38:41.617Z",
+      "observed_at": "2026-11-28T14:38:01.545Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-17T15:38:41.617Z"
+  "updated_at": "2026-11-28T14:38:01.545Z"
 }
