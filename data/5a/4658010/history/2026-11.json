@@ -267,11 +267,39 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T20:53:16.638Z",
+      "change_number": 41605550,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26999181",
+            "description": "Public Beta Branch",
+            "timebuildupdated": 1795894130,
+            "timeupdated": 1795898528
+          },
+          "op": "add",
+          "path": "/depots/branches/beta-branch"
+        },
+        {
+          "after": "1402575163800330899",
+          "op": "add",
+          "path": "/depots/depots/4658011/manifests/beta-branch"
+        },
+        {
+          "after": "7202843056488077374",
+          "op": "add",
+          "path": "/depots/depots/4658012/manifests/beta-branch"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41605500,
+      "change_number": 41605550,
       "data": {
         "appinfo": {
           "common": {
@@ -407,6 +435,12 @@
         },
         "depots": {
           "branches": {
+            "beta-branch": {
+              "buildid": "26999181",
+              "description": "Public Beta Branch",
+              "timebuildupdated": 1795894130,
+              "timeupdated": 1795898528
+            },
             "public": {
               "buildid": "26554682",
               "timebuildupdated": 1794274751,
@@ -420,6 +454,7 @@
                 "oslist": "windows"
               },
               "manifests": {
+                "beta-branch": "1402575163800330899",
                 "public": "1194178669595666291"
               }
             },
@@ -429,17 +464,18 @@
                 "oslist": "linux"
               },
               "manifests": {
+                "beta-branch": "7202843056488077374",
                 "public": "5719221181550320691"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-28T20:38:27.634Z",
+      "observed_at": "2026-11-28T20:53:16.638Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-28T20:38:27.634Z"
+  "updated_at": "2026-11-28T20:53:16.638Z"
 }
