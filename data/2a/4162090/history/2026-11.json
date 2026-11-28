@@ -354,11 +354,36 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T03:38:58.578Z",
+      "change_number": 41585587,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/category/category_23"
+        },
+        {
+          "after": "DodoModo/DragonFire Defense",
+          "before": "DodoModo/DragonFireDefense",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/path"
+        },
+        {
+          "after": "profile.json",
+          "before": "savedata.json",
+          "op": "replace",
+          "path": "/appinfo/ufs/savefiles/0/pattern"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41517428,
+      "change_number": 41585587,
       "data": {
         "appinfo": {
           "common": {
@@ -374,6 +399,7 @@
             },
             "category": {
               "category_2": "1",
+              "category_23": "1",
               "category_62": "1"
             },
             "clienticon": "e1506ca733aacdd3aaab36e8f05db0e113c00a10",
@@ -556,8 +582,8 @@
             "quota": "100000000",
             "savefiles": {
               "0": {
-                "path": "DodoModo/DragonFireDefense",
-                "pattern": "savedata.json",
+                "path": "DodoModo/DragonFire Defense",
+                "pattern": "profile.json",
                 "root": "WinAppDataLocalLow"
               }
             }
@@ -580,11 +606,11 @@
           }
         }
       },
-      "observed_at": "2026-11-26T14:53:54.739Z",
+      "observed_at": "2026-11-28T03:38:58.578Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-26T14:53:54.739Z"
+  "updated_at": "2026-11-28T03:38:58.578Z"
 }
