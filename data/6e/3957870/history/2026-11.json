@@ -295,11 +295,54 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T07:54:16.037Z",
+      "change_number": 41590800,
+      "changes": [
+        {
+          "after": "64",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osarch"
+        },
+        {
+          "after": "windows,macos,linux",
+          "before": "windows,macos",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26990731",
+          "before": "26990302",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795851277,
+          "before": 1795848381,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795852038,
+          "before": 1795848457,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "1684755921032358971",
+          "op": "add",
+          "path": "/depots/depots/3957874/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41590526,
+      "change_number": 41590800,
       "data": {
         "appinfo": {
           "common": {
@@ -408,9 +451,9 @@
             },
             "name": "A Dream You Had Before the Dream You Had Before the Dream",
             "name_localized": {},
-            "osarch": "",
+            "osarch": "64",
             "osextended": "macos64,macosapplesilicon",
-            "oslist": "windows,macos",
+            "oslist": "windows,macos,linux",
             "primary_genre": "23",
             "small_capsule": {
               "english": "94ec99e5897a1739c8233418ecdfa0737f5d1592/capsule_231x87.jpg"
@@ -486,9 +529,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26990302",
-              "timebuildupdated": 1795848381,
-              "timeupdated": 1795848457
+              "buildid": "26990731",
+              "timebuildupdated": 1795851277,
+              "timeupdated": 1795852038
             }
           },
           "depots": {
@@ -512,16 +555,18 @@
               "config": {
                 "oslist": "linux"
               },
-              "manifests": {}
+              "manifests": {
+                "public": "1684755921032358971"
+              }
             }
           }
         }
       },
-      "observed_at": "2026-11-28T07:38:50.835Z",
+      "observed_at": "2026-11-28T07:54:16.037Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-28T07:38:50.835Z"
+  "updated_at": "2026-11-28T07:54:16.037Z"
 }
