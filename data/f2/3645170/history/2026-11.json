@@ -299,11 +299,44 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T11:52:51.735Z",
+      "change_number": 41594684,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": {
+            "0": {
+              "addpath": "",
+              "os": "MacOS",
+              "oscompare": "=",
+              "root": "WinAppDataRoaming",
+              "useinstead": "MacAppSupport"
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs/rootoverrides"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41593739,
+      "change_number": 41594684,
       "data": {
         "appinfo": {
           "common": {
@@ -394,8 +427,8 @@
             },
             "name": "Blood Sword",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "primary_genre": "3",
             "review_percentage": "94",
             "review_score": "7",
@@ -446,6 +479,15 @@
           "ufs": {
             "maxnumfiles": "50",
             "quota": "50000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "MacOS",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "MacAppSupport"
+              }
+            },
             "savefiles": {
               "0": {
                 "path": "PrimeGames/Blood Sword",
@@ -481,11 +523,11 @@
           }
         }
       },
-      "observed_at": "2026-11-28T11:07:57.602Z",
+      "observed_at": "2026-11-28T11:52:51.735Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-28T11:07:57.602Z"
+  "updated_at": "2026-11-28T11:52:51.735Z"
 }
