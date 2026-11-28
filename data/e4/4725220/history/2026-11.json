@@ -333,11 +333,30 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T18:38:16.666Z",
+      "change_number": 41602921,
+      "changes": [
+        {
+          "after": {
+            "config": {
+              "osarch": "64",
+              "oslist": "linux"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/4725222"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41602735,
+      "change_number": 41602921,
       "data": {
         "appinfo": {
           "common": {
@@ -547,15 +566,22 @@
               "manifests": {
                 "public": "6067203610978649784"
               }
+            },
+            "4725222": {
+              "config": {
+                "osarch": "64",
+                "oslist": "linux"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-28T18:28:20.195Z",
+      "observed_at": "2026-11-28T18:38:16.666Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-28T18:28:20.195Z"
+  "updated_at": "2026-11-28T18:38:16.666Z"
 }
