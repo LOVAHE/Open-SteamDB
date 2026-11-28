@@ -296,11 +296,24 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T08:54:14.040Z",
+      "change_number": 41591772,
+      "changes": [
+        {
+          "after": "1",
+          "op": "add",
+          "path": "/appinfo/common/workshop_visible"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41591460,
+      "change_number": 41591772,
       "data": {
         "appinfo": {
           "common": {
@@ -470,7 +483,8 @@
                 "supported": "true"
               }
             },
-            "type": "Game"
+            "type": "Game",
+            "workshop_visible": "1"
           },
           "config": {
             "installdir": "ApocalypseHQ"
@@ -576,11 +590,11 @@
           }
         }
       },
-      "observed_at": "2026-11-28T08:38:52.361Z",
+      "observed_at": "2026-11-28T08:54:14.040Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-28T08:38:52.361Z"
+  "updated_at": "2026-11-28T08:54:14.040Z"
 }
