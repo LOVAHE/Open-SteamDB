@@ -1136,11 +1136,61 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T18:28:20.195Z",
+      "change_number": 41602559,
+      "changes": [
+        {
+          "after": "macos64,macosapplesilicon,macosnotarized",
+          "before": "",
+          "op": "replace",
+          "path": "/appinfo/common/osextended"
+        },
+        {
+          "after": "windows,macos",
+          "before": "windows",
+          "op": "replace",
+          "path": "/appinfo/common/oslist"
+        },
+        {
+          "after": "26998159",
+          "before": "26976357",
+          "op": "replace",
+          "path": "/depots/branches/public/buildid"
+        },
+        {
+          "after": 1795889512,
+          "before": 1795792488,
+          "op": "replace",
+          "path": "/depots/branches/public/timebuildupdated"
+        },
+        {
+          "after": 1795889773,
+          "before": 1795793437,
+          "op": "replace",
+          "path": "/depots/branches/public/timeupdated"
+        },
+        {
+          "after": "4497673567017605914",
+          "before": "2600761867587089825",
+          "op": "replace",
+          "path": "/depots/depots/5191971/manifests/public"
+        },
+        {
+          "after": "2707213782176756461",
+          "before": "4651909916956699902",
+          "op": "replace",
+          "path": "/depots/depots/5191972/manifests/public"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41566571,
+      "change_number": 41602559,
       "data": {
         "appinfo": {
           "common": {
@@ -1239,8 +1289,8 @@
             },
             "name": "Mimic2 - Idle MMORPG",
             "osarch": "64",
-            "osextended": "",
-            "oslist": "windows",
+            "osextended": "macos64,macosapplesilicon,macosnotarized",
+            "oslist": "windows,macos",
             "primary_genre": "29",
             "review_percentage": "61",
             "review_score": "5",
@@ -1310,9 +1360,9 @@
         "depots": {
           "branches": {
             "public": {
-              "buildid": "26976357",
-              "timebuildupdated": 1795792488,
-              "timeupdated": 1795793437
+              "buildid": "26998159",
+              "timebuildupdated": 1795889512,
+              "timeupdated": 1795889773
             }
           },
           "depots": {
@@ -1330,7 +1380,7 @@
                 "oslist": "windows"
               },
               "manifests": {
-                "public": "2600761867587089825"
+                "public": "4497673567017605914"
               }
             },
             "5191972": {
@@ -1338,17 +1388,17 @@
                 "oslist": "macos"
               },
               "manifests": {
-                "public": "4651909916956699902"
+                "public": "2707213782176756461"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-27T15:38:54.554Z",
+      "observed_at": "2026-11-28T18:28:20.195Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-27T15:38:54.554Z"
+  "updated_at": "2026-11-28T18:28:20.195Z"
 }
