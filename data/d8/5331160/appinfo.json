@@ -1,8 +1,8 @@
 {
   "appid": 5331160,
   "source": "steam_pics",
-  "updated_at": "2026-11-25T23:53:49.576Z",
-  "change_number": 41490069,
+  "updated_at": "2026-11-28T15:52:58.994Z",
+  "change_number": 41599510,
   "data": {
     "common": {
       "associations": {
@@ -175,6 +175,26 @@
     },
     "config": {
       "installdir": "Television Dynasty Manager"
+    },
+    "ufs": {
+      "maxnumfiles": "50",
+      "quota": "1000000000",
+      "rootoverrides": {
+        "0": {
+          "addpath": "",
+          "os": "Linux",
+          "oscompare": "=",
+          "root": "WinAppDataRoaming",
+          "useinstead": "LinuxXdgDataHome"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Television Dynasty Manager",
+          "pattern": "spielstand_*",
+          "root": "WinAppDataRoaming"
+        }
+      }
     }
   }
 }

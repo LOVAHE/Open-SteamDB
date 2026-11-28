@@ -949,11 +949,60 @@
       ],
       "kind": "change",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T15:52:58.994Z",
+      "change_number": 41599510,
+      "changes": [
+        {
+          "after": {
+            "maxnumfiles": "50",
+            "quota": "1000000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "Linux",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Television Dynasty Manager",
+                "pattern": "spielstand_*",
+                "root": "WinAppDataRoaming"
+              }
+            }
+          },
+          "op": "add",
+          "path": "/appinfo/ufs"
+        },
+        {
+          "after": {
+            "oslist": "windows"
+          },
+          "op": "add",
+          "path": "/depots/depots/5331161/config"
+        },
+        {
+          "after": {
+            "config": {
+              "oslist": "linux"
+            },
+            "manifests": {}
+          },
+          "op": "add",
+          "path": "/depots/depots/5331162"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41490069,
+      "change_number": 41599510,
       "data": {
         "appinfo": {
           "common": {
@@ -1127,6 +1176,26 @@
           "extended": {
             "developer": "One Tiny Empire",
             "publisher": "One Tiny Empire"
+          },
+          "ufs": {
+            "maxnumfiles": "50",
+            "quota": "1000000000",
+            "rootoverrides": {
+              "0": {
+                "addpath": "",
+                "os": "Linux",
+                "oscompare": "=",
+                "root": "WinAppDataRoaming",
+                "useinstead": "LinuxXdgDataHome"
+              }
+            },
+            "savefiles": {
+              "0": {
+                "path": "Television Dynasty Manager",
+                "pattern": "spielstand_*",
+                "root": "WinAppDataRoaming"
+              }
+            }
           }
         },
         "depots": {
@@ -1163,6 +1232,9 @@
           },
           "depots": {
             "5331161": {
+              "config": {
+                "oslist": "windows"
+              },
               "manifests": {
                 "public": "6311439038998730610",
                 "version-0-1-4": "9153967634146187041",
@@ -1170,15 +1242,21 @@
                 "version-0-2-5": "2710969877710150681",
                 "version-0-2-6": "2300297533149269096"
               }
+            },
+            "5331162": {
+              "config": {
+                "oslist": "linux"
+              },
+              "manifests": {}
             }
           }
         }
       },
-      "observed_at": "2026-11-25T23:53:49.576Z",
+      "observed_at": "2026-11-28T15:52:58.994Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-25T23:53:49.576Z"
+  "updated_at": "2026-11-28T15:52:58.994Z"
 }
