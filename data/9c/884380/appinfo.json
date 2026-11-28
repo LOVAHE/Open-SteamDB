@@ -1,8 +1,8 @@
 {
   "appid": 884380,
   "source": "steam_pics",
-  "updated_at": "2026-10-30T13:07:43.639Z",
-  "change_number": 40422519,
+  "updated_at": "2026-11-28T10:52:52.265Z",
+  "change_number": 41593620,
   "data": {
     "common": {
       "associations": {
@@ -157,6 +157,48 @@
     },
     "config": {
       "installdir": "Football Story Demo"
+    },
+    "ufs": {
+      "maxnumfiles": "15",
+      "quota": "20000000",
+      "rootoverrides": {
+        "0": {
+          "os": "Linux",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Fruktorum/Football Story/Data/Demo/{64BitSteamID}",
+              "replace": ".config/unity3d/Fruktorum/Football Story/Data/Demo/{64BitSteamID}"
+            }
+          },
+          "root": "WinAppDataLocalLow",
+          "useinstead": "LinuxHome"
+        },
+        "1": {
+          "os": "MacOS",
+          "oscompare": "=",
+          "pathtransforms": {
+            "0": {
+              "find": "Fruktorum/Football Story/Data/Demo/{64BitSteamID}",
+              "replace": "com.fruktorum.football.story/Data/Demo/{64BitSteamID}"
+            }
+          },
+          "root": "WinAppDataLocalLow",
+          "useinstead": "MacAppSupport"
+        }
+      },
+      "savefiles": {
+        "0": {
+          "path": "Fruktorum/Football Story/Data/Demo/{64BitSteamID}",
+          "pattern": "GlobalData.dat",
+          "root": "WinAppDataLocalLow"
+        },
+        "1": {
+          "path": "Fruktorum/Football Story/Data/Demo/{64BitSteamID}",
+          "pattern": "GlobalData.dat.bak\t",
+          "root": "WinAppDataLocalLow"
+        }
+      }
     }
   }
 }
