@@ -2561,11 +2561,34 @@
       "changes": [],
       "kind": "changelist",
       "source": "steam_pics"
+    },
+    {
+      "at": "2026-11-28T10:23:55.893Z",
+      "change_number": 41593222,
+      "changes": [
+        {
+          "after": {
+            "buildid": "26992338",
+            "description": "EA-Beta-V19.5",
+            "timebuildupdated": 1795860415,
+            "timeupdated": 1795861403
+          },
+          "op": "add",
+          "path": "/depots/branches/ea-beta-v19.5"
+        },
+        {
+          "after": "590320831722509823",
+          "op": "add",
+          "path": "/depots/depots/5160801/manifests/ea-beta-v19.5"
+        }
+      ],
+      "kind": "change",
+      "source": "steam_pics"
     }
   ],
   "latest": {
     "steam_pics": {
-      "change_number": 41592956,
+      "change_number": 41593222,
       "data": {
         "appinfo": {
           "common": {
@@ -2888,6 +2911,12 @@
               "timebuildupdated": 1795711841,
               "timeupdated": 1795711896
             },
+            "ea-beta-v19.5": {
+              "buildid": "26992338",
+              "description": "EA-Beta-V19.5",
+              "timebuildupdated": 1795860415,
+              "timeupdated": 1795861403
+            },
             "public": {
               "buildid": "26825799",
               "timebuildupdated": 1795223848,
@@ -2901,17 +2930,18 @@
                 "beta-v19.2": "3922033259141420710",
                 "beta-v19.3": "525167758042118163",
                 "beta-v19.4": "2934090390894395943",
+                "ea-beta-v19.5": "590320831722509823",
                 "public": "8282738253364410816"
               }
             }
           }
         }
       },
-      "observed_at": "2026-11-28T10:08:48.007Z",
+      "observed_at": "2026-11-28T10:23:55.893Z",
       "tracked": true
     }
   },
   "month": "2026-11",
   "schema": 1,
-  "updated_at": "2026-11-28T10:08:48.007Z"
+  "updated_at": "2026-11-28T10:23:55.893Z"
 }
